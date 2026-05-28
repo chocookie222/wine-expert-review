@@ -1862,6 +1862,254 @@ window.WINE_QUESTIONS = [
     explanation: "Criots-Bâtard-Montrachetは白ワインのみを生産できるグラン・クリュです。"
   },
   {
+    id: "france-bourgogne-grand-cru-036",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュLatricières-Chambertinが生産することができるワインの種類を選択してください。",
+    choices: ["赤ワインのみ", "赤・白・ロゼワイン", "白ワインのみ", "赤・白ワイン"],
+    answerIndex: 0,
+    explanation: "Latricières-Chambertinは赤ワインのみを生産できるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-037",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Clos Saint-Denis, Grands Echézeaux, Richebourg, La Tâche", "Bonnes-Mares, Richebourg, La Tâche, Grands Echézeaux", "Bonnes-Mares, La Tâche, Charmes-Chambertin, Mazis-Chambertin", "Clos Saint-Denis, Charmes-Chambertin, La Tâche, Richebourg"],
+    answerIndex: 0,
+    explanation: "北から南の順序では、Clos Saint-Denis、Grands Echézeaux、Richebourg、La Tâcheとなります。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-038",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のPommard村に存在するグラン・クリュの数を選択してください。",
+    choices: ["6個", "0個", "4個", "3個"],
+    answerIndex: 1,
+    explanation: "Pommard村にはグラン・クリュは存在しません。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-039",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
+    choices: ["Champeaux", "Beauroy", "Genevrières", "Hautes Mourottes"],
+    answerIndex: 1,
+    explanation: "Beauroyはシャブリのプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-040",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
+    choices: ["Les Caillerets", "Les Rugiens-Bas", "La Tâche", "Aux Combottes", "A l'Ecu", "Chambertin", "Les Petits Vougeots", "Les Millandes"],
+    answerIndexes: [2, 5],
+    maxSelections: 2,
+    explanation: "La TâcheとChambertinはブルゴーニュ地方のグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-041",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上で5番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
+      alt: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
+      caption: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村 グラン・クリュ地図"
+    },
+    answerText: "クリオ・バタール・モンラッシェ",
+    answerTextAliases: ["クリオバタールモンラッシェ"],
+    explanation: "地図上の5番はCriots-Bâtard-Montrachet、カタカナではクリオ・バタール・モンラッシェです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-042",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュGrands Echézeauxが属する村名を選択してください。",
+    choices: ["Vougeot村", "Puligny-Montrachet村", "Flagey-Echézeaux村", "Pernand-Vergelesses村"],
+    answerIndex: 2,
+    explanation: "Grands EchézeauxはFlagey-Echézeaux村に属するグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-043",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュChevalier-Montrachetが生産することができるワインの種類を選択してください。",
+    choices: ["赤・白・ロゼワイン", "赤・白ワイン", "白ワインのみ", "赤ワインのみ"],
+    answerIndex: 2,
+    explanation: "Chevalier-Montrachetは白ワインのみを生産できるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-044",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でCriots-Bâtard-Montrachetに相当する番号を選択してください。",
+    image: {
+      src: "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
+      alt: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
+      caption: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村 グラン・クリュ地図"
+    },
+    choices: ["5番", "2番", "4番", "3番"],
+    answerIndex: 0,
+    explanation: "Criots-Bâtard-Montrachetに相当する番号は5番です。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-045",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュRomanée-Saint-Vivantが属する村名を選択してください。",
+    choices: ["Aloxe-Corton村", "Morey-Saint-Denis村", "Flagey-Echézeaux村", "Vosne-Romanée村"],
+    answerIndex: 3,
+    explanation: "Romanée-Saint-VivantはVosne-Romanée村に属するグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-046",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上で4番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
+      alt: "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
+      caption: "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
+    },
+    answerText: "シャペル・シャンベルタン",
+    answerTextAliases: ["シャペルシャンベルタン"],
+    explanation: "地図上の4番はChapelle-Chambertin、カタカナではシャペル・シャンベルタンです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-047",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
+    choices: ["Aux Combottes", "Clos des Ursules", "Clos de la Roche", "Les Chouacheux", "Les Grands Champs", "Clos de la Bousse d'Or", "Chambertin Clos-de-Bèze", "Clavaillon"],
+    answerIndexes: [2, 6],
+    maxSelections: 2,
+    explanation: "Clos de la RocheとChambertin Clos-de-Bèzeはブルゴーニュ地方のグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-048",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で7番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-vosne-romanee-grand-cru.jpg",
+      alt: "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
+      caption: "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
+    },
+    answerText: "ロマネ・サン・ヴィヴァン",
+    answerTextAliases: ["ロマネサンヴィヴァン", "ロマネ・サンヴィヴァン"],
+    explanation: "地図上の7番はRomanée-Saint-Vivant、カタカナではロマネ・サン・ヴィヴァンです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-049",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のMorey-Saint-Denis村に存在するグラン・クリュの数を選択してください。",
+    choices: ["5個", "7個", "8個", "6個"],
+    answerIndex: 0,
+    explanation: "Morey-Saint-Denis村には5つのグラン・クリュが存在します。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-050",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・グラン・クリュ（非公式な名称も含む）を全て選択してください。2個まで選択できます。",
+    choices: ["Côte de Léchet", "Montée de Tonnerre", "La Moutonne", "Les Clos", "Beauroy", "Vaillons", "Mont de Milieu", "Fourchaume"],
+    answerIndexes: [2, 3],
+    maxSelections: 2,
+    explanation: "La Moutonneは非公式なグラン・クリュ名、Les Closはシャブリ・グラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-001",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Bouchèresが属する村名を選択してください。",
+    choices: ["Vougeot村", "Puligny-Montrachet村", "Monthélie村", "Meursault村"],
+    answerIndex: 3,
+    explanation: "Les BouchèresはMeursault村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-002",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Clos de Tart", "Les Vaucrains", "Chevalier-Montrachet", "Corton-Charlemagne"],
+    answerIndex: 1,
+    explanation: "Les Vaucrainsはブルゴーニュ地方のプルミエ・クリュです。Clos de Tart、Chevalier-Montrachet、Corton-Charlemagneはいずれもグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-003",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュChambertin Clos-de-BèzeとGriotte-Chambertinの両方に隣接している畑を選択してください。",
+    choices: ["Mazoyères-Chambertin", "Ruchottes-Chambertin", "Chapelle-Chambertin", "Charmes-Chambertin"],
+    answerIndex: 2,
+    explanation: "Chapelle-ChambertinはChambertin Clos-de-BèzeとGriotte-Chambertinの両方に隣接しています。"
+  },
+  {
+    id: "france-bourgogne-other-004",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "B",
+    question: "次のブルゴーニュ地方のAOCの中から、栽培面積が最大のところを選択してください。",
+    choices: ["Gevrey-Chambertin", "Beaune", "Pouilly-Fuissé", "Meursault"],
+    answerIndex: 2,
+    explanation: "この選択肢の中で栽培面積が最大なのはPouilly-Fuisséです。"
+  },
+  {
+    id: "france-bourgogne-other-005",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Vosne-Romanée村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Rugiens-Hauts", "Les Bressandes", "En Caradeux", "Clos des Réas"],
+    answerIndex: 3,
+    explanation: "Clos des RéasはVosne-Romanée村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-006",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Ladoix-Serrigny村に属するモノポールを選択してください。",
+    choices: ["Clos des Cortons-Faiveley", "Clos des Réas", "Clos de Tart", "La Tâche"],
+    answerIndex: 0,
+    explanation: "Clos des Cortons-FaiveleyはLadoix-Serrigny村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-007",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Ursulesの所有者を選択してください。",
+    choices: ["Domaine de la Vougeraie", "Comtes Lafon", "Domaine Albert Grivault", "Louis Jadot"],
+    answerIndex: 3,
+    explanation: "Clos des Ursulesの所有者はLouis Jadotです。"
+  },
+  {
+    id: "france-bourgogne-other-008",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Gaudichots", "Clos des Hospices", "Champ Canet", "Les Amoureuses"],
+    answerIndex: 1,
+    explanation: "Clos des Hospicesは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-009",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方シャブリ地区のグラン・クリュが位置するところを選択してください。",
+    choices: ["マルヌ川左岸", "ソーヌ川左岸", "スラン川右岸", "スラン川左岸"],
+    answerIndex: 2,
+    explanation: "シャブリ地区のグラン・クリュはスラン川右岸に位置します。"
+  },
+  {
+    id: "france-bourgogne-other-010",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos du Fontenyが属する村を選択してください。",
+    choices: ["Gevrey-Chambertin", "Chablis", "Mercurey", "Morey-Saint-Denis"],
+    answerIndex: 0,
+    explanation: "Clos du FontenyはGevrey-Chambertin村に属するモノポールです。"
+  },
+  {
     id: "italy-tuscany-001",
     category: "イタリア",
     importance: "A",
