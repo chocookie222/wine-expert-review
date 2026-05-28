@@ -2110,6 +2110,258 @@ window.WINE_QUESTIONS = [
     explanation: "Clos du FontenyはGevrey-Chambertin村に属するモノポールです。"
   },
   {
+    id: "france-bourgogne-other-011",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールGrèves Vigne de l'Enfant Jésusが属する村を選択してください。",
+    choices: ["Meursault", "Ladoix-Serrigny", "Beaune", "Nuits-Saint-Georges"],
+    answerIndex: 2,
+    explanation: "Grèves Vigne de l'Enfant JésusはBeaune村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-012",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワインBourgogne Passe-Tout-Grainsの品種規定を選択してください。",
+    choices: ["ガメイ30%以上、ピノ・ノワール15%以上", "ガメイ75%以上", "ピノ・ノワール30%以上、ガメイ15%以上", "ガメイ85%以上"],
+    answerIndex: 2,
+    explanation: "Bourgogne Passe-Tout-Grainsは、ピノ・ノワール30%以上、ガメイ15%以上という品種規定がポイントです。"
+  },
+  {
+    id: "france-bourgogne-other-013",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方で最も栽培面積の小さいグラン・クリュを選択してください。",
+    choices: ["Clos des Lambrays", "Musigny", "Clos Saint-Denis", "La Romanée"],
+    answerIndex: 3,
+    explanation: "ブルゴーニュ地方で最も栽培面積の小さいグラン・クリュはLa Romanéeです。"
+  },
+  {
+    id: "france-bourgogne-other-014",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Vosne-Romanée村に属するプルミエ・クリュを選択してください。",
+    choices: ["En Caradeux", "La Maladière", "Clos Saint-Jacques", "Les Suchots"],
+    answerIndex: 3,
+    explanation: "Les SuchotsはVosne-Romanée村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-015",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、シャブリ・グラン・クリュLes Closに隣接している畑を選択してください。",
+    choices: ["Bougros", "Preuses", "Grenouilles", "Blanchot"],
+    answerIndex: 3,
+    explanation: "Les Closに隣接している畑として、選択肢の中ではBlanchotが該当します。"
+  },
+  {
+    id: "france-bourgogne-other-016",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Fèves", "Les Pucelles", "Clos de la Maréchale", "Clos de Vougeot"],
+    answerIndex: 2,
+    explanation: "Clos de la Maréchaleは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-017",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Criots-Bâtard-Montrachet", "Musigny", "Aux Guettes", "Ruchottes-Chambertin"],
+    answerIndex: 2,
+    explanation: "Aux Guettesはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-018",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Gevrey-Chambertin村に属するモノポールを選択してください。",
+    choices: ["La Grande Rue", "Clos des Ursules", "Clos des Ruchottes", "Clos de la Barre"],
+    answerIndex: 2,
+    explanation: "Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-019",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Beaux Montsが属する村名を選択してください。",
+    choices: ["Vosne-Romanée村", "Monthélie村", "Meursault村", "Chambolle-Musigny村"],
+    answerIndex: 0,
+    explanation: "Les Beaux MontsはVosne-Romanée村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-020",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos de la Bousse d'Orの所有者を選択してください。",
+    choices: ["Domaine de la Romanée Conti", "Domaine de la Pousse d'Or", "Domaine Faiveley", "Groupe Artemis"],
+    answerIndex: 1,
+    explanation: "Clos de la Bousse d'Orの所有者はDomaine de la Pousse d'Orです。"
+  },
+  {
+    id: "france-bourgogne-other-021",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Ducsの所有者を選択してください。",
+    choices: ["Domaine Albert Grivault", "Domaine de la Vougeraie", "Domaine Marquis d'Angerville", "Domaine de la Pousse d'Or"],
+    answerIndex: 2,
+    explanation: "Clos des Ducsの所有者はDomaine Marquis d'Angervilleです。"
+  },
+  {
+    id: "france-bourgogne-other-022",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Beaune村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Crâs", "Le Porusot", "Les Sorbès", "Clos des Mouches"],
+    answerIndex: 3,
+    explanation: "Clos des MouchesはBeaune村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-023",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Clos de la Roche", "Richebourg", "Chevalier-Montrachet", "Les Chaumes"],
+    answerIndex: 3,
+    explanation: "Les Chaumesはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-024",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Vosne-Romanée村に属するモノポールを選択してください。",
+    choices: ["Clos de la Mouchère", "La Romanée", "Clos des Porrets Saint-Georges", "Clos des Ursules"],
+    answerIndex: 1,
+    explanation: "La RomanéeはVosne-Romanée村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-025",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方シャブリ地区に流れる川を選択してください。",
+    choices: ["スラン川", "セーヌ川", "ソーヌ川", "マルヌ川"],
+    answerIndex: 0,
+    explanation: "シャブリ地区を流れる川はスラン川です。"
+  },
+  {
+    id: "france-bourgogne-other-026",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Murgers des dents de chienが属する村名を選択してください。",
+    choices: ["Saint-Aubin村", "Pernand-Vergelesses村", "Savigny-lès-Beaune村", "Beaune村"],
+    answerIndex: 0,
+    explanation: "Les Murgers des dents de chienはSaint-Aubin村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-027",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Vaucrains", "Mazoyères-Chambertin", "Les Bressandes", "La Romanée"],
+    answerIndex: 3,
+    explanation: "La Romanéeは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-028",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、シャブリ・グラン・クリュLes Closに隣接している畑を選択してください。",
+    choices: ["Bougros", "Valmur", "Preuses", "Vaudésir"],
+    answerIndex: 1,
+    explanation: "Les Closに隣接している畑として、選択肢の中ではValmurが該当します。"
+  },
+  {
+    id: "france-bourgogne-other-029",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Myglandが属する村を選択してください。",
+    choices: ["Beaune", "Mercurey", "Chassagne-Montrachet", "Vosne-Romanée"],
+    answerIndex: 1,
+    explanation: "Clos des MyglandはMercurey村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-030",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のクリュボージョレの中で最北であるものを選択してください。",
+    choices: ["Brouilly", "Fleurie", "Saint-Amour", "Côte de Brouilly"],
+    answerIndex: 2,
+    explanation: "クリュ・ボージョレの中で最北に位置するのはSaint-Amourです。"
+  },
+  {
+    id: "france-bourgogne-other-031",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュChambertinに隣接している畑を選択してください。",
+    choices: ["Chapelle-Chambertin", "Mazis-Chambertin", "Mazoyères-Chambertin", "Charmes-Chambertin"],
+    answerIndex: 3,
+    explanation: "Chambertinに隣接している畑として、選択肢の中ではCharmes-Chambertinが該当します。"
+  },
+  {
+    id: "france-bourgogne-other-032",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Romanée-Saint-Vivant", "Corton", "Les Cras", "Montrachet"],
+    answerIndex: 2,
+    explanation: "Les Crasはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-033",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Porrets Saint-Georgesの所有者を選択してください。",
+    choices: ["Domaine Armand Rousseau", "Henri Gouges", "Domaine de la Pousse d'Or", "Domaine Jacques-Frédéric Mugnier"],
+    answerIndex: 1,
+    explanation: "Clos des Porrets Saint-Georgesの所有者はHenri Gougesです。"
+  },
+  {
+    id: "france-bourgogne-other-034",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Puligny-Montrachet村に属するモノポールを選択してください。",
+    choices: ["Clos de la Garenne", "La Tâche", "Clos Blanc de Vougeot", "Clos de la Bousse d'Or"],
+    answerIndex: 0,
+    explanation: "Clos de la GarenneはPuligny-Montrachet村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-035",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Pucellesが属する村名を選択してください。",
+    choices: ["Fixin村", "Puligny-Montrachet村", "Morey-Saint-Denis村", "Meursault村"],
+    answerIndex: 1,
+    explanation: "Les PucellesはPuligny-Montrachet村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-036",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Auxey-Duresses村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Duresses", "Ile des Vergelesses", "Les Grands Epenots", "Aux Vergelesses"],
+    answerIndex: 0,
+    explanation: "Les DuressesはAuxey-Duresses村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-037",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールMorgeot Clos de la Chapelleが属する村を選択してください。",
+    choices: ["Volnay", "Puligny-Montrachet", "Chassagne-Montrachet", "Mercurey"],
+    answerIndex: 2,
+    explanation: "Morgeot Clos de la ChapelleはChassagne-Montrachet村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-038",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "B",
+    question: "次の中からブルゴーニュ地方コート・ドール地区で栽培面積が第2位の村を選択してください。",
+    choices: ["Meursault村", "Chambolle-Musigny村", "Puligny-Montrachet村", "Beaune村"],
+    answerIndex: 3,
+    explanation: "コート・ドール地区で栽培面積が第2位の村は、選択肢の中ではBeaune村です。"
+  },
+  {
     id: "italy-tuscany-001",
     category: "イタリア",
     importance: "A",
