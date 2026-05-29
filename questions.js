@@ -16,24 +16,6 @@
 */
 window.WINE_QUESTIONS = [
   {
-    id: "france-bordeaux-001",
-    category: "フランス",
-    importance: "A",
-    question: "ボルドー地方の左岸で、カベルネ・ソーヴィニヨン主体になりやすい代表的な地区はどれですか。",
-    choices: ["サンテミリオン", "ポムロール", "メドック", "ソーテルヌ"],
-    answerIndex: 2,
-    explanation: "メドックを中心とする左岸は砂利質土壌が多く、晩熟のカベルネ・ソーヴィニヨンに適します。右岸のサンテミリオンやポムロールはメルロ主体になりやすい地区です。"
-  },
-  {
-    id: "france-burgundy-001",
-    category: "フランス",
-    importance: "A",
-    question: "ブルゴーニュ地方の赤ワインで主要品種として最も重要なものはどれですか。",
-    choices: ["シラー", "ピノ・ノワール", "ガメイ", "カベルネ・フラン"],
-    answerIndex: 1,
-    explanation: "ブルゴーニュの高品質赤ワインではピノ・ノワールが中心です。ガメイは主にボージョレ地区で重要です。"
-  },
-  {
     id: "france-general-001",
     category: "フランス概論",
     importance: "A",
@@ -2362,75 +2344,2305 @@ window.WINE_QUESTIONS = [
     explanation: "コート・ドール地区で栽培面積が第2位の村は、選択肢の中ではBeaune村です。"
   },
   {
-    id: "italy-tuscany-001",
-    category: "イタリア",
+    id: "france-bourgogne-other-039",
+    category: "フランス/ブルゴーニュ（その他）",
     importance: "A",
-    question: "キャンティ・クラッシコの主要品種はどれですか。",
-    choices: ["ネッビオーロ", "サンジョヴェーゼ", "バルベーラ", "アリアニコ"],
-    answerIndex: 1,
-    explanation: "キャンティ・クラッシコはトスカーナ州の代表的なDOCGで、主要品種はサンジョヴェーゼです。"
+    question: "次の中からブルゴーニュ地方Nuits-Saint-Georges村に属するモノポールを選択してください。",
+    choices: ["Clos de la Mouchère", "Clos des Mygland", "Clos de l'Ecu", "Clos de la Maréchale"],
+    answerIndex: 3,
+    explanation: "Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。"
   },
   {
-    id: "spain-rioja-001",
-    category: "スペイン",
-    importance: "B",
-    question: "リオハの赤ワインで中心的な黒ブドウ品種はどれですか。",
-    choices: ["テンプラニーリョ", "モナストレル", "ガルナッチャ・ブランカ", "メンシア"],
-    answerIndex: 0,
-    explanation: "リオハの赤ワインではテンプラニーリョが中心です。熟成表示やアメリカンオークのニュアンスも頻出ポイントです。"
-  },
-  {
-    id: "germany-pradikat-001",
-    category: "ドイツ",
+    id: "france-bourgogne-other-040",
+    category: "フランス/ブルゴーニュ（その他）",
     importance: "A",
-    question: "ドイツのPrädikatsweinで、Kabinettより糖度の高い格付けはどれですか。",
-    choices: ["Tafelwein", "Spätlese", "Landwein", "Deutscher Wein"],
-    answerIndex: 1,
-    explanation: "Prädikatsweinの肩書きでは、一般にKabinettの次にSpätleseが位置します。収穫時の果汁糖度による分類です。"
+    question: "次の中からブルゴーニュ地方Pommard村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Rugiens-Bas", "Les Cras", "Les Fournières", "Clavaillon"],
+    answerIndex: 0,
+    explanation: "Les Rugiens-BasはPommard村に属するプルミエ・クリュです。"
   },
   {
-    id: "viticulture-001",
-    category: "栽培",
-    importance: "B",
-    question: "ブドウ樹の光合成に直接必要な要素として適切な組み合わせはどれですか。",
-    choices: ["酸素・窒素・アルコール", "二酸化炭素・水・光", "糖・酵母・熱", "酒石酸・乳酸・酸素"],
-    answerIndex: 1,
-    explanation: "光合成では光エネルギーを使い、二酸化炭素と水から糖を作ります。ブドウの成熟理解に関わる基本事項です。"
-  },
-  {
-    id: "vinification-001",
-    category: "醸造",
+    id: "france-bourgogne-other-041",
+    category: "フランス/ブルゴーニュ（その他）",
     importance: "A",
-    question: "赤ワイン醸造で果皮から色素やタンニンを抽出する工程に最も関係が深いものはどれですか。",
-    choices: ["デゴルジュマン", "マセラシオン", "シャプタリザシオン", "フロール"],
-    answerIndex: 1,
-    explanation: "マセラシオンは果皮や種子を果汁・ワインに接触させて、色素・タンニン・香味成分を抽出する工程です。"
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Amoureusesが属する村名を選択してください。",
+    choices: ["Savigny-lès-Beaune村", "Puligny-Montrachet村", "Fixin村", "Chambolle-Musigny村"],
+    answerIndex: 3,
+    explanation: "Les AmoureusesはChambolle-Musigny村に属するプルミエ・クリュです。"
   },
   {
-    id: "service-001",
-    category: "サービス",
-    importance: "C",
-    question: "スパークリングワインを開栓する際の基本として最も適切なものはどれですか。",
-    choices: ["瓶口を人に向けて勢いよく抜く", "コルクではなく瓶をゆっくり回す", "十分に温めてから開ける", "ワイヤーを外したら強く振る"],
-    answerIndex: 1,
-    explanation: "安全で静かな開栓のため、コルクを押さえながら瓶側をゆっくり回します。瓶口を人に向けないことも重要です。"
+    id: "france-bourgogne-other-042",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のクリュボージョレの中で面積最大であるものを選択してください。",
+    choices: ["Chénas", "Régnié", "Brouilly", "Morgon"],
+    answerIndex: 2,
+    explanation: "クリュ・ボージョレの中で面積最大なのはBrouillyです。"
   },
   {
-    id: "japan-001",
-    category: "日本",
+    id: "france-bourgogne-other-043",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールLa Tâcheの所有者を選択してください。",
+    choices: ["Domaine Armand Rousseau", "Domaine Faiveley", "Domaine de la Romanée Conti", "Domaine Albert Grivault"],
+    answerIndex: 2,
+    explanation: "La Tâcheの所有者はDomaine de la Romanée Contiです。"
+  },
+  {
+    id: "france-bourgogne-other-044",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Grèves", "Les Sorbès", "Grèves Vigne de l'Enfant Jésus", "Les Grands Epenots"],
+    answerIndex: 2,
+    explanation: "Grèves Vigne de l'Enfant Jésusは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-045",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Mazis-Chambertin", "Chevalier-Montrachet", "Clos Saint-Jean", "Richebourg"],
+    answerIndex: 2,
+    explanation: "Clos Saint-Jeanはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-046",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Ursulesが属する村を選択してください。",
+    choices: ["Volnay", "Puligny-Montrachet", "Beaune", "Ladoix-Serrigny"],
+    answerIndex: 2,
+    explanation: "Clos des UrsulesはBeaune村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-047",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次のブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュに関する文章の中から正しいものを選択してください。",
+    choices: ["ChambertinのワインはChambertin Clos-de-Bèzeを名乗れる", "Mazoyères-ChambertinのワインはCharmes-Chambertinを名乗れる", "Mazoyères-ChambertinのワインはChambertinを名乗れる", "Charmes-ChambertinのワインはMazoyères-Chambertinを名乗れる"],
+    answerIndex: 1,
+    explanation: "Mazoyères-ChambertinのワインはCharmes-Chambertinを名乗ることができます。"
+  },
+  {
+    id: "france-bourgogne-other-048",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Pommard村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Grands Epenots", "Les Cents Vignes", "Les Ecussaux", "Perrières"],
+    answerIndex: 0,
+    explanation: "Les Grands EpenotsはPommard村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-049",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Vougeot村に属するモノポールを選択してください。",
+    choices: ["Grèves Vigne de l'Enfant Jésus", "Clos de la Maréchale", "La Tâche", "Clos Blanc de Vougeot"],
+    answerIndex: 3,
+    explanation: "Clos Blanc de VougeotはVougeot村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-050",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Clos Saint-Denis", "Clos des Lambrays", "Les Teurons", "Corton"],
+    answerIndex: 2,
+    explanation: "Les Teuronsはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-051",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Grèves", "Les Marconnets", "Clos des Ruchottes", "En Cailleret"],
+    answerIndex: 2,
+    explanation: "Clos des Ruchottesは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-052",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Caillesが属する村名を選択してください。",
+    choices: ["Puligny-Montrachet村", "Gevrey-Chambertin村", "Auxey-Duresses村", "Nuits-Saint-Georges村"],
+    answerIndex: 3,
+    explanation: "Les CaillesはNuits-Saint-Georges村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-053",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Ducsが属する村を選択してください。",
+    choices: ["Puligny-Montrachet", "Volnay", "Beaune", "Chablis"],
+    answerIndex: 1,
+    explanation: "Clos des DucsはVolnay村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-054",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Chambertin Clos-de-Bèze, Chambertin, Mazis-Chambertin, Latricières-Chambertin", "Latricières-Chambertin, Mazis-Chambertin, Chambertin Clos-de-Bèze, Chambertin", "Chambertin, Latricières-Chambertin, Mazis-Chambertin, Chambertin Clos-de-Bèze", "Mazis-Chambertin, Chambertin Clos-de-Bèze, Chambertin, Latricières-Chambertin"],
+    answerIndex: 3,
+    explanation: "北から南の順序では、Mazis-Chambertin、Chambertin Clos-de-Bèze、Chambertin、Latricières-Chambertinとなります。"
+  },
+  {
+    id: "france-bourgogne-other-055",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Chassagne-Montrachet村に属するプルミエ・クリュを選択してください。",
+    choices: ["Les Caillerets", "En Cailleret", "Les Marconnets", "Les Grands Epenots"],
+    answerIndex: 1,
+    explanation: "En CailleretはChassagne-Montrachet村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-056",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュClos de La Perrièreが属する村名を選択してください。",
+    choices: ["Gevrey-Chambertin村", "Pernand-Vergelesses村", "Beaune村", "Fixin村"],
+    answerIndex: 3,
+    explanation: "Clos de La PerrièreはFixin村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-057",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Chablis村に属するモノポールを選択してください。",
+    choices: ["Clos des Hospices", "Clos Tamisot", "Clos des 60 Ouvrées", "Clos des Ursules"],
+    answerIndex: 0,
+    explanation: "Clos des HospicesはChablis村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-058",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Latricières-Chambertin", "Les Fichots", "La Tâche", "Corton-Charlemagne"],
+    answerIndex: 1,
+    explanation: "Les Fichotsはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-059",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos de la Garenneの所有者を選択してください。",
+    choices: ["Domaine Faiveley", "Louis Jadot", "Comtes Lafon", "Domaine de la Romanée Conti"],
+    answerIndex: 1,
+    explanation: "Clos de la Garenneの所有者はLouis Jadotです。"
+  },
+  {
+    id: "france-bourgogne-other-060",
+    category: "フランス/ブルゴーニュ（その他）",
     importance: "B",
-    question: "日本固有の白ブドウ品種としてよく知られ、山梨県と関係が深いものはどれですか。",
-    choices: ["甲州", "マスカット・ベーリーA", "ピノタージュ", "ヴィオニエ"],
+    question: "次の中からブルゴーニュ地方コート・ドール地区で栽培面積が第1位の村を選択してください。",
+    choices: ["Gevrey-Chambertin村", "Vosne-Romanée村", "Flagey-Echézeaux村", "Aloxe-Corton村"],
     answerIndex: 0,
-    explanation: "甲州は日本を代表する白ブドウ品種で、山梨県との関係が深い品種です。マスカット・ベーリーAは黒ブドウ品種です。"
+    explanation: "コート・ドール地区で栽培面積が第1位の村は、選択肢の中ではGevrey-Chambertin村です。"
   },
   {
-    id: "australia-001",
-    category: "新世界",
-    importance: "C",
-    question: "オーストラリアのバロッサ・ヴァレーで特に重要な黒ブドウ品種はどれですか。",
-    choices: ["シラーズ", "ネッビオーロ", "サンジョヴェーゼ", "ガメイ"],
+    id: "france-bourgogne-other-061",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Grands Echézeaux", "Santenots", "Les Teurons", "Clos de la Mouchère"],
+    answerIndex: 3,
+    explanation: "Clos de la Mouchèreは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-062",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos de la Mouchèreが属する村を選択してください。",
+    choices: ["Chassagne-Montrachet", "Puligny-Montrachet", "Vosne-Romanée", "Mercurey"],
+    answerIndex: 1,
+    explanation: "Clos de la MouchèreはPuligny-Montrachet村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-063",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Monthélie村に属するプルミエ・クリュを選択してください。",
+    choices: ["Le Meix Bataille", "Les Pucelles", "Aux Vergelesses", "Les Vercots"],
     answerIndex: 0,
-    explanation: "バロッサ・ヴァレーはオーストラリアを代表する産地の一つで、凝縮感のあるシラーズで知られます。"
-  }
+    explanation: "Le Meix BatailleはMonthélie村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-064",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Ruchottesが属する村を選択してください。",
+    choices: ["Beaune", "Gevrey-Chambertin", "Mercurey", "Vosne-Romanée"],
+    answerIndex: 1,
+    explanation: "Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-065",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Crâsが属する村名を選択してください。",
+    choices: ["Morey-Saint-Denis村", "Puligny-Montrachet村", "Saint-Aubin村", "Vougeot村"],
+    answerIndex: 3,
+    explanation: "Les CrâsはVougeot村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-066",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["Les Pruliers", "Romanée-Conti", "Les Pucelles", "Grands Echézeaux"],
+    answerIndex: 1,
+    explanation: "Romanée-Contiは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bourgogne-other-067",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のクリュボージョレの中で最新であるものを選択してください。",
+    choices: ["Moulin-à-Vent", "Juliénas", "Saint-Amour", "Régnié"],
+    answerIndex: 3,
+    explanation: "クリュ・ボージョレの中で最新なのはRégniéです。"
+  },
+  {
+    id: "france-bourgogne-other-068",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Les Cailles", "Latricières-Chambertin", "Charlemagne", "Montrachet"],
+    answerIndex: 0,
+    explanation: "Les Caillesはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-069",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方で最も栽培面積の大きいグラン・クリュを選択してください。",
+    choices: ["Romanée-Saint-Vivant", "Clos de Vougeot", "Chambertin", "Bâtard-Montrachet"],
+    answerIndex: 1,
+    explanation: "ブルゴーニュ地方で最も栽培面積の大きいグラン・クリュはClos de Vougeotです。"
+  },
+  {
+    id: "france-bourgogne-other-070",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のプルミエ・クリュLes Vaucrainsが属する村名を選択してください。",
+    choices: ["Meursault村", "Saint-Aubin村", "Nuits-Saint-Georges村", "Puligny-Montrachet村"],
+    answerIndex: 2,
+    explanation: "Les VaucrainsはNuits-Saint-Georges村に属するプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-071",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
+    choices: ["Chambertin Clos-de-Bèze", "Chambertin", "Les Grands Epenots", "La Tâche"],
+    answerIndex: 2,
+    explanation: "Les Grands Epenotsはブルゴーニュ地方のプルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-other-072",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos de la Maréchaleが属する村を選択してください。",
+    choices: ["Ladoix-Serrigny", "Puligny-Montrachet", "Nuits-Saint-Georges", "Chablis"],
+    answerIndex: 2,
+    explanation: "Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-073",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方Meursault村に属するモノポールを選択してください。",
+    choices: ["Clos des Mygland", "Clos des Perrières", "Clos des Ruchottes", "La Tâche"],
+    answerIndex: 1,
+    explanation: "Clos des PerrièresはMeursault村に属するモノポールです。"
+  },
+  {
+    id: "france-bourgogne-other-074",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "ブルゴーニュ地方のモノポールClos des Réasの所有者を選択してください。",
+    choices: ["Domaine de la Pousse d'Or", "Domaine François Lamarche", "Henri Boillot", "Michel Gros"],
+    answerIndex: 3,
+    explanation: "Clos des Réasの所有者はMichel Grosです。"
+  },
+  {
+    id: "france-bourgogne-other-075",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Chapelle-Chambertin, Mazoyères-Chambertin, Charmes-Chambertin, Griotte-Chambertin", "Mazoyères-Chambertin, Charmes-Chambertin, Griotte-Chambertin, Chapelle-Chambertin", "Chapelle-Chambertin, Griotte-Chambertin, Charmes-Chambertin, Mazoyères-Chambertin", "Charmes-Chambertin, Mazoyères-Chambertin, Griotte-Chambertin, Chapelle-Chambertin"],
+    answerIndex: 2,
+    explanation: "北から南の順序では、Chapelle-Chambertin、Griotte-Chambertin、Charmes-Chambertin、Mazoyères-Chambertinとなります。"
+  },
+  {
+    id: "france-bourgogne-other-076",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のクリュボージョレの中で生産量最大であるものを選択してください。",
+    choices: ["Régnié", "Brouilly", "Moulin-à-Vent", "Côte de Brouilly"],
+    answerIndex: 1,
+    explanation: "クリュ・ボージョレの中で生産量最大なのはBrouillyです。"
+  },
+  {
+    id: "france-bourgogne-other-077",
+    category: "フランス/ブルゴーニュ（その他）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
+    choices: ["La Maladière", "Les Cazetiers", "Morgeot Clos de la Chapelle", "Chambertin"],
+    answerIndex: 2,
+    explanation: "Morgeot Clos de la Chapelleは所有者が単独の畑です。"
+  },
+  {
+    id: "france-bordeaux-aoc-001",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で6番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-sauternes-entre-deux-mers.jpg",
+      alt: "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
+      caption: "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
+    },
+    answerText: "カディヤック",
+    explanation: "地図上の6番はCadillac、カタカナではカディヤックです。"
+  },
+  {
+    id: "france-bordeaux-aoc-002",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の説明に合致するボルドーの生産地区を選択してください。「イル川の西に位置するドルドーニュ川右岸のワイン産地。軟質砂岩が特徴で粘土石灰質の土壌にこれが混じっている。属するAOCにはフロンサックとカノン・フロンサックがある。」",
+    choices: ["フロンサデ", "グラーヴ", "サンテミリオン", "ポムロール"],
+    answerIndex: 0,
+    explanation: "説明に合致する地区はフロンサデです。FronsacとCanon Fronsacが属します。"
+  },
+  {
+    id: "france-bordeaux-aoc-003",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドーのAOCワイン「ポイヤック」が生産されている地区を選択してください。",
+    choices: ["メドック", "ポムロール", "ソーテルヌ", "サンテミリオン"],
+    answerIndex: 0,
+    explanation: "Pauillacはメドック地区のAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-004",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で5番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-medoc-graves.jpg",
+      alt: "メドック＆グラーヴ地区のAOC地図",
+      caption: "ボルドー メドック＆グラーヴ地区"
+    },
+    answerText: "サン・ジュリアン",
+    answerTextAliases: ["サンジュリアン"],
+    explanation: "地図上の5番はSaint-Julien、カタカナではサン・ジュリアンです。"
+  },
+  {
+    id: "france-bordeaux-aoc-005",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
+    choices: ["サンテミリオン", "プルミエール・コート・ド・ボルドー", "サント・クロワ・デュ・モン", "ボルドー"],
+    answerIndex: 0,
+    explanation: "Saint-Émilionは赤ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-006",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPuisseguin-Saint-Émilionに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
+      alt: "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
+      caption: "ボルドー サン・テミリオン / ポムロール / フロンサック地区"
+    },
+    choices: ["2番", "7番", "5番", "1番"],
+    answerIndex: 2,
+    explanation: "Puisseguin-Saint-Émilionに相当する番号は5番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-007",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
+    choices: ["Cérons", "Castillon Côtes de Bordeaux", "Haut-Médoc", "Listrac-Médoc"],
+    answerIndex: 1,
+    explanation: "Castillon Côtes de Bordeauxはドルドーニュ川右岸で生産されるAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-008",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からフランス、ボルドー市が位置する緯度を選択してください。",
+    choices: ["北緯43度", "北緯45度", "北緯47度", "北緯41度"],
+    answerIndex: 1,
+    explanation: "ボルドー市はおおむね北緯45度に位置します。"
+  },
+  {
+    id: "france-bordeaux-aoc-009",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で甘口ワインのみが認められているAOCを選択してください。",
+    choices: ["カディヤック", "アントル・ドゥー・メール・オー・ブノージュ", "カスティヨン・コート・ド・ボルドー", "ボルドー・シュペリュール"],
+    answerIndex: 0,
+    explanation: "Cadillacは甘口ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-010",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からフランス、ボルドー地方、ドルドーニュ川およびジロンド川右岸の土壌を選択してください。",
+    choices: ["粘土質土壌", "砂礫質土壌", "花崗岩質土壌", "石灰質土壌"],
+    answerIndex: 0,
+    explanation: "ドルドーニュ川およびジロンド川右岸は粘土質土壌が重要です。"
+  },
+  {
+    id: "france-bordeaux-aoc-011",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で甘口ワインのみが認められているAOCを選択してください。",
+    choices: ["グラーヴ・ド・ヴェイル", "カノン・フロンサック", "ルーピアック", "ペサック・レオニャン"],
+    answerIndex: 2,
+    explanation: "Loupiacは甘口ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-012",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドーのAOCワイン「ムーリス」が生産されている地区を選択してください。",
+    choices: ["ソーテルヌ", "サンテミリオン", "アントル・ドゥー・メール", "メドック"],
+    answerIndex: 3,
+    explanation: "Moulisはメドック地区のAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-013",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
+    choices: ["ルーピアック", "オー・メドック", "ボルドー", "セロンス"],
+    answerIndex: 1,
+    explanation: "Haut-Médocは赤ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-014",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でSaint-Georges Saint-Émilionに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
+      alt: "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
+      caption: "ボルドー サン・テミリオン / ポムロール / フロンサック地区"
+    },
+    choices: ["2番", "7番", "1番", "4番"],
+    answerIndex: 0,
+    explanation: "Saint-Georges Saint-Émilionに相当する番号は2番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-015",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で2番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-medoc-graves.jpg",
+      alt: "メドック＆グラーヴ地区のAOC地図",
+      caption: "ボルドー メドック＆グラーヴ地区"
+    },
+    answerText: "オー・メドック",
+    answerTextAliases: ["オーメドック"],
+    explanation: "地図上の2番はHaut-Médoc、カタカナではオー・メドックです。"
+  },
+  {
+    id: "france-bordeaux-aoc-016",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からフランス、ボルドー地方でユネスコの世界遺産に登録されているところを選択してください。",
+    choices: ["ガロンヌ川左岸の貴腐ワイン生産地", "メドックのシャトー", "ボルドー市の市街区域", "ポムロールの畑の景観"],
+    answerIndex: 2,
+    explanation: "ボルドー市の市街区域はユネスコの世界遺産に登録されています。"
+  },
+  {
+    id: "france-bordeaux-aoc-017",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中から、ドルドーニュ川とガロンヌ川の間で生産されている甘口ワインのみのAOCを選択してください。",
+    choices: ["Saint-Émilion Grand Cru", "Lalande-de-Pomerol", "Cadillac", "Blaye Côtes de Bordeaux"],
+    answerIndex: 2,
+    explanation: "Cadillacはドルドーニュ川とガロンヌ川の間で生産される甘口ワインのみのAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-018",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の説明に合致するボルドーの生産地区を選択してください。「ドルドーニュ川右岸に位置する歴史的な町を拠点に広がるワイン産地。バルバンヌ川を挟んで北側には衛星地区と呼ばれる4つのAOCがある。」",
+    choices: ["サンテミリオン", "ソーテルヌ＆バルサック", "グラーヴ", "ポムロール"],
+    answerIndex: 0,
+    explanation: "説明に合致する地区はサンテミリオンです。北側には衛星地区と呼ばれるAOCがあります。"
+  },
+  {
+    id: "france-bordeaux-aoc-019",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でCéronsに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-sauternes-entre-deux-mers.jpg",
+      alt: "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
+      caption: "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
+    },
+    choices: ["1番", "5番", "2番", "3番"],
+    answerIndex: 3,
+    explanation: "Céronsに相当する番号は3番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-020",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で1番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-sauternes-entre-deux-mers.jpg",
+      alt: "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
+      caption: "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
+    },
+    answerText: "ソーテルヌ",
+    explanation: "地図上の1番はSauternes、カタカナではソーテルヌです。"
+  },
+  {
+    id: "france-bordeaux-aoc-021",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からボルドー地方で2020年の収穫をもって消滅したAOCを選択してください。",
+    choices: ["Bordeaux Rosé", "Côtes de Blaye", "Barsac", "Médoc"],
+    answerIndex: 1,
+    explanation: "Côtes de Blayeは2020年の収穫をもって消滅したAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-022",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中から、ドルドーニュ川とガロンヌ川の間で生産されている甘口ワインのみのAOCを選択してください。",
+    choices: ["Sainte-Croix du Mont", "Bordeaux-Haut-Benauge", "Puisseguin-Saint-Émilion", "Castillon Côtes de Bordeaux"],
+    answerIndex: 0,
+    explanation: "Sainte-Croix du Montはドルドーニュ川とガロンヌ川の間で生産される甘口ワインのみのAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-023",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でMontagne Saint-Émilionに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
+      alt: "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
+      caption: "ボルドー サン・テミリオン / ポムロール / フロンサック地区"
+    },
+    choices: ["9番", "3番", "6番", "4番"],
+    answerIndex: 1,
+    explanation: "Montagne Saint-Émilionに相当する番号は3番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-024",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で10番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-medoc-graves.jpg",
+      alt: "メドック＆グラーヴ地区のAOC地図",
+      caption: "ボルドー メドック＆グラーヴ地区"
+    },
+    answerText: "ペサック・レオニャン",
+    answerTextAliases: ["ペサックレオニャン"],
+    explanation: "地図上の10番はPessac-Léognan、カタカナではペサック・レオニャンです。"
+  },
+  {
+    id: "france-bordeaux-aoc-025",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方でソーテルヌとバルサックの間に流れる川の名前を選択してください。",
+    choices: ["ドルドーニュ川", "ロット川", "シロン川", "レイヨン川"],
+    answerIndex: 2,
+    explanation: "ソーテルヌとバルサックの間に流れる川はシロン川です。"
+  },
+  {
+    id: "france-bordeaux-aoc-026",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からフランス第2位の規模を持つAOCワインの産地を選択してください。",
+    choices: ["南西地方", "コート・デュ・ローヌ地方", "ラングドック・ルーション地方", "ボルドー地方"],
+    answerIndex: 1,
+    explanation: "フランス第2位の規模を持つAOCワイン産地は、選択肢の中ではコート・デュ・ローヌ地方です。"
+  },
+  {
+    id: "france-bordeaux-aoc-027",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でLalande-de-Pomerolに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
+      alt: "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
+      caption: "ボルドー サン・テミリオン / ポムロール / フロンサック地区"
+    },
+    choices: ["7番", "9番", "5番", "6番"],
+    answerIndex: 0,
+    explanation: "Lalande-de-Pomerolに相当する番号は7番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-028",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でLoupiacに相当する番号を選択してください。",
+    image: {
+      src: "assets/bordeaux-sauternes-entre-deux-mers.jpg",
+      alt: "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
+      caption: "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
+    },
+    choices: ["5番", "3番", "4番", "6番"],
+    answerIndex: 0,
+    explanation: "Loupiacに相当する番号は5番です。"
+  },
+  {
+    id: "france-bordeaux-aoc-029",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からフランス、ボルドー地方のサンテミリオン管轄区がユネスコの世界遺産に登録された年を選択してください。",
+    choices: ["1994年", "2003年", "1999年", "2016年"],
+    answerIndex: 2,
+    explanation: "サンテミリオン管轄区は1999年にユネスコの世界遺産に登録されました。"
+  },
+  {
+    id: "france-bordeaux-aoc-030",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
+    choices: ["Fronsac", "Sainte-Croix du Mont", "Saint-Estèphe", "Entre-Deux-Mers-Haut-Benauge"],
+    answerIndex: 0,
+    explanation: "Fronsacはドルドーニュ川右岸で生産されるAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-031",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "B",
+    question: "次の中からボルドー地方で2028年の収穫をもって抹消予定のAOCを選択してください。",
+    choices: ["Graves Supérieures", "Bordeaux Rosé", "Puisseguin-Saint-Émilion", "Médoc"],
+    answerIndex: 0,
+    explanation: "Graves Supérieuresは2028年の収穫をもって抹消予定のAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-032",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方のAOCワインの産地をガロンヌ川およびジロンド川の上流から下流の順序で正しく並べたものを選択してください。",
+    choices: ["Pessac-Léognan, Saint-Estèphe, Sauternes, Cérons", "Barsac, Margaux, Saint-Estèphe, Pessac-Léognan", "Barsac, Cérons, Saint-Julien, Pauillac", "Pauillac, Pessac-Léognan, Barsac, Cérons"],
+    answerIndex: 2,
+    explanation: "上流から下流の順序では、Barsac、Cérons、Saint-Julien、Pauillacとなります。"
+  },
+  {
+    id: "france-bordeaux-aoc-033",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
+    choices: ["ボルドー・セック", "サント・クロワ・デュ・モン", "モンターニュ・サンテミリオン", "ペサック・レオニャン"],
+    answerIndex: 2,
+    explanation: "Montagne Saint-Émilionは赤ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-034",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で4番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-medoc-graves.jpg",
+      alt: "メドック＆グラーヴ地区のAOC地図",
+      caption: "ボルドー メドック＆グラーヴ地区"
+    },
+    answerText: "ポイヤック",
+    explanation: "地図上の4番はPauillac、カタカナではポイヤックです。"
+  },
+  {
+    id: "france-bordeaux-aoc-035",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドーのAOCワイン「サン・テステフ」が生産されている地区を選択してください。",
+    choices: ["メドック", "サンテミリオン", "ソーテルヌ", "アントル・ドゥー・メール"],
+    answerIndex: 0,
+    explanation: "Saint-Estèpheはメドック地区のAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-036",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドーのAOCワイン「マルゴー」が生産されている地区を選択してください。",
+    choices: ["アントル・ドゥー・メール", "ソーテルヌ", "サンテミリオン", "メドック"],
+    answerIndex: 3,
+    explanation: "Margauxはメドック地区のAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-037",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
+    choices: ["Saint-Estèphe", "Haut-Médoc", "Saint-Julien", "Canon Fronsac"],
+    answerIndex: 3,
+    explanation: "Canon Fronsacはドルドーニュ川右岸で生産されるAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-038",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "次の中からボルドー地方で甘口ワインのみが認められているAOCを選択してください。",
+    choices: ["ボルドー・ロゼ", "アントル・ドゥー・メール", "ボルドー・シュペリュール", "ソーテルヌ"],
+    answerIndex: 3,
+    explanation: "Sauternesは甘口ワインのみが認められているAOCです。"
+  },
+  {
+    id: "france-bordeaux-aoc-039",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上で7番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
+      alt: "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
+      caption: "ボルドー サン・テミリオン / ポムロール / フロンサック地区"
+    },
+    answerText: "ラランド・ド・ポムロール",
+    answerTextAliases: ["ラランドドポムロール"],
+    explanation: "地図上の7番はLalande-de-Pomerol、カタカナではラランド・ド・ポムロールです。"
+  },
+  {
+    id: "france-bordeaux-aoc-040",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で2番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-sauternes-entre-deux-mers.jpg",
+      alt: "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
+      caption: "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
+    },
+    answerText: "バルサック",
+    explanation: "地図上の2番はBarsac、カタカナではバルサックです。"
+  },
+  {
+    id: "france-bordeaux-aoc-041",
+    category: "フランス/ボルドー（概要・AOC）",
+    importance: "A",
+    question: "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で3番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/bordeaux-medoc-graves.jpg",
+      alt: "メドック＆グラーヴ地区のAOC地図",
+      caption: "ボルドー メドック＆グラーヴ地区"
+    },
+    answerText: "サン・テステフ",
+    answerTextAliases: ["サンテステフ"],
+    explanation: "地図上の3番はSaint-Estèphe、カタカナではサン・テステフです。"
+  },
+  {
+    id: "france-bordeaux-classification-001",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
+    choices: ["シャトー・ラ・ラギュンヌ", "シャトー・ブラネール・デュクリュ", "シャトー・クレール・ミロン", "シャトー・デュクリュ・ボカイユ"],
+    answerIndex: 1,
+    explanation: "シャトー・ブラネール・デュクリュはメドック格付け4級です。"
+  },
+  {
+    id: "france-bordeaux-classification-002",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
+    choices: ["シャトー・ダルマイヤック", "シャトー・モンローズ", "シャトー・ジスクール", "シャトー・ローザン・セグラ"],
+    answerIndex: 0,
+    explanation: "シャトー・ダルマイヤックはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-003",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ローザン・ガシー", "シャトー・ベレール・モナンジュ", "シャトー・マルゴー", "シャトー・コス・ラボリー"],
+    answerIndex: 1,
+    explanation: "シャトー・ベレール・モナンジュはサンテミリオン地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-004",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
+    choices: ["シャトー・マルゴー", "シャトー・ムートン・ロートシルト", "シャトー・バタイイ", "シャトー・ラスコンブ"],
+    answerIndex: 3,
+    explanation: "シャトー・ラスコンブはメドック格付け2級です。"
+  },
+  {
+    id: "france-bordeaux-classification-005",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
+    choices: ["シャトー・ムートン・ロートシルト", "シャトー・マルキ・ダレーム・ベッケール", "シャトー・レオヴィル・ポワフェレ", "シャトー・コス・デストゥールネル"],
+    answerIndex: 1,
+    explanation: "シャトー・マルキ・ダレーム・ベッケールはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-006",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ラモット・ギニャール", "シャトー・パルメ", "シャトー・カノン", "シャトー・スミス・オー・ラフィット"],
+    answerIndex: 0,
+    explanation: "シャトー・ラモット・ギニャールはソーテルヌ＆バルサック地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-007",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・クーアン", "シャトー・ラフルール", "シャトー・ピション・ロングヴィル・コンテス・ド・ラランド", "シャトー・ネラック"],
+    answerIndex: 0,
+    explanation: "シャトー・クーアンはグラーヴ地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-008",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
+    choices: ["シャトー・レオヴィル・ポワフェレ", "シャトー・ランシュ・ムーサス", "シャトー・デュアール・ミロン・ロートシルト", "シャトー・オー・バージュ・リベラル"],
+    answerIndex: 2,
+    explanation: "シャトー・デュアール・ミロン・ロートシルトはメドック格付け4級です。"
+  },
+  {
+    id: "france-bordeaux-classification-009",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・マラルティック・ラグラヴィエール", "シャトー・ラフォン・ロッシェ", "シャトー・スオ", "シャトー・オー・バイィ"],
+    answerIndex: 2,
+    explanation: "シャトー・スオはソーテルヌ＆バルサック地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-010",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ドワジー・デュブロカ", "ラトゥール・ア・ポムロール", "シャトー・ラモット・ギニャール", "シャトー・ラ・ミッション・オー・ブリオン"],
+    answerIndex: 3,
+    explanation: "シャトー・ラ・ミッション・オー・ブリオンはグラーヴ地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-011",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
+    choices: ["シャトー・ピション・ロングヴィル・コンテス・ド・ラランド", "シャトー・ドーザック", "シャトー・デュルフォール・ヴィヴァン", "シャトー・グリュオ・ラローズ"],
+    answerIndex: 1,
+    explanation: "シャトー・ドーザックはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-012",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
+    choices: ["シャトー・マレスコ・サン・テグジュペリ", "シャトー・ベイシュヴェル", "シャトー・クロワゼ・バージュ", "シャトー・モンローズ"],
+    answerIndex: 3,
+    explanation: "シャトー・モンローズはメドック格付け2級です。"
+  },
+  {
+    id: "france-bordeaux-classification-013",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ヴァランドロー", "シャトー・レオヴィル・ラス・カーズ", "シャトー・ペトリュス", "シャトー・デュアール・ミロン・ロートシルト"],
+    answerIndex: 0,
+    explanation: "シャトー・ヴァランドローはサンテミリオン地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-014",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
+    choices: ["シャトー・ピション・ロングヴィル・バロン", "シャトー・ジスクール", "シャトー・マルキ・ド・テルム", "シャトー・マルキ・ダレーム・ベッケール"],
+    answerIndex: 2,
+    explanation: "シャトー・マルキ・ド・テルムはメドック格付け4級です。"
+  },
+  {
+    id: "france-bordeaux-classification-015",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
+    choices: ["シャトー・マレスコ・サン・テグジュペリ", "シャトー・プリゥレ・リシーヌ", "シャトー・ポンテ・カネ", "シャトー・ブラーヌ・カントナック"],
+    answerIndex: 0,
+    explanation: "シャトー・マレスコ・サン・テグジュペリはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-016",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・トロタノワ", "シャトー・ネナン", "シャトー・スオ", "シャトー・カルボニュー"],
+    answerIndex: 3,
+    explanation: "シャトー・カルボニューはグラーヴ地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-017",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
+    choices: ["シャトー・デュアール・ミロン・ロートシルト", "シャトー・ローザン・セグラ", "シャトー・ディサン", "シャトー・マルキ・ダレーム・ベッケール"],
+    answerIndex: 1,
+    explanation: "シャトー・ローザン・セグラはメドック格付け2級です。"
+  },
+  {
+    id: "france-bordeaux-classification-018",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
+    choices: ["シャトー・カントメルル", "シャトー・ポンテ・カネ", "シャトー・ド・カマンサック", "シャトー・ボイド・カントナック"],
+    answerIndex: 3,
+    explanation: "シャトー・ボイド・カントナックはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-019",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
+    choices: ["シャトー・ラフォン・ロッシェ", "シャトー・ド・カマンサック", "シャトー・モンローズ", "シャトー・グリュオ・ラローズ"],
+    answerIndex: 1,
+    explanation: "シャトー・ド・カマンサックはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-020",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・スオ", "シャトー・ベルグラーヴ", "シャトー・スデュイロー", "シャトー・ボー・セジュール・ベコ"],
+    answerIndex: 3,
+    explanation: "シャトー・ボー・セジュール・ベコはサンテミリオン地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-021",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・グリュオ・ラローズ", "シャトー・カイユー", "シャトー・プリゥレ・リシーヌ", "シャトー・ボイド・カントナック"],
+    answerIndex: 1,
+    explanation: "シャトー・カイユーはソーテルヌ＆バルサック地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-022",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
+    choices: ["シャトー・ディサン", "シャトー・ブラーヌ・カントナック", "シャトー・レオヴィル・ポワフェレ", "シャトー・グラン・ピュイ・デュカス"],
+    answerIndex: 3,
+    explanation: "シャトー・グラン・ピュイ・デュカスはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-023",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
+    choices: ["シャトー・フェリエール", "シャトー・ローザン・ガシー", "シャトー・ローザン・セグラ", "シャトー・ラトゥール"],
+    answerIndex: 0,
+    explanation: "シャトー・フェリエールはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-024",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ド・ミラ", "シャトー・ド・フューザル", "シャトー・クロ・オー・ペラゲ", "シャトー・カノン・ラ・ガフリエール"],
+    answerIndex: 1,
+    explanation: "シャトー・ド・フューザルはグラーヴ地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-025",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・カントメルル", "シャトー・ラフルール", "シャトー・ラ・ラギュンヌ", "シャトー・カノン・ラ・ガフリエール"],
+    answerIndex: 3,
+    explanation: "シャトー・カノン・ラ・ガフリエールはサンテミリオン地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-026",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
+    choices: ["シャトー・サン・ピエール", "シャトー・グラン・ピュイ・デュカス", "シャトー・ポンテ・カネ", "シャトー・レオヴィル・ポワフェレ"],
+    answerIndex: 3,
+    explanation: "シャトー・レオヴィル・ポワフェレはメドック格付け2級です。"
+  },
+  {
+    id: "france-bordeaux-classification-027",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
+    choices: ["シャトー・オー・バタイイ", "シャトー・ピション・ロングヴィル・バロン", "シャトー・ペデスクロー", "シャトー・カロン・セギュール"],
+    answerIndex: 3,
+    explanation: "シャトー・カロン・セギュールはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-028",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・オー・バージュ・リベラル", "シャトー・ジスクール", "シャトー・カントナック・ブラウン", "シャトー・ラ・トゥール・オー・ブリオン"],
+    answerIndex: 3,
+    explanation: "シャトー・ラ・トゥール・オー・ブリオンはグラーヴ地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-029",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
+    choices: ["シャトー・ラフィット・ロートシルト", "シャトー・デスミライユ", "シャトー・プージェ", "シャトー・オー・バタイイ"],
+    answerIndex: 2,
+    explanation: "シャトー・プージェはメドック格付け4級です。"
+  },
+  {
+    id: "france-bordeaux-classification-030",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・コス・デストゥールネル", "シャトー・ド・ミラ", "シャトー・ローザン・ガシー", "クロ・フルテ"],
+    answerIndex: 1,
+    explanation: "シャトー・ド・ミラはソーテルヌ＆バルサック地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-031",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
+    choices: ["シャトー・デスミライユ", "シャトー・フェリエール", "シャトー・ピション・ロングヴィル・コンテス・ド・ラランド", "シャトー・ラ・トゥール・カルネ"],
+    answerIndex: 2,
+    explanation: "シャトー・ピション・ロングヴィル・コンテス・ド・ラランドはメドック格付け2級です。"
+  },
+  {
+    id: "france-bordeaux-classification-032",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
+    choices: ["シャトー・カントナック・ブラウン", "シャトー・ラフィット・ロートシルト", "シャトー・ローザン・セグラ", "シャトー・ペデスクロー"],
+    answerIndex: 3,
+    explanation: "シャトー・ペデスクローはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-033",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・マラルティック・ラグラヴィエール", "シャトー・ジスクール", "シャトー・ラ・トゥール・カルネ", "クロ・フルテ"],
+    answerIndex: 3,
+    explanation: "クロ・フルテはサンテミリオン地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-034",
+    category: "フランス/ボルドー（格付け基礎）",
+    importance: "A",
+    question: "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
+    choices: ["シャトー・ラフルール", "ル・パン", "シャトー・ドワジー・ヴェドリーヌ", "シャトー・トロタノワ"],
+    answerIndex: 2,
+    explanation: "シャトー・ドワジー・ヴェドリーヌはソーテルヌ＆バルサック地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-001",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方Sauternes & Barsac地区でPremier Crusに格付けされているものを全て選択してください。2個まで選択できます。",
+    choices: ["Château Belair-Monange", "Château Haut-Bailly", "Château Rieussec", "La Mondotte", "Château Suduiraut", "Domaine de l'Eglise", "Château Broustet", "Château La Mission-Haut-Brion"],
+    answerIndexes: [2, 4],
+    maxSelections: 2,
+    explanation: "Château RieussecとChâteau SuduirautはSauternes & Barsac地区のPremier Cruです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-002",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からCantenac村で生産されている3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Cos-Labory", "Château Desmirail", "Château Cos d'Estournel", "Château Talbot", "Château Boyd-Cantenac", "Château Branaire-Ducru", "Château Grand-Puy-Ducasse", "Château Marquis d'Alesme-Becker"],
+    answerIndexes: [1, 4],
+    maxSelections: 2,
+    explanation: "Château DesmirailとChâteau Boyd-CantenacはCantenac村のメドック格付け3級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-003",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Graves地区の格付けシャトーの中から赤ワインと白ワイン両方が格付けされているものを全て選択してください。2個まで選択できます。",
+    choices: ["Château Haut-Brion", "Domaine de Chevalier", "Château Couhins-Lurton", "Château Haut-Bailly", "Château Couhins", "Château Carbonnieux", "Château Pape Clément", "Château La Tour-Haut-Brion"],
+    answerIndexes: [1, 5],
+    maxSelections: 2,
+    explanation: "Domaine de ChevalierとChâteau Carbonnieuxは、赤ワインと白ワインの両方がグラーヴ格付けに含まれます。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-004",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中から、ボルドー地方Saint-Émilion地区の2022年の格付けで、格付けへの参加を見送り、Premiers Grands Crus Classés Aから名前が消えたものを選択してください。",
+    choices: ["Château Beauséjour Héritiers Duffau Lagarrosse", "Château Cheval Blanc", "Château Troplong Mondot", "Château Canon la Gaffelière"],
+    answerIndex: 1,
+    explanation: "Château Cheval Blancは2022年格付けへの参加を見送り、Premiers Grands Crus Classés Aから外れました。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-005",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Graves地区の格付けシャトーの中から、Martillac村で生産されているものを選択してください。",
+    choices: ["Château Smith-Haut-Lafitte", "Château de Fieuzal", "Château Haut-Brion", "Château Laville Haut-Brion"],
+    answerIndex: 0,
+    explanation: "Château Smith-Haut-LafitteはMartillac村に位置するグラーヴ格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-006",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からPauillac村で生産されている5級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Léoville-Barton", "Château Branaire-Ducru", "Château Ferrière", "Château Pontet-Canet", "Château Cos-Labory", "Château Calon-Ségur", "Château Cantenac-Brown", "Château Clerc-Milon"],
+    answerIndexes: [3, 7],
+    maxSelections: 2,
+    explanation: "Château Pontet-CanetとChâteau Clerc-MilonはPauillac村のメドック格付け5級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-007",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からCantenac村で生産されAOC Margauxとなる3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Margaux", "Château Desmirail", "Château Cantenac-Brown", "Château Giscours", "Château Durfort-Vivens", "Château Marquis d'Alesme-Becker", "Château Marquis de Terme", "Château Pouget"],
+    answerIndexes: [1, 2],
+    maxSelections: 2,
+    explanation: "Château DesmirailとChâteau Cantenac-BrownはCantenac村で生産されるAOC Margauxの3級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-008",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からAOC名がMargauxと表示され、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château Gruaud-Larose", "Château Léoville-Barton", "Château Rauzan-Gassies", "Château Haut-Batailley"],
+    answerIndex: 2,
+    explanation: "Château Rauzan-GassiesはAOC Margauxの2級格付けで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-009",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Sauternes & Barsac地区の格付けシャトーの中から、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château La Tour Blanche", "Château Romer du Hayot", "Château Romer", "Château Broustet"],
+    answerIndex: 0,
+    explanation: "Château La Tour BlancheはPremier Cruで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-010",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Julien村で生産されている4級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Duhart-Milon-Rothschild", "Château Beychevelle", "Château Croizet-Bages", "Château Talbot", "Château Boyd-Cantenac", "Château Ducru-Beaucaillou", "Château Mouton-Rothschild", "Château Haut-Bages-Libéral"],
+    answerIndexes: [1, 3],
+    maxSelections: 2,
+    explanation: "Château BeychevelleとChâteau TalbotはSaint-Julien村のメドック格付け4級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-011",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方Sauternes & Barsac地区でPremier Crusに格付けされているものを全て選択してください。2個まで選択できます。",
+    choices: ["Château Valandraud", "Château Lamothe", "Château Latour à Pomerol", "Château Filhot", "Château La Tour Blanche", "Château Belair-Monange", "Château Troplong Mondot", "Château Lafaurie Peyraguey"],
+    answerIndexes: [4, 7],
+    maxSelections: 2,
+    explanation: "Château La Tour BlancheとChâteau Lafaurie PeyragueyはSauternes & Barsac地区のPremier Cruです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-012",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Graves地区の格付けシャトーの中から、Pessac村で生産されているものを選択してください。",
+    choices: ["Château Pape Clément", "Château Carbonnieux", "Château de Fieuzal", "Château Haut-Bailly"],
+    answerIndex: 0,
+    explanation: "Château Pape ClémentはPessac村に位置するグラーヴ格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-013",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Sauternes & Barsac地区の格付けシャトーの中からBommes村で生産されているものを選択してください。",
+    choices: ["Château Suduiraut", "Château Guiraud", "Château Climens", "Château Rabaud-Promis"],
+    answerIndex: 3,
+    explanation: "Château Rabaud-PromisはBommes村に位置するSauternes & Barsac地区の格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-014",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方の格付けシャトーChâteau Mouton Baronne PhilippeがChâteau d'Armailhacに名称を変更した年を選択してください。",
+    choices: ["1973年", "1993年", "1989年", "1969年"],
+    answerIndex: 2,
+    explanation: "Château Mouton Baronne Philippeは1989年にChâteau d'Armailhacへ名称変更しました。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-015",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からAOC名がSaint-Estèpheと表示され、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château Montrose", "Château de Camensac", "Château La Lagune", "Château Dauzac"],
+    answerIndex: 0,
+    explanation: "Château MontroseはSaint-Estèpheの2級格付けで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-016",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からPauillac村で生産されている5級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Margaux", "Château Mouton-Rothschild", "Château Malescot Saint-Exupéry", "Château Haut-Bages-Libéral", "Château Batailley", "Château du Tertre", "Château Boyd-Cantenac", "Château Palmer"],
+    answerIndexes: [3, 4],
+    maxSelections: 2,
+    explanation: "Château Haut-Bages-LibéralとChâteau BatailleyはPauillac村のメドック格付け5級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-017",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からLabarde村で生産されAOC Margauxとなる3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Prieuré-Lichine", "Château Dauzac", "Château Rauzan-Gassies", "Château Cantenac-Brown", "Château Giscours", "Château Marquis d'Alesme-Becker", "Château Brane-Cantenac", "Château Malescot Saint-Exupéry"],
+    answerIndexes: [4],
+    maxSelections: 2,
+    explanation: "Château GiscoursはLabarde村で生産されるAOC Margauxの3級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-018",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Julien村で生産されている4級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Clerc-Milon", "Château Haut-Bages-Libéral", "Château Grand-Puy-Ducasse", "Château Desmirail", "Château Ducru-Beaucaillou", "Château Cos-Labory", "Château Branaire-Ducru", "Château Saint-Pierre"],
+    answerIndexes: [6, 7],
+    maxSelections: 2,
+    explanation: "Château Branaire-DucruとChâteau Saint-PierreはSaint-Julien村のメドック格付け4級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-019",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中から3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Rauzan-Gassies", "Château Pichon-Longueville Baron", "Château Beychevelle", "Château Batailley", "Château Brane-Cantenac", "Château Ferrière", "Château Pichon-Longueville Comtesse de Lalande", "Château Kirwan"],
+    answerIndexes: [5, 7],
+    maxSelections: 2,
+    explanation: "Château FerrièreとChâteau Kirwanはメドック格付け3級です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-020",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Julien村で生産されている2級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Grand-Puy-Ducasse", "Château Pichon-Longueville Baron", "Château Léoville-Las Cases", "Château La Lagune", "Château Malescot Saint-Exupéry", "Château Gruaud-Larose", "Château Lafon-Rochet", "Château Prieuré-Lichine"],
+    answerIndexes: [2, 5],
+    maxSelections: 2,
+    explanation: "Château Léoville-Las CasesとChâteau Gruaud-LaroseはSaint-Julien村のメドック格付け2級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-021",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Sauternes & Barsac地区の格付けシャトーの中からBommes村で生産されているものを選択してください。",
+    choices: ["Château Suduiraut", "Château Guiraud", "Château Clos-Haut-Peyraguey", "Château Climens"],
+    answerIndex: 2,
+    explanation: "Château Clos-Haut-PeyragueyはBommes村に位置します。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-022",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中から5級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Pédesclaux", "Château Beychevelle", "Château Boyd-Cantenac", "Château Ducru-Beaucaillou", "Château Lagrange", "Château Lynch-Bages", "Château Saint-Pierre", "Château La Tour-Carnet"],
+    answerIndexes: [0, 5],
+    maxSelections: 2,
+    explanation: "Château PédesclauxとChâteau Lynch-Bagesはメドック格付け5級です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-023",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Sauternes & Barsac地区の格付けシャトーの中から、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château Doisy-Védrines", "Château d'Arche", "Château Lamothe-Guignard", "Château Guiraud"],
+    answerIndex: 3,
+    explanation: "Château GuiraudはPremier Cruで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-024",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Estèphe村で生産されている3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château d'Armailhac", "Château Cantemerle", "Château Calon-Ségur", "Château Rauzan-Gassies", "Château Rauzan-Ségla", "Château Batailley", "Château Langoa-Barton", "Château d'Issan"],
+    answerIndexes: [2],
+    maxSelections: 2,
+    explanation: "Château Calon-SégurはSaint-Estèphe村のメドック格付け3級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-025",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Saint-Émilion地区の格付けシャトーの中から、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château Pavie", "Château Beau-Séjour-Bécot", "Château Trottevieille", "Château Belair-Monange"],
+    answerIndex: 0,
+    explanation: "Château PavieはPremiers Grands Crus Classés Aで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-026",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Julien村で生産されている4級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Pichon-Longueville Baron", "Château Cos-Labory", "Château Léoville-Las Cases", "Château Cos d'Estournel", "Château Palmer", "Château Haut-Batailley", "Château Desmirail", "Château Saint-Pierre"],
+    answerIndexes: [7],
+    maxSelections: 2,
+    explanation: "Château Saint-PierreはSaint-Julien村のメドック格付け4級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-027",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方Sauternes & Barsac地区でPremier Crusに格付けされているものを全て選択してください。2個まで選択できます。",
+    choices: ["Domaine de Chevalier", "Château de Myrat", "Château Climens", "Château Pétrus", "Château Canon", "La Mondotte", "Château Couhins-Lurton", "Château Guiraud"],
+    answerIndexes: [2, 7],
+    maxSelections: 2,
+    explanation: "Château ClimensとChâteau GuiraudはSauternes & Barsac地区のPremier Cruです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-028",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Graves地区の格付けシャトーの中から赤ワインと白ワイン両方が格付けされているものを全て選択してください。2個まで選択できます。",
+    choices: ["Château Haut-Bailly", "Château Carbonnieux", "Château de Fieuzal", "Château Olivier", "Château Smith-Haut-Lafitte", "Château La Mission-Haut-Brion", "Château Couhins", "Château Haut-Brion"],
+    answerIndexes: [1, 3],
+    maxSelections: 2,
+    explanation: "Château CarbonnieuxとChâteau Olivierは赤ワインと白ワインの両方がグラーヴ格付けに含まれます。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-029",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方グラーヴ地区の最初の格付けが発表された年を選択してください。",
+    choices: ["1855年", "1854年", "1953年", "1954年"],
+    answerIndex: 2,
+    explanation: "グラーヴ地区の最初の格付けは1953年に発表されました。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-030",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からAOC名がSaint-Julienと表示され、格付け等級が最も上位なものを選択してください。",
+    choices: ["Château Brane-Cantenac", "Château Branaire-Ducru", "Château Batailley", "Château Léoville-Las Cases"],
+    answerIndex: 3,
+    explanation: "Château Léoville-Las CasesはSaint-Julienの2級格付けで、この選択肢の中では最上位です。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-031",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からMacau村で生産されている5級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Rauzan-Ségla", "Château Calon-Ségur", "Château Giscours", "Château Mouton-Rothschild", "Château Lafite-Rothschild", "Château Croizet-Bages", "Château Palmer", "Château Cantemerle"],
+    answerIndexes: [7],
+    maxSelections: 2,
+    explanation: "Château CantemerleはMacau村のメドック格付け5級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-032",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中からCantenac村で生産されている3級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Lafon-Rochet", "Château Desmirail", "Château Gruaud-Larose", "Château Montrose", "Château Latour", "Château Cantenac-Brown", "Château du Tertre", "Château Croizet-Bages"],
+    answerIndexes: [1, 5],
+    maxSelections: 2,
+    explanation: "Château DesmirailとChâteau Cantenac-BrownはCantenac村のメドック格付け3級シャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-033",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Graves地区の格付けシャトーの中から、Pessac村で生産されているものを選択してください。",
+    choices: ["Château Haut-Bailly", "Château Couhins-Lurton", "Château Haut-Brion", "Château Olivier"],
+    answerIndex: 2,
+    explanation: "Château Haut-BrionはPessac村に位置するグラーヴ格付けシャトーです。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-034",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次の中からボルドー地方Saint-Émilion地区で、Château PavieがPremiers Grands Crus Classés Aに昇格した年を選択してください。",
+    choices: ["2006年", "2012年", "1996年", "2022年"],
+    answerIndex: 1,
+    explanation: "Château Pavieは2012年にPremiers Grands Crus Classés Aへ昇格しました。"
+  },
+  {
+    id: "france-bordeaux-classification-practice-035",
+    category: "フランス/ボルドー（格付け実践）",
+    importance: "A",
+    question: "次のボルドー地方Médoc地区の格付けシャトーの中から4級のシャトーを全て選択してください。2個まで選択できます。",
+    choices: ["Château Margaux", "Château Branaire-Ducru", "Château Haut-Bages-Libéral", "Château Léoville-Poyferré", "Château Lafon-Rochet", "Château La Lagune", "Château Lagrange", "Château Langoa-Barton"],
+    answerIndexes: [1, 4],
+    maxSelections: 2,
+    explanation: "Château Branaire-DucruとChâteau Lafon-Rochetはメドック格付け4級です。"
+  },
+  {
+    id: "italy-overview-law-001",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「ワインの生産量は多く、赤ワインと白ワインをほぼ同量生産する。スプマンテの中では最も人気があるフランチャコルタの産地である。」",
+    choices: ["ロンバルディア", "ヴァッレ・ダオスタ", "プーリア", "カンパーニア"],
+    answerIndex: 0,
+    explanation: "フランチャコルタはロンバルディア州を代表する高品質スプマンテです。"
+  },
+  {
+    id: "italy-overview-law-002",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
+    choices: ["モリーゼ", "エミリア・ロマーニャ", "バジリカータ", "トスカーナ"],
+    answerIndex: 1,
+    explanation: "エミリア・ロマーニャ州は北部イタリアに分類されます。"
+  },
+  {
+    id: "italy-overview-law-003",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上でVenetoに相当する番号を選択してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    choices: ["5番", "16番", "6番", "7番"],
+    answerIndex: 2,
+    explanation: "地図上でVenetoは6番です。"
+  },
+  {
+    id: "italy-overview-law-004",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、トレンティーノ・アルト・アディジェ州で世界遺産に登録されているものを選択してください。",
+    choices: ["神秘的な城カステル・デル・モンテ", "ドロミーティ山塊", "チンクエ・テッレの海に迫る絶壁の段々畑の風景", "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観"],
+    answerIndex: 1,
+    explanation: "トレンティーノ・アルト・アディジェ州ではドロミーティ山塊が世界遺産に登録されています。"
+  },
+  {
+    id: "italy-overview-law-005",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ヴェネト州の州都を選択してください。",
+    choices: ["トリエステ", "ジェノヴァ", "ポテンツァ", "ヴェネツィア"],
+    answerIndex: 3,
+    explanation: "ヴェネト州の州都はヴェネツィアです。"
+  },
+  {
+    id: "italy-overview-law-006",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    choices: ["収穫年を記載しなくてはいけない", "炭酸ガス浸漬法(MC法)で造られたワインを100%使用", "DOワインのみに認められる", "アルコール度数8%以上"],
+    answerIndex: 0,
+    explanation: "Vino Novelloは収穫年の表示が必要です。"
+  },
+  {
+    id: "italy-overview-law-007",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中から、イタリアのDOP(DOCG)ワインBrunello di Montalcinoの品種サンジョヴェーゼの、この地方の別名を選んでください。",
+    choices: ["プルニョーロ・ジェンティーレ", "ブルネッロ", "スパンナ", "キアヴェンナスカ"],
+    answerIndex: 1,
+    explanation: "Brunello di Montalcinoではサンジョヴェーゼの地方名としてブルネッロが使われます。"
+  },
+  {
+    id: "italy-overview-law-008",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が12〜45グラム/リットルのものに表示されるものを選んでください。",
+    choices: ["Amabile", "Semi Secco", "Dolce", "Abboccato"],
+    answerIndex: 0,
+    explanation: "スティルワインで残糖12〜45g/Lに相当する表示はAmabileです。"
+  },
+  {
+    id: "italy-overview-law-009",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで栽培面積が第1位の品種を選択してください。",
+    choices: ["バルベーラ", "メルロ", "トレッビアーノ・トスカーノ", "サンジョヴェーゼ"],
+    answerIndex: 3,
+    explanation: "イタリアで栽培面積が最も大きい品種はサンジョヴェーゼです。"
+  },
+  {
+    id: "italy-overview-law-010",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「ワインは軽めのタイプが多く74%が白ワインである。白ワインの代表にエスト!・エスト!!・エスト!!!がある。」",
+    choices: ["リグーリア", "モリーゼ", "ラツィオ", "トレンティーノ・アルト・アディジェ"],
+    answerIndex: 2,
+    explanation: "エスト!・エスト!!・エスト!!!はラツィオ州を代表する白ワインです。"
+  },
+  {
+    id: "italy-overview-law-011",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの首都ローマと概ね同じ緯度に位置する日本の都市を選択してください。",
+    choices: ["東京", "釧路", "福岡", "函館"],
+    answerIndex: 3,
+    explanation: "ローマはおおむね函館と同じ緯度に位置します。"
+  },
+  {
+    id: "italy-overview-law-012",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上でLombardiaに相当する番号を選択してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    choices: ["4番", "19番", "10番", "3番"],
+    answerIndex: 0,
+    explanation: "地図上でLombardiaは4番です。"
+  },
+  {
+    id: "italy-overview-law-013",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州の州都を選択してください。",
+    choices: ["ジェノヴァ", "ペルージャ", "トリエステ", "ローマ"],
+    answerIndex: 2,
+    explanation: "フリウリ・ヴェネツィア・ジューリア州の州都はトリエステです。"
+  },
+  {
+    id: "italy-overview-law-014",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアでローマ皇帝パウルス3世のワイン担当者だった人でソムリエの元祖とも言える人を選んでください。",
+    choices: ["ピエトロ・デ・クレシェンツィ", "サンテ・ランチェリオ", "フランチェスコ・ノムリエ", "アンドレア・バッチ"],
+    answerIndex: 1,
+    explanation: "サンテ・ランチェリオはローマ皇帝パウルス3世のワイン担当者で、ソムリエの元祖ともいわれます。"
+  },
+  {
+    id: "italy-overview-law-015",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「西を地中海に接し、北と東をアペニン山脈に囲まれている。ピサ、ルッカ、アレッツォなど観光地が多くあり文化財の宝庫である。オリーブオイルの品質の高さでも有名である。」",
+    choices: ["トスカーナ", "サルデーニャ", "カラブリア", "ピエモンテ"],
+    answerIndex: 0,
+    explanation: "説明はトスカーナ州に合致します。"
+  },
+  {
+    id: "italy-overview-law-016",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「フランスとの国境からティレニア海に沿って伸びる細長い州で、州都はジェノヴァである。」",
+    choices: ["リグーリア", "アブルッツォ", "カラブリア", "ピエモンテ"],
+    answerIndex: 0,
+    explanation: "州都ジェノヴァを持つ細長い沿岸州はリグーリア州です。"
+  },
+  {
+    id: "italy-overview-law-017",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアの白ブドウの中で栽培面積が第3位の品種を選択してください。",
+    choices: ["トレッビアーノ・トスカーノ", "シャルドネ", "ピノ・グリージョ", "グレーラ"],
+    answerIndex: 0,
+    explanation: "イタリアの白ブドウで栽培面積第3位はトレッビアーノ・トスカーノです。"
+  },
+  {
+    id: "italy-overview-law-018",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、エミリア・ロマーニャ州とロンバルディア州の一部で栽培されている主要な黒ブドウ品種を選んでください。",
+    choices: ["ノジオーラ", "リボッラ・ジャッラ", "ドルチェット", "ランブルスコ"],
+    answerIndex: 3,
+    explanation: "ランブルスコはエミリア・ロマーニャ州とロンバルディア州の一部で栽培される主要な黒ブドウ品種です。"
+  },
+  {
+    id: "italy-overview-law-019",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、トスカーナ州、キアンティ・クラシコ地区およびモンタルチーノの土壌を選択してください。",
+    choices: ["ガッルーラと呼ばれる石灰質土壌", "ガレストロと呼ばれる泥灰土土壌", "ガレストロと呼ばれる火山性土壌", "ガッルーラと呼ばれる花崗岩土壌"],
+    answerIndex: 1,
+    explanation: "キアンティ・クラシコ地区やモンタルチーノでは、ガレストロと呼ばれる泥灰土土壌が重要です。"
+  },
+  {
+    id: "italy-overview-law-020",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
+    choices: ["ピエモンテ", "プーリア", "ウンブリア", "サルデーニャ"],
+    answerIndex: 2,
+    explanation: "ウンブリア州は中部イタリアに分類されます。"
+  },
+  {
+    id: "italy-overview-law-021",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、トスカーナ州に接している州を選択してください。",
+    choices: ["トレンティーノ・アルト・アディジェ州", "カンパーニア州", "エミリア・ロマーニャ州", "ロンバルディア州"],
+    answerIndex: 2,
+    explanation: "トスカーナ州は北側でエミリア・ロマーニャ州に接しています。"
+  },
+  {
+    id: "italy-overview-law-022",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    choices: ["醸造期間は醸造開始後1ヶ月以内", "アルコール度数8%以上", "DOワインとIGTワインに認められる", "収穫年の記載は任意"],
+    answerIndex: 2,
+    explanation: "Vino NovelloはDOワインとIGTワインに認められます。"
+  },
+  {
+    id: "italy-overview-law-023",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアの黒ブドウの中で栽培面積が第2位の品種を選択してください。",
+    choices: ["モンテプルチャーノ", "ネッビオーロ", "サンジョヴェーゼ", "メルロ"],
+    answerIndex: 0,
+    explanation: "イタリアの黒ブドウで栽培面積第2位はモンテプルチャーノです。"
+  },
+  {
+    id: "italy-overview-law-024",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「海に囲まれて魚介類が豊富な土地である。ワインの生産量はとても多くイタリア全州でトップ4に入る。白ワインが64%の割合を占め、アルカモやエトナといった軽めのものが有名である。」",
+    choices: ["プーリア", "トスカーナ", "トレンティーノ・アルト・アディジェ", "シチリア"],
+    answerIndex: 3,
+    explanation: "アルカモやエトナで知られる島の州はシチリア州です。"
+  },
+  {
+    id: "italy-overview-law-025",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中から地中海で一番大きな島を選択してください。",
+    choices: ["サルデーニャ島", "シチリア島", "キプロス島", "コルシカ島"],
+    answerIndex: 1,
+    explanation: "地中海最大の島はシチリア島です。"
+  },
+  {
+    id: "italy-overview-law-026",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ピエモンテ州南部で栽培されている白ブドウで、一般に若飲みのシンプルなワインを生む品種を選んでください。",
+    choices: ["コルテーゼ", "ティンティリア", "リボッラ・ジャッラ", "ノジオーラ"],
+    answerIndex: 0,
+    explanation: "コルテーゼはピエモンテ州南部で栽培され、若飲みの白ワインを生む品種です。"
+  },
+  {
+    id: "italy-overview-law-027",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ピエモンテ州で世界遺産に登録されているものを選択してください。",
+    choices: ["百の塔の町サン・ジミニャーノ", "チンクエ・テッレの海に迫る絶壁の段々畑の風景", "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観", "ドロミーティ山塊"],
+    answerIndex: 2,
+    explanation: "ピエモンテ州ではランゲ・ロエロ・モンフェッラートの葡萄畑の景観が世界遺産に登録されています。"
+  },
+  {
+    id: "italy-overview-law-028",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上でBasilicataに相当する番号を選択してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    choices: ["16番", "18番", "14番", "17番"],
+    answerIndex: 3,
+    explanation: "地図上でBasilicataは17番です。"
+  },
+  {
+    id: "italy-overview-law-029",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「西をアペニン山脈、東をアドリア海に囲まれた南北に細長い州である。アドリア海の豊富な魚介類を使ったアンコーナ風の魚のスープが有名である。」",
+    choices: ["バジリカータ", "マルケ", "プーリア", "ヴェネト"],
+    answerIndex: 1,
+    explanation: "アンコーナを州都とし、アドリア海沿いに位置するのはマルケ州です。"
+  },
+  {
+    id: "italy-overview-law-030",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「生産量は全州の中で最も少ないが個性のあるワインを造っている。山麓地帯らしく赤ワインが61%を占めている。」",
+    choices: ["ヴァッレ・ダオスタ", "カンパーニア", "カラブリア", "マルケ"],
+    answerIndex: 0,
+    explanation: "イタリアでワイン生産量が最も少ない州はヴァッレ・ダオスタ州です。"
+  },
+  {
+    id: "italy-overview-law-031",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「ティレニア海に浮かぶ大きな島で、イタリアで3番目に大きな州である。独自の文化、習慣が色濃く残り、今でも興味深い土着品種が数多く残っている。」",
+    choices: ["トスカーナ", "ピエモンテ", "サルデーニャ", "ヴェネト"],
+    answerIndex: 2,
+    explanation: "ティレニア海に浮かぶ大きな島で独自文化を持つのはサルデーニャ州です。"
+  },
+  {
+    id: "italy-overview-law-032",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの北部に東西に延びる山脈の名前を選択してください。",
+    choices: ["ピレネー山脈", "ヴォージュ山脈", "アペニン山脈", "アルプス山脈"],
+    answerIndex: 3,
+    explanation: "イタリア北部にはアルプス山脈が東西に延びています。"
+  },
+  {
+    id: "italy-overview-law-033",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州東部とスロヴェニアの白ブドウで、軽やかでフレッシュな白ワインを生む品種を選んでください。",
+    choices: ["ドルチェット", "ティンティリア", "リボッラ・ジャッラ", "サグランティーノ"],
+    answerIndex: 2,
+    explanation: "リボッラ・ジャッラはフリウリ東部やスロヴェニアで見られる白ブドウ品種です。"
+  },
+  {
+    id: "italy-overview-law-034",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで栽培面積が第3位の品種を選択してください。",
+    choices: ["トレッビアーノ・トスカーノ", "ピノ・グリージョ", "シャルドネ", "モンテプルチャーノ"],
+    answerIndex: 1,
+    explanation: "イタリアで栽培面積第3位の品種はピノ・グリージョです。"
+  },
+  {
+    id: "italy-overview-law-035",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの弱発泡性ワインの総称を選択してください。",
+    choices: ["Vino Frizzante", "Bassano del Grappa", "Limoncello", "Vermut di Torino"],
+    answerIndex: 0,
+    explanation: "イタリアの弱発泡性ワインはVino Frizzanteと呼ばれます。"
+  },
+  {
+    id: "italy-overview-law-036",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、エミリア・ロマーニャ州の州都を選択してください。",
+    choices: ["ヴェネツィア", "ペルージャ", "ボローニャ", "トリエステ"],
+    answerIndex: 2,
+    explanation: "エミリア・ロマーニャ州の州都はボローニャです。"
+  },
+  {
+    id: "italy-overview-law-037",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上でUmbriaに相当する番号を選択してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    choices: ["10番", "5番", "14番", "12番"],
+    answerIndex: 0,
+    explanation: "地図上でUmbriaは10番です。"
+  },
+  {
+    id: "italy-overview-law-038",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアでアレッツォ、フィレンツェ、プラート、ピストイア、ピサ、シエナの6県の広い地域で年間約80万ヘクトリットルを生産するワインを選択してください。",
+    choices: ["Trentino", "Soave", "Chianti", "Asti Spumante"],
+    answerIndex: 2,
+    explanation: "Chiantiはトスカーナ州の広い地域で生産される代表的なワインです。"
+  },
+  {
+    id: "italy-overview-law-039",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、マルケ州の州都を選択してください。",
+    choices: ["アンコーナ", "ボローニャ", "ペルージャ", "ポテンツァ"],
+    answerIndex: 0,
+    explanation: "マルケ州の州都はアンコーナです。"
+  },
+  {
+    id: "italy-overview-law-040",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上で8番の州名をカタカナで入力してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    answerText: "エミリア・ロマーニャ",
+    answerTextAliases: ["エミリアロマーニャ"],
+    explanation: "地図上の8番はEmilia-Romagna、カタカナではエミリア・ロマーニャです。"
+  },
+  {
+    id: "italy-overview-law-041",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
+    choices: ["アブルッツォ", "ロンバルディア", "サルデーニャ", "バジリカータ"],
+    answerIndex: 1,
+    explanation: "ロンバルディア州は北部イタリアに分類されます。"
+  },
+  {
+    id: "italy-overview-law-042",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中から、イタリアのDOP(DOCG)ワインValtellina Superioreの品種ネッビオーロの、この地方の別名を選んでください。",
+    choices: ["キアヴェンナスカ", "スパンナ", "プルニョーロ・ジェンティーレ", "モレッリーノ"],
+    answerIndex: 0,
+    explanation: "Valtellina Superioreではネッビオーロはキアヴェンナスカと呼ばれます。"
+  },
+  {
+    id: "italy-overview-law-043",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「イタリア半島をブーツに例えると土踏まずの部分にあたる。西側はティレニア海、南側はイオニア海にわずかに開けている。平地は8%にすぎずワインの生産量は少ない。」",
+    choices: ["フリウリ・ヴェネツィア・ジューリア", "ラツィオ", "バジリカータ", "プーリア"],
+    answerIndex: 2,
+    explanation: "説明はバジリカータ州に合致します。"
+  },
+  {
+    id: "italy-overview-law-044",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「白ワインの生産量が38%で赤ワインの方が多い。代表的なワインにモンテプルチャーノ種を使った赤ワインがあり、特にテラモ県、ペスカーラ県で素晴らしいワインが生産されている。」",
+    choices: ["アブルッツォ", "マルケ", "トスカーナ", "リグーリア"],
+    answerIndex: 0,
+    explanation: "モンテプルチャーノ種を使った赤ワインで知られるのはアブルッツォ州です。"
+  },
+  {
+    id: "italy-overview-law-045",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで栽培面積が第4位の品種を選択してください。",
+    choices: ["サンジョヴェーゼ", "シャルドネ", "バルベーラ", "モンテプルチャーノ"],
+    answerIndex: 3,
+    explanation: "イタリアで栽培面積第4位の品種はモンテプルチャーノです。"
+  },
+  {
+    id: "italy-overview-law-046",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "イタリアのワイン産地は石灰質土壌のところが多いが、一部火山性土壌の産地もある。次の中から火山性土壌の産地を選択してください。",
+    choices: ["エトナ", "フランチャコルタ", "バルドリーノ", "ガッルーラ"],
+    answerIndex: 0,
+    explanation: "エトナは火山性土壌の産地として知られます。"
+  },
+  {
+    id: "italy-overview-law-047",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアに本格的なブドウ栽培を伝えたとされる民族を選んでください。",
+    choices: ["ギリシャ人", "ガリア人", "エジプト人", "フェニキア人"],
+    answerIndex: 0,
+    explanation: "イタリアに本格的なブドウ栽培を伝えたとされるのはギリシャ人です。"
+  },
+  {
+    id: "italy-overview-law-048",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアで最初の原産地呼称法が公布された年を選んでください。",
+    choices: ["1935年", "1963年", "1716年", "1945年"],
+    answerIndex: 1,
+    explanation: "イタリアで最初の原産地呼称法が公布されたのは1963年です。"
+  },
+  {
+    id: "italy-overview-law-049",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ウンブリア州、ペルージャ県モンテファルコ村の周辺だけで栽培されている個性的な黒ブドウ品種を選んでください。",
+    choices: ["サグランティーノ", "ドルチェット", "ランブルスコ", "レフォスコ・ダル・ペドゥンコロ・ロッソ"],
+    answerIndex: 0,
+    explanation: "サグランティーノはウンブリア州モンテファルコ周辺で知られる黒ブドウ品種です。"
+  },
+  {
+    id: "italy-overview-law-050",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアの黒ブドウの中で栽培面積が第3位の品種を選択してください。",
+    choices: ["バルベーラ", "モンテプルチャーノ", "サンジョヴェーゼ", "メルロ"],
+    answerIndex: 0,
+    explanation: "イタリアの黒ブドウで栽培面積第3位はバルベーラです。"
+  },
+  {
+    id: "italy-overview-law-051",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    choices: ["アルコール度数8%以上", "収穫年の記載は任意", "醸造期間は醸造開始後10日以内", "収穫翌年の3月31日までに瓶詰め"],
+    answerIndex: 2,
+    explanation: "Vino Novelloでは醸造期間は醸造開始後10日以内とされています。"
+  },
+  {
+    id: "italy-overview-law-052",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「湖、川が多く水に恵まれていて、州土の70%を占める緑の丘陵地帯は『緑の心臓』と呼ばれている。」",
+    choices: ["ラツィオ", "トレンティーノ・アルト・アディジェ", "アブルッツォ", "ウンブリア"],
+    answerIndex: 3,
+    explanation: "『緑の心臓』と呼ばれるのはウンブリア州です。"
+  },
+  {
+    id: "italy-overview-law-053",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、リグーリア州の州都を選択してください。",
+    choices: ["ジェノヴァ", "ペルージャ", "アンコーナ", "ポテンツァ"],
+    answerIndex: 0,
+    explanation: "リグーリア州の州都はジェノヴァです。"
+  },
+  {
+    id: "italy-overview-law-054",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで一般的に「南部イタリア」と分類されている州を選んでください。",
+    choices: ["フリウリ・ヴェネツィア・ジューリア", "モリーゼ", "シチリア", "エミリア・ロマーニャ"],
+    answerIndex: 2,
+    explanation: "シチリア州は南部イタリアに分類されます。"
+  },
+  {
+    id: "italy-overview-law-055",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの2024年のワイン生産量順位を選択してください。",
+    choices: ["世界第4位", "世界第2位", "世界第3位", "世界第1位"],
+    answerIndex: 3,
+    explanation: "2024年のイタリアのワイン生産量順位は世界第1位です。"
+  },
+  {
+    id: "italy-overview-law-056",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。「イタリア半島をブーツに例えるとつま先の部分にあたり、ティレニア海沿岸地帯で最南端の州。ワインの生産量は少ないが、オリーブオイル生産量はイタリア第2位である。」",
+    choices: ["プーリア", "ヴェネト", "カラブリア", "リグーリア"],
+    answerIndex: 2,
+    explanation: "ブーツのつま先にあたる州はカラブリア州です。"
+  },
+  {
+    id: "italy-overview-law-057",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が4〜12グラム/リットルのものに表示されるものを選んでください。",
+    choices: ["Abboccato", "Amabile", "Asciutto", "Secco"],
+    answerIndex: 0,
+    explanation: "残糖4〜12g/Lのスティルワインの風味表示はAbboccatoです。"
+  },
+  ...[
+      { id: "001", q: "次の中からイタリア、ピエモンテ州で生産されているフレーヴァードワインを選択してください。", c: ["Nizza", "Erbaluce di Caluso", "Ruchè di Castagnole Monferrato", "Barolo Chinato"], a: 3, e: "Barolo Chinatoはピエモンテ州で生産されるフレーヴァードワインです。" },
+      { id: "002", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Barolo", "Conegliano Valdobbiadene-Prosecco", "Soave Superiore", "Asti"], a: 0, e: "Baroloは赤ワインのみが認められるDOCGです。" },
+      { id: "003", q: "次の中から主要品種がマルヴァジーア・ビアンカ・ディ・カンディアであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Torgiano Rosso Riserva", "Morellino di Scansano", "Montello Rosso", "Frascati Superiore"], a: 3, e: "Frascati Superioreはマルヴァジーア・ビアンカ・ディ・カンディアを主要品種とするDOCGです。" },
+      { id: "004", q: "次の中からイタリアのDOP(DOCG)ワインConegliano Valdobbiadene-Proseccoが生産されている州を選んでください。", c: ["ヴェネト", "トスカーナ", "カラブリア", "ピエモンテ"], a: 0, e: "Conegliano Valdobbiadene-Proseccoはヴェネト州のDOCGです。" },
+      { id: "005", q: "次の中からイタリアのDOP(DOCG)ワインAstiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["モスカート・ビアンコ", "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ", "キアヴェンナスカ", "ドルチェット"], a: 0, e: "Astiの主要品種はモスカート・ビアンコです。" },
+      { id: "006", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Colli Bolognesi Pignoletto", "Recioto di Gambellara", "Torgiano Rosso Riserva", "Lison"], a: 1, e: "Recioto di Gambellaraではスプマンテが認められています。" },
+      { id: "007", q: "次の中からイタリアで、ピーマンとトマトで煮込んだ鶏肉料理を選択してください。", c: ["Peperone Ripieno", "Pastissada de Caval", "Ossobuco", "Pollo alla Romana"], a: 3, e: "Pollo alla Romanaはピーマンとトマトで煮込むローマ風の鶏肉料理です。" },
+      { id: "008", q: "次の中からイタリアのDOP(DOCG)ワインCarmignanoの主要品種に含まれているものを選んでください。", c: ["マンゾーニ・ビアンコ", "マルヴァジーア・デル・ラツィオ", "カベルネ・ソーヴィニョン", "ベッローネ"], a: 2, e: "Carmignanoの主要品種にはカベルネ・ソーヴィニョンが含まれます。" },
+      { id: "009", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Conegliano Valdobbiadene-Prosecco", "Ramandolo", "Ruchè di Castagnole Monferrato", "Offida"], a: 2, e: "Ruchè di Castagnole Monferratoは赤ワインのみが認められるDOCGです。" },
+      { id: "010", q: "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Colli Orientali del Friuli Picolit", "Aglianico del Vulture Superiore", "Colli Euganei Fior d'Arancio", "Franciacorta", "Recioto della Valpolicella", "Rosazzo", "Aglianico del Taburno", "Gavi"], aa: [3], max: 2, e: "Franciacortaはロンバルディア州のDOCGです。" },
+      { id: "011", q: "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Terre Tollesi", "Vermentino di Gallura", "Montello Rosso", "Recioto della Valpolicella", "Vernaccia di Serrapetrona", "Montecucco Sangiovese", "Castel del Monte Rosso Riserva", "Primitivo di Manduria Dolce Naturale"], aa: [6, 7], max: 2, e: "Castel del Monte Rosso RiservaとPrimitivo di Manduria Dolce Naturaleはプーリア州のDOCGです。" },
+      { id: "012", q: "次の中からイタリアで、ピエモンテ名産のピーマンにツナ、ケッパーなどを詰めた料理を選択してください。", c: ["Carne Cruda Battuta", "Polpo alla Luciana", "Pastissada de Caval", "Peperone Ripieno"], a: 3, e: "Peperone Ripienoはピーマンにツナやケッパーなどを詰めた料理です。" },
+      { id: "013", q: "次の中からイタリア、ピエモンテ州で生産されているDOP(DOC)ワインを選んでください。", c: ["Marsala", "Orvieto", "Nebbiolo d'Alba", "Rossese di Dolceacqua"], a: 2, e: "Nebbiolo d'Albaはピエモンテ州のDOP(DOC)ワインです。" },
+      { id: "014", q: "次の中からイタリアのDOP(DOCG)ワインLisonの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["ネーロ・ダヴォラ", "アルバーナ", "タイ", "ブラケット"], a: 2, e: "Lisonの主要品種はタイです。" },
+      { id: "015", q: "次の中から主要品種がバルベーラであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Terre Alfieri", "Ghemme", "Colli di Conegliano", "Barbera d'Asti"], a: 3, e: "Barbera d'Astiはバルベーラを主要品種とするDOCGです。" },
+      { id: "016", q: "次の中から主要品種がガルガネガであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Chianti Classico", "Castelli di Jesi Verdicchio Riserva", "Recioto di Soave", "Alta Langa"], a: 2, e: "Recioto di Soaveはガルガネガを主要品種とするDOCGです。" },
+      { id: "017", q: "次の中からイタリアのDOP(DOCG)ワインCannellino di Frascatiが生産されている州を選んでください。", c: ["ラツィオ", "トスカーナ", "ヴェネト", "プーリア"], a: 0, e: "Cannellino di Frascatiはラツィオ州のDOCGです。" },
+      { id: "018", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Valtellina Superiore", "Suvereto", "Carmignano", "Vermentino di Gallura"], a: 3, e: "Vermentino di Galluraではスプマンテが認められています。" },
+      { id: "019", q: "次の中からイタリアのDOP(DOCG)ワインAsoloの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["フリウラーノ", "グレーラ", "モスカート・ディ・スカンツォ", "コルテーゼ"], a: 1, e: "Asoloの主要品種はグレーラです。" },
+      { id: "020", q: "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。", c: ["Vermentino di Gallura", "Soave Superiore", "Barolo", "Piave Malanotte"], a: 2, e: "Baroloは1981年にDOCGへ昇格しました。" },
+      { id: "021", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Asolo", "Barbera del Monferrato Superiore", "Lison", "Vino Nobile di Montepulciano"], a: 0, e: "Asoloではスプマンテが認められています。" },
+      { id: "022", q: "次の中から主要品種がドルチェットであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Vernaccia di Serrapetrona", "Brunello di Montalcino", "Recioto di Gambellara", "Dolcetto di Ovada Superiore"], a: 3, e: "Dolcetto di Ovada Superioreはドルチェットを主要品種とするDOCGです。" },
+      { id: "023", q: "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。", c: ["Colline Teramane Montepulciano d'Abruzzo", "Fiano di Avellino", "Ruchè di Castagnole Monferrato", "Barbaresco"], a: 3, e: "Barbarescoは1981年にDOCGへ昇格しました。" },
+      { id: "024", q: "次の中からイタリア、トスカーナ州のDOP(DOCG)ワインの産地を北から南の順序で正しく並べたものを選択してください。", c: ["Vino Nobile di Montepulciano, Morellino di Scansano, Carmignano, Vernaccia di San Gimignano", "Carmignano, Vino Nobile di Montepulciano, Vernaccia di San Gimignano, Morellino di Scansano", "Carmignano, Vernaccia di San Gimignano, Morellino di Scansano, Vino Nobile di Montepulciano", "Carmignano, Vernaccia di San Gimignano, Vino Nobile di Montepulciano, Morellino di Scansano"], a: 3, e: "北から南へ、Carmignano、Vernaccia di San Gimignano、Vino Nobile di Montepulciano、Morellino di Scansanoの順です。" },
+      { id: "025", q: "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。", c: ["Bagnoli Friularo", "Morellino di Scansano", "Barbaresco", "Fiano di Avellino"], a: 3, e: "Fiano di Avellinoは白ワインのみが認められるDOCGです。" },
+      { id: "026", q: "次の中からピエモンテ州のDOP(DOCG)ワインBarolo Riservaの最低熟成期間を選んでください。", c: ["収穫年の翌年1月1日より48ヶ月", "収穫年の11月1日より38ヶ月", "収穫年の11月1日より62ヶ月", "収穫年の11月1日より24ヶ月"], a: 2, e: "Barolo Riservaの最低熟成期間は収穫年の11月1日から62ヶ月です。" },
+      { id: "027", q: "次の中からイタリアのDOP(DOCG)ワインBarbera d'Astiが生産されている州を選んでください。", c: ["バジリカータ", "トレンティーノ・アルト・アディジェ", "モリーゼ", "ピエモンテ"], a: 3, e: "Barbera d'Astiはピエモンテ州のDOCGです。" },
+      { id: "028", q: "次の中からイタリアのDOP(DOCG)ワインAmarone della Valpolicellaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["コルヴィーナ・ヴェロネーゼ,コルヴィノーネ", "エルバルーチェ", "アリアーニコ", "フィアーノ"], a: 0, e: "Amarone della Valpolicellaの主要品種はコルヴィーナ・ヴェロネーゼおよびコルヴィノーネです。" },
+      { id: "029", q: "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。", c: ["Castel del Monte Nero di Troia Riserva", "Cesanese del Piglio", "Colli Orientali del Friuli Picolit", "Aglianico del Taburno"], a: 2, e: "Colli Orientali del Friuli Picolitは白ワインのみが認められるDOCGです。" },
+      { id: "030", q: "次の中からイタリアのDOP(DOCG)ワインChiantiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["シャルドネ,ピノ・ネーロ", "ブルネッロ", "サンジョヴェーゼ", "スパンナ"], a: 2, e: "Chiantiの主要品種はサンジョヴェーゼです。" },
+      { id: "041", q: "次の中からイタリア、カンパーニア州で最古のDOCGを選んでください。", c: ["Taurasi", "Greco di Tufo", "Aglianico del Taburno", "Fiano di Avellino"], a: 0, e: "カンパーニア州で最古のDOCGはTaurasiです。" },
+      { id: "042", q: "次のイタリアのDOP(DOCG)ワインの中で甘口ワインに該当するものを入力してください。選択肢: Ruchè di Castagnole Monferrato / Montecucco Sangiovese / Moscato di Scanzo / Montello Rosso", t: "Moscato di Scanzo", aliases: ["モスカート・ディ・スカンツォ", "モスカートディスカンツォ"], e: "Moscato di Scanzoは甘口ワインのDOCGです。" },
+      { id: "043", q: "次の中からイタリアのDOP(DOCG)ワインRosso della Val di Corniaの主要品種に含まれているものを選んでください。", c: ["ピノ・ビアンコ", "ネッビオーロ", "ペコリーノ", "カベルネ・ソーヴィニョン"], a: 3, e: "Rosso della Val di Corniaの主要品種にはカベルネ・ソーヴィニョンが含まれます。" },
+      { id: "044", q: "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiが生産されている州を選んでください。", c: ["フリウリ・ヴェネツィア・ジューリア", "カンパーニア", "ヴェネト", "ピエモンテ"], a: 3, e: "Brachetto d'Acquiはピエモンテ州のDOCGです。" },
+      { id: "045", q: "次の中からカリフォルニアのジンファンデルと同じ品種からDOP(DOCG)ワインが生産されている州を選択してください。", c: ["リグーリア", "プーリア", "ロンバルディア", "ウンブリア"], a: 1, e: "ジンファンデルと同系統のプリミティーヴォはプーリア州で重要です。" },
+      { id: "047", q: "次のイタリア、トスカーナ州のDOPワインの中から産地がフィレンツェとシエナの間に位置するものを選んでください。", c: ["Brunello di Montalcino", "Carmignano", "Chianti Classico", "Morellino di Scansano"], a: 2, e: "Chianti Classicoはフィレンツェとシエナの間に位置します。" },
+      { id: "048", q: "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Recioto della Valpolicella", "Franciacorta", "Bardolino Superiore", "Asti", "Dolcetto di Diano d'Alba", "Dolcetto di Ovada Superiore", "Taurasi", "Chianti Classico"], aa: [6], max: 2, e: "Taurasiはカンパーニア州のDOCGです。" },
+      { id: "049", q: "次の中から主要品種がタイであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Chianti", "Amarone della Valpolicella", "Roero", "Lison"], a: 3, e: "Lisonの主要品種はタイです。" },
+      { id: "050", q: "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Cesanese del Piglio", "Franciacorta", "Rosso della Val di Cornia", "Barbera del Monferrato Superiore", "Carmignano", "Aglianico del Vulture Superiore", "Erbaluce di Caluso", "Colline Teramane Montepulciano d'Abruzzo"], aa: [2, 4], max: 2, e: "Rosso della Val di CorniaとCarmignanoはトスカーナ州のDOCGです。" },
+      { id: "051", q: "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。", c: ["Ruchè di Castagnole Monferrato", "Cerasuolo di Vittoria", "Barbaresco", "Primitivo di Manduria Dolce Naturale"], a: 3, e: "Primitivo di Manduria Dolce Naturaleは甘口ワインのDOCGです。" },
+      { id: "052", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Gavi", "Dolcetto di Ovada Superiore", "Terre Tollesi", "Romagna Albana"], a: 1, e: "Dolcetto di Ovada Superioreは赤ワインのみが認められるDOCGです。" },
+      { id: "053", q: "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。", c: ["Nizza", "Rosazzo", "Barbera d'Asti", "Colline Teramane Montepulciano d'Abruzzo"], a: 1, e: "Rosazzoは白ワインのみが認められるDOCGです。" },
+      { id: "055", q: "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Montello Rosso", "Rosazzo", "Colli Bolognesi Pignoletto", "Offida", "Frascati Superiore", "Elba Aleatico Passito", "Chianti", "Cirò Classico"], aa: [3], max: 2, e: "Offidaはマルケ州のDOCGです。" },
+      { id: "056", q: "次の中からイタリア、モリーゼ州で生産されているDOP(DOC)ワインを選んでください。", c: ["Est! Est!! Est!!! di Montefiascone", "Biferno", "Barbera d'Alba", "Etna"], a: 1, e: "Bifernoはモリーゼ州のDOP(DOC)ワインです。" },
+      { id: "057", q: "次の中からエレガントで優しい個性から「ピエモンテの女王」と称されるピエモンテ州のDOP(DOCG)ワインを選んでください。", c: ["Barolo", "Barbaresco", "Nizza", "Terre Alfieri"], a: 1, e: "Barbarescoはエレガントな個性から「ピエモンテの女王」と称されます。" },
+      { id: "058", q: "次の中からイタリアのDOP(DOCG)ワインErbaluce di Calusoが生産されている州を選んでください。", c: ["ピエモンテ", "ロンバルディア", "カンパーニア", "カラブリア"], a: 0, e: "Erbaluce di Calusoはピエモンテ州のDOCGです。" },
+      { id: "059", q: "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Dogliani", "Amarone della Valpolicella", "Brachetto d'Acqui", "Greco di Tufo", "Valtellina Superiore", "Cònero", "Asolo", "Dolcetto di Ovada Superiore"], aa: [3], max: 2, e: "Greco di Tufoはカンパーニア州のDOCGです。" },
+      { id: "061", q: "次の中からイタリアのDOP(DOCG)ワインCarmignanoが生産されている州を選んでください。", c: ["ピエモンテ", "ヴェネト", "トスカーナ", "ヴァッレ・ダオスタ"], a: 2, e: "Carmignanoはトスカーナ州のDOCGです。" },
+      { id: "062", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Soave Superiore", "Asolo", "Vermentino di Gallura", "Barbera d'Asti"], a: 3, e: "Barbera d'Astiは赤ワインのみが認められるDOCGです。" },
+      { id: "063", q: "次の中からイタリアのDOP(DOCG)ワインValtellina Superioreが生産されている州を選んでください。", c: ["モリーゼ", "ロンバルディア", "カンパーニア", "トレンティーノ・アルト・アディジェ"], a: 1, e: "Valtellina Superioreはロンバルディア州のDOCGです。" },
+      { id: "064", q: "次のイタリアDOPワインの中から、イギリス人ジョン・ウッドハウスが1773年に白ワインにアルコールを添加して造ったワインを選んでください。", c: ["Marsala", "Valpolicella Ripasso", "Malvasia di Bosa", "Barbera d'Alba"], a: 0, e: "Marsalaはジョン・ウッドハウスにより酒精強化ワインとして発展しました。" },
+      { id: "066", q: "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["ヴェルディッキオ", "エルバルーチェ", "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ", "アリアーニコ"], a: 0, e: "Castelli di Jesi Verdicchio Riservaの主要品種はヴェルディッキオです。" },
+      { id: "067", q: "次のイタリアのDOP(DOCG)ワインの中から赤白両方のワインが認められているものを選んでください。", c: ["Nizza", "Barbera del Monferrato Superiore", "Roero", "Verdicchio di Matelica Riserva"], a: 2, e: "Roeroは赤白両方のワインが認められるDOCGです。" },
+      { id: "069", q: "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Morellino di Scansano", "Asti", "Vernaccia di San Gimignano", "Fiano di Avellino", "Gattinara", "Aglianico del Vulture Superiore", "Offida", "Chianti"], aa: [1, 4], max: 2, e: "AstiとGattinaraはピエモンテ州のDOCGです。" },
+      { id: "071", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Roero", "Brunello di Montalcino", "Bardolino Superiore", "Gattinara"], a: 0, e: "Roeroではスプマンテが認められています。" },
+      { id: "073", q: "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["アレアティコ", "コルヴィーナ・ヴェロネーゼ", "サンジョヴェーゼ", "ブラケット"], a: 3, e: "Brachetto d'Acquiの主要品種はブラケットです。" },
+      { id: "077", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Romagna Albana", "Colli Euganei Fior d'Arancio", "Castel del Monte Rosso Riserva", "Castel del Monte Nero di Troia Riserva"], a: 1, e: "Colli Euganei Fior d'Arancioではスプマンテが認められています。" },
+      { id: "078", q: "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Montefalco Sagrantino", "Vernaccia di Serrapetrona", "Valtellina Superiore", "Cirò Classico", "Cònero", "Romagna Albana", "Soave Superiore", "Chianti"], aa: [1, 4], max: 2, e: "Vernaccia di SerrapetronaとCòneroはマルケ州のDOCGです。" },
+      { id: "079", q: "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Rosazzo", "Brunello di Montalcino", "Moscato di Scanzo", "Terre Tollesi", "Bagnoli Friularo", "Chianti Classico", "Castel del Monte Rosso Riserva", "Castel del Monte Bombino Nero"], aa: [6, 7], max: 2, e: "Castel del Monte Rosso RiservaとCastel del Monte Bombino Neroはプーリア州のDOCGです。" },
+      { id: "081", q: "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。", c: ["Cirò Classico", "Vernaccia di San Gimignano", "Cesanese del Piglio", "Aglianico del Vulture Superiore"], a: 1, e: "Vernaccia di San Gimignanoは白ワインのみが認められるDOCGです。" },
+      { id: "082", q: "次の中からイタリアのDOP(DOCG)ワインRamandoloが生産されている州を選んでください。", c: ["フリウリ・ヴェネツィア・ジューリア", "ウンブリア", "カンパーニア", "ヴェネト"], a: 0, e: "Ramandoloはフリウリ・ヴェネツィア・ジューリア州のDOCGです。" },
+      { id: "084", q: "次のイタリアのDOP(DOCG)ワインの中から赤白両方のワインが認められているものを選んでください。", c: ["Colli di Conegliano", "Fiano di Avellino", "Colli Orientali del Friuli Picolit", "Gattinara"], a: 0, e: "Colli di Coneglianoは赤白両方のワインが認められるDOCGです。" },
+      { id: "085", q: "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Dolcetto di Diano d'Alba", "Castel del Monte Rosso Riserva", "Nizza", "Torgiano Rosso Riserva", "Vermentino di Gallura", "Franciacorta", "Chianti", "Elba Aleatico Passito"], aa: [0, 2], max: 2, e: "Dolcetto di Diano d'AlbaとNizzaはピエモンテ州のDOCGです。" },
+      { id: "087", q: "次の中から主要品種がネーロ・ダヴォラであるイタリアのDOP(DOCG)ワインを選択してください。", c: ["Asti", "Cerasuolo di Vittoria", "Barbaresco", "Lison"], a: 1, e: "Cerasuolo di Vittoriaはネーロ・ダヴォラを主要品種に含むDOCGです。" },
+      { id: "088", q: "次の中からイタリアのDOP(DOCG)ワインGreco di Tufoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["フリウラーノ", "サンジョヴェーゼ", "グレーコ", "プルニョーロ・ジェンティーレ"], a: 2, e: "Greco di Tufoの主要品種はグレーコです。" },
+      { id: "089", q: "次の中からイタリア、シチリア州で古木に用いられている伝統的な仕立て方を選んでください。", c: ["クルラ", "テンドーネ", "アルベレッロ", "ペルゴラ"], a: 2, e: "シチリア州の古木にはアルベレッロ仕立てが用いられます。" },
+      { id: "090", q: "次の中からイタリア、ラツィオ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Brachetto d'Acqui", "Franciacorta", "Cerasuolo di Vittoria", "Dolcetto di Diano d'Alba", "Frascati Superiore", "Oltrepò Pavese Metodo Classico", "Colline Teramane Montepulciano d'Abruzzo", "Cesanese del Piglio"], aa: [4, 7], max: 2, e: "Frascati SuperioreとCesanese del Piglioはラツィオ州のDOCGです。" },
+      { id: "091", q: "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。", c: ["Morellino di Scansano", "Conegliano Valdobbiadene-Prosecco", "Castel del Monte Nero di Troia Riserva", "Dogliani"], a: 1, e: "Conegliano Valdobbiadene-Proseccoではスプマンテが認められています。" },
+      { id: "092", q: "次の中からイタリア、ラツィオ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Colli Bolognesi Pignoletto", "Barbaresco", "Sforzato di Valtellina", "Piave Malanotte", "Rosso della Val di Cornia", "Erbaluce di Caluso", "Cannellino di Frascati", "Cesanese del Piglio"], aa: [6, 7], max: 2, e: "Cannellino di FrascatiとCesanese del Piglioはラツィオ州のDOCGです。" },
+      { id: "093", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Offida", "Castelli di Jesi Verdicchio Riserva", "Ramandolo", "Castel del Monte Rosso Riserva"], a: 3, e: "Castel del Monte Rosso Riservaは赤ワインのみが認められるDOCGです。" },
+      { id: "094", q: "次の中からイタリアのDOP(DOCG)ワインVerdicchio di Matelica Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。", c: ["フィアーノ", "ガルガネガ", "アリアーニコ", "ヴェルディッキオ"], a: 3, e: "Verdicchio di Matelica Riservaの主要品種はヴェルディッキオです。" },
+      { id: "095", q: "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。", c: ["Castel del Monte Rosso Riserva", "Elba Aleatico Passito", "Taurasi", "Romagna Albana", "Alta Langa", "Colli Bolognesi Pignoletto", "Bagnoli Friularo", "Suvereto"], aa: [1, 7], max: 2, e: "Elba Aleatico PassitoとSuveretoはトスカーナ州のDOCGです。" },
+      { id: "096", q: "次の中からイタリアのDOP(DOCG)ワインFranciacortaの主要品種に含まれているものを選んでください。", c: ["モスカート", "ピノ・グリージョ", "ガルガネガ", "ピノ・ビアンコ"], a: 3, e: "Franciacortaの主要品種にはピノ・ビアンコが含まれます。" },
+      { id: "099", q: "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。", c: ["Gattinara", "Ghemme", "Dolcetto di Diano d'Alba", "Elba Aleatico Passito"], a: 3, e: "Elba Aleatico Passitoは甘口ワインのDOCGです。" }
+    ].map((item) => {
+      const base = {
+        id: `italy-docg-doc-${item.id}`,
+        category: "イタリア/DOCG、DOC",
+        importance: "A",
+        question: item.q,
+        explanation: item.e
+      };
+      if (item.t) {
+        return {
+          ...base,
+          answerText: item.t,
+          answerTextAliases: item.aliases || []
+        };
+      }
+      return {
+        ...base,
+        choices: item.c,
+        ...(item.aa ? { answerIndexes: item.aa, maxSelections: item.max || item.aa.length } : { answerIndex: item.a })
+      };
+    }),
+  ...[
+    { id: "001", q: "次の中からドイツの交配品種ショイレーベの親を選択してください。", c: ["ミュラー・トゥルガウ", "ブケットトラウベ", "ヘロルトレーベ", "ポルトギーザー"], a: 1, e: "ショイレーベの親にはブケットトラウベが含まれます。" },
+    { id: "002", q: "次のドイツワインに関する記述の中から正しいものを選択してください。", c: ["赤ワイン用ブドウ品種の栽培面積は、2005年以降増加を続けている。", "ドイツ全体で見てみると、近年増えているのはハイブリッド系の交配品種である。", "ドイツではメルロやカベルネ・ソーヴィニョンはほとんど栽培されていない。", "1995〜2024年の間で、ミュラー・トゥルガウの栽培面積は大幅に減少した。"], a: 3, e: "1995〜2024年の間で、ミュラー・トゥルガウの栽培面積は大きく減少しました。" },
+    { id: "003", q: "次の中からドイツのQualitätsweinで必要な最低アルコール度数を選択してください。", c: ["8.5%", "5.5%", "9.5%", "7.0%"], a: 3, e: "ドイツのQualitätsweinで必要な最低アルコール度数は7.0%です。" },
+    { id: "004", q: "次の中からドイツの黒ブドウ品種で栽培面積が第2位のものを選択してください。", c: ["ポルトギーザー", "シュヴァルツリースリング", "シュペートブルグンダー", "ドルンフェルダー"], a: 3, e: "ドイツの黒ブドウ品種で栽培面積第2位はドルンフェルダーです。" },
+    { id: "005", q: "次の中からスキアーヴァのシノニム（同一異名品種）を選択してください。", c: ["シュヴァルツリースリング", "トロリンガー", "ミュラー・トゥルガウ", "ピノ・ムニエ"], a: 1, e: "スキアーヴァはドイツではトロリンガーの名でも知られます。" },
+    { id: "006", q: "次の中から2021年改正のドイツワイン法で正しい記述を選択してください。", c: ["Großes GewächsまたはErstes Gewächsに格付けされた場合、肩書き（Prädikat）は表記しない", "Einzellageを名乗る場合、GemeindeまたはOrtsteilの名は併記できない", "地理的表示保護ワインは、trockenまたはhalbtrockenのみに制限される", "格付けの基準が、地理的呼称範囲から収穫時の果汁糖度に変わる"], a: 0, e: "Großes GewächsまたはErstes Gewächsでは、肩書き（Prädikat）は表記しません。" },
+    { id: "007", q: "次の中からドイツの病害抵抗性を持つ交配品種（PIWI）を選択してください。", c: ["ムスカリス", "ミュラー・トゥルガウ", "レンベルガー", "ケルナー"], a: 0, e: "ムスカリスは病害抵抗性を持つPIWI品種です。" },
+    { id: "008", q: "ドイツワインの歴史上で次の出来事が起きた年代を選択してください。「フランス革命後、モーゼルのブドウ畑の格付け地図が出版された。」", c: ["1868年", "1892年", "1935年", "1867年"], a: 0, e: "モーゼルのブドウ畑の格付け地図は1868年に出版されました。" },
+    { id: "009", q: "次の中からドイツのQualitätsweinについての適切な記述を選択してください。", c: ["補糖は一切認められない", "一部地域を除き、甘口と中辛口のみ許可されている", "収穫時のブドウの状態、果汁糖度、ワインのスタイルによって6段階の肩書きがある", "13の特定ワイン生産地域のいずれか一つのブドウを100%用いる"], a: 3, e: "Qualitätsweinは13の特定ワイン生産地域のいずれか一つのブドウを100%用います。" },
+    { id: "010", q: "次の中からドイツの交配品種ドミナの親を選択してください。", c: ["ミュラー・トゥルガウ", "ジルヴァーナー", "ブケットトラウベ", "ポルトギーザー"], a: 3, e: "ドミナの親にはポルトギーザーが含まれます。" },
+    { id: "011", q: "次の中からドイツの白ブドウ品種を選択してください。", c: ["ショイレーベ", "シュペートブルグンダー", "トロリンガー", "ポルトギーザー"], a: 0, e: "ショイレーベはドイツの白ブドウ品種です。" },
+    { id: "012", q: "次の中からルーレンダーのシノニム（同一異名品種）を選択してください。", c: ["ミュラー・トゥルガウ", "グラウブルグンダー", "フェルナッチ", "リヴァーナー"], a: 1, e: "ルーレンダーはグラウブルグンダーのシノニムです。" },
+    { id: "013", q: "次の説明に合致する、ドイツのPrädikatsweinの肩書きを選択してください。「最低果汁糖度70〜85°Oe、繊細で軽いスタイルのワインであることが期待される。」", c: ["Kabinett", "Trockenbeerenauslese", "Spätlese", "Auslese"], a: 0, e: "Kabinettは繊細で軽いスタイルが期待されるPrädikatです。" },
+    { id: "014", q: "次の中からドイツの交配品種バッフスの親を選択してください。", c: ["マドレーヌ・ロワイヤル", "ジルヴァーナー", "ヘロルトレーベ", "ポルトギーザー"], a: 1, e: "バッフスの親にはジルヴァーナーが含まれます。" },
+    { id: "015", q: "次の中からドイツの白ブドウが栽培面積に占める比率を選択してください。", c: ["約6割", "約5割", "約8割", "約7割"], a: 3, e: "ドイツでは白ブドウが栽培面積の約7割を占めます。" },
+    { id: "016", q: "次の中からドイツのブドウ品種で栽培面積が第1位のものを選択してください。", c: ["リースリング", "ポルトギーザー", "シュペートブルグンダー", "ミュラー・トゥルガウ"], a: 0, e: "ドイツで栽培面積第1位の品種はリースリングです。" },
+    { id: "017", q: "ドイツワインの歴史上で次の出来事が起きた年代を選択してください。「18世紀以降ブドウ栽培が改善され、エーバーバッハ修道院が所有するシュタインベルクで貴腐ブドウの収穫が行われた。」", c: ["1720年", "1775年", "1753年", "1786年"], a: 2, e: "シュタインベルクで貴腐ブドウの収穫が行われたのは1753年です。" },
+    { id: "018", q: "次の中から2021年改正のドイツワイン法で正しい記述を選択してください。", c: ["Großes GewächsまたはErstes Gewächsに格付けされた場合、肩書き（Prädikat）を必ず表記する", "Großlageを名乗る場合には、Bereichという語を併記する", "地理的表示保護ワインは、trockenまたはhalbtrockenのみに制限される", "原産地呼称保護ワインの生産条件は、現行のQualitätsweinと同じである"], a: 3, e: "2021年改正では、原産地呼称保護ワインの生産条件は現行のQualitätsweinと同じです。" },
+    { id: "019", q: "次の中からドイツの白ブドウ品種で栽培面積が第3位のものを選択してください。", c: ["リースリング", "グラウブルグンダー", "ミュラー・トゥルガウ", "ジルヴァーナー"], a: 1, e: "ドイツの白ブドウ品種で栽培面積第3位はグラウブルグンダーです。" },
+    { id: "020", q: "次の中からピノ・グリのシノニム（同一異名品種）を選択してください。", c: ["ピノ・ノワール", "ルーレンダー", "フェルナッチ", "リヴァーナー"], a: 1, e: "ピノ・グリはドイツではルーレンダーとも呼ばれます。" },
+    { id: "021", q: "次の中からドイツの白ブドウ品種を選択してください。", c: ["ドルンフェルダー", "レゲント", "ポルトギーザー", "リースリング"], a: 3, e: "リースリングはドイツを代表する白ブドウ品種です。" },
+    { id: "022", q: "次の中からドイツのブドウ品種で栽培面積が第3位のものを選択してください。", c: ["ポルトギーザー", "リースリング", "シュペートブルグンダー", "ミュラー・トゥルガウ"], a: 3, e: "ドイツで栽培面積第3位の品種はミュラー・トゥルガウです。" },
+    { id: "023", q: "次の中からブラウフレンキッシュのシノニム（同一異名品種）を選択してください。", c: ["スキアーヴァ", "グラウブルグンダー", "ミュラー・トゥルガウ", "レンベルガー"], a: 3, e: "ブラウフレンキッシュはドイツではレンベルガーとも呼ばれます。" },
+    { id: "024", q: "次の中からドイツの交配品種レゲントの親を選択してください。", c: ["シュペートブルグンダー", "シャンボールサン", "ヘルフェンシュタイナー", "ブケットトラウベ"], a: 1, e: "レゲントの親にはシャンボールサンが含まれます。" },
+    { id: "025", q: "ドイツワインの歴史上で次の出来事が起きた年代を選択してください。「フランス革命後、ラインガウのブドウ畑の格付け地図が出版された。」", c: ["1945年", "1867年", "1935年", "1892年"], a: 1, e: "ラインガウのブドウ畑の格付け地図は1867年に出版されました。" },
+    { id: "026", q: "次の中から2021年改正のドイツワイン法で、略称 g.g.A. が意味するものを選択してください。", c: ["EUワイン", "地理的表示のないワイン", "地理的表示保護ワイン", "原産地呼称保護ワイン"], a: 2, e: "g.g.A.は地理的表示保護ワインを意味します。" },
+    { id: "027", q: "次の中からドイツのTrockenbeerenausleseの原料ブドウに必要な最低果汁糖度を選択してください。", c: ["150〜154°Oe", "180〜194°Oe", "210〜225°Oe", "80〜95°Oe"], a: 0, e: "Trockenbeerenausleseに必要な最低果汁糖度は150〜154°Oeです。" },
+    { id: "028", q: "次の中からドイツワインのBestimmte Anbaugebieteの数を選択してください。", c: ["13", "153", "51", "42"], a: 0, e: "ドイツのBestimmte Anbaugebieteは13です。" },
+    { id: "029", q: "次の中からドイツの白ブドウ品種を選択してください。", c: ["ポルトギーザー", "ヴァイスブルグンダー", "シュペートブルグンダー", "レンベルガー"], a: 1, e: "ヴァイスブルグンダーはドイツの白ブドウ品種です。" },
+    { id: "030", q: "次の説明に合致する、ドイツのPrädikatsweinの肩書きを選択してください。「樹上で凍結したブドウを、凍結した状態で圧搾し醸造する。」", c: ["Trockenbeerenauslese", "Beerenauslese", "Eiswein", "Spätlese"], a: 2, e: "樹上で凍結したブドウを凍結したまま圧搾して造るのはEisweinです。" },
+    { id: "032", q: "次の中からドイツの病害抵抗性を持つ交配品種（PIWI）を選択してください。", c: ["レゲント", "ドミナ", "ドルンフェルダー", "ジルヴァーナー"], a: 0, e: "レゲントは病害抵抗性を持つPIWI品種です。" },
+    { id: "034", q: "次の中からドイツの黒ブドウ品種で栽培面積が第1位のものを選択してください。", c: ["シュペートブルグンダー", "トロリンガー", "シュヴァルツリースリング", "ドルンフェルダー"], a: 0, e: "ドイツの黒ブドウ品種で栽培面積第1位はシュペートブルグンダーです。" },
+    { id: "035", q: "次の中からドイツの2021年のワイン生産量順位を選択してください。", c: ["世界第8位", "世界第9位", "世界第6位", "世界第10位"], a: 1, e: "ドイツの2021年のワイン生産量順位は世界第9位です。" },
+    { id: "037", q: "次の中からドイツの交配品種ドミナの親を選択してください。", c: ["ヘルフェンシュタイナー", "ヘロルトレーベ", "シュペートブルグンダー", "ジルヴァーナー"], a: 2, e: "ドミナの親にはシュペートブルグンダーが含まれます。" },
+    { id: "038", q: "次の中からドイツのBeerenausleseで必要な最低アルコール度数を選択してください。", c: ["9.5%", "7.0%", "5.5%", "8.5%"], a: 2, e: "Beerenausleseで必要な最低アルコール度数は5.5%です。" },
+    { id: "041", q: "次の中から2021年改正のドイツワイン法で正しい記述を選択してください。", c: ["原産地呼称保護ワインは、g.U.とQualitätsweinの両方を必ず表記する", "GemeindeまたはOrtsteilを名乗る場合、現行のSpätlese以上の果汁糖度が必要である", "Großlageを名乗る場合には、Bereichという語を併記する", "格付けの基準が、収穫時の果汁糖度から地理的呼称範囲に変わる"], a: 3, e: "2021年改正では、格付けの基準が収穫時の果汁糖度から地理的呼称範囲へ変わりました。" },
+    { id: "042", q: "次の中からドイツの黒ブドウ品種を選択してください。", c: ["ショイレーベ", "ミュラー・トゥルガウ", "ジルヴァーナー", "シュペートブルグンダー"], a: 3, e: "シュペートブルグンダーはドイツの黒ブドウ品種です。" },
+    { id: "043", q: "ドイツワインの歴史上で次の出来事が起きた年代を選択してください。「18世紀以降ブドウ栽培が改善され、ラインガウのヨハニスベルク修道院でリースリングが大量に植樹された。」", c: ["1753年", "1775年", "1786年", "1720年"], a: 3, e: "ヨハニスベルク修道院でリースリングが大量に植樹されたのは1720年です。" },
+    { id: "044", q: "次の中からドイツワインのBereicheの数を選択してください。", c: ["42", "8", "51", "26"], a: 2, e: "ドイツワインのBereicheは51です。" },
+    { id: "045", q: "次の中からドイツの交配品種ドルンフェルダーの親を選択してください。", c: ["ヘロルトレーベ", "シュペートブルグンダー", "ジルヴァーナー", "リースリング"], a: 0, e: "ドルンフェルダーの親にはヘロルトレーベが含まれます。" },
+    { id: "047", q: "次の中からレンベルガーのシノニム（同一異名品種）を選択してください。", c: ["ラインリースリング", "ブラウフレンキッシュ", "リヴァーナー", "ピノ・グリ"], a: 1, e: "レンベルガーはブラウフレンキッシュのシノニムです。" },
+    { id: "049", q: "ドイツワインの歴史上で次の出来事が起きた年代を選択してください。「格付けシステムが根本的に変わり、収穫時の果汁糖度に応じて格が上がることになった。」", c: ["1971年", "1964年", "2003年", "1945年"], a: 0, e: "収穫時の果汁糖度に応じる格付けシステムは1971年に導入されました。" },
+    { id: "052", q: "次の中からグラウブルグンダーのシノニム（同一異名品種）を選択してください。", c: ["ピノ・ムニエ", "スキアーヴァ", "ヴァイスブルグンダー", "ルーレンダー"], a: 3, e: "グラウブルグンダーはルーレンダーのシノニムです。" },
+    { id: "053", q: "次の中からドイツの交配品種ミュラー・トゥルガウの親を選択してください。", c: ["ジルヴァーナー", "ポルトギーザー", "マドレーヌ・ロワイヤル", "シャンボールサン"], a: 2, e: "ミュラー・トゥルガウの親にはマドレーヌ・ロワイヤルが含まれます。" },
+    { id: "054", q: "次の中からドイツの病害抵抗性を持つ交配品種（PIWI）を選択してください。", c: ["ドルンフェルダー", "シュペートブルグンダー", "ドミナ", "カベルネ・ブラン"], a: 3, e: "カベルネ・ブランは病害抵抗性を持つPIWI品種です。" },
+    { id: "056", q: "次の中から2021年改正のドイツのワイン法で、格付けを上位から下位の順序で正しく並べたものを選択してください。", c: ["Einzellage, BereichまたはRegion, GemeindeまたはOrtsteil, Anbaugebiet", "BereichまたはRegion, Anbaugebiet, GemeindeまたはOrtsteil, Einzellage", "Anbaugebiet, Einzellage, GemeindeまたはOrtsteil, BereichまたはRegion", "Einzellage, GemeindeまたはOrtsteil, BereichまたはRegion, Anbaugebiet"], a: 3, e: "上位からEinzellage、GemeindeまたはOrtsteil、BereichまたはRegion、Anbaugebietの順です。" },
+    { id: "057", q: "次の中からドイツの黒ブドウ品種を選択してください。", c: ["レンベルガー", "バッフス", "グラウブルグンダー", "ショイレーベ"], a: 0, e: "レンベルガーはドイツの黒ブドウ品種です。" },
+    { id: "058", q: "次の説明に合致する、ドイツのPrädikatsweinの肩書きを選択してください。「最低果汁糖度80〜95°Oe、遅くまで待ち、完熟したブドウを用いる。」", c: ["Spätlese", "Eiswein", "Trockenbeerenauslese", "Auslese"], a: 0, e: "Spätleseは遅くまで待ち、完熟したブドウを用いる肩書きです。" },
+    { id: "059", q: "次の中からミュラーレーベのシノニム（同一異名品種）を選択してください。", c: ["シュペートブルグンダー", "ラインリースリング", "ピノ・ムニエ", "ヴァイスブルグンダー"], a: 2, e: "ミュラーレーベはピノ・ムニエのシノニムです。" },
+    { id: "061", q: "次の中からドイツの交配品種ミュラー・トゥルガウの親を選択してください。", c: ["ミュラー・トゥルガウ", "リースリング", "ヘルフェンシュタイナー", "ブケットトラウベ"], a: 1, e: "ミュラー・トゥルガウの親にはリースリングが含まれます。" },
+    { id: "064", q: "次の中からドイツのQualitätsweinについての適切な記述を選択してください。", c: ["アルコール度数を補うための補糖は可能", "収穫時のブドウの状態、果汁糖度、ワインのスタイルによって6段階の肩書きがある", "一部地域を除き、甘口と中辛口のみ許可されている", "26の特定ワイン生産地域のいずれか一つのブドウを100%用いる"], a: 0, e: "Qualitätsweinではアルコール度数を補うための補糖が可能です。" }
+  ].map((item) => ({
+    id: `germany-overview-law-${item.id}`,
+    category: "ドイツ/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: item.q,
+    choices: item.c,
+    answerIndex: item.a,
+    explanation: item.e
+  })),
+  ...[
+    { id: "001", q: "次のドイツのラインガウ地方の村の中で、最も西に位置するものを選択してください。", c: ["Erbach", "Hochheim", "Kiedrich", "Lorch"], a: 3, e: "ラインガウ地方の村の中で、Lorchは最も西に位置します。" },
+    { id: "002", q: "次の説明に合致するドイツの生産地域を選択してください。「ポーランド国境近くのエルベ川沿いに位置する産地。州都ドレスデンにも近い。ボーリングのピンのようなボトルと、交配品種ゴルトリースリングが特産品である。」", c: ["ザクセン", "プファルツ", "フランケン", "ヘッシッシェ・ベルクシュトラーセ"], a: 0, e: "説明はザクセンに合致します。ドレスデン近郊、エルベ川沿いの産地です。" },
+    { id: "003", q: "下記の画像はドイツのワイン産地の地図です。地図上で7番の特定ワイン生産地域名をカタカナで入力してください。", t: "プファルツ", img: true, e: "地図上の7番はPfalz、カタカナではプファルツです。" },
+    { id: "004", q: "次のようなドイツ料理を選択してください。「ヴュルテンベルクの郷土料理の一つで、卵入りの太麺にチーズをおろして溶かしフライドオニオンを散らした料理」", c: ["Sauerkraut", "Käsespätzle", "Zwiebelkuchen", "Handkäse mit Musik"], a: 1, e: "Käsespätzleは太麺にチーズを絡め、フライドオニオンを散らす郷土料理です。" },
+    { id: "005", q: "次のドイツのベライヒの中からバーデン地方に属するものを選択してください。", c: ["Kaiserstuhl", "Burg Cochem", "Saar", "Johannisberg"], a: 0, e: "Kaiserstuhlはバーデン地方のベライヒです。" },
+    { id: "006", q: "次の中からドイツ、モーゼル地域のEitelsbach村に属する畑を選択してください。", c: ["Prälat", "Karthäusserhofberg", "Scharzhofberg", "Sonnenuhr"], a: 1, e: "Karthäusserhofbergはモーゼル地域Eitelsbach村に属する畑です。" },
+    { id: "007", q: "次の中からドイツ産のロゼワインを選択してください。", c: ["Schaumwein", "Schillerwein", "Sekt", "Pét-Nat"], a: 1, e: "Schillerweinはドイツ産ロゼワインの一種です。" },
+    { id: "008", q: "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、第3階級（村名入りワイン）に相当するクラスを選択してください。", c: ["Ortswein", "Großlage", "Erste Lage", "Gutswein"], a: 0, e: "VDPの第3階級、村名入りワインはOrtsweinです。" },
+    { id: "009", q: "次の中からドイツの生産地域モーゼルで最も栽培面積の大きいブドウ品種を選択してください。", c: ["ジルヴァーナー", "シュペートブルグンダー", "リースリング", "トロリンガー"], a: 2, e: "モーゼルで最も栽培面積が大きい品種はリースリングです。" },
+    { id: "010", q: "次のドイツワイン生産地域の中からRauenthal村が属する産地を選択してください。", c: ["ラインガウ", "ラインヘッセン", "ヴュルテンベルク", "ザクセン"], a: 0, e: "Rauenthal村はラインガウに属します。" },
+    { id: "011", q: "下記の画像はドイツのワイン産地の地図です。地図上で1番の特定ワイン生産地域名をカタカナで入力してください。", t: "アール", img: true, e: "地図上の1番はAhr、カタカナではアールです。" },
+    { id: "012", q: "次の説明に最もよく合致するドイツ産スパークリングワインを選択してください。「発泡性ワインで20℃で3.0気圧以上、最低アルコール度数9.5%。白・赤・生産国などの異なるワインをブレンドしたベースワインを使用できる。」", c: ["Sekt b.A.", "Schaumwein", "Pét-Nat", "Perlwein"], a: 1, e: "説明はSchaumweinに合致します。" },
+    { id: "013", q: "次の説明に合致するドイツの生産地域を選択してください。「ドイツで3番目に大きなワイン生産地域で、南北におよそ400kmにわたって細長く広がり、南はスイス国境まで達する。9つのベライヒに区分され、シュペートブルグンダーが栽培面積の約32%を占める。」", c: ["ザクセン", "ナーエ", "ヴュルテンベルク", "バーデン"], a: 3, e: "説明はバーデンに合致します。南北に長く、シュペートブルグンダーも重要です。" },
+    { id: "014", q: "次のようなドイツ料理を選択してください。「アールの郷土料理の一つで、イノシシをソテーし、赤ワインと香草を加えて蒸し煮にした料理」", c: ["Rheinischer Sauerbraten", "Wildschweinbraten", "Frankfurter Grüne Soße", "Zwiebelkuchen"], a: 1, e: "Wildschweinbratenはイノシシを使った料理です。" },
+    { id: "015", q: "次のドイツワイン生産地域の中からWürzburg村が属する産地を選択してください。", c: ["フランケン", "バーデン", "モーゼル", "プファルツ"], a: 0, e: "Würzburg村はフランケンに属します。" },
+    { id: "016", q: "次の中からドイツのラインガウ地方の村を、西から東の順序で正しく並べたものを選択してください。", c: ["Rüdesheim, Assmannshausen, Hattenheim, Johannisberg", "Johannisberg, Assmannshausen, Rüdesheim, Erbach", "Rüdesheim, Hattenheim, Assmannshausen, Johannisberg", "Rüdesheim, Johannisberg, Hattenheim, Erbach"], a: 3, e: "西から東へ、Rüdesheim、Johannisberg、Hattenheim、Erbachの順です。" },
+    { id: "017", q: "次の中からドイツ、ラインガウ地域のRauenthal村に属する畑を選択してください。", c: ["Baiken", "Steinberg", "Königin Victoriaberg", "Schloss Vollrads"], a: 0, e: "Baikenはラインガウ地域Rauenthal村に属する畑です。" },
+    { id: "018", q: "次の中からドイツの生産地域ヴュルテンベルクで最も栽培面積の大きい赤ワイン用品種を選択してください。", c: ["トロリンガー", "シュペートブルグンダー", "ポルトギーザー", "ドルンフェルダー"], a: 0, e: "ヴュルテンベルクで最も栽培面積が大きい赤ワイン用品種はトロリンガーです。" },
+    { id: "019", q: "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める品質基準の中で、VDP Große Lageの規定として適切なものを選択してください。", c: ["収穫は選別しながらの手作業", "辛口ワインのみに認められる", "村名と認定畑名を合わせて記載する", "ヘクタール当たりの収穫量は75ヘクトリットル以下"], a: 0, e: "VDP Große Lageでは、収穫は選別しながらの手作業とされます。" },
+    { id: "020", q: "次のドイツのベライヒの中からバーデン地方に属するものを選択してください。", c: ["Tuniberg", "Nierstein", "Obermosel", "Frankens Saalestück"], a: 0, e: "Tunibergはバーデン地方のベライヒです。" },
+    { id: "021", q: "次の中からドイツ、ラインガウ地域のRauenthal村に属する畑を選択してください。", c: ["Gräfenberg", "Turmberg", "Nonnenberg", "Steinberg"], a: 2, e: "Nonnenbergはラインガウ地域Rauenthal村に属する畑です。" },
+    { id: "022", q: "次の中からドイツのモーゼル川中流域に位置するベライヒを選択してください。", c: ["Ruwertal", "Saar", "Moseltor", "Bernkastel"], a: 3, e: "モーゼル川中流域に位置するベライヒはBernkastelです。" },
+    { id: "023", q: "次のドイツワイン生産地域の中からEscherndorf村が属する産地を選択してください。", c: ["フランケン", "アール", "ラインガウ", "ザクセン"], a: 0, e: "Escherndorf村はフランケンに属します。" },
+    { id: "024", q: "次の説明に合致するドイツの生産地域を選択してください。「ドイツで2番目に大きな生産地域で、西のハールト山地からライン川に向かって続く平野に広がり、南端はフランスとの国境に接している。桃やイチジクなど様々な果樹の栽培にも適した温暖な気候である。」", c: ["ナーエ", "プファルツ", "ラインヘッセン", "ザクセン"], a: 1, e: "説明はプファルツに合致します。" },
+    { id: "025", q: "次のようなドイツ料理を選択してください。「ラインガウの郷土料理の一つで、茹でたジャガイモや玉子にかける、サワークリームに7種類の香草を混ぜたソース」", c: ["Zwiebelkuchen", "Blaue Zipfel", "Frankfurter Grüne Soße", "Wildschweinbraten"], a: 2, e: "Frankfurter Grüne Soßeは7種類の香草を使う緑色のソースです。" },
+    { id: "026", q: "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、最高級クラス（特級区画）に相当するクラスを選択してください。", c: ["Ortswein", "Erste Lage", "Große Lage", "Gutswein"], a: 2, e: "VDPの最高級クラス、特級区画はGroße Lageです。" },
+    { id: "027", q: "下記の画像はドイツのワイン産地の地図です。地図上で3番の特定ワイン生産地域名をカタカナで入力してください。", t: "ミッテルライン", img: true, e: "地図上の3番はMittelrhein、カタカナではミッテルラインです。" },
+    { id: "028", q: "次の説明に最も合致するドイツ産ロゼワインを選択してください。「赤ワイン用ブドウと白ワイン用ブドウ、もしくはそれぞれ破砕して果汁に漬けた状態で混ぜて一緒に圧搾・醸造したロゼワイン。」", c: ["Rotling", "Weißherbst", "Blanc de Noir", "Pét-Nat"], a: 0, e: "説明はRotlingに合致します。" },
+    { id: "029", q: "次のドイツのベライヒの中からフランケン地方に属するものを選択してください。", c: ["Württembergisch-Unterland", "Mittelfränkische Bocksbeutelstraße", "Nahetal", "Obermosel"], a: 1, e: "Mittelfränkische Bocksbeutelstraßeはフランケン地方のベライヒです。" },
+    { id: "030", q: "次の中からドイツの生産地域ラインガウで最も栽培面積の大きいブドウ品種を選択してください。", c: ["リースリング", "トロリンガー", "シュペートブルグンダー", "ジルヴァーナー"], a: 0, e: "ラインガウで最も栽培面積が大きい品種はリースリングです。" },
+    { id: "031", q: "下記の画像はドイツのワイン産地の地図です。地図上でHessische Bergstraßeに相当する番号を選択してください。", c: ["10番", "8番", "13番", "6番"], a: 1, img: true, e: "Hessische Bergstraßeは地図上の8番です。" },
+    { id: "032", q: "次の中からドイツ最東端であるドイツの生産地域を選択してください。", c: ["ラインガウ", "プファルツ", "ザクセン", "ザーレ・ウンストルート"], a: 2, e: "ドイツ最東端のワイン生産地域はザクセンです。" },
+    { id: "033", q: "次の中からドイツのワイン産地で、かつて「3B」と呼ばれた大御所中心の産地から、若手が活躍するダイナミックな産地へと変貌しているところを選択してください。", c: ["ラインヘッセン", "バーデン", "アール", "プファルツ"], a: 3, e: "説明はプファルツに合致します。" },
+    { id: "035", q: "次のようなドイツ料理を選択してください。「プファルツの郷土料理の一つで、豚の胃袋に豚肉、ジャガイモなどを詰めて茹でた後、フライパンで炙って供される料理」", c: ["Gräwes", "Saumagen", "Nürnberger Bratwurst", "Frankfurter Grüne Soße"], a: 1, e: "Saumagenはプファルツの郷土料理です。" },
+    { id: "036", q: "次の説明に最もよく合致するドイツ産スパークリングワインを選択してください。「発泡性ワインで20℃で3.5気圧以上、最低アルコール度数は10%。白・赤・生産国などの異なるワインをブレンドしたベースワインを使用できる。」", c: ["Sekt b.A.", "Schaumwein", "Perlwein", "Sekt"], a: 3, e: "説明はSektに合致します。" },
+    { id: "037", q: "次のドイツのベライヒの中からモーゼル地方に属するものを選択してください。", c: ["Nahetal", "Nierstein", "Tauberfranken", "Saar"], a: 3, e: "Saarはモーゼル地方のベライヒです。" },
+    { id: "038", q: "次の中からドイツ、ラインガウ地域のKiedrich村に属する畑を選択してください。", c: ["Gräfenberg", "Berg Rottland", "Steinberg", "Königin Victoriaberg"], a: 0, e: "GräfenbergはKiedrich村に属する畑です。" },
+    { id: "039", q: "次のドイツワイン生産地域の中からBrauneberg村が属する産地を選択してください。", c: ["ザーレ・ウンストルート", "ヘッシッシェ・ベルクシュトラーセ", "プファルツ", "モーゼル"], a: 3, e: "Brauneberg村はモーゼルに属します。" },
+    { id: "040", q: "次の中からドイツで、市町村名の一部区画(Ortsteil)の地理的呼称をラベルに表記する例外的な畑を選択してください。", c: ["Uhlen", "Braune Kupp", "Schloss Vollrads", "Prälat"], a: 2, e: "Schloss VollradsはOrtsteilの地理的呼称をラベルに表記する例外的な畑です。" },
+    { id: "041", q: "次の説明に最も合致するドイツ産ロゼワインを選択してください。「バーデン産のロゼワインで、グラウブルグンダーとシュペートブルグンダーから醸造される。」", c: ["Weißherbst", "Blanc de Noir", "Badisch Rotgold", "Schillerwein"], a: 2, e: "Badisch Rotgoldはバーデン産のロゼワインです。" },
+    { id: "042", q: "次の中からドイツの生産地域フランケンで最も栽培面積の大きいブドウ品種を選択してください。", c: ["トロリンガー", "リースリング", "シュペートブルグンダー", "ジルヴァーナー"], a: 3, e: "フランケンで最も栽培面積が大きい品種はジルヴァーナーです。" },
+    { id: "043", q: "次のドイツのベライヒの中からフランケン地方に属するものを選択してください。", c: ["Burg Cochem", "Oberer Neckar", "Volkacher Mainschleife", "Walporzheim/Ahrtal"], a: 2, e: "Volkacher Mainschleifeはフランケン地方のベライヒです。" },
+    { id: "044", q: "次のドイツワイン生産地域の中からWehlen村が属する産地を選択してください。", c: ["ラインガウ", "モーゼル", "ザクセン", "ナーエ"], a: 1, e: "Wehlen村はモーゼルに属します。" },
+    { id: "046", q: "次のようなドイツ料理を選択してください。「乳酸発酵したキャベツ」", c: ["Sauerkraut", "Rheinischer Sauerbraten", "Handkäse mit Musik", "Nürnberger Bratwurst"], a: 0, e: "乳酸発酵したキャベツはSauerkrautです。" },
+    { id: "047", q: "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、第4階級（醸造所名入りワイン）に相当するクラスを選択してください。", c: ["Große Lage", "Großlage", "Ortswein", "Gutswein"], a: 3, e: "第4階級、醸造所名入りワインはGutsweinです。" },
+    { id: "048", q: "下記の画像はドイツのワイン産地の地図です。地図上で9番の特定ワイン生産地域名をカタカナで入力してください。", t: "フランケン", img: true, e: "地図上の9番はFranken、カタカナではフランケンです。" },
+    { id: "049", q: "次の説明に合致するドイツの生産地域を選択してください。「ドイツのブドウ栽培醸造技術を研究するガイゼンハイム大学があり、高品質なドイツワインをリードする産地である。多くの畑はタウヌス山地とライン川の間の斜面にあり、リースリングが約76%を占める。」", c: ["ラインヘッセン", "ヴュルテンベルク", "ラインガウ", "ヘッシッシェ・ベルクシュトラーセ"], a: 2, e: "説明はラインガウに合致します。" },
+    { id: "050", q: "次の中からドイツのワイン生産地、ラインヘッセンに接しているところを選択してください。", c: ["ザクセン", "ナーエ", "フランケン", "ヴュルテンベルク"], a: 1, e: "ラインヘッセンはナーエに接しています。" },
+    { id: "051", q: "次のドイツワイン生産地域の中からÜrzig村が属する産地を選択してください。", c: ["フランケン", "モーゼル", "ザーレ・ウンストルート", "ヴュルテンベルク"], a: 1, e: "Ürzig村はモーゼルに属します。" },
+    { id: "053", q: "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、醸造所名を名乗る日常消費用のワインに相当するクラスを選択してください。", c: ["Gutswein", "Erste Lage", "Großlage", "Ortswein"], a: 0, e: "醸造所名を名乗る日常消費用のワインはGutsweinです。" },
+    { id: "054", q: "次の説明に最も合致するドイツ産ロゼワインを選択してください。「単一の赤ワイン用品種から造られるロゼワイン。クヴァリテーツヴァイン以上の品質であることが求められる。5%まで同一品種の赤ワインまたはマストを添加することができる。」", c: ["Weißherbst", "Pét-Nat", "Rotling", "Blanc de Noir"], a: 0, e: "説明はWeißherbstに合致します。" },
+    { id: "055", q: "下記の画像はドイツのワイン産地の地図です。地図上でSachsenに相当する番号を選択してください。", c: ["10番", "1番", "8番", "13番"], a: 3, img: true, e: "Sachsenは地図上の13番です。" },
+    { id: "056", q: "次の中からドイツ、モーゼル地域のKanzem村に属する畑を選択してください。", c: ["Braune Kupp", "Uhlen", "Altenberg", "Doktor"], a: 2, e: "Altenbergはモーゼル地域Kanzem村に属する畑です。" },
+    { id: "057", q: "次のドイツのラインガウ地方の村の中で、最も東に位置するものを選択してください。", c: ["Hochheim", "Kiedrich", "Assmannshausen", "Rüdesheim"], a: 0, e: "ラインガウ地方の村の中で、Hochheimは最も東に位置します。" },
+    { id: "058", q: "次のドイツのワイン生産地の中から、最も南に位置しているところを選択してください。", c: ["プファルツ", "ナーエ", "ラインヘッセン", "ラインガウ"], a: 0, e: "この選択肢の中で最も南に位置するのはプファルツです。" },
+    { id: "059", q: "次のドイツのベライヒの中からラインヘッセン地方に属するものを選択してください。", c: ["Frankens Saalestück", "Starkenburg", "Nierstein", "Bodensee"], a: 2, e: "Niersteinはラインヘッセン地方のベライヒです。" },
+    { id: "060", q: "次の説明に合致するドイツの生産地域を選択してください。「ドイツで2番目に栽培面積の狭いワイン生産地域。ブドウ畑はオーデンヴァルト山地の西側斜面と北の端に散在し、南をバーデン・ヴュルテンベルク州に接している。」", c: ["ヘッシッシェ・ベルクシュトラーセ", "ナーエ", "ラインヘッセン", "ミッテルライン"], a: 0, e: "説明はヘッシッシェ・ベルクシュトラーセに合致します。" }
+  ].map((item) => {
+    const base = {
+      id: `germany-regions-${item.id}`,
+      category: "ドイツ/産地",
+      importance: "A",
+      question: item.q,
+      explanation: item.e,
+      ...(item.img ? {
+        image: {
+          src: "assets/germany-regions-map.jpg",
+          alt: "ドイツのワイン産地の地図",
+          caption: "ドイツの特定ワイン生産地域"
+        }
+      } : {})
+    };
+    if (item.t) {
+      return {
+        ...base,
+        answerText: item.t
+      };
+    }
+    return {
+      ...base,
+      choices: item.c,
+      answerIndex: item.a
+    };
+  }),
+  ...[
+    { id: "001", q: "次の中からスペインのCava Gran Reservaの瓶詰めから澱抜きまでの最低熟成期間を選択してください。", c: ["30ヶ月", "9ヶ月", "12ヶ月", "36ヶ月"], a: 0, e: "Cava Gran Reservaは瓶詰めから澱抜きまで最低30ヶ月の熟成が必要です。" },
+    { id: "002", q: "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フィロキセラの害で畑を失ったフランス人が、リオハなどスペイン北部のワイン産地にやってきてワイン造りに従事した。」", c: ["18世紀後半", "19世紀後半", "20世紀前半", "17世紀後半"], a: 1, e: "フィロキセラ被害後、19世紀後半にフランス人がリオハなどに移り、ワイン造りに影響を与えました。" },
+    { id: "003", q: "次の中からスペインのリオハの赤ワインへの使用が認定されていない品種を選択してください。", c: ["メンシア", "グラシアーノ", "ガルナッチャ", "テンプラニーリョ"], a: 0, e: "メンシアはリオハ赤ワインの認定品種ではありません。" },
+    { id: "004", q: "次の中からスペインのワイン産地、プリオラートの土壌を選択してください。", c: ["スレート土壌", "石灰岩で真っ白な土壌", "赤い粘土質の土壌", "火山性土壌"], a: 0, e: "プリオラートはリコレリャと呼ばれるスレート土壌で知られます。" },
+    { id: "005", q: "次の中からスペインのリオハの産地で、最も西部に位置し全栽培面積の約50%を占めるところを選択してください。", c: ["リオハ・アラベサ", "リオハ・アルタ", "リオハ・デマンダ", "リオハ・オリエンタル"], a: 1, e: "リオハ・アルタは最も西部に位置し、リオハの主要な栽培地域です。" },
+    { id: "006", q: "次の中からスペイン、Andalucía州に属するDOまたはDOCaを選択してください。", c: ["Bierzo", "La Mancha", "Granada", "Rías Baixas"], a: 2, e: "GranadaはAndalucía州に属するDOです。" },
+    { id: "007", q: "スペインで2番目に多く栽培されている品種を選択してください。", c: ["ベルデホ", "テンプラニーリョ", "ボバル", "アイレン"], a: 3, e: "スペインで2番目に多く栽培されている品種はアイレンです。" },
+    { id: "008", q: "次のスペインのDOまたはDOCaの中から、最もバルセロナの近くに位置するところを選択してください。", c: ["ナバーラ", "ペネデス", "リベラ・デル・ドゥエロ", "ヘレス"], a: 1, e: "ペネデスはカタルーニャ州にあり、バルセロナに近い産地です。" },
+    { id: "009", q: "下記の画像はスペインのワイン産地の地図です。地図上で5番の産地名をカタカナで入力してください。", t: "ガリシア", img: "spain", e: "地図上の5番はGalicia、カタカナではガリシアです。" },
+    { id: "010", q: "次の説明に合致するスペインのシェリーのタイプを選択してください。「濃い琥珀色からマホガニー色。酸化熟成したワインをベースとする甘口のシェリー。」", c: ["Medium", "Pale Dry", "Cream", "Pale Cream"], a: 2, e: "酸化熟成したワインをベースとする甘口シェリーはCreamです。" },
+    { id: "011", q: "次の中からスペインでシェリーの熟成システムで、樽を段積みしたブロックの呼称を選択してください。", c: ["ロシオ", "ソレラ", "アンダナ", "ソブレタブラ"], a: 2, e: "樽を段積みしたブロックはアンダナと呼ばれます。" },
+    { id: "012", q: "スペインでレセルバと表記された赤ワインの最低熟成期間を選択してください。", c: ["36ヶ月", "24ヶ月", "48ヶ月", "60ヶ月"], a: 0, e: "赤ワインのReservaは最低36ヶ月熟成です。" },
+    { id: "013", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Altaに相当する記号を選択してください。", c: ["B（左のみ）", "B（左右両方）", "C", "A"], a: 3, img: "rioja", e: "Rioja Altaは地図上のAです。" },
+    { id: "014", q: "次の中からスペインのDOまたはDOCa Toroが属する州を選択してください。", c: ["Galicia", "Extremadura", "Cataluña", "Castilla y León"], a: 3, e: "ToroはCastilla y León州に属します。" },
+    { id: "015", q: "次のスペインのDOまたはDOCaの中から、最もバルセロナの近くに位置するところを選択してください。", c: ["プリオラート", "モンティーリャ・モリーレス", "リオハ", "リベイラ・サクラ"], a: 0, e: "この中ではプリオラートがバルセロナに最も近い産地です。" },
+    { id: "017", q: "次の中からスペインのワイン産地、ラ・マンチャ地方の土壌を選択してください。", c: ["火山性土壌", "スレート土壌", "石灰岩で真っ白な土壌", "赤い粘土質の土壌"], a: 3, e: "ラ・マンチャ地方は赤い粘土質の土壌が特徴です。" },
+    { id: "018", q: "次の中でスペインのDOまたはDOCa「ソモンターノ」が属する地方を選択してください。", c: ["地中海地方", "内陸部地方", "北部地方", "大西洋地方"], a: 2, e: "Somontanoはスペイン北部地方に属します。" },
+    { id: "019", q: "次の中からスペインの2024年のワイン生産量順位を選択してください。", c: ["世界第3位", "世界第4位", "世界第2位", "世界第1位"], a: 0, e: "スペインの2024年ワイン生産量は世界第3位です。" },
+    { id: "020", q: "スペインで最も多く栽培されている白ブドウ品種を選択してください。", c: ["ベルデホ", "アイレン", "テンプラニーリョ", "マカベオ"], a: 1, e: "スペインで最も多く栽培されている白ブドウ品種はアイレンです。" },
+    { id: "021", q: "次の中からスペインのリオハの産地で、エブロ川左岸に位置し南向きの斜面に畑が多く見られるところを選択してください。", c: ["リオハ・デマンダ", "リオハ・アラベサ", "リオハ・アルタ", "リオハ・オリエンタル"], a: 1, e: "Rioja Alavesaはエブロ川左岸に位置し、南向き斜面に畑が多く見られます。" },
+    { id: "023", q: "スペインで3番目に多く栽培されている黒ブドウ品種を選択してください。", c: ["ボバル", "ガルナッチャ・ティンタ", "ベルデホ", "テンプラニーリョ"], a: 0, e: "スペインで3番目に多く栽培されている黒ブドウ品種はボバルです。" },
+    { id: "024", q: "次の説明に合致するスペインのシェリーのタイプを選択してください。「淡い黄色から淡い金色。フロールのもとで熟成したワインをベースにする甘口のシェリー。」", c: ["Medium", "Pale Cream", "Pale Dry", "Cream"], a: 1, e: "フロールのもとで熟成したワインをベースにする甘口シェリーはPale Creamです。" },
+    { id: "025", q: "次の中からスペインのDOまたはDOCa Prioratoが属する州を選択してください。", c: ["Islas Canarias", "Galicia", "Extremadura", "Cataluña"], a: 3, e: "PrioratoはCataluña州に属します。" },
+    { id: "026", q: "次の中からスペインのCava de Guardaの瓶詰めから澱抜きまでの最低熟成期間を選択してください。", c: ["36ヶ月", "12ヶ月", "30ヶ月", "9ヶ月"], a: 3, e: "Cava de Guardaは瓶詰めから澱抜きまで最低9ヶ月熟成です。" },
+    { id: "027", q: "スペインでクリアンサと表記されたワインの熟成用の樽の容量を選択してください。", c: ["230リットル以下", "225リットル以下", "600リットル", "330リットル以下"], a: 3, e: "クリアンサの熟成に用いる樽は330リットル以下です。" },
+    { id: "028", q: "次の中からスペインのCavaに使用される品種マカベオの別名を選択してください。", c: ["ビウラ", "ベルデホ", "アルバリーニョ", "パレリャーダ"], a: 0, e: "マカベオはビウラとも呼ばれます。" },
+    { id: "029", q: "次のスペインのDOまたはDOCaの中から、標高750〜850mの高い位置に畑があるところを選択してください。", c: ["ヘレス", "モンティーリャ・モリーレス", "リベラ・デル・ドゥエロ", "ナバーラ"], a: 2, e: "Ribera del Dueroは標高750〜850mほどの高地に畑があります。" },
+    { id: "030", q: "次の中からスペインの2024年のワイン輸出量順位を選択してください。", c: ["世界第1位", "世界第4位", "世界第3位", "世界第2位"], a: 3, e: "スペインの2024年ワイン輸出量順位は世界第2位です。" },
+    { id: "031", q: "次の中でスペインのDOまたはDOCa「ルエダ」が属する地方を選択してください。", c: ["北部地方", "大西洋地方", "地中海地方", "内陸部地方"], a: 3, e: "Ruedaは内陸部地方に属します。" },
+    { id: "032", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でCのゾーン名をカタカナで入力してください。", t: "リオハ・オリエンタル", aliases: ["リオハオリエンタル"], img: "rioja", e: "地図上のCはRioja Oriental、カタカナではリオハ・オリエンタルです。" },
+    { id: "034", q: "下記の画像はスペインのワイン産地の地図です。地図上でCataluñaに相当する番号を選択してください。", c: ["13番", "2番", "6番", "4番"], a: 2, img: "spain", e: "Cataluñaは地図上の6番です。" },
+    { id: "035", q: "次の中から辛口タイプのシェリーの呼称を選択してください。", c: ["Vino Generoso de Licor", "Vino Dulce Natural", "Vino Generoso", "Vino de Pago"], a: 2, e: "辛口タイプのシェリーはVino Generosoに分類されます。" },
+    { id: "036", q: "次の中からスペイン、Castilla La Mancha州に属するDOまたはDOCaを選択してください。", c: ["Rías Baixas", "La Mancha", "Montilla-Moriles", "Málaga"], a: 1, e: "La ManchaはCastilla La Mancha州に属します。" },
+    { id: "037", q: "次の中からスペインのCavaに使用される主要品種を選択してください。", c: ["アイレン", "パロミノ", "ビウラ", "アルバリーニョ"], a: 2, e: "Cavaの主要品種の一つにビウラ（マカベオ）があります。" },
+    { id: "038", q: "スペインでレセルバと表記された白ワインの最低樽熟成期間を選択してください。", c: ["24ヶ月", "12ヶ月", "6ヶ月", "18ヶ月"], a: 2, e: "白ワインのReservaは最低6ヶ月の樽熟成が必要です。" },
+    { id: "039", q: "次の中からスペインのリオハの白ワインの主たる品種として最も適切なものを選択してください。", c: ["ビウラ", "チャレッロとマカベオ", "パロミノ", "アイレン"], a: 0, e: "リオハの白ワインの主たる品種はビウラです。" },
+    { id: "040", q: "次の中からスペインのDOまたはDOCa Lanzaroteが属する州を選択してください。", c: ["Castilla La Mancha", "Andalucía", "Cataluña", "Islas Canarias"], a: 3, e: "LanzaroteはIslas Canarias州に属します。" },
+    { id: "041", q: "次の中からスペインのシェリーに影響を与える土壌を選択してください。", c: ["クリアデラ", "テラ・ロッサ", "アルバリサ", "ソレラ"], a: 2, e: "シェリー産地では白いアルバリサ土壌が重要です。" },
+    { id: "042", q: "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。", c: ["テンプラニーリョ", "ピノ・ノワール", "ボバル", "ビウラ"], a: 1, e: "Cavaのロゼにはピノ・ノワールなどの黒ブドウ品種が使用されます。" },
+    { id: "043", q: "次の中からOlorosoタイプのシェリーのアルコール度を選択してください。", c: ["13〜16%", "17〜22%", "19〜24%", "15〜17%"], a: 1, e: "Olorosoタイプのシェリーは17〜22%程度のアルコール度です。" },
+    { id: "044", q: "次のスペインのDOまたはDOCaの中から、タラゴナの北西、モンサン山脈の山間部にあり、粘板岩の地質のところを選択してください。", c: ["プリオラート", "リオハ", "ヘレス", "ルエダ"], a: 0, e: "説明はプリオラートに合致します。" },
+    { id: "045", q: "次の中からスペイン、ガリシア州のRías Baixasで、栽培ブドウの約95%を占めている品種を選択してください。", c: ["アイレン", "マカベオ", "ボバル", "アルバリーニョ"], a: 3, e: "Rías Baixasではアルバリーニョが栽培ブドウの大部分を占めます。" },
+    { id: "046", q: "次の中でスペインのDOまたはDOCa「トロ」が属する地方を選択してください。", c: ["南部地方", "内陸部地方", "大西洋地方", "地中海地方"], a: 1, e: "Toroは内陸部地方に属します。" },
+    { id: "049", q: "次の中からスペインで原産地呼称シェリーを名乗ることができる熟成地を選択してください。", c: ["パロ・コルタド", "マンサニーリャ", "ヘレス・デ・ラ・フロンテラ", "ビノ・デ・ヘレス"], a: 2, e: "シェリーを名乗ることができる熟成地の一つはヘレス・デ・ラ・フロンテラです。" },
+    { id: "050", q: "スペインで2番目に多く栽培されている白ブドウ品種を選択してください。", c: ["ビウラ", "ベルデホ", "テンプラニーリョ", "アイレン"], a: 0, e: "スペインで2番目に多く栽培されている白ブドウ品種はビウラです。" },
+    { id: "051", q: "次の中からスペインで近年ミネラルとフレッシュさのあるグラン・レセルバクラスのCavaに用いられ、ワインに酸味をもたらす品種を選択してください。", c: ["アルバリーニョ", "ペドロ・ヒメネス", "チャレッロ", "パロミノ"], a: 2, e: "チャレッロはCavaに酸味をもたらす重要品種です。" },
+    { id: "052", q: "次の中からスペインのDOまたはDOCa Ruedaが属する州を選択してください。", c: ["Extremadura", "Castilla y León", "Andalucía", "Cataluña"], a: 1, e: "RuedaはCastilla y León州に属します。" },
+    { id: "053", q: "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。", c: ["Ribeira Sacra", "Montilla-Moriles", "Rueda", "Málaga"], a: 2, e: "RuedaはCastilla y León州に属します。" },
+    { id: "055", q: "次の中からスペインの品種テンプラニーリョの別名ではないものを選択してください。", c: ["ウル・デ・リェブレ", "カリニェナ", "ティンタ・ロリス", "ティンタ・デル・パイス"], a: 1, e: "カリニェナはテンプラニーリョの別名ではありません。" },
+    { id: "056", q: "次の説明に合致するスペインのシェリーのタイプを選択してください。「ごく短期間フロールのもとにあったが、特別な酸化熟成タイプになると判断され酸化熟成を行ったタイプ。」", c: ["Oloroso", "Palo Cortado", "Fino", "Amontillado"], a: 1, e: "説明はPalo Cortadoに合致します。" },
+    { id: "057", q: "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フェニキア人が大西洋岸の町、現在のカディスに到達し、内陸のヘレス地域や地中海沿岸地域でワイン造りをし交易に使った。」", c: ["西暦200年頃", "紀元前200年頃", "紀元前1100年頃", "西暦700年頃"], a: 2, e: "フェニキア人がカディス周辺に到達したのは紀元前1100年頃です。" },
+    { id: "058", q: "次の中からスペインのビエルソの赤ワインの主たる品種として最も適切なものを選択してください。", c: ["ガルナッチャとカリニェナ", "テンプラニーリョとカベルネ・ソーヴィニョン", "ボバル", "メンシア"], a: 3, e: "ビエルソの赤ワインの主たる品種はメンシアです。" },
+    { id: "059", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でAのゾーン名をカタカナで入力してください。", t: "リオハ・アルタ", aliases: ["リオハアルタ"], img: "rioja", e: "地図上のAはRioja Alta、カタカナではリオハ・アルタです。" },
+    { id: "060", q: "次のスペインのDOまたはDOCaの中から、最も南に位置するところを選択してください。", c: ["リベイラ・サクラ", "ラ・マンチャ", "ヘレス", "リベラ・デル・ドゥエロ"], a: 2, e: "この中で最も南に位置するのはヘレスです。" }
+  ].map((item) => {
+    const base = {
+      id: `spain-${item.id}`,
+      category: "スペイン",
+      importance: "A",
+      question: item.q,
+      explanation: item.e,
+      ...(item.img === "spain" ? {
+        image: {
+          src: "assets/spain-wine-regions-map.jpg",
+          alt: "スペインのワイン産地の地図",
+          caption: "スペインのワイン産地"
+        }
+      } : {}),
+      ...(item.img === "rioja" ? {
+        image: {
+          src: "assets/spain-rioja-map.jpg",
+          alt: "スペイン、リオハのワイン産地の地図",
+          caption: "リオハのワイン産地"
+        }
+      } : {})
+    };
+    if (item.t) {
+      return {
+        ...base,
+        answerText: item.t,
+        answerTextAliases: item.aliases || []
+      };
+    }
+    return {
+      ...base,
+      choices: item.c,
+      answerIndex: item.a
+    };
+  })
 ];
