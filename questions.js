@@ -3776,6 +3776,573 @@ window.WINE_QUESTIONS = [
     explanation: "Château Branaire-DucruとChâteau Lafon-Rochetはメドック格付け4級です。"
   },
   {
+    id: "france-alsace-001",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
+    choices: ["ミュスカ", "ゲヴュルツトラミネール", "ピノ・ブラン", "シャスラ"],
+    answerIndex: 2,
+    explanation: "Crémant d'Alsaceではピノ・ブランを用いることができます。"
+  },
+  {
+    id: "france-alsace-002",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
+    choices: ["235グラム/リットル", "306グラム/リットル", "257グラム/リットル", "270グラム/リットル"],
+    answerIndex: 1,
+    explanation: "Sélection de Grains Noblesのゲヴュルツトラミネールでは、最低糖分含有量306グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-003",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、品種に関して例外の規定が設けられているところを選択してください。",
+    choices: ["Zotzenberg", "Engelberg", "Wiebelsberg", "Schlossberg"],
+    answerIndex: 0,
+    explanation: "ZotzenbergはAlsace Grand Cruで品種に関する例外規定がある畑です。"
+  },
+  {
+    id: "france-alsace-004",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方の東部を流れている川の名前を選択してください。",
+    choices: ["ライン川", "ソーヌ川", "スラン川", "シロン川"],
+    answerIndex: 0,
+    explanation: "アルザス地方の東側にはライン川が流れ、ドイツとの国境にもなっています。"
+  },
+  {
+    id: "france-alsace-005",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方で栽培されている品種ピノ・ノワールの別名を選択してください。",
+    choices: ["ミュスカデ", "シュペートブルグンダー", "ムニエ", "ユニ・ブラン"],
+    answerIndex: 1,
+    explanation: "ピノ・ノワールはドイツ語圏ではシュペートブルグンダーとも呼ばれます。"
+  },
+  {
+    id: "france-alsace-006",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス・ロレーヌ地方のAOC Côtes de Toulの赤ワインの主要品種を選択してください。",
+    choices: ["ピノ・ノワール", "プールサール", "ピノ・ノワールとガメイ", "モンデューズ"],
+    answerIndex: 0,
+    explanation: "Côtes de Toulの赤ワインではピノ・ノワールが主要品種です。"
+  },
+  {
+    id: "france-alsace-007",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方の気候の特徴として最も正しいものを選択してください。",
+    choices: ["ミストラルと呼ばれる北風が吹き抜けている", "大西洋の影響を受け降水量が多い", "西側の山脈の影響を受け降水量が多い", "フェーン現象により暖かく乾燥している"],
+    answerIndex: 3,
+    explanation: "アルザスはヴォージュ山脈の雨陰にあり、フェーン現象の影響で暖かく乾燥した気候になります。"
+  },
+  {
+    id: "france-alsace-008",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
+    choices: ["ゲヴュルツトラミネール", "シルヴァネール", "ミュスカ", "オーセロワ"],
+    answerIndex: 3,
+    explanation: "Crémant d'Alsaceではオーセロワを用いることができます。"
+  },
+  {
+    id: "france-alsace-009",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス・ロレーヌ地方のAOC Moselleの赤ワインの主要品種を選択してください。",
+    choices: ["ガメイ", "ピノ・ノワール", "プールサール", "ピノ・ノワールとガメイ"],
+    answerIndex: 1,
+    explanation: "AOC Moselleの赤ワインではピノ・ノワールが主要品種です。"
+  },
+  {
+    id: "france-alsace-010",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、例外的にピノ・ノワールを単一で醸造した赤ワインの生産が可能であるところを選択してください。",
+    choices: ["Schlossberg", "Kaefferkopf", "Hengst", "Engelberg"],
+    answerIndex: 2,
+    explanation: "Hengstでは例外的にピノ・ノワール単一の赤ワイン生産が認められています。"
+  },
+  {
+    id: "france-alsace-011",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["シポン", "ムニエ", "ブラウアー・ブルグンダー", "グロ・プラン"],
+    answerIndex: 2,
+    explanation: "ブラウアー・ブルグンダーはピノ・ノワール系の名称で、アルザスで使用される品種に該当します。"
+  },
+  {
+    id: "france-alsace-012",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス・ロレーヌ地方のAOC Alsaceが生産可能なワインの色を選択してください。（ロゼはヴァン・グリを含むものとします）",
+    choices: ["赤のみ", "赤・ロゼ・白", "赤・ロゼ", "白のみ"],
+    answerIndex: 1,
+    explanation: "AOC Alsaceでは白に加えて、ピノ・ノワール由来の赤やヴァン・グリを含むロゼも生産可能です。"
+  },
+  {
+    id: "france-alsace-013",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceの製法を選択してください。",
+    choices: ["Méthode rurale", "Méthode cuvée close", "Méthode charmat", "Méthode traditionnelle"],
+    answerIndex: 3,
+    explanation: "Crémant d'Alsaceは瓶内二次発酵によるMéthode traditionnelleで造られます。"
+  },
+  {
+    id: "france-alsace-014",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
+    choices: ["335グラム/リットル", "205グラム/リットル", "244グラム/リットル", "257グラム/リットル"],
+    answerIndex: 2,
+    explanation: "Vendanges Tardivesのミュスカでは最低糖分含有量244グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-015",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
+    choices: ["257グラム/リットル", "270グラム/リットル", "205グラム/リットル", "235グラム/リットル"],
+    answerIndex: 1,
+    explanation: "Vendanges Tardivesのゲヴュルツトラミネールでは最低糖分含有量270グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-016",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["ゲヴュルツトラミネール", "カリニェナ", "リヴァーナー", "カリニャン"],
+    answerIndex: 0,
+    explanation: "ゲヴュルツトラミネールはアルザスを代表する品種の一つです。"
+  },
+  {
+    id: "france-alsace-017",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、品種に関して例外の規定が設けられているところを選択してください。",
+    choices: ["Osterberg", "Wiebelsberg", "Engelberg", "Kirchberg de Barr"],
+    answerIndex: 3,
+    explanation: "Kirchberg de BarrはAlsace Grand Cruで品種に関する例外規定がある畑です。"
+  },
+  {
+    id: "france-alsace-018",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のワイン産地の南北の長さを選択してください。",
+    choices: ["約170km", "約110km", "約250km", "約60km"],
+    answerIndex: 0,
+    explanation: "アルザスのワイン産地は南北に約170km伸びています。"
+  },
+  {
+    id: "france-alsace-019",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesに原則として認められていない品種を選択してください。",
+    choices: ["ゲヴュルツトラミネール", "リースリング", "ピノ・グリ", "シルヴァネール"],
+    answerIndex: 3,
+    explanation: "Sélection de Grains Noblesは原則として高貴品種が対象で、シルヴァネールは認められていません。"
+  },
+  {
+    id: "france-alsace-020",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["プルニョーロ・ジェンティーレ", "サン・テミリオン", "ピノ・ブラン", "ヴェルメンティーノ"],
+    answerIndex: 2,
+    explanation: "ピノ・ブランはアルザスで使用される主要品種の一つです。"
+  },
+  {
+    id: "france-alsace-021",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
+    choices: ["244グラム/リットル", "270グラム/リットル", "306グラム/リットル", "235グラム/リットル"],
+    answerIndex: 0,
+    explanation: "Vendanges Tardivesのリースリングでは最低糖分含有量244グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-022",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges TardivesまたはSélection de Grains Noblesの最低熟成期間を選択してください。",
+    choices: ["収穫翌年の4月30日まで", "収穫翌々年の8月31日まで", "収穫翌年の6月1日まで", "収穫翌年の8月1日まで"],
+    answerIndex: 2,
+    explanation: "Vendanges TardivesまたはSélection de Grains Noblesは、収穫翌年の6月1日までの熟成が必要です。"
+  },
+  {
+    id: "france-alsace-023",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス・ロレーヌ地方のAOC Crémant d'Alsaceが生産可能なワインの色を選択してください。（ロゼはヴァン・グリを含むものとします）",
+    choices: ["ロゼ・白", "ロゼのみ", "赤・ロゼ・白", "赤のみ"],
+    answerIndex: 0,
+    explanation: "Crémant d'Alsaceでは白とロゼの発泡ワインが生産可能です。"
+  },
+  {
+    id: "france-alsace-024",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["ナチュレ", "オーセロワ", "パイス", "ビウラ"],
+    answerIndex: 1,
+    explanation: "オーセロワはアルザスで使用される品種です。"
+  },
+  {
+    id: "france-alsace-025",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
+    choices: ["ミュスカ", "ピノ・ノワール", "シャスラ", "ゲヴュルツトラミネール"],
+    answerIndex: 1,
+    explanation: "Crémant d'Alsaceではピノ・ノワールを用いることができます。"
+  },
+  {
+    id: "france-alsace-026",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
+    choices: ["リースリング", "シャスラ", "シルヴァネール", "ミュスカ"],
+    answerIndex: 0,
+    explanation: "Crémant d'Alsaceではリースリングを用いることができます。"
+  },
+  {
+    id: "france-alsace-027",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、品種に関して例外の規定が設けられているところを選択してください。",
+    choices: ["Osterberg", "Schlossberg", "Vorbourg", "Wiebelsberg"],
+    answerIndex: 2,
+    explanation: "VorbourgはAlsace Grand Cruで品種に関する例外規定がある畑です。"
+  },
+  {
+    id: "france-alsace-028",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
+    choices: ["270グラム/リットル", "235グラム/リットル", "205グラム/リットル", "306グラム/リットル"],
+    answerIndex: 0,
+    explanation: "Vendanges Tardivesのピノ・グリでは最低糖分含有量270グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-029",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAOCクレマン・ダルザスが制定された年を選択してください。",
+    choices: ["1962年", "1976年", "1968年", "1935年"],
+    answerIndex: 1,
+    explanation: "AOC Crémant d'Alsaceは1976年に制定されました。"
+  },
+  {
+    id: "france-alsace-030",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["カリニャン", "スティーン", "シャスラ", "ソーヴィニョン・ブラン"],
+    answerIndex: 2,
+    explanation: "シャスラはアルザスで使用される品種です。"
+  },
+  {
+    id: "france-alsace-031",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesが造ることのできるワインの色を選択してください。",
+    choices: ["赤のみ", "白のみ", "赤・白", "赤・ロゼ・白"],
+    answerIndex: 1,
+    explanation: "Sélection de Grains Noblesは白ワインとして造られます。"
+  },
+  {
+    id: "france-alsace-032",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
+    choices: ["ミュスカ", "シャスラ", "ピノ・グリ", "シルヴァネール"],
+    answerIndex: 2,
+    explanation: "Crémant d'Alsaceではピノ・グリを用いることができます。"
+  },
+  {
+    id: "france-alsace-033",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesに原則として認められていない品種を選択してください。",
+    choices: ["ピノ・ブラン", "ミュスカ", "ゲヴュルツトラミネール", "リースリング"],
+    answerIndex: 0,
+    explanation: "Vendanges Tardivesは原則として高貴品種が対象で、ピノ・ブランは認められていません。"
+  },
+  {
+    id: "france-alsace-034",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方の気候を選択してください。",
+    choices: ["高山性気候", "大陸性気候", "海洋性気候", "半大陸性気候"],
+    answerIndex: 1,
+    explanation: "アルザス地方は大陸性気候の影響が強い産地です。"
+  },
+  {
+    id: "france-alsace-035",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方で栽培されている品種ピノ・グリの別名を選択してください。",
+    choices: ["サヴァニャン", "ルーレンダー", "ティンタ・デ・トロ", "ジンファンデル"],
+    answerIndex: 1,
+    explanation: "ピノ・グリはドイツ語圏でルーレンダーとも呼ばれます。"
+  },
+  {
+    id: "france-alsace-036",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス・ロレーヌ地方のAOC Côtes de Toulが生産可能なワインの色を選択してください。（ロゼはヴァン・グリを含むものとします）",
+    choices: ["ロゼ・白", "赤・ロゼ・白", "ロゼのみ", "赤のみ"],
+    answerIndex: 1,
+    explanation: "AOC Côtes de Toulでは赤・ロゼ・白の生産が可能です。"
+  },
+  {
+    id: "france-alsace-037",
+    category: "フランス/アルザス",
+    importance: "B",
+    question: "次の中からアルザス地方の2023年のブドウ栽培面積に最も近いものを選択してください。",
+    choices: ["12万ヘクタール", "5.0万ヘクタール", "3.0万ヘクタール", "1.6万ヘクタール"],
+    answerIndex: 3,
+    explanation: "アルザス地方の2023年のブドウ栽培面積は約1.6万ヘクタールです。"
+  },
+  {
+    id: "france-alsace-038",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、Vendanges TardivesおよびSélection de Grains Noblesにおいてピノ・グリが認められないところを選択してください。",
+    choices: ["Altenberg de Bergheim", "Kaefferkopf", "Wiebelsberg", "Engelberg"],
+    answerIndex: 1,
+    explanation: "KaefferkopfではVendanges TardivesおよびSélection de Grains Noblesにおいてピノ・グリが認められません。"
+  },
+  {
+    id: "france-alsace-039",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["ユニ・ブラン", "ルーレンダー", "マスエロ", "カリニャン"],
+    answerIndex: 1,
+    explanation: "ルーレンダーはピノ・グリの別名で、アルザスで使用される品種に該当します。"
+  },
+  {
+    id: "france-alsace-040",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
+    choices: ["276グラム/リットル", "235グラム/リットル", "306グラム/リットル", "257グラム/リットル"],
+    answerIndex: 2,
+    explanation: "Sélection de Grains Noblesのピノ・グリでは最低糖分含有量306グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-041",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、例外的にシルヴァネールを単一で使用できるところを選択してください。",
+    choices: ["Wiebelsberg", "Zotzenberg", "Osterberg", "Kirchberg de Barr"],
+    answerIndex: 1,
+    explanation: "Zotzenbergは例外的にシルヴァネール単一での使用が認められるAlsace Grand Cruです。"
+  },
+  {
+    id: "france-alsace-042",
+    category: "フランス/アルザス",
+    importance: "B",
+    question: "次の中からアルザス地方の2023年の年間ワイン生産量に最も近いものを選択してください。",
+    choices: ["81万ヘクトリットル", "104万ヘクトリットル", "120万ヘクトリットル", "180万ヘクトリットル"],
+    answerIndex: 1,
+    explanation: "アルザス地方の2023年の年間ワイン生産量は約104万ヘクトリットルです。"
+  },
+  {
+    id: "france-alsace-043",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のグラン・クリュに認められているリュー・ディの数を選択してください。",
+    choices: ["16", "45", "51", "50"],
+    answerIndex: 2,
+    explanation: "アルザス地方のグラン・クリュに認められているリュー・ディは51です。"
+  },
+  {
+    id: "france-alsace-044",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesが造ることのできるワインの色を選択してください。",
+    choices: ["ロゼ・白", "白のみ", "赤・ロゼ", "赤・ロゼ・白"],
+    answerIndex: 1,
+    explanation: "Vendanges Tardivesは白ワインとして造られます。"
+  },
+  {
+    id: "france-alsace-045",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方で栽培されている品種ピノ・ノワールの別名を選択してください。",
+    choices: ["ムールヴェドル", "ティンタ・デ・マドリード", "パイス", "ブラウアー・ブルグンダー"],
+    answerIndex: 3,
+    explanation: "ブラウアー・ブルグンダーはピノ・ノワールの別名です。"
+  },
+  {
+    id: "france-alsace-046",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruに原則として認められていない品種を選択してください。",
+    choices: ["シルヴァネール", "ピノ・グリ", "リースリング", "ミュスカ"],
+    answerIndex: 0,
+    explanation: "Alsace Grand Cruでは原則としてシルヴァネールは認められていません。ただし一部の例外規定があります。"
+  },
+  {
+    id: "france-alsace-047",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAOCアルザスおよびヴァン・ダルザスにおいて、複数の品種を混醸またはアッサンブラージュした場合の表記として適切なものを選択してください。",
+    choices: ["Gentil", "Vendanges Tardives", "Zotzenberg", "Edelzwicker"],
+    answerIndex: 3,
+    explanation: "複数品種の混醸またはアッサンブラージュではEdelzwickerの表記が用いられます。"
+  },
+  {
+    id: "france-alsace-048",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
+    choices: ["276グラム/リットル", "257グラム/リットル", "335グラム/リットル", "205グラム/リットル"],
+    answerIndex: 0,
+    explanation: "Sélection de Grains Noblesのミュスカでは最低糖分含有量276グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-049",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、品種に関して例外の規定が設けられているところを選択してください。",
+    choices: ["Osterberg", "Kaefferkopf", "Schlossberg", "Wiebelsberg"],
+    answerIndex: 1,
+    explanation: "KaefferkopfはAlsace Grand Cruで品種に関する例外規定がある畑です。"
+  },
+  {
+    id: "france-alsace-050",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["アルテス", "フォル・ブランシュ", "ティント・デル・パイス", "ラインリースリング"],
+    answerIndex: 3,
+    explanation: "ラインリースリングはリースリングを指し、アルザスで使用される品種です。"
+  },
+  {
+    id: "france-alsace-051",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、例外的に混醸が可能であり、その際はゲヴュルツトラミネールを60〜80%使わなければいけないところを選択してください。",
+    choices: ["Wiebelsberg", "Hengst", "Kaefferkopf", "Altenberg de Bergheim"],
+    answerIndex: 2,
+    explanation: "Kaefferkopfでは例外的に混醸が可能で、ゲヴュルツトラミネールを60〜80%使用する規定があります。"
+  },
+  {
+    id: "france-alsace-052",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAOCアルザスおよびヴァン・ダルザスにおいて、複数の高貴品種を50%以上使用しアッサンブラージュした場合の表記として適切なものを選択してください。",
+    choices: ["Edelzwicker", "Gentil", "Zotzenberg", "Vendanges Tardives"],
+    answerIndex: 1,
+    explanation: "複数の高貴品種を50%以上使用したアッサンブラージュではGentilの表記が用いられます。"
+  },
+  {
+    id: "france-alsace-053",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVendanges Tardivesに原則として認められていない品種を選択してください。",
+    choices: ["シャスラ", "ゲヴュルツトラミネール", "リースリング", "ピノ・グリ"],
+    answerIndex: 0,
+    explanation: "Vendanges Tardivesは原則として高貴品種が対象で、シャスラは認められていません。"
+  },
+  {
+    id: "france-alsace-054",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のSélection de Grains Noblesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
+    choices: ["235グラム/リットル", "335グラム/リットル", "257グラム/リットル", "276グラム/リットル"],
+    answerIndex: 3,
+    explanation: "Sélection de Grains Noblesのリースリングでは最低糖分含有量276グラム/リットルが求められます。"
+  },
+  {
+    id: "france-alsace-055",
+    category: "フランス/アルザス",
+    importance: "B",
+    question: "次の中からアルザス地方のワイン生産の中心地で木骨造りの建物が並んでいる街を選択してください。",
+    choices: ["ミュルーズ", "コルマール", "トロワ", "バーゼル"],
+    answerIndex: 1,
+    explanation: "コルマールはアルザス地方のワイン生産の中心地として知られ、木骨造りの建物が並ぶ街です。"
+  },
+  {
+    id: "france-alsace-056",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からフランスで最も消費量の多いクレマンを選択してください。",
+    choices: ["クレマン・ダルザス", "クレマン・ド・ボルドー", "クレマン・ド・ロワール", "クレマン・ド・ブルゴーニュ"],
+    answerIndex: 0,
+    explanation: "クレマン・ダルザスはフランスで消費量の多いクレマンとして知られます。"
+  },
+  {
+    id: "france-jura-savoie-001",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からフランス、ジュラ地方の出身でワイン醸造学に大きな功績を残した人物を選択してください。",
+    choices: ["ジョゼフ・ルイ・ゲイリュサック", "ジャン・アントワーヌ・シャプタル", "ミシェル・ロラン", "ルイ・パストゥール"],
+    answerIndex: 3,
+    explanation: "ルイ・パストゥールはジュラ地方出身で、発酵や微生物研究を通じてワイン醸造学にも大きな功績を残しました。"
+  },
+  {
+    id: "france-jura-savoie-002",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からジュラ地方においてVin de Pailleの生産に認められていない品種を選択してください。",
+    choices: ["ジャケール", "サヴァニャン", "プールサール", "トゥルソー"],
+    answerIndex: 0,
+    explanation: "Vin de Pailleではサヴァニャン、シャルドネ、プールサール、トゥルソーなどが認められ、ジャケールは認められていません。"
+  },
+  {
+    id: "france-jura-savoie-003",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方のVin Jauneの生産における熟成規定を選択してください。",
+    choices: ["60ヶ月以上産膜酵母の下で熟成", "72ヶ月以上産膜酵母の下で熟成", "36ヶ月以上産膜酵母の下で熟成", "24ヶ月以上産膜酵母の下で熟成"],
+    answerIndex: 0,
+    explanation: "Vin Jauneは産膜酵母の下で60ヶ月以上熟成させる規定があります。"
+  },
+  {
+    id: "france-jura-savoie-004",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "サヴォワ地方のAOCワイン Vin de Savoie Crémantに認められているワインの色またはタイプを選択してください。",
+    choices: ["赤・白", "赤・ロゼ", "白のみ", "黄・藁"],
+    answerIndex: 2,
+    explanation: "Vin de Savoie Crémantは白の発泡ワインとして認められています。"
+  },
+  {
+    id: "france-jura-savoie-005",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin de Pailleの生産が認められているAOCを選択してください。",
+    choices: ["Crépy", "L'Étoile", "Bugey", "Seyssel mousseux"],
+    answerIndex: 1,
+    explanation: "L'Étoileはジュラ地方でVin de Pailleの生産が認められているAOCです。"
+  },
+  {
+    id: "france-jura-savoie-006",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からジュラ地方のシャトー・シャロンなどでヴァン・ジョーヌを生み出す品種を選択してください。（品種の名前は別名で表示されていることもあります）",
+    choices: ["サヴァニャン", "プールサール", "アルテス", "シャルドネ"],
+    answerIndex: 0,
+    explanation: "ジュラ地方のヴァン・ジョーヌはサヴァニャンから造られます。"
+  },
+  {
+    id: "france-jura-savoie-007",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
+    choices: ["Bugey", "Crémant du Jura", "Seyssel", "L'Étoile"],
+    answerIndex: 3,
+    explanation: "L'Étoileはジュラ地方でVin Jauneの生産が認められているAOCです。"
+  },
+  {
     id: "italy-overview-law-001",
     category: "イタリア/概論、歴史、品種、ワイン法",
     importance: "A",
@@ -4686,7 +5253,54 @@ window.WINE_QUESTIONS = [
     { id: "057", q: "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フェニキア人が大西洋岸の町、現在のカディスに到達し、内陸のヘレス地域や地中海沿岸地域でワイン造りをし交易に使った。」", c: ["西暦200年頃", "紀元前200年頃", "紀元前1100年頃", "西暦700年頃"], a: 2, e: "フェニキア人がカディス周辺に到達したのは紀元前1100年頃です。" },
     { id: "058", q: "次の中からスペインのビエルソの赤ワインの主たる品種として最も適切なものを選択してください。", c: ["ガルナッチャとカリニェナ", "テンプラニーリョとカベルネ・ソーヴィニョン", "ボバル", "メンシア"], a: 3, e: "ビエルソの赤ワインの主たる品種はメンシアです。" },
     { id: "059", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でAのゾーン名をカタカナで入力してください。", t: "リオハ・アルタ", aliases: ["リオハアルタ"], img: "rioja", e: "地図上のAはRioja Alta、カタカナではリオハ・アルタです。" },
-    { id: "060", q: "次のスペインのDOまたはDOCaの中から、最も南に位置するところを選択してください。", c: ["リベイラ・サクラ", "ラ・マンチャ", "ヘレス", "リベラ・デル・ドゥエロ"], a: 2, e: "この中で最も南に位置するのはヘレスです。" }
+    { id: "060", q: "次のスペインのDOまたはDOCaの中から、最も南に位置するところを選択してください。", c: ["リベイラ・サクラ", "ラ・マンチャ", "ヘレス", "リベラ・デル・ドゥエロ"], a: 2, e: "この中で最も南に位置するのはヘレスです。" },
+    { id: "061", q: "スペインでクリアンサと表記された赤ワインの最低熟成期間を選択してください。", c: ["24ヶ月", "48ヶ月", "12ヶ月", "36ヶ月"], a: 0, e: "赤ワインのCrianzaは最低24ヶ月熟成です。" },
+    { id: "062", q: "次の中からスペインのシェリーでVORSと表示がなされたものの平均熟成期間を選択してください。", c: ["20年以上", "10年以上", "30年以上", "5年以上"], a: 2, e: "VORSは平均熟成期間30年以上を示します。" },
+    { id: "063", q: "下記の画像はスペインのワイン産地の地図です。地図上でValenciaに相当する番号を選択してください。", c: ["7番", "4番", "11番", "2番"], a: 0, img: "spain", e: "Valenciaは地図上の7番です。" },
+    { id: "064", q: "次の中でスペインのDOまたはDOCa「リオハ」が属する地方を選択してください。", c: ["南部地方", "北部地方", "内陸部地方", "地中海地方"], a: 1, e: "Riojaはスペイン北部地方に属します。" },
+    { id: "065", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Alavesaに相当する記号を選択してください。", c: ["B（左のみ）", "B（左右両方）", "B（右のみ）", "A"], a: 1, img: "rioja", e: "Rioja Alavesaは地図上のB（左右両方）です。" },
+    { id: "066", q: "次の中からスペインで2025年時点で認定されているD.O.の数を選択してください。", c: ["27", "7", "69", "2"], a: 2, e: "2025年時点でスペインのD.O.は69です。" },
+    { id: "067", q: "次の中からスペインのリオハの産地で、他の地域に比べて地中海性気候の影響を受け、気温が高く乾燥しているところを選択してください。", c: ["リオハ・アルタ", "リオハ・デマンダ", "リオハ・アラベサ", "リオハ・オリエンタル"], a: 3, e: "Rioja Orientalは他の地区より地中海性気候の影響を受け、気温が高く乾燥しています。" },
+    { id: "068", q: "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。", c: ["Valdepeñas", "Somontano", "Ribera del Duero", "Priorato"], a: 2, e: "Ribera del DueroはCastilla y León州に属します。" },
+    { id: "069", q: "次の中からスペインのワイン産地、バルセロナ県のサン・サドゥルニ・ダノイアが属する州を選択してください。", c: ["Castilla La Mancha", "Cataluña", "Castilla y León", "Aragón"], a: 1, e: "サン・サドゥルニ・ダノイアはCataluña州に属します。" },
+    { id: "070", q: "次の中からスペインのCavaに使用される主要品種を選択してください。", c: ["アルバリーニョ", "パレリャーダ", "モスカテル", "ペドロ・ヒメネス"], a: 1, e: "パレリャーダはCavaに使用される主要品種の一つです。" },
+    { id: "071", q: "次の中からスペインで2025年時点で認定されているVino de la Tierraの数を選択してください。", c: ["105", "2", "7", "43"], a: 3, e: "2025年時点でスペインのVino de la Tierraは43です。" },
+    { id: "072", q: "下記の画像はスペインのワイン産地の地図です。地図上でPaís Vascoに相当する番号を選択してください。", c: ["4番", "13番", "1番", "2番"], a: 0, img: "spain", e: "País Vascoは地図上の4番です。" },
+    { id: "073", q: "次の中からスペインのCavaの生産量の中でペネデスを中心としたカタルーニャ州が占める割合を選択してください。", c: ["85%", "95%", "75%", "65%"], a: 1, e: "Cavaの生産量は、ペネデスを中心としたカタルーニャ州が約95%を占めます。" },
+    { id: "074", q: "次の中からスペインのリベラ・デル・ドゥエロの赤ワインの品種規定を選択してください。", c: ["テンプラニーリョ85%以上", "ガルナッチャ・ティンタ75%以上", "ガルナッチャ・ティンタ85%以上", "テンプラニーリョ75%以上"], a: 3, e: "Ribera del Dueroの赤ワインはテンプラニーリョを75%以上使用します。" },
+    { id: "075", q: "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。", c: ["チャレッロ", "ビウラ", "ガルナッチャ・ティンタ", "パレリャーダ"], a: 2, e: "Cavaのロゼにはガルナッチャ・ティンタなどの黒ブドウ品種が使用されます。" },
+    { id: "076", q: "次の中からスペイン中央部に広がる高く平らな地形の呼称を選択してください。", c: ["テラロッサ", "テュフォー", "ランサローテ", "メセタ"], a: 3, e: "スペイン中央部に広がる高く平らな地形はメセタと呼ばれます。" },
+    { id: "077", q: "次の中から紀元前1100年頃スペインのカディスに到達し、ワイン造りを行った人種を選択してください。", c: ["フェニキア人", "エジプト人", "ローマ人", "ムーア人"], a: 0, e: "紀元前1100年頃、カディスに到達してワイン造りを行ったのはフェニキア人です。" },
+    { id: "078", q: "次の中からスペインのリオハの産地で、2018年にリオハ・バハから改名されたところを選択してください。", c: ["リオハ・アルタ", "リオハ・アラベサ", "リオハ・オリエンタル", "リオハ・デマンダ"], a: 2, e: "Rioja Bajaは2018年にRioja Orientalへ改名されました。" },
+    { id: "079", q: "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でBのゾーン名をカタカナで入力してください。", t: "リオハ・アラベサ", aliases: ["リオハアラベサ"], img: "rioja", e: "地図上のBはRioja Alavesa、カタカナではリオハ・アラベサです。" },
+    { id: "080", q: "次の中からスペインのDOまたはDOCa Valdepeñasが属する州を選択してください。", c: ["Extremadura", "Islas Canarias", "Castilla La Mancha", "Cataluña"], a: 2, e: "ValdepeñasはCastilla La Mancha州に属します。" },
+    { id: "081", q: "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。", c: ["Somontano", "Bierzo", "Granada", "Priorato"], a: 1, e: "BierzoはCastilla y León州に属します。" },
+    { id: "082", q: "下記の画像はスペインのワイン産地の地図です。地図上でAragónに相当する番号を選択してください。", c: ["4番", "3番", "9番", "5番"], a: 1, img: "spain", e: "Aragónは地図上の3番です。" },
+    { id: "083", q: "次のスペインのDOまたはDOCaの中から、最も北に位置するところを選択してください。", c: ["ラ・マンチャ", "リベイラ・サクラ", "ナバーラ", "プリオラート"], a: 2, e: "この中で最も北に位置するのはナバーラです。" },
+    { id: "084", q: "次の中からスペインのCavaに使用される主要品種を選択してください。", c: ["アルバリーニョ", "チャレッロ", "アイレン", "ベルデホ"], a: 1, e: "チャレッロはCavaに使用される主要品種の一つです。" },
+    { id: "085", q: "次の中からスペインでシェリーを熟成させる時、600リットルの樽に入れるワインの量を選択してください。", c: ["600リットル", "300リットル", "400リットル", "500リットル"], a: 3, e: "シェリー熟成では600リットルの樽に約500リットルのワインを入れます。" },
+    { id: "086", q: "次の中からスペインで最大の産地カスティーリャ・ラ・マンチャ州の生産量が全体に占める割合を選択してください。", c: ["51%", "71%", "62%", "35%"], a: 0, e: "カスティーリャ・ラ・マンチャ州はスペインの生産量の約51%を占めます。" },
+    { id: "087", q: "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「プリオラートが特選原産地呼称ワインに認定された。」", c: ["2009年", "1998年", "1991年", "2015年"], a: 0, e: "プリオラートが特選原産地呼称ワインに認定されたのは2009年です。" },
+    { id: "088", q: "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。", c: ["チャレッロ", "トレパット", "テンプラニーリョ", "ボバル"], a: 1, e: "トレパットはCavaのロゼに使用される黒ブドウ品種です。" },
+    { id: "089", q: "次の説明に合致するスペインのシェリーのタイプを選択してください。「フロールのもとで熟成したのち、フロールを消失し酸化熟成したタイプ。琥珀色でシャープな辛口である。」", c: ["Amontillado", "Palo Cortado", "Fino", "Oloroso"], a: 0, e: "説明はAmontilladoに合致します。" },
+    { id: "090", q: "次の中からスペイン、Cataluña州に属するDOまたはDOCaを選択してください。", c: ["Lanzarote", "Penedés", "Toro", "La Mancha"], a: 1, e: "PenedésはCataluña州に属します。" },
+    { id: "091", q: "スペインでノーブレと表記されたワインの最低熟成期間を選択してください。", c: ["9ヶ月", "12ヶ月", "18ヶ月", "24ヶ月"], a: 2, e: "Nobleは最低18ヶ月熟成です。" },
+    { id: "092", q: "次の中からスペインのワイン産地、アンダルシア地方のシェリーやモンティーリャの土壌を選択してください。", c: ["火山性土壌", "赤い粘土質の土壌", "スレート土壌", "石灰岩で真っ白な土壌"], a: 3, e: "シェリーやモンティーリャの産地は、石灰岩で真っ白なアルバリサ土壌で知られます。" },
+    { id: "093", q: "次の中からスペインのリオハの産地で、エブロ川上流の右岸と左岸に位置し全栽培面積の約50%を占めるところを選択してください。", c: ["リオハ・アラベサ", "リオハ・デマンダ", "リオハ・オリエンタル", "リオハ・アルタ"], a: 3, e: "Rioja Altaはエブロ川上流の右岸と左岸に位置し、全栽培面積の約50%を占めます。" },
+    { id: "094", q: "下記の画像はスペインのワイン産地の地図です。地図上で11番の産地名をカタカナで入力してください。", t: "カスティーリャ・ラ・マンチャ", aliases: ["カスティーリャラマンチャ"], img: "spain", e: "地図上の11番はCastilla La Mancha、カタカナではカスティーリャ・ラ・マンチャです。" },
+    { id: "095", q: "次の中からCavaの一つのカテゴリーで、単一収穫年のみなど厳格な規定があり、単一畑とは限らないが2025年現在18のエリアが認められているものを選択してください。", c: ["Cava de Origen Calificada", "Cava Gran Reserva", "Cava de Paraje Calificado", "Cava Extra Añejo"], a: 2, e: "Cava de Paraje Calificadoは厳格な規定を持つCavaのカテゴリーです。" },
+    { id: "096", q: "次の中でスペインのDOまたはDOCa「ヘレス」が属する地方を選択してください。", c: ["南部地方", "北部地方", "地中海地方", "内陸部地方"], a: 0, e: "Jerezは南部地方に属します。" },
+    { id: "097", q: "次の中からスペインのDOまたはDOCa Rías Baixasが属する州を選択してください。", c: ["Islas Canarias", "Galicia", "Castilla La Mancha", "Castilla y León"], a: 1, e: "Rías BaixasはGalicia州に属します。" },
+    { id: "098", q: "次の中からスペインのCavaで使用が認められている外来品種を選択してください。", c: ["ピノ・ブラン", "ソーヴィニョン・ブラン", "シャルドネ", "ムニエ"], a: 2, e: "Cavaでは外来品種としてシャルドネの使用が認められています。" },
+    { id: "099", q: "次の中からスペインで最大の産地カスティーリャ・ラ・マンチャ州の栽培面積が全体に占める割合を選択してください。", c: ["62%", "48%", "71%", "54%"], a: 1, e: "カスティーリャ・ラ・マンチャ州の栽培面積は、スペイン全体の約48%を占めます。" },
+    { id: "100", q: "次の説明に合致するスペインのシェリーのタイプを選択してください。「フロールを消して酸化熟成させたタイプ。琥珀色からマホガニー色でやや甘く感じるが辛口である。」", c: ["Amontillado", "Fino", "Manzanilla", "Oloroso"], a: 3, e: "説明はOlorosoに合致します。" },
+    { id: "101", q: "スペインでクリアンサと表記されたDOCa Riojaの熟成用の樽の容量を選択してください。", c: ["1050リットル", "225リットル", "600リットル", "330リットル"], a: 1, e: "DOCa RiojaのCrianzaでは225リットル樽が用いられます。" },
+    { id: "102", q: "次の中でスペインのDOまたはDOCa「プリオラート」が属する地方を選択してください。", c: ["大西洋地方", "北部地方", "地中海地方", "南部地方"], a: 2, e: "Prioratoは地中海地方に属します。" },
+    { id: "103", q: "次の中でスペインのDOまたはDOCa「リベラ・デル・ドゥエロ」が属する地方を選択してください。", c: ["北部地方", "地中海地方", "内陸部地方", "南部地方"], a: 2, e: "Ribera del Dueroは内陸部地方に属します。" },
+    { id: "104", q: "次の中からスペインのリオハの産地で、他の地域に比べてガルナッチャの栽培が多くアルコール度数の高い赤・ロゼワインが造られているところを選択してください。", c: ["リオハ・アルタ", "リオハ・デマンダ", "リオハ・アラベサ", "リオハ・オリエンタル"], a: 3, e: "Rioja Orientalはガルナッチャの栽培が多く、アルコール度数の高い赤・ロゼワインが造られます。" },
+    { id: "105", q: "次のスペインのDOまたはDOCaの中から、大西洋に面しているところを選択してください。", c: ["リアス・バイシャス", "リオハ", "ソモンターノ", "ラ・マンチャ"], a: 0, e: "Rías Baixasは大西洋に面した産地です。" },
+    { id: "106", q: "次の中からスペインの産地リベラ・デル・ドゥエロにおけるテンプラニーリョの別名を選択してください。", c: ["ティンタ・デ・マドリッド", "ウル・デ・リェブレ", "ティント・フィノ", "アラゴネス"], a: 2, e: "Ribera del Dueroではテンプラニーリョはティント・フィノとも呼ばれます。" },
+    { id: "107", q: "次の中からスペインの「Cava」のカタルーニャ語における意味を選択してください。", c: ["湧水", "洞窟", "塩味", "山麓"], a: 1, e: "Cavaはカタルーニャ語で洞窟を意味します。" }
   ].map((item) => {
     const base = {
       id: `spain-${item.id}`,
