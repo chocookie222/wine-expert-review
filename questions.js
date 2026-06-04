@@ -295,6 +295,24 @@ window.WINE_QUESTIONS = [
     explanation: "原産地呼称保護ワインに相当する分類はAOC、Appellation d'Origine Contrôléeです。IGPやVin de Franceとの違いを整理して覚えます。"
   },
   {
+    id: "france-general-032",
+    category: "フランス概論",
+    importance: "A",
+    question: "次の中からフランスの黒ブドウで栽培面積が第1位の品種を選択してください。",
+    choices: ["グルナッシュ", "シラー", "メルロ", "カベルネ・ソーヴィニョン"],
+    answerIndex: 2,
+    explanation: "フランスの黒ブドウで栽培面積が第1位の品種はメルロです。グルナッシュ、シラー、カベルネ・ソーヴィニョンとの順位を整理して覚えます。"
+  },
+  {
+    id: "france-general-033",
+    category: "フランス概論",
+    importance: "B",
+    question: "次の中からフランスにおけるブドウ品種メルロの2019/20年の栽培面積に最も近いものを選択してください。",
+    choices: ["80万ヘクタール", "120万ヘクタール", "11万ヘクタール", "2万ヘクタール"],
+    answerIndex: 2,
+    explanation: "フランスにおけるメルロの2019/20年の栽培面積は、選択肢の中では11万ヘクタールが最も近い値です。"
+  },
+  {
     id: "france-champagne-001",
     category: "フランス/シャンパーニュ",
     importance: "A",
@@ -1478,6 +1496,406 @@ window.WINE_QUESTIONS = [
     explanation: "単一品種のガメイから造られるフルーティな赤ワインと10のクリュで知られるのはボージョレ地区です。"
   },
   {
+    id: "france-bourgogne-aoc-060",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「サン・ロマン」が生産することができるワインの種類を選択してください。",
+    choices: ["ロゼワインのみ", "赤ワインのみ", "赤・白ワイン", "白ワインのみ"],
+    answerIndex: 2,
+    explanation: "Saint-Romainはコート・ド・ボーヌ地区の村名AOCで、赤ワインと白ワインの生産が認められています。"
+  },
+  {
+    id: "france-bourgogne-aoc-061",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方コート・ド・ニュイ地区の村を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Chambolle-Musigny, Gevrey-Chambertin, Vougeot, Nuits-Saint-Georges", "Nuits-Saint-Georges, Fixin, Vosne-Romanée, Gevrey-Chambertin", "Marsannay, Fixin, Gevrey-Chambertin, Nuits-Saint-Georges", "Vougeot, Nuits-Saint-Georges, Marsannay, Chambolle-Musigny"],
+    answerIndex: 2,
+    explanation: "コート・ド・ニュイ地区の村は、北からMarsannay、Fixin、Gevrey-Chambertin、Nuits-Saint-Georgesの順に位置します。"
+  },
+  {
+    id: "france-bourgogne-aoc-062",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中でブルゴーニュ地方のAOCワイン「シャサーニュ・モンラッシェ」を生産することができる地区を選択してください。",
+    choices: ["マコネ地区", "コート・ド・ボーヌ地区", "ボージョレ地区", "コート・シャロネーズ地区"],
+    answerIndex: 1,
+    explanation: "Chassagne-Montrachetはコート・ド・ボーヌ地区に位置する村名AOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-063",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "下記の説明に合致するブルゴーニュ地方の生産地区を選択してください。「コート・ドールの南に続く南北約25kmの産地。洗練さにやや欠けるものの総じてお値打ちな赤白ワインが造られている。」",
+    choices: ["コート・シャロネーズ地区", "シャブリ地区", "マコネ地区", "コート・ド・ニュイ地区"],
+    answerIndex: 0,
+    explanation: "コート・ドールの南に続き、赤白ワインを産する産地はコート・シャロネーズ地区です。"
+  },
+  {
+    id: "france-bourgogne-aoc-064",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "次の中からブルゴーニュ地方で1395年、フィリップ豪胆公が禁止したことを選択してください。",
+    choices: ["ガメイ種を植えること", "修道院以外の場所でワインを造ること", "ロゼワインを造ること", "シャルドネ種を植えること"],
+    answerIndex: 0,
+    explanation: "1395年、フィリップ豪胆公はブルゴーニュでガメイ種を植えることを禁止しました。"
+  },
+  {
+    id: "france-bourgogne-aoc-065",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「サン・タムール」が生産することができるワインの種類を選択してください。",
+    choices: ["赤ワインのみ", "ロゼワインのみ", "白ワインのみ", "赤・白ワイン"],
+    answerIndex: 0,
+    explanation: "Saint-Amourはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。"
+  },
+  {
+    id: "france-bourgogne-aoc-066",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Givry", "Montagny", "Fixin", "Beaune", "Chorey-lès-Beaune", "Saint-Amour", "Chablis Grand Cru", "Auxey-Duresses"],
+    answerIndexes: [1, 6],
+    maxSelections: 2,
+    explanation: "MontagnyとChablis Grand Cruは、この選択肢の中で白ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-067",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Mercurey", "Chiroubles", "Mâcon", "Morey-Saint-Denis", "Pouilly-Loché", "Pommard", "Marsannay", "Fixin"],
+    answerIndexes: [1, 5],
+    maxSelections: 2,
+    explanation: "ChiroublesとPommardは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-068",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Aloxe-Corton", "Beaujolais Villages", "Chablis", "Chénas", "Saint-Véran", "Pouilly-Fuissé", "Chambolle-Musigny", "Montagny"],
+    answerIndexes: [3, 6],
+    maxSelections: 2,
+    explanation: "ChénasとChambolle-Musignyは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-069",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Vézelay", "Morey-Saint-Denis", "Santenay", "Chablis", "Saint-Amour", "Vosne-Romanée", "Mercurey", "Meursault"],
+    answerIndexes: [0, 3],
+    maxSelections: 2,
+    explanation: "VézelayとChablisは、この選択肢の中で白ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-070",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "下記の説明に合致するブルゴーニュ地方の生産地区を選択してください。\n「この地区の多くの村では、赤ワインとともに白ワインも造られる。世界的に高価格で取引される白ワインのグラン・クリュはこの地区に集中している。」",
+    choices: ["コート・シャロネーズ地区", "マコネ地区", "ボージョレ地区", "コート・ド・ボーヌ地区"],
+    answerIndex: 3,
+    explanation: "白ワインの銘醸グラン・クリュが集中するのはコート・ド・ボーヌ地区です。"
+  },
+  {
+    id: "france-bourgogne-aoc-071",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "次の中からボージョレ地区をのぞくブルゴーニュ地方において、アリゴテが占める栽培比率を選択してください。",
+    choices: ["9%", "12%", "18%", "6%"],
+    answerIndex: 3,
+    explanation: "ボージョレ地区を除くブルゴーニュ地方では、アリゴテの栽培比率は約6%です。"
+  },
+  {
+    id: "france-bourgogne-aoc-072",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「シャブリ・プルミエ・クリュ」が生産することができるワインの種類を選択してください。",
+    choices: ["赤・白ワイン", "赤・白・ロゼワイン", "白ワインのみ", "赤ワインのみ"],
+    answerIndex: 2,
+    explanation: "Chablis Premier Cruは白ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-073",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Gevrey-Chambertin, Chambolle-Musigny, Chassagne-Montrachet, Irancy", "Gevrey-Chambertin, Pommard, Marsannay, Irancy", "Pommard, Meursault, Marsannay, Chambolle-Musigny", "Irancy, Marsannay, Vosne-Romanée, Meursault"],
+    answerIndex: 3,
+    explanation: "北から南へ、Irancy、Marsannay、Vosne-Romanée、Meursaultの順になります。"
+  },
+  {
+    id: "france-bourgogne-aoc-074",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「ラドワ」が生産することができるワインの種類を選択してください。",
+    choices: ["白ワインのみ", "赤ワインのみ", "赤・白・ロゼワイン", "赤・白ワイン"],
+    answerIndex: 3,
+    explanation: "Ladoixは赤ワインと白ワインを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-075",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "次の中からブルゴーニュ地方のボーヌにオテル・デューが建設された年を選択してください。",
+    choices: ["1443年", "1115年", "1789年", "630年"],
+    answerIndex: 0,
+    explanation: "ボーヌのオテル・デューは1443年に建設されました。"
+  },
+  {
+    id: "france-bourgogne-aoc-076",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「シルーブル」が生産することができるワインの種類を選択してください。",
+    choices: ["白ワインのみ", "ロゼワインのみ", "赤・白ワイン", "赤ワインのみ"],
+    answerIndex: 3,
+    explanation: "Chiroublesはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。"
+  },
+  {
+    id: "france-bourgogne-aoc-077",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Beaujolais Supérieur", "Beaujolais", "Côte de Beaune", "Volnay", "Régnié", "Morgon", "Pommard", "Mâcon-Villages"],
+    answerIndexes: [7],
+    maxSelections: 2,
+    explanation: "この選択肢の中では、Mâcon-Villagesが白ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-078",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインと白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Saint-Romain", "Beaujolais", "Maranges", "Bouzeron", "Blagny", "Volnay", "Chablis Premier Cru", "Gevrey-Chambertin"],
+    answerIndexes: [0, 2],
+    maxSelections: 2,
+    explanation: "Saint-RomainとMarangesは、この選択肢の中で赤ワインと白ワインを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-079",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Morey-Saint-Denis", "Beaujolais", "Monthélie", "Pouilly-Loché", "Mâcon-Villages", "Chénas", "Fleurie", "Viré-Clessé"],
+    answerIndexes: [5, 6],
+    maxSelections: 2,
+    explanation: "ChénasとFleurieは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-080",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「アロース・コルトン」が生産することができるワインの種類を選択してください。",
+    choices: ["ロゼワインのみ", "白ワインのみ", "赤・白ワイン", "赤ワインのみ"],
+    answerIndex: 2,
+    explanation: "Aloxe-Cortonは赤ワインと白ワインを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-081",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方コート・ド・ニュイ地区の村を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Vougeot, Morey-Saint-Denis, Chambolle-Musigny, Marsannay", "Gevrey-Chambertin, Vougeot, Marsannay, Fixin", "Vosne-Romanée, Morey-Saint-Denis, Gevrey-Chambertin, Chambolle-Musigny", "Marsannay, Gevrey-Chambertin, Morey-Saint-Denis, Vougeot"],
+    answerIndex: 3,
+    explanation: "コート・ド・ニュイ地区では北からMarsannay、Gevrey-Chambertin、Morey-Saint-Denis、Vougeotの順です。"
+  },
+  {
+    id: "france-bourgogne-aoc-082",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Marsannay, Meursault, Gevrey-Chambertin, Vosne-Romanée", "Chambolle-Musigny, Vosne-Romanée, Pommard, Meursault", "Vosne-Romanée, Gevrey-Chambertin, Marsannay, Meursault", "Marsannay, Pommard, Vosne-Romanée, Chambolle-Musigny"],
+    answerIndex: 1,
+    explanation: "北からChambolle-Musigny、Vosne-Romanée、Pommard、Meursaultの順になります。"
+  },
+  {
+    id: "france-bourgogne-aoc-083",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中でブルゴーニュ地方のAOCワイン「シェナス」を生産することができる地区を選択してください。",
+    choices: ["シャブリ地区", "ボージョレ地区", "コート・ド・ニュイ地区", "コート・シャロネーズ地区"],
+    answerIndex: 1,
+    explanation: "Chénasはボージョレ地区のクリュのひとつです。"
+  },
+  {
+    id: "france-bourgogne-aoc-084",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「ブラニィ」が生産することができるワインの種類を選択してください。",
+    choices: ["赤ワインのみ", "白ワインのみ", "赤・白ワイン", "赤・白・ロゼワイン"],
+    answerIndex: 0,
+    explanation: "Blagnyは赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-085",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "次の中からブルゴーニュ地方の気候を選択してください。",
+    choices: ["一般に大陸性または高山性気候、南部は海洋性気候の影響を受ける", "一般に半大陸性または地中海性気候、北部は高山性気候の影響を受ける", "一般に半大陸性または大陸性気候、南部は地中海性気候の影響を受ける", "一般に海洋性または地中海性気候、北部は大陸性気候の影響を受ける"],
+    answerIndex: 2,
+    explanation: "ブルゴーニュは一般に半大陸性または大陸性気候で、南部は地中海性気候の影響も受けます。"
+  },
+  {
+    id: "france-bourgogne-aoc-086",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "B",
+    question: "次の中からブルゴーニュ地方の特級畑クロ・ド・タールが誕生した年を選択してください。",
+    choices: ["630年", "1115年", "1789年", "1141年"],
+    answerIndex: 3,
+    explanation: "Clos de Tartは1141年に誕生したとされる歴史ある畑です。"
+  },
+  {
+    id: "france-bourgogne-aoc-087",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Bouzeron", "Pouilly-Fuissé", "Irancy", "Chorey-lès-Beaune", "Santenay", "Rully", "Chiroubles", "Chablis"],
+    answerIndexes: [2, 6],
+    maxSelections: 2,
+    explanation: "IrancyとChiroublesは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-088",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "下記の説明に合致するブルゴーニュ地方のAOCの種類を選択してください。\n「村名を冠したAOCである。単一の区画から造られた場合は区画名を名乗ることができる。」",
+    choices: ["Appellation Communale", "Appellation Grand Cru", "Appellation Régionale", "Appellation Nationale"],
+    answerIndex: 0,
+    explanation: "村名を冠したAOCはAppellation Communaleです。"
+  },
+  {
+    id: "france-bourgogne-aoc-089",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Pouilly-Vinzelles", "Marsannay", "Vougeot", "Volnay", "Monthélie", "Aloxe-Corton", "Blagny", "Chassagne-Montrachet"],
+    answerIndexes: [3, 6],
+    maxSelections: 2,
+    explanation: "VolnayとBlagnyは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-090",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤、白、ロゼワインを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Beaujolais", "Pouilly-Vinzelles", "Fixin", "Pernand-Vergelesses", "Saint-Amour", "Pouilly-Fuissé", "Savigny-lès-Beaune", "Mâcon"],
+    answerIndexes: [0, 7],
+    maxSelections: 2,
+    explanation: "BeaujolaisとMâconは赤・白・ロゼワインの生産が認められています。"
+  },
+  {
+    id: "france-bourgogne-aoc-091",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "下記の説明に合致するブルゴーニュ地方の生産地区を選択してください。\n「オーセール市から東に20kmに位置し、冷涼な気候から爽やかでミネラル感のあるシャルドネワインが生まれる。ワインの品質によって4つのAOCに分類されている。」",
+    choices: ["マコネ地区", "ボージョレ地区", "シャブリ地区", "コート・シャロネーズ地区"],
+    answerIndex: 2,
+    explanation: "オーセール東方に位置し、4階層のAOCで知られるのはシャブリ地区です。"
+  },
+  {
+    id: "france-bourgogne-aoc-092",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方コート・ド・ニュイ地区の村を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Chambolle-Musigny, Vougeot, Gevrey-Chambertin, Nuits-Saint-Georges", "Marsannay, Chambolle-Musigny, Vougeot, Vosne-Romanée", "Vougeot, Morey-Saint-Denis, Marsannay, Nuits-Saint-Georges", "Vougeot, Nuits-Saint-Georges, Gevrey-Chambertin, Fixin"],
+    answerIndex: 1,
+    explanation: "北からMarsannay、Chambolle-Musigny、Vougeot、Vosne-Romanéeの順に位置します。"
+  },
+  {
+    id: "france-bourgogne-aoc-093",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方コート・シャロネーズ地区の村名AOCを全て選択してください。2個まで選択できます。",
+    choices: ["Pouilly-Vinzelles", "Viré-Clessé", "Rully", "Pouilly-Fuissé", "Montagny", "Saint-Véran"],
+    answerIndexes: [2, 4],
+    maxSelections: 2,
+    explanation: "RullyとMontagnyはコート・シャロネーズ地区の村名AOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-094",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から主にコート・ドール県に属しているブルゴーニュ地方の生産地区を選択してください。",
+    choices: ["マコネ地区", "グラン・オーセロワ地区", "コート・ド・ニュイ地区", "シャブリ地区"],
+    answerIndex: 2,
+    explanation: "コート・ド・ニュイ地区は主にコート・ドール県に属します。"
+  },
+  {
+    id: "france-bourgogne-aoc-095",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「ボーヌ」が生産することができるワインの種類を選択してください。",
+    choices: ["ロゼワインのみ", "赤・白ワイン", "赤ワインのみ", "赤・白・ロゼワイン"],
+    answerIndex: 1,
+    explanation: "Beauneは赤ワインと白ワインの生産が認められています。"
+  },
+  {
+    id: "france-bourgogne-aoc-096",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Viré-Clessé, Saint-Amour, Montagny, Pouilly-Loché", "Brouilly, Saint-Amour, Saint-Bris, Montagny", "Santenay, Brouilly, Fixin, Pouilly-Loché", "Saint-Bris, Nuits-Saint-Georges, Bouzeron, Saint-Amour"],
+    answerIndex: 3,
+    explanation: "北からSaint-Bris、Nuits-Saint-Georges、Bouzeron、Saint-Amourの順です。"
+  },
+  {
+    id: "france-bourgogne-aoc-097",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のAOCワイン「モルゴン」が生産することができるワインの種類を選択してください。",
+    choices: ["赤・白・ロゼワイン", "赤ワインのみ", "ロゼワインのみ", "白ワインのみ"],
+    answerIndex: 1,
+    explanation: "Morgonはボージョレのクリュで、赤ワインのみを生産できます。"
+  },
+  {
+    id: "france-bourgogne-aoc-098",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方コート・ドール県の県庁所在地を選択してください。",
+    choices: ["リヨン", "ディジョン", "トロワ", "ボーヌ"],
+    answerIndex: 1,
+    explanation: "コート・ドール県の県庁所在地はディジョンです。"
+  },
+  {
+    id: "france-bourgogne-aoc-099",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインと白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Saint-Aubin", "Mâcon", "Montagny", "Beaujolais Villages", "Pouilly-Vinzelles", "Fixin", "Vézelay", "Régnié"],
+    answerIndexes: [0, 5],
+    maxSelections: 2,
+    explanation: "Saint-AubinとFixinは赤ワインと白ワインのみを生産できるAOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-100",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中でブルゴーニュ地方のAOCワイン「ニュイ・サン・ジョルジュ」を生産することができる地区を選択してください。",
+    choices: ["シャブリ地区", "ボージョレ地区", "コート・シャロネーズ地区", "コート・ド・ニュイ地区"],
+    answerIndex: 3,
+    explanation: "Nuits-Saint-Georgesはコート・ド・ニュイ地区の村名AOCです。"
+  },
+  {
+    id: "france-bourgogne-aoc-101",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "下記の説明に合致するブルゴーニュ地方の生産地区を選択してください。\n「ディジョン市を北端とし、ピノ・ノワールから造られる赤ワインの銘醸地で白ワインはごくわずかである。赤ワインのグラン・クリュはこの地区に集中している。」",
+    choices: ["マコネ地区", "ボージョレ地区", "コート・ド・ニュイ地区", "コート・シャロネーズ地区"],
+    answerIndex: 2,
+    explanation: "ディジョンを北端とし赤のグラン・クリュが集中するのはコート・ド・ニュイ地区です。"
+  },
+  {
+    id: "france-bourgogne-aoc-102",
+    category: "フランス/ブルゴーニュ（概要・AOC）",
+    importance: "A",
+    question: "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
+    choices: ["Auxey-Duresses", "Mercurey", "Chablis", "Chassagne-Montrachet", "Morgon", "Côte de Brouilly", "Vézelay", "Puligny-Montrachet"],
+    answerIndexes: [4, 5],
+    maxSelections: 2,
+    explanation: "MorgonとCôte de Brouillyは、この選択肢の中で赤ワインのみを生産できるAOCです。"
+  },
+  {
     id: "france-bourgogne-grand-cru-001",
     category: "フランス/ブルゴーニュ（グラン・クリュ）",
     importance: "A",
@@ -2000,6 +2418,246 @@ window.WINE_QUESTIONS = [
     answerIndexes: [2, 3],
     maxSelections: 2,
     explanation: "La Moutonneは非公式なグラン・クリュ名、Les Closはシャブリ・グラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-051",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
+    choices: ["Hautes Mourottes", "Clos Saint-Jean", "Les Vignes Franches", "La Romanée", "Les Chaumes", "Romanée-Saint-Vivant", "Les Charmes", "En Cailleret"],
+    answerIndexes: [3, 5],
+    maxSelections: 2,
+    explanation: "La RomanéeとRomanée-Saint-Vivantはブルゴーニュ地方のグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-052",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュCharlemagneが、Pernand-Vergelesses村の区画から生産することができるワインの種類を選択してください。",
+    choices: ["赤・白・ロゼワイン", "赤・白ワイン", "白ワインのみ", "赤ワインのみ"],
+    answerIndex: 2,
+    explanation: "Pernand-Vergelesses村の区画から生産されるCharlemagneは白ワインのみです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-053",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のMonthélie村に存在するグラン・クリュの数を選択してください。",
+    choices: ["7個", "8個", "9個", "0個"],
+    answerIndex: 3,
+    explanation: "Monthélie村にはグラン・クリュは存在しません。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-054",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
+    choices: ["Montmains", "Aux Combottes", "Les Vaucrains", "Santenots"],
+    answerIndex: 0,
+    explanation: "Montmainsはシャブリ・プルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-055",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBienvenues-Bâtard-Montrachetに相当する番号を選択してください。",
+    image: {
+      src: "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
+      alt: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
+      caption: "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村 グラン・クリュ地図"
+    },
+    choices: ["2番", "3番", "5番", "1番"],
+    answerIndex: 3,
+    explanation: "Bienvenues-Bâtard-Montrachetに相当する番号は1番です。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-056",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で3番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-chablis-grand-cru.jpg",
+      alt: "シャブリ地区のグラン・クリュ地図",
+      caption: "シャブリ地区 グラン・クリュ地図"
+    },
+    answerText: "レ・クロ",
+    answerTextAliases: ["レクロ"],
+    explanation: "地図上の3番はLes Clos、カタカナではレ・クロです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-057",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュBonnes-Maresが属する村名を選択してください。",
+    choices: ["Morey-Saint-Denis村, Chambolle-Musigny村", "Vougeot村, Vosne-Romanée村", "Chambolle-Musigny村, Vougeot村", "Gevrey-Chambertin村, Morey-Saint-Denis村"],
+    answerIndex: 0,
+    explanation: "Bonnes-MaresはMorey-Saint-Denis村とChambolle-Musigny村にまたがるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-058",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュMontrachetが属している村名として適切なものを選択してください。",
+    choices: ["Chassagne-Montrachet村", "Puligny-Montrachet村, Chassagne-Montrachet村", "Puligny-Montrachet村", "Meursault村, Puligny-Montrachet村"],
+    answerIndex: 1,
+    explanation: "MontrachetはPuligny-Montrachet村とChassagne-Montrachet村にまたがるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-059",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュClos des Lambraysが属する村名を選択してください。",
+    choices: ["Vougeot村", "Puligny-Montrachet村", "Morey-Saint-Denis村", "Ladoix-Serrigny村"],
+    answerIndex: 2,
+    explanation: "Clos des LambraysはMorey-Saint-Denis村に属するグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-060",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のSavigny-lès-Beaune村に存在するグラン・クリュの数を選択してください。",
+    choices: ["7個", "0個", "9個", "1個"],
+    answerIndex: 1,
+    explanation: "Savigny-lès-Beaune村にはグラン・クリュは存在しません。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-061",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で8番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-vosne-romanee-grand-cru.jpg",
+      alt: "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
+      caption: "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
+    },
+    answerText: "ラ・グランド・リュー",
+    answerTextAliases: ["ラグランドリュー"],
+    explanation: "地図上の8番はLa Grande Rue、カタカナではラ・グランド・リューです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-062",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で7番のグラン・クリュ名をカタカナで入力してください。",
+    image: {
+      src: "assets/bourgogne-chablis-grand-cru.jpg",
+      alt: "シャブリ地区のグラン・クリュ地図",
+      caption: "シャブリ地区 グラン・クリュ地図"
+    },
+    answerText: "ヴォーデジール",
+    answerTextAliases: ["ボーデジール", "ヴォデジール"],
+    explanation: "地図上の7番はVaudésir、カタカナではヴォーデジールです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-063",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
+    choices: ["Mont de Milieu", "Les Chaillots", "Aux Combottes", "Beauregard"],
+    answerIndex: 0,
+    explanation: "Mont de Milieuはシャブリ・プルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-064",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
+    choices: ["Clos Saint-Denis, Mazis-Chambertin, Bonnes-Mares, La Tâche", "Mazis-Chambertin, Charmes-Chambertin, Clos Saint-Denis, Richebourg", "Bonnes-Mares, La Tâche, Charmes-Chambertin, Mazis-Chambertin", "Grands Echézeaux, Clos Saint-Denis, Richebourg, Mazis-Chambertin"],
+    answerIndex: 1,
+    explanation: "北から南の順序では、Mazis-Chambertin、Charmes-Chambertin、Clos Saint-Denis、Richebourgとなります。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-065",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュMontrachetが生産することができるワインの種類を選択してください。",
+    choices: ["赤・白・ロゼワイン", "赤・白ワイン", "赤ワインのみ", "白ワインのみ"],
+    answerIndex: 3,
+    explanation: "Montrachetは白ワインのみを生産できるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-066",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でRuchottes-Chambertinに相当する番号を選択してください。",
+    image: {
+      src: "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
+      alt: "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
+      caption: "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
+    },
+    choices: ["8番", "1番", "2番", "6番"],
+    answerIndex: 1,
+    explanation: "Ruchottes-Chambertinに相当する番号は1番です。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-067",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のグラン・クリュRomanée-Contiが生産することができるワインの種類を選択してください。",
+    choices: ["赤・白ワイン", "赤ワインのみ", "白ワインのみ", "赤・白・ロゼワイン"],
+    answerIndex: 1,
+    explanation: "Romanée-Contiは赤ワインのみを生産できるグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-068",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "ブルゴーニュ地方のFlagey-Echézeaux村に存在するグラン・クリュの数を選択してください。",
+    choices: ["0個", "5個", "2個", "4個"],
+    answerIndex: 2,
+    explanation: "Flagey-Echézeaux村にはEchézeauxとGrands Echézeauxの2つのグラン・クリュが存在します。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-069",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・グラン・クリュ（非公式な名称も含む）を全て選択してください。2個まで選択できます。",
+    choices: ["Montmains", "Beauroy", "La Moutonne", "Fourchaume", "Vaudésir", "Les Fourneaux", "Côte de Léchet", "Montée de Tonnerre"],
+    answerIndexes: [2, 4],
+    maxSelections: 2,
+    explanation: "La Moutonneは非公式なグラン・クリュ名、Vaudésirはシャブリ・グラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-070",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
+    choices: ["Champeaux", "Beauroy", "Genevrières", "Hautes Mourottes"],
+    answerIndex: 1,
+    explanation: "Beauroyはシャブリ・プルミエ・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-071",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でChambertin Clos-de-Bèzeに相当する番号を選択してください。",
+    image: {
+      src: "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
+      alt: "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
+      caption: "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
+    },
+    choices: ["5番", "3番", "6番", "8番"],
+    answerIndex: 1,
+    explanation: "Chambertin Clos-de-Bèzeに相当する番号は3番です。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-072",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
+    choices: ["Clos de la Commaraine", "Aux Thorey", "Latricières-Chambertin", "Genevrières", "Clos de Tart", "Champ Canet", "Aux Coucherias", "Les Valozières"],
+    answerIndexes: [2, 4],
+    maxSelections: 2,
+    explanation: "Latricières-ChambertinとClos de Tartはブルゴーニュ地方のグラン・クリュです。"
+  },
+  {
+    id: "france-bourgogne-grand-cru-073",
+    category: "フランス/ブルゴーニュ（グラン・クリュ）",
+    importance: "A",
+    question: "次の中からブルゴーニュ地方でグラン・クリュが存在する村名を選択してください。",
+    choices: ["Santenay村", "Beaune村", "Volnay村", "Vougeot村"],
+    answerIndex: 3,
+    explanation: "Vougeot村にはClos de Vougeotなどのグラン・クリュが存在します。"
   },
   {
     id: "france-bourgogne-other-001",
@@ -4280,6 +4938,33 @@ window.WINE_QUESTIONS = [
     explanation: "クレマン・ダルザスはフランスで消費量の多いクレマンとして知られます。"
   },
   {
+    id: "france-alsace-057",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方の西部にある山脈の名前を選択してください。",
+    choices: ["ヴォージュ山脈", "ピレネー山脈", "アペニン山脈", "アルプス山脈"],
+    answerIndex: 0,
+    explanation: "アルザス地方の西側にはヴォージュ山脈があり、産地の気候にも大きく影響します。"
+  },
+  {
+    id: "france-alsace-058",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
+    choices: ["ブラウブルグンダー", "スティーン", "ムロン・ド・ブルゴーニュ", "ピノ・グリ"],
+    answerIndex: 3,
+    explanation: "ピノ・グリはアルザス地方のVin d'Alsaceに使用される主要品種の一つです。"
+  },
+  {
+    id: "france-alsace-059",
+    category: "フランス/アルザス",
+    importance: "A",
+    question: "次の中からアルザス地方のAlsace Grand Cruにおいて、単一で醸造する場合、原則としてミュスカは使用できないところを選択してください。",
+    choices: ["Vorbourg", "Hengst", "Wiebelsberg", "Zotzenberg"],
+    answerIndex: 3,
+    explanation: "Zotzenbergでは、単一で醸造する場合に原則としてミュスカは使用できません。"
+  },
+  {
     id: "france-jura-savoie-001",
     category: "フランス/ジュラ、サヴォワ",
     importance: "A",
@@ -4341,6 +5026,938 @@ window.WINE_QUESTIONS = [
     choices: ["Bugey", "Crémant du Jura", "Seyssel", "L'Étoile"],
     answerIndex: 3,
     explanation: "L'Étoileはジュラ地方でVin Jauneの生産が認められているAOCです。"
+  },
+  {
+    id: "france-jura-savoie-008",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からジュラ地方においてVin de Pailleの生産に認められていない品種を選択してください。",
+    choices: ["サヴァニャン", "トゥルソー", "プールサール", "ピノ・ノワール"],
+    answerIndex: 3,
+    explanation: "ジュラ地方のVin de Pailleではサヴァニャン、シャルドネ、プールサール、トゥルソーなどが認められ、ピノ・ノワールは認められていません。"
+  },
+  {
+    id: "france-jura-savoie-009",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "サヴォワ地方のAOCワイン Vin de Savoie Mousseuxに認められているワインの色またはタイプを選択してください。",
+    choices: ["ロゼのみ", "赤・ロゼ・白・黄・藁", "赤・白", "黄・藁"],
+    answerIndex: 0,
+    explanation: "Vin de Savoie Mousseuxではロゼのみが認められています。"
+  },
+  {
+    id: "france-jura-savoie-010",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からフランス、サヴォワ地方の中心都市でサヴォワ公国の首都として栄えたところを選択してください。",
+    choices: ["アルボワ", "グルノーブル", "シャンベリー", "ナンシー"],
+    answerIndex: 2,
+    explanation: "シャンベリーはサヴォワ地方の中心都市で、サヴォワ公国の首都として栄えました。"
+  },
+  {
+    id: "france-jura-savoie-011",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からサヴォワ地方のAOCを選択してください。",
+    choices: ["L'Étoile", "Château-Chalon", "Seyssel", "Arbois"],
+    answerIndex: 2,
+    explanation: "Seysselはサヴォワ地方のAOCです。"
+  },
+  {
+    id: "france-jura-savoie-012",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方のVin Jauneの生産における最低熟成期間を選択してください。",
+    choices: ["収穫から2年目の12月15日まで", "収穫から6年目の12月15日まで", "収穫から8年目の12月15日まで", "収穫から3年目の12月15日まで"],
+    answerIndex: 1,
+    explanation: "Vin Jauneは収穫から6年目の12月15日まで熟成させる規定があります。"
+  },
+  {
+    id: "france-jura-savoie-013",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からVin de Pailleを生産可能なAOCが存在するフランスのワイン産地を選択してください。",
+    choices: ["コート・デュ・ローヌ地方北部", "アルザス地方", "サヴォワ地方", "コート・デュ・ローヌ地方南部"],
+    answerIndex: 0,
+    explanation: "Vin de Pailleを生産可能なAOCは、コート・デュ・ローヌ地方北部にも存在します。"
+  },
+  {
+    id: "france-jura-savoie-014",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からサヴォワ地方ではオート・サヴォワ県のみで栽培されているが、スイスでは栽培面積第1位の白ブドウ品種を選択してください。（品種の名前は別名で表示されていることもあります）",
+    choices: ["シャスラ", "ジャケール", "ナチュレ", "サヴァニャン"],
+    answerIndex: 0,
+    explanation: "シャスラはサヴォワ地方ではオート・サヴォワ県で栽培され、スイスでは主要な白ブドウ品種です。"
+  },
+  {
+    id: "france-jura-savoie-015",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方のVin Jauneの生産において禁止されている工程を選択してください。",
+    choices: ["Ouillage", "Collage", "Macération", "Foulage"],
+    answerIndex: 0,
+    explanation: "Vin Jauneでは産膜酵母の下で熟成させるため、補酒を意味するOuillageは禁止されています。"
+  },
+  {
+    id: "france-jura-savoie-016",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からサヴォワ地方のAOCワインVin de Savoie Crépyの主要品種を選択してください。",
+    choices: ["シャスラ", "モンデューズ", "アルテス", "サヴァニャン"],
+    answerIndex: 0,
+    explanation: "Vin de Savoie Crépyの主要品種はシャスラです。"
+  },
+  {
+    id: "france-jura-savoie-017",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "B",
+    question: "次の中からフランス、ジュラ地方でビオロジック栽培が行われている耕作面積の割合を選択してください。",
+    choices: ["約45%", "約15%", "約30%", "約60%"],
+    answerIndex: 1,
+    explanation: "ジュラ地方ではビオロジック栽培が行われている耕作面積の割合は約15%です。"
+  },
+  {
+    id: "france-jura-savoie-018",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方のAOCワイン Côtes du Juraに認められているワインの色またはタイプを選択してください。",
+    choices: ["黄のみ", "黄・藁", "赤・白", "赤・ロゼ・白・黄・藁"],
+    answerIndex: 3,
+    explanation: "Côtes du Juraでは赤・ロゼ・白のほか、ヴァン・ジョーヌやヴァン・ド・パイユも認められます。"
+  },
+  {
+    id: "france-jura-savoie-019",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin de Pailleの生産が認められているAOCを選択してください。",
+    choices: ["Seyssel mousseux", "Côtes du Jura", "Seyssel", "Bugey"],
+    answerIndex: 1,
+    explanation: "Côtes du JuraではVin de Pailleの生産が認められています。"
+  },
+  {
+    id: "france-jura-savoie-020",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
+    choices: ["Crémant du Jura", "Côtes du Jura", "Macvin du Jura", "Seyssel"],
+    answerIndex: 1,
+    explanation: "Côtes du JuraではVin Jauneの生産が認められています。"
+  },
+  {
+    id: "france-jura-savoie-021",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からサヴォワ地方の主要品種の一つで、キプロス島から持ち込まれたと言われている白ブドウ品種を選択してください。（品種の名前は別名で表示されていることもあります）",
+    choices: ["モンデューズ", "ナチュレ", "アルテス", "サヴァニャン"],
+    answerIndex: 2,
+    explanation: "アルテスはサヴォワ地方の主要白品種の一つで、キプロス島由来と伝えられます。"
+  },
+  {
+    id: "france-jura-savoie-022",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からフランス、ジュラ地方の気候を選択してください。",
+    choices: ["半大陸性気候", "高山性気候", "大陸性気候", "海洋性気候"],
+    answerIndex: 0,
+    explanation: "ジュラ地方は半大陸性気候の影響を受けます。"
+  },
+  {
+    id: "france-jura-savoie-023",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方のAOCワイン Macvin du Juraに認められているワインの色またはタイプを選択してください。",
+    choices: ["赤・ロゼ・白", "黄のみ", "赤・ロゼ・白・黄", "ロゼ・白"],
+    answerIndex: 0,
+    explanation: "Macvin du Juraでは赤・ロゼ・白が認められています。"
+  },
+  {
+    id: "france-jura-savoie-024",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からCrémant du Juraの瓶内最低熟成期間を選択してください。",
+    choices: ["15ヶ月", "12ヶ月", "18ヶ月", "9ヶ月"],
+    answerIndex: 3,
+    explanation: "Crémant du Juraは瓶内で最低9ヶ月熟成させます。"
+  },
+  {
+    id: "france-jura-savoie-025",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin de Pailleの生産が認められているAOCを選択してください。",
+    choices: ["Seyssel", "Château-Chalon", "Arbois Pupillin", "Macvin du Jura"],
+    answerIndex: 2,
+    explanation: "Arbois PupillinではVin de Pailleの生産が認められています。"
+  },
+  {
+    id: "france-jura-savoie-026",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "B",
+    question: "次の中からフランス、サヴォワ地方のワインの輸出量の比率を選択してください。",
+    choices: ["全生産量の約75%", "全生産量の約50%", "全生産量の約5%", "全生産量の約10%"],
+    answerIndex: 2,
+    explanation: "サヴォワ地方のワインの輸出比率は全生産量の約5%です。"
+  },
+  {
+    id: "france-jura-savoie-027",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
+    choices: ["Crémant du Jura", "Macvin du Jura", "Arbois", "Bugey"],
+    answerIndex: 2,
+    explanation: "ArboisではVin Jauneの生産が認められています。"
+  },
+  {
+    id: "france-jura-savoie-028",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からジュラ地方のブドウ栽培面積の50%を占め、この地方で最も栽培されている品種を選択してください。（品種の名前は別名で表示されていることもあります）",
+    choices: ["ピノ・ノワール", "ジャケール", "ムロン・ダルボワ", "シャスラ"],
+    answerIndex: 2,
+    explanation: "ムロン・ダルボワはシャルドネの別名で、ジュラ地方で広く栽培されています。"
+  },
+  {
+    id: "france-jura-savoie-029",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "サヴォワ地方のAOCワイン Roussette de Savoieに認められているワインの色またはタイプを選択してください。",
+    choices: ["赤・ロゼ・白・黄・藁", "ロゼのみ", "赤・ロゼ・白", "白のみ"],
+    answerIndex: 3,
+    explanation: "Roussette de Savoieは白ワインのみが認められています。"
+  },
+  {
+    id: "france-jura-savoie-030",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "次の中からジュラ地方のVin de Pailleの最低熟成期間を選択してください。",
+    choices: ["収穫から2年目の11月15日まで", "収穫から3年目の11月15日まで", "収穫から5年目の11月15日まで", "収穫から4年目の11月15日まで"],
+    answerIndex: 1,
+    explanation: "Vin de Pailleは収穫から3年目の11月15日まで熟成させる規定があります。"
+  },
+  {
+    id: "france-jura-savoie-031",
+    category: "フランス/ジュラ、サヴォワ",
+    importance: "A",
+    question: "ジュラ地方においてVin de Pailleの生産が認められていないAOCを選択してください。",
+    choices: ["L'Étoile", "Château-Chalon", "Arbois Pupillin", "Côtes du Jura"],
+    answerIndex: 1,
+    explanation: "Château-ChalonはVin Jauneで知られるAOCで、Vin de Pailleの生産は認められていません。"
+  },
+  {
+    id: "france-rhone-001",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方南部地区で、14世紀には法皇クレメンス5世が座所に定めていた都市を選択してください。",
+    choices: ["アヴィニョン", "アルル", "ヴィエンヌ", "オランジュ"],
+    answerIndex: 0,
+    explanation: "14世紀、法皇クレメンス5世はアヴィニョンを座所に定めました。"
+  },
+  {
+    id: "france-rhone-002",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
+    choices: ["Côtes du Vivarais", "Saint-Joseph", "Hermitage", "Clairette de Bellegarde"],
+    answerIndex: 3,
+    explanation: "Clairette de Bellegardeは白ワインのみが認められています。"
+  },
+  {
+    id: "france-rhone-003",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    choices: ["Châtillon-en-Diois", "Vinsobres", "Muscat de Beaumes de Venise", "Clairette de Bellegarde"],
+    answerIndex: 0,
+    explanation: "Châtillon-en-Dioisはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-004",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    choices: ["Cornas", "Château-Grillet", "Côte-Rôtie", "Laudun"],
+    answerIndex: 3,
+    explanation: "Laudunはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-005",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からChâteauneuf-du-Papeに使用が認められている品種の数を選択してください。",
+    choices: ["12品種", "11品種", "13品種", "14品種"],
+    answerIndex: 2,
+    explanation: "Châteauneuf-du-Papeでは13品種の使用が認められています。"
+  },
+  {
+    id: "france-rhone-006",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCの中からヴァン・ド・パイユの生産が認められているものを選択してください。",
+    choices: ["Cornas", "Costières de Nîmes", "Hermitage", "Tavel"],
+    answerIndex: 2,
+    explanation: "Hermitageではヴァン・ド・パイユの生産が認められています。"
+  },
+  {
+    id: "france-rhone-007",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方のAOCワインSaint-Josephの赤の品種構成を選択してください。",
+    choices: ["シラー90%以上+ヴィオニエ", "シラー85%以上+ヴィオニエ", "シラー90%以上+マルサンヌ、ルーサンヌ", "シラー85%以上+マルサンヌ、ルーサンヌ"],
+    answerIndex: 2,
+    explanation: "Saint-Joseph赤はシラー90%以上で、マルサンヌ、ルーサンヌを補助的に使用できます。"
+  },
+  {
+    id: "france-rhone-008",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方南部のAOCの地図です。地図上で15番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/rhone-meridional-map.jpg",
+      alt: "ローヌ渓谷地方南部のAOC地図",
+      caption: "ローヌ渓谷地方南部"
+    },
+    answerText: "シャトーヌフ・デュ・パプ",
+    explanation: "南部地図の15番はシャトーヌフ・デュ・パプです。"
+  },
+  {
+    id: "france-rhone-009",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で2番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/rhone-septentrional-map.jpg",
+      alt: "ローヌ渓谷地方北部のAOC地図",
+      caption: "ローヌ渓谷地方北部"
+    },
+    answerText: "コンドリュー",
+    explanation: "北部地図の2番はコンドリューです。"
+  },
+  {
+    id: "france-rhone-010",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
+    choices: ["Cornas", "Laudun", "Saint-Joseph", "Côtes du Vivarais"],
+    answerIndex: 2,
+    explanation: "Saint-Josephは赤ワインと白ワインが認められています。"
+  },
+  {
+    id: "france-rhone-011",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCの中からVins Doux Naturelsの生産が認められているものを選択してください。",
+    choices: ["Costières de Nîmes", "Laudun", "Tavel", "Muscat de Beaumes de Venise"],
+    answerIndex: 3,
+    explanation: "Muscat de Beaumes de VeniseではVins Doux Naturelsが認められています。"
+  },
+  {
+    id: "france-rhone-012",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
+    choices: ["Cornas", "Châtillon-en-Diois", "Châteauneuf-du-Pape", "Gigondas"],
+    answerIndex: 2,
+    explanation: "Châteauneuf-du-Papeは赤ワインと白ワインが認められています。"
+  },
+  {
+    id: "france-rhone-013",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    choices: ["Muscat de Beaumes de Venise", "Rasteau", "Château-Grillet", "Gigondas"],
+    answerIndex: 2,
+    explanation: "Château-Grilletはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-014",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    choices: ["Tavel", "Condrieu", "Saint-Péray", "Luberon"],
+    answerIndex: 3,
+    explanation: "Luberonは赤・白・ロゼワインが認められています。"
+  },
+  {
+    id: "france-rhone-015",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
+    choices: ["Château-Grillet", "Vinsobres", "Côtes du Vivarais", "Crémant de Die"],
+    answerIndex: 1,
+    explanation: "Vinsobresは赤ワインのみが認められています。"
+  },
+  {
+    id: "france-rhone-016",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    choices: ["Ventoux", "Hermitage", "Cornas", "Condrieu"],
+    answerIndex: 0,
+    explanation: "Ventouxは赤・白・ロゼワインが認められています。"
+  },
+  {
+    id: "france-rhone-017",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方南部のAOCの地図です。地図上で17番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/rhone-meridional-map.jpg",
+      alt: "ローヌ渓谷地方南部のAOC地図",
+      caption: "ローヌ渓谷地方南部"
+    },
+    answerText: "タヴェル",
+    explanation: "南部地図の17番はタヴェルです。"
+  },
+  {
+    id: "france-rhone-018",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
+    choices: ["Luberon", "Beaumes de Venise", "Laudun", "Crémant de Die"],
+    answerIndex: 1,
+    explanation: "Beaumes de Veniseは赤ワインのみが認められています。"
+  },
+  {
+    id: "france-rhone-019",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で1番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/rhone-septentrional-map.jpg",
+      alt: "ローヌ渓谷地方北部のAOC地図",
+      caption: "ローヌ渓谷地方北部"
+    },
+    answerText: "コート・ロティ",
+    explanation: "北部地図の1番はコート・ロティです。"
+  },
+  {
+    id: "france-rhone-020",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
+    choices: ["Saint-Joseph", "Duché d'Uzès", "Saint-Péray", "Costières de Nîmes"],
+    answerIndex: 2,
+    explanation: "Saint-Pérayは白ワインのみが認められています。"
+  },
+  {
+    id: "france-rhone-021",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    choices: ["Gigondas", "Côte-Rôtie", "Condrieu", "Tavel"],
+    answerIndex: 0,
+    explanation: "Gigondasはローヌ川左岸側に位置するAOCです。"
+  },
+  {
+    id: "france-rhone-022",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
+    choices: ["Beaumes de Venise", "Vinsobres", "Châtillon-en-Diois", "Lirac"],
+    answerIndex: 3,
+    explanation: "Liracはローヌ川右岸側に位置するAOCです。"
+  },
+  {
+    id: "france-rhone-023",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中から2024年にCôtes du Rhône Villagesからクリュに昇格した新しいAOCを選択してください。",
+    choices: ["Laudun", "Côtes du Vivarais", "Vacqueyras", "Costières de Nîmes"],
+    answerIndex: 0,
+    explanation: "Laudunは2024年にCôtes du Rhône Villagesからクリュへ昇格しました。"
+  },
+  {
+    id: "france-rhone-024",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方のAOCワインHermitageの赤の品種構成を選択してください。",
+    choices: ["シラー85%以上+ヴィオニエ", "シラー85%以上+マルサンヌ、ルーサンヌ", "シラー80%以上+ヴィオニエ", "シラー90%以上+ヴィオニエ"],
+    answerIndex: 1,
+    explanation: "Hermitage赤はシラー85%以上で、マルサンヌ、ルーサンヌを補助的に使用できます。"
+  },
+  {
+    id: "france-rhone-025",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    choices: ["Condrieu", "Rasteau", "Duché d'Uzès", "Costières de Nîmes"],
+    answerIndex: 0,
+    explanation: "Condrieuはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-026",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
+    choices: ["Châteauneuf-du-Pape", "Tavel", "Crozes-Hermitage", "Hermitage"],
+    answerIndex: 1,
+    explanation: "Tavelはローヌ川右岸側に位置するAOCです。"
+  },
+  {
+    id: "france-rhone-027",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    choices: ["Crémant de Die", "Vinsobres", "Cornas", "Hermitage"],
+    answerIndex: 1,
+    explanation: "Vinsobresはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-028",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    choices: ["Cornas", "Château-Grillet", "Tavel", "Crémant de Die"],
+    answerIndex: 3,
+    explanation: "Crémant de Dieはローヌ川左岸側に位置するAOCです。"
+  },
+  {
+    id: "france-rhone-029",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方南部のAOCの地図です。地図上で16番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/rhone-meridional-map.jpg",
+      alt: "ローヌ渓谷地方南部のAOC地図",
+      caption: "ローヌ渓谷地方南部"
+    },
+    answerText: "リラック",
+    explanation: "南部地図の16番はリラックです。"
+  },
+  {
+    id: "france-rhone-030",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    choices: ["Saint-Péray", "Côte-Rôtie", "Condrieu", "Lirac"],
+    answerIndex: 3,
+    explanation: "Liracは赤・白・ロゼワインが認められています。"
+  },
+  {
+    id: "france-rhone-031",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でChâteau-Grilletに相当する番号を選択してください。",
+    image: {
+      src: "assets/rhone-septentrional-map.jpg",
+      alt: "ローヌ渓谷地方北部のAOC地図",
+      caption: "ローヌ渓谷地方北部"
+    },
+    choices: ["3番", "7番", "4番", "8番"],
+    answerIndex: 0,
+    explanation: "北部地図でChâteau-Grilletに相当する番号は3番です。"
+  },
+  {
+    id: "france-rhone-032",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
+    choices: ["Côtes du Vivarais", "Duché d'Uzès", "Crozes-Hermitage", "Saint-Péray"],
+    answerIndex: 2,
+    explanation: "Crozes-Hermitageは赤ワインと白ワインが認められています。"
+  },
+  {
+    id: "france-rhone-033",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方のAOCワインCornasの品種構成を選択してください。",
+    choices: ["シラー90%以上+マルサンヌ、ルーサンヌ", "シラー100%", "シラー80%以上+ヴィオニエ", "シラー85%以上+ヴィオニエ"],
+    answerIndex: 1,
+    explanation: "Cornasはシラー100%の赤ワインです。"
+  },
+  {
+    id: "france-rhone-034",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
+    image: {
+      src: "assets/rhone-septentrional-map.jpg",
+      alt: "ローヌ渓谷地方北部のAOC地図",
+      caption: "ローヌ渓谷地方北部"
+    },
+    choices: ["1番", "2番", "5番", "8番"],
+    answerIndex: 1,
+    explanation: "北部地図でCondrieuに相当する番号は2番です。"
+  },
+  {
+    id: "france-rhone-035",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方の4つのAOCの中で、スパークリングワインを生産しているものを選択してください。",
+    choices: ["Saint-Joseph", "Saint-Péray Mousseux", "Hermitage", "Château-Grillet"],
+    answerIndex: 1,
+    explanation: "Saint-Péray Mousseuxではスパークリングワインが生産されています。"
+  },
+  {
+    id: "france-rhone-036",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    choices: ["Vinsobres", "Lirac", "Crozes-Hermitage", "Châteauneuf-du-Pape"],
+    answerIndex: 2,
+    explanation: "Crozes-Hermitageはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    id: "france-rhone-037",
+    category: "フランス/ローヌ渓谷",
+    importance: "B",
+    question: "次の中からフランス、ローヌ渓谷地方北部地区、ローヌ川左岸で面積最小のAOCを選択してください。",
+    choices: ["Château-Grillet", "Cornas", "Tavel", "Hermitage"],
+    answerIndex: 3,
+    explanation: "北部地区のローヌ川左岸ではHermitageが面積最小のAOCです。"
+  },
+  {
+    id: "france-rhone-038",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
+    choices: ["Cornas", "Rasteau", "Clairette de Bellegarde", "Crozes-Hermitage"],
+    answerIndex: 0,
+    explanation: "Cornasは赤ワインのみが認められています。"
+  },
+  {
+    id: "france-rhone-039",
+    category: "フランス/ローヌ渓谷",
+    importance: "A",
+    question: "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
+    choices: ["Duché d'Uzès", "Condrieu", "Tavel", "Luberon"],
+    answerIndex: 1,
+    explanation: "Condrieuは白ワインのみが認められています。"
+  },
+  {
+    id: "france-provence-001",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインBelletの赤ワインの最も主たる品種を選択してください。",
+    choices: ["シラー", "カリニャン", "グルナッシュ", "ブラケとフェラ・ネラ"],
+    answerIndex: 3,
+    explanation: "Belletの赤ワインではブラケとフェラ・ネラが重要な品種です。"
+  },
+  {
+    id: "france-provence-002",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "次の中からフランス、プロヴァンス地方の気候を選択してください。",
+    choices: ["半大陸性気候", "海洋性気候", "地中海性気候", "大陸性気候"],
+    answerIndex: 2,
+    explanation: "プロヴァンス地方は地中海性気候の産地です。"
+  },
+  {
+    id: "france-provence-003",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で10番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    answerText: "カシス",
+    explanation: "地図上の10番はCassisです。"
+  },
+  {
+    id: "france-provence-004",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインの産地を東から西の順序で正しく並べたものを選択してください。",
+    choices: [
+      "Bandol, Les Baux de Provence, Bellet, Palette",
+      "Bandol, Palette, Les Baux de Provence, Bellet",
+      "Bellet, Bandol, Palette, Les Baux de Provence",
+      "Les Baux de Provence, Bandol, Bellet, Palette"
+    ],
+    answerIndex: 2,
+    explanation: "東側のニース近郊にBelletがあり、西に向かってBandol、Palette、Les Baux de Provenceの順になります。"
+  },
+  {
+    id: "france-provence-005",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、コルシカ島のAOCワインの中からVDNを生産しているものを選択してください。",
+    choices: ["Ajaccio", "Vin de Corse Calvi", "Muscat du Cap Corse", "Patrimonio"],
+    answerIndex: 2,
+    explanation: "Muscat du Cap CorseはVDNを生産するAOCです。"
+  },
+  {
+    id: "france-provence-006",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で9番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    answerText: "バンドール",
+    explanation: "地図上の9番はBandolです。"
+  },
+  {
+    id: "france-provence-007",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインの産地を東から西の順序で正しく並べたものを選択してください。",
+    choices: [
+      "Cassis, Bandol, Les Baux de Provence, Bellet",
+      "Bellet, Bandol, Cassis, Les Baux de Provence",
+      "Les Baux de Provence, Bellet, Bandol, Cassis",
+      "Les Baux de Provence, Bellet, Cassis, Bandol"
+    ],
+    answerIndex: 1,
+    explanation: "東から西へ、Bellet、Bandol、Cassis、Les Baux de Provenceの順です。"
+  },
+  {
+    id: "france-provence-008",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島のナポレオン生誕地に位置するAOCを選択してください。",
+    choices: ["Patrimonio", "Bellet", "Pierrevert", "Ajaccio"],
+    answerIndex: 3,
+    explanation: "ナポレオンの生誕地として知られるアジャクシオに位置するAOCはAjaccioです。"
+  },
+  {
+    id: "france-provence-009",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、プロヴァンス地方の3大AOCが生産するロゼワインが、世界中のロゼワインに占める割合に最も近いものを選択してください。",
+    choices: ["5%", "24%", "2%", "65%"],
+    answerIndex: 0,
+    explanation: "プロヴァンス地方の3大AOCが生産するロゼワインは、世界のロゼワインの約5%とされます。"
+  },
+  {
+    id: "france-provence-010",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島の2023年のAOCワインのブドウ栽培面積に最も近いものを選択してください。",
+    choices: ["5千ヘクタール", "8千ヘクタール", "3千ヘクタール", "1万ヘクタール"],
+    answerIndex: 2,
+    explanation: "コルシカ島のAOCワインのブドウ栽培面積は約3千ヘクタールです。"
+  },
+  {
+    id: "france-provence-011",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島のAOCワインPatrimonioの生産可能なワインの色を選択してください。",
+    choices: ["赤のみ", "赤・白", "赤・ロゼ", "赤・白・ロゼ"],
+    answerIndex: 3,
+    explanation: "Patrimonioでは赤・白・ロゼの生産が認められています。"
+  },
+  {
+    id: "france-provence-012",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインBandolの赤ワインの最も主たる品種を選択してください。",
+    choices: ["シラー", "ムールヴェードル", "ブラケとフェラ・ネラ", "カリニャン"],
+    answerIndex: 1,
+    explanation: "Bandolの赤ワインではムールヴェードルが最も重要な品種です。"
+  },
+  {
+    id: "france-provence-013",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方のAOCワインの中から、ニース近郊に位置するものを選択してください。",
+    choices: ["Bellet", "Côtes de Provence Fréjus", "Coteaux d'Aix-en-Provence", "Palette"],
+    answerIndex: 0,
+    explanation: "Belletはニース近郊に位置するAOCです。"
+  },
+  {
+    id: "france-provence-014",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でCassisに相当する番号を選択してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    choices: ["11番", "12番", "9番", "10番"],
+    answerIndex: 3,
+    explanation: "Cassisは地図上の10番です。"
+  },
+  {
+    id: "france-provence-015",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で8番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    answerText: "レ・ボー・ド・プロヴァンス",
+    explanation: "地図上の8番はLes Baux de Provenceです。"
+  },
+  {
+    id: "france-provence-016",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島のAOCワインAjaccioの白ワインの最も主たる品種を選択してください。",
+    choices: ["ヴェルメンティーノ", "ニエルッチョ", "ユニ・ブラン", "グルナッシュ・ブラン"],
+    answerIndex: 0,
+    explanation: "Ajaccioの白ワインではヴェルメンティーノが主たる品種です。"
+  },
+  {
+    id: "france-provence-017",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、プロヴァンス地方の3大AOCが生産するロゼワインが、フランス全体のAOCロゼワインに占める割合に最も近いものを選択してください。",
+    choices: ["28%", "42%", "89%", "56%"],
+    answerIndex: 1,
+    explanation: "プロヴァンス地方の3大AOCのロゼは、フランス全体のAOCロゼワインの約42%を占めます。"
+  },
+  {
+    id: "france-provence-018",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で12番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    answerText: "ベレ",
+    answerTextAliases: ["ヴァン・ド・ベレ", "ベレ、ヴァン・ド・ベレ", "ベレ,ヴァン・ド・ベレ"],
+    explanation: "地図上の12番はBellet（Vin de Bellet）です。"
+  },
+  {
+    id: "france-provence-019",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島のAOCワインAjaccioの赤ワインの最も主たる品種を選択してください。",
+    choices: ["シャカレッロ", "ブラケ", "ニエルッチョ", "ムールヴェードル"],
+    answerIndex: 0,
+    explanation: "Ajaccioの赤ワインではシャカレッロが主たる品種です。"
+  },
+  {
+    id: "france-provence-020",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインBandolの生産可能なワインの色を選択してください。",
+    choices: ["赤のみ", "赤・白", "赤・白・ロゼ", "赤・ロゼ"],
+    answerIndex: 2,
+    explanation: "Bandolでは赤・白・ロゼの生産が認められています。"
+  },
+  {
+    id: "france-provence-021",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方のAOCワインの中から、同地方で最北に位置するものを選択してください。",
+    choices: ["Côtes de Provence Fréjus", "Bellet", "Pierrevert", "Les Baux de Provence"],
+    answerIndex: 2,
+    explanation: "Pierrevertはプロヴァンス地方のAOCの中で北側に位置します。"
+  },
+  {
+    id: "france-provence-022",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPierrevertに相当する番号を選択してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    choices: ["13番", "11番", "9番", "8番"],
+    answerIndex: 0,
+    explanation: "Pierrevertは地図上の13番です。"
+  },
+  {
+    id: "france-provence-023",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、プロヴァンス地方の2023年の年間ワイン生産量に最も近いものを選択してください。",
+    choices: ["420万ヘクトリットル", "120万ヘクトリットル", "190万ヘクトリットル", "86万ヘクトリットル"],
+    answerIndex: 2,
+    explanation: "プロヴァンス地方の2023年の年間ワイン生産量は約190万ヘクトリットルです。"
+  },
+  {
+    id: "france-provence-024",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方のAOCワインの中から、マルセイユ近郊の海辺に位置するものを選択してください。",
+    choices: ["Coteaux Varois en Provence", "Bandol", "Palette", "Cassis"],
+    answerIndex: 3,
+    explanation: "Cassisはマルセイユ近郊の海辺に位置するAOCです。"
+  },
+  {
+    id: "france-provence-025",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方のAOCワインの中から、エクス・アン・プロヴァンス近郊の小村に位置するものを選択してください。",
+    choices: ["Côtes de Provence La Londe", "Palette", "Coteaux Varois en Provence", "Bellet"],
+    answerIndex: 1,
+    explanation: "Paletteはエクス・アン・プロヴァンス近郊の小村に位置するAOCです。"
+  },
+  {
+    id: "france-provence-026",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中からフランス、コルシカ島のAOCワインPatrimonioの赤ワインの最も主たる品種を選択してください。",
+    choices: ["ブラケ", "サンソー", "ニエルッチョ", "カリニャン"],
+    answerIndex: 2,
+    explanation: "Patrimonioの赤ワインではニエルッチョが主たる品種です。"
+  },
+  {
+    id: "france-provence-027",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "次の中からフランス、プロヴァンス地方のAOCワインBandolの赤ワインの最低樽熟成期間を選択してください。",
+    choices: ["12ヶ月", "18ヶ月", "24ヶ月", "6ヶ月"],
+    answerIndex: 1,
+    explanation: "Bandolの赤ワインは最低18ヶ月の樽熟成が求められます。"
+  },
+  {
+    id: "france-provence-028",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で11番のAOC名をカタカナで入力してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    answerText: "パレット",
+    explanation: "地図上の11番はPaletteです。"
+  },
+  {
+    id: "france-provence-029",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方およびコルシカ島のAOCワインの中から、赤・ロゼワインだけが認められているものを選択してください。",
+    choices: ["Côtes de Provence Pierrefeu", "Côtes de Provence La Londe", "Palette", "Coteaux Varois en Provence"],
+    answerIndex: 0,
+    explanation: "Côtes de Provence Pierrefeuは赤・ロゼワインだけが認められています。"
+  },
+  {
+    id: "france-provence-030",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次の中から2025年に初めてクリュとしてのステータスを獲得して名前を改めたプロヴァンス地方のAOCを選択してください。",
+    choices: ["Bandol", "Coteaux d'Aix-en-Provence", "Côtes de Provence Cru Sainte-Victoire", "Cassis"],
+    answerIndex: 2,
+    explanation: "Côtes de Provence Cru Sainte-Victoireは2025年にクリュとしてのステータスを獲得して名称を改めました。"
+  },
+  {
+    id: "france-provence-031",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方およびコルシカ島のAOCワインの中から、赤・ロゼワインだけが認められているものを選択してください。",
+    choices: ["Côtes de Provence Cru Sainte-Victoire", "Vin de Corse Figari", "Les Baux de Provence", "Vin de Corse Sartène"],
+    answerIndex: 0,
+    explanation: "Côtes de Provence Cru Sainte-Victoireは赤・ロゼワインだけが認められています。"
+  },
+  {
+    id: "france-provence-032",
+    category: "フランス/プロヴァンス",
+    importance: "B",
+    question: "次のフランス、プロヴァンス地方のAOCワインの中から、1936年に同地方で最初に認定されたものを選択してください。",
+    choices: ["Les Baux de Provence", "Pierrevert", "Cassis", "Côtes de Provence Cru Sainte-Victoire"],
+    answerIndex: 2,
+    explanation: "Cassisは1936年にプロヴァンス地方で最初に認定されたAOCです。"
+  },
+  {
+    id: "france-provence-033",
+    category: "フランス/プロヴァンス",
+    importance: "A",
+    question: "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPaletteに相当する番号を選択してください。",
+    image: {
+      src: "assets/provence-aoc-map.jpg",
+      alt: "プロヴァンス地方のAOC地図"
+    },
+    choices: ["10番", "13番", "9番", "11番"],
+    answerIndex: 3,
+    explanation: "Paletteは地図上の11番です。"
   },
   {
     id: "italy-overview-law-001",
@@ -4880,6 +6497,296 @@ window.WINE_QUESTIONS = [
     answerIndex: 0,
     explanation: "残糖4〜12g/Lのスティルワインの風味表示はAbboccatoです。"
   },
+  {
+    id: "italy-overview-law-058",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで近年のワイン生産量が第2位である州を選択してください。",
+    choices: ["プーリア", "リグーリア", "フリウリ・ヴェネツィア・ジューリア", "ヴァッレ・ダオスタ"],
+    answerIndex: 0,
+    explanation: "近年のイタリアのワイン生産量で第2位に挙げられる州はプーリアです。"
+  },
+  {
+    id: "italy-overview-law-059",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上で18番の州名をカタカナで入力してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    answerText: "カラブリア",
+    answerTextAliases: ["カラブリア州"],
+    explanation: "地図上の18番はカラブリアです。"
+  },
+  {
+    id: "italy-overview-law-060",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの東側に面した海の名前を選択してください。",
+    choices: ["ティレニア海", "アドリア海", "ミルトア海", "エーゲ海"],
+    answerIndex: 1,
+    explanation: "イタリア半島の東側はアドリア海に面しています。"
+  },
+  {
+    id: "italy-overview-law-061",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中から古代ギリシャ人が呼んだイタリア半島の名前を選んでください。",
+    choices: ["エノトリア・テルス", "エノロゴ", "レックス・マルキアーナ", "ピトイ"],
+    answerIndex: 0,
+    explanation: "古代ギリシャ人はイタリア半島をエノトリア・テルスと呼びました。"
+  },
+  {
+    id: "italy-overview-law-062",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「古代ローマ帝国建設の地であり、首都ローマは政治と観光の中心地である。」",
+    choices: ["ピエモンテ", "ラツィオ", "ロンバルディア", "トスカーナ"],
+    answerIndex: 1,
+    explanation: "首都ローマを擁し、古代ローマ帝国建設の地にあたる州はラツィオです。"
+  },
+  {
+    id: "italy-overview-law-063",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が0〜4グラム/リットルのものに表示されるものを選んでください。",
+    choices: ["Semi Secco", "Amabile", "Asciutto", "Abboccato"],
+    answerIndex: 2,
+    explanation: "残糖0〜4g/Lのスティルワインの風味表示はAsciuttoです。"
+  },
+  {
+    id: "italy-overview-law-064",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
+    choices: ["モリーゼ", "ヴァッレ・ダオスタ", "エミリア・ロマーニャ", "リグーリア"],
+    answerIndex: 0,
+    explanation: "モリーゼは一般的に中部イタリアに分類されます。"
+  },
+  {
+    id: "italy-overview-law-065",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、モリーゼ州だけで栽培されている黒ブドウ品種で、一時期見捨てられていたが品質は高く再評価されこの州を代表するようになった品種を選んでください。",
+    choices: ["ガリオッポ", "レフォスコ・ダル・ペドゥンコロ・ロッソ", "ティンティリア", "ノジオーラ"],
+    answerIndex: 2,
+    explanation: "モリーゼ州を代表する黒ブドウ品種はティンティリアです。"
+  },
+  {
+    id: "italy-overview-law-066",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地はほとんど無く、生産量は全州の中で2番目に少ない。白ワインが69%を占め、有名なワインとしてチンクエ・テッレがある。」",
+    choices: ["リグーリア", "トスカーナ", "エミリア・ロマーニャ", "モリーゼ"],
+    answerIndex: 0,
+    explanation: "チンクエ・テッレで知られる細長い沿岸の州はリグーリアです。"
+  },
+  {
+    id: "italy-overview-law-067",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、トスカーナ州に接している州を選択してください。",
+    choices: ["リグーリア州", "トレンティーノ・アルト・アディジェ州", "フリウリ・ヴェネツィア・ジューリア州", "ロンバルディア州"],
+    answerIndex: 0,
+    explanation: "トスカーナ州は北西側でリグーリア州に接しています。"
+  },
+  {
+    id: "italy-overview-law-068",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量の85%が白ワインで、白ワインの産地として知られている。有名なワインにコッリオがあり、リボッラ・ジャッラという興味深い品種も使用されている。」",
+    choices: ["カンパーニア", "ラツィオ", "フリウリ・ヴェネツィア・ジューリア", "アブルッツォ"],
+    answerIndex: 2,
+    explanation: "コッリオやリボッラ・ジャッラで知られる白ワイン産地はフリウリ・ヴェネツィア・ジューリアです。"
+  },
+  {
+    id: "italy-overview-law-069",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアのブドウ品種を選んでください。「シチリア州エトナの代表的な黒ブドウ品種で、色が薄めで酸とタンニンが強い。」",
+    choices: ["カッリカンテ", "カタラット", "ネレッロ・マスカレーゼ", "ネーロ・ダヴォラ"],
+    answerIndex: 2,
+    explanation: "エトナを代表する黒ブドウ品種はネレッロ・マスカレーゼです。"
+  },
+  {
+    id: "italy-overview-law-070",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「北をオーストリア、東をスロヴェニア、南をアドリア海に接している。州都はトリエステである。」",
+    choices: ["アブルッツォ", "シチリア", "フリウリ・ヴェネツィア・ジューリア", "バジリカータ"],
+    answerIndex: 2,
+    explanation: "州都トリエステを持ち、オーストリアとスロヴェニアに接する州はフリウリ・ヴェネツィア・ジューリアです。"
+  },
+  {
+    id: "italy-overview-law-071",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「白ワインはヴェルディッキオ・ディ・カステッリ・ディ・イエージが有名である。赤ワインはモンテプルチャーノ種から力強いワインが生まれている。」",
+    choices: ["ロンバルディア", "リグーリア", "マルケ", "ラツィオ"],
+    answerIndex: 2,
+    explanation: "ヴェルディッキオ・ディ・カステッリ・ディ・イエージで知られる州はマルケです。"
+  },
+  {
+    id: "italy-overview-law-072",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上でSiciliaに相当する番号を選択してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    choices: ["19番", "3番", "16番", "6番"],
+    answerIndex: 0,
+    explanation: "シチリアは地図上の19番です。"
+  },
+  {
+    id: "italy-overview-law-073",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアのサルデーニャ島のすぐ北に位置する島の名前を選択してください。",
+    choices: ["コルシカ島", "キプロス島", "サントリーニ島", "シチリア島"],
+    answerIndex: 0,
+    explanation: "サルデーニャ島のすぐ北に位置する島はコルシカ島です。"
+  },
+  {
+    id: "italy-overview-law-074",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアで近年のワイン生産量が第1位である州を選択してください。",
+    choices: ["フリウリ・ヴェネツィア・ジューリア", "ヴェネト", "カラブリア", "トスカーナ"],
+    answerIndex: 1,
+    explanation: "近年のイタリアのワイン生産量で第1位に挙げられる州はヴェネトです。"
+  },
+  {
+    id: "italy-overview-law-075",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア半島最南端に位置する州を選択してください。",
+    choices: ["バジリカータ州", "シチリア州", "カラブリア州", "プーリア州"],
+    answerIndex: 2,
+    explanation: "イタリア半島最南端に位置する州はカラブリア州です。"
+  },
+  {
+    id: "italy-overview-law-076",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地は9%に過ぎずワインの生産量は少ない。代表的なDOPワインにチロがあり、白はグレーコ・ビアンコ種、赤とロゼはガリオッポ種主体である。」",
+    choices: ["ラツィオ", "トレンティーノ・アルト・アディジェ", "カラブリア", "エミリア・ロマーニャ"],
+    answerIndex: 2,
+    explanation: "チロで知られ、ガリオッポ主体の赤・ロゼを生む州はカラブリアです。"
+  },
+  {
+    id: "italy-overview-law-077",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアの州の数を選択してください。",
+    choices: ["13", "24", "18", "20"],
+    answerIndex: 3,
+    explanation: "イタリアの州は20州です。"
+  },
+  {
+    id: "italy-overview-law-078",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の中からイタリアの白ブドウの中で栽培面積が第2位の品種を選択してください。",
+    choices: ["シャルドネ", "グレーラ", "ピノ・グリージョ", "トレッビアーノ・トスカーノ"],
+    answerIndex: 2,
+    explanation: "イタリアの白ブドウで栽培面積第2位に挙げられるのはピノ・グリージョです。"
+  },
+  {
+    id: "italy-overview-law-079",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "下記の画像はイタリア20州の地図です。地図上で10番の州名をカタカナで入力してください。",
+    image: {
+      src: "assets/italy-regions-map.jpg",
+      alt: "イタリア20州の地図",
+      caption: "イタリア20州"
+    },
+    answerText: "ウンブリア",
+    answerTextAliases: ["ウンブリア州"],
+    explanation: "地図上の10番はウンブリアです。"
+  },
+  {
+    id: "italy-overview-law-080",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアで一番大きな州を選択してください。",
+    choices: ["ピエモンテ州", "サルデーニャ州", "シチリア州", "ロンバルディア州"],
+    answerIndex: 2,
+    explanation: "イタリアで一番大きな州はシチリア州です。"
+  },
+  {
+    id: "italy-overview-law-081",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリアでトスカーナ大公国のコジモ3世がChiantiなどの生産地の線引きを行った年を選んでください。",
+    choices: ["1857年", "1716年", "1584年", "1638年"],
+    answerIndex: 1,
+    explanation: "コジモ3世がChiantiなどの生産地を線引きしたのは1716年です。"
+  },
+  {
+    id: "italy-overview-law-082",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ティレニア海沿岸の州を北から南の順序で正しく並べたものを選択してください。",
+    choices: [
+      "リグーリア, トスカーナ, カンパーニア, カラブリア",
+      "リグーリア, カラブリア, ラツィオ, トスカーナ",
+      "カラブリア, トスカーナ, カンパーニア, ラツィオ",
+      "リグーリア, トスカーナ, カラブリア, カンパーニア"
+    ],
+    answerIndex: 0,
+    explanation: "ティレニア海沿岸を北から南へ見ると、リグーリア、トスカーナ、カンパーニア、カラブリアの順です。"
+  },
+  {
+    id: "italy-overview-law-083",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からヴェネト州でブドウの搾り粕から生産されている蒸留酒を選択してください。",
+    choices: ["Vino Liquoroso", "Limoncello", "Bassano del Grappa", "Vino Novello"],
+    answerIndex: 2,
+    explanation: "ヴェネト州ではブドウの搾り粕から生産される蒸留酒としてBassano del Grappaが知られます。"
+  },
+  {
+    id: "italy-overview-law-084",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中からイタリア、ピエモンテ州に接している州を選択してください。",
+    choices: ["ロンバルディア州", "フリウリ・ヴェネツィア・ジューリア州", "ラツィオ州", "マルケ州"],
+    answerIndex: 0,
+    explanation: "ピエモンテ州はロンバルディア州に接しています。"
+  },
+  {
+    id: "italy-overview-law-085",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中から、イタリアのDOP(DOCG)ワインGattinaraの品種ネッビオーロの、この地方の別名を選んでください。",
+    choices: ["モレッリーノ", "ブルネッロ", "キアヴェンナスカ", "スパンナ"],
+    answerIndex: 3,
+    explanation: "Gattinaraで用いられるネッビオーロの地方名はスパンナです。"
+  },
+  {
+    id: "italy-overview-law-086",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の中から紀元前9世紀ころ中部イタリアを広い範囲にわたって支配していた民族を選んでください。",
+    choices: ["ギリシャ人", "エトルリア人", "ガリア人", "フェニキア人"],
+    answerIndex: 1,
+    explanation: "紀元前9世紀ころ中部イタリアを広く支配していたのはエトルリア人です。"
+  },
+  {
+    id: "italy-overview-law-087",
+    category: "イタリア/概論、歴史、品種、ワイン法",
+    importance: "A",
+    question: "次の説明に最も良く合致するイタリアの州を選んでください。\n「北イタリアのほぼ中央に位置し東西に長く横たわっている。州都ボローニャを境にして2つの地方に分けられる。」",
+    choices: ["モリーゼ", "トレンティーノ・アルト・アディジェ", "エミリア・ロマーニャ", "フリウリ・ヴェネツィア・ジューリア"],
+    answerIndex: 2,
+    explanation: "州都ボローニャを境にエミリアとロマーニャに分かれる州はエミリア・ロマーニャです。"
+  },
   ...[
       { id: "001", q: "次の中からイタリア、ピエモンテ州で生産されているフレーヴァードワインを選択してください。", c: ["Nizza", "Erbaluce di Caluso", "Ruchè di Castagnole Monferrato", "Barolo Chinato"], a: 3, e: "Barolo Chinatoはピエモンテ州で生産されるフレーヴァードワインです。" },
       { id: "002", q: "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。", c: ["Barolo", "Conegliano Valdobbiadene-Prosecco", "Soave Superiore", "Asti"], a: 0, e: "Baroloは赤ワインのみが認められるDOCGです。" },
@@ -5322,6 +7229,168 @@ window.WINE_QUESTIONS = [
           caption: "リオハのワイン産地"
         }
       } : {})
+    };
+    if (item.t) {
+      return {
+        ...base,
+        answerText: item.t,
+        answerTextAliases: item.aliases || []
+      };
+    }
+    return {
+      ...base,
+      choices: item.c,
+      answerIndex: item.a
+    };
+  }),
+  ...[
+    { id: "001", q: "次の中から米国オレゴン州で最も冷涼な気候で、良質のピノ・ノワールを生産しているAVAを選択してください。", c: ["Oakville", "Lewis-Clark Valley", "Willamette Valley", "Puget Sound"], a: 2, e: "Willamette Valleyはオレゴン州を代表する冷涼なAVAで、ピノ・ノワールの産地として高く評価されています。" },
+    { id: "002", q: "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。", c: ["Atlas Peak", "Spring Mountain District", "Petaluma Gap", "Mount Veeder"], a: 2, e: "Petaluma GapはSonoma Countyに属するAVAです。" },
+    { id: "003", q: "次の中から米国ニューヨーク州で2019年1月に承認された新しいAVAを選択してください。", c: ["Upper Hudson", "Puget Sound", "Van Duzer Corridor", "Yamhill-Carlton District"], a: 0, e: "Upper Hudsonはニューヨーク州で2019年1月に承認されたAVAです。" },
+    { id: "004", q: "次の中から米国のテーブルワインの規定アルコール度数を選択してください。", c: ["7%以上13%以下", "7%以上14%以下", "8%以上15%以下", "8%以上14%以下"], a: 1, e: "米国のテーブルワインは、アルコール度数7%以上14%以下と規定されています。" },
+    { id: "005", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となった。", "1976年のパリ・テイスティングを開催したのは、フランス人エミール・ペイノーである。", "19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。", "ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。"], a: 0, e: "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となりました。" },
+    { id: "006", q: "次の中から米国ワシントン州で1850年代からブドウ栽培が始まったパイオニア的ワイナリーが多く存在する地区で、特にシラーが高い評価を受けているAVAを選択してください。", c: ["Columbia Valley", "Lewis-Clark Valley", "Walla Walla Valley", "Columbia Gorge"], a: 2, e: "Walla Walla Valleyはワシントン州の歴史ある産地で、シラーも高く評価されています。" },
+    { id: "007", q: "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第1位の品種を選択してください。", c: ["フレンチ・コロンバール", "ピノ・グリ", "ソーヴィニョン・ブラン", "シャルドネ"], a: 3, e: "カリフォルニア州の白ブドウではシャルドネが栽培面積第1位です。" },
+    { id: "008", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSan Diegoに相当する番号を選択してください。", c: ["2番", "37番", "12番", "1番"], a: 1, img: "california", e: "地図上でSan Diegoに相当する番号は37番です。" },
+    { id: "009", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["The Rocks District of Milton-Freewater", "Laurelwood District", "Red Hill Douglas County", "Rogue Valley"], a: 1, e: "Laurelwood DistrictはWillamette Valley AVAのサブリージョンです。" },
+    { id: "010", q: "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。", c: ["Spring Mountain District", "Diamond Mountain District", "Crystal Springs of Napa Valley", "Mount Veeder"], a: 2, e: "Crystal Springs of Napa ValleyはNapa Countyのヴァカ山脈側に位置します。" },
+    { id: "011", q: "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。", c: ["Yountville", "Mount Veeder", "Calistoga", "Chalk Hill"], a: 3, e: "Chalk HillはSonoma Countyに属するAVAです。" },
+    { id: "012", q: "次の中から米国ワシントン州とアイダホ州にまたがるAVAを選択してください。", c: ["Mount Veeder", "Finger Lakes", "Yakima Valley", "Lewis-Clark Valley"], a: 3, e: "Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVAです。" },
+    { id: "013", q: "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でChamplain Valley of New Yorkに相当する番号を選択してください。", c: ["6番", "10番", "11番", "1番"], a: 2, img: "new-york", e: "Champlain Valley of New Yorkに相当する番号は11番です。" },
+    { id: "014", q: "次の中から米国ワシントン州で最も生産量の多い白ブドウ品種を選択してください。", c: ["ピノ・グリ", "シャルドネ", "ソーヴィニョン・ブラン", "リースリング"], a: 3, e: "ワシントン州で最も生産量の多い白ブドウ品種はリースリングです。" },
+    { id: "015", q: "次の中から米国ニューヨーク州に属するAVAを選択してください。", c: ["Puget Sound", "Oakville", "Hudson River Region", "Yakima Valley"], a: 2, e: "Hudson River Regionはニューヨーク州に属するAVAです。" },
+    { id: "016", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で2番のカウンティ名をカタカナで入力してください。", t: "ソノマ", img: "california", e: "地図上の2番はSonoma、カタカナではソノマです。" },
+    { id: "017", q: "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。", c: ["Yamhill-Carlton District", "Mt.Pisgah, Polk County, Oregon", "Lower Long Tom", "Rogue Valley"], a: 3, e: "Rogue ValleyはSouthern Oregon AVAのサブリージョンです。" },
+    { id: "018", q: "次の中から米国カリフォルニア州サザン・カリフォルニア地区で最も南に位置するカウンティを選択してください。", c: ["San Diego", "Marin", "Los Angeles", "Santa Barbara"], a: 0, e: "サザン・カリフォルニア地区で最も南に位置するカウンティはSan Diegoです。" },
+    { id: "019", q: "次の中から米国の2023年の国内ワイン消費量順位を選択してください。", c: ["世界第1位", "世界第3位", "世界第4位", "世界第2位"], a: 0, e: "米国の2023年の国内ワイン消費量は世界第1位です。" },
+    { id: "020", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。", "マイクロソフト社の本拠地、任天堂のアメリカ本社はニューヨーク州にある。", "1976年のパリ・テイスティングを開催したのは、イギリス人スティーヴン・スパリアである。", "アメリカ合衆国誕生時、東部に自生していたブドウはヴィティス・ヴィニフェラ系がほとんどだった。"], a: 2, e: "1976年のパリ・テイスティングを開催したのは、イギリス人スティーヴン・スパリアです。" },
+    { id: "021", q: "次の中から米国ヴァージニア州で最も生産量の多い黒ブドウ品種を選択してください。", c: ["カベルネ・フラン", "メルロ", "シラー", "ジンファンデル"], a: 0, e: "ヴァージニア州で最も生産量の多い黒ブドウ品種はカベルネ・フランです。" },
+    { id: "022", q: "次の中から米国でワイン生産量が第4位の州を選択してください。", c: ["オレゴン州", "ヴァージニア州", "ニューヨーク州", "ワシントン州"], a: 0, e: "米国でワイン生産量が第4位の州はオレゴン州です。" },
+    { id: "023", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["Rogue Valley", "The Rocks District of Milton-Freewater", "Red Hill Douglas County", "Yamhill-Carlton District"], a: 3, e: "Yamhill-Carlton DistrictはWillamette Valley AVAのサブリージョンです。" },
+    { id: "024", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFのワイン・リージョン名をカタカナで入力してください。", t: "サザン・カリフォルニア", img: "california", e: "地図上のFはSouthern California、カタカナではサザン・カリフォルニアです。" },
+    { id: "025", q: "次の中から米国オレゴン州に属するAVAを選択してください。", c: ["Yakima Valley", "Puget Sound", "Walla Walla Valley", "Lewis-Clark Valley"], a: 2, e: "Walla Walla Valleyはオレゴン州にも属するAVAです。" },
+    { id: "026", q: "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。", c: ["Mendocino", "Lake", "Santa Cruz", "Los Angeles"], a: 2, e: "Santa Cruzはカリフォルニア州セントラル・コースト地区に属するカウンティです。" },
+    { id: "027", q: "次の中から米国オレゴン州で、「AVA名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。", c: ["100%", "95%", "85%", "75%"], a: 1, e: "オレゴン州でAVA名を表記する場合、該当するブドウを95%以上使用する必要があります。" },
+    { id: "028", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCarneros/Los Carnerosに相当する番号を選択してください。", c: ["4番", "13番", "8番", "3番"], a: 1, img: "napa", e: "Carneros/Los Carnerosに相当する番号は13番です。" },
+    { id: "029", q: "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。", c: ["Mount Veeder", "Bennett Valley", "Fort Ross-Seaview", "Knights Valley"], a: 0, e: "Mount VeederはNapa Countyに属するAVAです。" },
+    { id: "030", q: "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。", c: ["San Francisco", "San Benito", "Marin", "Los Angeles"], a: 2, e: "Marinはカリフォルニア州ノース・コースト地区に属するカウンティです。" },
+    { id: "031", q: "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でHudson River Regionに相当する番号を選択してください。", c: ["6番", "9番", "4番", "10番"], a: 2, img: "new-york", e: "Hudson River Regionに相当する番号は4番です。" },
+    { id: "032", q: "次の中から米国カリフォルニア州のワイン産出カウンティを北から南の順序で正しく並べたものを選択してください。", c: ["Mendocino, Sonoma, Monterey, Santa Barbara", "Monterey, Sonoma, San Francisco, Santa Barbara", "San Francisco, Monterey, Sonoma, Santa Cruz", "Mendocino, San Francisco, Monterey, Santa Cruz"], a: 0, e: "北から南の順序はMendocino, Sonoma, Monterey, Santa Barbaraです。" },
+    { id: "033", q: "次の中から米国でブドウ栽培面積が第3位の州を選択してください。", c: ["ワシントン州", "ヴァージニア州", "オレゴン州", "ニューヨーク州"], a: 2, e: "米国でブドウ栽培面積が第3位の州はオレゴン州です。" },
+    { id: "034", q: "次の中からアメリカ合衆国が独立を宣言し誕生した年代を選択してください。", c: ["1833年", "1776年", "1249年", "1492年"], a: 1, e: "アメリカ合衆国は1776年に独立を宣言しました。" },
+    { id: "035", q: "次の中から米国ニューヨーク州で穏やかな海洋性気候に恵まれたAVAを選択してください。", c: ["Long Island", "Willamette Valley", "Yamhill-Carlton District", "The Rocks District of Milton-Freewater"], a: 0, e: "Long Islandは穏やかな海洋性気候に恵まれたニューヨーク州のAVAです。" },
+    { id: "036", q: "次の中から米国ワシントン州に属するAVAを選択してください。", c: ["Ancient Lakes of Columbia Valley", "Mount Veeder", "St. Helena", "Long Island"], a: 0, e: "Ancient Lakes of Columbia Valleyはワシントン州に属するAVAです。" },
+    { id: "037", q: "次の中から2025年8月現在、米国カリフォルニア州に存在するAVAの数を選択してください。", c: ["154", "78", "147", "97"], a: 0, e: "2025年8月現在、カリフォルニア州には154のAVAがあります。" },
+    { id: "038", q: "次の中から米国オレゴン州で、「州名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。", c: ["75%", "100%", "85%", "95%"], a: 1, e: "オレゴン州で州名を表記する場合、該当するブドウを100%使用する必要があります。" },
+    { id: "039", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。", "1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・インスティテュートが設立された。", "ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。", "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤は第1位、白は第2位に入った。"], a: 1, e: "1934年にカリフォルニアでワイン・インスティテュートが設立されました。" },
+    { id: "040", q: "次の中から米国の州をワイン生産量の多い順に正しく並べたものを選択してください。", c: ["ニューヨーク州, ヴァージニア州, ワシントン州, オレゴン州", "ワシントン州, ヴァージニア州, オレゴン州, ニューヨーク州", "ヴァージニア州, ワシントン州, オレゴン州, ニューヨーク州", "ニューヨーク州, ワシントン州, オレゴン州, ヴァージニア州"], a: 3, e: "生産量の多い順は、ニューヨーク州、ワシントン州、オレゴン州、ヴァージニア州です。" },
+    { id: "041", q: "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第3位の品種を選択してください。", c: ["シャルドネ", "ピノ・グリ", "フレンチ・コロンバール", "ソーヴィニョン・ブラン"], a: 1, e: "カリフォルニア州で白ブドウ栽培面積第3位の品種はピノ・グリです。" },
+    { id: "042", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でAのワイン・リージョン名をカタカナで入力してください。", t: "ファー・ノース・カリフォルニア", aliases: ["ファーノースカリフォルニア"], img: "california", e: "地図上のAはFar North California、カタカナではファー・ノース・カリフォルニアです。" },
+    { id: "043", q: "次の中から米国ワシントン州で最初に認可されたAVAを選択してください。", c: ["Yakima Valley", "Puget Sound", "Columbia Valley", "Willamette Valley"], a: 0, e: "ワシントン州で最初に認可されたAVAはYakima Valleyです。" },
+    { id: "044", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でNorth Coastに相当する記号を選択してください。", c: ["F", "B", "A", "E"], a: 1, img: "california", e: "North Coastに相当する記号はBです。" },
+    { id: "045", q: "次の中から米国カリフォルニア州で、ナパ・ヴァレー西端にある山を選択してください。", c: ["マヤカマス山脈", "ヴァカ山脈", "カスケード山脈", "セント・ヘレナ山"], a: 0, e: "ナパ・ヴァレー西端にある山はマヤカマス山脈です。" },
+    { id: "046", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFar North Californiaに相当する記号を選択してください。", c: ["D", "C", "A", "B"], a: 2, img: "california", e: "Far North Californiaに相当する記号はAです。" },
+    { id: "047", q: "次の中から米国カリフォルニア州、Lodi AVAを歴史的にも代表する品種を選択してください。", c: ["シラー", "フレンチ・コロンバール", "カベルネ・ソーヴィニョン", "ジンファンデル"], a: 3, e: "Lodi AVAは歴史的にもジンファンデルを代表品種とする産地です。" },
+    { id: "048", q: "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上で1番のA.V.A名をカタカナで入力してください。", t: "ロング・アイランド", aliases: ["ロングアイランド"], img: "new-york", e: "地図上の1番はLong Island、カタカナではロング・アイランドです。" },
+    { id: "049", q: "次の中から米国ヴァージニア州北部、ワシントンDCの西約80kmに位置するAVAを選択してください。", c: ["Middleburg Virginia", "Long Island", "Monticello", "Rogue Valley"], a: 0, e: "Middleburg VirginiaはワシントンDCの西約80kmに位置するAVAです。" },
+    { id: "050", q: "次の中から米国ワシントン州に属するAVAを選択してください。", c: ["Yamhill-Carlton District", "Puget Sound", "Dundee Hills", "Niagara Escarpment"], a: 1, e: "Puget Soundはワシントン州に属するAVAです。" },
+    { id: "051", q: "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。", c: ["Lake", "San Benito", "Los Angeles", "Sonoma"], a: 1, e: "San Benitoはセントラル・コースト地区に属するカウンティです。" },
+    { id: "052", q: "次の中から米国カリフォルニア州セントラル・コースト地区で最も南に位置するカウンティを選択してください。", c: ["San Luis Obispo", "San Benito", "Monterey", "Santa Barbara"], a: 3, e: "セントラル・コースト地区で最も南に位置するのはSanta Barbaraです。" },
+    { id: "053", q: "次の中から米国（オレゴン州を除く）で、「品種名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。", c: ["75%", "100%", "95%", "85%"], a: 0, e: "米国では、オレゴン州を除き品種名を表記する場合は原則75%以上の使用が必要です。" },
+    { id: "054", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤は第1位、白は第2位に入った。", "19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。", "マイクロソフト社の本拠地、任天堂のアメリカ本社はニューヨーク州にある。", "ワシントン州には現在1000軒を超えるワイナリーがある。"], a: 3, e: "ワシントン州には現在1000軒を超えるワイナリーがあります。" },
+    { id: "055", q: "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。", c: ["Knights Valley", "Petaluma Gap", "Chalk Hill", "Diamond Mountain District"], a: 3, e: "Diamond Mountain DistrictはNapa Countyに属するAVAです。" },
+    { id: "056", q: "次の中から米国オレゴン州、コロンビア・ヴァレー流域で初の、オレゴン側に100%含まれる新設されたAVAを選択してください。", c: ["Yakima Valley", "The Rocks District of Milton-Freewater", "Oakville", "Finger Lakes"], a: 1, e: "The Rocks District of Milton-Freewaterはオレゴン側に100%含まれるAVAです。" },
+    { id: "057", q: "次の中から米国でワイン生産量が第2位の州を選択してください。", c: ["ニューヨーク州", "オレゴン州", "ヴァージニア州", "ワシントン州"], a: 0, e: "米国でワイン生産量が第2位の州はニューヨーク州です。" },
+    { id: "058", q: "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。", c: ["Mt.Pisgah, Polk County, Oregon", "Red Hill Douglas County", "Tualatin Hills", "The Rocks District of Milton-Freewater"], a: 1, e: "Red Hill Douglas CountyはSouthern Oregon AVAのサブリージョンです。" },
+    { id: "059", q: "次の中から長い間、米国のジンファンデルと同じであると見なされていた品種を選択してください。", c: ["カリニャン", "ネロ・ダヴォラ", "プリミティーヴォ", "ルビー・カベルネ"], a: 2, e: "プリミティーヴォは長い間、米国のジンファンデルと同じ品種と見なされていました。" },
+    { id: "060", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSierra Foothillsに相当する記号を選択してください。", c: ["B", "D", "C", "A"], a: 1, img: "california", e: "Sierra Foothillsに相当する記号はDです。" },
+    { id: "061", q: "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。", c: ["Diamond Mountain District", "Howell Mountain", "Mount Veeder", "Spring Mountain District"], a: 1, e: "Howell MountainはNapa Countyのヴァカ山脈側に位置するAVAです。" },
+    { id: "062", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["The Rocks District of Milton-Freewater", "Red Hill Douglas County", "Rogue Valley", "Eola-Amity Hills"], a: 3, e: "Eola-Amity HillsはWillamette Valley AVAのサブリージョンです。" },
+    { id: "063", q: "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第2位のものを選択してください。", c: ["ジンファンデル", "カベルネ・ソーヴィニョン", "シャルドネ", "ピノ・ノワール"], a: 2, e: "カリフォルニア州のブドウ品種で栽培面積第2位はシャルドネです。" },
+    { id: "064", q: "次の中からクリストファー・コロンブスがアメリカ大陸を発見した年代を選択してください。", c: ["1492年", "1776年", "1903年", "1249年"], a: 0, e: "クリストファー・コロンブスがアメリカ大陸に到達したのは1492年です。" },
+    { id: "065", q: "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。", c: ["Atlas Peak", "Alexander Valley", "Diamond Mountain District", "Yountville"], a: 1, e: "Alexander ValleyはSonoma Countyに属するAVAです。" },
+    { id: "066", q: "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションを選択してください。", c: ["Columbia Gorge", "Ancient Lakes of Columbia Valley", "Puget Sound", "Candy Mountain"], a: 3, e: "Candy MountainはYakima Valley AVAのサブ・アペレーションです。" },
+    { id: "067", q: "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。", c: ["Napa", "Marin", "Santa Barbara", "Sonoma"], a: 2, e: "Santa Barbaraはセントラル・コースト地区に属するカウンティです。" },
+    { id: "068", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でInland Valleysに相当する記号を選択してください。", c: ["F", "B", "E", "D"], a: 2, img: "california", e: "Inland Valleysに相当する記号はEです。" },
+    { id: "069", q: "次の中から米国カリフォルニア州サザン・カリフォルニア地区に属するカウンティを選択してください。", c: ["San Diego", "Santa Cruz", "Marin", "Monterey"], a: 0, e: "San Diegoはサザン・カリフォルニア地区に属するカウンティです。" },
+    { id: "070", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCalistogaに相当する番号を選択してください。", c: ["8番", "4番", "3番", "2番"], a: 2, img: "napa", e: "Calistogaに相当する番号は3番です。" },
+    { id: "071", q: "次の中から米国カリフォルニア州でNapa County, Sonoma County両方に属するAVAを選択してください。", c: ["Spring Mountain District", "Carneros/Los Carneros", "Chiles Valley", "Oakville"], a: 1, e: "Carneros/Los CarnerosはNapa CountyとSonoma Countyの両方に属するAVAです。" },
+    { id: "072", q: "次の中から米国ニューヨーク州のFinger Lakes AVAのサブ・アペレーションの数を選択してください。", c: ["7", "5", "11", "2"], a: 3, e: "Finger Lakes AVAには2つのサブ・アペレーションがあります。" },
+    { id: "073", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でDのワイン・リージョン名をカタカナで入力してください。", t: "シエラ・フットヒルズ", aliases: ["シエラフットヒルズ"], img: "california", e: "地図上のDはSierra Foothills、カタカナではシエラ・フットヒルズです。" },
+    { id: "074", q: "次の中から米国オレゴン州に属するAVAを選択してください。", c: ["Oakville", "Coombsville", "Finger Lakes", "Columbia Valley"], a: 3, e: "Columbia Valleyはオレゴン州にもまたがるAVAです。" },
+    { id: "075", q: "次の中から米国ワシントン州に属するAVAを選択してください。", c: ["Willamette Valley", "Yamhill-Carlton District", "Yakima Valley", "Dundee Hills"], a: 2, e: "Yakima Valleyはワシントン州に属するAVAです。" },
+    { id: "076", q: "次の中から米国ヴァージニア州の気候に影響を与え、同州の南東部を温暖にしている海流を選択してください。", c: ["ベンゲラ海流", "北大西洋海流", "北太平洋海流", "アガラス海流"], a: 1, e: "北大西洋海流はヴァージニア州南東部を温暖にする要因です。" },
+    { id: "077", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・アカデミーが設立された。", "ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。", "マイクロソフト社の本拠地、任天堂のアメリカ本社はワシントン州にある。", "ワシントン州には現在約120軒のワイナリーがある。"], a: 2, e: "マイクロソフト社の本拠地と任天堂のアメリカ本社はワシントン州にあります。" },
+    { id: "078", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["Red Hill Douglas County", "McMinnville", "Rogue Valley", "The Rocks District of Milton-Freewater"], a: 1, e: "McMinnvilleはWillamette Valley AVAのサブリージョンです。" },
+    { id: "079", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でHowell Mountainに相当する番号を選択してください。", c: ["8番", "4番", "3番", "2番"], a: 3, img: "napa", e: "Howell Mountainに相当する番号は2番です。" },
+    { id: "080", q: "次の中から米国ニューヨーク州に属するAVAを選択してください。", c: ["Dundee Hills", "Willamette Valley", "Upper Hudson", "Lewis-Clark Valley"], a: 2, e: "Upper Hudsonはニューヨーク州に属するAVAです。" },
+    { id: "081", q: "次の中から米国ワシントン州に属するAVAを選択してください。", c: ["Lewis-Clark Valley", "Long Island", "Oakville", "Dundee Hills"], a: 0, e: "Lewis-Clark Valleyはワシントン州にも属するAVAです。" },
+    { id: "082", q: "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。", c: ["Stags Leap District", "Howell Mountain", "Russian River Valley", "Rutherford"], a: 2, e: "Russian River ValleyはSonoma Countyに属するAVAです。" },
+    { id: "083", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でOakvilleに相当する番号を選択してください。", c: ["3番", "8番", "13番", "2番"], a: 1, img: "napa", e: "Oakvilleに相当する番号は8番です。" },
+    { id: "084", q: "次の中から米国カリフォルニア州で、Napa CountyとSonoma Countyの間にある山を選択してください。", c: ["セント・ヘレナ山", "マヤカマス山脈", "ヴァカ山脈", "カスケード山脈"], a: 1, e: "Napa CountyとSonoma Countyの間にある山はマヤカマス山脈です。" },
+    { id: "085", q: "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。", c: ["Diamond Mountain District", "Spring Mountain District", "Wild Horse Valley", "Mount Veeder"], a: 2, e: "Wild Horse ValleyはNapa Countyのヴァカ山脈側に位置するAVAです。" },
+    { id: "086", q: "次の中から米国のワイン法におけるAVAの意味を選択してください。", c: ["原産地名称保護", "地理的表示保護", "ブドウ栽培地域", "高品質ワイン基準"], a: 2, e: "AVAはAmerican Viticultural Areaの略で、ブドウ栽培地域を意味します。" },
+    { id: "087", q: "次の中から米国ワシントン州で最も生産量の多い黒ブドウ品種を選択してください。", c: ["シラー", "カベルネ・ソーヴィニョン", "ピノ・ノワール", "メルロ"], a: 1, e: "ワシントン州で最も生産量の多い黒ブドウ品種はカベルネ・ソーヴィニョンです。" },
+    { id: "088", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で3番のA.V.A名をカタカナで入力してください。", t: "カリストガ", aliases: ["カリストガAVA", "カリストガ・AVA"], img: "napa", e: "地図上の3番はCalistoga、カタカナではカリストガです。" },
+    { id: "089", q: "次の中から米国カリフォルニア州で、ナパ・ヴァレー北端にある山を選択してください。", c: ["カスケード山脈", "マヤカマス山脈", "ヴァカ山脈", "セント・ヘレナ山"], a: 3, e: "ナパ・ヴァレー北端にある山はセント・ヘレナ山です。" },
+    { id: "090", q: "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。", c: ["Russian River Valley", "Fort Ross-Seaview", "Chalk Hill", "Calistoga"], a: 3, e: "CalistogaはNapa Countyに属するAVAです。" },
+    { id: "091", q: "次の中から米国でアペレーションの規定を含む現在のワイン法の原形が形成された年代を選択してください。", c: ["1949年", "1978年", "1953年", "1971年"], a: 1, e: "米国で現在のワイン法の原形が形成されたのは1978年です。" },
+    { id: "092", q: "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でLong Islandに相当する番号を選択してください。", c: ["10番", "9番", "1番", "4番"], a: 2, img: "new-york", e: "Long Islandに相当する番号は1番です。" },
+    { id: "093", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["Tualatin Hills", "Red Hill Douglas County", "Rogue Valley", "The Rocks District of Milton-Freewater"], a: 0, e: "Tualatin HillsはWillamette Valley AVAのサブリージョンです。" },
+    { id: "094", q: "次の中から米国カリフォルニア州のNapa Valley AVAのサブ・リージョンの数を選択してください。", c: ["14", "19", "11", "17"], a: 3, e: "Napa Valley AVAのサブ・リージョンの数は17です。" },
+    { id: "095", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSanta Cruzに相当する番号を選択してください。", c: ["37番", "1番", "2番", "12番"], a: 3, img: "california", e: "Santa Cruzに相当する番号は12番です。" },
+    { id: "096", q: "次の中から米国でRobert M. Parker Jr.が発行する独自のワインニュースレターを選択してください。", c: ["Wine Advocate", "Wine Enthusiast", "Wine Spectator", "Decanter"], a: 0, e: "Robert M. Parker Jr.が発行する独自のワインニュースレターはWine Advocateです。" },
+    { id: "097", q: "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。", c: ["Mount Veeder", "St. Helena", "Rockpile", "Atlas Peak"], a: 2, e: "RockpileはSonoma Countyに属するAVAです。" },
+    { id: "098", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で1番のカウンティ名をカタカナで入力してください。", t: "メンドシーノ", aliases: ["メンドチーノ", "メンドシノ"], img: "california", e: "地図上の1番はMendocino、カタカナではメンドシーノです。" },
+    { id: "099", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSouthern Californiaに相当する記号を選択してください。", c: ["B", "A", "F", "E"], a: 2, img: "california", e: "Southern Californiaに相当する記号はFです。" },
+    { id: "100", q: "次の中から米国カリフォルニア州で、Napa CountyとSolano Countyの間にある山を選択してください。", c: ["カスケード山脈", "ヴァカ山脈", "セント・ヘレナ山", "マヤカマス山脈"], a: 1, e: "Napa CountyとSolano Countyの間にある山はヴァカ山脈です。" },
+    { id: "101", q: "次の中から米国ニューヨーク州でマンハッタン近郊に位置するAVAを選択してください。", c: ["Van Duzer Corridor", "Oakville", "Long Island", "Rogue Valley"], a: 2, e: "マンハッタン近郊に位置するニューヨーク州のAVAはLong Islandです。" },
+    { id: "102", q: "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションの数を選択してください。", c: ["3", "9", "5", "11"], a: 2, e: "Yakima Valley AVAのサブ・アペレーションの数は5です。" },
+    { id: "103", q: "次の中から米国オレゴン州に属するAVAを選択してください。", c: ["Long Island", "Oakville", "Yamhill-Carlton District", "Yakima Valley"], a: 2, e: "Yamhill-Carlton Districtはオレゴン州に属するAVAです。" },
+    { id: "104", q: "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第2位の品種を選択してください。", c: ["フレンチ・コロンバール", "ソーヴィニョン・ブラン", "シャルドネ", "ピノ・グリ"], a: 1, e: "カリフォルニア州で白ブドウの中で栽培面積が第2位の品種はソーヴィニョン・ブランです。" },
+    { id: "105", q: "次の中から米国オレゴン州に属するAVAを選択してください。", c: ["Coombsville", "Rogue Valley", "Lewis-Clark Valley", "Puget Sound"], a: 1, e: "Rogue Valleyはオレゴン州に属するAVAです。" },
+    { id: "106", q: "次の中から米国ワシントン州で唯一、カスケード山脈の西側にあるAVAを選択してください。", c: ["Puget Sound", "Lewis-Clark Valley", "Columbia Valley", "Willamette Valley"], a: 0, e: "ワシントン州で唯一、カスケード山脈の西側にあるAVAはPuget Soundです。" },
+    { id: "107", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で12番のカウンティ名をカタカナで入力してください。", t: "サンタ・クルーズ", aliases: ["サンタクルーズ"], img: "california", e: "地図上の12番はSanta Cruz、カタカナではサンタ・クルーズです。" },
+    { id: "108", q: "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第3位のものを選択してください。", c: ["シャルドネ", "ジンファンデル", "カベルネ・ソーヴィニョン", "ピノ・ノワール"], a: 3, e: "カリフォルニア州のブドウ品種で栽培面積が第3位のものはピノ・ノワールです。" },
+    { id: "109", q: "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。", c: ["San Francisco", "San Luis Obispo", "Napa", "Santa Cruz"], a: 2, e: "Napaはノース・コースト地区に属するカウンティです。" },
+    { id: "110", q: "次の中から米国において、ワインの製造方法を規定し品質管理を担っている組織の略称を選択してください。", c: ["DAC", "TTB", "VQA", "AVA"], a: 1, e: "米国でワインの製造方法を規定し品質管理を担う組織はTTBです。" },
+    { id: "111", q: "次の米国に関する記述の中から正しいものを選択してください。", c: ["1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤は第1位、白は第2位に入った。", "ニューヨーク州には現在約140軒のワイナリーがある。", "ワシントン州コロンビア・ヴァレーの7〜8月の平均気温はボルドーより高い。", "19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。"], a: 2, e: "正しい記述は、ワシントン州コロンビア・ヴァレーの7〜8月の平均気温はボルドーより高い、です。" },
+    { id: "112", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でBのワイン・リージョン名をカタカナで入力してください。", t: "ノース・コースト", aliases: ["ノースコースト"], img: "california", e: "地図上のBはNorth Coast、カタカナではノース・コーストです。" },
+    { id: "113", q: "次の中から米国ワシントン州に属するAVAを選択してください。", c: ["Columbia Gorge", "Niagara Escarpment", "St. Helena", "Howell Mountain"], a: 0, e: "Columbia Gorgeはワシントン州に属するAVAです。" },
+    { id: "114", q: "次の中から2025年8月現在の米国オレゴン州のAVAの数を選択してください。", c: ["21", "28", "23", "14"], a: 2, e: "2025年8月現在のオレゴン州のAVAの数は23です。" },
+    { id: "115", q: "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。", c: ["Mendocino", "Napa", "Contra Costa", "Marin"], a: 2, e: "Contra Costaはセントラル・コースト地区に属するカウンティです。" },
+    { id: "116", q: "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。", c: ["Ribbon Ridge", "The Rocks District of Milton-Freewater", "Rogue Valley", "Red Hill Douglas County"], a: 0, e: "Ribbon RidgeはWillamette Valley AVAのサブリージョンです。" },
+    { id: "117", q: "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で8番のA.V.A名をカタカナで入力してください。", t: "オークヴィル", aliases: ["オークビル"], img: "napa", e: "地図上の8番はOakville、カタカナではオークヴィルです。" },
+    { id: "118", q: "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。", c: ["Stags Leap District", "Knights Valley", "Rockpile", "Alexander Valley"], a: 0, e: "Stags Leap DistrictはNapa Countyに属するAVAです。" },
+    { id: "119", q: "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で3番のカウンティ名をカタカナで入力してください。", t: "ナパ", aliases: ["ナパ・カウンティ", "ナパカウンティ"], img: "california", e: "地図上の3番はNapa、カタカナではナパです。" },
+    { id: "120", q: "次の中から米国ヴァージニア州で最も生産量の多い白ブドウ品種を選択してください。", c: ["ソーヴィニョン・ブラン", "シャルドネ", "ヴィオニエ", "ピノ・グリ"], a: 1, e: "ヴァージニア州で最も生産量の多い白ブドウ品種はシャルドネです。" },
+    { id: "121", q: "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。", c: ["Mount Veeder", "Atlas Peak", "Spring Mountain District", "Diamond Mountain District"], a: 1, e: "Atlas PeakはNapa Countyのヴァカ山脈側に位置するAVAです。" },
+    { id: "122", q: "次の中から米国オレゴン州に属するAVAを選択してください。", c: ["Yakima Valley", "Coombsville", "Dundee Hills", "Long Island"], a: 2, e: "Dundee Hillsはオレゴン州に属するAVAです。" }
+  ].map((item) => {
+    const imageMap = {
+      california: {
+        src: "assets/usa-california-map.jpg",
+        alt: "アメリカ、カリフォルニア州のワイン産地の地図",
+        caption: "カリフォルニア州のワイン産地"
+      },
+      "new-york": {
+        src: "assets/usa-new-york-map.jpg",
+        alt: "アメリカ、ニューヨーク州のワイン産地の地図",
+        caption: "ニューヨーク州のワイン産地"
+      },
+      napa: {
+        src: "assets/usa-napa-map.jpg",
+        alt: "アメリカ、ナパ・ヴァレーのワイン産地の地図",
+        caption: "ナパ・ヴァレーのワイン産地"
+      }
+    };
+    const base = {
+      id: `usa-${item.id}`,
+      category: "アメリカ",
+      importance: "A",
+      question: item.q,
+      explanation: item.e,
+      ...(item.img ? { image: imageMap[item.img] } : {})
     };
     if (item.t) {
       return {

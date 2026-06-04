@@ -3,6 +3,12 @@
 
   const questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
   const storageKey = "wineExpertReviewApp.v1";
+  const mixedCategoryRules = {
+    "フランス": (category) => category === "フランス概論" || category.startsWith("フランス/"),
+    "イタリア": (category) => category.startsWith("イタリア/"),
+    "ドイツ": (category) => category.startsWith("ドイツ/")
+  };
+  const mixedCategorySize = 10;
 
   const defaultState = {
     answers: {},
@@ -20,6 +26,7 @@
   const state = loadState();
   let currentSet = [];
   let answered = false;
+  let selectedChoiceIndexes = [];
 
   const els = {
     quizPanel: document.getElementById("quizPanel"),
@@ -40,6 +47,10 @@
     questionImage: document.getElementById("questionImage"),
     questionImageCaption: document.getElementById("questionImageCaption"),
     choices: document.getElementById("choices"),
+    textAnswerBox: document.getElementById("textAnswerBox"),
+    textAnswerInput: document.getElementById("textAnswerInput"),
+    textSubmitButton: document.getElementById("textSubmitButton"),
+    multiSubmitButton: document.getElementById("multiSubmitButton"),
     answerResult: document.getElementById("answerResult"),
     explanationBox: document.getElementById("explanationBox"),
     explanationText: document.getElementById("explanationText"),
@@ -91,7 +102,7 @@
   }
 
   function populateCategories() {
-    const categories = ["all", ...new Set(questions.map((question) => question.category))];
+    const categories = ["all", ...getCategoryOptions()];
     els.categoryFilter.innerHTML = categories
       .map((category) => {
         const label = category === "all" ? "すべて" : category;
@@ -172,7 +183,35 @@
       if (!button || button.disabled) return;
       const question = getCurrentQuestion();
       if (!question) return;
-      answerQuestion(question, Number(button.dataset.choiceIndex));
+      const choiceIndex = Number(button.dataset.choiceIndex);
+      if (isMultipleChoiceQuestion(question)) {
+        toggleMultipleChoice(button, choiceIndex, question);
+        return;
+      }
+      answerQuestion(question, [choiceIndex]);
+    });
+
+    els.multiSubmitButton.addEventListener("click", () => {
+      const question = getCurrentQuestion();
+      if (!question || answered || !isMultipleChoiceQuestion(question) || !selectedChoiceIndexes.length) return;
+      answerQuestion(question, selectedChoiceIndexes);
+    });
+
+    els.textAnswerInput.addEventListener("input", () => {
+      els.textSubmitButton.disabled = !els.textAnswerInput.value.trim();
+    });
+
+    els.textAnswerInput.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter" || els.textSubmitButton.disabled) return;
+      event.preventDefault();
+      els.textSubmitButton.click();
+    });
+
+    els.textSubmitButton.addEventListener("click", () => {
+      const question = getCurrentQuestion();
+      const value = els.textAnswerInput.value.trim();
+      if (!question || answered || !isTextAnswerQuestion(question) || !value) return;
+      answerTextQuestion(question, value);
     });
 
     document.querySelectorAll(".nav-button").forEach((button) => {
@@ -197,13 +236,24 @@
   }
 
   function rebuildSet() {
-    currentSet = questions.filter((question) => {
+    const categoryFilter = state.filters.category;
+    const isMixed = isMixedCategory(categoryFilter);
+    const mixedSourceCategories = isMixed ? getMixedSourceCategories(categoryFilter) : [];
+    const sourceQuestions = isMixed
+      ? questions.filter((question) => mixedSourceCategories.includes(question.category))
+      : questions;
+
+    currentSet = sourceQuestions.filter((question) => {
       if (state.filters.importance !== "all" && question.importance !== state.filters.importance) return false;
-      if (state.filters.category !== "all" && question.category !== state.filters.category) return false;
+      if (categoryFilter !== "all" && !isMixed && question.category !== categoryFilter) return false;
       if (state.filters.mode === "wrong" && !state.wrongIds.includes(question.id)) return false;
       if (state.filters.mode === "review" && !state.reviewIds.includes(question.id)) return false;
       return true;
     });
+
+    if (isMixed) {
+      currentSet = shuffleQuestions(currentSet).slice(0, mixedCategorySize);
+    }
 
     if (state.currentIndex >= currentSet.length) {
       state.currentIndex = 0;
@@ -226,12 +276,15 @@
     if (!question) {
       els.questionCard.hidden = true;
       els.emptyState.hidden = false;
+      els.textAnswerBox.hidden = true;
+      els.multiSubmitButton.hidden = true;
       return;
     }
 
+    if (!answered) selectedChoiceIndexes = [];
     els.questionCard.hidden = false;
     els.emptyState.hidden = true;
-    els.categoryBadge.textContent = question.category;
+    els.categoryBadge.textContent = isMixedCategory(state.filters.category) ? state.filters.category : question.category;
     els.importanceBadge.textContent = `重要度 ${question.importance}`;
     els.importanceBadge.dataset.importance = question.importance;
     els.questionText.textContent = question.question;
@@ -241,17 +294,25 @@
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
     els.nextButton.disabled = true;
+    els.multiSubmitButton.hidden = !isMultipleChoiceQuestion(question);
+    els.multiSubmitButton.disabled = true;
+    els.textAnswerBox.hidden = !isTextAnswerQuestion(question);
+    els.textAnswerInput.value = "";
+    els.textAnswerInput.disabled = false;
+    els.textSubmitButton.disabled = true;
 
     const inReview = state.reviewIds.includes(question.id);
     els.reviewButton.classList.toggle("selected", inReview);
     els.reviewButton.innerHTML = `<span aria-hidden="true">${inReview ? "★" : "☆"}</span>${inReview ? "復習から外す" : "復習に追加"}`;
 
     els.choices.innerHTML = "";
+    if (isTextAnswerQuestion(question)) return;
     question.choices.forEach((choice, index) => {
       const button = document.createElement("button");
       button.type = "button";
       button.className = "choice-button";
       button.dataset.choiceIndex = String(index);
+      if (isMultipleChoiceQuestion(question)) button.setAttribute("aria-pressed", "false");
       button.innerHTML = `<span>${index + 1}</span><strong>${escapeHtml(choice)}</strong>`;
       els.choices.appendChild(button);
     });
@@ -272,10 +333,28 @@
     els.questionImageCaption.textContent = question.image.caption || "";
   }
 
-  function answerQuestion(question, choiceIndex) {
+  function toggleMultipleChoice(button, choiceIndex, question) {
+    if (answered) return;
+    const maxSelections = question.maxSelections || getAnswerIndexes(question).length;
+    const alreadySelected = selectedChoiceIndexes.includes(choiceIndex);
+    if (alreadySelected) {
+      selectedChoiceIndexes = selectedChoiceIndexes.filter((index) => index !== choiceIndex);
+      button.classList.remove("selected");
+      button.setAttribute("aria-pressed", "false");
+    } else {
+      if (selectedChoiceIndexes.length >= maxSelections) return;
+      selectedChoiceIndexes.push(choiceIndex);
+      button.classList.add("selected");
+      button.setAttribute("aria-pressed", "true");
+    }
+    els.multiSubmitButton.disabled = !selectedChoiceIndexes.length;
+  }
+
+  function answerQuestion(question, choiceIndexes) {
     if (answered) return;
     answered = true;
-    const isCorrect = choiceIndex === question.answerIndex;
+    const answerIndexes = getAnswerIndexes(question);
+    const isCorrect = areSameIndexes(choiceIndexes, answerIndexes);
     const previous = state.answers[question.id] || { correct: 0, total: 0 };
     state.answers[question.id] = {
       correct: previous.correct + (isCorrect ? 1 : 0),
@@ -291,34 +370,113 @@
     }
 
     saveState();
-    revealAnswer(question, choiceIndex, isCorrect);
+    revealAnswer(question, choiceIndexes, isCorrect);
     renderStats();
     renderSaved();
   }
 
-  function revealAnswer(question, choiceIndex, isCorrect) {
+  function answerTextQuestion(question, answerText) {
+    if (answered) return;
+    answered = true;
+    const isCorrect = getAnswerTexts(question).includes(normalizeTextAnswer(answerText));
+    const previous = state.answers[question.id] || { correct: 0, total: 0 };
+    state.answers[question.id] = {
+      correct: previous.correct + (isCorrect ? 1 : 0),
+      total: previous.total + 1,
+      lastCorrect: isCorrect,
+      lastAnsweredAt: new Date().toISOString()
+    };
+
+    if (isCorrect) {
+      state.wrongIds = state.wrongIds.filter((id) => id !== question.id);
+    } else if (!state.wrongIds.includes(question.id)) {
+      state.wrongIds.push(question.id);
+    }
+
+    saveState();
+    revealTextAnswer(question, answerText, isCorrect);
+    renderStats();
+    renderSaved();
+  }
+
+  function revealAnswer(question, choiceIndexes, isCorrect) {
+    const answerIndexes = getAnswerIndexes(question);
     [...els.choices.children].forEach((button, index) => {
       button.disabled = true;
-      if (index === question.answerIndex) button.classList.add("correct");
-      if (index === choiceIndex && !isCorrect) button.classList.add("incorrect");
+      if (answerIndexes.includes(index)) button.classList.add("correct");
+      if (choiceIndexes.includes(index) && !answerIndexes.includes(index)) button.classList.add("incorrect");
     });
 
+    els.multiSubmitButton.disabled = true;
     els.answerResult.hidden = false;
     els.answerResult.classList.add(isCorrect ? "correct" : "incorrect");
     els.answerResult.innerHTML = `
       <strong>${isCorrect ? "正解です" : "不正解です。誤答として保存しました"}</strong>
-      <span>正解：${question.answerIndex + 1}. ${escapeHtml(question.choices[question.answerIndex])}</span>
-      <span>あなたの回答：${choiceIndex + 1}. ${escapeHtml(question.choices[choiceIndex])}</span>
+      <span>正解：${escapeHtml(formatAnswers(question, answerIndexes))}</span>
+      <span>あなたの回答：${escapeHtml(formatAnswers(question, choiceIndexes))}</span>
     `;
     els.explanationBox.hidden = false;
     els.nextButton.disabled = false;
   }
 
+  function revealTextAnswer(question, answerText, isCorrect) {
+    els.textAnswerInput.disabled = true;
+    els.textSubmitButton.disabled = true;
+    els.answerResult.hidden = false;
+    els.answerResult.classList.add(isCorrect ? "correct" : "incorrect");
+    els.answerResult.innerHTML = `
+      <strong>${isCorrect ? "正解です" : "不正解です。誤答として保存しました"}</strong>
+      <span>正解：${escapeHtml(question.answerText)}</span>
+      <span>あなたの回答：${escapeHtml(answerText)}</span>
+    `;
+    els.explanationBox.hidden = false;
+    els.nextButton.disabled = false;
+  }
+
+  function isMultipleChoiceQuestion(question) {
+    return Array.isArray(question.answerIndexes);
+  }
+
+  function isTextAnswerQuestion(question) {
+    return typeof question.answerText === "string";
+  }
+
+  function getAnswerIndexes(question) {
+    return isMultipleChoiceQuestion(question) ? question.answerIndexes : [question.answerIndex];
+  }
+
+  function areSameIndexes(selectedIndexes, answerIndexes) {
+    if (selectedIndexes.length !== answerIndexes.length) return false;
+    const selected = [...selectedIndexes].sort((a, b) => a - b);
+    const answers = [...answerIndexes].sort((a, b) => a - b);
+    return selected.every((index, position) => index === answers[position]);
+  }
+
+  function formatAnswers(question, indexes) {
+    if (!indexes.length) return "未選択";
+    return [...indexes]
+      .sort((a, b) => a - b)
+      .map((index) => `${index + 1}. ${question.choices[index]}`)
+      .join(" / ");
+  }
+
+  function getAnswerTexts(question) {
+    const answers = [question.answerText, ...(question.answerTextAliases || [])];
+    return answers.map(normalizeTextAnswer);
+  }
+
+  function normalizeTextAnswer(value) {
+    return String(value).normalize("NFKC").replace(/\s+/g, "").trim();
+  }
+
   function renderStats() {
-    const categories = [...new Set(questions.map((question) => question.category))];
+    const categories = getCategoryOptions();
     els.statsList.innerHTML = categories
       .map((category) => {
-        const categoryQuestions = questions.filter((question) => question.category === category);
+        const mixedSourceCategories = isMixedCategory(category) ? getMixedSourceCategories(category) : [];
+        const categoryQuestions = isMixedCategory(category)
+          ? questions.filter((question) => mixedSourceCategories.includes(question.category))
+          : questions.filter((question) => question.category === category);
         const stats = categoryQuestions.reduce(
           (acc, question) => {
             const answer = state.answers[question.id];
@@ -412,6 +570,45 @@
 
   function cloneDefaultState() {
     return JSON.parse(JSON.stringify(defaultState));
+  }
+
+  function getCategoryOptions() {
+    const categories = [...new Set(questions.map((question) => question.category))];
+    Object.keys(mixedCategoryRules).forEach((mixedCategory) => {
+      const sourceCategories = getMixedSourceCategories(mixedCategory);
+      const sourceIndex = categories.findIndex((category) => sourceCategories.includes(category));
+      const existingIndex = categories.indexOf(mixedCategory);
+      if (existingIndex >= 0) categories.splice(existingIndex, 1);
+      if (sourceIndex >= 0) {
+        categories.splice(sourceIndex, 0, mixedCategory);
+      } else {
+        categories.push(mixedCategory);
+      }
+    });
+    return categories;
+  }
+
+  function isMixedCategory(category) {
+    return Object.prototype.hasOwnProperty.call(mixedCategoryRules, category);
+  }
+
+  function getMixedSourceCategories(mixedCategory) {
+    const rule = mixedCategoryRules[mixedCategory];
+    if (!rule) return [];
+    return [...new Set(
+      questions
+        .map((question) => question.category)
+        .filter((category) => category !== mixedCategory && rule(category))
+    )];
+  }
+
+  function shuffleQuestions(items) {
+    const shuffled = [...items];
+    for (let index = shuffled.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+    }
+    return shuffled;
   }
 
   function showStartupError(error) {

@@ -70,6 +70,13 @@
               <figcaption id="questionImageCaption"></figcaption>
             </figure>
             <div class="choices" id="choices"></div>
+            <div class="text-answer" id="textAnswerBox" hidden>
+              <input id="textAnswerInput" type="text" autocomplete="off" autocapitalize="off" placeholder="カタカナで入力">
+              <button class="primary" id="textSubmitButton" type="button" disabled>解答する</button>
+            </div>
+            <button class="primary multi-submit" id="multiSubmitButton" type="button" hidden disabled>
+              解答する
+            </button>
             <div class="answer-result" id="answerResult" hidden></div>
             <section class="explanation" id="explanationBox" hidden>
               <h3>解説</h3>
