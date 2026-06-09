@@ -1,5 +1,817 @@
 window.WINE_QUESTIONS = [
   {
+    "id": "japan-overview-001",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "日本ワインのラベル表示例で「東京都で収穫したブドウを85%以上使用して、東京都で醸造したワイン」の正しい表ラベル表示を選択してください。",
+    "choices": [
+      "東京ワイン",
+      "東京醸造ワイン",
+      "東京産ブドウ使用",
+      "東京という文言は使用不可"
+    ],
+    "answerIndex": 0,
+    "explanation": "東京都産ブドウを85%以上使用し、東京都で醸造した場合は「東京ワイン」と表示できます。"
+  },
+  {
+    "id": "japan-overview-002",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で輸入濃縮果汁を使用した国内製造ワインのラベル表示規定として正しいものを選択してください。",
+    "choices": [
+      "品種名の表示のみ可能、産地、収穫年の表示は不可",
+      "産地名、品種名、収穫年表示は全て不可",
+      "産地名、品種名、収穫年表示が可能である",
+      "産地名の表示は不可、品種名、収穫年の表示は可能"
+    ],
+    "answerIndex": 1,
+    "explanation": "輸入濃縮果汁を使用した国内製造ワインでは、産地名、品種名、収穫年の表示はできません。"
+  },
+  {
+    "id": "japan-overview-003",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、ワイン用ブドウの生産数量が第5位の都道府県を選択してください。",
+    "choices": [
+      "宮崎県",
+      "岡山県",
+      "長野県",
+      "岩手県"
+    ],
+    "answerIndex": 0,
+    "explanation": "ワイン用ブドウの生産数量では、選択肢の中では宮崎県が第5位に該当します。"
+  },
+  {
+    "id": "japan-overview-004",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から明治期のワイン用ブドウ栽培を阻止した最大の原因を選択してください。",
+    "choices": [
+      "国民の嗜好",
+      "日清戦争",
+      "病虫害",
+      "日露戦争"
+    ],
+    "answerIndex": 2,
+    "explanation": "明治期のワイン用ブドウ栽培では、病虫害が大きな障害となりました。"
+  },
+  {
+    "id": "japan-overview-005",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中からブドウ品種「甲州」の特徴として正しいものを選択してください。",
+    "choices": [
+      "欧・中東系の白用品種に比べて糖度が上がりやすい。",
+      "果皮はやや薄い黄緑色である。",
+      "生産数量の約1/3は山形県である。",
+      "果皮が厚く欧・中東系品種に比べて耐病性がある。"
+    ],
+    "answerIndex": 3,
+    "explanation": "甲州は果皮が厚く、欧・中東系品種に比べて耐病性がある点が特徴です。"
+  },
+  {
+    "id": "japan-overview-006",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本のぶどう酒の地理的表示制度において、2021年末時点で指定されている名称を選択してください。",
+    "choices": [
+      "岡山",
+      "北海道",
+      "桔梗ヶ原",
+      "岩手"
+    ],
+    "answerIndex": 1,
+    "explanation": "2021年末時点で指定されているぶどう酒の地理的表示には北海道が含まれます。"
+  },
+  {
+    "id": "japan-overview-007",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「甲斐ブラン」の交配を選択してください。",
+    "choices": [
+      "甲州 × ソーヴィニョン・ブラン",
+      "甲州 × ピノ・ブラン",
+      "シャルドネ × リースリング",
+      "甲州三尺 × リースリング"
+    ],
+    "answerIndex": 1,
+    "explanation": "甲斐ブランは甲州とピノ・ブランの交配品種です。"
+  },
+  {
+    "id": "japan-overview-008",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本国内製造ワインの中で日本ワインが占める割合を選択してください。",
+    "choices": [
+      "約34%",
+      "約3.7%",
+      "約18%",
+      "約8.6%"
+    ],
+    "answerIndex": 2,
+    "explanation": "国内製造ワインのうち日本ワインが占める割合は、選択肢の中では約18%です。"
+  },
+  {
+    "id": "japan-overview-009",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から黒ブドウ品種を選択してください。",
+    "choices": [
+      "キャンベル・アーリー",
+      "善光寺",
+      "デラウェア",
+      "ケルナー"
+    ],
+    "answerIndex": 0,
+    "explanation": "キャンベル・アーリーは黒ブドウ品種です。"
+  },
+  {
+    "id": "japan-overview-010",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本でジエチレングリコールが山梨のワインから発見され、国産ワインに輸入ワインが混入していることが発見された年を選択してください。",
+    "choices": [
+      "1973年",
+      "1994年",
+      "1985年",
+      "1975年"
+    ],
+    "answerIndex": 2,
+    "explanation": "ジエチレングリコール問題により国産ワインへの輸入ワイン混入が発見されたのは1985年です。"
+  },
+  {
+    "id": "japan-overview-011",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中からブドウ品種「甲州」の特徴として正しいものを選択してください。",
+    "choices": [
+      "基本的には垣根仕立てが用いられる。",
+      "山梨県では甲州の醸造量は2000年以降増加している。",
+      "果皮はやや薄い藤紫色である。",
+      "欧・中東系の白用品種に比べて糖度が上がりやすい。"
+    ],
+    "answerIndex": 2,
+    "explanation": "甲州は、やや薄い藤紫色の果皮をもつ白ワイン用品種です。"
+  },
+  {
+    "id": "japan-overview-012",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から山梨県の甲府にて、本格的なワイン造りが始まった時代を選択してください。",
+    "choices": [
+      "昭和時代の初め",
+      "大正時代",
+      "明治時代の終わり",
+      "明治時代の初め"
+    ],
+    "answerIndex": 3,
+    "explanation": "山梨県甲府で本格的なワイン造りが始まったのは明治時代の初めです。"
+  },
+  {
+    "id": "japan-overview-013",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本ワインの生産量を選択してください。",
+    "choices": [
+      "約42万kℓ",
+      "約4.3万kℓ",
+      "約34万kℓ",
+      "約1.4万kℓ"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本ワインの生産量は、選択肢の中では約1.4万kℓです。"
+  },
+  {
+    "id": "japan-overview-014",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本でワインの消費量が甘味果実酒の消費量を上回った年を選択してください。",
+    "choices": [
+      "1973年",
+      "1994年",
+      "1975年",
+      "2003年"
+    ],
+    "answerIndex": 2,
+    "explanation": "日本でワインの消費量が甘味果実酒の消費量を上回ったのは1975年です。"
+  },
+  {
+    "id": "japan-overview-015",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "日本で次のような造り方を行った場合に表示できる用語を選択してください。「ほとんどが氷結ないし凍結したブドウを使用し、採果解凍前に搾汁した果汁を使用」",
+    "choices": [
+      "クリオエキストラクシオン",
+      "貴腐ワイン",
+      "冷凍果汁仕込",
+      "アイスワイン"
+    ],
+    "answerIndex": 3,
+    "explanation": "樹上で氷結または凍結したブドウを採果解凍前に搾汁した場合は、アイスワインと表示できます。"
+  },
+  {
+    "id": "japan-overview-016",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から2020年にOIVのリストに登録された品種を選択してください。",
+    "choices": [
+      "メルロ",
+      "山幸",
+      "巨峰",
+      "シャルドネ"
+    ],
+    "answerIndex": 1,
+    "explanation": "山幸は2020年にOIVのリストに登録されました。"
+  },
+  {
+    "id": "japan-overview-017",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、2024年発表のデータによる日本ワインの生産量が第3位の都道府県を選択してください。",
+    "choices": [
+      "岩手県",
+      "長野県",
+      "北海道",
+      "山形県"
+    ],
+    "answerIndex": 1,
+    "explanation": "2024年発表データによる日本ワイン生産量第3位は長野県です。"
+  },
+  {
+    "id": "japan-overview-018",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「山幸」の交配を選択してください。",
+    "choices": [
+      "ヤマブドウ × 清見",
+      "ヤマブドウ × セイベル",
+      "ヤマブドウ × ソーヴィニョン・ブラン",
+      "ヤマブドウ × カベルネ・ソーヴィニョン"
+    ],
+    "answerIndex": 0,
+    "explanation": "山幸はヤマブドウと清見の交配品種です。"
+  },
+  {
+    "id": "japan-overview-019",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の仕立て方「X字型剪定」のベースとなる仕立て方を選択してください。",
+    "choices": [
+      "棚仕立て",
+      "株仕立て",
+      "垣根仕立て",
+      "棒仕立て"
+    ],
+    "answerIndex": 0,
+    "explanation": "X字型剪定は棚仕立てをベースにした仕立て方です。"
+  },
+  {
+    "id": "japan-overview-020",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の説明に最も良く合致する日本で栽培されているブドウ品種を選んでください。\n「明治時代にアメリカから伝来した白ブドウ。県別では北海道が最多で長野県が続く。アメリカ系品種香が強い。中甘口のワイン、スパークリングワインが多い。」",
+    "choices": [
+      "ナイアガラ",
+      "アジロンダック",
+      "甲州",
+      "デラウェア"
+    ],
+    "answerIndex": 0,
+    "explanation": "この説明に合致する品種はナイアガラです。"
+  },
+  {
+    "id": "japan-overview-021",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の仕立て方「H字型短梢剪定」の特徴を選択してください。",
+    "choices": [
+      "ヨーロッパを意識した垣根仕立ての改良",
+      "片側のみ新梢を伸ばしたもの",
+      "棚仕立てで長梢に剪定したもの",
+      "棚仕立てで短梢に剪定したもの"
+    ],
+    "answerIndex": 3,
+    "explanation": "H字型短梢剪定は棚仕立てで短梢に剪定したものです。"
+  },
+  {
+    "id": "japan-overview-022",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から山梨県祝村に大日本山梨葡萄酒会社が仮設立された年を選択してください。",
+    "choices": [
+      "1940年",
+      "1927年",
+      "1877年",
+      "1904年"
+    ],
+    "answerIndex": 2,
+    "explanation": "大日本山梨葡萄酒会社が仮設立されたのは1877年です。"
+  },
+  {
+    "id": "japan-overview-023",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「マスカット・ベーリーA」の交配を選択してください。",
+    "choices": [
+      "ベーリー × ゴールデン・クイーン",
+      "ベーリー × カベルネ・ソーヴィニョン",
+      "カベルネ・ソーヴィニョン × マスカット・ハンブルグ",
+      "ベーリー × マスカット・ハンブルグ"
+    ],
+    "answerIndex": 3,
+    "explanation": "マスカット・ベーリーAはベーリーとマスカット・ハンブルグの交配品種です。"
+  },
+  {
+    "id": "japan-overview-024",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の酒税法における果実酒の規定の一部として正しいものを選択してください。",
+    "choices": [
+      "色素や植物を浸漬することができる。",
+      "果実に糖分の添加はできるが水の添加は不可。",
+      "干しぶどうを使うことができる。",
+      "ブドウ以外の果実は使用不可。"
+    ],
+    "answerIndex": 2,
+    "explanation": "日本の酒税法における果実酒では、干しぶどうを使うことができます。"
+  },
+  {
+    "id": "japan-overview-025",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本のワイン用ブドウ栽培北限のおおよその緯度を選択してください。",
+    "choices": [
+      "北緯31度",
+      "北緯44度",
+      "北緯26度",
+      "北緯49度"
+    ],
+    "answerIndex": 1,
+    "explanation": "日本のワイン用ブドウ栽培北限は、おおよそ北緯44度です。"
+  },
+  {
+    "id": "japan-overview-026",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本のぶどう酒の地理的表示制度において、2021年末時点で指定されている名称を選択してください。",
+    "choices": [
+      "甲州",
+      "山梨",
+      "岩手",
+      "新潟"
+    ],
+    "answerIndex": 1,
+    "explanation": "2021年末時点で指定されているぶどう酒の地理的表示には山梨が含まれます。"
+  },
+  {
+    "id": "japan-overview-027",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で貿易の自由化により、特恵国のバルクワインと濃縮マストの関税が引き下げられた年代を選択してください。",
+    "choices": [
+      "1960年代",
+      "1980年代",
+      "2000年代",
+      "1970年代"
+    ],
+    "answerIndex": 3,
+    "explanation": "特恵国のバルクワインと濃縮マストの関税が引き下げられたのは1970年代です。"
+  },
+  {
+    "id": "japan-overview-028",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から白ブドウ品種を選択してください。",
+    "choices": [
+      "ケルナー",
+      "アジロンダック",
+      "ツヴァイゲルト",
+      "巨峰"
+    ],
+    "answerIndex": 0,
+    "explanation": "ケルナーは白ブドウ品種です。"
+  },
+  {
+    "id": "japan-overview-029",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、2024年発表のデータによる日本ワインの生産量が第5位の都道府県を選択してください。",
+    "choices": [
+      "宮崎県",
+      "岩手県",
+      "山梨県",
+      "岡山県"
+    ],
+    "answerIndex": 3,
+    "explanation": "2024年発表データによる日本ワイン生産量第5位は岡山県です。"
+  },
+  {
+    "id": "japan-overview-030",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で果実酒等の製法品質表示基準が施行された年月を選択してください。",
+    "choices": [
+      "2018年4月",
+      "2017年10月",
+      "2018年10月",
+      "2017年4月"
+    ],
+    "answerIndex": 2,
+    "explanation": "果実酒等の製法品質表示基準は2018年10月に施行されました。"
+  },
+  {
+    "id": "japan-overview-031",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本ワインの生産量（750mℓ換算）を選択してください。",
+    "choices": [
+      "約1,300万本",
+      "約1,900万本",
+      "約1,600万本",
+      "約3,500万本"
+    ],
+    "answerIndex": 1,
+    "explanation": "日本ワインの生産量は750mℓ換算で約1,900万本です。"
+  },
+  {
+    "id": "japan-overview-032",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中からブドウ品種「甲州」の特徴として正しいものを選択してください。",
+    "choices": [
+      "欧・中東系の白用品種に比べて糖度が上がりやすい。",
+      "生産数量の約1/3は山形県である。",
+      "果皮はやや薄い黄緑色である。",
+      "山梨県では甲州の醸造量は2000年以降減少している。"
+    ],
+    "answerIndex": 3,
+    "explanation": "山梨県では甲州の醸造量は2000年以降減少している、が正しい記述です。"
+  },
+  {
+    "id": "japan-overview-033",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の仕立て方「一文字型短梢剪定」の特徴を選択してください。",
+    "choices": [
+      "ヨーロッパを意識した垣根仕立ての改良",
+      "棚仕立てで短梢に剪定したもの",
+      "棚仕立てで長梢に剪定したもの",
+      "片側のみ新梢を伸ばしたもの"
+    ],
+    "answerIndex": 1,
+    "explanation": "一文字型短梢剪定は棚仕立てで短梢に剪定したものです。"
+  },
+  {
+    "id": "japan-overview-034",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の酒類の地理的表示制度において、2021年末時点で指定されていない名称を選択してください。",
+    "choices": [
+      "甲州",
+      "日本酒",
+      "和歌山梅酒",
+      "山梨"
+    ],
+    "answerIndex": 0,
+    "explanation": "2021年末時点の酒類の地理的表示制度では、甲州は指定名称ではありません。"
+  },
+  {
+    "id": "japan-overview-035",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で「クリオエキストラクシオン」という用語の意味を選択してください。",
+    "choices": [
+      "ほとんどが貴腐化されたブドウを使用し、それを圧搾して糖度の高い果汁を得る",
+      "人為的にブドウ果汁を冷凍し、冷凍により生じた氷を除去して糖度の高い果汁を得る",
+      "ほとんどが氷結ないし凍結したブドウを使用し、採果解凍前に搾汁した果汁を使用",
+      "人為的にブドウを冷凍し、凍結したブドウを圧搾して糖度の高い果汁を得る"
+    ],
+    "answerIndex": 3,
+    "explanation": "クリオエキストラクシオンは、人為的にブドウを冷凍し、凍結したブドウを圧搾して糖度の高い果汁を得る方法です。"
+  },
+  {
+    "id": "japan-overview-036",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から2010年にOIVのリストに登録された品種を選択してください。",
+    "choices": [
+      "山幸",
+      "シャルドネ",
+      "甲州",
+      "マスカット・ベーリーA"
+    ],
+    "answerIndex": 2,
+    "explanation": "甲州は2010年にOIVのリストに登録されました。"
+  },
+  {
+    "id": "japan-overview-037",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「信濃リースリング」の交配を選択してください。",
+    "choices": [
+      "甲州 × ソーヴィニョン・ブラン",
+      "甲州三尺 × リースリング",
+      "シャルドネ × リースリング",
+      "甲州 × ピノ・ブラン"
+    ],
+    "answerIndex": 2,
+    "explanation": "信濃リースリングはシャルドネとリースリングの交配品種です。"
+  },
+  {
+    "id": "japan-overview-038",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、ワイン用ブドウの生産数量が第2位の都道府県を選択してください。",
+    "choices": [
+      "山形県",
+      "岡山県",
+      "山梨県",
+      "北海道"
+    ],
+    "answerIndex": 3,
+    "explanation": "ワイン用ブドウの生産数量第2位は北海道です。"
+  },
+  {
+    "id": "japan-overview-039",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から兵庫県に播州葡萄園が開設された年を選択してください。",
+    "choices": [
+      "1876年",
+      "1880年",
+      "1874年",
+      "1927年"
+    ],
+    "answerIndex": 1,
+    "explanation": "兵庫県に播州葡萄園が開設されたのは1880年です。"
+  },
+  {
+    "id": "japan-overview-040",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「ブラック・クイーン」の交配を選択してください。",
+    "choices": [
+      "ベーリー × ゴールデン・クイーン",
+      "ベーリー × カベルネ・ソーヴィニョン",
+      "ゴールデン・クイーン × マスカット・ハンブルグ",
+      "カベルネ・ソーヴィニョン × マスカット・ハンブルグ"
+    ],
+    "answerIndex": 0,
+    "explanation": "ブラック・クイーンはベーリーとゴールデン・クイーンの交配品種です。"
+  },
+  {
+    "id": "japan-overview-041",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から白ブドウ品種を選択してください。",
+    "choices": [
+      "善光寺",
+      "ツヴァイゲルト",
+      "巨峰",
+      "アジロンダック"
+    ],
+    "answerIndex": 0,
+    "explanation": "善光寺は白ブドウ品種です。"
+  },
+  {
+    "id": "japan-overview-042",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、ワイン用ブドウの生産数量が第1位の都道府県を選択してください。",
+    "choices": [
+      "長野県",
+      "宮崎県",
+      "岡山県",
+      "山梨県"
+    ],
+    "answerIndex": 3,
+    "explanation": "ワイン用ブドウの生産数量第1位は山梨県です。"
+  },
+  {
+    "id": "japan-overview-043",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中からパリ万博の前年、山梨県祝村からブドウ栽培の研修のため渡仏した人物を選択してください。",
+    "choices": [
+      "雨宮勘解由",
+      "山田宥教",
+      "神谷伝兵衛",
+      "土屋助次郎"
+    ],
+    "answerIndex": 3,
+    "explanation": "パリ万博の前年、ブドウ栽培研修のため渡仏した人物は土屋助次郎です。"
+  },
+  {
+    "id": "japan-overview-044",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本の酒類の地理的表示制度において、2021年末時点で指定されていない名称を選択してください。",
+    "choices": [
+      "長野",
+      "萩",
+      "勝沼",
+      "佐賀"
+    ],
+    "answerIndex": 2,
+    "explanation": "2021年末時点の酒類の地理的表示制度では、勝沼は指定名称ではありません。"
+  },
+  {
+    "id": "japan-overview-045",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から甲州ブドウの発祥として伝わっている伝説の一つを選択してください。",
+    "choices": [
+      "雨宮勘解由説",
+      "善光寺説",
+      "土屋竜憲説",
+      "川上善兵衛説"
+    ],
+    "answerIndex": 0,
+    "explanation": "甲州ブドウの発祥伝説の一つに雨宮勘解由説があります。"
+  },
+  {
+    "id": "japan-overview-046",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "日本で次のような造り方を行った場合に表示できる用語を選択してください。「人為的にブドウを冷凍し、凍結したブドウを圧搾して糖度の高い果汁を得る」",
+    "choices": [
+      "氷菓ワイン",
+      "クリオエキストラクシオン",
+      "貴腐ワイン",
+      "冷凍果汁仕込"
+    ],
+    "answerIndex": 1,
+    "explanation": "人為的にブドウを冷凍して圧搾する方法は、クリオエキストラクシオンと表示できます。"
+  },
+  {
+    "id": "japan-overview-047",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で「冷凍果汁仕込」という用語の意味を選択してください。",
+    "choices": [
+      "人為的にブドウ果汁を冷凍し、冷凍により生じた氷を除去して糖度の高い果汁を得る",
+      "ほとんどが氷結ないし凍結したブドウを使用し、採果解凍前に搾汁した果汁を使用",
+      "人為的にブドウを冷凍し、凍結したブドウを圧搾して糖度の高い果汁を得る",
+      "ほとんどが貴腐化されたブドウを使用し、それを圧搾して糖度の高い果汁を得る"
+    ],
+    "answerIndex": 0,
+    "explanation": "冷凍果汁仕込は、人為的にブドウ果汁を冷凍し、氷を除去して糖度の高い果汁を得る方法です。"
+  },
+  {
+    "id": "japan-overview-048",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から後にマスカット・ベーリーAと名付けられる品種が初めて結実した年を選択してください。",
+    "choices": [
+      "1931年",
+      "1876年",
+      "1904年",
+      "1804年"
+    ],
+    "answerIndex": 0,
+    "explanation": "後にマスカット・ベーリーAと名付けられる品種が初めて結実したのは1931年です。"
+  },
+  {
+    "id": "japan-overview-049",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本でワイン原料用受入数量が第1位の品種を選択してください。",
+    "choices": [
+      "コンコード",
+      "マスカット・ベーリーA",
+      "巨峰",
+      "甲州"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本でワイン原料用受入数量が第1位の品種は甲州です。"
+  },
+  {
+    "id": "japan-overview-050",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "日本ワインのラベル表示例で「東京産ブドウ使用」という表ラベル表示の意味を選択してください。",
+    "choices": [
+      "東京都で収穫したブドウを85%以上使用して、東京都で醸造したワイン",
+      "東京都で収穫したブドウを85%以上使用したワイン",
+      "東京都以外で収穫したブドウを使用して、東京都で醸造したワイン",
+      "東京都で収穫したブドウを使用して、東京都以外で醸造したワイン"
+    ],
+    "answerIndex": 1,
+    "explanation": "「東京産ブドウ使用」は、東京都で収穫したブドウを85%以上使用したワインを示します。"
+  },
+  {
+    "id": "japan-overview-051",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で輸入ワインの消費量が国産ワインの消費量を上回った年を選択してください。",
+    "choices": [
+      "1994年",
+      "1973年",
+      "1975年",
+      "2015年"
+    ],
+    "answerIndex": 0,
+    "explanation": "日本で輸入ワインの消費量が国産ワインの消費量を上回ったのは1994年です。"
+  },
+  {
+    "id": "japan-overview-052",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で、2024年発表のデータによる日本ワインの生産量が第2位の都道府県を選択してください。",
+    "choices": [
+      "宮崎県",
+      "岡山県",
+      "北海道",
+      "山形県"
+    ],
+    "answerIndex": 2,
+    "explanation": "2024年発表データによる日本ワイン生産量第2位は北海道です。"
+  },
+  {
+    "id": "japan-overview-053",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本で栽培されている品種「甲斐ノワール」の交配を選択してください。",
+    "choices": [
+      "ブラック・クイーン × カベルネ・ソーヴィニョン",
+      "甲州 × ピノ・ノワール",
+      "甲州 × カベルネ・ソーヴィニョン",
+      "ブラック・クイーン × ピノ・ノワール"
+    ],
+    "answerIndex": 0,
+    "explanation": "甲斐ノワールはブラック・クイーンとカベルネ・ソーヴィニョンの交配品種です。"
+  },
+  {
+    "id": "japan-overview-054",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本のぶどう酒の地理的表示制度において、2021年末時点で指定されている名称を選択してください。",
+    "choices": [
+      "長野",
+      "勝沼",
+      "岩手",
+      "宮崎"
+    ],
+    "answerIndex": 0,
+    "explanation": "2021年末時点で指定されているぶどう酒の地理的表示には長野が含まれます。"
+  },
+  {
+    "id": "japan-overview-055",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から日本のワイン用ブドウ栽培北限と南限の緯度の差を選択してください。",
+    "choices": [
+      "約9度",
+      "約18度",
+      "約22度",
+      "約6度"
+    ],
+    "answerIndex": 1,
+    "explanation": "日本のワイン用ブドウ栽培北限と南限の緯度差は約18度です。"
+  },
+  {
+    "id": "japan-overview-056",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "ある日本ワインが「山梨県で収穫したブドウを使用して、東京都で醸造したワイン」である場合、どのような表ラベル表示が適切であるか選択してください。",
+    "choices": [
+      "東京醸造ワイン",
+      "東京ワイン",
+      "東京産ブドウ使用",
+      "山梨醸造ワイン"
+    ],
+    "answerIndex": 0,
+    "explanation": "山梨県産ブドウを使用し東京都で醸造した場合は、「東京醸造ワイン」と表示できます。"
+  },
+  {
+    "id": "japan-overview-057",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の中から薬用甘味ブドウ酒の香竄葡萄酒を開発し大きな成功をもたらした人物を選択してください。",
+    "choices": [
+      "山田宥教",
+      "神谷伝兵衛",
+      "高野正誠",
+      "川上善兵衛"
+    ],
+    "answerIndex": 1,
+    "explanation": "香竄葡萄酒を開発し成功をもたらした人物は神谷伝兵衛です。"
+  },
+  {
+    "id": "japan-overview-058",
+    "category": "日本/概論・歴史・ワイン法・品種",
+    "importance": "A",
+    "question": "次の説明に最も良く合致する日本で栽培されているブドウ品種を選んでください。\n「1973年にドイツから苗木を導入。大半が北海道で栽培され北海道を代表する白ブドウ品種。白用品種では第5位の生産数量である。」",
+    "choices": [
+      "ミュラー・トゥルガウ",
+      "ツヴァイゲルト",
+      "リースリング",
+      "ケルナー"
+    ],
+    "answerIndex": 3,
+    "explanation": "この説明に合致する品種はケルナーです。"
+  },
+  {
     "id": "france-general-001",
     "category": "フランス概論",
     "importance": "A",
@@ -11420,6 +12232,174 @@ window.WINE_QUESTIONS = [
     "explanation": "ラングドック・ルーション地方のAOC赤ワインの生産比率は58%です。"
   },
   {
+    "id": "france-languedoc-roussillon-021",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤のスティルワインのみが認められているものを選択してください。",
+    "choices": [
+      "Muscat de Saint-Jean-de-Minervois",
+      "Saint-Chinian",
+      "Côtes du Roussillon Les Aspres",
+      "Faugères"
+    ],
+    "answerIndex": 2,
+    "explanation": "Côtes du Roussillon Les Aspresは赤のスティルワインのみが認められています。"
+  },
+  {
+    "id": "france-languedoc-roussillon-022",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック・ルーション地方に吹く乾いた冷たい風の名前を選択してください。",
+    "choices": [
+      "ミストラル",
+      "トラモンタン",
+      "ソンダ",
+      "オタン"
+    ],
+    "answerIndex": 1,
+    "explanation": "ラングドック・ルーション地方に吹く乾いた冷たい風はトラモンタンです。"
+  },
+  {
+    "id": "france-languedoc-roussillon-023",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
+    "choices": [
+      "Muscat de Mireval",
+      "Muscat de Rivesaltes",
+      "La Clape",
+      "Limoux"
+    ],
+    "answerIndex": 1,
+    "explanation": "Muscat de Rivesaltesはルーション地方のAOCです。"
+  },
+  {
+    "id": "france-languedoc-roussillon-024",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック・ルーション地方の2023年の全ブドウ栽培面積に最も近いものを選択してください。",
+    "choices": [
+      "5.8万ヘクタール",
+      "19万ヘクタール",
+      "2.5万ヘクタール",
+      "9.2万ヘクタール"
+    ],
+    "answerIndex": 1,
+    "explanation": "ラングドック・ルーション地方の2023年の全ブドウ栽培面積は約19万ヘクタールです。"
+  },
+  {
+    "id": "france-languedoc-roussillon-025",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインLimoux Blanquette de Limouxの製法を選択してください。",
+    "choices": [
+      "Méthode rurale",
+      "Méthode charmat",
+      "Méthode de transfert",
+      "Méthode traditionnelle"
+    ],
+    "answerIndex": 3,
+    "explanation": "Limoux Blanquette de Limouxは伝統方式で造られます。"
+  },
+  {
+    "id": "france-languedoc-roussillon-026",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤のスティルワインのみが認められているものを選択してください。",
+    "choices": [
+      "Malepère",
+      "Crémant de Limoux",
+      "Collioure",
+      "Saint-Chinian Berlou"
+    ],
+    "answerIndex": 3,
+    "explanation": "Saint-Chinian Berlouは赤のスティルワインのみが認められています。"
+  },
+  {
+    "id": "france-languedoc-roussillon-027",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインCrémant de Limouxの主たる品種を選択してください。",
+    "choices": [
+      "シャルドネ",
+      "モーザック",
+      "シュナン・ブラン",
+      "クレレット"
+    ],
+    "answerIndex": 0,
+    "explanation": "Crémant de Limouxの主たる品種はシャルドネです。"
+  },
+  {
+    "id": "france-languedoc-roussillon-028",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック地方のAOC Languedocの主要品種ではないものを選択してください。",
+    "choices": [
+      "シラー",
+      "カベルネ・ソーヴィニョン",
+      "グルナッシュ",
+      "ムールヴェードル"
+    ],
+    "answerIndex": 1,
+    "explanation": "AOC Languedocの主要品種にはカベルネ・ソーヴィニョンは含まれません。"
+  },
+  {
+    "id": "france-languedoc-roussillon-029",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次の中からフランス、ラングドック・ルーション地方のワイン生産量の中でIGPワインが占める割合を選択してください。",
+    "choices": [
+      "約50%",
+      "10%以下",
+      "約30%",
+      "70%以上"
+    ],
+    "answerIndex": 3,
+    "explanation": "ラングドック・ルーション地方ではワイン生産量の70%以上をIGPワインが占めます。"
+  },
+  {
+    "id": "france-languedoc-roussillon-030",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤とロゼワインの生産が認められていて2007年に新しくAOC認定されたものを選択してください。",
+    "choices": [
+      "Saint-Chinian Roquebrun",
+      "Rivesaltes",
+      "Banyuls Grand Cru",
+      "Malepère"
+    ],
+    "answerIndex": 3,
+    "explanation": "Malepèreは赤とロゼが認められ、2007年にAOC認定されました。"
+  },
+  {
+    "id": "france-languedoc-roussillon-031",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
+    "choices": [
+      "Muscat de Lunel",
+      "Pic-Saint-Loup",
+      "Minervois",
+      "Banyuls Grand Cru"
+    ],
+    "answerIndex": 3,
+    "explanation": "Banyuls Grand Cruはルーション地方のAOCです。"
+  },
+  {
+    "id": "france-languedoc-roussillon-032",
+    "category": "フランス/ラングドック・ルーション",
+    "importance": "A",
+    "question": "以下の説明に合致するフランス、ラングドック・ルーション地方の都市を選択してください。「1997年、ユネスコの世界遺産に登録された。」",
+    "choices": [
+      "ペルピニャン",
+      "カルカッソンヌ",
+      "アヴィニョン",
+      "ニーム"
+    ],
+    "answerIndex": 1,
+    "explanation": "カルカッソンヌは1997年にユネスコの世界遺産に登録されました。"
+  },
+  {
     "id": "france-sud-ouest-001",
     "category": "フランス/シュッド・ウエスト",
     "importance": "A",
@@ -11642,6 +12622,789 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "Saint-Sardosはガロンヌ川流域のAOCです。"
+  },
+  {
+    "id": "france-loire-001",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインCôte Roannaiseが生産されている地区を選択してください。",
+    "choices": [
+      "Pays Nantais",
+      "Centre Loire",
+      "Anjou & Saumur",
+      "Massif Central"
+    ],
+    "answerIndex": 3,
+    "explanation": "Côte RoannaiseはMassif Central地区のAOCです。"
+  },
+  {
+    "id": "france-loire-002",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のワイン産地をロワール川上流から下流の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Massif Central, Centre Loire, Anjou & Saumur, Touraine",
+      "Anjou & Saumur, Massif Central, Pays Nantais, Centre Loire",
+      "Centre Loire, Massif Central, Pays Nantais, Anjou & Saumur",
+      "Massif Central, Centre Loire, Anjou & Saumur, Pays Nantais"
+    ],
+    "answerIndex": 3,
+    "explanation": "ロワール川上流から下流へは、Massif Central、Centre Loire、Anjou & Saumur、Pays Nantaisの順です。"
+  },
+  {
+    "id": "france-loire-003",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Pineau d'Aunisを主要品種とするものを選択してください。",
+    "choices": [
+      "Coteaux du Vendômois",
+      "Cour-Cheverny",
+      "Quarts de Chaume",
+      "Orléans"
+    ],
+    "answerIndex": 0,
+    "explanation": "Coteaux du VendômoisではPineau d'Aunisが主要品種として使われます。"
+  },
+  {
+    "id": "france-loire-004",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でReuillyに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/loire-centre-map.jpg",
+      "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
+      "caption": "サントル・ロワール地区"
+    },
+    "choices": [
+      "3番",
+      "5番",
+      "6番",
+      "4番"
+    ],
+    "answerIndex": 2,
+    "explanation": "地図上でReuillyは6番です。"
+  },
+  {
+    "id": "france-loire-005",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
+    "choices": [
+      "Savennières",
+      "Vouvray",
+      "Bourgueil",
+      "Menetou-Salon"
+    ],
+    "answerIndex": 3,
+    "explanation": "Menetou-Salonはロワール川左岸に位置するAOCです。"
+  },
+  {
+    "id": "france-loire-006",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Pouilly Fumé",
+      "Côtes du Forez",
+      "Reuilly",
+      "Chinon"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pouilly Fuméは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-007",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、貴腐または過熟による甘口白ワインを生産しているものを選択してください。",
+    "choices": [
+      "Touraine Azay-le-Rideau",
+      "Menetou-Salon",
+      "Coteaux du Layon",
+      "Pouilly sur Loire"
+    ],
+    "answerIndex": 2,
+    "explanation": "Coteaux du Layonでは貴腐または過熟による甘口白ワインが造られます。"
+  },
+  {
+    "id": "france-loire-008",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインJasnièresの主たる品種を選択してください。品種は別名で表示されていることもあります。",
+    "choices": [
+      "シャルドネ",
+      "グロロー",
+      "ピノー・ド・ラ・ロワール",
+      "ムロン・ダルボワ"
+    ],
+    "answerIndex": 2,
+    "explanation": "Jasnièresの主たる品種はシュナン・ブランで、ピノー・ド・ラ・ロワールとも呼ばれます。"
+  },
+  {
+    "id": "france-loire-009",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Montlouis-sur-Loire-pétillant",
+      "Anjou Coteaux de la Loire",
+      "Anjou Villages",
+      "Saint-Nicolas-de-Bourgueil"
+    ],
+    "answerIndex": 2,
+    "explanation": "Anjou Villagesは赤ワインだけが認められているAOCです。"
+  },
+  {
+    "id": "france-loire-010",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインの産地を、ロワール川上流から下流の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Bourgueil, Pouilly Fumé, Muscadet-Côtes de Grandlieu, Côte Roannaise",
+      "Vouvray, Bonnezeaux, Côte Roannaise, Muscadet-Côtes de Grandlieu",
+      "Muscadet-Côtes de Grandlieu, Côte Roannaise, Bonnezeaux, Bourgueil",
+      "Pouilly Fumé, Vouvray, Bourgueil, Muscadet-Côtes de Grandlieu"
+    ],
+    "answerIndex": 3,
+    "explanation": "上流から下流へは、Pouilly Fumé、Vouvray、Bourgueil、Muscadet-Côtes de Grandlieuの順です。"
+  },
+  {
+    "id": "france-loire-011",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Coteaux de Saumur",
+      "Touraine Mesland",
+      "Quarts de Chaume",
+      "Muscadet-Coteaux de la Loire"
+    ],
+    "answerIndex": 1,
+    "explanation": "Touraine Meslandでは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "france-loire-012",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上で3番の産地名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/loire-centre-map.jpg",
+      "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
+      "caption": "サントル・ロワール地区"
+    },
+    "answerText": "サンセール",
+    "explanation": "地図上の3番はSancerre、カタカナではサンセールです。"
+  },
+  {
+    "id": "france-loire-013",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Folle Blancheを主要品種とするものを選択してください。",
+    "choices": [
+      "Quarts de Chaume",
+      "Cour-Cheverny",
+      "Gros Plant du Pays Nantais",
+      "Pouilly Fumé"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gros Plant du Pays NantaisはFolle Blancheを主要品種とします。"
+  },
+  {
+    "id": "france-loire-014",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のワイン産地をロワール川上流から下流の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Massif Central, Centre Loire, Pays Nantais, Touraine",
+      "Centre Loire, Touraine, Anjou & Saumur, Pays Nantais",
+      "Centre Loire, Pays Nantais, Anjou & Saumur, Massif Central",
+      "Anjou & Saumur, Centre Loire, Touraine, Massif Central"
+    ],
+    "answerIndex": 1,
+    "explanation": "上流から下流へは、Centre Loire、Touraine、Anjou & Saumur、Pays Nantaisの順です。"
+  },
+  {
+    "id": "france-loire-015",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方ペイ・ナンテ地区のAOCワインの中から生産量が最も少ないものを選択してください。",
+    "choices": [
+      "Muscadet-Côtes de Grandlieu",
+      "Muscadet",
+      "Muscadet-Coteaux de la Loire",
+      "Muscadet-de Sèvre et Maine"
+    ],
+    "answerIndex": 2,
+    "explanation": "選択肢の中ではMuscadet-Coteaux de la Loireの生産量が最も少ないものです。"
+  },
+  {
+    "id": "france-loire-016",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Sancerre",
+      "Côtes d'Auvergne",
+      "Cour-Cheverny",
+      "Coteaux du Loir"
+    ],
+    "answerIndex": 2,
+    "explanation": "Cour-Chevernyは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-017",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、ロワール川右岸のAOCを選択してください。",
+    "choices": [
+      "Sancerre",
+      "Savennières",
+      "Coteaux du Layon",
+      "Menetou-Salon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Savennièresはロワール川右岸に位置するAOCです。"
+  },
+  {
+    "id": "france-loire-018",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインCôte Roannaiseの主たる品種を選択してください。品種は別名で表示されていることもあります。",
+    "choices": [
+      "ブルトン",
+      "グロロー",
+      "ガメイ",
+      "ピノー・ド・ラ・ロワール"
+    ],
+    "answerIndex": 2,
+    "explanation": "Côte Roannaiseの主たる品種はガメイです。"
+  },
+  {
+    "id": "france-loire-019",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Orléans-Cléry",
+      "Touraine Noble-Joué",
+      "Muscadet",
+      "Touraine Mousseux"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orléans-Cléryは赤ワインだけが認められています。"
+  },
+  {
+    "id": "france-loire-020",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインの産地を、ロワール川上流から下流の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Côtes du Forez, Sancerre, Saumur Champigny, Savennières",
+      "Savennières, Montlouis-sur-Loire, Chinon, Côtes du Forez",
+      "Savennières, Sancerre, Côtes du Forez, Saumur Champigny",
+      "Côtes du Forez, Sancerre, Savennières, Chinon"
+    ],
+    "answerIndex": 0,
+    "explanation": "上流から下流へは、Côtes du Forez、Sancerre、Saumur Champigny、Savennièresの順です。"
+  },
+  {
+    "id": "france-loire-021",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Pineau d'Aunisを主要品種とするものを選択してください。",
+    "choices": [
+      "Jasnières",
+      "Cour-Cheverny",
+      "Coteaux du Loir",
+      "Cheverny"
+    ],
+    "answerIndex": 2,
+    "explanation": "Coteaux du LoirではPineau d'Aunisが主要品種として使われます。"
+  },
+  {
+    "id": "france-loire-022",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインの産地を、ロワール川上流から下流の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Pouilly Fumé, Muscadet-Côtes de Grandlieu, Côte Roannaise, Vouvray",
+      "Côte Roannaise, Pouilly Fumé, Vouvray, Muscadet-Côtes de Grandlieu",
+      "Bourgueil, Côte Roannaise, Pouilly Fumé, Vouvray",
+      "Bourgueil, Côte Roannaise, Bonnezeaux, Pouilly Fumé"
+    ],
+    "answerIndex": 1,
+    "explanation": "上流から下流へは、Côte Roannaise、Pouilly Fumé、Vouvray、Muscadet-Côtes de Grandlieuの順です。"
+  },
+  {
+    "id": "france-loire-023",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインSavennièresが生産されている地区を選択してください。",
+    "choices": [
+      "Massif Central",
+      "Anjou & Saumur",
+      "Centre Loire",
+      "Pays Nantais"
+    ],
+    "answerIndex": 1,
+    "explanation": "SavennièresはAnjou & Saumur地区のAOCです。"
+  },
+  {
+    "id": "france-loire-024",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から半甘口のロゼワインだけが認められているものを選択してください。",
+    "choices": [
+      "Rosé d'Anjou",
+      "Coteaux de l'Aubance",
+      "Sancerre",
+      "Menetou-Salon"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rosé d'Anjouは半甘口のロゼワインだけが認められています。"
+  },
+  {
+    "id": "france-loire-025",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Coteaux du Loir",
+      "Saumur Mousseux",
+      "Touraine Azay-le-Rideau",
+      "Muscadet-Côtes de Grandlieu"
+    ],
+    "answerIndex": 3,
+    "explanation": "Muscadet-Côtes de Grandlieuは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-026",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、貴腐または過熟による甘口白ワインを生産しているものを選択してください。",
+    "choices": [
+      "Saumur",
+      "Cour-Cheverny",
+      "Touraine Amboise",
+      "Bonnezeaux"
+    ],
+    "answerIndex": 3,
+    "explanation": "Bonnezeauxでは貴腐または過熟による甘口白ワインが造られます。"
+  },
+  {
+    "id": "france-loire-027",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の特徴に合致するフランス、ロワール川中流域の城郭を選択してください。「ルイ12世が居城とし、宗教戦争時にギーズ公アンリが暗殺された城。」",
+    "choices": [
+      "シャンボール城",
+      "シュノンソー城",
+      "ブロワ城",
+      "アンボワーズ城"
+    ],
+    "answerIndex": 2,
+    "explanation": "説明に合致する城はブロワ城です。"
+  },
+  {
+    "id": "france-loire-028",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインBourgueilの主たる品種を選択してください。品種は別名で表示されていることもあります。",
+    "choices": [
+      "グートエーデル",
+      "ブルトン",
+      "ガメイ",
+      "シャルドネ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bourgueilの主たる品種はカベルネ・フランで、ブルトンとも呼ばれます。"
+  },
+  {
+    "id": "france-loire-029",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
+    "choices": [
+      "Coulée-de-Serrant",
+      "Chinon",
+      "Savennières",
+      "Vouvray"
+    ],
+    "answerIndex": 1,
+    "explanation": "Chinonはロワール川左岸に位置するAOCです。"
+  },
+  {
+    "id": "france-loire-030",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、白ワインを辛口から甘口まで造ることが認められているものを選択してください。",
+    "choices": [
+      "Coulée-de-Serrant",
+      "Touraine Amboise",
+      "Chinon",
+      "Montlouis-sur-Loire-mousseux"
+    ],
+    "answerIndex": 0,
+    "explanation": "Coulée-de-Serrantでは白ワインを辛口から甘口まで造ることが認められています。"
+  },
+  {
+    "id": "france-loire-031",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインOrléans-Cléryの主たる品種を選択してください。品種は別名で表示されていることもあります。",
+    "choices": [
+      "ブルトン",
+      "シュペートブルグンダー",
+      "グートエーデル",
+      "グロロー"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orléans-Cléryの主たる品種はカベルネ・フランで、ブルトンとも呼ばれます。"
+  },
+  {
+    "id": "france-loire-032",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、プイィ・フュメ西部に見られるキンメリジャンの粘土石灰質を選択してください。",
+    "choices": [
+      "カイヨット",
+      "テール・ブランシュ",
+      "シレックス",
+      "トゥファ"
+    ],
+    "answerIndex": 1,
+    "explanation": "プイィ・フュメ西部に見られるキンメリジャンの粘土石灰質はテール・ブランシュです。"
+  },
+  {
+    "id": "france-loire-033",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Saint-Pourçain",
+      "Muscadet",
+      "Saumur Mousseux",
+      "Rosé de Loire"
+    ],
+    "answerIndex": 1,
+    "explanation": "Muscadetは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-034",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Chasselasを主要品種とするものを選択してください。",
+    "choices": [
+      "Cheverny",
+      "Gros Plant du Pays Nantais",
+      "Coteaux du Loir",
+      "Pouilly sur Loire"
+    ],
+    "answerIndex": 3,
+    "explanation": "Pouilly sur LoireはChasselasを主要品種とします。"
+  },
+  {
+    "id": "france-loire-035",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、ロゼワインだけが認められているものを選択してください。",
+    "choices": [
+      "Touraine",
+      "Rosé d'Anjou",
+      "Valençay",
+      "Coteaux du Loir"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rosé d'Anjouはロゼワインだけが認められています。"
+  },
+  {
+    "id": "france-loire-036",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方ペイ・ナンテ地区の主な気候を選択してください。",
+    "choices": [
+      "海洋性気候",
+      "半大陸性気候",
+      "大陸性気候",
+      "地中海性気候"
+    ],
+    "answerIndex": 0,
+    "explanation": "ペイ・ナンテ地区の主な気候は海洋性気候です。"
+  },
+  {
+    "id": "france-loire-037",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
+    "choices": [
+      "Cheverny",
+      "Coulée-de-Serrant",
+      "Pouilly Fumé",
+      "Savennières"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chevernyはロワール川左岸に位置するAOCです。"
+  },
+  {
+    "id": "france-loire-038",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Orléans",
+      "Savennières",
+      "Orléans-Cléry",
+      "Coteaux de l'Aubance"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orléansでは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "france-loire-039",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でPouilly-Fuméに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/loire-centre-map.jpg",
+      "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
+      "caption": "サントル・ロワール地区"
+    },
+    "choices": [
+      "2番",
+      "5番",
+      "4番",
+      "6番"
+    ],
+    "answerIndex": 0,
+    "explanation": "地図上でPouilly-Fuméは2番です。"
+  },
+  {
+    "id": "france-loire-040",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Anjou Mousseux",
+      "Côtes du Forez",
+      "Valençay",
+      "Quincy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Quincyは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-041",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、白ワインを辛口から甘口まで造ることが認められているものを選択してください。",
+    "choices": [
+      "Valençay",
+      "Pouilly Fumé",
+      "Coteaux du Giennois",
+      "Montlouis-sur-Loire"
+    ],
+    "answerIndex": 3,
+    "explanation": "Montlouis-sur-Loireでは白ワインを辛口から甘口まで造ることが認められています。"
+  },
+  {
+    "id": "france-loire-042",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方、プイィ・フュメ西部に見られる火打ち石を選択してください。",
+    "choices": [
+      "クラス・ド・フェール",
+      "カイヨット",
+      "トゥファ",
+      "シレックス"
+    ],
+    "answerIndex": 3,
+    "explanation": "火打ち石はシレックスです。"
+  },
+  {
+    "id": "france-loire-043",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上で2番の産地名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/loire-centre-map.jpg",
+      "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
+      "caption": "サントル・ロワール地区"
+    },
+    "answerText": "プイィ・フュメ",
+    "answerTextAliases": [
+      "プイィフュメ",
+      "プイィ・フュメー",
+      "プイィフュメー"
+    ],
+    "explanation": "地図上の2番はPouilly-Fumé、カタカナではプイィ・フュメです。"
+  },
+  {
+    "id": "france-loire-044",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方アンジュ地区の主な気候を選択してください。",
+    "choices": [
+      "海洋性気候",
+      "大陸性気候",
+      "地中海性気候",
+      "半大陸性気候"
+    ],
+    "answerIndex": 0,
+    "explanation": "アンジュ地区の主な気候は海洋性気候です。"
+  },
+  {
+    "id": "france-loire-045",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインCoteaux du Vendômoisが生産されている地区を選択してください。",
+    "choices": [
+      "Pays Nantais",
+      "Anjou & Saumur",
+      "Touraine",
+      "Centre Loire"
+    ],
+    "answerIndex": 2,
+    "explanation": "Coteaux du VendômoisはTouraine地区のAOCです。"
+  },
+  {
+    "id": "france-loire-046",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール渓谷地方のAOCワインMontlouis-sur-Loireの主たる品種を選択してください。品種は別名で表示されていることもあります。",
+    "choices": [
+      "グートエーデル",
+      "スティーン",
+      "ムロン・ド・ブルゴーニュ",
+      "ムロン・ダルボワ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Montlouis-sur-Loireの主たる品種はシュナン・ブランで、スティーンとも呼ばれます。"
+  },
+  {
+    "id": "france-loire-047",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、貴腐または過熟による甘口白ワインを生産しているものを選択してください。",
+    "choices": [
+      "Menetou-Salon",
+      "Orléans",
+      "Cour-Cheverny",
+      "Quarts de Chaume"
+    ],
+    "answerIndex": 3,
+    "explanation": "Quarts de Chaumeでは貴腐または過熟による甘口白ワインが造られます。"
+  },
+  {
+    "id": "france-loire-048",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Saumur Mousseux",
+      "Gros Plant du Pays Nantais",
+      "Cabernet d'Anjou",
+      "Orléans-Cléry"
+    ],
+    "answerIndex": 1,
+    "explanation": "Gros Plant du Pays Nantaisは白ワインのみが認められています。"
+  },
+  {
+    "id": "france-loire-049",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次の特徴に合致するフランス、ロワール川中流域の城郭を選択してください。「フランソワ1世が建てたフレンチ・ルネッサンスを代表する壮大な城。」",
+    "choices": [
+      "シャンボール城",
+      "ブロワ城",
+      "シュノンソー城",
+      "アンボワーズ城"
+    ],
+    "answerIndex": 0,
+    "explanation": "説明に合致する城はシャンボール城です。"
+  },
+  {
+    "id": "france-loire-050",
+    "category": "フランス/ロワール渓谷地方",
+    "importance": "A",
+    "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Côtes d'Auvergne",
+      "Touraine Noble-Joué",
+      "Muscadet-Coteaux de la Loire",
+      "Bourgueil"
+    ],
+    "answerIndex": 0,
+    "explanation": "Côtes d'Auvergneでは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "vdn-vdl-nouveau-001",
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、ジュラ地方のVin de Liqueurを選択してください。",
+    "choices": [
+      "Grand Roussillon",
+      "Rasteau",
+      "Pineau des Charentes",
+      "Macvin du Jura"
+    ],
+    "answerIndex": 3,
+    "explanation": "ジュラ地方のVin de LiqueurはMacvin du Juraです。"
+  },
+  {
+    "id": "vdn-vdl-nouveau-002",
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Rasteauの生産可能色を選択してください。",
+    "choices": [
+      "赤・白",
+      "赤・ロゼ・白",
+      "赤のみ",
+      "赤・ロゼ"
+    ],
+    "answerIndex": 1,
+    "explanation": "RasteauのVDNは赤・ロゼ・白が認められています。"
+  },
+  {
+    "id": "vdn-vdl-nouveau-003",
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Ventoux",
+      "Mâcon",
+      "Rosé d’Anjou",
+      "Chiroubles"
+    ],
+    "answerIndex": 3,
+    "explanation": "ChiroublesはVin de Primeurの販売が認められていないAOCです。"
+  },
+  {
+    "id": "vdn-vdl-nouveau-004",
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で赤・ロゼワインのみが認められているものを選択してください。",
+    "choices": [
+      "Côtes du Roussillon",
+      "Beaujolais Villages",
+      "Coteaux du Lyonnais",
+      "Muscadet"
+    ],
+    "answerIndex": 1,
+    "explanation": "Beaujolais VillagesのVin de Primeurは赤・ロゼワインのみが認められています。"
+  },
+  {
+    "id": "vdn-vdl-nouveau-005",
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVin Doux Naturelを選択してください。",
+    "choices": [
+      "Floc de Gascogne",
+      "Muscat du Cap Corse",
+      "Pineau des Charentes",
+      "Macvin du Jura"
+    ],
+    "answerIndex": 1,
+    "explanation": "Muscat du Cap CorseはVin Doux Naturelです。"
   },
   {
     "id": "italy-overview-law-001",
@@ -20284,5 +22047,389 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "Niagara-on-the-LakeはNiagara Peninsulaに属します。"
+  },
+  {
+    "id": "australia-001",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の記述に最も良く適合するオーストラリアのワイン産地を選択してください。\n「1877年、オーストラリアで最初にフィロキセラが発見された。」",
+    "choices": [
+      "Geelong",
+      "McLaren Vale",
+      "Swan Hill",
+      "Limestone Coast"
+    ],
+    "answerIndex": 0,
+    "explanation": "オーストラリアで最初にフィロキセラが発見された産地はGeelongです。"
+  },
+  {
+    "id": "australia-002",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアのMornington Peninsulaにおいて、2017年からMPVAの運営により行われている品評会を選択してください。",
+    "choices": [
+      "International Wine Celebration",
+      "Jimmy Watson Trophy",
+      "Australian Wine Challenge",
+      "Australian Pinot Noir Challenge"
+    ],
+    "answerIndex": 3,
+    "explanation": "Mornington PeninsulaではAustralian Pinot Noir Challengeが行われています。"
+  },
+  {
+    "id": "australia-003",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリア、南オーストラリア州に属する産地を選択してください。",
+    "choices": [
+      "Clare Valley",
+      "Tamar Valley",
+      "Mornington Peninsula",
+      "Margaret River"
+    ],
+    "answerIndex": 0,
+    "explanation": "Clare Valleyは南オーストラリア州に属します。"
+  },
+  {
+    "id": "australia-004",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアで2024年のワイン用ブドウ破砕量が第3位の州を選択してください。",
+    "choices": [
+      "ヴィクトリア州",
+      "ニュー・サウス・ウェールズ州",
+      "南オーストラリア州",
+      "タスマニア州"
+    ],
+    "answerIndex": 0,
+    "explanation": "2024年のワイン用ブドウ破砕量第3位はヴィクトリア州です。"
+  },
+  {
+    "id": "australia-005",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアのワイン産業の起源と言える州を選択してください。",
+    "choices": [
+      "南オーストラリア州",
+      "ニュー・サウス・ウェールズ州",
+      "西オーストラリア州",
+      "ヴィクトリア州"
+    ],
+    "answerIndex": 1,
+    "explanation": "オーストラリアのワイン産業の起源と言える州はニュー・サウス・ウェールズ州です。"
+  },
+  {
+    "id": "australia-006",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次のオーストラリアの産地の中から地中海性気候のところを選択してください。",
+    "choices": [
+      "Coonawarra",
+      "Geelong",
+      "Margaret River",
+      "Padthaway"
+    ],
+    "answerIndex": 2,
+    "explanation": "Margaret Riverは地中海性気候の産地です。"
+  },
+  {
+    "id": "australia-007",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアの酒精強化ワイン、Topaqueの中で最も芳醇で最高峰とされる20年以上熟成のものを選択してください。",
+    "choices": [
+      "レア",
+      "トウニー",
+      "ドライ",
+      "ルビー"
+    ],
+    "answerIndex": 0,
+    "explanation": "20年以上熟成の最高峰とされるTopaqueはレアです。"
+  },
+  {
+    "id": "australia-008",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上で7番のGI名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/australia-south-australia-map.jpg",
+      "alt": "南オーストラリア州のワイン産地の地図",
+      "caption": "南オーストラリア州 ワイン産地"
+    },
+    "answerText": "ライムストーン・コースト",
+    "answerTextAliases": [
+      "ライムストーンコースト"
+    ],
+    "explanation": "地図上の7番はLimestone Coast、カタカナではライムストーン・コーストです。"
+  },
+  {
+    "id": "australia-009",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "オーストラリアのブドウ品種の表示では「5種類以下のブドウ品種を使用し、各品種が（A）含まれている場合は、この品種すべてを表示する。」と規定されているが、このとき（A）に入るべき文言を選択してください。",
+    "choices": [
+      "5%以上",
+      "15%以上",
+      "10%以上",
+      "20%以上"
+    ],
+    "answerIndex": 0,
+    "explanation": "5種類以下のブドウ品種を表示する場合、各品種が5%以上含まれる必要があります。"
+  },
+  {
+    "id": "australia-010",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアのワイン産地を西から東の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Yarra Valley, Coonawarra, Adelaide Hills, Hunter",
+      "Hunter, Coonawarra, Adelaide Hills, Great Southern",
+      "Margaret River, Great Southern, Yarra Valley, Hunter",
+      "Margaret River, Hunter, Adelaide Hills, Great Southern"
+    ],
+    "answerIndex": 2,
+    "explanation": "西から東へ、Margaret River、Great Southern、Yarra Valley、Hunterの順です。"
+  },
+  {
+    "id": "australia-011",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリア、南オーストラリア州、Eden Valleyの標高を選択してください。",
+    "choices": [
+      "219〜632m",
+      "595〜852m",
+      "400〜550m",
+      "112〜596m"
+    ],
+    "answerIndex": 0,
+    "explanation": "Eden Valleyの標高は219〜632mです。"
+  },
+  {
+    "id": "australia-012",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリア、タスマニア州に属する産地を選択してください。",
+    "choices": [
+      "Tamar Valley",
+      "McLaren Vale",
+      "Peel",
+      "Tumbarumba"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tamar Valleyはタスマニア州に属します。"
+  },
+  {
+    "id": "australia-013",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次のオーストラリア産ワインのラベル表示の規定の中から正しいものを選択してください。",
+    "choices": [
+      "使用品種が5つ以下で、各々5%以上含まれていた場合、これら全てを表示する",
+      "特定の品種が75%以上含まれていた場合、その品種だけを表示できる",
+      "3つ以下のGIのワインが合計85%以上含まれていた場合、これを多い順に表示できる",
+      "複数の品種が使用されている場合、原則として品種の表記は認められない"
+    ],
+    "answerIndex": 0,
+    "explanation": "5つ以下の品種で、各品種が5%以上含まれる場合、すべてを表示できます。"
+  },
+  {
+    "id": "australia-014",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアのワイン産地を西から東の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "Margaret River, Yarra Valley, Coonawarra, Adelaide Hills",
+      "Great Southern, Hunter, Margaret River, Yarra Valley",
+      "Coonawarra, Margaret River, Adelaide Hills, Yarra Valley",
+      "Margaret River, Coonawarra, Yarra Valley, Hunter"
+    ],
+    "answerIndex": 3,
+    "explanation": "西から東へ、Margaret River、Coonawarra、Yarra Valley、Hunterの順です。"
+  },
+  {
+    "id": "australia-015",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上で8番のGI名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/australia-south-australia-map.jpg",
+      "alt": "南オーストラリア州のワイン産地の地図",
+      "caption": "南オーストラリア州 ワイン産地"
+    },
+    "answerText": "クナワラ",
+    "explanation": "地図上の8番はCoonawarra、カタカナではクナワラです。"
+  },
+  {
+    "id": "australia-016",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中から1831年、ヨーロッパからブドウの木を入手し王立シドニー植物園で栽培し、オーストラリアのワイン用ブドウ栽培の父と呼ばれている人物を選択してください。",
+    "choices": [
+      "ジェームズ・バズビー",
+      "マックス・シューバート",
+      "アーサー・フィリップ",
+      "ヤン・ファン・リーベック"
+    ],
+    "answerIndex": 0,
+    "explanation": "オーストラリアのワイン用ブドウ栽培の父と呼ばれる人物はジェームズ・バズビーです。"
+  },
+  {
+    "id": "australia-017",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアのロイヤル・メルボルン・ワインショーにおいて、仕込みから1年後の赤ワインで競われている賞を選択してください。",
+    "choices": [
+      "Australian Pinot Noir Challenge",
+      "Jimmy Watson Trophy",
+      "Australian Wine Challenge",
+      "International Wine Celebration"
+    ],
+    "answerIndex": 1,
+    "explanation": "ロイヤル・メルボルン・ワインショーで仕込みから1年後の赤ワインを対象とする賞はJimmy Watson Trophyです。"
+  },
+  {
+    "id": "australia-018",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の記述に最も良く適合するオーストラリアのワイン産地を選択してください。\n「2017年からオーストラリア中のピノ・ノワールを対象とする品評会、Australian Pinot Noir Challengeが行われている。」",
+    "choices": [
+      "Mornington Peninsula",
+      "Great Southern",
+      "Clare Valley",
+      "Rutherglen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Australian Pinot Noir Challengeが行われている産地はMornington Peninsulaです。"
+  },
+  {
+    "id": "australia-019",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアで2019年のワイン用ブドウ栽培面積が第3位の州を選択してください。",
+    "choices": [
+      "南オーストラリア州",
+      "西オーストラリア州",
+      "ヴィクトリア州",
+      "ニュー・サウス・ウェールズ州"
+    ],
+    "answerIndex": 2,
+    "explanation": "2019年のワイン用ブドウ栽培面積第3位はヴィクトリア州です。"
+  },
+  {
+    "id": "australia-020",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアの酒精強化ワイン、Topaqueの主要品種を選択してください。",
+    "choices": [
+      "セミヨン",
+      "ミュスカデル",
+      "シラーズ、カベルネ・ソーヴィニョン",
+      "シラーズ、グルナッシュ、ムールヴェードル"
+    ],
+    "answerIndex": 1,
+    "explanation": "Topaqueの主要品種はミュスカデルです。"
+  },
+  {
+    "id": "australia-021",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリア、南オーストラリア州、カンガルー島の大きさについての記述で正しいものを選択してください。",
+    "choices": [
+      "同国で4番目に大きい島",
+      "同国で1番目に大きい島",
+      "同国で2番目に大きい島",
+      "同国で3番目に大きい島"
+    ],
+    "answerIndex": 3,
+    "explanation": "カンガルー島はオーストラリアで3番目に大きい島です。"
+  },
+  {
+    "id": "australia-022",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアで2024年のワイン用ブドウ破砕量が第1位の州を選択してください。",
+    "choices": [
+      "西オーストラリア州",
+      "ヴィクトリア州",
+      "南オーストラリア州",
+      "ニュー・サウス・ウェールズ州"
+    ],
+    "answerIndex": 2,
+    "explanation": "2024年のワイン用ブドウ破砕量第1位は南オーストラリア州です。"
+  },
+  {
+    "id": "australia-023",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の記述に最も良く適合するオーストラリアのワイン産地を選択してください。\n「冷涼な気候でピノ・ノワールが約47%、シャルドネが約26%を占める。大手ワイナリーのスパークリングワインの供給地でもある。」",
+    "choices": [
+      "McLaren Vale",
+      "Swan Hill",
+      "Tasmania",
+      "Adelaide Hills"
+    ],
+    "answerIndex": 2,
+    "explanation": "この説明に合致するのはTasmaniaです。"
+  },
+  {
+    "id": "australia-024",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリアで特定のブドウ品種をワインに表示する場合、該当するものの最低使用比率を選択してください。",
+    "choices": [
+      "95%",
+      "75%",
+      "100%",
+      "85%"
+    ],
+    "answerIndex": 3,
+    "explanation": "特定のブドウ品種を表示する場合の最低使用比率は85%です。"
+  },
+  {
+    "id": "australia-025",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中でオーストラリアの都市パースに最も近いワイン産地を選択してください。",
+    "choices": [
+      "Tasmania",
+      "Clare Valley",
+      "Margaret River",
+      "McLaren Vale"
+    ],
+    "answerIndex": 2,
+    "explanation": "パースに最も近い選択肢はMargaret Riverです。"
+  },
+  {
+    "id": "australia-026",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "次の中からオーストラリア、西オーストラリア州に属する産地を選択してください。",
+    "choices": [
+      "Langhorne Creek",
+      "Tamar Valley",
+      "Yarra Valley",
+      "Peel"
+    ],
+    "answerIndex": 3,
+    "explanation": "Peelは西オーストラリア州に属します。"
+  },
+  {
+    "id": "australia-027",
+    "category": "オーストラリア",
+    "importance": "A",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でCoonawarraに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/australia-south-australia-map.jpg",
+      "alt": "南オーストラリア州のワイン産地の地図",
+      "caption": "南オーストラリア州 ワイン産地"
+    },
+    "choices": [
+      "2番",
+      "8番",
+      "6番",
+      "3番"
+    ],
+    "answerIndex": 1,
+    "explanation": "Coonawarraに相当する番号は8番です。"
   }
 ];

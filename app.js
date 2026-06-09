@@ -150,7 +150,7 @@
       const question = getCurrentQuestion();
       if (!question) return;
       toggleReview(question.id);
-      renderQuiz();
+      renderReviewButton(question);
       renderSaved();
     });
 
@@ -301,9 +301,7 @@
     els.textAnswerInput.disabled = false;
     els.textSubmitButton.disabled = true;
 
-    const inReview = state.reviewIds.includes(question.id);
-    els.reviewButton.classList.toggle("selected", inReview);
-    els.reviewButton.innerHTML = `<span aria-hidden="true">${inReview ? "★" : "☆"}</span>${inReview ? "復習から外す" : "復習に追加"}`;
+    renderReviewButton(question);
 
     els.choices.innerHTML = "";
     if (isTextAnswerQuestion(question)) return;
@@ -331,6 +329,12 @@
     els.questionImage.src = question.image.src;
     els.questionImage.alt = question.image.alt || "問題画像";
     els.questionImageCaption.textContent = question.image.caption || "";
+  }
+
+  function renderReviewButton(question) {
+    const inReview = Boolean(question && state.reviewIds.includes(question.id));
+    els.reviewButton.classList.toggle("selected", inReview);
+    els.reviewButton.innerHTML = `<span aria-hidden="true">${inReview ? "★" : "☆"}</span>${inReview ? "復習から外す" : "復習に追加"}`;
   }
 
   function toggleMultipleChoice(button, choiceIndex, question) {
