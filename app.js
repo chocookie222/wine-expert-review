@@ -8,6 +8,9 @@
     "イタリア": (category) => category.startsWith("イタリア/"),
     "ドイツ": (category) => category.startsWith("ドイツ/")
   };
+  const categoryInsertions = [
+    { after: "アルゼンチン", categories: ["ウルグアイ", "南アフリカ"] }
+  ];
   const mixedCategorySize = 10;
 
   const defaultState = {
@@ -105,7 +108,7 @@
     const categories = ["all", ...getCategoryOptions()];
     els.categoryFilter.innerHTML = categories
       .map((category) => {
-        const label = category === "all" ? "すべて" : category;
+        const label = getCategoryLabel(category);
         return `<option value="${escapeHtml(category)}">${escapeHtml(label)}</option>`;
       })
       .join("");
@@ -477,10 +480,7 @@
     const categories = getCategoryOptions();
     els.statsList.innerHTML = categories
       .map((category) => {
-        const mixedSourceCategories = isMixedCategory(category) ? getMixedSourceCategories(category) : [];
-        const categoryQuestions = isMixedCategory(category)
-          ? questions.filter((question) => mixedSourceCategories.includes(question.category))
-          : questions.filter((question) => question.category === category);
+        const categoryQuestions = getQuestionsForCategory(category);
         const stats = categoryQuestions.reduce(
           (acc, question) => {
             const answer = state.answers[question.id];
@@ -495,7 +495,7 @@
         return `
           <article class="stat-row">
             <div>
-              <strong>${escapeHtml(category)}</strong>
+              <strong>${escapeHtml(getCategoryLabel(category))}</strong>
               <span>${stats.correct} / ${stats.total} 正解</span>
             </div>
             <div class="meter" aria-label="${escapeHtml(category)}の正答率 ${percent}%">
@@ -589,11 +589,42 @@
         categories.push(mixedCategory);
       }
     });
+    applyCategoryInsertions(categories);
     return categories;
+  }
+
+  function applyCategoryInsertions(categories) {
+    categoryInsertions.forEach((insertion) => {
+      const anchorIndex = categories.indexOf(insertion.after);
+      let insertIndex = anchorIndex >= 0 ? anchorIndex + 1 : categories.length;
+      insertion.categories.forEach((category) => {
+        const existingIndex = categories.indexOf(category);
+        if (existingIndex >= 0) {
+          categories.splice(existingIndex, 1);
+          if (existingIndex < insertIndex) insertIndex -= 1;
+        }
+        categories.splice(insertIndex, 0, category);
+        insertIndex += 1;
+      });
+    });
   }
 
   function isMixedCategory(category) {
     return Object.prototype.hasOwnProperty.call(mixedCategoryRules, category);
+  }
+
+  function getCategoryLabel(category) {
+    const label = category === "all" ? "すべて" : category;
+    return `${label}（${getQuestionsForCategory(category).length}）`;
+  }
+
+  function getQuestionsForCategory(category) {
+    if (category === "all") return questions;
+    if (isMixedCategory(category)) {
+      const sourceCategories = getMixedSourceCategories(category);
+      return questions.filter((question) => sourceCategories.includes(question.category));
+    }
+    return questions.filter((question) => question.category === category);
   }
 
   function getMixedSourceCategories(mixedCategory) {
