@@ -9,6 +9,10 @@
     "ドイツ": (category) => category.startsWith("ドイツ/")
   };
   const categoryInsertions = [
+    {
+      before: "日本/概論・歴史・ワイン法・品種",
+      categories: ["ワイン概論/特性・分類・統計", "栽培・醸造", "ワイン以外の飲料", "日本酒・焼酎"]
+    },
     { after: "アルゼンチン", categories: ["ウルグアイ", "南アフリカ"] }
   ];
   const mixedCategorySize = 10;
@@ -595,8 +599,10 @@
 
   function applyCategoryInsertions(categories) {
     categoryInsertions.forEach((insertion) => {
-      const anchorIndex = categories.indexOf(insertion.after);
-      let insertIndex = anchorIndex >= 0 ? anchorIndex + 1 : categories.length;
+      const anchor = insertion.before || insertion.after;
+      const anchorIndex = categories.indexOf(anchor);
+      let insertIndex = anchorIndex >= 0 ? anchorIndex : categories.length;
+      if (anchorIndex >= 0 && insertion.after) insertIndex += 1;
       insertion.categories.forEach((category) => {
         const existingIndex = categories.indexOf(category);
         if (existingIndex >= 0) {
