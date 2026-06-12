@@ -51,7 +51,7 @@
             </div>
             <div>
               <strong id="accuracyNow">-</strong>
-              <span>正答率</span>
+              <span>回答済み</span>
             </div>
             <div>
               <strong id="wrongCount">0</strong>
@@ -83,9 +83,13 @@
               <p id="explanationText"></p>
             </section>
             <div class="actions">
-              <button class="secondary" id="reviewButton" type="button">
+              <button class="secondary review-action" id="reviewButton" type="button">
                 <span aria-hidden="true">☆</span>
                 復習に追加
+              </button>
+              <button class="secondary" id="previousButton" type="button" disabled>
+                <span aria-hidden="true">‹</span>
+                前の問題
               </button>
               <button class="primary" id="nextButton" type="button" disabled>
                 次の問題
@@ -93,6 +97,20 @@
               </button>
             </div>
           </article>
+
+          <section class="result-card" id="resultCard" hidden>
+            <p class="eyebrow">Result</p>
+            <h2 id="resultTitle">結果</h2>
+            <div class="result-score">
+              <strong id="resultScore">-</strong>
+              <span id="resultRate">正答率 -</span>
+            </div>
+            <p id="resultSummary"></p>
+            <div class="result-actions">
+              <button class="secondary" id="resultRestartButton" type="button">もう一度解く</button>
+              <button class="primary" id="resultStatsButton" type="button">成績を見る</button>
+            </div>
+          </section>
 
           <section class="empty-state" id="emptyState" hidden>
             <div class="glass-mark" aria-hidden="true"></div>

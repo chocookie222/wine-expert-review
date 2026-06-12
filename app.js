@@ -34,6 +34,8 @@
   let currentSet = [];
   let answered = false;
   let selectedChoiceIndexes = [];
+  let sessionAnswers = {};
+  let showingResult = false;
 
   const els = {
     quizPanel: document.getElementById("quizPanel"),
@@ -46,6 +48,13 @@
     accuracyNow: document.getElementById("accuracyNow"),
     wrongCount: document.getElementById("wrongCount"),
     questionCard: document.getElementById("questionCard"),
+    resultCard: document.getElementById("resultCard"),
+    resultTitle: document.getElementById("resultTitle"),
+    resultScore: document.getElementById("resultScore"),
+    resultRate: document.getElementById("resultRate"),
+    resultSummary: document.getElementById("resultSummary"),
+    resultRestartButton: document.getElementById("resultRestartButton"),
+    resultStatsButton: document.getElementById("resultStatsButton"),
     emptyState: document.getElementById("emptyState"),
     categoryBadge: document.getElementById("categoryBadge"),
     importanceBadge: document.getElementById("importanceBadge"),
@@ -62,6 +71,7 @@
     explanationBox: document.getElementById("explanationBox"),
     explanationText: document.getElementById("explanationText"),
     reviewButton: document.getElementById("reviewButton"),
+    previousButton: document.getElementById("previousButton"),
     nextButton: document.getElementById("nextButton"),
     resetSessionButton: document.getElementById("resetSessionButton"),
     statsList: document.getElementById("statsList"),
@@ -140,17 +150,25 @@
         state.filters.category = els.categoryFilter.value;
         state.currentIndex = 0;
         answered = false;
+        resetSessionProgress();
         rebuildSet();
         saveState();
         renderAll();
     }
 
-    els.nextButton.addEventListener("click", () => {
-      if (!currentSet.length) return;
-      state.currentIndex = (state.currentIndex + 1) % currentSet.length;
+    els.previousButton.addEventListener("click", () => moveQuestion(-1));
+    els.nextButton.addEventListener("click", () => moveQuestion(1));
+
+    els.resultRestartButton.addEventListener("click", () => {
+      state.currentIndex = 0;
       answered = false;
+      resetSessionProgress();
       saveState();
       renderQuiz();
+    });
+
+    els.resultStatsButton.addEventListener("click", () => {
+      document.getElementById("statsTab").click();
     });
 
     els.reviewButton.addEventListener("click", () => {
@@ -164,6 +182,7 @@
     els.resetSessionButton.addEventListener("click", () => {
       state.currentIndex = 0;
       answered = false;
+      resetSessionProgress();
       rebuildSet();
       saveState();
       renderQuiz();
@@ -176,6 +195,7 @@
       state.reviewIds = [];
       state.currentIndex = 0;
       answered = false;
+      resetSessionProgress();
       rebuildSet();
       saveState();
       renderAll();
@@ -231,10 +251,25 @@
     });
   }
 
+  function moveQuestion(step) {
+    if (!currentSet.length) return;
+    if (step > 0 && isCurrentSetComplete()) {
+      showingResult = true;
+      renderQuiz();
+      return;
+    }
+    state.currentIndex = (state.currentIndex + step + currentSet.length) % currentSet.length;
+    answered = false;
+    showingResult = false;
+    saveState();
+    renderQuiz();
+  }
+
   function switchMode(mode) {
     state.filters.mode = mode;
     state.currentIndex = 0;
     answered = false;
+    resetSessionProgress();
     syncFiltersToControls();
     rebuildSet();
     saveState();
@@ -275,22 +310,29 @@
 
   function renderQuiz() {
     const question = getCurrentQuestion();
-    const totals = getTotals();
-    els.questionCounter.textContent = currentSet.length ? `${state.currentIndex + 1} / ${currentSet.length}` : `0 / 0`;
-    els.accuracyNow.textContent = totals.total ? `${Math.round((totals.correct / totals.total) * 100)}%` : "-";
-    els.wrongCount.textContent = String(state.wrongIds.length);
+    updateProgressSummary();
+
+    if (showingResult && currentSet.length) {
+      renderResult();
+      return;
+    }
 
     if (!question) {
       els.questionCard.hidden = true;
+      els.resultCard.hidden = true;
       els.emptyState.hidden = false;
       els.textAnswerBox.hidden = true;
       els.multiSubmitButton.hidden = true;
+      els.previousButton.disabled = true;
+      els.nextButton.disabled = true;
       return;
     }
 
     if (!answered) selectedChoiceIndexes = [];
     els.questionCard.hidden = false;
+    els.resultCard.hidden = true;
     els.emptyState.hidden = true;
+    answered = Boolean(sessionAnswers[question.id]);
     els.categoryBadge.textContent = isMixedCategory(state.filters.category) ? state.filters.category : question.category;
     els.importanceBadge.textContent = `重要度 ${question.importance}`;
     els.importanceBadge.dataset.importance = question.importance;
@@ -300,7 +342,9 @@
     els.answerResult.hidden = true;
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
-    els.nextButton.disabled = true;
+    els.previousButton.disabled = currentSet.length <= 1;
+    els.nextButton.disabled = currentSet.length <= 1;
+    els.nextButton.innerHTML = `次の問題<span aria-hidden="true">›</span>`;
     els.multiSubmitButton.hidden = !isMultipleChoiceQuestion(question);
     els.multiSubmitButton.disabled = true;
     els.textAnswerBox.hidden = !isTextAnswerQuestion(question);
@@ -311,7 +355,10 @@
     renderReviewButton(question);
 
     els.choices.innerHTML = "";
-    if (isTextAnswerQuestion(question)) return;
+    if (isTextAnswerQuestion(question)) {
+      restoreSessionAnswer(question);
+      return;
+    }
     question.choices.forEach((choice, index) => {
       const button = document.createElement("button");
       button.type = "button";
@@ -321,6 +368,7 @@
       button.innerHTML = `<span>${index + 1}</span><strong>${escapeHtml(choice)}</strong>`;
       els.choices.appendChild(button);
     });
+    restoreSessionAnswer(question);
   }
 
   function renderQuestionImage(question) {
@@ -380,7 +428,9 @@
       state.wrongIds.push(question.id);
     }
 
+    sessionAnswers[question.id] = { type: "choice", choiceIndexes: [...choiceIndexes], isCorrect };
     saveState();
+    updateProgressSummary();
     revealAnswer(question, choiceIndexes, isCorrect);
     renderStats();
     renderSaved();
@@ -404,7 +454,9 @@
       state.wrongIds.push(question.id);
     }
 
+    sessionAnswers[question.id] = { type: "text", answerText, isCorrect };
     saveState();
+    updateProgressSummary();
     revealTextAnswer(question, answerText, isCorrect);
     renderStats();
     renderSaved();
@@ -427,7 +479,7 @@
       <span>あなたの回答：${escapeHtml(formatAnswers(question, choiceIndexes))}</span>
     `;
     els.explanationBox.hidden = false;
-    els.nextButton.disabled = false;
+    updateNextButtonAfterAnswer();
   }
 
   function revealTextAnswer(question, answerText, isCorrect) {
@@ -441,7 +493,40 @@
       <span>あなたの回答：${escapeHtml(answerText)}</span>
     `;
     els.explanationBox.hidden = false;
-    els.nextButton.disabled = false;
+    updateNextButtonAfterAnswer();
+  }
+
+  function restoreSessionAnswer(question) {
+    const saved = sessionAnswers[question.id];
+    if (!saved) return;
+    if (saved.type === "text") {
+      els.textAnswerInput.value = saved.answerText;
+      revealTextAnswer(question, saved.answerText, saved.isCorrect);
+      return;
+    }
+    revealAnswer(question, saved.choiceIndexes, saved.isCorrect);
+  }
+
+  function updateNextButtonAfterAnswer() {
+    els.nextButton.disabled = currentSet.length <= 1 && !isCurrentSetComplete();
+    if (isCurrentSetComplete()) {
+      els.nextButton.disabled = false;
+      els.nextButton.innerHTML = `結果を見る<span aria-hidden="true">›</span>`;
+    }
+  }
+
+  function renderResult() {
+    const totals = getSessionTotals();
+    const percent = totals.total ? Math.round((totals.correct / totals.total) * 100) : 0;
+    const categoryLabel = state.filters.category === "all" ? "現在のセット" : getCategoryLabel(state.filters.category);
+    updateProgressSummary();
+    els.questionCard.hidden = true;
+    els.emptyState.hidden = true;
+    els.resultCard.hidden = false;
+    els.resultTitle.textContent = `${categoryLabel}の結果`;
+    els.resultScore.textContent = `${totals.correct} / ${totals.total}`;
+    els.resultRate.textContent = `正答率 ${percent}%`;
+    els.resultSummary.textContent = `${totals.total}問中${totals.correct}問正解です。復習したい問題は「復習」タブから確認できます。`;
   }
 
   function isMultipleChoiceQuestion(question) {
@@ -565,6 +650,36 @@
       },
       { correct: 0, total: 0 }
     );
+  }
+
+  function getSessionTotals() {
+    return currentSet.reduce(
+      (acc, question) => {
+        const answer = sessionAnswers[question.id];
+        if (!answer) return acc;
+        acc.correct += answer.isCorrect ? 1 : 0;
+        acc.total += 1;
+        return acc;
+      },
+      { correct: 0, total: 0 }
+    );
+  }
+
+  function updateProgressSummary() {
+    const sessionTotals = getSessionTotals();
+    els.questionCounter.textContent = currentSet.length ? `${state.currentIndex + 1} / ${currentSet.length}` : `0 / 0`;
+    els.accuracyNow.textContent = currentSet.length ? `${sessionTotals.total} / ${currentSet.length}` : "-";
+    els.wrongCount.textContent = String(state.wrongIds.length);
+  }
+
+  function isCurrentSetComplete() {
+    return Boolean(currentSet.length) && currentSet.every((question) => sessionAnswers[question.id]);
+  }
+
+  function resetSessionProgress() {
+    sessionAnswers = {};
+    showingResult = false;
+    selectedChoiceIndexes = [];
   }
 
   function escapeHtml(value) {

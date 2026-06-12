@@ -28943,5 +28943,1895 @@ window.WINE_QUESTIONS = [
     "choices": ["DO Lontué Valley", "DO Colchagua Valley", "DO Leyda Valley", "DO Teno Valley"],
     "answerIndex": 1,
     "explanation": "DO Rapel Valleyに含まれるサブゾーンはDO Colchagua Valleyです。"
-  }
+  },
+  {
+    "id": "intro-001",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からアルコールが肝臓で代謝されてできる物質を選択してください。",
+    "choices": [
+      "アミノ酸",
+      "グリセリン",
+      "酢酸イソアミル",
+      "アセトアルデヒド"
+    ],
+    "answerIndex": 3,
+    "explanation": "アルコールは肝臓で代謝される過程でアセトアルデヒドになります。"
+  },
+  {
+    "id": "intro-002",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から「甘味果実酒」に分類されるものを選択してください。",
+    "choices": [
+      "ポート",
+      "ソーテルヌ",
+      "キュラソー",
+      "アマレット"
+    ],
+    "answerIndex": 0,
+    "explanation": "ポートは日本の酒税法上、甘味果実酒に分類されます。"
+  },
+  {
+    "id": "intro-003",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第2位の国を選択してください。",
+    "choices": [
+      "南アフリカ",
+      "オーストラリア",
+      "フランス",
+      "スペイン"
+    ],
+    "answerIndex": 2,
+    "explanation": "2022年のワイン生産量第2位はフランスです。"
+  },
+  {
+    "id": "intro-004",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、ポルトガルが属するゾーンを選択してください。",
+    "choices": [
+      "Zone C-III(b)",
+      "Zone A",
+      "Zone C-II",
+      "Zone B"
+    ],
+    "answerIndex": 0,
+    "explanation": "ポルトガルはZone C-III(b)に属します。"
+  },
+  {
+    "id": "intro-005",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から1Kgのブドウから搾汁される果汁または赤ワインの量を選択してください。",
+    "choices": [
+      "800〜1000ml",
+      "400〜600ml",
+      "1000〜1200ml",
+      "600〜800ml"
+    ],
+    "answerIndex": 3,
+    "explanation": "1kgのブドウから得られる果汁または赤ワインはおよそ600〜800mlです。"
+  },
+  {
+    "id": "intro-006",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインExtra Brutの残糖量を選択してください。",
+    "choices": [
+      "12g/リットル未満",
+      "17〜32g/リットル",
+      "0〜6g/リットル",
+      "32〜50g/リットル"
+    ],
+    "answerIndex": 2,
+    "explanation": "Extra Brutの残糖量は0〜6g/Lです。"
+  },
+  {
+    "id": "intro-007",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの品質分類で原産地呼称保護ワインの英語略称を選択してください。",
+    "choices": [
+      "P.G.I.",
+      "V.C.I.G.",
+      "D.A.C.",
+      "P.D.O."
+    ],
+    "answerIndex": 3,
+    "explanation": "原産地呼称保護ワインの英語略称はP.D.O.です。"
+  },
+  {
+    "id": "intro-008",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Retsina",
+      "Madeira",
+      "Pétillant",
+      "VDN(Vin Doux Naturel)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Retsinaはフレーバード・ワインに該当します。"
+  },
+  {
+    "id": "intro-009",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "南アフリカ, イタリア, アルゼンチン, チリ",
+      "イタリア, スペイン, チリ, ドイツ",
+      "アメリカ, オーストラリア, 南アフリカ, チリ",
+      "ドイツ, オーストラリア, 南アフリカ, イタリア"
+    ],
+    "answerIndex": 1,
+    "explanation": "2022年の生産量順として正しいのは、イタリア、スペイン、チリ、ドイツです。"
+  },
+  {
+    "id": "intro-010",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中から発酵によって生成する酸を選択してください。",
+    "choices": [
+      "酢酸",
+      "炭酸",
+      "クエン酸",
+      "グルコン酸"
+    ],
+    "answerIndex": 0,
+    "explanation": "酢酸は発酵によって生成する酸です。"
+  },
+  {
+    "id": "intro-011",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からイタリアのスパークリングワインAbboccatoの残糖量を選択してください。",
+    "choices": [
+      "12g/リットル未満",
+      "50g/リットル超",
+      "17〜32g/リットル",
+      "32〜50g/リットル"
+    ],
+    "answerIndex": 3,
+    "explanation": "Abboccatoの残糖量は32〜50g/Lです。"
+  },
+  {
+    "id": "intro-012",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からアルコール12%のワイン100mlに含まれるアルコールの重量を選択してください。",
+    "choices": [
+      "4.8グラム",
+      "12.0グラム",
+      "9.6グラム",
+      "19.2グラム"
+    ],
+    "answerIndex": 2,
+    "explanation": "アルコール12%のワイン100mlに含まれるアルコール重量は約9.6gです。"
+  },
+  {
+    "id": "intro-013",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「ラム」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "果実原料の蒸留酒類",
+      "穀物原料の醸造酒類",
+      "果実以外が原料の蒸留酒類",
+      "発泡性酒類"
+    ],
+    "answerIndex": 2,
+    "explanation": "ラムは果実以外を原料とする蒸留酒類です。"
+  },
+  {
+    "id": "intro-014",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフォーティファイド・ワインを造る時、ブランデーまたはアルコールを添加して発酵を止める工程の名称を選択してください。",
+    "choices": [
+      "Foulage",
+      "Égrappage",
+      "Mutage",
+      "Dosage"
+    ],
+    "answerIndex": 2,
+    "explanation": "発酵中にアルコールを添加して止める工程をMutageといいます。"
+  },
+  {
+    "id": "intro-015",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone C-IIに属するワイン産地を選択してください。",
+    "choices": [
+      "フランス（アルザス）",
+      "スペイン",
+      "ドイツ",
+      "ギリシャ"
+    ],
+    "answerIndex": 1,
+    "explanation": "スペインはZone C-IIに属する産地を含みます。"
+  },
+  {
+    "id": "intro-016",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてのラベル表記の規定で正しいものを選択してください。",
+    "choices": [
+      "収穫年を記載する場合は、100%その年のブドウを使用する",
+      "収穫年を記載する場合は、75%以上その年のブドウを使用する",
+      "複数品種名を記載する場合は、85%以上それらの品種で構成される",
+      "複数品種名を記載する場合は、割合の多い順に記載する"
+    ],
+    "answerIndex": 3,
+    "explanation": "複数品種名を記載する場合は、割合の多い順に記載します。"
+  },
+  {
+    "id": "intro-017",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からスティルワインで残糖量が45g/リットル以上のものの表示を選択してください。",
+    "choices": [
+      "Demi-Sec",
+      "Doux",
+      "Amabile",
+      "Lieblich"
+    ],
+    "answerIndex": 1,
+    "explanation": "スティルワインで残糖量45g/L以上はDouxです。"
+  },
+  {
+    "id": "intro-018",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からポリフェノールが最も多く含まれている品種を選択してください。",
+    "choices": [
+      "カベルネ・フラン",
+      "メルロ",
+      "シャルドネ",
+      "ネッビオーロ"
+    ],
+    "answerIndex": 3,
+    "explanation": "選択肢の中ではネッビオーロがポリフェノールを多く含む品種です。"
+  },
+  {
+    "id": "intro-019",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載任意事項とされているものを選択してください。",
+    "choices": [
+      "スパークリングワインの場合は残糖量",
+      "瓶詰め業者名",
+      "原産地",
+      "ブドウ品種"
+    ],
+    "answerIndex": 3,
+    "explanation": "ブドウ品種は任意記載事項です。"
+  },
+  {
+    "id": "intro-020",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本酒の発酵の仕方として正しいものを選択してください。",
+    "choices": [
+      "原料の糖分を直接発酵する",
+      "原料の糖分を糊化させてから発酵する",
+      "原料のデンプンを糖化させてから発酵する",
+      "原料のデンプンを直接発酵する"
+    ],
+    "answerIndex": 2,
+    "explanation": "日本酒はデンプンを糖化させてから発酵します。"
+  },
+  {
+    "id": "intro-021",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Pétillant",
+      "Sherry",
+      "Sangria",
+      "Frizzante"
+    ],
+    "answerIndex": 1,
+    "explanation": "Sherryはフォーティファイド・ワインです。"
+  },
+  {
+    "id": "intro-022",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「果実原料の醸造酒類」に分類されるものを選択してください。",
+    "choices": [
+      "みりん",
+      "ワイン",
+      "ブランデー",
+      "焼酎"
+    ],
+    "answerIndex": 1,
+    "explanation": "ワインは果実原料の醸造酒類です。"
+  },
+  {
+    "id": "intro-023",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第7位の国を選択してください。",
+    "choices": [
+      "アルゼンチン",
+      "オーストラリア",
+      "ドイツ",
+      "アメリカ"
+    ],
+    "answerIndex": 0,
+    "explanation": "2022年のワイン生産量第7位はアルゼンチンです。"
+  },
+  {
+    "id": "intro-024",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からスパークリング・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Frizzante",
+      "Vermouth",
+      "Port wine",
+      "VDL(Vin de Liqueur)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Frizzanteはスパークリング・ワインに該当します。"
+  },
+  {
+    "id": "intro-025",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から「リキュール」に分類されるものを選択してください。",
+    "choices": [
+      "シェリー",
+      "クレーム・ド・カシス",
+      "マデイラ",
+      "トカイ・エッセンシア"
+    ],
+    "answerIndex": 1,
+    "explanation": "クレーム・ド・カシスはリキュールです。"
+  },
+  {
+    "id": "intro-026",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone Bに属するワイン産地を選択してください。",
+    "choices": [
+      "ギリシャ",
+      "スペイン",
+      "フランス（ブルゴーニュ）",
+      "フランス（ロワール）"
+    ],
+    "answerIndex": 3,
+    "explanation": "フランスのロワールはZone Bに属します。"
+  },
+  {
+    "id": "intro-027",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からドイツのスパークリングワインMildの残糖量を選択してください。",
+    "choices": [
+      "12g/リットル未満",
+      "3g/リットル未満",
+      "50g/リットル超",
+      "32〜50g/リットル"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mildは50g/L超です。"
+  },
+  {
+    "id": "intro-028",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からポリフェノールが最も多く含まれている品種を選択してください。",
+    "choices": [
+      "カベルネ・フラン",
+      "メルロ",
+      "カベルネ・ソーヴィニョン",
+      "リースリング"
+    ],
+    "answerIndex": 2,
+    "explanation": "選択肢の中ではカベルネ・ソーヴィニョンがポリフェノールを多く含みます。"
+  },
+  {
+    "id": "intro-029",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第10位の国を選択してください。",
+    "choices": [
+      "スペイン",
+      "イタリア",
+      "ポルトガル",
+      "ドイツ"
+    ],
+    "answerIndex": 2,
+    "explanation": "2022年のワイン生産量第10位はポルトガルです。"
+  },
+  {
+    "id": "intro-030",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "ブドウ品種",
+      "生産方法に関する記述",
+      "製品のカテゴリー（ワイン、VDLなど）",
+      "AOP、IGPのEUのシンボルマーク"
+    ],
+    "answerIndex": 2,
+    "explanation": "製品のカテゴリーは義務記載事項です。"
+  },
+  {
+    "id": "intro-031",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてのラベル表記の規定で正しいものを選択してください。",
+    "choices": [
+      "単一品種名を記載する場合は、85%以上その品種を使用する",
+      "複数品種名を記載する場合は、85%以上それらの品種で構成される",
+      "収穫年を記載する場合は、75%以上その年のブドウを使用する",
+      "収穫年を記載する場合は、100%その年のブドウを使用する"
+    ],
+    "answerIndex": 0,
+    "explanation": "単一品種名の表示には85%以上その品種を使用します。"
+  },
+  {
+    "id": "intro-032",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のフランスのワイン生産量を選択してください。",
+    "choices": [
+      "46.0Mhl",
+      "28.8Mhl",
+      "36.0Mhl",
+      "43.3Mhl"
+    ],
+    "answerIndex": 0,
+    "explanation": "2022年のフランスのワイン生産量は46.0Mhlです。"
+  },
+  {
+    "id": "intro-033",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「ブランデー」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "発泡性酒類",
+      "混成酒類",
+      "果実原料の蒸留酒類",
+      "果実原料の醸造酒類"
+    ],
+    "answerIndex": 2,
+    "explanation": "ブランデーは果実原料の蒸留酒類です。"
+  },
+  {
+    "id": "intro-034",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+    "choices": [
+      "VDL(Vin de Liqueur)",
+      "Pétillant",
+      "Retsina",
+      "Port wine"
+    ],
+    "answerIndex": 2,
+    "explanation": "Retsinaはフレーバード・ワインです。"
+  },
+  {
+    "id": "intro-035",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、ギリシャが属するゾーンを選択してください。",
+    "choices": [
+      "Zone C-III(b)",
+      "Zone C-I",
+      "Zone C-III(a)",
+      "Zone A"
+    ],
+    "answerIndex": 2,
+    "explanation": "ギリシャはZone C-III(a)に属します。"
+  },
+  {
+    "id": "intro-036",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からワインの発酵の仕方として正しいものを選択してください。",
+    "choices": [
+      "原料のデンプンを糖化させてから発酵する",
+      "原料のデンプンを直接発酵する",
+      "原料の糖分を糊化させてから発酵する",
+      "原料の糖分を直接発酵する"
+    ],
+    "answerIndex": 3,
+    "explanation": "ワインは原料の糖分を直接発酵します。"
+  },
+  {
+    "id": "intro-037",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスティルワインMoelleuxと同じ残糖量を示す他国の表示を選択してください。",
+    "choices": [
+      "Demi-Sec",
+      "Halbtrocken",
+      "Abboccato",
+      "Amabile"
+    ],
+    "answerIndex": 3,
+    "explanation": "Moelleuxと同じ残糖量を示す表示はAmabileです。"
+  },
+  {
+    "id": "intro-038",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、イタリア北部が属するゾーンを選択してください。",
+    "choices": [
+      "Zone C-II",
+      "Zone B",
+      "Zone C-III(a)",
+      "Zone C-I"
+    ],
+    "answerIndex": 3,
+    "explanation": "イタリア北部はZone C-Iに属します。"
+  },
+  {
+    "id": "intro-039",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインSecの残糖量を選択してください。",
+    "choices": [
+      "3g/リットル未満",
+      "17〜32g/リットル",
+      "32〜50g/リットル",
+      "12g/リットル未満"
+    ],
+    "answerIndex": 1,
+    "explanation": "Secの残糖量は17〜32g/Lです。"
+  },
+  {
+    "id": "intro-040",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第3位の国を選択してください。",
+    "choices": [
+      "オーストラリア",
+      "スペイン",
+      "フランス",
+      "ドイツ"
+    ],
+    "answerIndex": 1,
+    "explanation": "2022年のワイン生産量第3位はスペインです。"
+  },
+  {
+    "id": "intro-041",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「果実以外が原料の蒸留酒類」に分類されるものを選択してください。",
+    "choices": [
+      "甘味果実酒",
+      "ラム",
+      "シードル",
+      "合成清酒"
+    ],
+    "answerIndex": 1,
+    "explanation": "ラムは果実以外が原料の蒸留酒類です。"
+  },
+  {
+    "id": "intro-042",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載任意事項とされているものを選択してください。",
+    "choices": [
+      "AOP、IGPのEUのシンボルマーク",
+      "製品のカテゴリー（ワイン、VDLなど）",
+      "瓶詰め業者名",
+      "スパークリングワインの場合は残糖量"
+    ],
+    "answerIndex": 0,
+    "explanation": "AOP、IGPのEUシンボルマークは任意記載事項です。"
+  },
+  {
+    "id": "intro-043",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からスパークリング・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Sherry",
+      "Port wine",
+      "Pétillant",
+      "Lillet"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pétillantはスパークリング・ワインです。"
+  },
+  {
+    "id": "intro-044",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone C-Iに属するワイン産地を選択してください。",
+    "choices": [
+      "フランス（シャンパーニュ）",
+      "フランス（ブルゴーニュ）",
+      "フランス（アルザス）",
+      "フランス（ロワール）"
+    ],
+    "answerIndex": 1,
+    "explanation": "フランスのブルゴーニュはZone C-Iに属します。"
+  },
+  {
+    "id": "intro-045",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "AOP、IGPのEUのシンボルマーク",
+      "ブドウ品種",
+      "生産方法に関する記述",
+      "瓶詰め業者名"
+    ],
+    "answerIndex": 3,
+    "explanation": "瓶詰め業者名は義務記載事項です。"
+  },
+  {
+    "id": "intro-046",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から酵母による発酵のメカニズムを解明した人物を選択してください。",
+    "choices": [
+      "ジャン・アントワーヌ・シャプタル",
+      "ルイ・パストゥール",
+      "セルジュ・ルノー",
+      "ジョゼフ・ルイ・ゲイリュサック"
+    ],
+    "answerIndex": 1,
+    "explanation": "酵母による発酵のメカニズムを解明したのはルイ・パストゥールです。"
+  },
+  {
+    "id": "intro-047",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "フランス, 南アフリカ, オーストラリア, イタリア",
+      "南アフリカ, フランス, ドイツ, オーストラリア",
+      "ポルトガル, オーストラリア, イタリア, チリ",
+      "フランス, チリ, 南アフリカ, ポルトガル"
+    ],
+    "answerIndex": 3,
+    "explanation": "正しい順序はフランス、チリ、南アフリカ、ポルトガルです。"
+  },
+  {
+    "id": "intro-048",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「果実原料の醸造酒類」に分類されるものを選択してください。",
+    "choices": [
+      "シードル",
+      "ラム",
+      "甘味果実酒",
+      "ウイスキー"
+    ],
+    "answerIndex": 0,
+    "explanation": "シードルは果実原料の醸造酒類です。"
+  },
+  {
+    "id": "intro-049",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Marsala",
+      "Retsina",
+      "Frizzante",
+      "Sangria"
+    ],
+    "answerIndex": 0,
+    "explanation": "Marsalaはフォーティファイド・ワインです。"
+  },
+  {
+    "id": "intro-050",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第6位の国を選択してください。",
+    "choices": [
+      "イタリア",
+      "オーストラリア",
+      "南アフリカ",
+      "チリ"
+    ],
+    "answerIndex": 3,
+    "explanation": "2022年のワイン生産量第6位はチリです。"
+  },
+  {
+    "id": "intro-051",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインPas Doséの残糖量を選択してください。",
+    "choices": [
+      "17〜32g/リットル",
+      "3g/リットル未満",
+      "32〜50g/リットル",
+      "0〜6g/リットル"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pas Doséの残糖量は3g/L未満です。"
+  },
+  {
+    "id": "intro-052",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「果実以外が原料の蒸留酒類」に分類されるものを選択してください。",
+    "choices": [
+      "みりん",
+      "ウオッカ",
+      "ビール",
+      "ワイン"
+    ],
+    "answerIndex": 1,
+    "explanation": "ウオッカは果実以外が原料の蒸留酒類です。"
+  },
+  {
+    "id": "intro-053",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中から発酵によって生成する酸を選択してください。",
+    "choices": [
+      "コハク酸",
+      "リンゴ酸",
+      "クエン酸",
+      "シュウ酸"
+    ],
+    "answerIndex": 0,
+    "explanation": "コハク酸は発酵によって生成する酸です。"
+  },
+  {
+    "id": "intro-054",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "アメリカ, スペイン, ドイツ, アルゼンチン",
+      "イタリア, スペイン, チリ, アルゼンチン",
+      "ポルトガル, フランス, ドイツ, イタリア",
+      "フランス, 南アフリカ, スペイン, アメリカ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正しい順序はイタリア、スペイン、チリ、アルゼンチンです。"
+  },
+  {
+    "id": "intro-055",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から「リキュール」に分類されるものを選択してください。",
+    "choices": [
+      "ソーテルヌ",
+      "マデイラ",
+      "ポート",
+      "アマレット"
+    ],
+    "answerIndex": 3,
+    "explanation": "アマレットはリキュールです。"
+  },
+  {
+    "id": "intro-056",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中から一般にワインに最も多く含まれる酸を選択してください。",
+    "choices": [
+      "炭酸",
+      "ガラクチュロン酸",
+      "酒石酸",
+      "コハク酸"
+    ],
+    "answerIndex": 2,
+    "explanation": "一般にワインに最も多く含まれる酸は酒石酸です。"
+  },
+  {
+    "id": "intro-057",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Sherry",
+      "VDL(Vin de Liqueur)",
+      "Vermouth",
+      "Marsala"
+    ],
+    "answerIndex": 2,
+    "explanation": "Vermouthはフレーバード・ワインです。"
+  },
+  {
+    "id": "intro-058",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からスティルワインで残糖量が45g/リットル以上のものの表示を選択してください。",
+    "choices": [
+      "Lieblich",
+      "Dulce",
+      "Halbtrocken",
+      "Demi-Sec"
+    ],
+    "answerIndex": 1,
+    "explanation": "残糖量45g/L以上はDulceです。"
+  },
+  {
+    "id": "intro-059",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からワインの成分の中で血栓症の予防に効果があるものを選択してください。",
+    "choices": [
+      "Tartaric acid",
+      "Resveratrol",
+      "Tannin",
+      "Anthocyanin"
+    ],
+    "answerIndex": 1,
+    "explanation": "血栓症の予防に効果がある成分としてResveratrolが知られます。"
+  },
+  {
+    "id": "intro-060",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "アルゼンチン, スペイン, アメリカ, 南アフリカ",
+      "イタリア, フランス, アメリカ, 南アフリカ",
+      "イタリア, チリ, オーストラリア, アルゼンチン",
+      "ポルトガル, アメリカ, 南アフリカ, アルゼンチン"
+    ],
+    "answerIndex": 1,
+    "explanation": "正しい順序はイタリア、フランス、アメリカ、南アフリカです。"
+  },
+  {
+    "id": "intro-061",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの品質分類で地理的表示保護ワインの英語略称を選択してください。",
+    "choices": [
+      "D.A.C.",
+      "P.D.O.",
+      "P.G.I.",
+      "V.C.I.G."
+    ],
+    "answerIndex": 2,
+    "explanation": "地理的表示保護ワインの英語略称はP.G.I.です。"
+  },
+  {
+    "id": "intro-062",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてのラベル表記の規定で正しいものを選択してください。",
+    "choices": [
+      "複数品種名を記載する場合は、75%以上それらの品種で構成される",
+      "単一品種名を記載する場合は、75%以上その品種を使用する",
+      "収穫年を記載する場合は、85%以上その年のブドウを使用する",
+      "複数品種名を記載する場合は、割合の一番多い品種のみを記載する"
+    ],
+    "answerIndex": 2,
+    "explanation": "収穫年を記載する場合は85%以上その年のブドウを使用します。"
+  },
+  {
+    "id": "intro-063",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中からブドウに由来する酸を選択してください。",
+    "choices": [
+      "酒石酸",
+      "ガラクチュロン酸",
+      "シュウ酸",
+      "グルコン酸"
+    ],
+    "answerIndex": 0,
+    "explanation": "酒石酸はブドウに由来する酸です。"
+  },
+  {
+    "id": "intro-064",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から「リキュール」に分類されるものを選択してください。",
+    "choices": [
+      "トカイ・エッセンシア",
+      "シェリー",
+      "ソーテルヌ",
+      "キュラソー"
+    ],
+    "answerIndex": 3,
+    "explanation": "キュラソーはリキュールです。"
+  },
+  {
+    "id": "intro-065",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "フランス, アメリカ, チリ, ドイツ",
+      "チリ, アメリカ, アルゼンチン, スペイン",
+      "ドイツ, イタリア, オーストラリア, 南アフリカ",
+      "アルゼンチン, ドイツ, フランス, 南アフリカ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正しい順序はフランス、アメリカ、チリ、ドイツです。"
+  },
+  {
+    "id": "intro-066",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Lillet",
+      "Port wine",
+      "Sangria",
+      "Frizzante"
+    ],
+    "answerIndex": 1,
+    "explanation": "Port wineはフォーティファイド・ワインです。"
+  },
+  {
+    "id": "intro-067",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone C-Iに属するワイン産地を選択してください。",
+    "choices": [
+      "スペイン",
+      "フランス（ロワール）",
+      "ドイツ",
+      "フランス（アルザス）"
+    ],
+    "answerIndex": 0,
+    "explanation": "スペインはZone C-Iに属する地域を含みます。"
+  },
+  {
+    "id": "intro-068",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの品質分類で原産地呼称保護ワインの英語略称を選択してください。",
+    "choices": [
+      "G.I.",
+      "V.C.I.G.",
+      "P.D.O.",
+      "P.G.I."
+    ],
+    "answerIndex": 2,
+    "explanation": "原産地呼称保護ワインの英語略称はP.D.O.です。"
+  },
+  {
+    "id": "intro-069",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から一般的なワインのpHを選択してください。",
+    "choices": [
+      "2.9〜3.8",
+      "3.9〜4.6",
+      "2.1〜2.8",
+      "4.7〜5.5"
+    ],
+    "answerIndex": 0,
+    "explanation": "一般的なワインのpHは2.9〜3.8程度です。"
+  },
+  {
+    "id": "intro-070",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からアルコール発酵によって生じるものを選択してください。",
+    "choices": [
+      "アルコールと炭酸ガス",
+      "アルコールとクエン酸",
+      "アルコールと乳酸",
+      "アルコールとリンゴ酸"
+    ],
+    "answerIndex": 0,
+    "explanation": "アルコール発酵ではアルコールと炭酸ガスが生じます。"
+  },
+  {
+    "id": "intro-071",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第8位の国を選択してください。",
+    "choices": [
+      "フランス",
+      "南アフリカ",
+      "アメリカ",
+      "アルゼンチン"
+    ],
+    "answerIndex": 1,
+    "explanation": "2022年のワイン生産量第8位は南アフリカです。"
+  },
+  {
+    "id": "intro-072",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインAmabileと同じ残糖量を示す他国の表示を選択してください。",
+    "choices": [
+      "Abboccato",
+      "Demi-Sec",
+      "Moelleux",
+      "Halbtrocken"
+    ],
+    "answerIndex": 2,
+    "explanation": "Amabileと同じ残糖量を示す表示はMoelleuxです。"
+  },
+  {
+    "id": "intro-073",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からアルコール発酵の化学式を示した人物を選択してください。",
+    "choices": [
+      "ルイ・パストゥール",
+      "セルジュ・ルノー",
+      "ジョゼフ・ルイ・ゲイリュサック",
+      "ジャン・アントワーヌ・シャプタル"
+    ],
+    "answerIndex": 2,
+    "explanation": "アルコール発酵の化学式を示したのはゲイリュサックです。"
+  },
+  {
+    "id": "intro-074",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスティルワインDemi-Secと同じ残糖量を示す他国の表示を選択してください。",
+    "choices": [
+      "Amabile",
+      "Halbtrocken",
+      "Moelleux",
+      "Lieblich"
+    ],
+    "answerIndex": 1,
+    "explanation": "Demi-Secと同じ残糖量を示す表示はHalbtrockenです。"
+  },
+  {
+    "id": "intro-075",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「混成酒類」に分類されるものを選択してください。",
+    "choices": [
+      "ワイン",
+      "ブランデー",
+      "合成清酒",
+      "ビール"
+    ],
+    "answerIndex": 2,
+    "explanation": "合成清酒は混成酒類です。"
+  },
+  {
+    "id": "intro-076",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "オーストラリア, ポルトガル, アメリカ, スペイン",
+      "イタリア, フランス, アメリカ, アルゼンチン",
+      "南アフリカ, チリ, フランス, スペイン",
+      "イタリア, スペイン, ポルトガル, 南アフリカ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正しい順序はイタリア、フランス、アメリカ、アルゼンチンです。"
+  },
+  {
+    "id": "intro-077",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone Bに属するワイン産地を選択してください。",
+    "choices": [
+      "フランス（シャンパーニュ）",
+      "ドイツ",
+      "スペイン",
+      "ギリシャ"
+    ],
+    "answerIndex": 0,
+    "explanation": "フランスのシャンパーニュはZone Bに属します。"
+  },
+  {
+    "id": "intro-078",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中からブドウに由来する酸を選択してください。",
+    "choices": [
+      "酢酸",
+      "グルコン酸",
+      "リンゴ酸",
+      "コハク酸"
+    ],
+    "answerIndex": 2,
+    "explanation": "リンゴ酸はブドウに由来する酸です。"
+  },
+  {
+    "id": "intro-079",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からスパークリング・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Perlwein",
+      "Retsina",
+      "Lillet",
+      "Sherry"
+    ],
+    "answerIndex": 0,
+    "explanation": "Perlweinはスパークリング・ワインに該当します。"
+  },
+  {
+    "id": "intro-080",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインDouxの残糖量を選択してください。",
+    "choices": [
+      "12g/リットル未満",
+      "0〜6g/リットル",
+      "17〜32g/リットル",
+      "50g/リットル超"
+    ],
+    "answerIndex": 3,
+    "explanation": "Douxは50g/L超です。"
+  },
+  {
+    "id": "intro-081",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone Bに属するワイン産地を選択してください。",
+    "choices": [
+      "フランス（アルザス）",
+      "フランス（ボルドー）",
+      "ドイツ",
+      "フランス（ブルゴーニュ）"
+    ],
+    "answerIndex": 0,
+    "explanation": "フランスのアルザスはZone Bに属します。"
+  },
+  {
+    "id": "intro-082",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中からブドウに由来する酸を選択してください。",
+    "choices": [
+      "炭酸",
+      "コハク酸",
+      "クエン酸",
+      "ガラクチュロン酸"
+    ],
+    "answerIndex": 2,
+    "explanation": "クエン酸はブドウに由来する酸です。"
+  },
+  {
+    "id": "intro-083",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から「甘味果実酒」に分類されるものを選択してください。",
+    "choices": [
+      "パスティス",
+      "アマレット",
+      "ソーテルヌ",
+      "ポート"
+    ],
+    "answerIndex": 3,
+    "explanation": "ポートは甘味果実酒に分類されます。"
+  },
+  {
+    "id": "intro-084",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "AOP、IGPのEUのシンボルマーク",
+      "収穫年",
+      "生産方法に関する記述",
+      "スパークリングワインの場合は残糖量"
+    ],
+    "answerIndex": 3,
+    "explanation": "スパークリングワインの場合、残糖量表示は義務記載事項です。"
+  },
+  {
+    "id": "intro-085",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "VDL(Vin de Liqueur)",
+      "Perlwein",
+      "Frizzante",
+      "Sangria"
+    ],
+    "answerIndex": 0,
+    "explanation": "VDLはフォーティファイド・ワインに該当します。"
+  },
+  {
+    "id": "intro-086",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインExtra Secの残糖量を選択してください。",
+    "choices": [
+      "12〜17g/リットル",
+      "17〜32g/リットル",
+      "3g/リットル未満",
+      "0〜6g/リットル"
+    ],
+    "answerIndex": 0,
+    "explanation": "Extra Secの残糖量は12〜17g/Lです。"
+  },
+  {
+    "id": "intro-087",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Sangria",
+      "Madeira",
+      "Port wine",
+      "Pétillant"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sangriaはフレーバード・ワインに該当します。"
+  },
+  {
+    "id": "intro-088",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年の世界のワイン生産量の中でスペインが占める割合を選択してください。",
+    "choices": [
+      "18.9%",
+      "13.7%",
+      "17.4%",
+      "22.3%"
+    ],
+    "answerIndex": 1,
+    "explanation": "2022年の世界ワイン生産量でスペインの割合は13.7%です。"
+  },
+  {
+    "id": "intro-089",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「果実以外が原料の蒸留酒類」に分類されるものを選択してください。",
+    "choices": [
+      "ウイスキー",
+      "清酒",
+      "粉末酒",
+      "ブランデー"
+    ],
+    "answerIndex": 0,
+    "explanation": "ウイスキーは果実以外が原料の蒸留酒類です。"
+  },
+{
+  "id": "cultivation-001",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「Taille」の意味を選択してください。",
+  "choices": [
+    "新梢の固定",
+    "剪定",
+    "展葉",
+    "萌芽"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「剪定」です。"
+},
+{
+  "id": "cultivation-002",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次のブドウ原品種の中からワイン醸造に適している品種を選択してください。",
+  "choices": [
+    "ヴィティス・アムレンシス",
+    "ヴィティス・ヴィニフェラ",
+    "ヴィティス・サルタナ",
+    "ヴィティス・ラブルスカ"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「ヴィティス・ヴィニフェラ」です。"
+},
+{
+  "id": "cultivation-003",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からボトルに残ったワインを保存する時に吹き込むガスとして、最も効果的なものを選択してください。",
+  "choices": [
+    "炭酸ガス",
+    "アルゴン",
+    "酸素",
+    "窒素"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「アルゴン」です。"
+},
+{
+  "id": "cultivation-004",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の土壌の分類の中から「粒径0.02mm〜2.0mm」に相当するものを選択してください。",
+  "choices": [
+    "粘土",
+    "礫",
+    "シルト",
+    "砂"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「砂」です。"
+},
+{
+  "id": "cultivation-005",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるRipe rotに有効な対処法を選択してください。",
+  "choices": [
+    "苗木の組織を培養し無菌状態で成長させて畑に移す",
+    "ボルドー液の散布",
+    "罹病結果母枝や巻きひげを園内から取り除く",
+    "耐性を有する北米系品種を台木とした接木苗"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「罹病結果母枝や巻きひげを園内から取り除く」です。"
+},
+{
+  "id": "cultivation-006",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の特徴を持つブドウの香り成分を選択してください。\n「熟する前のブドウが持つ、青臭くピーマンを連想させる香り成分」",
+  "choices": [
+    "IBMP",
+    "3MH",
+    "フラネオール",
+    "ロタンドン"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「IBMP」です。"
+},
+{
+  "id": "cultivation-007",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から日本の仕立て方「ハヤシスマート」のベースとなる仕立て方を選択してください。",
+  "choices": [
+    "株仕立て",
+    "垣根仕立て",
+    "棒仕立て",
+    "棚仕立て"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「棚仕立て」です。"
+},
+{
+  "id": "cultivation-008",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から樽の内面をローストすることで生成する、クローブやナツメグの香りを持つ化合物を選択してください。",
+  "choices": [
+    "オイゲノール",
+    "ヴァニリン",
+    "オークラクトン",
+    "チロース"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「オイゲノール」です。"
+},
+{
+  "id": "cultivation-009",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
+  "choices": [
+    "Millerandage",
+    "Downy mildew",
+    "Pierce's Disease",
+    "Crown gall"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Downy mildew」です。"
+},
+{
+  "id": "cultivation-010",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "収穫, 成熟, 蕾, 萌芽",
+    "展葉, 夏期剪定, 着色, 収穫",
+    "萌芽, 収穫, 剪定, 夏期剪定",
+    "着色, 開花, 萌芽, 夏期剪定"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「展葉, 夏期剪定, 着色, 収穫」です。"
+},
+{
+  "id": "cultivation-011",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるOïdiumに有効な対処法を選択してください。",
+  "choices": [
+    "耐性を有する北米系品種を台木とした接木苗",
+    "ボルドー液の散布",
+    "苗木の組織を培養し無菌状態で成長させて畑に移す",
+    "開花時に硫黄を含んだ農薬を散布"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「開花時に硫黄を含んだ農薬を散布」です。"
+},
+{
+  "id": "cultivation-012",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からワインのクロージャーで、スクリューキャップ方式の栓を選択してください。",
+  "choices": [
+    "Stelvin",
+    "Nomacork",
+    "DIAM",
+    "Vinolok"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Stelvin」です。"
+},
+{
+  "id": "cultivation-013",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「ボトリティス・シネレアと呼ばれるカビが、湿度の高い環境下で花、葉、果実に生じる。黒ブドウでは色素を破壊し、赤ワインの着色不良を生じる。」",
+  "choices": [
+    "Mildiou",
+    "Gray mold",
+    "Powdery mildew",
+    "Ripe rot"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Gray mold」です。"
+},
+{
+  "id": "cultivation-014",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次のブドウ原品種の中から強いフィロキセラ耐性があり台木として用いられている品種を選択してください。",
+  "choices": [
+    "ヴィティス・リパリア",
+    "ヴィティス・コワニティ",
+    "ヴィティス・アムレンシス",
+    "ヴィティス・ダヴィディ"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ヴィティス・リパリア」です。"
+},
+{
+  "id": "cultivation-015",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からワイン瓶詰め前の冷却処理の主な目的を選択してください。",
+  "choices": [
+    "リンゴ酸を乳酸に変化させる",
+    "瓶詰め後の酒石の析出を防ぐ",
+    "ワインの色素を安定化させる",
+    "ワインが還元的になるのを防ぐ"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「瓶詰め後の酒石の析出を防ぐ」です。"
+},
+{
+  "id": "cultivation-016",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「夏期剪定」を表すフランス語を選択してください。",
+  "choices": [
+    "Rognage",
+    "Pleurs",
+    "Vendange",
+    "Floraison"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Rognage」です。"
+},
+{
+  "id": "cultivation-017",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の特徴を持つブドウの香り成分を選択してください。\n「シラーに含まれる胡椒の香りの元となる物質で、グリューナー・ヴェルトリーナーなど他のブドウにも含まれている。」",
+  "choices": [
+    "ロタンドン",
+    "フラネオール",
+    "チオール化合物",
+    "IBMP"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ロタンドン」です。"
+},
+{
+  "id": "cultivation-018",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の土壌の分類の中から「粒径0.002mm以下」に相当するものを選択してください。",
+  "choices": [
+    "シルト",
+    "粘土",
+    "砂",
+    "礫"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「粘土」です。"
+},
+{
+  "id": "cultivation-019",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から樽育成の効果として最も適切なものを選択してください。",
+  "choices": [
+    "穏やかなワインと空気との接触",
+    "ダイアセチルなどの香りにより複雑性を増す",
+    "果醪に酸素を供給する",
+    "糖分、酵母、温度を平均化する"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「穏やかなワインと空気との接触」です。"
+},
+{
+  "id": "cultivation-020",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの仕立て方として垣根仕立てが良く用いられている地域として最も適切なものを選択してください。",
+  "choices": [
+    "ブルゴーニュ",
+    "南フランス",
+    "リアス・バイシャス",
+    "モーゼル"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ブルゴーニュ」です。"
+},
+{
+  "id": "cultivation-021",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
+  "choices": [
+    "Crown gall",
+    "Pierce's Disease",
+    "Millerandage",
+    "Mildiou"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Mildiou」です。"
+},
+{
+  "id": "cultivation-022",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウ収穫時における手摘みの短所を選択してください。",
+  "choices": [
+    "ブドウが傷つきやすい",
+    "選果が可能である",
+    "作業時間を短縮できる",
+    "労働コストが高い"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「労働コストが高い」です。"
+},
+{
+  "id": "cultivation-023",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるDowny mildewに有効な対処法を選択してください。",
+  "choices": [
+    "耐性を有する北米系品種を台木とした接木苗",
+    "罹病結果母枝や巻きひげを園内から取り除く",
+    "ボルドー液の散布",
+    "ベンレート（ベノミル剤）を散布"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ボルドー液の散布」です。"
+},
+{
+  "id": "cultivation-024",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からマロラクティック発酵の効果として最も適切なものを選択してください。",
+  "choices": [
+    "穏やかなワインと空気との接触",
+    "フェノール成分の重合による沈殿",
+    "ダイアセチルなどの香りにより複雑性を増す",
+    "衛生管理を容易にする"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ダイアセチルなどの香りにより複雑性を増す」です。"
+},
+{
+  "id": "cultivation-025",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に最も良く合致する醸造用語を選択してください。\n「樽育成中に樽の中の澱を撹拌して、酵母とワインの接触を増やす。」",
+  "choices": [
+    "Bâtonnage",
+    "Triage",
+    "Séchage",
+    "Pigeage"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Bâtonnage」です。"
+},
+{
+  "id": "cultivation-026",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "蕾, 結実, 成熟, 収穫",
+    "剪定, 収穫, 蕾, 展葉",
+    "夏期剪定, 萌芽, 結実, 剪定",
+    "開花, 夏期剪定, 収穫, 樹液の溢出"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「蕾, 結実, 成熟, 収穫」です。"
+},
+{
+  "id": "cultivation-027",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からドイツのロートリングの製法を選択してください。",
+  "choices": [
+    "セニエ法",
+    "混醸法",
+    "ブレンド法",
+    "直接圧搾法"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「混醸法」です。"
+},
+{
+  "id": "cultivation-028",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの仕立て方として棒仕立てが良く用いられている地域として最も適切なものを選択してください。",
+  "choices": [
+    "モーゼル",
+    "ブルゴーニュ",
+    "リアス・バイシャス",
+    "ボルドー"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「モーゼル」です。"
+},
+{
+  "id": "cultivation-029",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から天然コルクの世界最大の供給国を選択してください。",
+  "choices": [
+    "ポルトガルとイタリア",
+    "ポルトガルとフランス",
+    "ポルトガルとスロヴェニア",
+    "ポルトガルとスペイン"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「ポルトガルとスペイン」です。"
+},
+{
+  "id": "cultivation-030",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「開花」を表すフランス語を選択してください。",
+  "choices": [
+    "Pleurs",
+    "Nouaison",
+    "Floraison",
+    "Accolage"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Floraison」です。"
+},
+{
+  "id": "cultivation-031",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からマロラクティック発酵の効果として最も適切なものを選択してください。",
+  "choices": [
+    "酸化を防止する",
+    "赤ワインの色調の安定化",
+    "瓶詰め後の微生物学的安定性が増す",
+    "衛生管理を容易にする"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「瓶詰め後の微生物学的安定性が増す」です。"
+},
+{
+  "id": "cultivation-032",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からスパークリングワインの製法Méthode traditionnelleの別名を選択してください。",
+  "choices": [
+    "Méthode cuvée close",
+    "Méthode ancestrale",
+    "Méthode champenoise",
+    "Méthode ancienne"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Méthode champenoise」です。"
+},
+{
+  "id": "cultivation-033",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの仕立て方を選択してください。\n「急斜面で畑を栽培者が上下左右に動き易いように用いられる仕立て方。左右2本の長梢をとり、主幹に添えた支柱を中心にハート型になるようにしばりつける。」",
+  "choices": [
+    "株仕立て",
+    "垣根仕立て",
+    "棒仕立て",
+    "棚仕立て"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「棒仕立て」です。"
+},
+{
+  "id": "cultivation-034",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からフランス語の醸造用語Collageの英語名として適切なものを選択してください。",
+  "choices": [
+    "Punching down",
+    "Fining",
+    "Aging",
+    "Sorting"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Fining」です。"
+},
+{
+  "id": "cultivation-035",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から一般的な赤ワインの発酵温度を選択してください。",
+  "choices": [
+    "約30℃",
+    "約10℃",
+    "約40℃",
+    "約20℃"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「約30℃」です。"
+},
+{
+  "id": "cultivation-036",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からワイン用ブドウ栽培に最も適している南半球の緯度を選択してください。",
+  "choices": [
+    "20〜40度",
+    "15〜35度",
+    "10〜30度",
+    "30〜50度"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「30〜50度」です。"
+},
+{
+  "id": "cultivation-037",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「縦型の大きな密閉ステンレスタンクに収穫した黒ブドウを破砕せずにそのままいっぱいに詰め、二酸化炭素を充満させて数日置く。」",
+  "choices": [
+    "Macération carbonique",
+    "Cryo-extraction",
+    "Macération à chaud",
+    "Micro-bullage"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Macération carbonique」です。"
+},
+{
+  "id": "cultivation-038",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるウイルス病に有効な対処法を選択してください。",
+  "choices": [
+    "ボルドー液の散布",
+    "ベンレート（ベノミル剤）を散布",
+    "苗木の組織を培養し無菌状態で成長させて畑に移す",
+    "罹病結果母枝や巻きひげを園内から取り除く"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「苗木の組織を培養し無菌状態で成長させて畑に移す」です。"
+},
+{
+  "id": "cultivation-039",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からステンレス・タンクの利点として最も適切なものを選択してください。",
+  "choices": [
+    "酸化を防止する",
+    "温度管理を容易にする",
+    "瓶詰め後の微生物学的安定性が増す",
+    "ダイアセチルなどの香りにより複雑性を増す"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「温度管理を容易にする」です。"
+},
+{
+  "id": "cultivation-040",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "北半球におけるブドウの生育サイクルで、Tailleが行われる最も一般的な時期を選択してください。",
+  "choices": [
+    "9〜10月",
+    "8〜9月",
+    "11〜12月",
+    "1〜3月"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「11〜12月」です。"
+},
+{
+  "id": "cultivation-041",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるRipe rotに有効な対処法を選択してください。",
+  "choices": [
+    "ボルドー液の散布",
+    "苗木の組織を培養し無菌状態で成長させて畑に移す",
+    "ベンレート（ベノミル剤）を散布",
+    "開花時に硫黄を含んだ農薬を散布"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ベンレート（ベノミル剤）を散布」です。"
+},
+{
+  "id": "cultivation-042",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「若枝または生育中のブドウ果粒が白い粉状の胞子で覆われてしまい、果粒の表皮成長が妨げられるが果肉は成長し続ける。そのため、ブドウ果粒が裂かれ、果粒はミイラ化あるいは腐敗の原因となる。」",
+  "choices": [
+    "Mildiou",
+    "Pourriture grise",
+    "Powdery mildew",
+    "Ripe rot"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Powdery mildew」です。"
+},
+{
+  "id": "cultivation-043",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで主に休眠期に実施する作業を選択してください。",
+  "choices": [
+    "新梢の固定",
+    "肥料散布",
+    "畝くずし",
+    "夏期剪定"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「肥料散布」です。"
+},
+{
+  "id": "cultivation-044",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「赤ワインの果醪を70℃前後に加熱し一定時間保持した後、圧搾し果汁を常温まで下げてから発酵させる醸造法。」",
+  "choices": [
+    "Macération préfermentaire à froid",
+    "Macération préfermentaire à chaud",
+    "Macération finale à chaud",
+    "Macération finale à froid"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Macération préfermentaire à chaud」です。"
+},
+{
+  "id": "cultivation-045",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からスパークリングワインの製法Méthode ruraleの別名を選択してください。",
+  "choices": [
+    "Méthode champenoise",
+    "Méthode ancestrale",
+    "Méthode de transfert",
+    "Méthode ancienne"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Méthode ancestrale」です。"
+},
+{
+  "id": "cultivation-046",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの仕立て方を選択してください。\n「主幹上部に短梢を数本残す。新梢を針金や棒に固定しないため、結果枝は過剰な伸長をしない。」",
+  "choices": [
+    "棒仕立て",
+    "垣根仕立て",
+    "株仕立て",
+    "棚仕立て"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「株仕立て」です。"
+}
 ];

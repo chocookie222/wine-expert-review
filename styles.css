@@ -57,6 +57,7 @@ select {
 
 button {
   -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .app-shell {
@@ -97,13 +98,25 @@ h1 {
 }
 
 .icon-button {
-  width: 44px;
-  height: 44px;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  place-items: center;
   border: 1px solid rgba(113, 24, 42, 0.2);
   border-radius: 50%;
   color: var(--accent-dark);
   background: rgba(255, 253, 249, 0.74);
   box-shadow: 0 8px 18px rgba(53, 36, 29, 0.08);
+}
+
+.icon-button span {
+  pointer-events: none;
+  font-size: 1.18rem;
+  line-height: 1;
 }
 
 .panel {
@@ -152,6 +165,7 @@ select {
 
 .status-strip > div,
 .question-card,
+.result-card,
 .empty-state,
 .stat-row,
 .saved-tile,
@@ -424,6 +438,10 @@ select {
   margin-top: 16px;
 }
 
+.review-action {
+  grid-column: 1 / -1;
+}
+
 .primary,
 .secondary,
 .text-button {
@@ -465,6 +483,47 @@ select {
 .empty-state {
   padding: 28px 20px;
   text-align: center;
+}
+
+.result-card {
+  padding: 22px 18px;
+  text-align: center;
+}
+
+.result-card h2 {
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+}
+
+.result-score {
+  display: grid;
+  gap: 4px;
+  margin: 0 auto 14px;
+  border-radius: 8px;
+  padding: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--leaf));
+}
+
+.result-score strong {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.result-score span {
+  font-weight: 850;
+}
+
+.result-card p:not(.eyebrow) {
+  margin-bottom: 16px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.result-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .glass-mark {
