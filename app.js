@@ -30,6 +30,7 @@
       importance: "all",
       category: "all"
     },
+    importanceOverrides: {},
     currentIndex: 0,
     selectedId: null
   };
@@ -62,6 +63,7 @@
     emptyState: document.getElementById("emptyState"),
     categoryBadge: document.getElementById("categoryBadge"),
     importanceBadge: document.getElementById("importanceBadge"),
+    importanceEditor: document.getElementById("importanceEditor"),
     questionText: document.getElementById("questionText"),
     questionImageBox: document.getElementById("questionImageBox"),
     questionImage: document.getElementById("questionImage"),
@@ -107,7 +109,8 @@
       return {
         ...defaultState,
         ...saved,
-        filters: { ...defaultState.filters, ...(saved && saved.filters) }
+        filters: { ...defaultState.filters, ...(saved && saved.filters) },
+        importanceOverrides: { ...defaultState.importanceOverrides, ...(saved && saved.importanceOverrides) }
       };
     } catch (error) {
       return cloneDefaultState();
@@ -183,6 +186,12 @@
       renderSaved();
     });
 
+    els.importanceEditor.addEventListener("change", () => {
+      const question = getCurrentQuestion();
+      if (!question) return;
+      setQuestionImportance(question.id, els.importanceEditor.value);
+    });
+
     els.resetSessionButton.addEventListener("click", () => {
       state.currentIndex = 0;
       answered = false;
@@ -207,6 +216,22 @@
 
     els.wrongModeButton.addEventListener("click", () => switchMode("wrong"));
     els.reviewModeButton.addEventListener("click", () => switchMode("review"));
+
+    els.savedList.addEventListener("click", (event) => {
+      const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
+      const button = target && target.closest("[data-saved-action]");
+      if (!button) return;
+      const id = button.dataset.questionId;
+      if (!id) return;
+      if (button.dataset.savedAction === "remove-wrong") {
+        removeWrong(id);
+      } else if (button.dataset.savedAction === "toggle-review") {
+        toggleReview(id);
+      }
+      renderQuiz();
+      renderStats();
+      renderSaved();
+    });
 
     els.choices.addEventListener("click", (event) => {
       const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
@@ -290,7 +315,7 @@
       : questions;
 
     currentSet = sourceQuestions.filter((question) => {
-      if (state.filters.importance !== "all" && question.importance !== state.filters.importance) return false;
+      if (state.filters.importance !== "all" && getQuestionImportance(question) !== state.filters.importance) return false;
       if (categoryFilter !== "all" && !isMixed && question.category !== categoryFilter) return false;
       if (state.filters.mode === "wrong" && !state.wrongIds.includes(question.id)) return false;
       if (state.filters.mode === "review" && !state.reviewIds.includes(question.id)) return false;
@@ -338,8 +363,10 @@
     els.emptyState.hidden = true;
     answered = Boolean(sessionAnswers[question.id]);
     els.categoryBadge.textContent = isMixedCategory(state.filters.category) ? state.filters.category : question.category;
-    els.importanceBadge.textContent = `重要度 ${question.importance}`;
-    els.importanceBadge.dataset.importance = question.importance;
+    const importance = getQuestionImportance(question);
+    els.importanceBadge.textContent = `重要度 ${importance}`;
+    els.importanceBadge.dataset.importance = importance;
+    els.importanceEditor.value = importance;
     els.questionText.textContent = question.question;
     renderQuestionImage(question);
     els.explanationText.textContent = question.explanation;
@@ -622,10 +649,16 @@
         return `
           <article class="saved-item">
             <div>
-              <span>${escapeHtml(question.category)}・重要度${escapeHtml(question.importance)}</span>
+              <span>${escapeHtml(question.category)}・重要度${escapeHtml(getQuestionImportance(question))}</span>
               <strong>${escapeHtml(question.question)}</strong>
             </div>
             <small>${tags.map(escapeHtml).join(" / ")}</small>
+            <div class="saved-actions">
+              ${state.wrongIds.includes(id) ? `<button class="text-button" type="button" data-saved-action="remove-wrong" data-question-id="${escapeHtml(id)}">誤答を解除</button>` : ""}
+              <button class="text-button" type="button" data-saved-action="toggle-review" data-question-id="${escapeHtml(id)}">
+                ${state.reviewIds.includes(id) ? "復習から外す" : "復習に追加"}
+              </button>
+            </div>
           </article>
         `;
       })
@@ -639,6 +672,36 @@
       state.reviewIds.push(id);
     }
     saveState();
+  }
+
+  function removeWrong(id) {
+    state.wrongIds = state.wrongIds.filter((savedId) => savedId !== id);
+    if (state.filters.mode === "wrong") {
+      rebuildSet();
+    }
+    saveState();
+  }
+
+  function setQuestionImportance(id, importance) {
+    if (!["S", "A", "B", "C"].includes(importance)) return;
+    const question = questions.find((item) => item.id === id);
+    if (!question) return;
+    if (question.importance === importance) {
+      delete state.importanceOverrides[id];
+    } else {
+      state.importanceOverrides[id] = importance;
+    }
+    if (state.filters.importance !== "all") {
+      rebuildSet();
+    }
+    saveState();
+    populateCategories();
+    syncFiltersToControls();
+    renderAll();
+  }
+
+  function getQuestionImportance(question) {
+    return state.importanceOverrides[question.id] || question.importance || "A";
   }
 
   function getCurrentQuestion() {

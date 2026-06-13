@@ -231,7 +231,7 @@ select {
   margin-bottom: 14px;
 }
 
-.question-meta span {
+.question-meta > span {
   display: inline-flex;
   min-height: 28px;
   align-items: center;
@@ -247,12 +247,39 @@ select {
   background: var(--gold);
 }
 
+#importanceBadge[data-importance="S"] {
+  background: var(--accent-dark);
+}
+
 #importanceBadge[data-importance="A"] {
   background: var(--accent);
 }
 
 #importanceBadge[data-importance="B"] {
   background: var(--leaf);
+}
+
+.importance-editor {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 8px 0 10px;
+  background: rgba(255, 253, 249, 0.94);
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 850;
+}
+
+.importance-editor select {
+  min-height: 24px;
+  border: 0;
+  color: var(--accent-dark);
+  background: transparent;
+  font: inherit;
+  font-weight: 900;
 }
 
 .question-card h2 {
@@ -669,6 +696,19 @@ select {
   margin-top: 8px;
   color: var(--accent-dark);
   font-weight: 900;
+}
+
+.saved-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.saved-actions .text-button {
+  min-height: 34px;
+  padding: 0 10px;
+  font-size: 0.78rem;
 }
 
 .bottom-nav {

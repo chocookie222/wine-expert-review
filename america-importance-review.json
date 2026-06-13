@@ -1,0 +1,734 @@
+[
+  {
+    "id": "usa-001",
+    "question": "次の中から米国オレゴン州で最も冷涼な気候で、良質のピノ・ノワールを生産しているAVAを選択してください。",
+    "importance": "S",
+    "reason": "Willamette Valley = Pinot Noir は頻出の基本セット。"
+  },
+  {
+    "id": "usa-002",
+    "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Sonoma Countyの主要AVA判別は頻出。Petaluma Gapは周辺知識。"
+  },
+  {
+    "id": "usa-003",
+    "question": "次の中から米国ニューヨーク州で2019年1月に承認された新しいAVAを選択してください。",
+    "importance": "C",
+    "reason": "新設AVA名の暗記で優先度が低い。"
+  },
+  {
+    "id": "usa-004",
+    "question": "次の中から米国のテーブルワインの規定アルコール度数を選択してください。",
+    "importance": "A",
+    "reason": "米国ワイン法の基本数字で実戦上重要。"
+  },
+  {
+    "id": "usa-005",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "S",
+    "reason": "パリスの審判1976年とNapaの成果は最重要論点。"
+  },
+  {
+    "id": "usa-006",
+    "question": "次の中から米国ワシントン州で1850年代からブドウ栽培が始まったパイオニア的ワイナリーが多く存在する地区で、特にシラーが高い評価を受けているAVAを選択してください。",
+    "importance": "B",
+    "reason": "Walla Walla Valleyは出題可能だがS/A主要AVAより優先度は下がる。"
+  },
+  {
+    "id": "usa-007",
+    "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第1位の品種を選択してください。",
+    "importance": "A",
+    "reason": "Californiaの主要品種順位は頻出寄り。"
+  },
+  {
+    "id": "usa-008",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSan Diegoに相当する番号を選択してください。",
+    "importance": "C",
+    "reason": "地図上の細かい位置問題で優先度が低い。"
+  },
+  {
+    "id": "usa-009",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Willamette ValleyのサブAVAは出る可能性はあるが細かい。"
+  },
+  {
+    "id": "usa-010",
+    "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Napa山側AVAの位置関係は周辺知識。"
+  },
+  {
+    "id": "usa-011",
+    "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Sonoma Countyの主要AVA判別は頻出。"
+  },
+  {
+    "id": "usa-012",
+    "question": "次の中から米国ワシントン州とアイダホ州にまたがるAVAを選択してください。",
+    "importance": "C",
+    "reason": "Lewis-Clark Valleyは細かい州境AVA。"
+  },
+  {
+    "id": "usa-013",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でChamplain Valley of New Yorkに相当する番号を選択してください。",
+    "importance": "C",
+    "reason": "New Yorkの細かい地図番号問題。"
+  },
+  {
+    "id": "usa-014",
+    "question": "次の中から米国ワシントン州で最も生産量の多い白ブドウ品種を選択してください。",
+    "importance": "B",
+    "reason": "Washingtonの主要品種は押さえたいが最優先ではない。"
+  },
+  {
+    "id": "usa-015",
+    "question": "次の中から米国ニューヨーク州に属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "New YorkのAVA判別はFinger Lakes以外は優先度中。"
+  },
+  {
+    "id": "usa-016",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で2番のカウンティ名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "California地図の番号入力で暗記効率が低い。"
+  },
+  {
+    "id": "usa-017",
+    "question": "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Southern OregonのサブAVAは出題可能だが周辺知識。"
+  },
+  {
+    "id": "usa-018",
+    "question": "次の中から米国カリフォルニア州サザン・カリフォルニア地区で最も南に位置するカウンティを選択してください。",
+    "importance": "C",
+    "reason": "Southern Californiaのカウンティ位置は細かい。"
+  },
+  {
+    "id": "usa-019",
+    "question": "次の中から米国の2023年の国内ワイン消費量順位を選択してください。",
+    "importance": "C",
+    "reason": "年度つき消費量順位は変動しやすく優先度が低い。"
+  },
+  {
+    "id": "usa-020",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "S",
+    "reason": "パリスの審判の開催者Stephen Spurrierは頻出基本。"
+  },
+  {
+    "id": "usa-021",
+    "question": "次の中から米国ヴァージニア州で最も生産量の多い黒ブドウ品種を選択してください。",
+    "importance": "B",
+    "reason": "Virginiaの主要品種は出題可能だが主要州より優先度は下がる。"
+  },
+  {
+    "id": "usa-022",
+    "question": "次の中から米国でワイン生産量が第4位の州を選択してください。",
+    "importance": "C",
+    "reason": "州別生産量順位の細かい数字問題。"
+  },
+  {
+    "id": "usa-023",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Willamette ValleyサブAVAは周辺知識。"
+  },
+  {
+    "id": "usa-024",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFのワイン・リージョン名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "California広域地図の記号入力で細かい。"
+  },
+  {
+    "id": "usa-025",
+    "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "OregonにまたがるAVA判別は出題可能。"
+  },
+  {
+    "id": "usa-026",
+    "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
+    "importance": "B",
+    "reason": "Central Coastの郡判別は基礎寄りの地理。"
+  },
+  {
+    "id": "usa-027",
+    "question": "次の中から米国オレゴン州で、「AVA名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
+    "importance": "A",
+    "reason": "Oregon独自のAVA表示比率は法規の重要周辺知識。"
+  },
+  {
+    "id": "usa-028",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCarneros/Los Carnerosに相当する番号を選択してください。",
+    "importance": "B",
+    "reason": "Carnerosは重要だが地図番号問題なので一段下げ。"
+  },
+  {
+    "id": "usa-029",
+    "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Napa CountyサブAVAの判別は周辺知識。"
+  },
+  {
+    "id": "usa-030",
+    "question": "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。",
+    "importance": "B",
+    "reason": "North Coastのカウンティ判別は基本地理。"
+  },
+  {
+    "id": "usa-031",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でHudson River Regionに相当する番号を選択してください。",
+    "importance": "C",
+    "reason": "New Yorkの細かい地図番号問題。"
+  },
+  {
+    "id": "usa-032",
+    "question": "次の中から米国カリフォルニア州のワイン産出カウンティを北から南の順序で正しく並べたものを選択してください。",
+    "importance": "C",
+    "reason": "カウンティの南北順は細かい地理暗記。"
+  },
+  {
+    "id": "usa-033",
+    "question": "次の中から米国でブドウ栽培面積が第3位の州を選択してください。",
+    "importance": "C",
+    "reason": "栽培面積順位の細かい数字問題。"
+  },
+  {
+    "id": "usa-034",
+    "question": "次の中からアメリカ合衆国が独立を宣言し誕生した年代を選択してください。",
+    "importance": "C",
+    "reason": "一般史の年号でワイン頻出論点ではない。"
+  },
+  {
+    "id": "usa-035",
+    "question": "次の中から米国ニューヨーク州で穏やかな海洋性気候に恵まれたAVAを選択してください。",
+    "importance": "B",
+    "reason": "Long Islandは出題可能だがFinger Lakesより優先度は低い。"
+  },
+  {
+    "id": "usa-036",
+    "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Ancient LakesはWashingtonの細かいAVA。"
+  },
+  {
+    "id": "usa-037",
+    "question": "次の中から2025年8月現在、米国カリフォルニア州に存在するAVAの数を選択してください。",
+    "importance": "C",
+    "reason": "AVA総数は年度で変動する細かい数字。"
+  },
+  {
+    "id": "usa-038",
+    "question": "次の中から米国オレゴン州で、「州名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
+    "importance": "A",
+    "reason": "Oregonの州名表示比率は法規の重要周辺知識。"
+  },
+  {
+    "id": "usa-039",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "C",
+    "reason": "Wine Instituteなど細かい歴史知識。"
+  },
+  {
+    "id": "usa-040",
+    "question": "次の中から米国の州をワイン生産量の多い順に正しく並べたものを選択してください。",
+    "importance": "C",
+    "reason": "州別生産量順は細かく変動しやすい。"
+  },
+  {
+    "id": "usa-041",
+    "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第3位の品種を選択してください。",
+    "importance": "B",
+    "reason": "California白品種順位の細部。"
+  },
+  {
+    "id": "usa-042",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でAのワイン・リージョン名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "California広域地図の記号入力で細かい。"
+  },
+  {
+    "id": "usa-043",
+    "question": "次の中から米国ワシントン州で最初に認可されたAVAを選択してください。",
+    "importance": "A",
+    "reason": "Yakima ValleyはWashingtonの基本AVA。"
+  },
+  {
+    "id": "usa-044",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でNorth Coastに相当する記号を選択してください。",
+    "importance": "A",
+    "reason": "North CoastはCalifornia地図問題で重要な広域区分。"
+  },
+  {
+    "id": "usa-045",
+    "question": "次の中から米国カリフォルニア州で、ナパ・ヴァレー西端にある山を選択してください。",
+    "importance": "B",
+    "reason": "Napa周辺山脈の位置関係は周辺知識。"
+  },
+  {
+    "id": "usa-046",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFar North Californiaに相当する記号を選択してください。",
+    "importance": "C",
+    "reason": "Far North Californiaの地図記号は細かい。"
+  },
+  {
+    "id": "usa-047",
+    "question": "次の中から米国カリフォルニア州、Lodi AVAを歴史的にも代表する品種を選択してください。",
+    "importance": "S",
+    "reason": "Lodi = Zinfandel は頻出の基本セット。"
+  },
+  {
+    "id": "usa-048",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上で1番のA.V.A名をカタカナで入力してください。",
+    "importance": "B",
+    "reason": "New York地図問題だが主要AVA確認として中程度。"
+  },
+  {
+    "id": "usa-049",
+    "question": "次の中から米国ヴァージニア州北部、ワシントンDCの西約80kmに位置するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Virginiaの細かいAVA。"
+  },
+  {
+    "id": "usa-050",
+    "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Puget SoundはWashingtonの周辺AVA。"
+  },
+  {
+    "id": "usa-051",
+    "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
+    "importance": "B",
+    "reason": "Central Coastの郡判別は出題可能。"
+  },
+  {
+    "id": "usa-052",
+    "question": "次の中から米国カリフォルニア州セントラル・コースト地区で最も南に位置するカウンティを選択してください。",
+    "importance": "A",
+    "reason": "Santa Barbara Countyは頻出のCentral Coast地理。"
+  },
+  {
+    "id": "usa-053",
+    "question": "次の中から米国（オレゴン州を除く）で、「品種名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
+    "importance": "S",
+    "reason": "米国の品種表示75%は最重要法規。"
+  },
+  {
+    "id": "usa-054",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "A",
+    "reason": "Washingtonのワイナリー数やParis関連を含む主要州の概論。"
+  },
+  {
+    "id": "usa-055",
+    "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "NapaサブAVAの判別は周辺知識。"
+  },
+  {
+    "id": "usa-056",
+    "question": "次の中から米国オレゴン州、コロンビア・ヴァレー流域で初の、オレゴン側に100%含まれる新設されたAVAを選択してください。",
+    "importance": "B",
+    "reason": "The Rocks DistrictはWalla Walla関連で出題可能。"
+  },
+  {
+    "id": "usa-057",
+    "question": "次の中から米国でワイン生産量が第2位の州を選択してください。",
+    "importance": "C",
+    "reason": "州別生産量順位の数字問題。"
+  },
+  {
+    "id": "usa-058",
+    "question": "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。",
+    "importance": "C",
+    "reason": "Southern OregonサブAVAの細かい判別。"
+  },
+  {
+    "id": "usa-059",
+    "question": "次の中から長い間、米国のジンファンデルと同じであると見なされていた品種を選択してください。",
+    "importance": "S",
+    "reason": "Zinfandel = Primitivo は頻出シノニム。"
+  },
+  {
+    "id": "usa-060",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSierra Foothillsに相当する記号を選択してください。",
+    "importance": "C",
+    "reason": "California広域地図の記号問題。"
+  },
+  {
+    "id": "usa-061",
+    "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Howell MountainはBランク相当のNapa山側AVA。"
+  },
+  {
+    "id": "usa-062",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Eola-Amity HillsはWillamette周辺知識。"
+  },
+  {
+    "id": "usa-063",
+    "question": "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第2位のものを選択してください。",
+    "importance": "A",
+    "reason": "California主要品種Cabernet Sauvignonの順位問題。"
+  },
+  {
+    "id": "usa-064",
+    "question": "次の中からクリストファー・コロンブスがアメリカ大陸を発見した年代を選択してください。",
+    "importance": "C",
+    "reason": "一般史年号で一次頻出のワイン論点ではない。"
+  },
+  {
+    "id": "usa-065",
+    "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Alexander ValleyはSonoma Countyの代表的AVA。"
+  },
+  {
+    "id": "usa-066",
+    "question": "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションを選択してください。",
+    "importance": "C",
+    "reason": "Yakima Valleyの細かいサブAVA。"
+  },
+  {
+    "id": "usa-067",
+    "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
+    "importance": "A",
+    "reason": "Santa Barbara Countyは頻出地理。"
+  },
+  {
+    "id": "usa-068",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でInland Valleysに相当する記号を選択してください。",
+    "importance": "C",
+    "reason": "California広域地図の記号問題。"
+  },
+  {
+    "id": "usa-069",
+    "question": "次の中から米国カリフォルニア州サザン・カリフォルニア地区に属するカウンティを選択してください。",
+    "importance": "C",
+    "reason": "Southern Californiaのカウンティ判別は細かい。"
+  },
+  {
+    "id": "usa-070",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCalistogaに相当する番号を選択してください。",
+    "importance": "B",
+    "reason": "CalistogaはNapaサブAVAだが地図番号なので中程度。"
+  },
+  {
+    "id": "usa-071",
+    "question": "次の中から米国カリフォルニア州でNapa County, Sonoma County両方に属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "CarnerosはNapa/Sonomaにまたがる重要AVA。"
+  },
+  {
+    "id": "usa-072",
+    "question": "次の中から米国ニューヨーク州のFinger Lakes AVAのサブ・アペレーションの数を選択してください。",
+    "importance": "B",
+    "reason": "Finger Lakesは重要だがサブ数は細かめ。"
+  },
+  {
+    "id": "usa-073",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でDのワイン・リージョン名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "California広域地図の記号入力で細かい。"
+  },
+  {
+    "id": "usa-074",
+    "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Columbia ValleyはWashington/Oregonに関わる重要AVA。"
+  },
+  {
+    "id": "usa-075",
+    "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Yakima ValleyはWashingtonの頻出AVA。"
+  },
+  {
+    "id": "usa-076",
+    "question": "次の中から米国ヴァージニア州の気候に影響を与え、同州の南東部を温暖にしている海流を選択してください。",
+    "importance": "C",
+    "reason": "Virginiaの気候要因は周辺知識。"
+  },
+  {
+    "id": "usa-077",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "C",
+    "reason": "MicrosoftやWine Instituteなど細かい概論。"
+  },
+  {
+    "id": "usa-078",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "McMinnvilleはWillametteサブAVAの周辺知識。"
+  },
+  {
+    "id": "usa-079",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でHowell Mountainに相当する番号を選択してください。",
+    "importance": "B",
+    "reason": "Howell MountainはBランク相当だが地図問題。"
+  },
+  {
+    "id": "usa-080",
+    "question": "次の中から米国ニューヨーク州に属するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Upper Hudsonは新しめで細かいNY AVA。"
+  },
+  {
+    "id": "usa-081",
+    "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Lewis-Clark Valleyは細かい州境AVA。"
+  },
+  {
+    "id": "usa-082",
+    "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
+    "importance": "S",
+    "reason": "Russian River ValleyはSonomaの頻出重要AVA。"
+  },
+  {
+    "id": "usa-083",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でOakvilleに相当する番号を選択してください。",
+    "importance": "A",
+    "reason": "OakvilleはNapaの頻出サブAVA。"
+  },
+  {
+    "id": "usa-084",
+    "question": "次の中から米国カリフォルニア州で、Napa CountyとSonoma Countyの間にある山を選択してください。",
+    "importance": "B",
+    "reason": "MayacamasはNapa/Sonoma地理の周辺知識。"
+  },
+  {
+    "id": "usa-085",
+    "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Wild Horse Valleyは細かいNapa周辺AVA。"
+  },
+  {
+    "id": "usa-086",
+    "question": "次の中から米国のワイン法におけるAVAの意味を選択してください。",
+    "importance": "S",
+    "reason": "AVAの意味は米国ワイン法の最重要基本。"
+  },
+  {
+    "id": "usa-087",
+    "question": "次の中から米国ワシントン州で最も生産量の多い黒ブドウ品種を選択してください。",
+    "importance": "A",
+    "reason": "WashingtonのCabernet Sauvignonは主要品種論点。"
+  },
+  {
+    "id": "usa-088",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で3番のA.V.A名をカタカナで入力してください。",
+    "importance": "B",
+    "reason": "Napa地図のサブAVA入力で中程度。"
+  },
+  {
+    "id": "usa-089",
+    "question": "次の中から米国カリフォルニア州で、ナパ・ヴァレー北端にある山を選択してください。",
+    "importance": "B",
+    "reason": "Napa北端の山は周辺地理。"
+  },
+  {
+    "id": "usa-090",
+    "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "CalistogaはNapaサブAVAの周辺重要。"
+  },
+  {
+    "id": "usa-091",
+    "question": "次の中から米国でアペレーションの規定を含む現在のワイン法の原形が形成された年代を選択してください。",
+    "importance": "A",
+    "reason": "1978年のAVA制度形成は米国ワイン法の重要周辺知識。"
+  },
+  {
+    "id": "usa-092",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でLong Islandに相当する番号を選択してください。",
+    "importance": "B",
+    "reason": "Long IslandはNYの代表AVAだが地図番号なので中程度。"
+  },
+  {
+    "id": "usa-093",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Tualatin HillsはWillametteサブAVAの周辺知識。"
+  },
+  {
+    "id": "usa-094",
+    "question": "次の中から米国カリフォルニア州のNapa Valley AVAのサブ・リージョンの数を選択してください。",
+    "importance": "B",
+    "reason": "Napa ValleyサブAVA数は出題可能だが数字問題。"
+  },
+  {
+    "id": "usa-095",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSanta Cruzに相当する番号を選択してください。",
+    "importance": "C",
+    "reason": "Santa Cruzの地図番号は細かい。"
+  },
+  {
+    "id": "usa-096",
+    "question": "次の中から米国でRobert M. Parker Jr.が発行する独自のワインニュースレターを選択してください。",
+    "importance": "B",
+    "reason": "Robert Parker/Wine Advocateは米国ワイン史の周辺知識。"
+  },
+  {
+    "id": "usa-097",
+    "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "RockpileはSonomaの周辺AVA。"
+  },
+  {
+    "id": "usa-098",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で1番のカウンティ名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "Californiaカウンティ地図の番号入力。"
+  },
+  {
+    "id": "usa-099",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSouthern Californiaに相当する記号を選択してください。",
+    "importance": "C",
+    "reason": "Southern Californiaの地図記号問題。"
+  },
+  {
+    "id": "usa-100",
+    "question": "次の中から米国カリフォルニア州で、Napa CountyとSolano Countyの間にある山を選択してください。",
+    "importance": "B",
+    "reason": "Vaca山脈はNapa地理の周辺知識。"
+  },
+  {
+    "id": "usa-101",
+    "question": "次の中から米国ニューヨーク州でマンハッタン近郊に位置するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Long IslandはNYの代表AVA。"
+  },
+  {
+    "id": "usa-102",
+    "question": "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションの数を選択してください。",
+    "importance": "C",
+    "reason": "Yakima Valleyサブアペレーション数は細かい数字。"
+  },
+  {
+    "id": "usa-103",
+    "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Yamhill-CarltonはWillametteサブAVAの周辺知識。"
+  },
+  {
+    "id": "usa-104",
+    "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第2位の品種を選択してください。",
+    "importance": "B",
+    "reason": "California白品種順位の細部。"
+  },
+  {
+    "id": "usa-105",
+    "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Rogue ValleyはOregonの周辺AVA。"
+  },
+  {
+    "id": "usa-106",
+    "question": "次の中から米国ワシントン州で唯一、カスケード山脈の西側にあるAVAを選択してください。",
+    "importance": "C",
+    "reason": "Puget Soundの位置特徴は細かい。"
+  },
+  {
+    "id": "usa-107",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で12番のカウンティ名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "Californiaカウンティ地図の番号入力。"
+  },
+  {
+    "id": "usa-108",
+    "question": "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第3位のものを選択してください。",
+    "importance": "A",
+    "reason": "ZinfandelはCaliforniaの重要品種。"
+  },
+  {
+    "id": "usa-109",
+    "question": "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。",
+    "importance": "A",
+    "reason": "NapaはNorth Coastの最重要カウンティ。"
+  },
+  {
+    "id": "usa-110",
+    "question": "次の中から米国において、ワインの製造方法を規定し品質管理を担っている組織の略称を選択してください。",
+    "importance": "A",
+    "reason": "TTBは米国ワイン法の管理機関として重要。"
+  },
+  {
+    "id": "usa-111",
+    "question": "次の米国に関する記述の中から正しいものを選択してください。",
+    "importance": "C",
+    "reason": "Washington気温やワイナリー数など細かい概論。"
+  },
+  {
+    "id": "usa-112",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でBのワイン・リージョン名をカタカナで入力してください。",
+    "importance": "B",
+    "reason": "California広域地図だが主要リージョン確認。"
+  },
+  {
+    "id": "usa-113",
+    "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
+    "importance": "C",
+    "reason": "Columbia GorgeはWashington/Oregon周辺AVA。"
+  },
+  {
+    "id": "usa-114",
+    "question": "次の中から2025年8月現在の米国オレゴン州のAVAの数を選択してください。",
+    "importance": "C",
+    "reason": "OregonのAVA総数は年度で変動する細かい数字。"
+  },
+  {
+    "id": "usa-115",
+    "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
+    "importance": "C",
+    "reason": "Contra Costaの地区判別は細かい。"
+  },
+  {
+    "id": "usa-116",
+    "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
+    "importance": "B",
+    "reason": "Ribbon RidgeはWillametteサブAVAの周辺知識。"
+  },
+  {
+    "id": "usa-117",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で8番のA.V.A名をカタカナで入力してください。",
+    "importance": "B",
+    "reason": "Napa地図のサブAVA入力で中程度。"
+  },
+  {
+    "id": "usa-118",
+    "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
+    "importance": "A",
+    "reason": "Stags Leap DistrictはNapaの頻出サブAVA。"
+  },
+  {
+    "id": "usa-119",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で3番のカウンティ名をカタカナで入力してください。",
+    "importance": "C",
+    "reason": "Californiaカウンティ地図の番号入力。"
+  },
+  {
+    "id": "usa-120",
+    "question": "次の中から米国ヴァージニア州で最も生産量の多い白ブドウ品種を選択してください。",
+    "importance": "B",
+    "reason": "Virginiaの主要白品種は周辺知識。"
+  },
+  {
+    "id": "usa-121",
+    "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Atlas PeakはNapa山側AVAの周辺知識。"
+  },
+  {
+    "id": "usa-122",
+    "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
+    "importance": "B",
+    "reason": "Dundee HillsはWillametteの代表的サブAVA。"
+  }
+]

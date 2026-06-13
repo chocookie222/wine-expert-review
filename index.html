@@ -32,7 +32,8 @@
             <label>
               <span>重要度</span>
               <select id="importanceFilter">
-                <option value="all">A/B/C</option>
+                <option value="all">S/A/B/C</option>
+                <option value="S">Sのみ</option>
                 <option value="A">Aのみ</option>
                 <option value="B">Bのみ</option>
                 <option value="C">Cのみ</option>
@@ -63,6 +64,15 @@
             <div class="question-meta">
               <span id="categoryBadge"></span>
               <span id="importanceBadge"></span>
+              <label class="importance-editor">
+                <span>変更</span>
+                <select id="importanceEditor" aria-label="この問題の重要度を変更">
+                  <option value="S">S</option>
+                  <option value="A">A</option>
+                  <option value="B">B</option>
+                  <option value="C">C</option>
+                </select>
+              </label>
             </div>
             <h2 id="questionText"></h2>
             <figure class="question-image" id="questionImageBox" hidden>
