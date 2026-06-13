@@ -30191,6 +30191,300 @@ window.WINE_QUESTIONS = [
     "explanation": "ウイスキーは果実以外が原料の蒸留酒類です。"
   },
 {
+  "id": "intro-090",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中から日本の酒税法で「果実原料の蒸留酒類」に分類されるものを選択してください。",
+  "choices": [
+    "リキュール",
+    "合成清酒",
+    "ブランデー",
+    "シードル"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ブランデー」です。"
+},
+{
+  "id": "intro-091",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "ワインに含まれる有機酸の中から貴腐ワインの熟成中に白色結晶の粘液酸カルシウムとして析出する酸を選択してください。",
+  "choices": [
+    "ガラクチュロン酸",
+    "炭酸",
+    "グルコン酸",
+    "酢酸"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ガラクチュロン酸」です。"
+},
+{
+  "id": "intro-092",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "チリ, ドイツ, ポルトガル, イタリア",
+    "スペイン, 南アフリカ, ドイツ, アルゼンチン",
+    "アメリカ, オーストラリア, アルゼンチン, ドイツ",
+    "チリ, アメリカ, イタリア, スペイン"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「アメリカ, オーストラリア, アルゼンチン, ドイツ」です。"
+},
+{
+  "id": "intro-093",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からイタリアのスパークリングワインAsciuttoの残糖量を選択してください。",
+  "choices": [
+    "0〜6g/リットル",
+    "12〜17g/リットル",
+    "50g/リットル超",
+    "17〜32g/リットル"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「17〜32g/リットル」です。"
+},
+{
+  "id": "intro-094",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+  "choices": [
+    "Lillet",
+    "VDN(Vin Doux Naturel)",
+    "Frizzante",
+    "Retsina"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「VDN(Vin Doux Naturel)」です。"
+},
+{
+  "id": "intro-095",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からスペインのスパークリングワインSecoの残糖量を選択してください。",
+  "choices": [
+    "32〜50g/リットル",
+    "12g/リットル未満",
+    "50g/リットル超",
+    "17〜32g/リットル"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「17〜32g/リットル」です。"
+},
+{
+  "id": "intro-096",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からOIVによる統計で、2022年のスペインのワイン生産量を選択してください。",
+  "choices": [
+    "36.0Mhl",
+    "43.3Mhl",
+    "49.8Mhl",
+    "46.0Mhl"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「36.0Mhl」です。"
+},
+{
+  "id": "intro-097",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からOIVによる統計で、2022年のワイン生産量が第1位の国を選択してください。",
+  "choices": [
+    "ドイツ",
+    "アメリカ",
+    "イタリア",
+    "スペイン"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「イタリア」です。"
+},
+{
+  "id": "intro-098",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載任意事項とされているものを選択してください。",
+  "choices": [
+    "原産地",
+    "製品のカテゴリー（ワイン、VDLなど）",
+    "生産方法に関する記述",
+    "瓶詰め業者名"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「生産方法に関する記述」です。"
+},
+{
+  "id": "intro-099",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+  "choices": [
+    "VDL(Vin de Liqueur)",
+    "Madeira",
+    "Frizzante",
+    "Lillet"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Lillet」です。"
+},
+{
+  "id": "intro-100",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からスティルワインで残糖量が45g/リットル以上のものの表示を選択してください。",
+  "choices": [
+    "Lieblich",
+    "Amabile",
+    "Süß",
+    "Halbtrocken"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Süß」です。"
+},
+{
+  "id": "intro-101",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "ワインに含まれる有機酸の中から発酵によって生成する酸を選択してください。",
+  "choices": [
+    "炭酸",
+    "グルコン酸",
+    "シュウ酸",
+    "乳酸"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「乳酸」です。"
+},
+{
+  "id": "intro-102",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からビールの発酵の仕方として正しいものを選択してください。",
+  "choices": [
+    "原料の糖分を直接発酵する",
+    "原料のデンプンを糖化させてから発酵する",
+    "原料のデンプンを直接発酵する",
+    "原料の糖分を糊化させてから発酵する"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「原料のデンプンを糖化させてから発酵する」です。"
+},
+{
+  "id": "intro-103",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "ワインに含まれる有機酸の中からカリウムなどと結合して結晶として析出する酸を選択してください。",
+  "choices": [
+    "リンゴ酸",
+    "酒石酸",
+    "炭酸",
+    "コハク酸"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「酒石酸」です。"
+},
+{
+  "id": "intro-104",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載任意事項とされているものを選択してください。",
+  "choices": [
+    "収穫年",
+    "製品のカテゴリー（ワイン、VDLなど）",
+    "AOP、IGPのワインはその表記と名称",
+    "原産地"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「収穫年」です。"
+},
+{
+  "id": "intro-105",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からイタリアのスティルワインAbboccatoと同じ残糖量を示す他国の表示を選択してください。",
+  "choices": [
+    "Lieblich",
+    "Amabile",
+    "Moelleux",
+    "Demi-Sec"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Demi-Sec」です。"
+},
+{
+  "id": "intro-106",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中から日本の酒税法で「ジン」が該当する酒類の分類を選択してください。",
+  "choices": [
+    "混成酒類",
+    "果実原料の蒸留酒類",
+    "果実以外が原料の蒸留酒類",
+    "穀物原料の醸造酒類"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「果実以外が原料の蒸留酒類」です。"
+},
+{
+  "id": "intro-107",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中から1Kgのブドウから搾汁される果汁または赤ワインの量を選択してください。",
+  "choices": [
+    "300〜400ml",
+    "400〜600ml",
+    "600〜800ml",
+    "1000〜1200ml"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「600〜800ml」です。"
+},
+{
+  "id": "intro-108",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からイタリアのスティルワインAbboccatoと同じ残糖量を示す他国の表示を選択してください。",
+  "choices": [
+    "Lieblich",
+    "Halbtrocken",
+    "Amabile",
+    "Moelleux"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Halbtrocken」です。"
+},
+{
+  "id": "intro-109",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からEUの栽培地域のゾーン区分で、ポルトガルが属するゾーンを選択してください。",
+  "choices": [
+    "Zone C-III(b)",
+    "Zone C-II",
+    "Zone C-III(a)",
+    "Zone A"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Zone C-III(b)」です。"
+},
+{
+  "id": "intro-110",
+  "category": "ワイン概論/特性・分類・統計",
+  "importance": "A",
+  "question": "次の中からOIVによる統計で、2022年の世界のワイン生産量の中でイタリアが占める割合を選択してください。",
+  "choices": [
+    "13.7%",
+    "25.6%",
+    "22.3%",
+    "18.9%"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「18.9%」です。"
+},
+{
   "id": "cultivation-001",
   "category": "栽培・醸造",
   "importance": "A",
@@ -30833,5 +31127,1000 @@ window.WINE_QUESTIONS = [
   ],
   "answerIndex": 2,
   "explanation": "正解は「株仕立て」です。"
+},
+{
+  "id": "cultivation-047",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "展葉, 収穫, 剪定, 開花",
+    "萌芽, 展葉, 結実, 成熟",
+    "着色, 成熟, 樹液の溢出, 展葉",
+    "結実, 剪定, 樹液の溢出, 蕾"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「萌芽, 展葉, 結実, 成熟」です。"
+},
+{
+  "id": "cultivation-048",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「若枝または生育中のブドウ果粒が白い粉状の胞子で覆われてしまい、果粒の表皮成長が妨げられるが果肉は成長し続ける。そのため、ブドウ果粒が裂かれ、果粒はミイラ化あるいは腐敗の原因となる。」",
+  "choices": [
+    "Ripe rot",
+    "Oïdium",
+    "Gray mold",
+    "Mildiou"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Oïdium」です。"
+},
+{
+  "id": "cultivation-049",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの仕立て方として株仕立てが良く用いられている地域として最も適切なものを選択してください。",
+  "choices": [
+    "ボルドー",
+    "南フランス",
+    "モーゼル",
+    "ブルゴーニュ"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「南フランス」です。"
+},
+{
+  "id": "cultivation-050",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の特徴に合致する台木品種を選択してください。\n「1879年にリリースされた台木。フィロキセラ抵抗性が低いことが知られていたが、接ぎ木の成功率が高く、カリフォルニアで広く使われた。しかしバイオタイプBと呼ばれるフィロキセラの出現によって改植を余儀なくされた。」",
+  "choices": [
+    "SO4",
+    "AXR#1",
+    "5BB",
+    "101-14"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「AXR#1」です。"
+},
+{
+  "id": "cultivation-051",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に最も良く合致する醸造用語を選択してください。\n「発酵タンク上部に浮上している果帽を、人力による櫂つきによって沈める。」",
+  "choices": [
+    "Remontage",
+    "Débourbage",
+    "Bâtonnage",
+    "Pigeage"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Pigeage」です。"
+},
+{
+  "id": "cultivation-052",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から赤ワインの醸造工程を最初から最後の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "選果, 除梗・破砕, 圧搾, 樽・タンク育成",
+    "樽・タンク育成, 選果, 清澄・濾過, 澱引き",
+    "醸し, 樽・タンク育成, 澱引き, 圧搾",
+    "醸し, 除梗・破砕, 選果, 主発酵"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「選果, 除梗・破砕, 圧搾, 樽・タンク育成」です。"
+},
+{
+  "id": "cultivation-053",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワイン産地における気候区分を選択してください。\n「昼と夜の気温の日較差、夏と冬の気温の年較差が大きい。季節の違いがはっきりとした気候。ブドウが十分に成熟する前に寒くなる年がある。」",
+  "choices": [
+    "大陸性気候",
+    "山地気候",
+    "地中海性気候",
+    "海洋性気候"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「大陸性気候」です。"
+},
+{
+  "id": "cultivation-054",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から「株仕立て」を表すフランス語を選択してください。",
+  "choices": [
+    "Pergola",
+    "Gobelet",
+    "Aste",
+    "Courson"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Gobelet」です。"
+},
+{
+  "id": "cultivation-055",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次のブドウ原品種の中から東アジア系の品種を選択してください。",
+  "choices": [
+    "ヴィティス・アムレンシス",
+    "ヴィティス・サルタナ",
+    "ヴィティス・ラブルスカ",
+    "ヴィティス・リビエラ"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ヴィティス・アムレンシス」です。"
+},
+{
+  "id": "cultivation-056",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "樹液の溢出, 萌芽, 展葉, 蕾",
+    "萌芽, 収穫, 着色, 剪定",
+    "着色, 夏期剪定, 結実, 成熟",
+    "成熟, 剪定, 着色, 結実"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「樹液の溢出, 萌芽, 展葉, 蕾」です。"
+},
+{
+  "id": "cultivation-057",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで主に開花〜結実期に実施する作業を選択してください。",
+  "choices": [
+    "畝くずし",
+    "夏期剪定",
+    "土寄せ",
+    "肥料散布"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「夏期剪定」です。"
+},
+{
+  "id": "cultivation-058",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「1878年ヨーロッパで最初の被害が発見された。湿度の高い地域で繁殖し、花、葉、果実に白いカビ状の胞子が形成され、落花、落葉、落果させる。」",
+  "choices": [
+    "Coulure",
+    "Mildiou",
+    "Oïdium",
+    "Gray mold"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Mildiou」です。"
+},
+{
+  "id": "cultivation-059",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から亜硫酸（二酸化硫黄）についての説明で正しいものを選択してください。",
+  "choices": [
+    "赤ワインのように果皮を一緒に発酵させると、ワインのpHは上がる",
+    "食品衛生法で規制されているのは、遊離亜硫酸の濃度である",
+    "ワインのpHは、ブドウのpHとはあまり関係が無い",
+    "活性型亜硫酸の濃度は、ワインのpHが高い方が高くなり、効力が強くなる"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「赤ワインのように果皮を一緒に発酵させると、ワインのpHは上がる」です。"
+},
+{
+  "id": "cultivation-060",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「ロゼワインの製法で、黒ブドウを除梗、破砕して果醪をタンクに入れる。発酵の開始前または醸しの初期に、タンク下部のドレインを開けて果汁を抜き、これを発酵させる。」",
+  "choices": [
+    "Cryo-extraction",
+    "Saignée",
+    "Skin contact",
+    "Co-inoculation"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Saignée」です。"
+},
+{
+  "id": "cultivation-061",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からワインのクロージャーで、合成コルクを使った栓を選択してください。",
+  "choices": [
+    "DIAM",
+    "Nomacork",
+    "Stelvin",
+    "Vinolok"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Nomacork」です。"
+},
+{
+  "id": "cultivation-062",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の特徴を持つブドウの香り成分を選択してください。\n「ソーヴィニョン・ブランの香り成分として知られ、グレープフルーツ、パッションフルーツ、猫尿などの香りを持つ。」",
+  "choices": [
+    "IBMP",
+    "リナロール",
+    "チオール化合物",
+    "ロタンドン"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「チオール化合物」です。"
+},
+{
+  "id": "cultivation-063",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「成熟」を表すフランス語を選択してください。",
+  "choices": [
+    "Véraison",
+    "Nouaison",
+    "Maturité",
+    "Taille"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Maturité」です。"
+},
+{
+  "id": "cultivation-064",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの粒の中で最も酸度が高い部分を選択してください。",
+  "choices": [
+    "果皮の内側",
+    "果皮",
+    "種子の間",
+    "梗に近い部分"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「種子の間」です。"
+},
+{
+  "id": "cultivation-065",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からフランス語の醸造用語Foulageの英語名として適切なものを選択してください。",
+  "choices": [
+    "Sorting",
+    "Crush",
+    "Settling",
+    "Pumping over"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Crush」です。"
+},
+{
+  "id": "cultivation-066",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からブドウの仕立て方の中で、新梢を地面に対して垂直に伸ばす仕立て方の総称を選択してください。",
+  "choices": [
+    "VSP",
+    "VTS",
+    "HSP",
+    "HTS"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「VSP」です。"
+},
+{
+  "id": "cultivation-067",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するスパークリングワインの製法を選択してください。\n「スティル・ワインを大きなタンクに密閉し、その中で二次発酵を起こさせて造る方式。密閉タンク方式ともいう。」",
+  "choices": [
+    "シャルマ方式",
+    "炭酸ガス注入方式",
+    "メトード・リュラル",
+    "トランスファー方式"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「シャルマ方式」です。"
+},
+{
+  "id": "cultivation-068",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるGray moldに有効な対処法を選択してください。",
+  "choices": [
+    "苗木の組織を培養し無菌状態で成長させて畑に移す",
+    "イプロジオン水和剤の散布",
+    "ボルドー液の散布",
+    "開花時に硫黄を含んだ農薬を散布"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「イプロジオン水和剤の散布」です。"
+},
+{
+  "id": "cultivation-069",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からNon collageの意味を選択してください。",
+  "choices": [
+    "無農薬",
+    "無滓下げ",
+    "無添加",
+    "無濾過"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「無滓下げ」です。"
+},
+{
+  "id": "cultivation-070",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から醸造用語Ouillageの意味として適切なものを選択してください。",
+  "choices": [
+    "除梗",
+    "滓引き",
+    "目減り分の補充",
+    "瓶詰め"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「目減り分の補充」です。"
+},
+{
+  "id": "cultivation-071",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウ品種の選抜方法を選択してください。\n「畑の中で好ましい性質を持った複数の株から枝を取る方法。」",
+  "choices": [
+    "クローン・セレクション",
+    "シングル・セレクション",
+    "マサル・セレクション",
+    "マルチ・セレクション"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「マサル・セレクション」です。"
+},
+{
+  "id": "cultivation-072",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次のブドウ原品種の中から強いフィロキセラ耐性があり台木として用いられている品種を選択してください。",
+  "choices": [
+    "ヴィティス・ルペストリス",
+    "ヴィティス・ダヴィディ",
+    "ヴィティス・コワニティ",
+    "ヴィティス・アムレンシス"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ヴィティス・ルペストリス」です。"
+},
+{
+  "id": "cultivation-073",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から「棚仕立て」を表すフランス語を選択してください。",
+  "choices": [
+    "Gobelet",
+    "Pergola",
+    "Aste",
+    "Courson"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Pergola」です。"
+},
+{
+  "id": "cultivation-074",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「Débourrement」の意味を選択してください。",
+  "choices": [
+    "開花",
+    "結実",
+    "成熟",
+    "萌芽"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「萌芽」です。"
+},
+{
+  "id": "cultivation-075",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "結実, 剪定, 開花, 蕾",
+    "蕾, 樹液の溢出, 成熟, 展葉",
+    "収穫, 剪定, 樹液の溢出, 蕾",
+    "樹液の溢出, 蕾, 結実, 収穫"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「樹液の溢出, 蕾, 結実, 収穫」です。"
+},
+{
+  "id": "cultivation-076",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの粒の中でポリフェノールが多い部分を選択してください。",
+  "choices": [
+    "種子の間",
+    "梗に近い部分",
+    "果皮の内側",
+    "果皮"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「果皮」です。"
+},
+{
+  "id": "cultivation-077",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からボルドーで使われている225リットルの木樽の名称を選択してください。",
+  "choices": [
+    "Pièce",
+    "Barrique",
+    "Baquet",
+    "Tonneau"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Barrique」です。"
+},
+{
+  "id": "cultivation-078",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるOïdiumに有効な対処法を選択してください。",
+  "choices": [
+    "ベンレート（ベノミル剤）を散布",
+    "ボルドー液の散布",
+    "罹病結果母枝や巻きひげを園内から取り除く",
+    "イプロジオン水和剤の散布"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ベンレート（ベノミル剤）を散布」です。"
+},
+{
+  "id": "cultivation-079",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで「畝くずし」を表すフランス語を選択してください。",
+  "choices": [
+    "Débuttage",
+    "Feuillaison",
+    "Buttage",
+    "Maturité"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Débuttage」です。"
+},
+{
+  "id": "cultivation-080",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「受粉、結実が悪いなどで極めて多くの落果が発生し、果房につく果粒が極端に少ない状態になり、収穫量が減少する。」",
+  "choices": [
+    "Coulure",
+    "Downy mildew",
+    "Gray mold",
+    "Ripe rot"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Coulure」です。"
+},
+{
+  "id": "cultivation-081",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からルモンタージュの効果として最も適切なものを選択してください。",
+  "choices": [
+    "温度管理を容易にする",
+    "果皮、種子からフェノール類などを抽出する",
+    "瓶詰め後の微生物学的安定性が増す",
+    "静菌作用がある"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「果皮、種子からフェノール類などを抽出する」です。"
+},
+{
+  "id": "cultivation-082",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるPourriture griseに有効な対処法を選択してください。",
+  "choices": [
+    "ベンレート（ベノミル剤）を散布",
+    "ボルドー液の散布",
+    "罹病結果母枝や巻きひげを園内から取り除く",
+    "イプロジオン水和剤の散布"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「イプロジオン水和剤の散布」です。"
+},
+{
+  "id": "cultivation-083",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワイン産地における気候区分を選択してください。\n「気温の日較差が少ない。一般に降水量が多く湿度は高い。年によっては秋が長く続き、気温の低下が緩やかに進み、成熟期間が長く続く。」",
+  "choices": [
+    "山地気候",
+    "地中海性気候",
+    "大陸性気候",
+    "海洋性気候"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「海洋性気候」です。"
+},
+{
+  "id": "cultivation-084",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの仕立て方として棚仕立てが良く用いられている地域として最も適切なものを選択してください。",
+  "choices": [
+    "日本",
+    "南フランス",
+    "ブルゴーニュ",
+    "モーゼル"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「日本」です。"
+},
+{
+  "id": "cultivation-085",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の土壌の分類の中から「粒径0.002〜0.02mm」に相当するものを選択してください。",
+  "choices": [
+    "シルト",
+    "粘土",
+    "礫",
+    "砂"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「シルト」です。"
+},
+{
+  "id": "cultivation-086",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から赤ワインの醸造工程を最初から最後の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "主発酵, 醸し, マロラクティック発酵, 澱引き",
+    "マロラクティック発酵, 除梗・破砕, 清澄・濾過, 圧搾",
+    "選果, 除梗・破砕, 樽・タンク育成, マロラクティック発酵",
+    "除梗・破砕, 圧搾, マロラクティック発酵, 醸し"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「主発酵, 醸し, マロラクティック発酵, 澱引き」です。"
+},
+{
+  "id": "cultivation-087",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「ロゼワインの製法で、黒ブドウを原料として、白ワインと同様にブドウを圧搾してから果汁を発酵させる。」",
+  "choices": [
+    "Micro-oxygénation",
+    "Pressurage direct",
+    "Cryo-extraction",
+    "Co-inoculation"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Pressurage direct」です。"
+},
+{
+  "id": "cultivation-088",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「ボトリティス・シネレアと呼ばれるカビが、湿度の高い環境下で花、葉、果実に生じる。黒ブドウでは色素を破壊し、赤ワインの着色不良を生じる。」",
+  "choices": [
+    "Downy mildew",
+    "Coulure",
+    "Oïdium",
+    "Pourriture grise"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Pourriture grise」です。"
+},
+{
+  "id": "cultivation-089",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの仕立て方を選択してください。\n「植栽密度が低いことが多く、樹体は比較的大きくなる。きめ細かい手入れが可能になり、生食用ブドウに適用されることが多い。」",
+  "choices": [
+    "棚仕立て",
+    "垣根仕立て",
+    "株仕立て",
+    "棒仕立て"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「棚仕立て」です。"
+},
+{
+  "id": "cultivation-090",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウ収穫時における手摘みの短所を選択してください。",
+  "choices": [
+    "傷つき(酸化)を防止できる",
+    "熟練者の手配が困難である",
+    "ブドウが傷つきやすい",
+    "選果が可能である"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「熟練者の手配が困難である」です。"
+},
+{
+  "id": "cultivation-091",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウの仕立て方を選択してください。\n「長梢剪定の一種で、長梢2本を左右に広げて水平に誘引する」",
+  "choices": [
+    "ギヨ・サンプル",
+    "ボーゲン",
+    "ギヨ・ドゥーブル",
+    "コルドン・ロワイヤ"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ギヨ・ドゥーブル」です。"
+},
+{
+  "id": "cultivation-092",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「発酵中あるいは貯蔵中の赤ワインに、多孔質のセラミックを通して酸素の細かい泡を吹き込む。」",
+  "choices": [
+    "Macération carbonique",
+    "Sur lie",
+    "Micro-bullage",
+    "Skin contact"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Micro-bullage」です。"
+},
+{
+  "id": "cultivation-093",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の特徴に当てはまる台木用原種を選択してください。「湿った土壌に強い、早熟性、収量少なめ、挿し木の際に根が出やすい、石灰質土壌に弱い」",
+  "choices": [
+    "ルペストリス種",
+    "ヴィニフェラ種",
+    "リパリア種",
+    "ベルランディエリ種"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「リパリア種」です。"
+},
+{
+  "id": "cultivation-094",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から北半球のブドウの生育サイクルと栽培作業を、1月から12月の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "開花, 展葉, 剪定, 萌芽",
+    "樹液の溢出, 蕾, 着色, 成熟",
+    "開花, 成熟, 展葉, 蕾",
+    "着色, 剪定, 蕾, 収穫"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「樹液の溢出, 蕾, 着色, 成熟」です。"
+},
+{
+  "id": "cultivation-095",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの仕立て方として棚仕立てが良く用いられている地域として最も適切なものを選択してください。",
+  "choices": [
+    "リアス・バイシャス",
+    "ブルゴーニュ",
+    "モーゼル",
+    "ボルドー"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「リアス・バイシャス」です。"
+},
+{
+  "id": "cultivation-096",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
+  "choices": [
+    "Powdery mildew",
+    "Crown gall",
+    "Millerandage",
+    "Phylloxera"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Powdery mildew」です。"
+},
+{
+  "id": "cultivation-097",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "一般に標高が100m上がると気温はどう変化するか、次の中から選択してください。",
+  "choices": [
+    "0.6℃下がる",
+    "0.3℃下がる",
+    "1.2℃下がる",
+    "0.9℃下がる"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「0.6℃下がる」です。"
+},
+{
+  "id": "cultivation-098",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次のブドウ原品種の中から強いフィロキセラ耐性があり台木として用いられている品種を選択してください。",
+  "choices": [
+    "ヴィティス・ベルランディエリ",
+    "ヴィティス・ヴィニフェラ",
+    "ヴィティス・コワニティ",
+    "ヴィティス・アムレンシス"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ヴィティス・ベルランディエリ」です。"
+},
+{
+  "id": "cultivation-099",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からワインの熟成に用いられる樽材ペドンキュラータ・オークの学名を選択してください。",
+  "choices": [
+    "Quercus suber",
+    "Quercus Alba",
+    "Quercus robur",
+    "Quercus petraea"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Quercus robur」です。"
+},
+{
+  "id": "cultivation-100",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から日本でブドウの病害の被害の中で最大のものを選択してください。",
+  "choices": [
+    "灰色カビ病",
+    "ウドンコ病",
+    "晩腐病",
+    "ベト病"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「晩腐病」です。"
+},
+{
+  "id": "cultivation-101",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からスクリューキャップの天面内側に使われる緩衝材の名前を選択してください。",
+  "choices": [
+    "圧搾コルク",
+    "ストッパー",
+    "ライナー",
+    "合成コルク"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ライナー」です。"
+},
+{
+  "id": "cultivation-102",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
+  "choices": [
+    "Gray mold",
+    "Millerandage",
+    "Pierce's Disease",
+    "Crown gall"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「Gray mold」です。"
+},
+{
+  "id": "cultivation-103",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から赤ワインの醸造工程を最初から最後の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "醸し, 樽・タンク育成, 澱引き, 清澄・濾過",
+    "主発酵, 除梗・破砕, 圧搾, マロラクティック発酵",
+    "マロラクティック発酵, 澱引き, 選果, 清澄・濾過",
+    "主発酵, 選果, 除梗・破砕, 清澄・濾過"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「醸し, 樽・タンク育成, 澱引き, 清澄・濾過」です。"
+},
+{
+  "id": "cultivation-104",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からフランス語の醸造用語Remontageの英語名として適切なものを選択してください。",
+  "choices": [
+    "Crush",
+    "Settling",
+    "Aging",
+    "Pumping over"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Pumping over」です。"
+},
+{
+  "id": "cultivation-105",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウ収穫時における手摘みの短所を選択してください。",
+  "choices": [
+    "選果ができない",
+    "ブドウが傷つきやすい",
+    "機械収穫できないところも摘める",
+    "作業時間が長くなる"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「作業時間が長くなる」です。"
+},
+{
+  "id": "cultivation-106",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "花や葉、果実に白いカビ状の胞子が形成され、落花、落葉、落果を生じさせるブドウの病害に最も有効な対処法を選択してください。",
+  "choices": [
+    "ボルドー液の散布",
+    "イプロジオン水和剤の散布",
+    "開花時に硫黄を含んだ農薬を散布",
+    "ベンレート（ベノミル剤）を散布"
+  ],
+  "answerIndex": 0,
+  "explanation": "正解は「ボルドー液の散布」です。"
+},
+{
+  "id": "cultivation-107",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「果醪に熱を加える赤ワインの製法の総称で、熱を加える時期によって2つに分かれる。」",
+  "choices": [
+    "Macération carbonique",
+    "Pressurage direct",
+    "Micro-bullage",
+    "Macération à chaud"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「Macération à chaud」です。"
+},
+{
+  "id": "cultivation-108",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からスパークリングワインの製法メトード・リュラルの説明として最も適切なものを選択してください。",
+  "choices": [
+    "一度瓶内二次発酵させた発泡性のワインを、炭酸ガスで加圧したタンクに開け、冷却、濾過してから再びボトルに詰める。",
+    "加圧下のタンクにワインを入れ、炭酸ガスを吹き込む。",
+    "発酵している途中のワインを瓶に詰め、密閉してから、残りの発酵を瓶内で行う。",
+    "スティル・ワインを瓶に詰め、糖分と酵母を加えて密閉してから、瓶内で二次発酵を起こさせる。"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「発酵している途中のワインを瓶に詰め、密閉してから、残りの発酵を瓶内で行う。」です。"
+},
+{
+  "id": "cultivation-109",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの粒の中で最も糖度が高い部分を選択してください。",
+  "choices": [
+    "果皮",
+    "種子の間",
+    "種子",
+    "果皮の内側"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「果皮の内側」です。"
+},
+{
+  "id": "cultivation-110",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から白ワインの醸造工程を最初から最後の順序で正しく並べたものを選択してください。",
+  "choices": [
+    "マロラクティック発酵, 主発酵, 圧搾, 樽・タンク育成",
+    "選果, 主発酵, 樽・タンク育成, 澱引き",
+    "選果, 樽・タンク育成, 主発酵, 除梗・破砕",
+    "清澄・濾過, 樽・タンク育成, 除梗・破砕, マロラクティック発酵"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「選果, 主発酵, 樽・タンク育成, 澱引き」です。"
+},
+{
+  "id": "cultivation-111",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中から樽育成の効果として最も適切なものを選択してください。",
+  "choices": [
+    "ダイアセチルなどの香りにより複雑性を増す",
+    "赤ワインの色調の安定化",
+    "果醪に酸素を供給する",
+    "静菌作用がある"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「赤ワインの色調の安定化」です。"
+},
+{
+  "id": "cultivation-112",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するブドウ品種の選抜方法を選択してください。\n「親株と同じ遺伝子を持つ苗を挿し木によって増やす方法。」",
+  "choices": [
+    "シングル・セレクション",
+    "クローン・セレクション",
+    "マサル・セレクション",
+    "マルチ・セレクション"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「クローン・セレクション」です。"
+},
+{
+  "id": "cultivation-113",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生理障害、病害であるMildiouに有効な対処法を選択してください。",
+  "choices": [
+    "ベンレート（ベノミル剤）を散布",
+    "耐性を有する北米系品種を台木とした接木苗",
+    "ボルドー液の散布",
+    "開花時に硫黄を含んだ農薬を散布"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「ボルドー液の散布」です。"
+},
+{
+  "id": "cultivation-114",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の中からアメリカ原産のブドウに強いフィロキセラ耐性があることを発見した人物を選択してください。",
+  "choices": [
+    "Jean Antoine Chaptal",
+    "Jules Émile Planchon",
+    "Joseph Louis Gay-Lussac",
+    "Malcolm Abel"
+  ],
+  "answerIndex": 1,
+  "explanation": "正解は「Jules Émile Planchon」です。"
+},
+{
+  "id": "cultivation-115",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウ収穫時における手摘みの長所を選択してください。",
+  "choices": [
+    "熟練者の手配が困難である",
+    "作業時間を短縮できる",
+    "機械収穫できないところも摘める",
+    "労働コストが高い"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「機械収穫できないところも摘める」です。"
+},
+{
+  "id": "cultivation-116",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "次の説明に合致するワインの製法を選択してください。「発酵中あるいは貯蔵中の赤ワインに、多孔質のセラミックを通して酸素の細かい泡を吹き込む。」",
+  "choices": [
+    "Pressurage direct",
+    "Saignée",
+    "Micro-oxygénation",
+    "Skin contact"
+  ],
+  "answerIndex": 2,
+  "explanation": "正解は「Micro-oxygénation」です。"
+},
+{
+  "id": "cultivation-117",
+  "category": "栽培・醸造",
+  "importance": "A",
+  "question": "ブドウの生育サイクルで主に開花〜結実期に実施する作業を選択してください。",
+  "choices": [
+    "畝くずし",
+    "剪定",
+    "整枝",
+    "摘房"
+  ],
+  "answerIndex": 3,
+  "explanation": "正解は「摘房」です。"
 }
+
 ];
