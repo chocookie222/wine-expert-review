@@ -35108,5 +35108,2736 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "正解は「Carignan」です。"
+  },
+  {
+    "id": "france-rhone-122",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区最北端に位置する都市を選択してください。",
+    "choices": [
+      "ニーム",
+      "アルル",
+      "アヴィニョン",
+      "ヴィエンヌ"
+    ],
+    "answerIndex": 3,
+    "explanation": "ローヌ渓谷北部地区の最北端に位置する都市はヴィエンヌです。"
+  },
+  {
+    "id": "france-rhone-123",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    "choices": [
+      "Vinsobres",
+      "Côtes du Vivarais",
+      "Grignan-les-Adhémar",
+      "Châtillon-en-Diois"
+    ],
+    "answerIndex": 3,
+    "explanation": "Châtillon-en-Dioisはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-124",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    "choices": [
+      "Côte-Rôtie",
+      "Tavel",
+      "Cornas",
+      "Hermitage"
+    ],
+    "answerIndex": 1,
+    "explanation": "Tavelはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-125",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    "choices": [
+      "Tavel",
+      "Châteauneuf-du-Pape",
+      "Laudun",
+      "Cornas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Châteauneuf-du-Papeはローヌ川左岸のAOCです。"
+  },
+  {
+    "id": "france-rhone-126",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    "choices": [
+      "Côte-Rôtie",
+      "Condrieu",
+      "Coteaux de Die",
+      "Vinsobres"
+    ],
+    "answerIndex": 3,
+    "explanation": "Vinsobresはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-127",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCôte-Rôtieに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/rhone-septentrional-map.jpg",
+      "alt": "ローヌ渓谷地方北部のAOC地図",
+      "caption": "ローヌ渓谷地方北部"
+    },
+    "choices": [
+      "6番",
+      "5番",
+      "8番",
+      "1番"
+    ],
+    "answerIndex": 3,
+    "explanation": "北部地図でCôte-Rôtieに相当する番号は1番です。"
+  },
+  {
+    "id": "france-rhone-128",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    "choices": [
+      "Costières de Nîmes",
+      "Châteauneuf-du-Pape",
+      "Grignan-les-Adhémar",
+      "Côte-Rôtie"
+    ],
+    "answerIndex": 3,
+    "explanation": "Côte-Rôtieはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-129",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Saint-Péray",
+      "Clairette de Bellegarde",
+      "Châtillon-en-Diois",
+      "Châteauneuf-du-Pape"
+    ],
+    "answerIndex": 2,
+    "explanation": "Châtillon-en-Dioisは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "france-rhone-130",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
+    "choices": [
+      "Muscat de Beaumes de Venise",
+      "Condrieu",
+      "Crémant de Die",
+      "Châtillon-en-Diois"
+    ],
+    "answerIndex": 1,
+    "explanation": "Condrieuはローヌ川右岸のAOCです。"
+  },
+  {
+    "id": "france-rhone-131",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    "choices": [
+      "Clairette de Bellegarde",
+      "Hermitage",
+      "Grignan-les-Adhémar",
+      "Côtes du Vivarais"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hermitageはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-132",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
+    "choices": [
+      "Château-Grillet",
+      "Beaumes de Venise",
+      "Saint-Joseph",
+      "Châteauneuf-du-Pape"
+    ],
+    "answerIndex": 0,
+    "explanation": "Château-Grilletは白ワインだけが認められています。"
+  },
+  {
+    "id": "france-rhone-133",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Hermitage",
+      "Ventoux",
+      "Saint-Péray",
+      "Châteauneuf-du-Pape"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ventouxは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "france-rhone-134",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    "choices": [
+      "Château-Grillet",
+      "Crémant de Die",
+      "Hermitage",
+      "Vacqueyras"
+    ],
+    "answerIndex": 3,
+    "explanation": "Vacqueyrasはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-135",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方のAOCの中からVins Doux Naturelsの生産が認められているものを選択してください。",
+    "choices": [
+      "Laudun",
+      "Rasteau",
+      "Grignan-les-Adhémar",
+      "Costières de Nîmes"
+    ],
+    "answerIndex": 1,
+    "explanation": "RasteauではVins Doux Naturelsの生産が認められています。"
+  },
+  {
+    "id": "france-rhone-136",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    "choices": [
+      "Côte-Rôtie",
+      "Condrieu",
+      "Hermitage",
+      "Tavel"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hermitageはローヌ川左岸のAOCです。"
+  },
+  {
+    "id": "france-rhone-137",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    "choices": [
+      "Saint-Joseph",
+      "Châteauneuf-du-Pape",
+      "Duché d'Uzès",
+      "Rasteau"
+    ],
+    "answerIndex": 0,
+    "explanation": "Saint-Josephはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-138",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部の気候を選択してください。",
+    "choices": [
+      "地中海性気候",
+      "海洋性気候",
+      "高山性気候",
+      "半大陸性気候"
+    ],
+    "answerIndex": 3,
+    "explanation": "ローヌ渓谷北部は半大陸性気候です。"
+  },
+  {
+    "id": "france-rhone-139",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で8番のAOC名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/rhone-septentrional-map.jpg",
+      "alt": "ローヌ渓谷地方北部のAOC地図",
+      "caption": "ローヌ渓谷地方北部"
+    },
+    "answerText": "サン・ペレイ",
+    "explanation": "北部地図の8番はサン・ペレイです。"
+  },
+  {
+    "id": "france-rhone-140",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中から2024年にCôtes du Rhône Villagesからクリュに昇格した新しいAOCを選択してください。",
+    "choices": [
+      "Grignan-les-Adhémar",
+      "Côtes du Vivarais",
+      "Cornas",
+      "Laudun"
+    ],
+    "answerIndex": 3,
+    "explanation": "2024年にクリュへ昇格した新しいAOCはLaudunです。"
+  },
+  {
+    "id": "france-rhone-141",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/rhone-septentrional-map.jpg",
+      "alt": "ローヌ渓谷地方北部のAOC地図",
+      "caption": "ローヌ渓谷地方北部"
+    },
+    "choices": [
+      "1番",
+      "4番",
+      "2番",
+      "6番"
+    ],
+    "answerIndex": 2,
+    "explanation": "北部地図でCondrieuに相当する番号は2番です。"
+  },
+  {
+    "id": "france-rhone-142",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    "choices": [
+      "Saint-Joseph",
+      "Saint-Péray",
+      "Château-Grillet",
+      "Clairette de Die"
+    ],
+    "answerIndex": 3,
+    "explanation": "Clairette de Dieはローヌ川左岸のAOCです。"
+  },
+  {
+    "id": "france-rhone-143",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
+    "choices": [
+      "Cornas",
+      "Côtes du Vivarais",
+      "Saint-Péray",
+      "Saint-Péray Mousseux"
+    ],
+    "answerIndex": 1,
+    "explanation": "Côtes du Vivaraisはローヌ渓谷地方南部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-144",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
+    "choices": [
+      "Beaumes de Venise",
+      "Vinsobres",
+      "Crozes-Hermitage",
+      "Gigondas"
+    ],
+    "answerIndex": 2,
+    "explanation": "Crozes-Hermitageはローヌ渓谷地方北部地区のAOCです。"
+  },
+  {
+    "id": "france-rhone-145",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
+    "choices": [
+      "Crémant de Die",
+      "Condrieu",
+      "Saint-Péray",
+      "Tavel"
+    ],
+    "answerIndex": 0,
+    "explanation": "Crémant de Dieはローヌ川左岸のAOCです。"
+  },
+  {
+    "id": "france-rhone-146",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方の4つのAOCの中で、最も面積の大きいものを選択してください。",
+    "choices": [
+      "Condrieu",
+      "Cornas",
+      "Crozes-Hermitage",
+      "Côte-Rôtie"
+    ],
+    "answerIndex": 2,
+    "explanation": "この4つの中で最も面積が大きいのはCrozes-Hermitageです。"
+  },
+  {
+    "id": "france-rhone-147",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方の4つのAOCの中で、最も面積の小さいものを選択してください。",
+    "choices": [
+      "Côte-Rôtie",
+      "Saint-Péray Mousseux",
+      "Château-Grillet",
+      "Saint-Joseph"
+    ],
+    "answerIndex": 2,
+    "explanation": "この4つの中で最も面積が小さいのはChâteau-Grilletです。"
+  },
+  {
+    "id": "france-rhone-148",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCornasに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/rhone-septentrional-map.jpg",
+      "alt": "ローヌ渓谷地方北部のAOC地図",
+      "caption": "ローヌ渓谷地方北部"
+    },
+    "choices": [
+      "7番",
+      "8番",
+      "5番",
+      "1番"
+    ],
+    "answerIndex": 0,
+    "explanation": "北部地図でCornasに相当する番号は7番です。"
+  },
+  {
+    "id": "france-rhone-149",
+    "category": "フランス/ローヌ渓谷",
+    "importance": "A",
+    "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
+    "choices": [
+      "Hermitage",
+      "Tavel",
+      "Côte-Rôtie",
+      "Grignan-les-Adhémar"
+    ],
+    "answerIndex": 3,
+    "explanation": "Grignan-les-Adhémarは赤・白・ロゼワインが認められています。"
+  },
+  {
+    "id": "intro-137",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてのラベル表記の規定で正しいものを選択してください。",
+    "choices": [
+      "単一品種名を記載する場合は、85%以上その品種を使用する",
+      "収穫年を記載する場合は、75%以上その年のブドウを使用する",
+      "複数品種名を記載する場合は、割合の一番多い品種のみを記載する",
+      "単一品種名を記載する場合は、100%その品種を使用する"
+    ],
+    "answerIndex": 0,
+    "explanation": "EUの地理的表示ワインのラベル表記規定を確認する問題です。"
+  },
+  {
+    "id": "intro-138",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、イタリア北部が属するゾーンを選択してください。",
+    "choices": [
+      "Zone C-I",
+      "Zone B",
+      "Zone C-III(a)",
+      "Zone A"
+    ],
+    "answerIndex": 0,
+    "explanation": "EUの栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-139",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「混成酒類」に分類されるものを選択してください。",
+    "choices": [
+      "シードル",
+      "清酒",
+      "みりん",
+      "ジン"
+    ],
+    "answerIndex": 2,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-140",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフレーバード・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Frizzante",
+      "Perlwein",
+      "Pétillant",
+      "Sangria"
+    ],
+    "answerIndex": 3,
+    "explanation": "フレーバード・ワインに該当する酒を選ぶ問題です。"
+  },
+  {
+    "id": "intro-141",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からスティルワインで残糖量が45g/リットル以上のものの表示を選択してください。",
+    "choices": [
+      "Demi-Sec",
+      "Dolce",
+      "Amabile",
+      "Halbtrocken"
+    ],
+    "answerIndex": 1,
+    "explanation": "スティルワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-142",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "アメリカ, フランス, スペイン, オーストラリア",
+      "スペイン, フランス, 南アフリカ, アメリカ",
+      "イタリア, フランス, アメリカ, ドイツ",
+      "ドイツ, アメリカ, フランス, イタリア"
+    ],
+    "answerIndex": 2,
+    "explanation": "OIV統計に基づく2022年のワイン生産量順位を確認する問題です。"
+  },
+  {
+    "id": "intro-143",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からポリフェノールが最も多く含まれている品種を選択してください。",
+    "choices": [
+      "カベルネ・フラン",
+      "カベルネ・ソーヴィニョン",
+      "メルロ",
+      "テンプラニーリョ"
+    ],
+    "answerIndex": 1,
+    "explanation": "ポリフェノールを多く含む品種を選ぶ問題です。"
+  },
+  {
+    "id": "intro-144",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「発泡性酒類」に分類されるものを選択してください。",
+    "choices": [
+      "ジン",
+      "ビール",
+      "シードル",
+      "焼酎"
+    ],
+    "answerIndex": 1,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-145",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Frizzante",
+      "Retsina",
+      "Sangria",
+      "VDN(Vin Doux Naturel)"
+    ],
+    "answerIndex": 3,
+    "explanation": "正しい知識を確認する問題です。"
+  },
+  {
+    "id": "intro-146",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第1位の国を選択してください。",
+    "choices": [
+      "フランス",
+      "イタリア",
+      "ポルトガル",
+      "南アフリカ"
+    ],
+    "answerIndex": 1,
+    "explanation": "OIV統計に基づく2022年のワイン生産量順位を確認する問題です。"
+  },
+  {
+    "id": "intro-147",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてのラベル表記の規定で正しいものを選択してください。",
+    "choices": [
+      "複数品種名を記載する場合は、75%以上それらの品種で構成される",
+      "複数品種名を記載する場合は、85%以上それらの品種で構成される",
+      "単一品種名を記載する場合は、75%以上その品種を使用する",
+      "複数品種名を記載する場合は、割合の多い順に記載する"
+    ],
+    "answerIndex": 3,
+    "explanation": "EUの地理的表示ワインのラベル表記規定を確認する問題です。"
+  },
+  {
+    "id": "intro-148",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からスティルワインで残糖量が45g/リットル以上のものの表示を選択してください。",
+    "choices": [
+      "Demi-Sec",
+      "Süß",
+      "Halbtrocken",
+      "Moelleux"
+    ],
+    "answerIndex": 1,
+    "explanation": "スティルワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-149",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワイン中で析出する酒石とはどのようなものか、次の中から選択してください。",
+    "choices": [
+      "クエン酸と、鉄やマンガンなどが結合したもの",
+      "酒石酸と、鉄やマンガンなどが結合したもの",
+      "クエン酸と、カリウムやカルシウムなどが結合したもの",
+      "酒石酸と、カリウムやカルシウムなどが結合したもの"
+    ],
+    "answerIndex": 3,
+    "explanation": "ワイン中で析出する酒石について確認する問題です。"
+  },
+  {
+    "id": "intro-150",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「清酒」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "果実以外が原料の蒸留酒類",
+      "発泡性酒類",
+      "果実原料の蒸留酒類",
+      "穀物原料の醸造酒類"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-151",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からスパークリング・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Pétillant",
+      "Lillet",
+      "Sangria",
+      "Vermouth"
+    ],
+    "answerIndex": 0,
+    "explanation": "スパークリング・ワインに該当する酒を選ぶ問題です。"
+  },
+  {
+    "id": "intro-152",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、ギリシャが属するゾーンを選択してください。",
+    "choices": [
+      "Zone A",
+      "Zone B",
+      "Zone C-III(a)",
+      "Zone C-III(b)"
+    ],
+    "answerIndex": 2,
+    "explanation": "EUの栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-153",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone C-Iに属するワイン産地を選択してください。",
+    "choices": [
+      "フランス（アルザス）",
+      "フランス（シャンパーニュ）",
+      "フランス（ボルドー）",
+      "ドイツ"
+    ],
+    "answerIndex": 2,
+    "explanation": "EUの栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-154",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「混成酒類」に分類されるものを選択してください。",
+    "choices": [
+      "ブランデー",
+      "シードル",
+      "ラム",
+      "甘味果実酒"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-155",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインBrutの残糖量を選択してください。",
+    "choices": [
+      "17〜32g/リットル",
+      "32〜50g/リットル",
+      "50g/リットル超",
+      "12g/リットル未満"
+    ],
+    "answerIndex": 3,
+    "explanation": "スパークリングワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-156",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第2位の国を選択してください。",
+    "choices": [
+      "フランス",
+      "イタリア",
+      "アルゼンチン",
+      "ドイツ"
+    ],
+    "answerIndex": 0,
+    "explanation": "OIV統計に基づく2022年のワイン生産量順位を確認する問題です。"
+  },
+  {
+    "id": "intro-157",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載任意事項とされているものを選択してください。",
+    "choices": [
+      "原産地",
+      "AOP、IGPのEUのシンボルマーク",
+      "スパークリングワインの場合は残糖量",
+      "製品のカテゴリー（ワイン、VDLなど）"
+    ],
+    "answerIndex": 1,
+    "explanation": "EUの地理的表示ワインの任意記載事項を確認する問題です。"
+  },
+  {
+    "id": "intro-158",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中からカリウムなどと結合して結晶として析出する酸を選択してください。",
+    "choices": [
+      "コハク酸",
+      "酒石酸",
+      "シュウ酸",
+      "グルコン酸"
+    ],
+    "answerIndex": 1,
+    "explanation": "ワインに含まれる有機酸に関する問題です。"
+  },
+  {
+    "id": "intro-159",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量が第10位の国を選択してください。",
+    "choices": [
+      "ドイツ",
+      "オーストラリア",
+      "ポルトガル",
+      "アルゼンチン"
+    ],
+    "answerIndex": 2,
+    "explanation": "OIV統計に基づく2022年のワイン生産量を確認する問題です。"
+  },
+  {
+    "id": "intro-160",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスティルワインMoelleuxと同じ残糖量を示す他国の表示を選択してください。",
+    "choices": [
+      "Demi-Sec",
+      "Lieblich",
+      "Halbtrocken",
+      "Abboccato"
+    ],
+    "answerIndex": 1,
+    "explanation": "ワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-161",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "ワインに含まれる有機酸の中から一般にワインに最も多く含まれる酸を選択してください。",
+    "choices": [
+      "シュウ酸",
+      "酒石酸",
+      "リンゴ酸",
+      "コハク酸"
+    ],
+    "answerIndex": 1,
+    "explanation": "ワインに含まれる有機酸に関する問題です。"
+  },
+  {
+    "id": "intro-162",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Retsina",
+      "Vermouth",
+      "Port wine",
+      "Lillet"
+    ],
+    "answerIndex": 2,
+    "explanation": "フォーティファイド・ワインに該当する酒を選ぶ問題です。"
+  },
+  {
+    "id": "intro-163",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Vermouth",
+      "Sangria",
+      "Pétillant",
+      "Sherry"
+    ],
+    "answerIndex": 3,
+    "explanation": "フォーティファイド・ワインに該当する酒を選ぶ問題です。"
+  },
+  {
+    "id": "intro-164",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「シードル」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "混成酒類",
+      "果実原料の醸造酒類",
+      "果実以外が原料の蒸留酒類",
+      "発泡性酒類"
+    ],
+    "answerIndex": 1,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-165",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "生産方法に関する記述",
+      "AOP、IGPのEUのシンボルマーク",
+      "収穫年",
+      "原産地"
+    ],
+    "answerIndex": 3,
+    "explanation": "EUの規定や栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-166",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの栽培地域のゾーン区分で、Zone Bに属するワイン産地を選択してください。",
+    "choices": [
+      "ポルトガル",
+      "スペイン",
+      "フランス（ロワール）",
+      "フランス（ボルドー）"
+    ],
+    "answerIndex": 2,
+    "explanation": "EUの規定や栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-167",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からイタリアのスパークリングワインAbboccatoの残糖量を選択してください。",
+    "choices": [
+      "3g/リットル未満",
+      "0〜6g/リットル",
+      "12〜17g/リットル",
+      "32〜50g/リットル"
+    ],
+    "answerIndex": 3,
+    "explanation": "ワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-168",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年の世界のワイン生産量の中でフランスが占める割合を選択してください。",
+    "choices": [
+      "18.9%",
+      "17.4%",
+      "10.1%",
+      "13.7%"
+    ],
+    "answerIndex": 1,
+    "explanation": "OIV統計に基づく2022年のワイン生産量を確認する問題です。"
+  },
+  {
+    "id": "intro-169",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からアルコール発酵によって生じるものを選択してください。",
+    "choices": [
+      "アルコールと糖分",
+      "アルコールとクエン酸",
+      "アルコールと炭酸ガス",
+      "アルコールとリンゴ酸"
+    ],
+    "answerIndex": 2,
+    "explanation": "発酵に関する基礎知識を確認する問題です。"
+  },
+  {
+    "id": "intro-170",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "下記の中からフォーティファイド・ワインに該当する酒を選択してください。",
+    "choices": [
+      "Pétillant",
+      "Madeira",
+      "Lillet",
+      "Retsina"
+    ],
+    "answerIndex": 1,
+    "explanation": "フォーティファイド・ワインに該当する酒を選ぶ問題です。"
+  },
+  {
+    "id": "intro-171",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「ラム」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "果実原料の蒸留酒類",
+      "混成酒類",
+      "穀物原料の醸造酒類",
+      "果実以外が原料の蒸留酒類"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-172",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "アメリカ, オーストラリア, アルゼンチン, 南アフリカ",
+      "ポルトガル, スペイン, ドイツ, アルゼンチン",
+      "アメリカ, ドイツ, アルゼンチン, スペイン",
+      "アルゼンチン, チリ, スペイン, フランス"
+    ],
+    "answerIndex": 0,
+    "explanation": "OIV統計に基づく2022年のワイン生産量を確認する問題です。"
+  },
+  {
+    "id": "intro-173",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "瓶詰め業者名",
+      "AOP、IGPのEUのシンボルマーク",
+      "生産方法に関する記述",
+      "収穫年"
+    ],
+    "answerIndex": 0,
+    "explanation": "EUの規定や栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-174",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からドイツのスパークリングワインHalbtrockenの残糖量を選択してください。",
+    "choices": [
+      "12g/リットル未満",
+      "17〜32g/リットル",
+      "32〜50g/リットル",
+      "50g/リットル超"
+    ],
+    "answerIndex": 2,
+    "explanation": "ワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-175",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から1Kgのブドウから搾汁される果汁または赤ワインの量を選択してください。",
+    "choices": [
+      "400〜600ml",
+      "800〜1000ml",
+      "600〜800ml",
+      "300〜400ml"
+    ],
+    "answerIndex": 2,
+    "explanation": "ワイン概論の基礎知識を確認する問題です。"
+  },
+  {
+    "id": "intro-176",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「リキュール」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "穀物原料の醸造酒類",
+      "果実原料の醸造酒類",
+      "混成酒類",
+      "発泡性酒類"
+    ],
+    "answerIndex": 2,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-177",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からOIVによる統計で、2022年のワイン生産量を多い国から少ない国の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "イタリア, アメリカ, アルゼンチン, ポルトガル",
+      "フランス, チリ, 南アフリカ, オーストラリア",
+      "イタリア, チリ, ドイツ, 南アフリカ",
+      "イタリア, ドイツ, 南アフリカ, スペイン"
+    ],
+    "answerIndex": 0,
+    "explanation": "OIV統計に基づく2022年のワイン生産量を確認する問題です。"
+  },
+  {
+    "id": "intro-178",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からフランスのスパークリングワインBrut Natureの残糖量を選択してください。",
+    "choices": [
+      "0〜6g/リットル",
+      "12g/リットル未満",
+      "3g/リットル未満",
+      "32〜50g/リットル"
+    ],
+    "answerIndex": 2,
+    "explanation": "ワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "intro-179",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「合成清酒」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "混成酒類",
+      "発泡性酒類",
+      "穀物原料の醸造酒類",
+      "果実原料の醸造酒類"
+    ],
+    "answerIndex": 0,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-180",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からEUの規則で地理的表示のあるワインについてラベル記載義務事項とされているものを選択してください。",
+    "choices": [
+      "生産方法に関する記述",
+      "収穫年",
+      "アルコール度",
+      "AOP、IGPのEUのシンボルマーク"
+    ],
+    "answerIndex": 2,
+    "explanation": "EUの規定や栽培地域ゾーン区分を確認する問題です。"
+  },
+  {
+    "id": "intro-181",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「焼酎」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "果実以外が原料の蒸留酒類",
+      "穀物原料の醸造酒類",
+      "発泡性酒類",
+      "果実原料の醸造酒類"
+    ],
+    "answerIndex": 0,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-182",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「みりん」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "穀物原料の醸造酒類",
+      "果実原料の醸造酒類",
+      "果実以外が原料の蒸留酒類",
+      "混成酒類"
+    ],
+    "answerIndex": 3,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-183",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中から日本の酒税法で「ワイン」が該当する酒類の分類を選択してください。",
+    "choices": [
+      "果実原料の醸造酒類",
+      "果実原料の蒸留酒類",
+      "穀物原料の醸造酒類",
+      "果実以外が原料の蒸留酒類"
+    ],
+    "answerIndex": 0,
+    "explanation": "日本の酒税法上の分類を確認する問題です。"
+  },
+  {
+    "id": "intro-184",
+    "category": "ワイン概論/特性・分類・統計",
+    "importance": "A",
+    "question": "次の中からドイツのスパークリングワインMildの残糖量を選択してください。",
+    "choices": [
+      "50g/リットル超",
+      "32〜50g/リットル",
+      "3g/リットル未満",
+      "0〜6g/リットル"
+    ],
+    "answerIndex": 0,
+    "explanation": "ワインの残糖量表示を確認する問題です。"
+  },
+  {
+    "id": "italy-docg-doc-100",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Montello Rosso",
+      "Franciacorta",
+      "Gattinara",
+      "Piave Malanotte"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-101",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がヴェルディッキオであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Barbera d'Asti",
+      "Montecucco Sangiovese",
+      "Castelli di Jesi Verdicchio Riserva",
+      "Rosazzo"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-102",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がバルベーラであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Dogliani",
+      "Ruchè di Castagnole Monferrato",
+      "Nizza",
+      "Carmignano"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-103",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインElba Aleatico Passitoが生産されている州を選んでください。",
+    "choices": [
+      "サルデーニャ",
+      "バジリカータ",
+      "ヴァッレ・ダオスタ",
+      "トスカーナ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-104",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBrunello di Montalcinoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "グレーラ",
+      "アレアティコ",
+      "ブラケット",
+      "ブルネッロ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-105",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBaroloが生産されている州を選んでください。",
+    "choices": [
+      "サルデーニャ",
+      "ピエモンテ",
+      "バジリカータ",
+      "ウンブリア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-106",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Primitivo di Manduria Dolce Naturale",
+      "Terre Alfieri",
+      "Offida",
+      "Castelli di Jesi Verdicchio Riserva",
+      "Bagnoli Friularo",
+      "Recioto della Valpolicella",
+      "Colli Orientali del Friuli Picolit",
+      "Colline Teramane Montepulciano d'Abruzzo"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "italy-docg-doc-107",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Terre Tollesi",
+      "Colli Bolognesi Pignoletto",
+      "Torgiano Rosso Riserva",
+      "Fiano di Avellino"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-108",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアで、ピーマンとトマトで煮込んだ鶏肉料理を選択してください。",
+    "choices": [
+      "Carne Cruda Battuta",
+      "Pollo alla Romana",
+      "Bistecca alla Pizzaiola",
+      "Ossobuco"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-109",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインAlta Langaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ",
+      "エルバルーチェ",
+      "プリミティーヴォ",
+      "シャルドネ,ピノ・ネーロ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-110",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインValtellina Superioreが生産されている州を選んでください。",
+    "choices": [
+      "ロンバルディア",
+      "カラブリア",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ヴェネト"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-111",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Piave Malanotte",
+      "Greco di Tufo",
+      "Dolcetto di Ovada Superiore",
+      "Chianti",
+      "Fiano di Avellino",
+      "Cirò Classico",
+      "Primitivo di Manduria Dolce Naturale",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      7
+    ]
+  },
+  {
+    "id": "italy-docg-doc-112",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCòneroが生産されている州を選んでください。",
+    "choices": [
+      "カラブリア",
+      "モリーゼ",
+      "マルケ",
+      "リグーリア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-113",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Chianti",
+      "Franciacorta",
+      "Primitivo di Manduria Dolce Naturale",
+      "Sforzato di Valtellina",
+      "Castel del Monte Nero di Troia Riserva",
+      "Cesanese del Piglio",
+      "Bardolino Superiore",
+      "Cònero"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "italy-docg-doc-114",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアDOPワインの中から、マルヴァジーア・ビアンカ・ディ・カンディア種主体でローマ近郊で生産されているワインを選んでください。",
+    "choices": [
+      "Castelli Romani",
+      "Frascati",
+      "Orvieto",
+      "Oltrepò Pavese"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-115",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTerre Alfieriの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ",
+      "アルネイス,ネッビオーロ",
+      "ピコリット",
+      "コルテーゼ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-116",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がタイであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Bardolino Superiore",
+      "Greco di Tufo",
+      "Recioto di Gambellara",
+      "Lison"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-117",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Lison",
+      "Colli di Conegliano",
+      "Cerasuolo di Vittoria",
+      "Vernaccia di Serrapetrona"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-118",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がグレーコであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Chianti",
+      "Aglianico del Vulture Superiore",
+      "Greco di Tufo",
+      "Morellino di Scansano"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-119",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Frascati Superiore",
+      "Cònero",
+      "Asolo",
+      "Colli di Conegliano"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-120",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインFrascati Superioreの主要品種に含まれているものを選んでください。",
+    "choices": [
+      "カベルネ・フラン",
+      "メルロ",
+      "ベッローネ",
+      "カベルネ・ソーヴィニョン"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-121",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がコルヴィーナ・ヴェロネーゼであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Vernaccia di Serrapetrona",
+      "Cesanese del Piglio",
+      "Bardolino Superiore",
+      "Cannellino di Frascati"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-122",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCerasuolo di Vittoriaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "ブルネッロ",
+      "ネーロ・ダヴォラ",
+      "ヴェルメンティーノ",
+      "ヴェルドゥッツオ・フリウラーノ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-123",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Barolo",
+      "Vino Nobile di Montepulciano",
+      "Cannellino di Frascati",
+      "Lison",
+      "Nizza",
+      "Carmignano",
+      "Fiano di Avellino",
+      "Castel del Monte Bombino Nero"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      3
+    ]
+  },
+  {
+    "id": "italy-docg-doc-124",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Aglianico del Vulture Superiore",
+      "Terre Tollesi",
+      "Verdicchio di Matelica Riserva",
+      "Rosazzo"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-125",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "choices": [
+      "Barbaresco",
+      "Recioto della Valpolicella",
+      "Aglianico del Vulture Superiore",
+      "Chianti Classico"
+    ],
+    "explanation": "甘口ワインとして知られるDOPを確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-126",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から1980年に昇格したものを選んでください。",
+    "choices": [
+      "Moscato di Scanzo",
+      "Cesanese del Piglio",
+      "Brunello di Montalcino",
+      "Castel del Monte Nero di Troia Riserva"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-127",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoが生産されている州を選んでください。",
+    "choices": [
+      "ウンブリア",
+      "トスカーナ",
+      "ヴェネト",
+      "ヴァッレ・ダオスタ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-128",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "choices": [
+      "Montello Rosso",
+      "Ghemme",
+      "Dogliani",
+      "Montefalco Sagrantino"
+    ],
+    "explanation": "甘口ワインとして知られるDOPを確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-129",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTerre Tollesiが生産されている州を選んでください。",
+    "choices": [
+      "アブルッツォ",
+      "エミリア・ロマーニャ",
+      "ウンブリア",
+      "トスカーナ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-130",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOC)ワインOrvietoが生産されている州を選んでください。",
+    "choices": [
+      "ロンバルディア",
+      "サルデーニャ",
+      "ウンブリア",
+      "アブルッツォ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-131",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Fiano di Avellino",
+      "Conegliano Valdobbiadene-Prosecco",
+      "Terre Tollesi",
+      "Montecucco Sangiovese"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-132",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がドルチェットであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Soave Superiore",
+      "Colline Teramane Montepulciano d'Abruzzo",
+      "Dolcetto di Diano d'Alba",
+      "Bagnoli Friularo"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-133",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から2019年に昇格したものを選んでください。",
+    "choices": [
+      "Brunello di Montalcino",
+      "Suvereto",
+      "Terre Tollesi",
+      "Bagnoli Friularo"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-134",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ロンバルディア州、Franciacortaの近くにある湖を選択してください。",
+    "choices": [
+      "マッジョーレ湖",
+      "ガルダ湖",
+      "コモ湖",
+      "イゼオ湖"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-135",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインDoglianiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "アレアティコ",
+      "ドルチェット",
+      "ヴェルメンティーノ",
+      "モスカート・ジャッロ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-136",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインColli Euganei Fior d'Arancioが生産されている州を選んでください。",
+    "choices": [
+      "マルケ",
+      "プーリア",
+      "カラブリア",
+      "ヴェネト"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-137",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Valtellina Superiore",
+      "Terre Tollesi",
+      "Gavi",
+      "Conegliano Valdobbiadene-Prosecco"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-138",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "エルバルーチェ",
+      "ヴェルディッキオ",
+      "ガリオッポ",
+      "バルベーラ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-139",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Barbera d'Asti",
+      "Offida",
+      "Fiano di Avellino",
+      "Gavi"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-140",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がアリアーニコであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Taurasi",
+      "Colline Teramane Montepulciano d'Abruzzo",
+      "Rosazzo",
+      "Romagna Albana"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-141",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOC)ワインValpolicella Ripassoが生産されている州を選んでください。",
+    "choices": [
+      "ラツィオ",
+      "ロンバルディア",
+      "ヴェネト",
+      "プーリア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-142",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
+    "choices": [
+      "Colli Bolognesi Pignoletto",
+      "Vernaccia di San Gimignano",
+      "Erbaluce di Caluso",
+      "Vino Nobile di Montepulciano"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-143",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Cesanese del Piglio",
+      "Dolcetto di Diano d'Alba",
+      "Soave Superiore",
+      "Moscato di Scanzo",
+      "Conegliano Valdobbiadene-Prosecco",
+      "Aglianico del Vulture Superiore",
+      "Castelli di Jesi Verdicchio Riserva",
+      "Terre Alfieri"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      6
+    ]
+  },
+  {
+    "id": "italy-docg-doc-144",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、トスカーナ州のDOP(DOCG)ワインBrunello di Montalcinoの最低熟成期間を選んでください。",
+    "choices": [
+      "収穫年より6年目の12月末まで",
+      "収穫年より2年目の12月末まで",
+      "収穫年より5年目の12月末まで",
+      "収穫年より3年目の12月末まで"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-145",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "choices": [
+      "Morellino di Scansano",
+      "Suvereto",
+      "Dogliani",
+      "Brachetto d'Acqui"
+    ],
+    "explanation": "甘口ワインとして知られるDOPを確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-146",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がガルガネガであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Recioto di Soave",
+      "Moscato di Scanzo",
+      "Aglianico del Vulture Superiore",
+      "Montello Rosso"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-147",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Lison",
+      "Vino Nobile di Montepulciano",
+      "Cesanese del Piglio",
+      "Valtellina Superiore"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-148",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から2023年に昇格したものを選んでください。",
+    "choices": [
+      "Montefalco Sagrantino",
+      "Canelli",
+      "Castel del Monte Bombino Nero",
+      "Aglianico del Vulture Superiore"
+    ],
+    "explanation": "DOCG昇格年に関する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-149",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "ガルガネガ",
+      "ヴェルメンティーノ",
+      "ブラケット",
+      "グレーラ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-150",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Barbera d'Asti",
+      "Cannellino di Frascati",
+      "Castel del Monte Bombino Nero",
+      "Terre Tollesi",
+      "Colli Orientali del Friuli Picolit",
+      "Barolo",
+      "Cerasuolo di Vittoria",
+      "Chianti Classico"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "italy-docg-doc-151",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTerre Alfieriが生産されている州を選んでください。",
+    "choices": [
+      "ピエモンテ",
+      "トレンティーノ・アルト・アディジェ",
+      "ヴェネト",
+      "ロンバルディア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-152",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Erbaluce di Caluso",
+      "Verdicchio di Matelica Riserva",
+      "Vernaccia di San Gimignano",
+      "Chianti"
+    ],
+    "explanation": "スプマンテが認められるDOPを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-153",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOC)ワインを選んでください。",
+    "choices": [
+      "Frascati",
+      "Oltrepò Pavese",
+      "Nebbiolo d'Alba",
+      "Pomino"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-154",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインColline Teramane Montepulciano d'Abruzzoが生産されている州を選んでください。",
+    "choices": [
+      "バジリカータ",
+      "ラツィオ",
+      "リグーリア",
+      "アブルッツォ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-155",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリア、トスカーナ州のDOPワインの中から産地が最も海よりに位置するものを選んでください。",
+    "choices": [
+      "Chianti Classico",
+      "Bolgheri",
+      "Morellino di Scansano",
+      "Vino Nobile di Montepulciano"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-156",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がドルチェットであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Frascati Superiore",
+      "Dolcetto di Ovada Superiore",
+      "Barbera d'Asti",
+      "Torgiano Rosso Riserva"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-157",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Colli Orientali del Friuli Picolit",
+      "Chianti Classico",
+      "Brachetto d'Acqui",
+      "Greco di Tufo",
+      "Montello Rosso",
+      "Cerasuolo di Vittoria",
+      "Suvereto",
+      "Conegliano Valdobbiadene-Prosecco"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "italy-docg-doc-158",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインAglianico del Taburnoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "アリアーニコ",
+      "プルニョーロ・ジェンティーレ",
+      "モスカート・ビアンコ",
+      "フリウラーノ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-159",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOC)ワインVernaccia di Oristanoが生産されている州を選んでください。",
+    "choices": [
+      "サルデーニャ",
+      "モリーゼ",
+      "プーリア",
+      "アブルッツォ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-160",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Aglianico del Taburno",
+      "Fiano di Avellino",
+      "Rosazzo",
+      "Franciacorta",
+      "Colli Bolognesi Pignoletto",
+      "Primitivo di Manduria Dolce Naturale",
+      "Dolcetto di Diano d'Alba",
+      "Ghemme"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "italy-docg-doc-161",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から2025年に昇格したものを選んでください。",
+    "choices": [
+      "Verdicchio di Matelica Riserva",
+      "Montecucco Sangiovese",
+      "Chianti",
+      "Cirò Classico"
+    ],
+    "explanation": "DOCG昇格年に関する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-162",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Brachetto d'Acqui",
+      "Dogliani",
+      "Ruchè di Castagnole Monferrato",
+      "Aglianico del Taburno"
+    ],
+    "explanation": "スプマンテが認められるDOPを確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-163",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がモンテプルチャーノであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Montello Rosso",
+      "Dolcetto di Ovada Superiore",
+      "Colline Teramane Montepulciano d'Abruzzo",
+      "Cesanese del Piglio"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-164",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインLisonが生産されている州を選んでください。",
+    "choices": [
+      "アブルッツォ",
+      "モリーゼ",
+      "ヴェネト",
+      "トスカーナ"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-165",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、カンパーニア州アヴェッリーノ県の火山性土壌丘陵地帯で造られる赤ワインを選んでください。",
+    "choices": [
+      "Aglianico del Taburno",
+      "Fiano di Avellino",
+      "Greco di Tufo",
+      "Taurasi"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-166",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Asti",
+      "Rosazzo",
+      "Gattinara",
+      "Greco di Tufo"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-167",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Erbaluce di Caluso",
+      "Rosazzo",
+      "Colli Bolognesi Pignoletto",
+      "Montecucco Sangiovese",
+      "Barolo",
+      "Castel del Monte Nero di Troia Riserva",
+      "Bardolino Superiore",
+      "Torgiano Rosso Riserva"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "italy-docg-doc-168",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoの主要品種に含まれているものを選んでください。",
+    "choices": [
+      "メルロ",
+      "マルヴァジーア・デル・ラツィオ",
+      "カベルネ・ソーヴィニョン",
+      "マルヴァジーア・ビアンカ・ディ・カンディア"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-169",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がガルガネガであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Morellino di Scansano",
+      "Greco di Tufo",
+      "Recioto di Gambellara",
+      "Montefalco Sagrantino"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-170",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で最も南に位置する県を選択してください。",
+    "choices": [
+      "アスティ県",
+      "トリノ県",
+      "アレッサンドリア県",
+      "クーネオ県"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-171",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ラツィオ州で生産されているDOP(DOC)ワインを選んでください。",
+    "choices": [
+      "Vernaccia di Oristano",
+      "Pomino",
+      "Bolgheri",
+      "Est! Est!! Est!!! di Montefiascone"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-172",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインVerdicchio di Matelica Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "タイ",
+      "ヴェルディッキオ",
+      "シャルドネ,ピノ・ネーロ",
+      "モンテプルチャーノ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-173",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
+    "choices": [
+      "Dolcetto di Ovada Superiore",
+      "Montecucco Sangiovese",
+      "Barolo",
+      "Asolo"
+    ],
+    "explanation": "DOCG昇格年に関する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-174",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Barolo",
+      "Cerasuolo di Vittoria",
+      "Verdicchio di Matelica Riserva",
+      "Barbera del Monferrato Superiore"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-175",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaが生産されている州を選んでください。",
+    "choices": [
+      "マルケ",
+      "トレンティーノ・アルト・アディジェ",
+      "ヴァッレ・ダオスタ",
+      "カンパーニア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-176",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州のDOP(DOCG)ワインBaroloが生産されている県名を選んでください。",
+    "choices": [
+      "アレッサンドリア県",
+      "ノヴァーラ県",
+      "トリノ県",
+      "クーネオ県"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-177",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がグレーラであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Castel del Monte Rosso Riserva",
+      "Erbaluce di Caluso",
+      "Chianti",
+      "Asolo"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-178",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Montecucco Sangiovese",
+      "Franciacorta",
+      "Vermentino di Gallura",
+      "Aglianico del Vulture Superiore",
+      "Roero",
+      "Barbera del Monferrato Superiore",
+      "Colli Euganei Fior d'Arancio",
+      "Amarone della Valpolicella"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "italy-docg-doc-179",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Brunello di Montalcino",
+      "Greco di Tufo",
+      "Chianti Classico",
+      "Chianti"
+    ],
+    "explanation": "スプマンテが認められるDOPを確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-180",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOC)ワインを選んでください。",
+    "choices": [
+      "Dolcetto d'Alba",
+      "Castelli Romani",
+      "Pomino",
+      "Biferno"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-181",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Vernaccia di San Gimignano",
+      "Cerasuolo di Vittoria",
+      "Lison",
+      "Asolo"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-182",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Cannellino di Frascati",
+      "Erbaluce di Caluso",
+      "Rosso della Val di Cornia",
+      "Rosazzo"
+    ],
+    "explanation": "認められているワインタイプを確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-183",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアで、ピエモンテ名産のピーマンにツナ、ケッパーなどを詰めた料理を選択してください。",
+    "choices": [
+      "Polpo alla Luciana",
+      "Baccalà alla Vicentina",
+      "Peperone Ripieno",
+      "Pollo alla Romana"
+    ],
+    "explanation": "イタリアのDOP（DOCG/DOC）に関する知識を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-184",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインErbaluce di Calusoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "コルテーゼ",
+      "シャルドネ,ピノ・ネーロ",
+      "エルバルーチェ",
+      "グレーコ"
+    ],
+    "explanation": "該当するDOPの主要品種を確認する問題です。",
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-185",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Barbaresco",
+      "Oltrepò Pavese Metodo Classico",
+      "Brachetto d'Acqui",
+      "Bardolino Superiore",
+      "Valtellina Superiore",
+      "Conegliano Valdobbiadene-Prosecco",
+      "Nizza",
+      "Colline Teramane Montepulciano d'Abruzzo"
+    ],
+    "explanation": "該当州で生産されるDOPを選ぶ複数選択問題です。",
+    "answerIndexes": [
+      3,
+      5
+    ]
+  },
+  {
+    "id": "italy-docg-doc-186",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインLisonが生産されている州を選んでください。",
+    "choices": [
+      "マルケ",
+      "ヴァッレ・ダオスタ",
+      "ピエモンテ",
+      "フリウリ・ヴェネツィア・ジューリア"
+    ],
+    "explanation": "該当するDOPの生産州を確認する問題です。",
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-187",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCannellino di Frascatiの主要品種に含まれているものを選んでください。",
+    "choices": [
+      "ネッビオーロ",
+      "ベッローネ",
+      "サンジョヴェーゼ",
+      "アリアーニコ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解: ベッローネ"
+  },
+  {
+    "id": "italy-docg-doc-188",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Vermentino di Gallura",
+      "Nizza",
+      "Roero",
+      "Barolo",
+      "Colli Bolognesi Pignoletto",
+      "Gavi",
+      "Suvereto",
+      "Rosazzo"
+    ],
+    "answerIndexes": [
+      6
+    ],
+    "explanation": "正解: Suvereto"
+  },
+  {
+    "id": "italy-docg-doc-189",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Vernaccia di San Gimignano",
+      "Greco di Tufo",
+      "Roero",
+      "Elba Aleatico Passito",
+      "Ruchè di Castagnole Monferrato",
+      "Torgiano Rosso Riserva",
+      "Moscato di Scanzo",
+      "Canelli"
+    ],
+    "answerIndexes": [
+      6
+    ],
+    "explanation": "正解: Moscato di Scanzo"
+  },
+  {
+    "id": "italy-docg-doc-190",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "choices": [
+      "Ramandolo",
+      "Montello Rosso",
+      "Brunello di Montalcino",
+      "Aglianico del Vulture Superiore"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: Ramandolo"
+  },
+  {
+    "id": "italy-docg-doc-191",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がマルヴァジーア・ビアンカ・ディ・カンディアであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Terre Alfieri",
+      "Aglianico del Vulture Superiore",
+      "Soave Superiore",
+      "Cannellino di Frascati"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解: Cannellino di Frascati"
+  },
+  {
+    "id": "italy-docg-doc-192",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTorgiano Rosso Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "プルニョーロ・ジェンティーレ",
+      "プリミティーヴォ",
+      "ガリオッポ",
+      "サンジョヴェーゼ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解: サンジョヴェーゼ"
+  },
+  {
+    "id": "italy-docg-doc-193",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Romagna Albana",
+      "Offida",
+      "Chianti Classico",
+      "Colli Bolognesi Pignoletto"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解: Chianti Classico"
+  },
+  {
+    "id": "italy-docg-doc-194",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOC)ワインFrascatiが生産されている州を選んでください。",
+    "choices": [
+      "マルケ",
+      "カンパーニア",
+      "リグーリア",
+      "ラツィオ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解: ラツィオ"
+  },
+  {
+    "id": "italy-docg-doc-195",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiが生産されている州を選んでください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ピエモンテ",
+      "リグーリア",
+      "ヴェネト"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解: ピエモンテ"
+  },
+  {
+    "id": "italy-docg-doc-196",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Dogliani",
+      "Castel del Monte Rosso Riserva",
+      "Ghemme",
+      "Primitivo di Manduria Dolce Naturale",
+      "Bagnoli Friularo",
+      "Erbaluce di Caluso",
+      "Montello Rosso",
+      "Montecucco Sangiovese"
+    ],
+    "answerIndexes": [
+      4,
+      6
+    ],
+    "explanation": "正解: Bagnoli Friularo、Montello Rosso"
+  },
+  {
+    "id": "italy-docg-doc-197",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインLisonの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "アリアーニコ",
+      "ヴェルナッチャ・ネーラ",
+      "タイ",
+      "モンテプルチャーノ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解: タイ"
+  },
+  {
+    "id": "italy-docg-doc-198",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Colli Euganei Fior d'Arancio",
+      "Primitivo di Manduria Dolce Naturale",
+      "Dolcetto di Ovada Superiore",
+      "Gavi",
+      "Brunello di Montalcino",
+      "Cannellino di Frascati",
+      "Colli Bolognesi Pignoletto",
+      "Chianti Classico"
+    ],
+    "answerIndexes": [
+      2,
+      3
+    ],
+    "explanation": "正解: Dolcetto di Ovada Superiore、Gavi"
+  },
+  {
+    "id": "italy-docg-doc-199",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Bardolino Superiore",
+      "Gavi",
+      "Erbaluce di Caluso",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: Bardolino Superiore"
+  },
+  {
+    "id": "italy-docg-doc-200",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインMontefalco Sagrantinoが生産されている州を選んでください。",
+    "choices": [
+      "ヴェネト",
+      "カンパーニア",
+      "プーリア",
+      "ウンブリア"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解: ウンブリア"
+  },
+  {
+    "id": "italy-docg-doc-201",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から2020年に昇格したものを選んでください。",
+    "choices": [
+      "Suvereto",
+      "Terre Alfieri",
+      "Asolo",
+      "Barbaresco"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解: Terre Alfieri"
+  },
+  {
+    "id": "italy-docg-doc-202",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州のDOP(DOCG)ワインBarbarescoが生産されている県名を選んでください。",
+    "choices": [
+      "アレッサンドリア県",
+      "クーネオ県",
+      "トリノ県",
+      "ヴェルチェッリ県"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解: クーネオ県"
+  },
+  {
+    "id": "italy-docg-doc-203",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がフィアーノであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Fiano di Avellino",
+      "Suvereto",
+      "Castel del Monte Bombino Nero",
+      "Castel del Monte Nero di Troia Riserva"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: Fiano di Avellino"
+  },
+  {
+    "id": "italy-docg-doc-204",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Piave Malanotte",
+      "Vermentino di Gallura",
+      "Colli Orientali del Friuli Picolit",
+      "Terre Tollesi"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: Piave Malanotte"
+  },
+  {
+    "id": "italy-docg-doc-205",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Chianti",
+      "Recioto di Gambellara",
+      "Colli Orientali del Friuli Picolit",
+      "Cònero",
+      "Castel del Monte Bombino Nero",
+      "Sforzato di Valtellina",
+      "Roero",
+      "Oltrepò Pavese Metodo Classico"
+    ],
+    "answerIndexes": [
+      4
+    ],
+    "explanation": "正解: Castel del Monte Bombino Nero"
+  },
+  {
+    "id": "italy-docg-doc-206",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインOffidaの主要品種に含まれているものを選んでください。",
+    "choices": [
+      "パッセリーナ",
+      "シャルドネ",
+      "カルメネーレ",
+      "ピノ・ビアンコ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: パッセリーナ"
+  },
+  {
+    "id": "italy-docg-doc-207",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Dogliani",
+      "Castel del Monte Nero di Troia Riserva",
+      "Colli Bolognesi Pignoletto",
+      "Barolo"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解: Colli Bolognesi Pignoletto"
+  },
+  {
+    "id": "italy-docg-doc-208",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Cerasuolo di Vittoria",
+      "Castel del Monte Rosso Riserva",
+      "Recioto di Gambellara",
+      "Vernaccia di San Gimignano",
+      "Chianti Classico",
+      "Castelli di Jesi Verdicchio Riserva",
+      "Elba Aleatico Passito",
+      "Recioto di Soave"
+    ],
+    "answerIndexes": [
+      2,
+      7
+    ],
+    "explanation": "正解: Recioto di Gambellara、Recioto di Soave"
+  },
+  {
+    "id": "italy-docg-doc-209",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がモンテプルチャーノであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Cònero",
+      "Colli Euganei Fior d'Arancio",
+      "Barolo",
+      "Bardolino Superiore"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解: Cònero"
   }
 ];
