@@ -2634,7 +2634,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-001",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスの黒ブドウで栽培面積が第3位の品種を選択してください。",
     "choices": [
       "カベルネ・ソーヴィニョン",
@@ -2662,7 +2662,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-003",
     "category": "フランス概論",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランスのワイン法の分類で、地理的表示保護ワインに相当するものの名称を選択してください。",
     "choices": [
       "Vin Régional",
@@ -2690,7 +2690,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-005",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中から紀元前6世紀ころ、フォカイヤ人によってフランスに初めてブドウ栽培がもたらされた場所を選択してください。",
     "choices": [
       "マルセイユ",
@@ -2732,7 +2732,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-008",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "フランスワイン法の歴史で次の出来事が起きた年代を選択してください。「INAO（国立原産地および品質機関）の前身が設立された」",
     "choices": [
       "1949年",
@@ -2774,7 +2774,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-011",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスの白ブドウで栽培面積が第3位の品種を選択してください。",
     "choices": [
       "シャルドネ",
@@ -2816,7 +2816,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-014",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "フランスワイン法の歴史で次の出来事が起きた年代を選択してください。「AOCより規制が緩やかだが原産地を指定するVDQSが制定された」",
     "choices": [
       "1949年",
@@ -2858,7 +2858,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-017",
     "category": "フランス概論",
-    "importance": "A",
+    "importance": "B",
     "question": "近年、EUレベルで新しいワイン法が導入され、フランスワインも品質等級の変更を行いました。次の中から新しいカテゴリー「地理的表示のあるワイン」を管理する組織を選択してください。",
     "choices": [
       "FranceAgriMer",
@@ -2872,7 +2872,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-018",
     "category": "フランス概論",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からフランスで栽培面積が第1位の品種を選択してください。",
     "choices": [
       "メルロ",
@@ -2900,7 +2900,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-020",
     "category": "フランス概論",
-    "importance": "S",
+    "importance": "B",
     "question": "近年、EUレベルで新しいワイン法が導入され、フランスワインも品質等級の変更を行いました。次の中から新しいカテゴリー「Vin de France」に認められるラベル表示を選択してください。",
     "choices": [
       "品種のみ表示可能、収穫年は表示不可",
@@ -2942,7 +2942,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-023",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランスの白ブドウで栽培面積が第1位の品種を選択してください。",
     "choices": [
       "セミヨン",
@@ -2970,7 +2970,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-025",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスにおけるブドウ品種ユニ・ブランの2019/20年の栽培面積に最も近いものを選択してください。",
     "choices": [
       "120万ヘクタール",
@@ -2984,7 +2984,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-026",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスのワイン法の分類で、地理的表示のないワインに相当するものの名称を選択してください。",
     "choices": [
       "Indication Géographique Protégée",
@@ -3026,7 +3026,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-029",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "近年、EUレベルで新しいワイン法が導入され、フランスワインも品質等級の変更を行いました。次の中からEUのカテゴリー「地理的表示のないワイン」の名称を選択してください。",
     "choices": [
       "Appellation d'Origine Contrôlée",
@@ -3040,7 +3040,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-030",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスの黒ブドウで栽培面積が第2位の品種を選択してください。",
     "choices": [
       "カベルネ・ソーヴィニョン",
@@ -3054,7 +3054,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-031",
     "category": "フランス概論",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からフランスのワイン法の分類で、原産地呼称保護ワインに相当するものの名称を選択してください。",
     "choices": [
       "Vin de France",
@@ -3068,7 +3068,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-032",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスの黒ブドウで栽培面積が第1位の品種を選択してください。",
     "choices": [
       "グルナッシュ",
@@ -3082,7 +3082,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-general-033",
     "category": "フランス概論",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランスにおけるブドウ品種メルロの2019/20年の栽培面積に最も近いものを選択してください。",
     "choices": [
       "80万ヘクタール",
@@ -3096,7 +3096,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-001",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAvizeに相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3129,7 +3129,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-003",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からシャンパーニュの製造工程を最初から最後の順序で正しく並べたものを選択してください。",
     "choices": [
       "Dosage, Pressurage, Fermentation Malolactique, Remuage",
@@ -3143,7 +3143,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-004",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からシャンパーニュ地方Montagne de Reims地区に属するグラン・クリュを選択してください。",
     "choices": [
       "Oger",
@@ -3157,7 +3157,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-005",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "シャンパーニュの製造工程の圧搾において、最初に搾汁された部分の名称を選択してください。",
     "choices": [
       "Tranche",
@@ -3171,7 +3171,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-006",
     "category": "フランス/シャンパーニュ",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方の中心都市で、歴代フランス王の戴冠式が行われた大聖堂があるところを選択してください。",
     "choices": [
       "シャロン",
@@ -3241,7 +3241,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-011",
     "category": "フランス/シャンパーニュ",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から、シャンパーニュの製造工程で、Vendangeを意味する日本語を選択してください。",
     "choices": [
       "打栓",
@@ -3255,7 +3255,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-012",
     "category": "フランス/シャンパーニュ",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方で赤ロゼ白の非発泡ワインを生産するAOCを選択してください。",
     "choices": [
       "Côte des Blancs",
@@ -3269,7 +3269,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-013",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "S",
     "question": "シャンパーニュの甘辛度Extra Dryの残糖度を選択してください。",
     "choices": [
       "0〜6g/リットル",
@@ -3297,7 +3297,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-015",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からシャンパーニュ地方Côte des Blancs地区に属するグラン・クリュを選択してください。",
     "choices": [
       "Avize",
@@ -3311,7 +3311,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-016",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方で2022年に気候変動への適応のために新しく使用が認められた品種を選択してください。",
     "choices": [
       "Pinot Blanc",
@@ -3325,7 +3325,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-017",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方の年間平均気温を選択してください。",
     "choices": [
       "約21度",
@@ -3353,7 +3353,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-019",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "S",
     "question": "シャンパーニュの甘辛度Secの残糖度を選択してください。",
     "choices": [
       "17〜32g/リットル",
@@ -3367,7 +3367,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-020",
     "category": "フランス/シャンパーニュ",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からシャンパーニュのBlanc de Noirsに使用可能な品種を選択してください。",
     "choices": [
       "ピノ・ノワールのみ",
@@ -3381,7 +3381,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-021",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAmbonnayに相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3414,7 +3414,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-023",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から、シャンパーニュの製造工程で、打栓を意味するフランス語を選択してください。",
     "choices": [
       "Bouchage",
@@ -3428,7 +3428,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-024",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からシャンパーニュ地方の2023年のブドウ栽培面積に最も近いものを選択してください。",
     "choices": [
       "3.1万ヘクタール",
@@ -3470,7 +3470,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-027",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "シャンパーニュの製造工程で搾汁された果汁について正しいものを選択してください。",
     "choices": [
       "Cuvéeは酸の豊富なピュアな果汁だが、熟成向きではない。",
@@ -3484,7 +3484,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-028",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でMailly-Champagneに相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3545,7 +3545,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-032",
     "category": "フランス/シャンパーニュ",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方のブドウ畑の7割を占める県名を選択してください。",
     "choices": [
       "Reims",
@@ -3559,7 +3559,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-033",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上で3番のクリュを選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3578,7 +3578,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-034",
     "category": "フランス/シャンパーニュ",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方のAOCワインChampagneが生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ロゼ白の発泡",
@@ -3592,7 +3592,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-035",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "シャンパーニュの製造工程の圧搾でTailleとして許される最大の搾汁量を選択してください。",
     "choices": [
       "4000キロのブドウから2550リットル",
@@ -3606,7 +3606,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-036",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "シャンパーニュ地方で使われている主要品種の中から次の特徴に合致するものを選択してください。「主要3品種の中では栽培面積が一番大きく、全体の38%を占める。シャンパーニュにボディと骨格をもたらす。」",
     "choices": [
       "ピノ・ブラン",
@@ -3620,7 +3620,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-037",
     "category": "フランス/シャンパーニュ",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からシャンパーニュNon Millésiméの法定熟成期間を選択してください。",
     "choices": [
       "澱抜きから出荷まで最低12ヶ月",
@@ -3690,7 +3690,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-042",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "シャンパーニュ地方で使われている主要品種の中から次の特徴に合致するものを選択してください。「発芽の遅い品種で栽培面積の占有率は31%。シャンパーニュにフルーティさとしなやかさをもたらす。」",
     "choices": [
       "ムニエ",
@@ -3718,7 +3718,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-044",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "シャンパーニュの製造工程で許される最大の合計搾汁量を選択してください。",
     "choices": [
       "2000キロのブドウから2550リットル",
@@ -3732,7 +3732,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-045",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からシャンパーニュ地方Vallée de la Marne地区に属するグラン・クリュを選択してください。",
     "choices": [
       "Beaumont sur Vesle",
@@ -3746,7 +3746,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-046",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上で13番のクリュを選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3765,7 +3765,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-047",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中から、シャンパーニュの製造工程で、動瓶を意味するフランス語を選択してください。",
     "choices": [
       "Fermentation Alcoolique",
@@ -3793,7 +3793,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-049",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でVerzyに相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3812,7 +3812,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-050",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方で、かつて村（クリュ）が格付けされていた時の格付け範囲を選択してください。",
     "choices": [
       "60〜100%",
@@ -3882,7 +3882,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-055",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でLe Mesnil sur Ogerに相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -3929,7 +3929,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-058",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "A",
     "question": "シャンパーニュの製造工程の圧搾でCuvéeとして許される最大の搾汁量を選択してください。",
     "choices": [
       "4000キロのブドウから2050リットル",
@@ -3957,7 +3957,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-060",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からシャンパーニュ地方Montagne de Reims地区に属し、エレガントで引き締まったピノ・ノワールを生み出す北向きのグラン・クリュを選択してください。",
     "choices": [
       "Ambonnay",
@@ -3985,7 +3985,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-062",
     "category": "フランス/シャンパーニュ",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上で16番のクリュを選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
@@ -4046,7 +4046,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-champagne-066",
     "category": "フランス/シャンパーニュ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からシャンパーニュ地方の主な土壌を選択してください。",
     "choices": [
       "泥灰質",
@@ -4060,7 +4060,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-001",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ポマール」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白・ロゼワイン",
@@ -4088,7 +4088,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-003",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "以下の候補の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Meursault",
@@ -4109,7 +4109,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-004",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「コート・ド・ブルイィ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -4123,7 +4123,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-005",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ニュイ・サン・ジョルジュ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -4137,7 +4137,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-006",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワイン「サン・ブリ」の品種を選択してください。",
     "choices": [
       "ソーヴィニョン・ブラン",
@@ -4151,7 +4151,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-007",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中でブルゴーニュ地方のAOCワイン「リュリー」を生産することができる地区を選択してください。",
     "choices": [
       "ボージョレ地区",
@@ -4165,7 +4165,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-008",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からボージョレ地区をのぞくブルゴーニュ地方において、ピノ・ノワールが占める栽培比率を選択してください。",
     "choices": [
       "30.5%",
@@ -4179,7 +4179,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-009",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のAOCの総数を選択してください。",
     "choices": [
       "約80個",
@@ -4215,7 +4215,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-011",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
     "choices": [
       "Saint-Bris, Santenay, Viré-Clessé, Brouilly",
@@ -4229,7 +4229,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-012",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方の年間ワイン生産量（ボージョレ地区を除く）に最も近いものを選択してください。",
     "choices": [
       "82万ヘクトリットル",
@@ -4243,7 +4243,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-013",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方マコネ地区の村名AOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Bouzeron",
@@ -4262,7 +4262,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-014",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Morey-Saint-Denis",
@@ -4284,7 +4284,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-015",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「オーセ・デュレス」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4298,7 +4298,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-016",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から赤ワインと白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Beaujolais",
@@ -4334,7 +4334,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-018",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Auxey-Duresses",
@@ -4356,7 +4356,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-019",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ボージョレ・ヴィラージュ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4370,7 +4370,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-020",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ヴージョ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -4384,7 +4384,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-021",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Côte de Brouilly",
@@ -4406,7 +4406,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-022",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「サントネ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4475,7 +4475,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-026",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シャンボール・ミュジニー」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -4489,7 +4489,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-027",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シャブリ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4503,7 +4503,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-028",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤、白、ロゼワインを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Puligny-Montrachet",
@@ -4525,7 +4525,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-029",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から主にソーヌ・エ・ロワール県に属しているブルゴーニュ地方の生産地区を選択してください。",
     "choices": [
       "シャブリ地区",
@@ -4539,7 +4539,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-030",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シェナス」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4553,7 +4553,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-031",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方（ボージョレ地区を除く）で白ワインの占める割合に最も近いものを選択してください。",
     "choices": [
       "60%",
@@ -4581,7 +4581,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-033",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "以下の候補からブルゴーニュ地方コート・シャロネーズ地区の村名AOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Bouzeron",
@@ -4615,7 +4615,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-035",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「サン・ヴェラン」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白・ロゼワイン",
@@ -4629,7 +4629,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-036",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワイン「イランシー」の品種を選択してください。",
     "choices": [
       "アリゴテ",
@@ -4665,7 +4665,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-038",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "以下の候補の中から赤、白、ロゼワインを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Chassagne-Montrachet",
@@ -4687,7 +4687,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-039",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「サン・トーバン」が生産することができるワインの種類を選択してください。",
     "choices": [
       "白ワインのみ",
@@ -4701,7 +4701,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-040",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方で、フィリップ豪胆公がガメイ種を植えることを禁止した年を選択してください。",
     "choices": [
       "630年",
@@ -4715,7 +4715,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-041",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「モレ・サン・ドニ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -4729,7 +4729,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-042",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シャブリ・グラン・クリュ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -4757,7 +4757,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-044",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ボージョレ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白・ロゼワイン",
@@ -4771,7 +4771,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-045",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Vougeot",
@@ -4843,7 +4843,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-049",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「フルーリー」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -4857,7 +4857,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-050",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「コート・ド・ボーヌ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -4871,7 +4871,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-051",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ヴォーヌ・ロマネ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -4885,7 +4885,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-052",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤、白、ロゼワインを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Bourgogne Hautes-Côtes de Nuits",
@@ -4907,7 +4907,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-053",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Marsannay",
@@ -4929,7 +4929,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-054",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
     "choices": [
       "Santenay, Saint-Amour, Volnay, Pouilly-Loché",
@@ -4943,7 +4943,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-055",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Savigny-lès-Beaune",
@@ -4993,7 +4993,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-058",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方の年間ワイン生産量（ボージョレ地区のみ）に最も近いものを選択してください。",
     "choices": [
       "143万ヘクトリットル",
@@ -5077,7 +5077,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-064",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方で1395年、フィリップ豪胆公が禁止したことを選択してください。",
     "choices": [
       "ガメイ種を植えること",
@@ -5091,7 +5091,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-065",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「サン・タムール」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -5105,7 +5105,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-066",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Givry",
@@ -5149,7 +5149,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-068",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Aloxe-Corton",
@@ -5171,7 +5171,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-069",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Vézelay",
@@ -5207,7 +5207,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-071",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボージョレ地区をのぞくブルゴーニュ地方において、アリゴテが占める栽培比率を選択してください。",
     "choices": [
       "9%",
@@ -5221,7 +5221,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-072",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シャブリ・プルミエ・クリュ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -5249,7 +5249,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-074",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ラドワ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "白ワインのみ",
@@ -5277,7 +5277,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-076",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「シルーブル」が生産することができるワインの種類を選択してください。",
     "choices": [
       "白ワインのみ",
@@ -5291,7 +5291,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-077",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Beaujolais Supérieur",
@@ -5334,7 +5334,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-079",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Morey-Saint-Denis",
@@ -5412,7 +5412,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-084",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ブラニィ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -5426,7 +5426,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-085",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方の気候を選択してください。",
     "choices": [
       "一般に大陸性または高山性気候、南部は海洋性気候の影響を受ける",
@@ -5440,7 +5440,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-086",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方の特級畑クロ・ド・タールが誕生した年を選択してください。",
     "choices": [
       "630年",
@@ -5454,7 +5454,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-087",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Bouzeron",
@@ -5490,7 +5490,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-089",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Pouilly-Vinzelles",
@@ -5512,7 +5512,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-090",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から赤、白、ロゼワインを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Beaujolais",
@@ -5562,7 +5562,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-093",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方コート・シャロネーズ地区の村名AOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Pouilly-Vinzelles",
@@ -5596,7 +5596,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-095",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「ボーヌ」が生産することができるワインの種類を選択してください。",
     "choices": [
       "ロゼワインのみ",
@@ -5610,7 +5610,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-096",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のAOCワインの産地を北から南の順序で正しく並べたものを選択してください。",
     "choices": [
       "Viré-Clessé, Saint-Amour, Montagny, Pouilly-Loché",
@@ -5624,7 +5624,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-097",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方のAOCワイン「モルゴン」が生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白・ロゼワイン",
@@ -5638,7 +5638,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-098",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方コート・ドール県の県庁所在地を選択してください。",
     "choices": [
       "リヨン",
@@ -5652,7 +5652,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-099",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中から赤ワインと白ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Saint-Aubin",
@@ -5702,7 +5702,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-aoc-102",
     "category": "フランス/ブルゴーニュ（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中から赤ワインのみを生産することができるAOCを全て選択してください。2個まで選択できます。",
     "choices": [
       "Auxey-Duresses",
@@ -5773,7 +5773,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-004",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Grande Rueに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -5792,7 +5792,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-005",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
     "choices": [
       "Clos des 60 Ouvrées",
@@ -5834,7 +5834,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-008",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で4番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -5847,7 +5847,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-009",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "C",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方シャブリ地区で、ヴォーデジールとプルーズにまたがる非公式なグラン・クリュを選択してください。",
     "choices": [
       "グルヌイユ",
@@ -5861,7 +5861,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-010",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のグラン・クリュGriotte-Chambertinが生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白ワイン",
@@ -5889,7 +5889,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-012",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のVolnay村に存在するグラン・クリュの数を選択してください。",
     "choices": [
       "0個",
@@ -5917,7 +5917,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-014",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のシャブリ・グラン・クリュ（非公式な名称も含む）を全て選択してください。2個まで選択できます。",
     "choices": [
       "Vosgros",
@@ -5975,7 +5975,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-017",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Tâcheに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -5994,7 +5994,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-018",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で2番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -6093,7 +6093,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-025",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で5番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -6123,7 +6123,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-027",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からブルゴーニュ地方、ヴォーヌ・ロマネ村で最も南に位置するグラン・クリュを選択してください。",
     "choices": [
       "La Tâche",
@@ -6137,7 +6137,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-028",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でPreusesに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -6156,7 +6156,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-029",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で6番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -6172,7 +6172,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-030",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でMazis-Chambertinに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
@@ -6205,7 +6205,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-032",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からブルゴーニュ地方でグラン・クリュが存在する村名を選択してください。",
     "choices": [
       "Monthélie村",
@@ -6269,7 +6269,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-036",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のグラン・クリュLatricières-Chambertinが生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -6283,7 +6283,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-037",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
     "choices": [
       "Clos Saint-Denis, Grands Echézeaux, Richebourg, La Tâche",
@@ -6297,7 +6297,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-038",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のPommard村に存在するグラン・クリュの数を選択してください。",
     "choices": [
       "6個",
@@ -6325,7 +6325,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-040",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
     "choices": [
       "Les Caillerets",
@@ -6347,7 +6347,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-041",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上で5番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
@@ -6391,7 +6391,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-044",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でCriots-Bâtard-Montrachetに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
@@ -6410,7 +6410,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-045",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のグラン・クリュRomanée-Saint-Vivantが属する村名を選択してください。",
     "choices": [
       "Aloxe-Corton村",
@@ -6440,7 +6440,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-047",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
     "choices": [
       "Aux Combottes",
@@ -6462,7 +6462,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-048",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で7番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -6515,7 +6515,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-051",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
     "choices": [
       "Hautes Mourottes",
@@ -6537,7 +6537,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-052",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のグラン・クリュCharlemagneが、Pernand-Vergelesses村の区画から生産することができるワインの種類を選択してください。",
     "choices": [
       "赤・白・ロゼワイン",
@@ -6565,7 +6565,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-054",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方のシャブリ・プルミエ・クリュを選択してください。",
     "choices": [
       "Montmains",
@@ -6579,7 +6579,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-055",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBienvenues-Bâtard-Montrachetに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
@@ -6598,7 +6598,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-056",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で3番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -6670,7 +6670,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-061",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で8番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -6686,7 +6686,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-062",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で7番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -6717,7 +6717,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-064",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のグラン・クリュを北から南の順序で正しく並べたものを選択してください。",
     "choices": [
       "Clos Saint-Denis, Mazis-Chambertin, Bonnes-Mares, La Tâche",
@@ -6847,7 +6847,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-072",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
     "choices": [
       "Clos de la Commaraine",
@@ -6883,7 +6883,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-074",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でVaudésirに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -6916,7 +6916,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-076",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で1番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -6948,7 +6948,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-078",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBâtard-Montrachetに相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
@@ -6995,7 +6995,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-081",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のグラン・クリュCorton-Charlemagneが、Aloxe-Corton村の区画から生産することができるワインの種類を選択してください。",
     "choices": [
       "赤ワインのみ",
@@ -7028,7 +7028,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-083",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上で2番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
@@ -7072,7 +7072,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-086",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で3番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -7090,7 +7090,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-087",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のグラン・クリュを全て選択してください。2個まで選択できます。",
     "choices": [
       "Les Rugiens-Hauts",
@@ -7112,7 +7112,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-088",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のAloxe-Corton村に存在するグラン・クリュの数を選択してください。",
     "choices": [
       "3個",
@@ -7148,7 +7148,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-090",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のグラン・クリュLa Romanéeが属する村名を選択してください。",
     "choices": [
       "Ladoix-Serrigny村",
@@ -7184,7 +7184,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-092",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上で4番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
@@ -7197,7 +7197,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-093",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上で7番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
@@ -7213,7 +7213,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-094",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上で6番のグラン・クリュ名をカタカナで入力してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
@@ -7230,7 +7230,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-grand-cru-095",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のグラン・クリュCharlemagneが、Aloxe-Corton村の区画から生産することができるワインの種類を選択してください。",
     "choices": [
       "白ワインのみ",
@@ -7272,7 +7272,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-003",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュChambertin Clos-de-BèzeとGriotte-Chambertinの両方に隣接している畑を選択してください。",
     "choices": [
       "Mazoyères-Chambertin",
@@ -7286,7 +7286,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-004",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のブルゴーニュ地方のAOCの中から、栽培面積が最大のところを選択してください。",
     "choices": [
       "Gevrey-Chambertin",
@@ -7300,7 +7300,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-005",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Vosne-Romanée村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "Les Rugiens-Hauts",
@@ -7314,7 +7314,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-006",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方Ladoix-Serrigny村に属するモノポールを選択してください。",
     "choices": [
       "Clos des Cortons-Faiveley",
@@ -7342,7 +7342,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-008",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Gaudichots",
@@ -7356,7 +7356,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-009",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "C",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方シャブリ地区のグラン・クリュが位置するところを選択してください。",
     "choices": [
       "マルヌ川左岸",
@@ -7370,7 +7370,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-010",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos du Fontenyが属する村を選択してください。",
     "choices": [
       "Gevrey-Chambertin",
@@ -7398,7 +7398,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-012",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のAOCワインBourgogne Passe-Tout-Grainsの品種規定を選択してください。",
     "choices": [
       "ガメイ30%以上、ピノ・ノワール15%以上",
@@ -7412,7 +7412,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-013",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方で最も栽培面積の小さいグラン・クリュを選択してください。",
     "choices": [
       "Clos des Lambrays",
@@ -7426,7 +7426,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-014",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Vosne-Romanée村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "En Caradeux",
@@ -7440,7 +7440,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-015",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方、シャブリ・グラン・クリュLes Closに隣接している畑を選択してください。",
     "choices": [
       "Bougros",
@@ -7454,7 +7454,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-016",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Fèves",
@@ -7468,7 +7468,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-017",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Criots-Bâtard-Montrachet",
@@ -7482,7 +7482,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-018",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方Gevrey-Chambertin村に属するモノポールを選択してください。",
     "choices": [
       "La Grande Rue",
@@ -7552,7 +7552,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-023",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Clos de la Roche",
@@ -7566,7 +7566,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-024",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Vosne-Romanée村に属するモノポールを選択してください。",
     "choices": [
       "Clos de la Mouchère",
@@ -7580,7 +7580,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-025",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方シャブリ地区に流れる川を選択してください。",
     "choices": [
       "スラン川",
@@ -7594,7 +7594,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-026",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のプルミエ・クリュLes Murgers des dents de chienが属する村名を選択してください。",
     "choices": [
       "Saint-Aubin村",
@@ -7608,7 +7608,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-027",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Vaucrains",
@@ -7622,7 +7622,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-028",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方、シャブリ・グラン・クリュLes Closに隣接している畑を選択してください。",
     "choices": [
       "Bougros",
@@ -7650,7 +7650,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-030",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のクリュボージョレの中で最北であるものを選択してください。",
     "choices": [
       "Brouilly",
@@ -7664,7 +7664,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-031",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方、ジュヴレ・シャンベルタン村のグラン・クリュChambertinに隣接している畑を選択してください。",
     "choices": [
       "Chapelle-Chambertin",
@@ -7706,7 +7706,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-034",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Puligny-Montrachet村に属するモノポールを選択してください。",
     "choices": [
       "Clos de la Garenne",
@@ -7748,7 +7748,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-037",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールMorgeot Clos de la Chapelleが属する村を選択してください。",
     "choices": [
       "Volnay",
@@ -7790,7 +7790,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-040",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Pommard村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "Les Rugiens-Bas",
@@ -7818,7 +7818,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-042",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のクリュボージョレの中で面積最大であるものを選択してください。",
     "choices": [
       "Chénas",
@@ -7846,7 +7846,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-044",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Grèves",
@@ -7902,7 +7902,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-048",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Pommard村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "Les Grands Epenots",
@@ -7916,7 +7916,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-049",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方Vougeot村に属するモノポールを選択してください。",
     "choices": [
       "Grèves Vigne de l'Enfant Jésus",
@@ -7972,7 +7972,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-053",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos des Ducsが属する村を選択してください。",
     "choices": [
       "Puligny-Montrachet",
@@ -8028,7 +8028,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-057",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方Chablis村に属するモノポールを選択してください。",
     "choices": [
       "Clos des Hospices",
@@ -8042,7 +8042,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-058",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Latricières-Chambertin",
@@ -8056,7 +8056,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-059",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos de la Garenneの所有者を選択してください。",
     "choices": [
       "Domaine Faiveley",
@@ -8070,7 +8070,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-060",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からブルゴーニュ地方コート・ドール地区で栽培面積が第1位の村を選択してください。",
     "choices": [
       "Gevrey-Chambertin村",
@@ -8084,7 +8084,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-061",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Grands Echézeaux",
@@ -8154,7 +8154,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-066",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Pruliers",
@@ -8168,7 +8168,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-067",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からブルゴーニュ地方のクリュボージョレの中で最新であるものを選択してください。",
     "choices": [
       "Moulin-à-Vent",
@@ -8182,7 +8182,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-068",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Les Cailles",
@@ -8224,7 +8224,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-071",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Chambertin Clos-de-Bèze",
@@ -8238,7 +8238,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-072",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "B",
     "question": "ブルゴーニュ地方のモノポールClos de la Maréchaleが属する村を選択してください。",
     "choices": [
       "Ladoix-Serrigny",
@@ -8266,7 +8266,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-074",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos des Réasの所有者を選択してください。",
     "choices": [
       "Domaine de la Pousse d'Or",
@@ -8308,7 +8308,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-077",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "La Maladière",
@@ -8350,7 +8350,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-080",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Clos des Porrets Saint-Georges",
@@ -8378,7 +8378,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-082",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Pommard村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "Les Suchots",
@@ -8392,7 +8392,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-083",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Aux Vergelesses",
@@ -8406,7 +8406,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-084",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のプルミエ・クリュClos Saint-Jacquesが属する村名を選択してください。",
     "choices": [
       "Puligny-Montrachet村",
@@ -8434,7 +8434,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-086",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Corton",
@@ -8448,7 +8448,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-087",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方の所有者が単独の畑を選択してください。",
     "choices": [
       "Les Petits Epenots",
@@ -8462,7 +8462,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-088",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos de la Barreが属する村を選択してください。",
     "choices": [
       "Chablis",
@@ -8476,7 +8476,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-089",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "ブルゴーニュ地方のモノポールClos des Myglandの所有者を選択してください。",
     "choices": [
       "Domaine Faiveley",
@@ -8490,7 +8490,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-090",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からブルゴーニュ地方Puligny-Montrachet村に属するプルミエ・クリュを選択してください。",
     "choices": [
       "Les Folatières",
@@ -8504,7 +8504,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-091",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のプルミエ・クリュA l'Ecuが属する村名を選択してください。",
     "choices": [
       "Beaune村",
@@ -8518,7 +8518,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-092",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Mazis-Chambertin",
@@ -8532,7 +8532,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-093",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Les Gaudichots",
@@ -8546,7 +8546,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-094",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "B",
     "question": "ブルゴーニュ地方のモノポールLa Grande Rueが属する村を選択してください。",
     "choices": [
       "Vosne-Romanée",
@@ -8574,7 +8574,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-096",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の中からブルゴーニュ地方のプルミエ・クリュを選択してください。",
     "choices": [
       "Les Amoureuses",
@@ -8588,7 +8588,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-097",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "B",
+    "importance": "A",
     "question": "ブルゴーニュ地方のプルミエ・クリュPerrièresが属する村名を選択してください。",
     "choices": [
       "Meursault村",
@@ -8616,7 +8616,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bourgogne-other-099",
     "category": "フランス/ブルゴーニュ（その他）",
-    "importance": "A",
+    "importance": "B",
     "question": "ブルゴーニュ地方のモノポールClos des Hospicesが属する村を選択してください。",
     "choices": [
       "Chassagne-Montrachet",
@@ -8630,7 +8630,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-001",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で6番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -8657,7 +8657,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-003",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドーのAOCワイン「ポイヤック」が生産されている地区を選択してください。",
     "choices": [
       "メドック",
@@ -8671,7 +8671,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-004",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で5番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
@@ -8687,7 +8687,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-005",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
     "choices": [
       "サンテミリオン",
@@ -8701,7 +8701,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-006",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPuisseguin-Saint-Émilionに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
@@ -8720,7 +8720,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-007",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
     "choices": [
       "Cérons",
@@ -8762,7 +8762,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-010",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ボルドー地方、ドルドーニュ川およびジロンド川右岸の土壌を選択してください。",
     "choices": [
       "粘土質土壌",
@@ -8790,7 +8790,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-012",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドーのAOCワイン「ムーリス」が生産されている地区を選択してください。",
     "choices": [
       "ソーテルヌ",
@@ -8804,7 +8804,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-013",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
     "choices": [
       "ルーピアック",
@@ -8818,7 +8818,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-014",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でSaint-Georges Saint-Émilionに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
@@ -8853,7 +8853,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-016",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ボルドー地方でユネスコの世界遺産に登録されているところを選択してください。",
     "choices": [
       "ガロンヌ川左岸の貴腐ワイン生産地",
@@ -8867,7 +8867,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-017",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から、ドルドーニュ川とガロンヌ川の間で生産されている甘口ワインのみのAOCを選択してください。",
     "choices": [
       "Saint-Émilion Grand Cru",
@@ -8881,7 +8881,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-018",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の説明に合致するボルドーの生産地区を選択してください。「ドルドーニュ川右岸に位置する歴史的な町を拠点に広がるワイン産地。バルバンヌ川を挟んで北側には衛星地区と呼ばれる4つのAOCがある。」",
     "choices": [
       "サンテミリオン",
@@ -8895,7 +8895,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-019",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でCéronsに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -8914,7 +8914,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-020",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で1番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -8955,7 +8955,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-023",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でMontagne Saint-Émilionに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
@@ -8974,7 +8974,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-024",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で10番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
@@ -8990,7 +8990,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-025",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方でソーテルヌとバルサックの間に流れる川の名前を選択してください。",
     "choices": [
       "ドルドーニュ川",
@@ -9018,7 +9018,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-027",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でLalande-de-Pomerolに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
@@ -9037,7 +9037,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-028",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でLoupiacに相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -9098,7 +9098,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-032",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方のAOCワインの産地をガロンヌ川およびジロンド川の上流から下流の順序で正しく並べたものを選択してください。",
     "choices": [
       "Pessac-Léognan, Saint-Estèphe, Sauternes, Cérons",
@@ -9126,7 +9126,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-034",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で4番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
@@ -9139,7 +9139,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-035",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドーのAOCワイン「サン・テステフ」が生産されている地区を選択してください。",
     "choices": [
       "メドック",
@@ -9153,7 +9153,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-036",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドーのAOCワイン「マルゴー」が生産されている地区を選択してください。",
     "choices": [
       "アントル・ドゥー・メール",
@@ -9181,7 +9181,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-038",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方で甘口ワインのみが認められているAOCを選択してください。",
     "choices": [
       "ボルドー・ロゼ",
@@ -9195,7 +9195,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-039",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上で7番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
@@ -9211,7 +9211,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-040",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で2番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -9240,7 +9240,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-042",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上で6番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
@@ -9283,7 +9283,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-045",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス最大の規模を持つIGPワインの産地を選択してください。",
     "choices": [
       "南西地方",
@@ -9372,7 +9372,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-051",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ボルドー地方の気候に影響を与えている海流を選択してください。",
     "choices": [
       "アラスカ海流",
@@ -9435,7 +9435,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-055",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上で5番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
@@ -9448,7 +9448,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-056",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス最大の規模を持つAOCワインの産地を選択してください。",
     "choices": [
       "南西地方",
@@ -9462,7 +9462,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-057",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
     "choices": [
       "Sainte-Foy Côtes de Bordeaux",
@@ -9492,7 +9492,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-059",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドーのAOCワイン「セロンス」が生産されている地区を選択してください。",
     "choices": [
       "ポムロール",
@@ -9506,7 +9506,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-060",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の説明に合致するボルドーの生産地区を選択してください。「ガロンヌ川左岸に位置する貴腐ワインで有名な産地。シロン川とガロンヌ川の温度差により秋に霧が発生。ブドウが貴腐化する。」",
     "choices": [
       "コート",
@@ -9520,7 +9520,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-061",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方で甘口ワインのみが認められているAOCを選択してください。",
     "choices": [
       "バルサック",
@@ -9534,7 +9534,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-062",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ボルドー地方のワイン産地の大部分が属する県を選択してください。",
     "choices": [
       "ジロンド県",
@@ -9548,7 +9548,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-063",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "B",
+    "importance": "A",
     "question": "次のAOCワインの中から、ドルドーニュ川右岸で生産されているワインを選択してください。",
     "choices": [
       "Lussac Saint-Émilion",
@@ -9575,7 +9575,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-aoc-065",
     "category": "フランス/ボルドー（概要・AOC）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方で赤ワインのみが認められているAOCを選択してください。",
     "choices": [
       "コート・ド・ブール",
@@ -9589,7 +9589,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-001",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラ・ラギュンヌ",
@@ -9603,7 +9603,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-002",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ダルマイヤック",
@@ -9617,7 +9617,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-003",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ローザン・ガシー",
@@ -9631,7 +9631,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-004",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マルゴー",
@@ -9645,7 +9645,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-005",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ムートン・ロートシルト",
@@ -9659,7 +9659,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-006",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラモット・ギニャール",
@@ -9673,7 +9673,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-007",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・クーアン",
@@ -9687,7 +9687,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-008",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・レオヴィル・ポワフェレ",
@@ -9701,7 +9701,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-009",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マラルティック・ラグラヴィエール",
@@ -9715,7 +9715,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-010",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ドワジー・デュブロカ",
@@ -9729,7 +9729,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-011",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の5級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ピション・ロングヴィル・コンテス・ド・ラランド",
@@ -9743,7 +9743,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-012",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マレスコ・サン・テグジュペリ",
@@ -9757,7 +9757,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-013",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ヴァランドロー",
@@ -9799,7 +9799,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-016",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・トロタノワ",
@@ -9855,7 +9855,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-020",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・スオ",
@@ -9869,7 +9869,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-021",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・グリュオ・ラローズ",
@@ -9911,7 +9911,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-024",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ド・ミラ",
@@ -9967,7 +9967,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-028",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・オー・バージュ・リベラル",
@@ -9995,7 +9995,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-030",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・コス・デストゥールネル",
@@ -10051,7 +10051,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-034",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラフルール",
@@ -10065,7 +10065,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-035",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マルキ・ダレーム・ベッケール",
@@ -10107,7 +10107,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-038",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マルゴー",
@@ -10121,7 +10121,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-039",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・カルボニュー",
@@ -10135,7 +10135,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-040",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・デュクリュ・ボカイユ",
@@ -10177,7 +10177,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-043",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ベイシュヴェル",
@@ -10191,7 +10191,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-044",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ブスコー",
@@ -10219,7 +10219,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-046",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・クロワゼ・バージュ",
@@ -10233,7 +10233,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-047",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マラルティック・ラグラヴィエール",
@@ -10261,7 +10261,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-049",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・コス・ラボリー",
@@ -10275,7 +10275,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-050",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マルキ・ド・テルム",
@@ -10331,7 +10331,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-054",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ムートン・ロートシルト",
@@ -10345,7 +10345,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-055",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラ・ラギュンヌ",
@@ -10387,7 +10387,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-058",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "ドメーヌ・ド・シュバリエ",
@@ -10415,7 +10415,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-061",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ガザン",
@@ -10429,7 +10429,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-062",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マレスコ・サン・テグジュペリ",
@@ -10443,7 +10443,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-063",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ベイシュヴェル",
@@ -10457,7 +10457,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-064",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・カントメルル",
@@ -10513,7 +10513,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-068",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ランシュ・ムーサス",
@@ -10527,7 +10527,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-069",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・グラン・ピュイ・デュカス",
@@ -10541,7 +10541,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-070",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラ・トゥール・ブランシュ",
@@ -10555,7 +10555,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-071",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方メドック地区の2級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラフォン・ロッシェ",
@@ -10583,7 +10583,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-073",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・パヴィ・マッカン",
@@ -10597,7 +10597,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-074",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラ・トゥール・カルネ",
@@ -10611,7 +10611,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-075",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・クロ・オー・ペラゲ",
@@ -10625,7 +10625,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-076",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方メドック地区の3級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・マルゴー",
@@ -10639,7 +10639,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-077",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方グラーヴ地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ドワジー・ヴェドリーヌ",
@@ -10667,7 +10667,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-079",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からボルドー地方メドック地区の4級格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ラトゥール",
@@ -10681,7 +10681,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-080",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方ソーテルヌ＆バルサック地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・パプ・クレマン",
@@ -10709,7 +10709,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-082",
     "category": "フランス/ボルドー（格付け基礎）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方サンテミリオン地区の格付けシャトーを選択してください。",
     "choices": [
       "シャトー・ベルグラーヴ",
@@ -10789,7 +10789,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-004",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中から、ボルドー地方Saint-Émilion地区の2022年の格付けで、格付けへの参加を見送り、Premiers Grands Crus Classés Aから名前が消えたものを選択してください。",
     "choices": [
       "Château Beauséjour Héritiers Duffau Lagarrosse",
@@ -10839,7 +10839,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-007",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "S",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中からCantenac村で生産されAOC Margauxとなる3級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Margaux",
@@ -10911,7 +10911,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-011",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方Sauternes & Barsac地区でPremier Crusに格付けされているものを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Valandraud",
@@ -10947,7 +10947,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-013",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "S",
     "question": "次のボルドー地方Sauternes & Barsac地区の格付けシャトーの中からBommes村で生産されているものを選択してください。",
     "choices": [
       "Château Suduiraut",
@@ -11011,7 +11011,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-017",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "S",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中からLabarde村で生産されAOC Margauxとなる3級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Prieuré-Lichine",
@@ -11054,7 +11054,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-019",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中から3級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Rauzan-Gassies",
@@ -11112,7 +11112,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-022",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中から5級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Pédesclaux",
@@ -11183,7 +11183,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-026",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中からSaint-Julien村で生産されている4級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Pichon-Longueville Baron",
@@ -11204,7 +11204,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-027",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からボルドー地方Sauternes & Barsac地区でPremier Crusに格付けされているものを全て選択してください。2個まで選択できます。",
     "choices": [
       "Domaine de Chevalier",
@@ -11226,7 +11226,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-028",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Graves地区の格付けシャトーの中から赤ワインと白ワイン両方が格付けされているものを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Haut-Bailly",
@@ -11297,7 +11297,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-032",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Médoc地区の格付けシャトーの中からCantenac村で生産されている3級のシャトーを全て選択してください。2個まで選択できます。",
     "choices": [
       "Château Lafon-Rochet",
@@ -11319,7 +11319,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-033",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "A",
+    "importance": "B",
     "question": "次のボルドー地方Graves地区の格付けシャトーの中から、Pessac村で生産されているものを選択してください。",
     "choices": [
       "Château Haut-Bailly",
@@ -11333,7 +11333,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-bordeaux-classification-practice-034",
     "category": "フランス/ボルドー（格付け実践）",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からボルドー地方Saint-Émilion地区で、Château PavieがPremiers Grands Crus Classés Aに昇格した年を選択してください。",
     "choices": [
       "2006年",
@@ -11369,7 +11369,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-001",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からアルザス地方のCrémant d'Alsaceに用いることが可能な品種を選択してください。",
     "choices": [
       "ミュスカ",
@@ -11383,7 +11383,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-002",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のSélection de Grains Noblesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
     "choices": [
       "235グラム/リットル",
@@ -11397,7 +11397,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-003",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、品種に関して例外の規定が設けられているところを選択してください。",
     "choices": [
       "Zotzenberg",
@@ -11411,7 +11411,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-004",
     "category": "フランス/アルザス",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からアルザス地方の東部を流れている川の名前を選択してください。",
     "choices": [
       "ライン川",
@@ -11439,7 +11439,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-006",
     "category": "フランス/アルザス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からアルザス・ロレーヌ地方のAOC Côtes de Toulの赤ワインの主要品種を選択してください。",
     "choices": [
       "ピノ・ノワール",
@@ -11467,7 +11467,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-009",
     "category": "フランス/アルザス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からアルザス・ロレーヌ地方のAOC Moselleの赤ワインの主要品種を選択してください。",
     "choices": [
       "ガメイ",
@@ -11495,7 +11495,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-011",
     "category": "フランス/アルザス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からアルザス地方のVin d'Alsaceに使用される品種を選択してください。品種は別の産地の名前で表示されていることもあります。",
     "choices": [
       "シポン",
@@ -11537,7 +11537,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-014",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
     "choices": [
       "335グラム/リットル",
@@ -11551,7 +11551,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-015",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
     "choices": [
       "257グラム/リットル",
@@ -11579,7 +11579,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-019",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からアルザス地方のSélection de Grains Noblesに原則として認められていない品種を選択してください。",
     "choices": [
       "ゲヴュルツトラミネール",
@@ -11593,7 +11593,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-021",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のVendanges Tardivesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
     "choices": [
       "244グラム/リットル",
@@ -11621,7 +11621,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-023",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からアルザス・ロレーヌ地方のAOC Crémant d'Alsaceが生産可能なワインの色を選択してください。（ロゼはヴァン・グリを含むものとします）",
     "choices": [
       "ロゼ・白",
@@ -11635,7 +11635,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-028",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
     "choices": [
       "270グラム/リットル",
@@ -11649,7 +11649,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-029",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からアルザス地方のAOCクレマン・ダルザスが制定された年を選択してください。",
     "choices": [
       "1962年",
@@ -11705,7 +11705,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-035",
     "category": "フランス/アルザス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からアルザス地方で栽培されている品種ピノ・グリの別名を選択してください。",
     "choices": [
       "サヴァニャン",
@@ -11747,7 +11747,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-038",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、Vendanges TardivesおよびSélection de Grains Noblesにおいてピノ・グリが認められないところを選択してください。",
     "choices": [
       "Altenberg de Bergheim",
@@ -11761,7 +11761,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-040",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のSélection de Grains Noblesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
     "choices": [
       "276グラム/リットル",
@@ -11775,7 +11775,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-041",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、例外的にシルヴァネールを単一で使用できるところを選択してください。",
     "choices": [
       "Wiebelsberg",
@@ -11803,7 +11803,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-043",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のグラン・クリュに認められているリュー・ディの数を選択してください。",
     "choices": [
       "16",
@@ -11845,7 +11845,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-047",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からアルザス地方のAOCアルザスおよびヴァン・ダルザスにおいて、複数の品種を混醸またはアッサンブラージュした場合の表記として適切なものを選択してください。",
     "choices": [
       "Gentil",
@@ -11859,7 +11859,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-048",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からアルザス地方のSélection de Grains Noblesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
     "choices": [
       "276グラム/リットル",
@@ -11887,7 +11887,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-052",
     "category": "フランス/アルザス",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からアルザス地方のAOCアルザスおよびヴァン・ダルザスにおいて、複数の高貴品種を50%以上使用しアッサンブラージュした場合の表記として適切なものを選択してください。",
     "choices": [
       "Edelzwicker",
@@ -11901,7 +11901,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-054",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からアルザス地方のSélection de Grains Noblesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
     "choices": [
       "235グラム/リットル",
@@ -11943,7 +11943,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-057",
     "category": "フランス/アルザス",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からアルザス地方の西部にある山脈の名前を選択してください。",
     "choices": [
       "ヴォージュ山脈",
@@ -11957,7 +11957,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-059",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、単一で醸造する場合、原則としてミュスカは使用できないところを選択してください。",
     "choices": [
       "Vorbourg",
@@ -11971,7 +11971,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-alsace-067",
     "category": "フランス/アルザス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からアルザス・ロレーヌ地方のAOC Moselleが生産可能なワインの色を選択してください。（ロゼはヴァン・グリを含むものとします）",
     "choices": [
       "白のみ",
@@ -12013,7 +12013,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-002",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からジュラ地方においてVin de Pailleの生産に認められていない品種を選択してください。",
     "choices": [
       "ジャケール",
@@ -12027,7 +12027,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-003",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方のVin Jauneの生産における熟成規定を選択してください。",
     "choices": [
       "60ヶ月以上産膜酵母の下で熟成",
@@ -12041,7 +12041,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-004",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "サヴォワ地方のAOCワイン Vin de Savoie Crémantに認められているワインの色またはタイプを選択してください。",
     "choices": [
       "赤・白",
@@ -12055,7 +12055,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-005",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方においてVin de Pailleの生産が認められているAOCを選択してください。",
     "choices": [
       "Crépy",
@@ -12083,7 +12083,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-007",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "S",
     "question": "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
     "choices": [
       "Bugey",
@@ -12097,7 +12097,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-008",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からジュラ地方においてVin de Pailleの生産に認められていない品種を選択してください。",
     "choices": [
       "サヴァニャン",
@@ -12139,7 +12139,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-011",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からサヴォワ地方のAOCを選択してください。",
     "choices": [
       "L'Étoile",
@@ -12153,7 +12153,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-012",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "S",
+    "importance": "A",
     "question": "ジュラ地方のVin Jauneの生産における最低熟成期間を選択してください。",
     "choices": [
       "収穫から2年目の12月15日まで",
@@ -12167,7 +12167,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-013",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からVin de Pailleを生産可能なAOCが存在するフランスのワイン産地を選択してください。",
     "choices": [
       "コート・デュ・ローヌ地方北部",
@@ -12181,7 +12181,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-014",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からサヴォワ地方ではオート・サヴォワ県のみで栽培されているが、スイスでは栽培面積第1位の白ブドウ品種を選択してください。（品種の名前は別名で表示されていることもあります）",
     "choices": [
       "シャスラ",
@@ -12195,7 +12195,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-015",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "C",
+    "importance": "A",
     "question": "ジュラ地方のVin Jauneの生産において禁止されている工程を選択してください。",
     "choices": [
       "Ouillage",
@@ -12209,7 +12209,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-016",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からサヴォワ地方のAOCワインVin de Savoie Crépyの主要品種を選択してください。",
     "choices": [
       "シャスラ",
@@ -12237,7 +12237,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-018",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方のAOCワイン Côtes du Juraに認められているワインの色またはタイプを選択してください。",
     "choices": [
       "黄のみ",
@@ -12251,7 +12251,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-019",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方においてVin de Pailleの生産が認められているAOCを選択してください。",
     "choices": [
       "Seyssel mousseux",
@@ -12265,7 +12265,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-020",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "S",
     "question": "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
     "choices": [
       "Crémant du Jura",
@@ -12279,7 +12279,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-021",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からサヴォワ地方の主要品種の一つで、キプロス島から持ち込まれたと言われている白ブドウ品種を選択してください。（品種の名前は別名で表示されていることもあります）",
     "choices": [
       "モンデューズ",
@@ -12307,7 +12307,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-023",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方のAOCワイン Macvin du Juraに認められているワインの色またはタイプを選択してください。",
     "choices": [
       "赤・ロゼ・白",
@@ -12321,7 +12321,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-024",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からCrémant du Juraの瓶内最低熟成期間を選択してください。",
     "choices": [
       "15ヶ月",
@@ -12363,7 +12363,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-027",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "S",
     "question": "ジュラ地方においてVin Jauneの生産が認められているAOCを選択してください。",
     "choices": [
       "Crémant du Jura",
@@ -12377,7 +12377,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-028",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からジュラ地方のブドウ栽培面積の50%を占め、この地方で最も栽培されている品種を選択してください。（品種の名前は別名で表示されていることもあります）",
     "choices": [
       "ピノ・ノワール",
@@ -12405,7 +12405,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-030",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からジュラ地方のVin de Pailleの最低熟成期間を選択してください。",
     "choices": [
       "収穫から2年目の11月15日まで",
@@ -12419,7 +12419,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-031",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "B",
+    "importance": "A",
     "question": "ジュラ地方においてVin de Pailleの生産が認められていないAOCを選択してください。",
     "choices": [
       "L'Étoile",
@@ -12447,7 +12447,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-033",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からサヴォワ地方を代表する黒ブドウ品種で、長期熟成のポテンシャルを持つが晩熟の品種を選択してください。（品種の名前は別名で表示されていることもあります）",
     "choices": [
       "ムロン・ダルボワ",
@@ -12489,7 +12489,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-jura-savoie-036",
     "category": "フランス/ジュラ、サヴォワ",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からジュラ地方のVin de Pailleの木樽で熟成させる最低期間を選択してください。",
     "choices": [
       "48ヶ月",
@@ -12587,7 +12587,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-006",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方のAOCの中からヴァン・ド・パイユの生産が認められているものを選択してください。",
     "choices": [
       "Cornas",
@@ -12601,7 +12601,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-007",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインSaint-Josephの赤の品種構成を選択してください。",
     "choices": [
       "シラー90%以上+ヴィオニエ",
@@ -12615,7 +12615,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-008",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方南部のAOCの地図です。地図上で15番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-meridional-map.jpg",
@@ -12628,7 +12628,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-009",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で2番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -12641,7 +12641,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-010",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
     "choices": [
       "Cornas",
@@ -12655,7 +12655,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-011",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方のAOCの中からVins Doux Naturelsの生産が認められているものを選択してください。",
     "choices": [
       "Costières de Nîmes",
@@ -12669,7 +12669,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-012",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
     "choices": [
       "Cornas",
@@ -12683,7 +12683,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-013",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Muscat de Beaumes de Venise",
@@ -12697,7 +12697,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-014",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Tavel",
@@ -12711,7 +12711,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-015",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -12725,7 +12725,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-016",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Ventoux",
@@ -12739,7 +12739,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-017",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方南部のAOCの地図です。地図上で17番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-meridional-map.jpg",
@@ -12752,7 +12752,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-018",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Luberon",
@@ -12766,7 +12766,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-019",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で1番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -12807,7 +12807,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-022",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Beaumes de Venise",
@@ -12821,7 +12821,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-023",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中から2024年にCôtes du Rhône Villagesからクリュに昇格した新しいAOCを選択してください。",
     "choices": [
       "Laudun",
@@ -12835,7 +12835,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-024",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインHermitageの赤の品種構成を選択してください。",
     "choices": [
       "シラー85%以上+ヴィオニエ",
@@ -12863,7 +12863,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-026",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Châteauneuf-du-Pape",
@@ -12877,7 +12877,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-027",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
     "choices": [
       "Crémant de Die",
@@ -12891,7 +12891,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-028",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Cornas",
@@ -12932,7 +12932,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-031",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でChâteau-Grilletに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -12965,7 +12965,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-033",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインCornasの品種構成を選択してください。",
     "choices": [
       "シラー90%以上+マルサンヌ、ルーサンヌ",
@@ -12979,7 +12979,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-034",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -13012,7 +13012,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-036",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Vinsobres",
@@ -13026,7 +13026,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-037",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区、ローヌ川左岸で面積最小のAOCを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -13068,7 +13068,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-040",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Vinsobres",
@@ -13082,7 +13082,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-041",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Saint-Joseph",
@@ -13096,7 +13096,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-042",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインChâteauneuf-du-Papeに使用が認められていない品種を選択してください。",
     "choices": [
       "Muscardin",
@@ -13124,7 +13124,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-044",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で5番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -13137,7 +13137,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-045",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Saint-Joseph",
@@ -13151,7 +13151,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-046",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
     "choices": [
       "Clairette de Bellegarde",
@@ -13179,7 +13179,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-048",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方の2023年のAOCワインの年間生産量に最も近いものを選択してください。",
     "choices": [
       "150万ヘクトリットル",
@@ -13207,7 +13207,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-050",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から白ワインはヴィオニエ100%で造らなくてはならないAOCワインを選択してください。",
     "choices": [
       "Condrieu",
@@ -13221,7 +13221,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-051",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインCrozes-Hermitageの赤の品種構成を選択してください。",
     "choices": [
       "シラー100%",
@@ -13235,7 +13235,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-052",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Hermitage",
@@ -13249,7 +13249,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-053",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Châteauneuf-du-Pape",
@@ -13263,7 +13263,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-054",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Saint-Péray",
@@ -13277,7 +13277,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-055",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方の4つのAOCの中で、最も面積の大きいものを選択してください。",
     "choices": [
       "Condrieu",
@@ -13305,7 +13305,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-001",
     "category": "フランス/プロヴァンス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、プロヴァンス地方のAOCワインBelletの赤ワインの最も主たる品種を選択してください。",
     "choices": [
       "シラー",
@@ -13319,7 +13319,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-002",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、プロヴァンス地方の気候を選択してください。",
     "choices": [
       "半大陸性気候",
@@ -13345,7 +13345,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-004",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、プロヴァンス地方のAOCワインの産地を東から西の順序で正しく並べたものを選択してください。",
     "choices": [
       "Bandol, Les Baux de Provence, Bellet, Palette",
@@ -13359,7 +13359,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-005",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、コルシカ島のAOCワインの中からVDNを生産しているものを選択してください。",
     "choices": [
       "Ajaccio",
@@ -13373,7 +13373,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-006",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "S",
     "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で9番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
@@ -13385,7 +13385,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-007",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、プロヴァンス地方のAOCワインの産地を東から西の順序で正しく並べたものを選択してください。",
     "choices": [
       "Cassis, Bandol, Les Baux de Provence, Bellet",
@@ -13399,7 +13399,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-008",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、コルシカ島のナポレオン生誕地に位置するAOCを選択してください。",
     "choices": [
       "Patrimonio",
@@ -13427,7 +13427,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-010",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、コルシカ島の2023年のAOCワインのブドウ栽培面積に最も近いものを選択してください。",
     "choices": [
       "5千ヘクタール",
@@ -13441,7 +13441,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-011",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、コルシカ島のAOCワインPatrimonioの生産可能なワインの色を選択してください。",
     "choices": [
       "赤のみ",
@@ -13513,7 +13513,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-016",
     "category": "フランス/プロヴァンス",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、コルシカ島のAOCワインAjaccioの白ワインの最も主たる品種を選択してください。",
     "choices": [
       "ヴェルメンティーノ",
@@ -13541,7 +13541,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-018",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で12番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
@@ -13572,7 +13572,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-020",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、プロヴァンス地方のAOCワインBandolの生産可能なワインの色を選択してください。",
     "choices": [
       "赤のみ",
@@ -13600,7 +13600,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-022",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPierrevertに相当する番号を選択してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
@@ -13632,7 +13632,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-024",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、プロヴァンス地方のAOCワインの中から、マルセイユ近郊の海辺に位置するものを選択してください。",
     "choices": [
       "Coteaux Varois en Provence",
@@ -13660,7 +13660,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-026",
     "category": "フランス/プロヴァンス",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、コルシカ島のAOCワインPatrimonioの赤ワインの最も主たる品種を選択してください。",
     "choices": [
       "ブラケ",
@@ -13688,7 +13688,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-028",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上で11番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
@@ -13714,7 +13714,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-030",
     "category": "フランス/プロヴァンス",
-    "importance": "C",
+    "importance": "A",
     "question": "次の中から2025年に初めてクリュとしてのステータスを獲得して名前を改めたプロヴァンス地方のAOCを選択してください。",
     "choices": [
       "Bandol",
@@ -13756,7 +13756,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-provence-033",
     "category": "フランス/プロヴァンス",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPaletteに相当する番号を選択してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
@@ -13774,7 +13774,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-001",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランスの全IGPワインの中でラングドック・ルーション地方が占める割合を選択してください。",
     "choices": [
       "約80%",
@@ -13788,7 +13788,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-002",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインMalepèreの赤ワインの主たる品種を選択してください。",
     "choices": [
       "メルロ",
@@ -13802,7 +13802,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-003",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
     "choices": [
       "Rivesaltes",
@@ -13816,7 +13816,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-004",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインLimoux méthode ancestraleの主たる品種を選択してください。",
     "choices": [
       "シュナン・ブラン",
@@ -13830,7 +13830,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-005",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
     "choices": [
       "Maury",
@@ -13844,7 +13844,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-006",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインLimoux Blanquette de Limouxの主たる品種を選択してください。",
     "choices": [
       "モーザック",
@@ -13858,7 +13858,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-007",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインCrémant de Limouxが生産できるワインのタイプを選択してください。",
     "choices": [
       "白（発泡）、ロゼ（発泡）",
@@ -13886,7 +13886,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-009",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から、AOC Banyulsと同一エリアで造られる酒精強化されないワインを選択してください。",
     "choices": [
       "Banyuls Grand Cru",
@@ -13928,7 +13928,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-012",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランス最大の生産量を誇るIGPワインを選択してください。",
     "choices": [
       "Méditerranée",
@@ -13970,7 +13970,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-015",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤のスティルワインのみが認められているものを選択してください。",
     "choices": [
       "La Livinière",
@@ -14012,7 +14012,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-018",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインMalepèreのロゼワインの主たる品種を選択してください。",
     "choices": [
       "モーザック",
@@ -14026,7 +14026,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-019",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から、AOC Rivesaltesと同一エリアで造られる天然甘口ワインを選択してください。",
     "choices": [
       "Grand Roussillon",
@@ -14068,7 +14068,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-022",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランス、ラングドック・ルーション地方に吹く乾いた冷たい風の名前を選択してください。",
     "choices": [
       "ミストラル",
@@ -14082,7 +14082,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-023",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
     "choices": [
       "Muscat de Mireval",
@@ -14110,7 +14110,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-025",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインLimoux Blanquette de Limouxの製法を選択してください。",
     "choices": [
       "Méthode rurale",
@@ -14124,7 +14124,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-026",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤のスティルワインのみが認められているものを選択してください。",
     "choices": [
       "Malepère",
@@ -14138,7 +14138,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-027",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインCrémant de Limouxの主たる品種を選択してください。",
     "choices": [
       "シャルドネ",
@@ -14152,7 +14152,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-028",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ラングドック地方のAOC Languedocの主要品種ではないものを選択してください。",
     "choices": [
       "シラー",
@@ -14180,7 +14180,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-030",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤とロゼワインの生産が認められていて2007年に新しくAOC認定されたものを選択してください。",
     "choices": [
       "Saint-Chinian Roquebrun",
@@ -14194,7 +14194,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-languedoc-roussillon-031",
     "category": "フランス/ラングドック・ルーション",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中からルーション地方のものを選択してください。",
     "choices": [
       "Muscat de Lunel",
@@ -14222,7 +14222,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-001",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に合致するフランス南西地方の生産地区を選択してください。「ボルドー地方より内陸に位置する産地。ボルドーとほぼ同じブドウ品種が使われているが、奥地のため気温が低くまた粘土がちの土壌のため、赤はメルロが主体である。」",
     "choices": [
       "ガロンヌ川流域",
@@ -14236,7 +14236,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-002",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス南西地方のAOCワインの中からアンリ4世の洗礼で使われたワインを選択してください。",
     "choices": [
       "Madiran",
@@ -14250,7 +14250,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-003",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "C",
+    "importance": "A",
     "question": "次の中からフランス南西地方のAOCワインMontravelが生産されている地区を選択してください。",
     "choices": [
       "タルン川流域",
@@ -14278,7 +14278,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-005",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "C",
     "question": "次のフランス南西地方のAOCワインの中から白ワインが認められていないものを選択してください。",
     "choices": [
       "Brulhois",
@@ -14292,7 +14292,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-006",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "C",
+    "importance": "A",
     "question": "次の中からフランス南西地方のAOCワインSaint-Montが生産されている地区を選択してください。",
     "choices": [
       "ガスコーニュ＆バスク地区",
@@ -14306,7 +14306,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-007",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス南西地方のAOCワインの中から白ワインが認められていないものを選択してください。",
     "choices": [
       "Jurançon sec",
@@ -14320,7 +14320,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-008",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス南西地方のAOCワインの中から白甘口または白半甘口ワインが造られているものを選択してください。",
     "choices": [
       "Monbazillac",
@@ -14348,7 +14348,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-010",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス南西地方の2023年のAOCワイン用のブドウ栽培面積に最も近いものを選択してください。",
     "choices": [
       "16万ヘクタール",
@@ -14362,7 +14362,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-011",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランス南西地方のAOCワインTursanが生産されている地区を選択してください。",
     "choices": [
       "ガスコーニュ＆バスク地区",
@@ -14390,7 +14390,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-013",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "C",
+    "importance": "B",
     "question": "次の説明に合致するフランス南西地方の生産地区を選択してください。「スペインとフランスにまたがるピレネ山脈の麓に位置し、ビスケー湾に面した一帯である。アンリ4世の洗礼に使われたと言われる甘口ワインが造られている。」",
     "choices": [
       "ガロンヌ川流域",
@@ -14418,7 +14418,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-sud-ouest-015",
     "category": "フランス/シュッド・ウエスト",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス南西地方のAOCワインの中から白甘口または白半甘口ワインが造られているものを選択してください。",
     "choices": [
       "Montravel",
@@ -14460,7 +14460,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-002",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のワイン産地をロワール川上流から下流の順序で正しく並べたものを選択してください。",
     "choices": [
       "Massif Central, Centre Loire, Anjou & Saumur, Touraine",
@@ -14474,7 +14474,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-003",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Pineau d'Aunisを主要品種とするものを選択してください。",
     "choices": [
       "Coteaux du Vendômois",
@@ -14507,7 +14507,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-005",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
     "choices": [
       "Savennières",
@@ -14535,7 +14535,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-007",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、貴腐または過熟による甘口白ワインを生産しているものを選択してください。",
     "choices": [
       "Touraine Azay-le-Rideau",
@@ -14549,7 +14549,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-008",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインJasnièresの主たる品種を選択してください。品種は別名で表示されていることもあります。",
     "choices": [
       "シャルドネ",
@@ -14563,7 +14563,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-009",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Montlouis-sur-Loire-pétillant",
@@ -14577,7 +14577,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-010",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインの産地を、ロワール川上流から下流の順序で正しく並べたものを選択してください。",
     "choices": [
       "Bourgueil, Pouilly Fumé, Muscadet-Côtes de Grandlieu, Côte Roannaise",
@@ -14591,7 +14591,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-011",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Coteaux de Saumur",
@@ -14605,7 +14605,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-012",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上で3番の産地名をカタカナで入力してください。",
     "image": {
       "src": "assets/loire-centre-map.jpg",
@@ -14618,7 +14618,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-013",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Folle Blancheを主要品種とするものを選択してください。",
     "choices": [
       "Quarts de Chaume",
@@ -14632,7 +14632,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-014",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のワイン産地をロワール川上流から下流の順序で正しく並べたものを選択してください。",
     "choices": [
       "Massif Central, Centre Loire, Pays Nantais, Touraine",
@@ -14646,7 +14646,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-015",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "C",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方ペイ・ナンテ地区のAOCワインの中から生産量が最も少ないものを選択してください。",
     "choices": [
       "Muscadet-Côtes de Grandlieu",
@@ -14674,7 +14674,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-017",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ロワール渓谷地方、ロワール川右岸のAOCを選択してください。",
     "choices": [
       "Sancerre",
@@ -14688,7 +14688,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-018",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインCôte Roannaiseの主たる品種を選択してください。品種は別名で表示されていることもあります。",
     "choices": [
       "ブルトン",
@@ -14702,7 +14702,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-019",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Orléans-Cléry",
@@ -14730,7 +14730,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-021",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "B",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Pineau d'Aunisを主要品種とするものを選択してください。",
     "choices": [
       "Jasnières",
@@ -14758,7 +14758,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-023",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインSavennièresが生産されている地区を選択してください。",
     "choices": [
       "Massif Central",
@@ -14772,7 +14772,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-024",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から半甘口のロゼワインだけが認められているものを選択してください。",
     "choices": [
       "Rosé d'Anjou",
@@ -14786,7 +14786,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-025",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
     "choices": [
       "Coteaux du Loir",
@@ -14814,7 +14814,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-027",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "C",
+    "importance": "B",
     "question": "次の特徴に合致するフランス、ロワール川中流域の城郭を選択してください。「ルイ12世が居城とし、宗教戦争時にギーズ公アンリが暗殺された城。」",
     "choices": [
       "シャンボール城",
@@ -14828,7 +14828,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-028",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインBourgueilの主たる品種を選択してください。品種は別名で表示されていることもあります。",
     "choices": [
       "グートエーデル",
@@ -14842,7 +14842,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-029",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
     "choices": [
       "Coulée-de-Serrant",
@@ -14856,7 +14856,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-030",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、白ワインを辛口から甘口まで造ることが認められているものを選択してください。",
     "choices": [
       "Coulée-de-Serrant",
@@ -14870,7 +14870,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-031",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインOrléans-Cléryの主たる品種を選択してください。品種は別名で表示されていることもあります。",
     "choices": [
       "ブルトン",
@@ -14898,7 +14898,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-033",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、白ワインだけが認められているものを選択してください。",
     "choices": [
       "Saint-Pourçain",
@@ -14912,7 +14912,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-034",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "B",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、Chasselasを主要品種とするものを選択してください。",
     "choices": [
       "Cheverny",
@@ -14954,7 +14954,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-037",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ロワール渓谷地方、ロワール川左岸のAOCを選択してください。",
     "choices": [
       "Cheverny",
@@ -14982,7 +14982,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-039",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でPouilly-Fuméに相当する番号を選択してください。",
     "image": {
       "src": "assets/loire-centre-map.jpg",
@@ -15015,7 +15015,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-041",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中で、白ワインを辛口から甘口まで造ることが認められているものを選択してください。",
     "choices": [
       "Valençay",
@@ -15043,7 +15043,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-043",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上で2番の産地名をカタカナで入力してください。",
     "image": {
       "src": "assets/loire-centre-map.jpg",
@@ -15061,7 +15061,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-044",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ロワール渓谷地方アンジュ地区の主な気候を選択してください。",
     "choices": [
       "海洋性気候",
@@ -15089,7 +15089,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-046",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ロワール渓谷地方のAOCワインMontlouis-sur-Loireの主たる品種を選択してください。品種は別名で表示されていることもあります。",
     "choices": [
       "グートエーデル",
@@ -15145,7 +15145,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-loire-050",
     "category": "フランス/ロワール渓谷地方",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ロワール渓谷地方のAOCワインの中から、赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Côtes d'Auvergne",
@@ -15229,7 +15229,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-001",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "S",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「ワインの生産量は多く、赤ワインと白ワインをほぼ同量生産する。スプマンテの中では最も人気があるフランチャコルタの産地である。」",
     "choices": [
       "ロンバルディア",
@@ -15276,7 +15276,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-004",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリア、トレンティーノ・アルト・アディジェ州で世界遺産に登録されているものを選択してください。",
     "choices": [
       "神秘的な城カステル・デル・モンテ",
@@ -15304,7 +15304,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-006",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
     "choices": [
       "収穫年を記載しなくてはいけない",
@@ -15332,7 +15332,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-008",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が12〜45グラム/リットルのものに表示されるものを選んでください。",
     "choices": [
       "Amabile",
@@ -15360,7 +15360,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-010",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「ワインは軽めのタイプが多く74%が白ワインである。白ワインの代表にエスト!・エスト!!・エスト!!!がある。」",
     "choices": [
       "リグーリア",
@@ -15407,7 +15407,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-013",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州の州都を選択してください。",
     "choices": [
       "ジェノヴァ",
@@ -15435,7 +15435,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-015",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「西を地中海に接し、北と東をアペニン山脈に囲まれている。ピサ、ルッカ、アレッツォなど観光地が多くあり文化財の宝庫である。オリーブオイルの品質の高さでも有名である。」",
     "choices": [
       "トスカーナ",
@@ -15449,7 +15449,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-016",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「フランスとの国境からティレニア海に沿って伸びる細長い州で、州都はジェノヴァである。」",
     "choices": [
       "リグーリア",
@@ -15463,7 +15463,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-017",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の中からイタリアの白ブドウの中で栽培面積が第3位の品種を選択してください。",
     "choices": [
       "トレッビアーノ・トスカーノ",
@@ -15477,7 +15477,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-018",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリア、エミリア・ロマーニャ州とロンバルディア州の一部で栽培されている主要な黒ブドウ品種を選んでください。",
     "choices": [
       "ノジオーラ",
@@ -15519,7 +15519,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-021",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
     "choices": [
       "トレンティーノ・アルト・アディジェ州",
@@ -15533,7 +15533,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-022",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
     "choices": [
       "醸造期間は醸造開始後1ヶ月以内",
@@ -15561,7 +15561,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-024",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「海に囲まれて魚介類が豊富な土地である。ワインの生産量はとても多くイタリア全州でトップ4に入る。白ワインが64%の割合を占め、アルカモやエトナといった軽めのものが有名である。」",
     "choices": [
       "プーリア",
@@ -15589,7 +15589,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-026",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリア、ピエモンテ州南部で栽培されている白ブドウで、一般に若飲みのシンプルなワインを生む品種を選んでください。",
     "choices": [
       "コルテーゼ",
@@ -15603,7 +15603,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-027",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、ピエモンテ州で世界遺産に登録されているものを選択してください。",
     "choices": [
       "百の塔の町サン・ジミニャーノ",
@@ -15636,7 +15636,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-029",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「西をアペニン山脈、東をアドリア海に囲まれた南北に細長い州である。アドリア海の豊富な魚介類を使ったアンコーナ風の魚のスープが有名である。」",
     "choices": [
       "バジリカータ",
@@ -15650,7 +15650,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-030",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「生産量は全州の中で最も少ないが個性のあるワインを造っている。山麓地帯らしく赤ワインが61%を占めている。」",
     "choices": [
       "ヴァッレ・ダオスタ",
@@ -15706,7 +15706,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-034",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "下記の中からイタリアで栽培面積が第3位の品種を選択してください。",
     "choices": [
       "トレッビアーノ・トスカーノ",
@@ -15734,7 +15734,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-036",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、エミリア・ロマーニャ州の州都を選択してください。",
     "choices": [
       "ヴェネツィア",
@@ -15748,7 +15748,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-037",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の画像はイタリア20州の地図です。地図上でUmbriaに相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
@@ -15781,7 +15781,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-039",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリア、マルケ州の州都を選択してください。",
     "choices": [
       "アンコーナ",
@@ -15811,7 +15811,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-041",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
     "choices": [
       "アブルッツォ",
@@ -15839,7 +15839,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-043",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「イタリア半島をブーツに例えると土踏まずの部分にあたる。西側はティレニア海、南側はイオニア海にわずかに開けている。平地は8%にすぎずワインの生産量は少ない。」",
     "choices": [
       "フリウリ・ヴェネツィア・ジューリア",
@@ -15895,7 +15895,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-047",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアに本格的なブドウ栽培を伝えたとされる民族を選んでください。",
     "choices": [
       "ギリシャ人",
@@ -15909,7 +15909,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-048",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアで最初の原産地呼称法が公布された年を選んでください。",
     "choices": [
       "1935年",
@@ -15923,7 +15923,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-049",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリア、ウンブリア州、ペルージャ県モンテファルコ村の周辺だけで栽培されている個性的な黒ブドウ品種を選んでください。",
     "choices": [
       "サグランティーノ",
@@ -15951,7 +15951,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-051",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "A",
     "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
     "choices": [
       "アルコール度数8%以上",
@@ -15965,7 +15965,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-052",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。「湖、川が多く水に恵まれていて、州土の70%を占める緑の丘陵地帯は『緑の心臓』と呼ばれている。」",
     "choices": [
       "ラツィオ",
@@ -15979,7 +15979,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-053",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリア、リグーリア州の州都を選択してください。",
     "choices": [
       "ジェノヴァ",
@@ -15993,7 +15993,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-054",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の中からイタリアで一般的に「南部イタリア」と分類されている州を選んでください。",
     "choices": [
       "フリウリ・ヴェネツィア・ジューリア",
@@ -16007,7 +16007,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-055",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からイタリアの2024年のワイン生産量順位を選択してください。",
     "choices": [
       "世界第4位",
@@ -16035,7 +16035,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-057",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が4〜12グラム/リットルのものに表示されるものを選んでください。",
     "choices": [
       "Abboccato",
@@ -16063,7 +16063,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-059",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の画像はイタリア20州の地図です。地図上で18番の州名をカタカナで入力してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
@@ -16079,7 +16079,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-060",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアの東側に面した海の名前を選択してください。",
     "choices": [
       "ティレニア海",
@@ -16093,7 +16093,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-061",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から古代ギリシャ人が呼んだイタリア半島の名前を選んでください。",
     "choices": [
       "エノトリア・テルス",
@@ -16121,7 +16121,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-063",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が0〜4グラム/リットルのものに表示されるものを選んでください。",
     "choices": [
       "Semi Secco",
@@ -16135,7 +16135,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-064",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
     "choices": [
       "モリーゼ",
@@ -16149,7 +16149,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-065",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリア、モリーゼ州だけで栽培されている黒ブドウ品種で、一時期見捨てられていたが品質は高く再評価されこの州を代表するようになった品種を選んでください。",
     "choices": [
       "ガリオッポ",
@@ -16177,7 +16177,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-067",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
     "choices": [
       "リグーリア州",
@@ -16191,7 +16191,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-068",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量の85%が白ワインで、白ワインの産地として知られている。有名なワインにコッリオがあり、リボッラ・ジャッラという興味深い品種も使用されている。」",
     "choices": [
       "カンパーニア",
@@ -16205,7 +16205,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-069",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の説明に最も良く合致するイタリアのブドウ品種を選んでください。「シチリア州エトナの代表的な黒ブドウ品種で、色が薄めで酸とタンニンが強い。」",
     "choices": [
       "カッリカンテ",
@@ -16219,7 +16219,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-070",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「北をオーストリア、東をスロヴェニア、南をアドリア海に接している。州都はトリエステである。」",
     "choices": [
       "アブルッツォ",
@@ -16233,7 +16233,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-071",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「白ワインはヴェルディッキオ・ディ・カステッリ・ディ・イエージが有名である。赤ワインはモンテプルチャーノ種から力強いワインが生まれている。」",
     "choices": [
       "ロンバルディア",
@@ -16247,7 +16247,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-072",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の画像はイタリア20州の地図です。地図上でSiciliaに相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
@@ -16266,7 +16266,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-073",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのサルデーニャ島のすぐ北に位置する島の名前を選択してください。",
     "choices": [
       "コルシカ島",
@@ -16280,7 +16280,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-074",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の中からイタリアで近年のワイン生産量が第1位である州を選択してください。",
     "choices": [
       "フリウリ・ヴェネツィア・ジューリア",
@@ -16294,7 +16294,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-075",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア半島最南端に位置する州を選択してください。",
     "choices": [
       "バジリカータ州",
@@ -16308,7 +16308,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-076",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地は9%に過ぎずワインの生産量は少ない。代表的なDOPワインにチロがあり、白はグレーコ・ビアンコ種、赤とロゼはガリオッポ種主体である。」",
     "choices": [
       "ラツィオ",
@@ -16322,7 +16322,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-077",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアの州の数を選択してください。",
     "choices": [
       "13",
@@ -16350,7 +16350,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-079",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "下記の画像はイタリア20州の地図です。地図上で10番の州名をカタカナで入力してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
@@ -16422,7 +16422,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-084",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、ピエモンテ州に接している州を選択してください。",
     "choices": [
       "ロンバルディア州",
@@ -16450,7 +16450,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-086",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から紀元前9世紀ころ中部イタリアを広い範囲にわたって支配していた民族を選んでください。",
     "choices": [
       "ギリシャ人",
@@ -16464,7 +16464,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-overview-law-087",
     "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
+    "importance": "C",
     "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「北イタリアのほぼ中央に位置し東西に長く横たわっている。州都ボローニャを境にして2つの地方に分けられる。」",
     "choices": [
       "モリーゼ",
@@ -16492,7 +16492,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-002",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "explanation": "Baroloは赤ワインのみが認められるDOCGです。",
     "choices": [
@@ -16506,7 +16506,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-003",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から主要品種がマルヴァジーア・ビアンカ・ディ・カンディアであるイタリアのDOP(DOCG)ワインを選択してください。",
     "explanation": "Frascati Superioreはマルヴァジーア・ビアンカ・ディ・カンディアを主要品種とするDOCGです。",
     "choices": [
@@ -16520,7 +16520,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-004",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリアのDOP(DOCG)ワインConegliano Valdobbiadene-Proseccoが生産されている州を選んでください。",
     "explanation": "Conegliano Valdobbiadene-Proseccoはヴェネト州のDOCGです。",
     "choices": [
@@ -16548,7 +16548,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-006",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
     "explanation": "Recioto di Gambellaraではスプマンテが認められています。",
     "choices": [
@@ -16562,7 +16562,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-007",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアで、ピーマンとトマトで煮込んだ鶏肉料理を選択してください。",
     "explanation": "Pollo alla Romanaはピーマンとトマトで煮込むローマ風の鶏肉料理です。",
     "choices": [
@@ -16576,7 +16576,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-008",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoの主要品種に含まれているものを選んでください。",
     "explanation": "Carmignanoの主要品種にはカベルネ・ソーヴィニョンが含まれます。",
     "choices": [
@@ -16590,7 +16590,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-009",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "explanation": "Ruchè di Castagnole Monferratoは赤ワインのみが認められるDOCGです。",
     "choices": [
@@ -16604,7 +16604,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-010",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Franciacortaはロンバルディア州のDOCGです。",
     "choices": [
@@ -16625,7 +16625,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-011",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Castel del Monte Rosso RiservaとPrimitivo di Manduria Dolce Naturaleはプーリア州のDOCGです。",
     "choices": [
@@ -16647,7 +16647,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-012",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアで、ピエモンテ名産のピーマンにツナ、ケッパーなどを詰めた料理を選択してください。",
     "explanation": "Peperone Ripienoはピーマンにツナやケッパーなどを詰めた料理です。",
     "choices": [
@@ -16675,7 +16675,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-014",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインLisonの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Lisonの主要品種はタイです。",
     "choices": [
@@ -16703,7 +16703,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-016",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から主要品種がガルガネガであるイタリアのDOP(DOCG)ワインを選択してください。",
     "explanation": "Recioto di Soaveはガルガネガを主要品種とするDOCGです。",
     "choices": [
@@ -16745,7 +16745,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-019",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインAsoloの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Asoloの主要品種はグレーラです。",
     "choices": [
@@ -16759,7 +16759,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-020",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
     "explanation": "Baroloは1981年にDOCGへ昇格しました。",
     "choices": [
@@ -16773,7 +16773,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-021",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
     "explanation": "Asoloではスプマンテが認められています。",
     "choices": [
@@ -16801,7 +16801,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-023",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
     "explanation": "Barbarescoは1981年にDOCGへ昇格しました。",
     "choices": [
@@ -16829,7 +16829,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-025",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
     "explanation": "Fiano di Avellinoは白ワインのみが認められるDOCGです。",
     "choices": [
@@ -16843,7 +16843,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-026",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からピエモンテ州のDOP(DOCG)ワインBarolo Riservaの最低熟成期間を選んでください。",
     "explanation": "Barolo Riservaの最低熟成期間は収穫年の11月1日から62ヶ月です。",
     "choices": [
@@ -16857,7 +16857,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-027",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリアのDOP(DOCG)ワインBarbera d'Astiが生産されている州を選んでください。",
     "explanation": "Barbera d'Astiはピエモンテ州のDOCGです。",
     "choices": [
@@ -16885,7 +16885,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-029",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
     "explanation": "Colli Orientali del Friuli Picolitは白ワインのみが認められるDOCGです。",
     "choices": [
@@ -16913,7 +16913,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-041",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリア、カンパーニア州で最古のDOCGを選んでください。",
     "explanation": "カンパーニア州で最古のDOCGはTaurasiです。",
     "choices": [
@@ -16939,7 +16939,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-043",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインRosso della Val di Corniaの主要品種に含まれているものを選んでください。",
     "explanation": "Rosso della Val di Corniaの主要品種にはカベルネ・ソーヴィニョンが含まれます。",
     "choices": [
@@ -16953,7 +16953,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-044",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiが生産されている州を選んでください。",
     "explanation": "Brachetto d'Acquiはピエモンテ州のDOCGです。",
     "choices": [
@@ -16967,7 +16967,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-045",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中からカリフォルニアのジンファンデルと同じ品種からDOP(DOCG)ワインが生産されている州を選択してください。",
     "explanation": "ジンファンデルと同系統のプリミティーヴォはプーリア州で重要です。",
     "choices": [
@@ -16995,7 +16995,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-048",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Taurasiはカンパーニア州のDOCGです。",
     "choices": [
@@ -17016,7 +17016,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-049",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から主要品種がタイであるイタリアのDOP(DOCG)ワインを選択してください。",
     "explanation": "Lisonの主要品種はタイです。",
     "choices": [
@@ -17030,7 +17030,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-050",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Rosso della Val di CorniaとCarmignanoはトスカーナ州のDOCGです。",
     "choices": [
@@ -17052,7 +17052,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-051",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
     "explanation": "Primitivo di Manduria Dolce Naturaleは甘口ワインのDOCGです。",
     "choices": [
@@ -17080,7 +17080,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-053",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
     "explanation": "Rosazzoは白ワインのみが認められるDOCGです。",
     "choices": [
@@ -17115,7 +17115,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-056",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、モリーゼ州で生産されているDOP(DOC)ワインを選んでください。",
     "explanation": "Bifernoはモリーゼ州のDOP(DOC)ワインです。",
     "choices": [
@@ -17143,7 +17143,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-058",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインErbaluce di Calusoが生産されている州を選んでください。",
     "explanation": "Erbaluce di Calusoはピエモンテ州のDOCGです。",
     "choices": [
@@ -17157,7 +17157,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-059",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Greco di Tufoはカンパーニア州のDOCGです。",
     "choices": [
@@ -17178,7 +17178,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-061",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoが生産されている州を選んでください。",
     "explanation": "Carmignanoはトスカーナ州のDOCGです。",
     "choices": [
@@ -17234,7 +17234,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-066",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Castelli di Jesi Verdicchio Riservaの主要品種はヴェルディッキオです。",
     "choices": [
@@ -17298,7 +17298,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-073",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Brachetto d'Acquiの主要品種はブラケットです。",
     "choices": [
@@ -17312,7 +17312,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-077",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
     "explanation": "Colli Euganei Fior d'Arancioではスプマンテが認められています。",
     "choices": [
@@ -17326,7 +17326,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-078",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Vernaccia di SerrapetronaとCòneroはマルケ州のDOCGです。",
     "choices": [
@@ -17370,7 +17370,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-081",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
     "explanation": "Vernaccia di San Gimignanoは白ワインのみが認められるDOCGです。",
     "choices": [
@@ -17412,7 +17412,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-085",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Dolcetto di Diano d'AlbaとNizzaはピエモンテ州のDOCGです。",
     "choices": [
@@ -17434,7 +17434,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-087",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中から主要品種がネーロ・ダヴォラであるイタリアのDOP(DOCG)ワインを選択してください。",
     "explanation": "Cerasuolo di Vittoriaはネーロ・ダヴォラを主要品種に含むDOCGです。",
     "choices": [
@@ -17448,7 +17448,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-088",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインGreco di Tufoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Greco di Tufoの主要品種はグレーコです。",
     "choices": [
@@ -17462,7 +17462,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-089",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、シチリア州で古木に用いられている伝統的な仕立て方を選んでください。",
     "explanation": "シチリア州の古木にはアルベレッロ仕立てが用いられます。",
     "choices": [
@@ -17476,7 +17476,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-090",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ラツィオ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Frascati SuperioreとCesanese del Piglioはラツィオ州のDOCGです。",
     "choices": [
@@ -17534,7 +17534,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-093",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "explanation": "Castel del Monte Rosso Riservaは赤ワインのみが認められるDOCGです。",
     "choices": [
@@ -17548,7 +17548,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-094",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインVerdicchio di Matelica Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "explanation": "Verdicchio di Matelica Riservaの主要品種はヴェルディッキオです。",
     "choices": [
@@ -17562,7 +17562,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-095",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "explanation": "Elba Aleatico PassitoとSuveretoはトスカーナ州のDOCGです。",
     "choices": [
@@ -17584,7 +17584,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-096",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインFranciacortaの主要品種に含まれているものを選んでください。",
     "explanation": "Franciacortaの主要品種にはピノ・ビアンコが含まれます。",
     "choices": [
@@ -17598,7 +17598,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-099",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
     "explanation": "Elba Aleatico Passitoは甘口ワインのDOCGです。",
     "choices": [
@@ -34190,7 +34190,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-057",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Rasteau",
@@ -34204,7 +34204,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-058",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -34218,7 +34218,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-059",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Gigondas",
@@ -34232,7 +34232,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-060",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインHermitageの赤の品種構成を選択してください。",
     "choices": [
       "シラー90%以上+マルサンヌ、ルーサンヌ",
@@ -34246,7 +34246,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-061",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Côte-Rôtie",
@@ -34260,7 +34260,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-062",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "次のフランス、ローヌ渓谷地方のAOCの中からヴァン・ド・パイユの生産が認められているものを選択してください。",
     "choices": [
       "Hermitage",
@@ -34316,7 +34316,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-066",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインCrozes-Hermitageの赤の品種構成を選択してください。",
     "choices": [
       "シラー100%",
@@ -34330,7 +34330,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-067",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインだけが認められているものを選択してください。",
     "choices": [
       "Coteaux de Die",
@@ -34344,7 +34344,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-068",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
     "choices": [
       "Vacqueyras",
@@ -34386,7 +34386,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-071",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Vinsobres",
@@ -34400,7 +34400,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-072",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から白ワインはヴィオニエ100%で造らなくてはならないAOCワインを選択してください。",
     "choices": [
       "Hermitage",
@@ -34414,7 +34414,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-073",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
     "choices": [
       "Duché d'Uzès",
@@ -34428,7 +34428,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-074",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から白ワインはヴィオニエ100%で造らなくてはならないAOCワインを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -34484,7 +34484,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-078",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Pérayに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -34503,7 +34503,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-079",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
     "choices": [
       "Clairette de Die",
@@ -34531,7 +34531,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-081",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Châtillon-en-Diois",
@@ -34545,7 +34545,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-082",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方の2023年のAOCワインのブドウ栽培面積に最も近いものを選択してください。",
     "choices": [
       "2.3万ヘクタール",
@@ -34559,7 +34559,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-083",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインChâteauneuf-du-Papeに使用が認められていない品種を選択してください。",
     "choices": [
       "Picpoul",
@@ -34587,7 +34587,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-085",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で7番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -34614,7 +34614,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-087",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインSaint-Josephの赤の品種構成を選択してください。",
     "choices": [
       "シラー90%以上+ヴィオニエ",
@@ -34642,7 +34642,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-089",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤ワインと白ワインだけが認められているものを選択してください。",
     "choices": [
       "Côtes du Vivarais",
@@ -34670,7 +34670,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-091",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Châteauneuf-du-Pape",
@@ -34712,7 +34712,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-094",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方の4つのAOCの中で、スパークリングワインを生産しているものを選択してください。",
     "choices": [
       "Saint-Péray Mousseux",
@@ -34740,7 +34740,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-096",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインCôte-Rôtieの品種構成を選択してください。",
     "choices": [
       "シラー90%以上+マルサンヌ、ルーサンヌ",
@@ -34768,7 +34768,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-098",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "S",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でHermitageに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -34787,7 +34787,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-099",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Duché d'Uzès",
@@ -34815,7 +34815,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-101",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からChâteauneuf-du-Papeに使用が認められている品種の数を選択してください。",
     "choices": [
       "14品種",
@@ -34829,7 +34829,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-102",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で6番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -34856,7 +34856,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-104",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方南部の気候を選択してください。",
     "choices": [
       "大陸性気候",
@@ -34870,7 +34870,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-105",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Crémant de Die",
@@ -34884,7 +34884,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-106",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区、ローヌ川右岸で最南のAOCを選択してください。",
     "choices": [
       "Saint-Péray",
@@ -34898,7 +34898,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-107",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で4番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -34911,7 +34911,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-108",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の説明に合致するフランス、ローヌ渓谷地方の生産地区を選択してください。\n「なだらかな平地や丘陵地にブドウ畑が広がる。ワインは複数品種をブレンドして造られる傾向がある。」",
     "choices": [
       "北部地区",
@@ -34925,7 +34925,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-109",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "A",
     "question": "次のフランス、ローヌ渓谷地方のAOCの中から発酵途中で瓶に移し、残りの発酵を瓶内で続ける方式でスパークリングワインの生産が認められているものを選択してください。",
     "choices": [
       "Côte-Rôtie",
@@ -34939,7 +34939,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-110",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインChâteauneuf-du-Papeに使用が認められていない品種を選択してください。",
     "choices": [
       "Vaccarèse",
@@ -34953,7 +34953,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-111",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインCornasの品種構成を選択してください。",
     "choices": [
       "シラー85%以上+ヴィオニエ",
@@ -34967,7 +34967,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-112",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
     "choices": [
       "Vacqueyras",
@@ -34995,7 +34995,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-114",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Josephに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -35014,7 +35014,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-115",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Beaumes de Venise",
@@ -35028,7 +35028,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-116",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -35056,7 +35056,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-118",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Muscat de Beaumes de Venise",
@@ -35084,7 +35084,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-120",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Vinsobres",
@@ -35098,7 +35098,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-121",
     "category": "フランス/ローヌ渓谷",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方のAOCワインChâteauneuf-du-Papeに使用が認められていない品種を選択してください。",
     "choices": [
       "Picpoul",
@@ -35126,7 +35126,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-123",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Vinsobres",
@@ -35168,7 +35168,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-126",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方南部地区にあるAOCを選択してください。",
     "choices": [
       "Côte-Rôtie",
@@ -35215,7 +35215,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-129",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から赤・白・ロゼワインが認められているものを選択してください。",
     "choices": [
       "Saint-Péray",
@@ -35229,7 +35229,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-130",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "S",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川右岸のAOCを選択してください。",
     "choices": [
       "Muscat de Beaumes de Venise",
@@ -35257,7 +35257,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-132",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方のAOCワインの中から白ワインだけが認められているものを選択してください。",
     "choices": [
       "Château-Grillet",
@@ -35313,7 +35313,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-136",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Côte-Rôtie",
@@ -35327,7 +35327,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-137",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からフランス、ローヌ渓谷地方北部地区にあるAOCを選択してください。",
     "choices": [
       "Saint-Joseph",
@@ -35341,7 +35341,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-138",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からフランス、ローヌ渓谷地方北部の気候を選択してください。",
     "choices": [
       "地中海性気候",
@@ -35355,7 +35355,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-139",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "C",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上で8番のAOC名をカタカナで入力してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -35368,7 +35368,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-140",
     "category": "フランス/ローヌ渓谷",
-    "importance": "C",
+    "importance": "B",
     "question": "次の中から2024年にCôtes du Rhône Villagesからクリュに昇格した新しいAOCを選択してください。",
     "choices": [
       "Grignan-les-Adhémar",
@@ -35382,7 +35382,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-141",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -35443,7 +35443,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-145",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からフランス、ローヌ渓谷地方ローヌ川左岸のAOCを選択してください。",
     "choices": [
       "Crémant de Die",
@@ -35471,7 +35471,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-147",
     "category": "フランス/ローヌ渓谷",
-    "importance": "A",
+    "importance": "B",
     "question": "次のフランス、ローヌ渓谷地方の4つのAOCの中で、最も面積の小さいものを選択してください。",
     "choices": [
       "Côte-Rôtie",
@@ -35485,7 +35485,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "france-rhone-148",
     "category": "フランス/ローヌ渓谷",
-    "importance": "B",
+    "importance": "A",
     "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCornasに相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
@@ -36218,7 +36218,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-102",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中から主要品種がバルベーラであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Dogliani",
@@ -36232,7 +36232,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-103",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインElba Aleatico Passitoが生産されている州を選んでください。",
     "choices": [
       "サルデーニャ",
@@ -36260,7 +36260,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-105",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリアのDOP(DOCG)ワインBaroloが生産されている州を選んでください。",
     "choices": [
       "サルデーニャ",
@@ -36295,7 +36295,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-107",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Terre Tollesi",
@@ -36309,7 +36309,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-108",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアで、ピーマンとトマトで煮込んだ鶏肉料理を選択してください。",
     "choices": [
       "Carne Cruda Battuta",
@@ -36323,7 +36323,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-109",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインAlta Langaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ",
@@ -36337,7 +36337,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-110",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリアのDOP(DOCG)ワインValtellina Superioreが生産されている州を選んでください。",
     "choices": [
       "ロンバルディア",
@@ -36351,7 +36351,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-111",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Piave Malanotte",
@@ -36371,7 +36371,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-112",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインCòneroが生産されている州を選んでください。",
     "choices": [
       "カラブリア",
@@ -36406,7 +36406,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-114",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次のイタリアDOPワインの中から、マルヴァジーア・ビアンカ・ディ・カンディア種主体でローマ近郊で生産されているワインを選んでください。",
     "choices": [
       "Castelli Romani",
@@ -36420,7 +36420,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-115",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインTerre Alfieriの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ",
@@ -36434,7 +36434,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-116",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中から主要品種がタイであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Bardolino Superiore",
@@ -36490,7 +36490,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-120",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインFrascati Superioreの主要品種に含まれているものを選んでください。",
     "choices": [
       "カベルネ・フラン",
@@ -36504,7 +36504,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-121",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から主要品種がコルヴィーナ・ヴェロネーゼであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Vernaccia di Serrapetrona",
@@ -36518,7 +36518,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-122",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインCerasuolo di Vittoriaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "ブルネッロ",
@@ -36552,7 +36552,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-124",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "A",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Aglianico del Vulture Superiore",
@@ -36580,7 +36580,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-126",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から1980年に昇格したものを選んでください。",
     "choices": [
       "Moscato di Scanzo",
@@ -36594,7 +36594,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-127",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoが生産されている州を選んでください。",
     "choices": [
       "ウンブリア",
@@ -36608,7 +36608,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-128",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
     "choices": [
       "Montello Rosso",
@@ -36636,7 +36636,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-130",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOC)ワインOrvietoが生産されている州を選んでください。",
     "choices": [
       "ロンバルディア",
@@ -36692,7 +36692,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-134",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリア、ロンバルディア州、Franciacortaの近くにある湖を選択してください。",
     "choices": [
       "マッジョーレ湖",
@@ -36706,7 +36706,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-135",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインDoglianiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "アレアティコ",
@@ -36734,7 +36734,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-137",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Valtellina Superiore",
@@ -36748,7 +36748,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-138",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "エルバルーチェ",
@@ -36790,7 +36790,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-141",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリアのDOP(DOC)ワインValpolicella Ripassoが生産されている州を選んでください。",
     "choices": [
       "ラツィオ",
@@ -36818,7 +36818,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-143",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Cesanese del Piglio",
@@ -36838,7 +36838,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-144",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリア、トスカーナ州のDOP(DOCG)ワインBrunello di Montalcinoの最低熟成期間を選んでください。",
     "choices": [
       "収穫年より6年目の12月末まで",
@@ -36852,7 +36852,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-145",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
     "choices": [
       "Morellino di Scansano",
@@ -36908,7 +36908,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-149",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "ガルガネガ",
@@ -36922,7 +36922,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-150",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Barbera d'Asti",
@@ -36943,7 +36943,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-151",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインTerre Alfieriが生産されている州を選んでください。",
     "choices": [
       "ピエモンテ",
@@ -36957,7 +36957,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-152",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
     "choices": [
       "Erbaluce di Caluso",
@@ -36985,7 +36985,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-154",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインColline Teramane Montepulciano d'Abruzzoが生産されている州を選んでください。",
     "choices": [
       "バジリカータ",
@@ -37013,7 +37013,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-156",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から主要品種がドルチェットであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Frascati Superiore",
@@ -37027,7 +37027,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-157",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Colli Orientali del Friuli Picolit",
@@ -37048,7 +37048,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-158",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "A",
     "question": "次の中からイタリアのDOP(DOCG)ワインAglianico del Taburnoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "アリアーニコ",
@@ -37062,7 +37062,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-159",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOC)ワインVernaccia di Oristanoが生産されている州を選んでください。",
     "choices": [
       "サルデーニャ",
@@ -37076,7 +37076,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-160",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Aglianico del Taburno",
@@ -37125,7 +37125,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-163",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中から主要品種がモンテプルチャーノであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Montello Rosso",
@@ -37139,7 +37139,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-164",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインLisonが生産されている州を選んでください。",
     "choices": [
       "アブルッツォ",
@@ -37153,7 +37153,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-165",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、カンパーニア州アヴェッリーノ県の火山性土壌丘陵地帯で造られる赤ワインを選んでください。",
     "choices": [
       "Aglianico del Taburno",
@@ -37167,7 +37167,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-166",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Asti",
@@ -37181,7 +37181,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-167",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Erbaluce di Caluso",
@@ -37202,7 +37202,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-168",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoの主要品種に含まれているものを選んでください。",
     "choices": [
       "メルロ",
@@ -37258,7 +37258,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-172",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインVerdicchio di Matelica Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "タイ",
@@ -37272,7 +37272,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-173",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
     "choices": [
       "Dolcetto di Ovada Superiore",
@@ -37300,7 +37300,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-175",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインCastelli di Jesi Verdicchio Riservaが生産されている州を選んでください。",
     "choices": [
       "マルケ",
@@ -37342,7 +37342,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-178",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Montecucco Sangiovese",
@@ -37391,7 +37391,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-181",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Vernaccia di San Gimignano",
@@ -37405,7 +37405,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-182",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Cannellino di Frascati",
@@ -37419,7 +37419,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-183",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアで、ピエモンテ名産のピーマンにツナ、ケッパーなどを詰めた料理を選択してください。",
     "choices": [
       "Polpo alla Luciana",
@@ -37433,7 +37433,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-184",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインErbaluce di Calusoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "コルテーゼ",
@@ -37447,7 +37447,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-185",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Barbaresco",
@@ -37468,7 +37468,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-186",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインLisonが生産されている州を選んでください。",
     "choices": [
       "マルケ",
@@ -37482,7 +37482,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-187",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインCannellino di Frascatiの主要品種に含まれているものを選んでください。",
     "choices": [
       "ネッビオーロ",
@@ -37496,7 +37496,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-188",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Vermentino di Gallura",
@@ -37564,7 +37564,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-192",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインTorgiano Rosso Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "プルニョーロ・ジェンティーレ",
@@ -37578,7 +37578,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-193",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Romagna Albana",
@@ -37592,7 +37592,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-194",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOC)ワインFrascatiが生産されている州を選んでください。",
     "choices": [
       "マルケ",
@@ -37606,7 +37606,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-195",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインBrachetto d'Acquiが生産されている州を選んでください。",
     "choices": [
       "フリウリ・ヴェネツィア・ジューリア",
@@ -37641,7 +37641,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-197",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中からイタリアのDOP(DOCG)ワインLisonの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
     "choices": [
       "アリアーニコ",
@@ -37655,7 +37655,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-198",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Colli Euganei Fior d'Arancio",
@@ -37676,7 +37676,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-199",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Bardolino Superiore",
@@ -37732,7 +37732,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-203",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中から主要品種がフィアーノであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Fiano di Avellino",
@@ -37746,7 +37746,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-204",
     "category": "イタリア/DOCG、DOC",
-    "importance": "B",
+    "importance": "C",
     "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
     "choices": [
       "Piave Malanotte",
@@ -37780,7 +37780,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-206",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "C",
     "question": "次の中からイタリアのDOP(DOCG)ワインOffidaの主要品種に含まれているものを選んでください。",
     "choices": [
       "パッセリーナ",
@@ -37794,7 +37794,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-207",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "B",
     "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
     "choices": [
       "Dogliani",
@@ -37808,7 +37808,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-208",
     "category": "イタリア/DOCG、DOC",
-    "importance": "A",
+    "importance": "S",
     "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
     "choices": [
       "Cerasuolo di Vittoria",
@@ -37829,7 +37829,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "italy-docg-doc-209",
     "category": "イタリア/DOCG、DOC",
-    "importance": "S",
+    "importance": "B",
     "question": "次の中から主要品種がモンテプルチャーノであるイタリアのDOP(DOCG)ワインを選択してください。",
     "choices": [
       "Cònero",
