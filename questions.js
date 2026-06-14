@@ -38525,5 +38525,2542 @@ window.WINE_QUESTIONS = [
       "Dolcetto di Ovada Superiore"
     ],
     "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-255",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOC)ワインを選んでください。",
+    "choices": [
+      "Langhe",
+      "Valpolicella Ripasso",
+      "Orvieto",
+      "Cinque Terre"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Langhe」です。"
+  },
+  {
+    "id": "italy-docg-doc-256",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Brachetto d'Acqui",
+      "Taurasi",
+      "Cesanese del Piglio",
+      "Aglianico del Taburno",
+      "Vernaccia di San Gimignano",
+      "Oltrepò Pavese Metodo Classico",
+      "Vermentino di Gallura",
+      "Chianti Classico"
+    ],
+    "answerIndexes": [
+      4,
+      7
+    ],
+    "maxSelections": 2,
+    "explanation": "正解は「Vernaccia di San Gimignano、Chianti Classico」です。"
+  },
+  {
+    "id": "italy-docg-doc-257",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインRecioto di Soaveが生産されている州を選んでください。",
+    "choices": [
+      "マルケ",
+      "ウンブリア",
+      "ヴェネト",
+      "トレンティーノ・アルト・アディジェ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ヴェネト」です。"
+  },
+  {
+    "id": "italy-docg-doc-258",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Castelli di Jesi Verdicchio Riserva",
+      "Terre Alfieri",
+      "Asti",
+      "Moscato di Scanzo"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Asti」です。"
+  },
+  {
+    "id": "italy-docg-doc-259",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインFranciacorta（ノーマル）の最低瓶内熟成期間を選択してください。",
+    "choices": [
+      "6ヶ月",
+      "9ヶ月",
+      "15ヶ月",
+      "18ヶ月"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「18ヶ月」です。"
+  },
+  {
+    "id": "italy-docg-doc-260",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ヴェネト州とフリウリ・ヴェネツィア・ジューリア州に産地がまたがっているDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Ramandolo",
+      "Rosazzo",
+      "Lison",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Lison」です。"
+  },
+  {
+    "id": "italy-docg-doc-261",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "choices": [
+      "Ramandolo",
+      "Elba Aleatico Passito",
+      "Chianti",
+      "Conegliano Valdobbiadene-Prosecco"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Conegliano Valdobbiadene-Prosecco」です。"
+  },
+  {
+    "id": "italy-docg-doc-262",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインPrimitivo di Manduria Dolce Naturaleの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "サグランティーノ",
+      "プリミティーヴォ",
+      "キアヴェンナスカ",
+      "モスカート・ディ・スカンツォ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「プリミティーヴォ」です。"
+  },
+  {
+    "id": "italy-docg-doc-263",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインGaviが生産されている州を選んでください。",
+    "choices": [
+      "ラツィオ",
+      "ロンバルディア",
+      "ピエモンテ",
+      "リグーリア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ピエモンテ」です。"
+  },
+  {
+    "id": "italy-docg-doc-264",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Vermentino di Gallura",
+      "Recioto di Soave",
+      "Rosazzo",
+      "Gavi",
+      "Valtellina Superiore",
+      "Barbera del Monferrato Superiore",
+      "Lison",
+      "Colline Teramane Montepulciano d'Abruzzo"
+    ],
+    "answerIndexes": [
+      2,
+      6
+    ],
+    "maxSelections": 2,
+    "explanation": "正解は「Rosazzo、Lison」です。"
+  },
+  {
+    "id": "italy-docg-doc-265",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がサグランティーノであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Franciacorta",
+      "Oltrepò Pavese Metodo Classico",
+      "Montefalco Sagrantino",
+      "Verdicchio di Matelica Riserva"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Montefalco Sagrantino」です。"
+  },
+  {
+    "id": "italy-docg-doc-266",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がドルチェットであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Alta Langa",
+      "Colli Euganei Fior d'Arancio",
+      "Dogliani",
+      "Chianti Classico"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Dogliani」です。"
+  },
+  {
+    "id": "italy-docg-doc-267",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインDolcetto di Diano d'Albaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "choices": [
+      "サンジョヴェーゼ",
+      "ドルチェット",
+      "ネーロ・ディ・トロイア",
+      "ガルガネガ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ドルチェット」です。"
+  },
+  {
+    "id": "italy-docg-doc-268",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からエレガントで優しい個性から「ピエモンテの女王」と称されるピエモンテ州のDOP(DOCG)ワインを選んでください。",
+    "choices": [
+      "Barbaresco",
+      "Terre Alfieri",
+      "Ghemme",
+      "Barolo"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Barbaresco」です。"
+  },
+  {
+    "id": "italy-docg-doc-269",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Romagna Albana",
+      "Colli Bolognesi Pignoletto",
+      "Roero",
+      "Taurasi"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Taurasi」です。"
+  },
+  {
+    "id": "italy-docg-doc-270",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOC)ワインEst! Est!! Est!!! di Montefiasconeが生産されている州を選んでください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ピエモンテ",
+      "マルケ",
+      "ラツィオ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ラツィオ」です。"
+  },
+  {
+    "id": "italy-docg-doc-271",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Elba Aleatico Passito",
+      "Chianti Classico",
+      "Torgiano Rosso Riserva",
+      "Lison",
+      "Fiano di Avellino",
+      "Taurasi",
+      "Gavi",
+      "Ruchè di Castagnole Monferrato"
+    ],
+    "answerIndexes": [
+      6,
+      7
+    ],
+    "maxSelections": 2,
+    "explanation": "正解は「Gavi、Ruchè di Castagnole Monferrato」です。"
+  },
+  {
+    "id": "italy-docg-doc-272",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBrunello di Montalcinoが生産されている州を選んでください。",
+    "choices": [
+      "トスカーナ",
+      "ヴァッレ・ダオスタ",
+      "カンパーニア",
+      "サルデーニャ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「トスカーナ」です。"
+  },
+  {
+    "id": "italy-docg-doc-273",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOC)ワインBifernoが生産されている州を選んでください。",
+    "choices": [
+      "リグーリア",
+      "ピエモンテ",
+      "マルケ",
+      "モリーゼ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「モリーゼ」です。"
+  },
+  {
+    "id": "italy-docg-doc-274",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がサンジョヴェーゼであるイタリア、ウンブリア州のDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Torgiano Rosso Riserva",
+      "Terre Alfieri",
+      "Terre Tollesi",
+      "Cesanese del Piglio"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Torgiano Rosso Riserva」です。"
+  },
+  {
+    "id": "italy-docg-doc-275",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "choices": [
+      "Lison",
+      "Primitivo di Manduria Dolce Naturale",
+      "Frascati Superiore",
+      "Greco di Tufo"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Primitivo di Manduria Dolce Naturale」です。"
+  },
+  {
+    "id": "italy-docg-doc-276",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、エミリア・ロマーニャ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Roero",
+      "Cesanese del Piglio",
+      "Fiano di Avellino",
+      "Romagna Albana",
+      "Colli Bolognesi Pignoletto",
+      "Bagnoli Friularo",
+      "Ramandolo",
+      "Oltrepò Pavese Metodo Classico"
+    ],
+    "answerIndexes": [
+      3,
+      4
+    ],
+    "maxSelections": 2,
+    "explanation": "正解は「Romagna Albana、Colli Bolognesi Pignoletto」です。"
+  },
+  {
+    "id": "italy-docg-doc-277",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア、カラブリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "choices": [
+      "Alta Langa",
+      "Greco di Tufo",
+      "Asti",
+      "Canelli",
+      "Cirò Classico",
+      "Moscato di Scanzo",
+      "Bagnoli Friularo",
+      "Barbera d'Asti"
+    ],
+    "answerIndexes": [
+      4
+    ],
+    "maxSelections": 2,
+    "explanation": "正解は「Cirò Classico」です。"
+  },
+  {
+    "id": "italy-docg-doc-278",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインFranciacortaの主要品種に含まれているものを選んでください。",
+    "choices": [
+      "モスカート",
+      "グレーラ",
+      "ガルガネガ",
+      "ピノ・ネーロ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ピノ・ネーロ」です。"
+  },
+  {
+    "id": "italy-docg-doc-279",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "choices": [
+      "Cesanese del Piglio",
+      "Torgiano Rosso Riserva",
+      "Castel del Monte Nero di Troia Riserva",
+      "Recioto di Soave"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Recioto di Soave」です。"
+  },
+  {
+    "id": "italy-docg-doc-280",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインVino Nobile di Montepulcianoが生産されている州を選んでください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ヴェネト",
+      "ヴァッレ・ダオスタ",
+      "トスカーナ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「トスカーナ」です。"
+  },
+  {
+    "id": "italy-docg-doc-281",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がルケであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "choices": [
+      "Amarone della Valpolicella",
+      "Cesanese del Piglio",
+      "Ruchè di Castagnole Monferrato",
+      "Rosazzo"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Ruchè di Castagnole Monferrato」です。"
+  },
+  {
+    "id": "italy-overview-law-088",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで栽培面積が第5位の品種を選択してください。",
+    "choices": [
+      "メルロ",
+      "シャルドネ",
+      "バルベーラ",
+      "トレッビアーノ・トスカーノ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「トレッビアーノ・トスカーノ」です。"
+  },
+  {
+    "id": "italy-overview-law-089",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中から、イタリアのDOP(DOCG)ワインGhemmeの品種ネッビオーロの、この地方の別名を選んでください。",
+    "choices": [
+      "キアヴェンナスカ",
+      "スパンナ",
+      "モレッリーノ",
+      "プルニョーロ・ジェンティーレ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「スパンナ」です。"
+  },
+  {
+    "id": "italy-overview-law-090",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア州",
+      "ウンブリア州",
+      "ヴェネト州",
+      "ヴァッレ・ダオスタ州"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ウンブリア州」です。"
+  },
+  {
+    "id": "italy-overview-law-091",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「830kmという長い海岸線を持ち、イタリアで最も山岳が少ない州である。生産量はイタリア全州でトップ3に入るほど多い。」",
+    "choices": [
+      "ラツィオ",
+      "プーリア",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ウンブリア"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「プーリア」です。"
+  },
+  {
+    "id": "italy-overview-law-092",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が4〜12グラム/リットルのものに表示されるものを選んでください。",
+    "choices": [
+      "Asciutto",
+      "Secco",
+      "Semi Secco",
+      "Dolce"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Semi Secco」です。"
+  },
+  {
+    "id": "italy-overview-law-093",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリア、トレンティーノ・アルト・アディジェ州で世界遺産に登録されているものを選択してください。",
+    "choices": [
+      "チンクエ・テッレの海に迫る絶壁の段々畑の風景",
+      "ドロミーティ山塊",
+      "神秘的な城カステル・デル・モンテ",
+      "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ドロミーティ山塊」です。"
+  },
+  {
+    "id": "italy-overview-law-094",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "カンパーニア",
+      "ウンブリア",
+      "カラブリア",
+      "ピエモンテ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ピエモンテ」です。"
+  },
+  {
+    "id": "italy-overview-law-095",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中からイタリアの中心を南北に貫く山脈の名前を選択してください。",
+    "choices": [
+      "ピレネー山脈",
+      "アペニン山脈",
+      "ヴォージュ山脈",
+      "アルプス山脈"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「アペニン山脈」です。"
+  },
+  {
+    "id": "italy-overview-law-096",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "DOワインのみに認められる",
+      "収穫翌年の3月31日までに瓶詰め",
+      "アルコール度数8%以上",
+      "収穫年を記載しなくてはいけない"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「収穫年を記載しなくてはいけない」です。"
+  },
+  {
+    "id": "italy-overview-law-097",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、ティレニア海沿岸の州を北から南の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "トスカーナ, ラツィオ, カンパーニア, カラブリア",
+      "ラツィオ, リグーリア, カンパーニア, カラブリア",
+      "リグーリア, カラブリア, トスカーナ, カンパーニア",
+      "リグーリア, トスカーナ, カラブリア, カンパーニア"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「トスカーナ, ラツィオ, カンパーニア, カラブリア」です。"
+  },
+  {
+    "id": "italy-overview-law-098",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリアに本格的なブドウ栽培を伝えたとされる民族を選んでください。",
+    "choices": [
+      "エジプト人",
+      "フェニキア人",
+      "ガリア人",
+      "エトルリア人"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「エトルリア人」です。"
+  },
+  {
+    "id": "italy-overview-law-099",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が4〜12グラム/リットルのものに表示されるものを選んでください。",
+    "choices": [
+      "Amabile",
+      "Abboccato",
+      "Secco",
+      "Asciutto"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Abboccato」です。"
+  },
+  {
+    "id": "italy-overview-law-100",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地は9%に過ぎずワインの生産量は少ない。代表的なDOPワインにチロがあり、白はグレーコ・ビアンコ種、赤とロゼはガリオッポ種主体である。」",
+    "choices": [
+      "カラブリア",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "プーリア",
+      "リグーリア"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「カラブリア」です。"
+  },
+  {
+    "id": "italy-overview-law-101",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ワインは軽めのタイプが多く74%が白ワインである。白ワインの代表にエスト!・エスト!!・エスト!!!がある。」",
+    "choices": [
+      "ラツィオ",
+      "エミリア・ロマーニャ",
+      "モリーゼ",
+      "カンパーニア"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「ラツィオ」です。"
+  },
+  {
+    "id": "italy-overview-law-102",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でCampaniaに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "18番",
+      "2番",
+      "7番",
+      "15番"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「15番」です。"
+  },
+  {
+    "id": "italy-overview-law-103",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、マルケ州の州都を選択してください。",
+    "choices": [
+      "ヴェネツィア",
+      "ナポリ",
+      "アンコーナ",
+      "ジェノヴァ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「アンコーナ」です。"
+  },
+  {
+    "id": "italy-overview-law-104",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアのブドウ品種を選んでください。「シチリア州を代表する黒ブドウで、赤い果実やプラムのアロマを持ち、力強い赤ワインを生む。」",
+    "choices": [
+      "ネーロ・ダヴォラ",
+      "カッリカンテ",
+      "ネレッロ・マスカレーゼ",
+      "カタラット"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「ネーロ・ダヴォラ」です。"
+  },
+  {
+    "id": "italy-overview-law-105",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで栽培面積が第2位の品種を選択してください。",
+    "choices": [
+      "シャルドネ",
+      "バルベーラ",
+      "グレーラ",
+      "モンテプルチャーノ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「グレーラ」です。"
+  },
+  {
+    "id": "italy-overview-law-106",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "トスカーナ",
+      "ピエモンテ",
+      "ロンバルディア",
+      "エミリア・ロマーニャ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「トスカーナ」です。"
+  },
+  {
+    "id": "italy-overview-law-107",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「西を地中海に接し、北と東をアペニン山脈に囲まれている。ピサ、ルッカ、アレッツォなど観光地が多くあり文化財の宝庫である。オリーブオイルの品質の高さでも有名である。」",
+    "choices": [
+      "カラブリア",
+      "ラツィオ",
+      "トスカーナ",
+      "モリーゼ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「トスカーナ」です。"
+  },
+  {
+    "id": "italy-overview-law-108",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリアのサルデーニャ島のすぐ北に位置する島の名前を選択してください。",
+    "choices": [
+      "サントリーニ島",
+      "コルシカ島",
+      "キプロス島",
+      "シチリア島"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「コルシカ島」です。"
+  },
+  {
+    "id": "italy-overview-law-109",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、ピエモンテ州に接している州を選択してください。",
+    "choices": [
+      "マルケ州",
+      "ウンブリア州",
+      "カンパーニア州",
+      "ヴァッレ・ダオスタ州"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ヴァッレ・ダオスタ州」です。"
+  },
+  {
+    "id": "italy-overview-law-110",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアでトスカーナ大公国のコジモ3世が生産範囲の限定を行ったワインの名称を選んでください。",
+    "choices": [
+      "Carmignano",
+      "Montepulciano d'Abruzzo",
+      "Vino Nobile di Montepulciano",
+      "Bolgheri"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Carmignano」です。"
+  },
+  {
+    "id": "italy-overview-law-111",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、ピエモンテ州南部で栽培されている白ブドウで、一般に若飲みのシンプルなワインを生む品種を選んでください。",
+    "choices": [
+      "ノジオーラ",
+      "リボッラ・ジャッラ",
+      "コルテーゼ",
+      "ティンティリア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「コルテーゼ」です。"
+  },
+  {
+    "id": "italy-overview-law-112",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアの白ブドウの中で栽培面積が第2位の品種を選択してください。",
+    "choices": [
+      "シャルドネ",
+      "トレッビアーノ・トスカーノ",
+      "ピノ・グリージョ",
+      "グレーラ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ピノ・グリージョ」です。"
+  },
+  {
+    "id": "italy-overview-law-113",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリア、リグーリア州で世界遺産に登録されているものを選択してください。",
+    "choices": [
+      "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観",
+      "ドロミーティ山塊",
+      "神秘的な城カステル・デル・モンテ",
+      "チンクエ・テッレの海に迫る絶壁の段々畑の風景"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「チンクエ・テッレの海に迫る絶壁の段々畑の風景」です。"
+  },
+  {
+    "id": "italy-overview-law-114",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が45グラム/リットル以上のものに表示されるものを選んでください。",
+    "choices": [
+      "Secco",
+      "Amabile",
+      "Dolce",
+      "Asciutto"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Dolce」です。"
+  },
+  {
+    "id": "italy-overview-law-115",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで栽培面積が第3位の品種を選択してください。",
+    "choices": [
+      "モンテプルチャーノ",
+      "バルベーラ",
+      "ピノ・グリージョ",
+      "シャルドネ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ピノ・グリージョ」です。"
+  },
+  {
+    "id": "italy-overview-law-116",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でPugliaに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "17番",
+      "2番",
+      "6番",
+      "16番"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「16番」です。"
+  },
+  {
+    "id": "italy-overview-law-117",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「南部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "エミリア・ロマーニャ",
+      "ヴェネト",
+      "ラツィオ",
+      "プーリア"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「プーリア」です。"
+  },
+  {
+    "id": "italy-overview-law-118",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "収穫翌年の3月31日までに瓶詰め",
+      "収穫年の記載は任意",
+      "販売開始日は11月第3木曜日零時1分",
+      "DOワインとIGTワインに認められる"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「DOワインとIGTワインに認められる」です。"
+  },
+  {
+    "id": "italy-overview-law-119",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「イタリア最東端の州、アドリア海沿岸地帯で最南端の州でもある。温暖な地中海性気候に恵まれてワインの大量生産地となっている。」",
+    "choices": [
+      "トスカーナ",
+      "カラブリア",
+      "トレンティーノ・アルト・アディジェ",
+      "プーリア"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「プーリア」です。"
+  },
+  {
+    "id": "italy-overview-law-120",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリアの首都ローマと概ね同じ緯度に位置する日本の都市を選択してください。",
+    "choices": [
+      "釧路",
+      "函館",
+      "福岡",
+      "鹿児島"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「函館」です。"
+  },
+  {
+    "id": "italy-overview-law-121",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアでトスカーナ大公国のコジモ3世がChiantiなどの生産地の線引きを行った年を選んでください。",
+    "choices": [
+      "1716年",
+      "1638年",
+      "1584年",
+      "1857年"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「1716年」です。"
+  },
+  {
+    "id": "italy-overview-law-122",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地はほとんど無く、生産量は全州の中で2番目に少ない。白ワインが69%を占め、有名なワインとしてチンクエ・テッレがある。」",
+    "choices": [
+      "シチリア",
+      "サルデーニャ",
+      "リグーリア",
+      "カンパーニア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「リグーリア」です。"
+  },
+  {
+    "id": "italy-overview-law-123",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「州名は山の足という意味で、ヨーロッパアルプスの麓から南に広がる。州都はトリノである。」",
+    "choices": [
+      "ウンブリア",
+      "ピエモンテ",
+      "リグーリア",
+      "バジリカータ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ピエモンテ」です。"
+  },
+  {
+    "id": "italy-overview-law-124",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、トレンティーノ・アルト・アディジェ州で栽培されている珍しい固有の白ブドウで、軽めのフレッシュな白ワインを生む品種を選んでください。",
+    "choices": [
+      "ドルチェット",
+      "サグランティーノ",
+      "ノジオーラ",
+      "レフォスコ・ダル・ペドゥンコロ・ロッソ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ノジオーラ」です。"
+  },
+  {
+    "id": "italy-overview-law-125",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でBasilicataに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "17番",
+      "11番",
+      "20番",
+      "14番"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「17番」です。"
+  },
+  {
+    "id": "italy-overview-law-126",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、バジリカータ州の州都を選択してください。",
+    "choices": [
+      "ボローニャ",
+      "ポテンツァ",
+      "ヴェネツィア",
+      "ジェノヴァ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ポテンツァ」です。"
+  },
+  {
+    "id": "italy-overview-law-127",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からヴェネト州でブドウの搾り粕から生産されている蒸留酒を選択してください。",
+    "choices": [
+      "Limoncello",
+      "Vino Novello",
+      "Vermut di Torino",
+      "Bassano del Grappa"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Bassano del Grappa」です。"
+  },
+  {
+    "id": "italy-overview-law-128",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が0〜4グラム/リットルのものに表示されるものを選んでください。",
+    "choices": [
+      "Secco",
+      "Dolce",
+      "Amabile",
+      "Abboccato"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Secco」です。"
+  },
+  {
+    "id": "italy-overview-law-129",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "ラツィオ",
+      "ピエモンテ",
+      "サルデーニャ",
+      "プーリア"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「ラツィオ」です。"
+  },
+  {
+    "id": "italy-overview-law-130",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "下記の中から地中海で一番大きな島を選択してください。",
+    "choices": [
+      "シチリア島",
+      "コルシカ島",
+      "サルデーニャ島",
+      "キプロス島"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「シチリア島」です。"
+  },
+  {
+    "id": "italy-overview-law-131",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でAbruzzoに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "5番",
+      "2番",
+      "13番",
+      "7番"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「13番」です。"
+  },
+  {
+    "id": "italy-overview-law-132",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアでトスカーナ大公国のコジモ3世が生産範囲の限定を行ったワインの名称を選んでください。",
+    "choices": [
+      "Bolgheri",
+      "Pomino",
+      "Brunello di Montalcino",
+      "Frascati"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Pomino」です。"
+  },
+  {
+    "id": "italy-overview-law-133",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が0〜4グラム/リットルのものに表示されるものを選んでください。",
+    "choices": [
+      "Asciutto",
+      "Abboccato",
+      "Dolce",
+      "Amabile"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Asciutto」です。"
+  },
+  {
+    "id": "italy-overview-law-134",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「地中海最大の島であると同時にイタリア20州最大の州である。島のシンボルは標高3343mのエトナ火山である。」",
+    "choices": [
+      "シチリア",
+      "マルケ",
+      "サルデーニャ",
+      "ラツィオ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「シチリア」です。"
+  },
+  {
+    "id": "italy-overview-law-135",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ティレニア海に浮かぶ大きな島で、イタリアで3番目に大きな州である。独自の文化、習慣が色濃く残り、今でも興味深い土着品種が数多く残っている。」",
+    "choices": [
+      "モリーゼ",
+      "ロンバルディア",
+      "リグーリア",
+      "サルデーニャ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「サルデーニャ」です。"
+  },
+  {
+    "id": "italy-overview-law-136",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、カンパーニア州ソレント半島で生産されているリキュールを選択してください。",
+    "choices": [
+      "Limoncello",
+      "Vermut di Torino",
+      "Vino Liquoroso",
+      "Vino Frizzante"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Limoncello」です。"
+  },
+  {
+    "id": "italy-overview-law-137",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリアの2024年のブドウ栽培面積に最も近いものを選択してください。",
+    "choices": [
+      "124万ヘクタール",
+      "27万ヘクタール",
+      "66万ヘクタール",
+      "45万ヘクタール"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「66万ヘクタール」です。"
+  },
+  {
+    "id": "italy-overview-law-138",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でCalabriaに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "5番",
+      "18番",
+      "7番",
+      "9番"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「18番」です。"
+  },
+  {
+    "id": "italy-overview-law-139",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアの新酒の総称を選択してください。",
+    "choices": [
+      "Vino Novello",
+      "Vermut di Torino",
+      "Vino Liquoroso",
+      "Limoncello"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Vino Novello」です。"
+  },
+  {
+    "id": "italy-overview-law-140",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリアの2024年の年間ワイン生産量に最も近いものを選択してください。",
+    "choices": [
+      "2500万ヘクトリットル",
+      "6100万ヘクトリットル",
+      "4800万ヘクトリットル",
+      "5400万ヘクトリットル"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「4800万ヘクトリットル」です。"
+  },
+  {
+    "id": "italy-overview-law-141",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "下記の中からイタリアでアレッツォ、フィレンツェ、プラート、ピストイア、ピサ、シエナの6県の広い地域で年間約80万ヘクトリットルを生産するワインを選択してください。",
+    "choices": [
+      "Montepulciano d'Abruzzo",
+      "Asti Spumante",
+      "Trentino",
+      "Chianti"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Chianti」です。"
+  },
+  {
+    "id": "italy-overview-law-142",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "醸造期間は醸造開始後1ヶ月以内",
+      "収穫年の記載は任意",
+      "アルコール度数11%以上",
+      "DOワインのみに認められる"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「アルコール度数11%以上」です。"
+  },
+  {
+    "id": "italy-overview-law-143",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「海に囲まれている州で、生産量の33%が白ワインである。ヴェルナッチャ・ディ・オリスターノが有名でシェリーに似てフロールを発生させ穏やかな酸化熟成をする白ワインである。」",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "シチリア",
+      "サルデーニャ",
+      "トレンティーノ・アルト・アディジェ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「サルデーニャ」です。"
+  },
+  {
+    "id": "italy-overview-law-144",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「南部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "アブルッツォ",
+      "モリーゼ",
+      "カンパーニア",
+      "エミリア・ロマーニャ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「カンパーニア」です。"
+  },
+  {
+    "id": "italy-overview-law-145",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中から、イタリアのDOP(DOCG)ワインValtellina Superioreの品種ネッビオーロの、この地方の別名を選んでください。",
+    "choices": [
+      "モレッリーノ",
+      "ブルネッロ",
+      "キアヴェンナスカ",
+      "プルニョーロ・ジェンティーレ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「キアヴェンナスカ」です。"
+  },
+  {
+    "id": "italy-overview-law-146",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中からイタリアの州の数を選択してください。",
+    "choices": [
+      "18",
+      "20",
+      "24",
+      "13"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「20」です。"
+  },
+  {
+    "id": "italy-overview-law-147",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「アペニン山脈とアドリア海に挟まれるように位置する小さな州。山岳地帯が55%、丘陵地帯が45%で平野はほとんど無い。DOCGワインは存在しない。DOCワインは歴史的なビフェルノを含め4つある。」",
+    "choices": [
+      "モリーゼ",
+      "エミリア・ロマーニャ",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ロンバルディア"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「モリーゼ」です。"
+  },
+  {
+    "id": "italy-overview-law-148",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、トスカーナ州、キアンティ・クラシコ地区およびモンタルチーノの土壌を選択してください。",
+    "choices": [
+      "ガレストロと呼ばれる火山性土壌",
+      "ガッルーラと呼ばれる石灰質土壌",
+      "ガレストロと呼ばれる泥灰土土壌",
+      "ガッルーラと呼ばれる花崗岩土壌"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ガレストロと呼ばれる泥灰土土壌」です。"
+  },
+  {
+    "id": "italy-overview-law-149",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上で11番の州名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "answerText": "マルケ",
+    "answerTextAliases": [
+      "マルケ州"
+    ],
+    "explanation": "正解は「マルケ」です。"
+  },
+  {
+    "id": "italy-overview-law-150",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "アルコール度数8%以上",
+      "醸造期間は醸造開始後1ヶ月以内",
+      "収穫翌年の3月31日までに瓶詰め",
+      "炭酸ガス浸漬法(MC法)で造られたワインを40%以上使用"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「炭酸ガス浸漬法(MC法)で造られたワインを40%以上使用」です。"
+  },
+  {
+    "id": "italy-overview-law-151",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ブドウの絞りかすから造る蒸留酒グラッパで有名なバッサーノ・デル・グラッパがあり、蒸留も盛んである。」",
+    "choices": [
+      "トスカーナ",
+      "バジリカータ",
+      "ヴェネト",
+      "カラブリア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ヴェネト」です。"
+  },
+  {
+    "id": "italy-overview-law-152",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリア、プーリア州で世界遺産に登録されているものを選択してください。",
+    "choices": [
+      "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観",
+      "神秘的な城カステル・デル・モンテ",
+      "ドロミーティ山塊",
+      "チンクエ・テッレの海に迫る絶壁の段々畑の風景"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「神秘的な城カステル・デル・モンテ」です。"
+  },
+  {
+    "id": "italy-overview-law-153",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量の85%が白ワインで、白ワインの産地として知られている。有名なワインにコッリオがあり、リボッラ・ジャッラという興味深い品種も使用されている。」",
+    "choices": [
+      "トレンティーノ・アルト・アディジェ",
+      "カラブリア",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ロンバルディア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「フリウリ・ヴェネツィア・ジューリア」です。"
+  },
+  {
+    "id": "italy-overview-law-154",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「北部ボルツァーノ周辺ではドイツ系品種の白ワインが素晴らしい。南部ロタリアーノ平野では土着の黒ブドウ品種テロルデゴが注目されている。」",
+    "choices": [
+      "アブルッツォ",
+      "リグーリア",
+      "トレンティーノ・アルト・アディジェ",
+      "バジリカータ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「トレンティーノ・アルト・アディジェ」です。"
+  },
+  {
+    "id": "italy-overview-law-155",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州東部とスロヴェニアの白ブドウで、軽やかでフレッシュな白ワインを生む品種を選んでください。",
+    "choices": [
+      "ガリオッポ",
+      "リボッラ・ジャッラ",
+      "サグランティーノ",
+      "レフォスコ・ダル・ペドゥンコロ・ロッソ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「リボッラ・ジャッラ」です。"
+  },
+  {
+    "id": "italy-overview-law-156",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、ピエモンテ州に接している州を選択してください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア州",
+      "ヴェネト州",
+      "エミリア・ロマーニャ州",
+      "トレンティーノ・アルト・アディジェ州"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「エミリア・ロマーニャ州」です。"
+  },
+  {
+    "id": "italy-overview-law-157",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中からイタリアのワイン法でIGPに関する正しい定義を選んでください。",
+    "choices": [
+      "ワインの70%以上がその土地で造られたものであること",
+      "ワインの50%以上がその土地で造られたものであること",
+      "ワインの85%以上がその土地で造られたものであること",
+      "ワインの100%がその土地で造られたものであること"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ワインの85%以上がその土地で造られたものであること」です。"
+  },
+  {
+    "id": "italy-overview-law-158",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアの白ブドウの中で栽培面積が第3位の品種を選択してください。",
+    "choices": [
+      "シャルドネ",
+      "ピノ・グリージョ",
+      "トレッビアーノ・トスカーノ",
+      "グレーラ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「トレッビアーノ・トスカーノ」です。"
+  },
+  {
+    "id": "italy-overview-law-159",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、ティレニア海沿岸の州を北から南の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "トスカーナ, カンパーニア, リグーリア, ラツィオ",
+      "リグーリア, ラツィオ, カンパーニア, カラブリア",
+      "カンパーニア, ラツィオ, カラブリア, リグーリア",
+      "ラツィオ, リグーリア, トスカーナ, カラブリア"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「リグーリア, ラツィオ, カンパーニア, カラブリア」です。"
+  },
+  {
+    "id": "italy-overview-law-160",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「イタリア半島中央部に位置し、1963年にアブルッツォから分離して作られた州である。人口も32万人弱と少ない。」",
+    "choices": [
+      "マルケ",
+      "リグーリア",
+      "シチリア",
+      "モリーゼ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「モリーゼ」です。"
+  },
+  {
+    "id": "italy-overview-law-161",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中からイタリアの西側に面した海の名前を選択してください。",
+    "choices": [
+      "ミルトア海",
+      "エーゲ海",
+      "ティレニア海",
+      "アドリア海"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ティレニア海」です。"
+  },
+  {
+    "id": "italy-overview-law-162",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「東はアドリア海、北はオーストリアと接している。7世紀の頃はアドリア海の女王と呼ばれた。」",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "アブルッツォ",
+      "ピエモンテ",
+      "ヴェネト"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ヴェネト」です。"
+  },
+  {
+    "id": "italy-overview-law-163",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州の州都を選択してください。",
+    "choices": [
+      "ポテンツァ",
+      "トリエステ",
+      "ローマ",
+      "ボローニャ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「トリエステ」です。"
+  },
+  {
+    "id": "italy-overview-law-164",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "DOワインのみに認められる",
+      "アルコール度数8%以上",
+      "販売開始日時は10月30日零時1分",
+      "醸造期間は醸造開始後1ヶ月以内"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「販売開始日時は10月30日零時1分」です。"
+  },
+  {
+    "id": "italy-overview-law-165",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の中からイタリア、トスカーナ州で世界遺産に登録されているものを選択してください。",
+    "choices": [
+      "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観",
+      "百の塔の町サン・ジミニャーノ",
+      "ドロミーティ山塊",
+      "神秘的な城カステル・デル・モンテ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「百の塔の町サン・ジミニャーノ」です。"
+  },
+  {
+    "id": "italy-overview-law-166",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、ラツィオ州の州都を選択してください。",
+    "choices": [
+      "ポテンツァ",
+      "ナポリ",
+      "ジェノヴァ",
+      "ローマ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ローマ」です。"
+  },
+  {
+    "id": "italy-overview-law-167",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上で2番の州名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "answerText": "ピエモンテ",
+    "answerTextAliases": [
+      "ピエモンテ州"
+    ],
+    "explanation": "正解は「ピエモンテ」です。"
+  },
+  {
+    "id": "italy-overview-law-168",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
+    "choices": [
+      "DOワインのみに認められる",
+      "販売開始日は11月第3木曜日零時1分",
+      "アルコール度数8%以上",
+      "収穫年の12月31日までに瓶詰め"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「収穫年の12月31日までに瓶詰め」です。"
+  },
+  {
+    "id": "italy-overview-law-169",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ティレニア海に大きく面した州で、ヴェスヴィウス火山、ポンペイ遺跡など観光資源が豊富なイタリア南部随一の観光地である。」",
+    "choices": [
+      "モリーゼ",
+      "サルデーニャ",
+      "カンパーニア",
+      "トスカーナ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「カンパーニア」です。"
+  },
+  {
+    "id": "italy-overview-law-170",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "下記の中からイタリアの黒ブドウの中で栽培面積が第1位の品種を選択してください。",
+    "choices": [
+      "モンテプルチャーノ",
+      "メルロ",
+      "サンジョヴェーゼ",
+      "ネッビオーロ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「サンジョヴェーゼ」です。"
+  },
+  {
+    "id": "italy-overview-law-171",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリアで18世紀にChiantiなどの生産範囲の限定を行った人物の名前を選んでください。",
+    "choices": [
+      "ヘンリー2世",
+      "コジモ3世",
+      "アンティノリ",
+      "ベッティーノ・リカーゾリ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「コジモ3世」です。"
+  },
+  {
+    "id": "italy-overview-law-172",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でEmilia Romagnaに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "13番",
+      "8番",
+      "15番",
+      "7番"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「8番」です。"
+  },
+  {
+    "id": "italy-overview-law-173",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量の62%をDOPワインが占める高品質ワインの産地である。赤ワインの生産量が88%と際だって多い。」",
+    "choices": [
+      "トレンティーノ・アルト・アディジェ",
+      "トスカーナ",
+      "ウンブリア",
+      "シチリア"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「トスカーナ」です。"
+  },
+  {
+    "id": "italy-overview-law-174",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
+    "choices": [
+      "ヴァッレ・ダオスタ州",
+      "ロンバルディア州",
+      "ヴェネト州",
+      "エミリア・ロマーニャ州"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「エミリア・ロマーニャ州」です。"
+  },
+  {
+    "id": "italy-overview-law-175",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "モリーゼ",
+      "ロンバルディア",
+      "カラブリア",
+      "カンパーニア"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ロンバルディア」です。"
+  },
+  {
+    "id": "italy-overview-law-176",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "下記の中からイタリアで近年のワイン生産量が第1位である州を選択してください。",
+    "choices": [
+      "ヴェネト",
+      "カラブリア",
+      "アブルッツォ",
+      "ラツィオ"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「ヴェネト」です。"
+  },
+  {
+    "id": "italy-overview-law-177",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "S",
+    "question": "次の中からイタリアの東側に面した海の名前を選択してください。",
+    "choices": [
+      "アドリア海",
+      "ティレニア海",
+      "エーゲ海",
+      "ミルトア海"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「アドリア海」です。"
+  },
+  {
+    "id": "italy-overview-law-178",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "C",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量は全州の中で最も少ないが個性のあるワインを造っている。山麓地帯らしく赤ワインが61%を占めている。」",
+    "choices": [
+      "カンパーニア",
+      "ヴェネト",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "ヴァッレ・ダオスタ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「ヴァッレ・ダオスタ」です。"
+  },
+  {
+    "id": "italy-overview-law-179",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でLiguriaに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "9番",
+      "3番",
+      "6番",
+      "1番"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「3番」です。"
+  },
+  {
+    "id": "italy-overview-law-180",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア半島最南端に位置する州を選択してください。",
+    "choices": [
+      "カラブリア州",
+      "バジリカータ州",
+      "シチリア州",
+      "プーリア州"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「カラブリア州」です。"
+  },
+  {
+    "id": "italy-overview-law-181",
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "B",
+    "question": "次の中から紀元前9世紀ころ中部イタリアを広い範囲にわたって支配していた民族を選んでください。",
+    "choices": [
+      "エトルリア人",
+      "フェニキア人",
+      "エジプト人",
+      "ギリシャ人"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「エトルリア人」です。"
+  },
+  {
+    "id": "italy-docg-doc-282",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "explanation": "Cesanese del Piglioが正解です。",
+    "choices": [
+      "Vermentino di Gallura",
+      "Asti",
+      "Terre Alfieri",
+      "Cesanese del Piglio"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-283",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中から主要品種がヴェルドゥッツオ・フリウラーノであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "Ramandoloが正解です。",
+    "choices": [
+      "Offida",
+      "Castelli di Jesi Verdicchio Riserva",
+      "Ramandolo",
+      "Barolo"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-284",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤白両方のワインが認められているものを選んでください。",
+    "explanation": "Offidaが正解です。",
+    "choices": [
+      "Offida",
+      "Chianti",
+      "Fiano di Avellino",
+      "Primitivo di Manduria Dolce Naturale"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-285",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインNizzaが生産されている州を選んでください。",
+    "explanation": "ピエモンテが正解です。",
+    "choices": [
+      "ピエモンテ",
+      "アブルッツォ",
+      "シチリア",
+      "ヴェネト"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-286",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "explanation": "Gaviが正解です。",
+    "choices": [
+      "Castel del Monte Nero di Troia Riserva",
+      "Dogliani",
+      "Gavi",
+      "Piave Malanotte"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-287",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "explanation": "Montello Rossoが正解です。",
+    "choices": [
+      "Frascati Superiore",
+      "Vernaccia di San Gimignano",
+      "Montello Rosso",
+      "Fiano di Avellino"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-288",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア、シチリア州で生産されているDOP(DOC)ワインを選んでください。",
+    "explanation": "Malvasia delle Lipariが正解です。",
+    "choices": [
+      "Malvasia delle Lipari",
+      "Oltrepò Pavese",
+      "Valpolicella Ripasso",
+      "Frascati"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-289",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がバルベーラであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "Barbera del Monferrato Superioreが正解です。",
+    "choices": [
+      "Conegliano Valdobbiadene-Prosecco",
+      "Castel del Monte Bombino Nero",
+      "Lison",
+      "Barbera del Monferrato Superiore"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-290",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、ピエモンテ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Asti、Gaviが正解です。",
+    "choices": [
+      "Montefalco Sagrantino",
+      "Asti",
+      "Gavi",
+      "Asolo",
+      "Recioto della Valpolicella",
+      "Ramandolo",
+      "Suvereto",
+      "Greco di Tufo"
+    ],
+    "answerIndexes": [
+      1,
+      2
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-291",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Offida、Verdicchio di Matelica Riservaが正解です。",
+    "choices": [
+      "Nizza",
+      "Offida",
+      "Colli Orientali del Friuli Picolit",
+      "Verdicchio di Matelica Riserva",
+      "Bardolino Superiore",
+      "Morellino di Scansano",
+      "Alta Langa",
+      "Moscato di Scanzo"
+    ],
+    "answerIndexes": [
+      1,
+      3
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-292",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCarmignanoの主要品種に含まれているものを選んでください。",
+    "explanation": "カナイオーロ・ネーロが正解です。",
+    "choices": [
+      "マルヴァジーア・デル・ラツィオ",
+      "カナイオーロ・ネーロ",
+      "ベッローネ",
+      "マルヴァジーア・ビアンカ・ディ・カンディア"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-293",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアDOPワインの中から、黄金色のOro、琥珀色のAmbra、ルビー色のRubinoの3色が存在するワインを選んでください。",
+    "explanation": "Marsalaが正解です。",
+    "choices": [
+      "Malvasia di Bosa",
+      "Cirò",
+      "Marsala",
+      "Malvasia delle Lipari"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-294",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "C",
+    "question": "次の中からイタリアで、ニンニク、オレガノ、ケッパーのトマトソースをかけた仔牛のステーキを選択してください。",
+    "explanation": "Bistecca alla Pizzaiolaが正解です。",
+    "choices": [
+      "Bistecca alla Pizzaiola",
+      "Pollo alla Romana",
+      "Polpo alla Luciana",
+      "Pastissada de Caval"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-295",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのブドウ品種Nebbioloの名前の由来を選択してください。",
+    "explanation": "霧が正解です。",
+    "choices": [
+      "タンニン",
+      "川",
+      "霧",
+      "山"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-296",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、マルケ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Castelli di Jesi Verdicchio Riserva、Verdicchio di Matelica Riservaが正解です。",
+    "choices": [
+      "Castelli di Jesi Verdicchio Riserva",
+      "Torgiano Rosso Riserva",
+      "Lison",
+      "Verdicchio di Matelica Riserva",
+      "Castel del Monte Bombino Nero",
+      "Taurasi",
+      "Vino Nobile di Montepulciano",
+      "Aglianico del Vulture Superiore"
+    ],
+    "answerIndexes": [
+      0,
+      3
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-297",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "C",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTerre Tollesiの主要品種に含まれているものを選んでください。",
+    "explanation": "パッセリーナが正解です。",
+    "choices": [
+      "メルロ",
+      "パッセリーナ",
+      "アリアーニコ",
+      "カベルネ・ソーヴィニョン"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-298",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "explanation": "Soave Superioreが正解です。",
+    "choices": [
+      "Terre Tollesi",
+      "Barbaresco",
+      "Valtellina Superiore",
+      "Soave Superiore"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-299",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "イタリアでAmaroneやReciotoで用いられているブドウの陰干し作業をなんと呼ぶか。次の中から選んでください。",
+    "explanation": "Appassimentoが正解です。",
+    "choices": [
+      "Appassimento",
+      "Aromatizzato",
+      "Vin Santo",
+      "Vermut"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-300",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がアリアーニコであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "Aglianico del Taburnoが正解です。",
+    "choices": [
+      "Aglianico del Taburno",
+      "Cirò Classico",
+      "Castel del Monte Nero di Troia Riserva",
+      "Bardolino Superiore"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-301",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Castel del Monte Nero di Troia Riserva、Castel del Monte Rosso Riservaが正解です。",
+    "choices": [
+      "Vermentino di Gallura",
+      "Lison",
+      "Valtellina Superiore",
+      "Barbera del Monferrato Superiore",
+      "Castel del Monte Nero di Troia Riserva",
+      "Chianti Classico",
+      "Castel del Monte Rosso Riserva",
+      "Bagnoli Friularo"
+    ],
+    "answerIndexes": [
+      4,
+      6
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-302",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "explanation": "Vernaccia di Serrapetronaが正解です。",
+    "choices": [
+      "Canelli",
+      "Verdicchio di Matelica Riserva",
+      "Vernaccia di Serrapetrona",
+      "Vino Nobile di Montepulciano"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-303",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOCG)ワインOffidaの主要品種に含まれているものを選んでください。",
+    "explanation": "モンテプルチャーノが正解です。",
+    "choices": [
+      "ピノ・グリージョ",
+      "カルメネーレ",
+      "モンテプルチャーノ",
+      "メルロ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-304",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBardolino Superioreが生産されている州を選んでください。",
+    "explanation": "ヴェネトが正解です。",
+    "choices": [
+      "シチリア",
+      "ヴェネト",
+      "ウンブリア",
+      "サルデーニャ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-305",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインValtellina Superioreの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "キアヴェンナスカが正解です。",
+    "choices": [
+      "ブラケット",
+      "ガリオッポ",
+      "ピニョレット",
+      "キアヴェンナスカ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-306",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Colli Orientali del Friuli Picolit、Lisonが正解です。",
+    "choices": [
+      "Valtellina Superiore",
+      "Lison",
+      "Taurasi",
+      "Colli Euganei Fior d'Arancio",
+      "Colli Bolognesi Pignoletto",
+      "Montecucco Sangiovese",
+      "Barbera del Monferrato Superiore",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "answerIndexes": [
+      1,
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-307",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOC)ワインNebbiolo d'Albaが生産されている州を選んでください。",
+    "explanation": "ピエモンテが正解です。",
+    "choices": [
+      "アブルッツォ",
+      "エミリア・ロマーニャ",
+      "プーリア",
+      "ピエモンテ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-308",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "explanation": "Frascati Superioreが正解です。",
+    "choices": [
+      "Taurasi",
+      "Frascati Superiore",
+      "Bagnoli Friularo",
+      "Piave Malanotte"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-309",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がエルバルーチェであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "Erbaluce di Calusoが正解です。",
+    "choices": [
+      "Montefalco Sagrantino",
+      "Erbaluce di Caluso",
+      "Brachetto d'Acqui",
+      "Verdicchio di Matelica Riserva"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-310",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインSoave Superioreが生産されている州を選んでください。",
+    "explanation": "ヴェネトが正解です。",
+    "choices": [
+      "アブルッツォ",
+      "カンパーニア",
+      "ヴェネト",
+      "リグーリア"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-311",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCannellino di Frascatiの主要品種に含まれているものを選んでください。",
+    "explanation": "マルヴァジーア・デル・ラツィオが正解です。",
+    "choices": [
+      "サンジョヴェーゼ",
+      "ガルガネガ",
+      "マルヴァジーア・デル・ラツィオ",
+      "ネッビオーロ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-312",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア、プーリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Castel del Monte Bombino Nero、Castel del Monte Nero di Troia Riservaが正解です。",
+    "choices": [
+      "Castel del Monte Nero di Troia Riserva",
+      "Ruchè di Castagnole Monferrato",
+      "Brunello di Montalcino",
+      "Cannellino di Frascati",
+      "Piave Malanotte",
+      "Cònero",
+      "Asti",
+      "Castel del Monte Bombino Nero"
+    ],
+    "answerIndexes": [
+      0,
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-313",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "explanation": "Carmignanoが正解です。",
+    "choices": [
+      "Roero",
+      "Carmignano",
+      "Erbaluce di Caluso",
+      "Conegliano Valdobbiadene-Prosecco"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-314",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "explanation": "Doglianiが正解です。",
+    "choices": [
+      "Castelli di Jesi Verdicchio Riserva",
+      "Asti",
+      "Terre Tollesi",
+      "Dogliani"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-315",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "C",
+    "question": "次の中からイタリアのDOP(DOCG)ワインTerre Tollesiの主要品種に含まれているものを選んでください。",
+    "explanation": "モンテプルチャーノが正解です。",
+    "choices": [
+      "モンテプルチャーノ",
+      "ガリオッポ",
+      "カベルネ・ソーヴィニョン",
+      "メルロ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-316",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、トスカーナ州のDOP(DOCG)ワインBrunello di Montalcino Riservaの最低熟成期間を選んでください。",
+    "explanation": "収穫年より6年目の12月末までが正解です。",
+    "choices": [
+      "収穫年より2年目の12月末まで",
+      "収穫年より3年目の12月末まで",
+      "収穫年より5年目の12月末まで",
+      "収穫年より6年目の12月末まで"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-317",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から同じ呼称にネッビオーロから造られる赤と、アルネイスから造られる白が含まれるピエモンテ州のDOP(DOCG)ワインを選んでください。",
+    "explanation": "Roeroが正解です。",
+    "choices": [
+      "Barolo",
+      "Roero",
+      "Barbaresco",
+      "Ghemme"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-318",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインAlta Langaが生産されている州を選んでください。",
+    "explanation": "ピエモンテが正解です。",
+    "choices": [
+      "カンパーニア",
+      "ピエモンテ",
+      "ロンバルディア",
+      "シチリア"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-319",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインOltrepò Pavese Metodo Classicoが生産されている州を選んでください。",
+    "explanation": "ロンバルディアが正解です。",
+    "choices": [
+      "トレンティーノ・アルト・アディジェ",
+      "ラツィオ",
+      "ウンブリア",
+      "ロンバルディア"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-320",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中から主要品種がピコリットであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "Colli Orientali del Friuli Picolitが正解です。",
+    "choices": [
+      "Nizza",
+      "Montello Rosso",
+      "Franciacorta",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-321",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Moscato di Scanzo、Oltrepò Pavese Metodo Classicoが正解です。",
+    "choices": [
+      "Torgiano Rosso Riserva",
+      "Ghemme",
+      "Moscato di Scanzo",
+      "Morellino di Scansano",
+      "Dolcetto di Ovada Superiore",
+      "Barbaresco",
+      "Oltrepò Pavese Metodo Classico",
+      "Montefalco Sagrantino"
+    ],
+    "answerIndexes": [
+      2,
+      6
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-322",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、ヴェネト州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Amarone della Valpolicella、Lisonが正解です。",
+    "choices": [
+      "Verdicchio di Matelica Riserva",
+      "Moscato di Scanzo",
+      "Lison",
+      "Franciacorta",
+      "Morellino di Scansano",
+      "Amarone della Valpolicella",
+      "Brunello di Montalcino",
+      "Valtellina Superiore"
+    ],
+    "answerIndexes": [
+      2,
+      5
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-323",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOCG)ワインRamandoloの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "ヴェルドゥッツオ・フリウラーノが正解です。",
+    "choices": [
+      "コルヴィーナ・ヴェロネーゼ,コルヴィノーネ",
+      "ガリオッポ",
+      "ヴェルドゥッツオ・フリウラーノ",
+      "アルネイス,ネッビオーロ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-324",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からピエモンテ州のDOP(DOCG)ワインBaroloの最低熟成期間を選んでください。",
+    "explanation": "収穫年の11月1日より38ヶ月が正解です。",
+    "choices": [
+      "収穫年の11月1日より24ヶ月",
+      "収穫年の翌年1月1日より48ヶ月",
+      "収穫年の翌年1月1日より72ヶ月",
+      "収穫年の11月1日より38ヶ月"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-325",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "C",
+    "question": "次の中からイタリアで、トマト、ニンニク、トウガラシで蛸を長時間煮込んだ料理を選択してください。",
+    "explanation": "Polpo alla Lucianaが正解です。",
+    "choices": [
+      "Baccalà alla Vicentina",
+      "Pollo alla Romana",
+      "Polpo alla Luciana",
+      "Bistecca alla Pizzaiola"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-326",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリア、ロンバルディア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Sforzato di Valtellinaが正解です。",
+    "choices": [
+      "Colli di Conegliano",
+      "Taurasi",
+      "Verdicchio di Matelica Riserva",
+      "Carmignano",
+      "Chianti",
+      "Nizza",
+      "Rosazzo",
+      "Sforzato di Valtellina"
+    ],
+    "answerIndexes": [
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-327",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインAglianico del Taburnoが生産されている州を選んでください。",
+    "explanation": "カンパーニアが正解です。",
+    "choices": [
+      "カンパーニア",
+      "リグーリア",
+      "フリウリ・ヴェネツィア・ジューリア",
+      "アブルッツォ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-328",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、トスカーナ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "Brunello di Montalcino、Vino Nobile di Montepulcianoが正解です。",
+    "choices": [
+      "Cònero",
+      "Brunello di Montalcino",
+      "Recioto di Soave",
+      "Dogliani",
+      "Primitivo di Manduria Dolce Naturale",
+      "Castel del Monte Rosso Riserva",
+      "Gattinara",
+      "Vino Nobile di Montepulciano"
+    ],
+    "answerIndexes": [
+      1,
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-329",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアのDOP(DOCG)ワインElba Aleatico Passitoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "アレアティコが正解です。",
+    "choices": [
+      "ガリオッポ",
+      "サグランティーノ",
+      "アレアティコ",
+      "フィアーノ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-330",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からロゼワインのみが認められているものを選んでください。",
+    "explanation": "Castel del Monte Bombino Neroが正解です。",
+    "choices": [
+      "Verdicchio di Matelica Riserva",
+      "Castel del Monte Bombino Nero",
+      "Asolo",
+      "Montello Rosso"
+    ],
+    "answerIndex": 1
   }
 ];
