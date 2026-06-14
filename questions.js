@@ -36401,7 +36401,8 @@ window.WINE_QUESTIONS = [
     "answerIndexes": [
       1,
       3
-    ]
+    ],
+    "maxSelections": 2
   },
   {
     "id": "italy-docg-doc-114",
@@ -37775,7 +37776,8 @@ window.WINE_QUESTIONS = [
     "answerIndexes": [
       4
     ],
-    "explanation": "正解: Castel del Monte Bombino Nero"
+    "explanation": "正解: Castel del Monte Bombino Nero",
+    "maxSelections": 2
   },
   {
     "id": "italy-docg-doc-206",
@@ -37824,7 +37826,8 @@ window.WINE_QUESTIONS = [
       2,
       7
     ],
-    "explanation": "正解: Recioto di Gambellara、Recioto di Soave"
+    "explanation": "正解: Recioto di Gambellara、Recioto di Soave",
+    "maxSelections": 2
   },
   {
     "id": "italy-docg-doc-209",
@@ -37839,5 +37842,688 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "explanation": "正解: Cònero"
+  },
+  {
+    "id": "italy-docg-doc-210",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中から中世から甘口ワインとして讃えられ、教皇庁御用達であったイタリアのDOP(DOC)ワインを選択してください。",
+    "explanation": "正解は「Orvieto」です。",
+    "choices": [
+      "Valpolicella Ripasso",
+      "Cinque Terre",
+      "Vernaccia di Oristano",
+      "Orvieto"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-211",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBarbarescoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「ネッビオーロ」です。",
+    "choices": [
+      "ヴェルナッチャ・ディ・サン・ジミニャーノ",
+      "キアヴェンナスカ",
+      "モスカート・ビアンコ",
+      "ネッビオーロ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-212",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "explanation": "正解は「Recioto di Soave」です。",
+    "choices": [
+      "Romagna Albana",
+      "Elba Aleatico Passito",
+      "Barolo",
+      "Recioto di Soave"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-213",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から1981年に昇格したものを選んでください。",
+    "explanation": "正解は「Barbaresco」です。",
+    "choices": [
+      "Montecucco Sangiovese",
+      "Valtellina Superiore",
+      "Barbaresco",
+      "Colli Orientali del Friuli Picolit"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-214",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインMorellino di Scansanoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「サンジョヴェーゼ」です。",
+    "choices": [
+      "プリミティーヴォ",
+      "タイ",
+      "サンジョヴェーゼ",
+      "ルケ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-215",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインFiano di Avellinoが生産されている州を選んでください。",
+    "explanation": "正解は「カンパーニア」です。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア",
+      "アブルッツォ",
+      "トスカーナ",
+      "カンパーニア"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-216",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "explanation": "正解は「Oltrepò Pavese Metodo Classico」です。",
+    "choices": [
+      "Cònero",
+      "Bardolino Superiore",
+      "Ramandolo",
+      "Oltrepò Pavese Metodo Classico"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-217",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリア最大の湖を選択してください。",
+    "explanation": "正解は「ガルダ湖」です。",
+    "choices": [
+      "ガルダ湖",
+      "コモ湖",
+      "イゼオ湖",
+      "マッジョーレ湖"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-218",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインRosso della Val di Corniaが生産されている州を選んでください。",
+    "explanation": "正解は「トスカーナ」です。",
+    "choices": [
+      "モリーゼ",
+      "トスカーナ",
+      "バジリカータ",
+      "ヴァッレ・ダオスタ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-219",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤白両方のワインが認められているものを選んでください。",
+    "explanation": "正解は「Terre Alfieri」です。",
+    "choices": [
+      "Terre Alfieri",
+      "Cònero",
+      "Gattinara",
+      "Montello Rosso"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-220",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBarbera del Monferrato Superioreの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「バルベーラ」です。",
+    "choices": [
+      "チェサネーゼ・ディ・アッフィレ,チェサネーゼ・コムーネ",
+      "バルベーラ",
+      "コルヴィーナ・ヴェロネーゼ,コルヴィノーネ",
+      "フリウラーノ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-221",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Fiano di Avellino、Taurasi」です。",
+    "choices": [
+      "Fiano di Avellino",
+      "Bardolino Superiore",
+      "Terre Tollesi",
+      "Cerasuolo di Vittoria",
+      "Elba Aleatico Passito",
+      "Terre Alfieri",
+      "Recioto della Valpolicella",
+      "Taurasi"
+    ],
+    "answerIndexes": [
+      0,
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-222",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から白ワインのみが認められているものを選んでください。",
+    "explanation": "正解は「Castelli di Jesi Verdicchio Riserva」です。",
+    "choices": [
+      "Terre Tollesi",
+      "Cirò Classico",
+      "Torgiano Rosso Riserva",
+      "Castelli di Jesi Verdicchio Riserva"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-223",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインColli di Coneglianoの主要品種に含まれているものを選んでください。",
+    "explanation": "正解は「カベルネ・ソーヴィニョン」です。",
+    "choices": [
+      "カベルネ・ソーヴィニョン",
+      "ネッビオーロ",
+      "ガルガネガ",
+      "カナイオーロ・ネーロ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-224",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からカリフォルニアのジンファンデルと同じ品種が主要品種であるDOP(DOCG)ワインを選択してください。",
+    "explanation": "正解は「Primitivo di Manduria Dolce Naturale」です。",
+    "choices": [
+      "Primitivo di Manduria Dolce Naturale",
+      "Vino Nobile di Montepulciano",
+      "Cannellino di Frascati",
+      "Canelli"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-225",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、カンパーニア州で最古のDOCGを選んでください。",
+    "explanation": "正解は「Taurasi」です。",
+    "choices": [
+      "Fiano di Avellino",
+      "Greco di Tufo",
+      "Taurasi",
+      "Aglianico del Taburno"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-226",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインRomagna Albanaが生産されている州を選んでください。",
+    "explanation": "正解は「エミリア・ロマーニャ」です。",
+    "choices": [
+      "ヴェネト",
+      "ラツィオ",
+      "エミリア・ロマーニャ",
+      "カンパーニア"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-227",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインFrascati Superioreの主要品種に含まれているものを選んでください。",
+    "explanation": "正解は「マルヴァジーア・デル・ラツィオ」です。",
+    "choices": [
+      "ガリオッポ",
+      "アリアーニコ",
+      "サンジョヴェーゼ",
+      "マルヴァジーア・デル・ラツィオ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-228",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、ウンブリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Montefalco Sagrantino」です。",
+    "choices": [
+      "Suvereto",
+      "Rosso della Val di Cornia",
+      "Montefalco Sagrantino",
+      "Piave Malanotte",
+      "Oltrepò Pavese Metodo Classico",
+      "Nizza",
+      "Barolo",
+      "Recioto di Soave"
+    ],
+    "answerIndexes": [
+      2
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-229",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインColli di Coneglianoの主要品種に含まれているものを選んでください。",
+    "explanation": "正解は「メルロ」です。",
+    "choices": [
+      "マルヴァジーア・デル・ラツィオ",
+      "メルロ",
+      "ガリオッポ",
+      "ネッビオーロ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-230",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中から主要品種がグレーラであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "正解は「Conegliano Valdobbiadene-Prosecco」です。",
+    "choices": [
+      "Barbera d'Asti",
+      "Aglianico del Vulture Superiore",
+      "Recioto di Soave",
+      "Conegliano Valdobbiadene-Prosecco"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-231",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "B",
+    "question": "次の中からイタリアで、干鱈をミルクで煮込んだ料理を選択してください。",
+    "explanation": "正解は「Baccalà alla Vicentina」です。",
+    "choices": [
+      "Pollo alla Romana",
+      "Baccalà alla Vicentina",
+      "Bistecca alla Pizzaiola",
+      "Polpo alla Luciana"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-232",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBaroloの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「ネッビオーロ」です。",
+    "choices": [
+      "ネッビオーロ",
+      "アルネイス,ネッビオーロ",
+      "コルヴィーナ・ヴェロネーゼ,コルヴィノーネ",
+      "ガルガネガ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-233",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、トスカーナ州のDOP(DOCG)ワインの産地を北から南の順序で正しく並べたものを選択してください。",
+    "explanation": "正解は「Carmignano, Chianti Classico, Brunello di Montalcino, Morellino di Scansano」です。",
+    "choices": [
+      "Carmignano, Chianti Classico, Brunello di Montalcino, Morellino di Scansano",
+      "Brunello di Montalcino, Carmignano, Morellino di Scansano, Chianti Classico",
+      "Chianti Classico, Brunello di Montalcino, Morellino di Scansano, Carmignano",
+      "Brunello di Montalcino, Carmignano, Chianti Classico, Morellino di Scansano"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-234",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、ラツィオ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Frascati Superiore、Cesanese del Piglio」です。",
+    "choices": [
+      "Frascati Superiore",
+      "Taurasi",
+      "Suvereto",
+      "Cesanese del Piglio",
+      "Recioto della Valpolicella",
+      "Ghemme",
+      "Ruchè di Castagnole Monferrato",
+      "Valtellina Superiore"
+    ],
+    "answerIndexes": [
+      0,
+      3
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-235",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCastel del Monte Rosso Riservaの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「ネーロ・ディ・トロイア」です。",
+    "choices": [
+      "モンテプルチャーノ",
+      "ガリオッポ",
+      "プリミティーヴォ",
+      "ネーロ・ディ・トロイア"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-236",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインMontello Rossoが生産されている州を選んでください。",
+    "explanation": "正解は「ヴェネト」です。",
+    "choices": [
+      "ヴェネト",
+      "カラブリア",
+      "サルデーニャ",
+      "エミリア・ロマーニャ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-237",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "explanation": "正解は「Recioto di Gambellara」です。",
+    "choices": [
+      "Recioto di Gambellara",
+      "Brunello di Montalcino",
+      "Dogliani",
+      "Ruchè di Castagnole Monferrato"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-238",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から赤ワインのみが認められているものを選んでください。",
+    "explanation": "正解は「Barbaresco」です。",
+    "choices": [
+      "Offida",
+      "Soave Superiore",
+      "Barbaresco",
+      "Roero"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-239",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からヴィナッチャ（ブドウの搾り粕）を入れて再発酵させて造られるイタリアのDOP(DOC)ワインを選択してください。",
+    "explanation": "正解は「Valpolicella Ripasso」です。",
+    "choices": [
+      "Langhe",
+      "Valpolicella Ripasso",
+      "Etna",
+      "Pomino"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-240",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中から同じ呼称にネッビオーロから造られる赤と、アルネイスから造られる白が含まれるピエモンテ州のDOP(DOCG)ワインを選んでください。",
+    "explanation": "正解は「Terre Alfieri」です。",
+    "choices": [
+      "Nizza",
+      "Terre Alfieri",
+      "Barolo",
+      "Barbaresco"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-241",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインGhemmeの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「スパンナ」です。",
+    "choices": [
+      "プルニョーロ・ジェンティーレ",
+      "アリアーニコ",
+      "スパンナ",
+      "キアヴェンナスカ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-242",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Aglianico del Taburno」です。",
+    "choices": [
+      "Erbaluce di Caluso",
+      "Colline Teramane Montepulciano d'Abruzzo",
+      "Aglianico del Taburno",
+      "Recioto di Soave",
+      "Franciacorta",
+      "Torgiano Rosso Riserva",
+      "Aglianico del Vulture Superiore",
+      "Canelli"
+    ],
+    "answerIndexes": [
+      2
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-243",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中から主要品種がネーロ・ダヴォラであるイタリアのDOP(DOCG)ワインを選択してください。",
+    "explanation": "正解は「Cerasuolo di Vittoria」です。",
+    "choices": [
+      "Cerasuolo di Vittoria",
+      "Cirò Classico",
+      "Offida",
+      "Castel del Monte Nero di Troia Riserva"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-244",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、アブルッツォ州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Colline Teramane Montepulciano d'Abruzzo」です。",
+    "choices": [
+      "Colli Bolognesi Pignoletto",
+      "Aglianico del Taburno",
+      "Asolo",
+      "Cònero",
+      "Bagnoli Friularo",
+      "Conegliano Valdobbiadene-Prosecco",
+      "Barbera d'Asti",
+      "Colline Teramane Montepulciano d'Abruzzo"
+    ],
+    "answerIndexes": [
+      7
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-245",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBardolino Superioreの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「コルヴィーナ・ヴェロネーゼ」です。",
+    "choices": [
+      "バルベーラ",
+      "アルネイス,ネッビオーロ",
+      "タイ",
+      "コルヴィーナ・ヴェロネーゼ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-246",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインColli di Coneglianoが生産されている州を選んでください。",
+    "explanation": "正解は「ヴェネト」です。",
+    "choices": [
+      "バジリカータ",
+      "ヴァッレ・ダオスタ",
+      "ヴェネト",
+      "サルデーニャ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-247",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からサッシカイアの大成功によりボルドー品種ワイン産地として一気に名声を高めたイタリアのDOP(DOC)ワインを選択してください。",
+    "explanation": "正解は「Bolgheri」です。",
+    "choices": [
+      "Bolgheri",
+      "Suvereto",
+      "Vino Nobile di Montepulciano",
+      "Chianti"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "italy-docg-doc-248",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、カンパーニア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Aglianico del Taburno、Taurasi」です。",
+    "choices": [
+      "Aglianico del Taburno",
+      "Taurasi",
+      "Primitivo di Manduria Dolce Naturale",
+      "Colli di Conegliano",
+      "Rosso della Val di Cornia",
+      "Terre Alfieri",
+      "Amarone della Valpolicella",
+      "Castel del Monte Rosso Riserva"
+    ],
+    "answerIndexes": [
+      0,
+      1
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-249",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリアのDOP(DOCG)ワインConegliano Valdobbiadene-Proseccoが生産されている州を選んでください。",
+    "explanation": "正解は「ヴェネト」です。",
+    "choices": [
+      "サルデーニャ",
+      "トレンティーノ・アルト・アディジェ",
+      "ヴェネト",
+      "リグーリア"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "italy-docg-doc-250",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインCastel del Monte Nero di Troia Riservaが生産されている州を選んでください。",
+    "explanation": "正解は「プーリア」です。",
+    "choices": [
+      "リグーリア",
+      "マルケ",
+      "モリーゼ",
+      "プーリア"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "italy-docg-doc-251",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "S",
+    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州で生産されているDOP(DOCG)ワインを全て選んでください。2個まで選択できます。",
+    "explanation": "正解は「Colli Orientali del Friuli Picolit、Ramandolo」です。",
+    "choices": [
+      "Barbaresco",
+      "Cònero",
+      "Cannellino di Frascati",
+      "Barolo",
+      "Colli di Conegliano",
+      "Colli Orientali del Friuli Picolit",
+      "Ramandolo",
+      "Ruchè di Castagnole Monferrato"
+    ],
+    "answerIndexes": [
+      5,
+      6
+    ],
+    "maxSelections": 2
+  },
+  {
+    "id": "italy-docg-doc-252",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中からスプマンテが認められているものを選んでください。",
+    "explanation": "正解は「Asolo」です。",
+    "choices": [
+      "Colli Orientali del Friuli Picolit",
+      "Asolo",
+      "Bardolino Superiore",
+      "Fiano di Avellino"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-253",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次の中からイタリアのDOP(DOCG)ワインBagnoli Friularoの主要品種を選んでください。なお、その品種に別名がある時には、その地方で使われている別名を選んでください。",
+    "explanation": "正解は「ラボーゾ・ピアーヴェ」です。",
+    "choices": [
+      "ガルガネガ",
+      "ラボーゾ・ピアーヴェ",
+      "ボンビーノ・ネーロ",
+      "アリアーニコ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "italy-docg-doc-254",
+    "category": "イタリア/DOCG、DOC",
+    "importance": "A",
+    "question": "次のイタリアのDOP(DOCG)ワインの中から甘口ワインを選んでください。",
+    "explanation": "正解は「Cannellino di Frascati」です。",
+    "choices": [
+      "Montecucco Sangiovese",
+      "Cònero",
+      "Cannellino di Frascati",
+      "Dolcetto di Ovada Superiore"
+    ],
+    "answerIndex": 2
   }
 ];
