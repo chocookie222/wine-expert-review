@@ -41062,5 +41062,2161 @@ window.WINE_QUESTIONS = [
       "Montello Rosso"
     ],
     "answerIndex": 1
-  }
+  },
+  {
+    "id": "non-wine-beverages-001",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するコーヒーの抽出方法を選択してください。「高温のお湯に高圧をかけて、短時間で少量の濃厚なコーヒーを抽出する。」",
+    "explanation": "エスプレッソが正解です。",
+    "choices": [
+      "エスプレッソ",
+      "フレンチプレス",
+      "サイフォン",
+      "パーコレーター"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-002",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中から国産ウイスキー第一号「サントリーウイスキー白札」が発売された年を選択してください。",
+    "explanation": "1929年が正解です。",
+    "choices": [
+      "1959年",
+      "1949年",
+      "1929年",
+      "1939年"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-003",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の表示がなされたアルマニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「VS」",
+    "explanation": "コント1が正解です。",
+    "choices": [
+      "コント10",
+      "コント3",
+      "コント4",
+      "コント1"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-004",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の4つの中からフランス産のミネラルウォーターを選択してください。",
+    "explanation": "Perrierが正解です。",
+    "choices": [
+      "Ferrarelle",
+      "Perrier",
+      "Gerol Steiner",
+      "COURMAYEUR"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-005",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「2番目に高品質な地区。粘土石灰質。より豊かでボディがしっかりしている。」",
+    "explanation": "Armagnac-Ténarèzeが正解です。",
+    "choices": [
+      "Armagnac-Ténarèze",
+      "Bois Ordinaires",
+      "Fins Bois",
+      "Bas-Armagnac"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-006",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からビールに特有の苦み、香り、泡もちを与えている原料を選択してください。",
+    "explanation": "ホップが正解です。",
+    "choices": [
+      "ホップ",
+      "米",
+      "六条大麦の麦芽",
+      "デンプン（スターチ）"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-007",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中からヴァイツェンの特徴として最も適切なものを選択してください。",
+    "explanation": "小麦麦芽を使用し苦みが非常に少なく炭酸ガスは高い清涼感のあるビール。が正解です。",
+    "choices": [
+      "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。",
+      "現在は淡色が多い。芳醇でコクがありアルコール分も6〜6.5度と高いビール。",
+      "小麦麦芽を使用し苦みが非常に少なく炭酸ガスは高い清涼感のあるビール。",
+      "1722年ロンドン発祥の濃厚でホップの苦みの強い濃色ビール。"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-008",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中から中国で国家貴賓客にも振る舞われる醤香型の貴州省の酒を選択してください。",
+    "explanation": "茅台酒が正解です。",
+    "choices": [
+      "善醸酒",
+      "桂林三花酒",
+      "茅台酒",
+      "汾酒"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-009",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の説明に合致する酒を選択してください。「原料として竜舌蘭を使用することが定められている。」",
+    "explanation": "Tequilaが正解です。",
+    "choices": [
+      "Vodka",
+      "Tequila",
+      "Aquavit",
+      "Eaux-de-vie de Fruits"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-010",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「日本で開発された緑茶のリキュール。」",
+    "explanation": "グリーン・ティーが正解です。",
+    "choices": [
+      "フランジェリコ",
+      "アマレット",
+      "ベネディクティン",
+      "グリーン・ティー"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-011",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からバーボンウイスキーに使用するトウモロコシの割合を選択してください。",
+    "explanation": "51%以上が正解です。",
+    "choices": [
+      "51%以上",
+      "71%以上",
+      "50%未満",
+      "70%未満"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-012",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「アルマニャック向けのブドウ栽培面積の67%を占める地区。」",
+    "explanation": "Bas-Armagnacが正解です。",
+    "choices": [
+      "Armagnac-Ténarèze",
+      "Fins Bois",
+      "Bois Ordinaires",
+      "Bas-Armagnac"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-013",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するビールの種類を選択してください。「濃色の麦芽を原料の一部に用いた色の濃いビールの総称。」",
+    "explanation": "黒ビールが正解です。",
+    "choices": [
+      "ドラフトビール",
+      "黒ビール",
+      "熟成ビール",
+      "生ビール"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-014",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「Hors d'âge」",
+    "explanation": "コント10が正解です。",
+    "choices": [
+      "コント10",
+      "コント3",
+      "コント8",
+      "コント6"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-015",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からカルヴァドスについての説明で正しいものを選択してください。",
+    "explanation": "原料は認可されている品種のリンゴと梨であるが正解です。",
+    "choices": [
+      "ガスコーニュ地方産の400リットル以下のオーク樽で熟成",
+      "原料は認可されている品種のリンゴと梨である",
+      "単式蒸留を2回行う（連続式蒸留は不可）",
+      "原料のリンゴのタイプは3種に分けられる"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-016",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中から日本茶の一番茶の収穫時期を選択してください。",
+    "explanation": "4〜5月が正解です。",
+    "choices": [
+      "6〜7月",
+      "3〜4月",
+      "4〜5月",
+      "8〜9月"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-017",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からEUにおける、Crème de Cassisという呼称を付けるリキュールの砂糖含有量の規定を選択してください。",
+    "explanation": "400g/L以上が正解です。",
+    "choices": [
+      "300g/L以上",
+      "100g/L以上",
+      "250g/L以上",
+      "400g/L以上"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-018",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「アイルランド産のリキュール。同国の脂肪とタンパクに富む牛乳クリームを、アイリッシュ・ウイスキーと渾然一本化して発売。」",
+    "explanation": "ベイリーズ・オリジナル・アイリッシュ・クリームが正解です。",
+    "choices": [
+      "アマレット",
+      "シャルトリューズ",
+      "サンブーカ",
+      "ベイリーズ・オリジナル・アイリッシュ・クリーム"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-019",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からテキーラのアネホの最低熟成期間を選択してください。",
+    "explanation": "1年以上が正解です。",
+    "choices": [
+      "3年以上",
+      "2ヶ月以上1年未満",
+      "5年以上",
+      "1年以上"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-020",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+    "explanation": "FLORIDAが正解です。",
+    "choices": [
+      "GIN & TONIC",
+      "FLORIDA",
+      "MINT JULEP",
+      "BAMBOO"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-021",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「イタリア産のリキュール。40種以上のハーブやスパイスを使い、ヴァニラ香とアニス香の調和した香味をもつ。」",
+    "explanation": "ガリアーノが正解です。",
+    "choices": [
+      "シャルトリューズ",
+      "アブサン",
+      "ガリアーノ",
+      "アニゼ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-022",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中からコーヒー豆トラジャの産地を選択してください。",
+    "explanation": "インドネシア、スラウェシ島が正解です。",
+    "choices": [
+      "ジャマイカ",
+      "インドネシア、スラウェシ島",
+      "エチオピア",
+      "タンザニア"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-023",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からテキーラのレポサドの最低熟成期間を選択してください。",
+    "explanation": "2ヶ月以上1年未満が正解です。",
+    "choices": [
+      "3年以上",
+      "2ヶ月以上1年未満",
+      "1年以上",
+      "5年以上"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-024",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からビールに関わる初めての成文法「ハムラビ法典」が制定された年代を選択してください。",
+    "explanation": "紀元前1700年代が正解です。",
+    "choices": [
+      "紀元前250年代",
+      "紀元前1700年代",
+      "紀元前3500年代",
+      "紀元前800年代"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-025",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の4つの中から炭酸ガス入りのミネラルウォーターを選択してください。",
+    "explanation": "CHATELDONが正解です。",
+    "choices": [
+      "ACQUA PANNA",
+      "CHATELDON",
+      "Volvic",
+      "COURMAYEUR"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-026",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「フランスのアルプス山麓、ヴォワロンの修道院で生まれ、いまもそこで造られているリキュール。」",
+    "explanation": "シャルトリューズが正解です。",
+    "choices": [
+      "カラーアニス",
+      "ベイリーズ・オリジナル・アイリッシュ・クリーム",
+      "フランジェリコ",
+      "シャルトリューズ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-027",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「Napoléon」",
+    "explanation": "コント6が正解です。",
+    "choices": [
+      "コント2",
+      "コント6",
+      "コント10",
+      "コント3"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-028",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「干しスモモとすみれの香りを有し、豊かでボディがしっかりとした味わい。」",
+    "explanation": "Armagnac-Ténarèzeが正解です。",
+    "choices": [
+      "Fins Bois",
+      "Bas-Armagnac",
+      "Armagnac-Ténarèze",
+      "Borderies"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-029",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からグレーンウイスキーの定義として正しいものを選択してください。",
+    "explanation": "主原料はトウモロコシ、小麦などが正解です。",
+    "choices": [
+      "主原料は二条大麦麦芽",
+      "ポットスチルを用いて通常1回の蒸留を行う",
+      "ポットスチルを用いて通常2回の蒸留を行う",
+      "主原料はトウモロコシ、小麦など"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-030",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中から中国酒「黄酒（ホワンチュウ）」の説明として最も適切なものを選択してください。",
+    "explanation": "主に糯米を原料とし麹で発酵した醸造酒が正解です。",
+    "choices": [
+      "粒状の散麹を原料にして発酵した醸造酒",
+      "主に糯米を原料とし麹で発酵した醸造酒",
+      "中国古来の蒸留酒",
+      "米麹のみを原料にした蒸留酒"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-031",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からウオッカをベースに作られるカクテルを選択してください。",
+    "explanation": "BLACK RUSSIANが正解です。",
+    "choices": [
+      "BLACK RUSSIAN",
+      "MARGARITA",
+      "KIR",
+      "KIR ROYAL"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-032",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からコニャックに使用される主たる品種を選択してください。",
+    "explanation": "サン・テミリオン・デ・シャラントが正解です。",
+    "choices": [
+      "ピノ・ブラン",
+      "モーザック",
+      "サン・テミリオン・デ・シャラント",
+      "ブラン・フュメ"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-033",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「アメリカ産の果実系リキュール。中性スピリッツにピーチほか数十種のフルーツとハーブを配合。」",
+    "explanation": "サザン・カンフォートが正解です。",
+    "choices": [
+      "クレーム・ド・カシス",
+      "サザン・カンフォート",
+      "グリーン・ティー",
+      "アドヴォカート"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-034",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中からEaux-de-Vie de Fruitsの原料、黄色のプラムを表すフランス語を選択してください。",
+    "explanation": "Mirabelleが正解です。",
+    "choices": [
+      "Abricot",
+      "Mirabelle",
+      "Quetsche",
+      "Poire Williams"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-035",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中から下面発酵のビールを選択してください。",
+    "explanation": "ピルスナーが正解です。",
+    "choices": [
+      "ピルスナー",
+      "エール",
+      "ヴァイツェン",
+      "ポーター"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-036",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からBuildという技法で作られるカクテルを選択してください。",
+    "explanation": "MOSCOW MULEが正解です。",
+    "choices": [
+      "BULL SHOT",
+      "BAMBOO",
+      "MOSCOW MULE",
+      "COSMOPOLITAN"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-037",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中から紹興酒が属するカテゴリーを選択してください。",
+    "explanation": "黄酒が正解です。",
+    "choices": [
+      "白酒",
+      "茅台酒",
+      "老酒",
+      "黄酒"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-038",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するビールの種類を選択してください。「ベルギーに伝わる古いビールで、修道院でつくられていたことからこの名がついた。アルコール分は6.0〜10.0度。」",
+    "explanation": "トラピストが正解です。",
+    "choices": [
+      "ボック",
+      "トラピスト",
+      "ヴァイツェン",
+      "アルト"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-039",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「石灰質の多い土壌で良品質。優しさと柔らかさを兼ね備えた味わい。」",
+    "explanation": "Haut-Armagnacが正解です。",
+    "choices": [
+      "Bas-Armagnac",
+      "Haut-Armagnac",
+      "Armagnac-Ténarèze",
+      "Bois Ordinaires"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-040",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からスーズというリキュールのアルコール度数を選択してください。",
+    "explanation": "15度が正解です。",
+    "choices": [
+      "25度",
+      "15度",
+      "40度",
+      "55度"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-041",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の説明に合致するリキュールを選択してください。「ナッツ・ビーン・カーネル系のリキュールで、イタリア産のヘーゼルナッツ風味のリキュールの代表銘柄。」",
+    "explanation": "フランジェリコが正解です。",
+    "choices": [
+      "フランジェリコ",
+      "アブサン",
+      "白色アニス",
+      "カンパリ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-042",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の表示がなされたアルマニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「XO」",
+    "explanation": "コント10が正解です。",
+    "choices": [
+      "コント10",
+      "コント8",
+      "コント4",
+      "コント3"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "id": "non-wine-beverages-043",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中から上面発酵のビールを選択してください。",
+    "explanation": "スタウトが正解です。",
+    "choices": [
+      "ピルスナー",
+      "スタウト",
+      "ランビック",
+      "ボック"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "id": "non-wine-beverages-044",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中からミネラルウォーターの硬度の定義を選択してください。",
+    "explanation": "カルシウムイオンおよびマグネシウムイオンの量を炭酸カルシウムの量に換算したもの。が正解です。",
+    "choices": [
+      "カルシウムイオンおよびマグネシウムイオンの量を炭酸マグネシウムの量に換算したもの。",
+      "カルシウムイオンおよびマグネシウムイオンの量を塩化マグネシウムの量に換算したもの。",
+      "カルシウムイオンおよびマグネシウムイオンの量を塩化カルシウムの量に換算したもの。",
+      "カルシウムイオンおよびマグネシウムイオンの量を炭酸カルシウムの量に換算したもの。"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-045",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からBuildという技法で作られるカクテルを選択してください。",
+    "explanation": "BLACK RUSSIANが正解です。",
+    "choices": [
+      "MARGARITA",
+      "GIMLET",
+      "GRASSHOPPER",
+      "BLACK RUSSIAN"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-046",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からアルマニャックに使用される主たる品種を選択してください。",
+    "explanation": "フォル・ブランシュが正解です。",
+    "choices": [
+      "モーザック",
+      "クレレット",
+      "ピノ・ブラン",
+      "フォル・ブランシュ"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "id": "non-wine-beverages-047",
+    "category": "ワイン以外の飲料",
+    "importance": "B",
+    "question": "次の中からアルトの特徴として最も適切なものを選択してください。",
+    "explanation": "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。が正解です。",
+    "choices": [
+      "1722年ロンドン発祥の濃厚でホップの苦みの強い濃色ビール。",
+      "爽快な風味の淡色ビール。日本の多くの淡色ビールと同じタイプである。",
+      "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。",
+      "小麦麦芽を使用し苦みが非常に少なく炭酸ガスは高い清涼感のあるビール。"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "id": "non-wine-beverages-048",
+    "category": "ワイン以外の飲料",
+    "importance": "A",
+    "question": "次の中からカクテルALEXANDERのベースとなる酒を選択してください。",
+    "explanation": "ブランデーが正解です。",
+    "choices": [
+      "ブランデー",
+      "ワイン",
+      "ウオッカ",
+      "ウイスキー"
+    ],
+    "answerIndex": 0
+  },
+{
+  "id": "non-wine-beverages-049",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「アルマニャック向けのブドウ栽培面積の32%を占める地区。」",
+  "explanation": "Armagnac-Ténarèzeが正解です。",
+  "choices": [
+    "Borderies",
+    "Bois Ordinaires",
+    "Haut-Armagnac",
+    "Armagnac-Ténarèze"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-050",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するビールの種類を選択してください。「ドイツのデュッセルドルフで発展した濃色ビール。ホップの香味を強調するのが特徴で、アルコール分は4.5〜5.0度。」",
+  "explanation": "アルトが正解です。",
+  "choices": [
+    "ヴァイツェン",
+    "スタウト",
+    "アルト",
+    "ポーター"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-051",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEaux-de-Vie de Fruitsの原料、アンズを表すフランス語を選択してください。",
+  "explanation": "Abricotが正解です。",
+  "choices": [
+    "Prune",
+    "Myrtille",
+    "Poire Williams",
+    "Abricot"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-052",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からコーヒー豆キリマンジャロの産地を選択してください。",
+  "explanation": "タンザニアが正解です。",
+  "choices": [
+    "エチオピア",
+    "タンザニア",
+    "ジャマイカ",
+    "アメリカ合衆国"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-053",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からコニャックに使用される主たる品種を選択してください。",
+  "explanation": "ユニ・ブランが正解です。",
+  "choices": [
+    "ブラン・フュメ",
+    "ヴェルメンティーノ",
+    "ユニ・ブラン",
+    "アルテス"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-054",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の説明に合致するミネラルウォーターの分類を選択してください。「原水が地下水以外のもの。法令に基づく加熱殺菌などの処理が必要。」",
+  "explanation": "ボトルドウォーターが正解です。",
+  "choices": [
+    "ミネラルウォーター",
+    "ナチュラルウォーター",
+    "ナチュラルミネラルウォーター",
+    "ボトルドウォーター"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-055",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジャパニーズウイスキーの熟成規定（日本洋酒酒造組合が制定した自主規定による）を選択してください。",
+  "explanation": "3年以上が正解です。",
+  "choices": [
+    "規定無し",
+    "3年以上",
+    "1年以上",
+    "5年以上"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-056",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルBLACK RUSSIANのベースとなる酒を選択してください。",
+  "explanation": "ウオッカが正解です。",
+  "choices": [
+    "テキーラ",
+    "ウオッカ",
+    "リキュール",
+    "ウイスキー"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-057",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "SIDECARが正解です。",
+  "choices": [
+    "MANHATTAN",
+    "SHIRLEY TEMPLE",
+    "KIR",
+    "SIDECAR"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-058",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の説明に合致するミネラルウォーターの分類を選択してください。「特定水源から採水した地下水。濾過、沈殿、加熱殺菌以外に、複数の原水を混和、ミネラル類の微調整、ばっ気など、本来成分を変化させる処理を行ったもの。」",
+  "explanation": "ミネラルウォーターが正解です。",
+  "choices": [
+    "ナチュラルウォーター",
+    "ナチュラルミネラルウォーター",
+    "ミネラルウォーター",
+    "ボトルドウォーター"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-059",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「アニスの種子の香味を主体にしたリキュールの中で、アニス他芳香植物を主とするが甘草は使わないもの。代表銘柄にペルノがある。」",
+  "explanation": "カラーアニスが正解です。",
+  "choices": [
+    "アマーロ",
+    "カラーアニス",
+    "クレーム・ド・カシス",
+    "アマレット"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-060",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジャパニーズウイスキーの味わいの特徴として最も適切なものを選択してください。",
+  "explanation": "多彩な香味を持ち、穏やかでバランスが良い。が正解です。",
+  "choices": [
+    "多彩な香味を持ち、穏やかでバランスが良い。",
+    "華やかで厚みがありオークの香味が強い。",
+    "穀物の穏やかな風味があり、飲みやすい。",
+    "ライトでスムーズ。カクテルベースとしても使いやすい。"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-061",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたカルヴァドスの最低熟成年数を選択してください。「Trois Pommes」",
+  "explanation": "2年が正解です。",
+  "choices": [
+    "1年",
+    "6年",
+    "2年",
+    "4年"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-062",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "GIN FIZZが正解です。",
+  "choices": [
+    "GIN FIZZ",
+    "NEGRONI",
+    "FROZEN DAIQUIRI",
+    "MARTINI"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-063",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致する酒を選択してください。「トウモロコシ、小麦、大麦などの穀類、ジャガイモなどのイモ類を原料として糖化、発酵、蒸留し、得られたスピリッツを白樺炭で濾過した蒸留酒。」",
+  "explanation": "Vodkaが正解です。",
+  "choices": [
+    "Tequila",
+    "Aquavit",
+    "Vodka",
+    "Rum"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-064",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するコニャックの生産地区を選択してください。「砂質土壌で、並質のコニャックを生産する。」",
+  "explanation": "Bois Ordinairesが正解です。",
+  "choices": [
+    "Borderies",
+    "Fins Bois",
+    "Grande Champagne",
+    "Bois Ordinaires"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-065",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルKIRのベースとなる酒を選択してください。",
+  "explanation": "ワインが正解です。",
+  "choices": [
+    "リキュール",
+    "ラム",
+    "ブランデー",
+    "ワイン"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-066",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からアルマニャックの貯蔵に使用される樽の容量を選択してください。",
+  "explanation": "400リットルが正解です。",
+  "choices": [
+    "650リットル",
+    "400リットル",
+    "350リットル",
+    "225リットル"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-067",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「XO」",
+  "explanation": "コント10が正解です。",
+  "choices": [
+    "コント3",
+    "コント10",
+    "コント4",
+    "コント6"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-068",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から1樽の原酒のみを使用したウイスキーの名称を選択してください。",
+  "explanation": "シングルバレルが正解です。",
+  "choices": [
+    "ピュアーモルト",
+    "シングルグレーン",
+    "シングルモルト",
+    "シングルバレル"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-069",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からBuildという技法で作られるカクテルを選択してください。",
+  "explanation": "MIMOSAが正解です。",
+  "choices": [
+    "BAMBOO",
+    "GIN FIZZ",
+    "MIMOSA",
+    "WHITE LADY"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-070",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からウイスキーをベースに作られるカクテルを選択してください。",
+  "explanation": "RUSTYNAILが正解です。",
+  "choices": [
+    "NEGRONI",
+    "WHITE LADY",
+    "RUSTYNAIL",
+    "GIMLET"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-071",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から紅茶Keemunの産地を選択してください。",
+  "explanation": "中国が正解です。",
+  "choices": [
+    "北インド",
+    "中国",
+    "インドネシア",
+    "南インド"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-072",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の説明に合致するミネラルウォーターの分類を選択してください。「特定水源から採水した地下水。無機塩類の溶解が比較的少ない原水。濾過、沈殿、加熱殺菌以外の物理的・化学的処理を行ってはいけない。」",
+  "explanation": "ナチュラルウォーターが正解です。",
+  "choices": [
+    "ナチュラルウォーター",
+    "ボトルドウォーター",
+    "ミネラルウォーター",
+    "ナチュラルミネラルウォーター"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-073",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "MARGARITAが正解です。",
+  "choices": [
+    "MARGARITA",
+    "FROZEN DAIQUIRI",
+    "MANHATTAN",
+    "GIN & TONIC"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-074",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からビールの副原料を選択してください。",
+  "explanation": "米が正解です。",
+  "choices": [
+    "六条大麦の麦芽",
+    "ホップ",
+    "米",
+    "二条大麦の麦芽"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-075",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からコニャックについての説明で正しいものを選択してください。",
+  "explanation": "同じ産地にPineau des CharentesというVDLがあるが正解です。",
+  "choices": [
+    "連続式蒸留または単式蒸留",
+    "同じ産地にPineau des CharentesというVDLがある",
+    "ガスコーニュ地方産の約400リットルのオーク樽で熟成",
+    "アルコール度数45度以上で販売の義務"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-076",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致する酒を選択してください。「原料としてブルー・アガベを51%以上使用することが定められ、産地もメキシコ西部のハリスコ州全域、ミチョアカン、ナヤリット、グァナハット、タマウリパス各州の一部と限定されている。」",
+  "explanation": "Tequilaが正解です。",
+  "choices": [
+    "Marc",
+    "Grappa",
+    "Rum",
+    "Tequila"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-077",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたカルヴァドスの最低熟成年数を選択してください。「Réserve」",
+  "explanation": "3年が正解です。",
+  "choices": [
+    "1年",
+    "2年",
+    "3年",
+    "6年"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-078",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジンをベースに作られるカクテルを選択してください。",
+  "explanation": "NEGRONIが正解です。",
+  "choices": [
+    "BULL SHOT",
+    "HIGHBALL",
+    "MARGARITA",
+    "NEGRONI"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-079",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカナディアンウイスキーの味わいの特徴として最も適切なものを選択してください。",
+  "explanation": "ライトでスムーズ。カクテルベースとしても使いやすい。が正解です。",
+  "choices": [
+    "多彩な香味を持ち、穏やかでバランスが良い。",
+    "華やかで厚みがありオークの香味が強い。",
+    "穀物の穏やかな風味があり、飲みやすい。",
+    "ライトでスムーズ。カクテルベースとしても使いやすい。"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-080",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するコニャックの生産地区を選択してください。「粘土を含む石灰質土壌で、柔和で熟成の早いコニャックを生産する。」",
+  "explanation": "Fins Boisが正解です。",
+  "choices": [
+    "Fins Bois",
+    "Grande Champagne",
+    "Bois Ordinaires",
+    "Petite Champagne"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-081",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「オランダ、ドイツなどでつくられるエッグ・リキュール。卵黄を1リットル当たり140g以上、糖分を同150g以上含むこととなっている。」",
+  "explanation": "アドヴォカートが正解です。",
+  "choices": [
+    "アマーロ",
+    "キュラソー",
+    "サザン・カンフォート",
+    "アドヴォカート"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-082",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の特徴に最も良く合致する紅茶を選択してください。「マイルドな香味を持ったソフトタイプの紅茶。」",
+  "explanation": "Nilgirisが正解です。",
+  "choices": [
+    "Uva",
+    "Darjeeling",
+    "Nilgiris",
+    "Jawa"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-083",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中からフランス産のミネラルウォーターを選択してください。",
+  "explanation": "Volvicが正解です。",
+  "choices": [
+    "S.Pellegrino",
+    "ACQUA PANNA",
+    "Volvic",
+    "COURMAYEUR"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-084",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するウイスキーの名称を選択してください。「とうもろこしを51%以上使用する。華やかで厚みがあるオークの香味が強いウイスキー。」",
+  "explanation": "バーボンが正解です。",
+  "choices": [
+    "バーボン",
+    "カナディアン",
+    "アイリッシュ",
+    "スコッチ"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-085",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「ニガヨモギを香味の主原料とするリキュール。しかし常飲すると、ニガヨモギに含まれるツヨンが健康を損ねることが判り、製造販売が禁止になった。その後WHOが飲食物に含まれるツヨン許容量を定め、この許容範囲内で生産されるようになった。」",
+  "explanation": "アブサンが正解です。",
+  "choices": [
+    "ベネディクティン",
+    "アマーロ",
+    "アブサン",
+    "ウゾ"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-086",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の特徴に最も良く合致する紅茶を選択してください。「フルーティな香りをもった産出量の少ない貴重な紅茶。」",
+  "explanation": "Darjeelingが正解です。",
+  "choices": [
+    "Uva",
+    "Darjeeling",
+    "Jawa",
+    "Assam"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-087",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するコニャックの生産地区を選択してください。「石灰岩土壌で非常に繊細なコニャックを生産するが、香りが最高品質の地区に及ばない。またより早熟である。」",
+  "explanation": "Petite Champagneが正解です。",
+  "choices": [
+    "Fins Bois",
+    "Borderies",
+    "Petite Champagne",
+    "Bois Ordinaires"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-088",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から上面発酵のビールを選択してください。",
+  "explanation": "エールが正解です。",
+  "choices": [
+    "エール",
+    "ピルスナー",
+    "ランビック",
+    "ボック"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-089",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルMARTINIのベースとなる酒を選択してください。",
+  "explanation": "ジンが正解です。",
+  "choices": [
+    "ラム",
+    "ジン",
+    "ウイスキー",
+    "ウオッカ"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-090",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からバーボンウイスキーの味わいの特徴として最も適切なものを選択してください。",
+  "explanation": "華やかで厚みがありオークの香味が強い。が正解です。",
+  "choices": [
+    "多彩な香味を持ち、穏やかでバランスが良い。",
+    "華やかで厚みがありオークの香味が強い。",
+    "穀物の穏やかな風味があり、飲みやすい。",
+    "複雑で多彩な香味を持つ。スモーキーフレーバーも特徴の一つ。"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-091",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「フランス北部ノルマンディ地方フェーカンの修道院で1510年に生まれたリキュール。」",
+  "explanation": "ベネディクティンが正解です。",
+  "choices": [
+    "ウゾ",
+    "白色アニス",
+    "ベネディクティン",
+    "シャルトリューズ"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-092",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からコニャックに使用される主たる品種を選択してください。",
+  "explanation": "フォル・ブランシュが正解です。",
+  "choices": [
+    "フォル・ブランシュ",
+    "アルテス",
+    "ヴェルメンティーノ",
+    "ピノ・ブラン"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-093",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から紅茶Nilgirisの産地を選択してください。",
+  "explanation": "南インドが正解です。",
+  "choices": [
+    "スリランカ",
+    "中国",
+    "北インド",
+    "南インド"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-094",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から2024年の日本の国民1人あたりのミネラルウォーター年間消費量を選択してください。",
+  "explanation": "41.6リットルが正解です。",
+  "choices": [
+    "41.6リットル",
+    "55.3リットル",
+    "48.5リットル",
+    "22.5リットル"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-095",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から下面発酵のビールを選択してください。",
+  "explanation": "ボックが正解です。",
+  "choices": [
+    "ボック",
+    "エール",
+    "アルト",
+    "スタウト"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-096",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEaux-de-Vie de Fruitsの原料、スモモを表すフランス語を選択してください。",
+  "explanation": "Pruneが正解です。",
+  "choices": [
+    "Prune",
+    "Myrtille",
+    "Quetsche",
+    "Abricot"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-097",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "AOC カルヴァドスの最低熟成年数を選択してください。",
+  "explanation": "2年が正解です。",
+  "choices": [
+    "6年",
+    "2年",
+    "5年",
+    "1年"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-098",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「アニスの種子主体で香りづけした甘いリキュール。マリーブリザールがこのリキュールの創始者で、いまも代表銘柄になっており、バランスのよい甘口酒に仕上げている。」",
+  "explanation": "アニゼットが正解です。",
+  "choices": [
+    "アニゼット",
+    "ベイリーズ・オリジナル・アイリッシュ・クリーム",
+    "イエーガーマイスター",
+    "白色アニス"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-099",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から荒茶の生産量が第1位の都道府県を選択してください。",
+  "explanation": "鹿児島県が正解です。",
+  "choices": [
+    "三重県",
+    "京都府",
+    "静岡県",
+    "鹿児島県"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-100",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するビールの種類を選択してください。「熱処理していないビールを指す総称。「熱処理していない」旨を併記する。「非熱処理」と表示する場合もある。」",
+  "explanation": "ドラフトビールが正解です。",
+  "choices": [
+    "ラガービール",
+    "黒ビール",
+    "ドラフトビール",
+    "熟成ビール"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-101",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からビールの最も主な原料を選択してください。",
+  "explanation": "二条大麦の麦芽が正解です。",
+  "choices": [
+    "米",
+    "ホップ",
+    "グレーンスピリッツ",
+    "二条大麦の麦芽"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-102",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中から炭酸ガス入りのミネラルウォーターを選択してください。",
+  "explanation": "Ferrarelleが正解です。",
+  "choices": [
+    "Contrex",
+    "Ferrarelle",
+    "COURMAYEUR",
+    "Crystal Geyser"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-103",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からモルトウイスキーの定義として正しいものを選択してください。",
+  "explanation": "ポットスチルを用いて通常2回の蒸留を行うが正解です。",
+  "choices": [
+    "連続式蒸留器を使用する",
+    "ポットスチルを用いて通常1回の蒸留を行う",
+    "ポットスチルを用いて通常2回の蒸留を行う",
+    "主原料は六条大麦麦芽"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-104",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からアルマニャックについての説明で正しいものを選択してください。",
+  "explanation": "連続式蒸留または単式蒸留が正解です。",
+  "choices": [
+    "連続式蒸留または単式蒸留",
+    "主にリムーザン、トロンセ、アリエ産の350リットルのオーク樽で熟成",
+    "アルコール度数45度以上で販売の義務",
+    "同じ産地にPineau des CharentesというVDLがある"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-105",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するコニャックの生産地区を選択してください。「石灰岩土壌で最高品質のコニャックを生産する。繊細で力強く,ボリューム感あり。余韻長い。熟成して非常によいブーケを形成する。」",
+  "explanation": "Grande Champagneが正解です。",
+  "choices": [
+    "Fins Bois",
+    "Borderies",
+    "Petite Champagne",
+    "Grande Champagne"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-106",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「V.S.O.P.」",
+  "explanation": "コント4が正解です。",
+  "choices": [
+    "コント10",
+    "コント15",
+    "コント8",
+    "コント4"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-107",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "WHITE LADYが正解です。",
+  "choices": [
+    "BAMBOO",
+    "SHIRLEY TEMPLE",
+    "KIR",
+    "WHITE LADY"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-108",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するビールの種類を選択してください。「貯蔵工程で熟成させたビールを指す総称。熱処理の有無にかかわらない。」",
+  "explanation": "ラガービールが正解です。",
+  "choices": [
+    "生ビール",
+    "ドラフトビール",
+    "黒ビール",
+    "ラガービール"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-109",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からチャから作る飲料で不発酵茶に属する茶を選択してください。",
+  "explanation": "緑茶が正解です。",
+  "choices": [
+    "緑茶",
+    "紅茶",
+    "麦茶",
+    "烏龍茶"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-110",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルWHITE LADYのベースとなる酒を選択してください。",
+  "explanation": "ジンが正解です。",
+  "choices": [
+    "ウイスキー",
+    "テキーラ",
+    "ジン",
+    "ブランデー"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-111",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致する酒を選択してください。「ブドウ、リンゴ以外のフルーツを原料としたブランデー。ほとんどの場合、無色透明で、冷やして食後に供されることが多い。」",
+  "explanation": "Eaux-de-vie de Fruitsが正解です。",
+  "choices": [
+    "Eaux-de-vie de Fruits",
+    "Gin",
+    "Vodka",
+    "Grappa"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-112",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からシャルトリューズ・ジョーヌというリキュールのアルコール度数を選択してください。",
+  "explanation": "40度が正解です。",
+  "choices": [
+    "15度",
+    "16度",
+    "40度",
+    "55度"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-113",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「イタリア産のアーモンド・フレーヴァーのナッツ・ビーン・カーネル系のリキュール。アンズの核が、風味の主原料である。」",
+  "explanation": "アマレットが正解です。",
+  "choices": [
+    "アマレット",
+    "ベネディクティン",
+    "ベイリーズ・オリジナル・アイリッシュ・クリーム",
+    "白色アニス"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-114",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中からフランス産のミネラルウォーターを選択してください。",
+  "explanation": "CHATELDONが正解です。",
+  "choices": [
+    "CHATELDON",
+    "Gerol Steiner",
+    "Crystal Geyser",
+    "Ferrarelle"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-115",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "AOC カルヴァドス・ペイ・ドージュの最低熟成年数を選択してください。",
+  "explanation": "2年が正解です。",
+  "choices": [
+    "2年",
+    "5年",
+    "8年",
+    "1年"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-116",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からフランスのブランデー、マール・ド・シャンパーニュのアルコール度数の規定を選択してください。",
+  "explanation": "40度以上が正解です。",
+  "choices": [
+    "35度以上",
+    "40度以上",
+    "50度以上",
+    "45度以上"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-117",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から中国酒「白酒（パイチュウ）」の説明として最も適切なものを選択してください。",
+  "explanation": "中国古来の蒸留酒が正解です。",
+  "choices": [
+    "主に糯米を原料とし麹で発酵した醸造酒",
+    "中国古来の蒸留酒",
+    "米麹のみを原料にした蒸留酒",
+    "粒状の散麹を原料にして発酵した醸造酒"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-118",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「スコットランド産のリキュール。スコッチ・ウイスキーに蜂蜜やハーブを配合。酒名は心を満たす飲みものの意。」",
+  "explanation": "ドランブイが正解です。",
+  "choices": [
+    "チナール",
+    "アマーロ",
+    "ドランブイ",
+    "キンキナ"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-119",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から紅茶Uvaの産地を選択してください。",
+  "explanation": "スリランカが正解です。",
+  "choices": [
+    "南インド",
+    "スリランカ",
+    "インドネシア",
+    "北インド"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-120",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からコニャックの貯蔵に使用される樽の容量を選択してください。",
+  "explanation": "350リットルが正解です。",
+  "choices": [
+    "350リットル",
+    "400リットル",
+    "650リットル",
+    "225リットル"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-121",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からワインをベースに作られるカクテルを選択してください。",
+  "explanation": "KIR ROYALが正解です。",
+  "choices": [
+    "MOSCOW MULE",
+    "SIDECAR",
+    "AMERICANO",
+    "KIR ROYAL"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-122",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中から炭酸ガス入りのミネラルウォーターを選択してください。",
+  "explanation": "Gerol Steinerが正解です。",
+  "choices": [
+    "ACQUA PANNA",
+    "Gerol Steiner",
+    "Vittel",
+    "Contrex"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-123",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から洋梨を原料とする醸造酒の名称を選択してください。",
+  "explanation": "Poiréが正解です。",
+  "choices": [
+    "Calvados",
+    "Pisco",
+    "Cidre",
+    "Poiré"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-124",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から比較的大きな葉から作られる日本茶を選択してください。",
+  "explanation": "秋冬番茶が正解です。",
+  "choices": [
+    "一番茶",
+    "三番茶",
+    "秋冬番茶",
+    "二番茶"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-125",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するビールの種類を選択してください。「熱処理していないビールを指す総称。「熱処理していない」旨を併記する。「非熱処理」と表示する場合もある。」",
+  "explanation": "生ビールが正解です。",
+  "choices": [
+    "生ビール",
+    "黒ビール",
+    "熟成ビール",
+    "ラガービール"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-126",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から上面発酵のビールを選択してください。",
+  "explanation": "トラピストが正解です。",
+  "choices": [
+    "ランビック",
+    "ピルスナー",
+    "ボック",
+    "トラピスト"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-127",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するコニャックの生産地区を選択してください。「珪土を含む粘土質土壌で、丸みがあるコニャックを生産する。特にクパージュ(混合)に使用される。すみれの風味がある。」",
+  "explanation": "Borderiesが正解です。",
+  "choices": [
+    "Grande Champagne",
+    "Bois Ordinaires",
+    "Borderies",
+    "Petite Champagne"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-128",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "BULL SHOTが正解です。",
+  "choices": [
+    "BULL SHOT",
+    "MARTINI",
+    "HIGHBALL",
+    "BLACK RUSSIAN"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-129",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジンをベースに作られるカクテルを選択してください。",
+  "explanation": "ALASKAが正解です。",
+  "choices": [
+    "MANHATTAN",
+    "KIR ROYAL",
+    "COSMOPOLITAN",
+    "ALASKA"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-130",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の特徴に最も良く合致する紅茶を選択してください。「花香と爽快な味をもった紅茶。」",
+  "explanation": "Uvaが正解です。",
+  "choices": [
+    "Jawa",
+    "Nilgiris",
+    "Uva",
+    "Darjeeling"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-131",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するウイスキーの名称を選択してください。「原料の多様性と優れた蒸留技術が特徴である。穀物の穏やかな風味があり、飲みやすい。」",
+  "explanation": "アイリッシュが正解です。",
+  "choices": [
+    "カナディアン",
+    "ジャパニーズ",
+    "スコッチ",
+    "アイリッシュ"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-132",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するビールの種類を選択してください。「ドイツのアインベックが発祥。バイエルン地方で発展し、元は濃色ビールだったが現在は淡色が多い。」",
+  "explanation": "ボックが正解です。",
+  "choices": [
+    "ヴァイツェン",
+    "ボック",
+    "ランビック",
+    "ピルスナー"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-133",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたカルヴァドスの最低熟成年数を選択してください。「XO」",
+  "explanation": "6年が正解です。",
+  "choices": [
+    "4年",
+    "6年",
+    "1年",
+    "3年"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-134",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中からイタリア産のミネラルウォーターを選択してください。",
+  "explanation": "Ferrarelleが正解です。",
+  "choices": [
+    "Gerol Steiner",
+    "Ferrarelle",
+    "Vittel",
+    "Contrex"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-135",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からビールの副原料を選択してください。",
+  "explanation": "デンプン（スターチ）が正解です。",
+  "choices": [
+    "ホップ",
+    "グレーンスピリッツ",
+    "デンプン（スターチ）",
+    "六条大麦の麦芽"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-136",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中からイタリア産のミネラルウォーターを選択してください。",
+  "explanation": "ACQUA PANNAが正解です。",
+  "choices": [
+    "Volvic",
+    "ACQUA PANNA",
+    "Vittel",
+    "Contrex"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-137",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「3 étoiles」",
+  "explanation": "コント2が正解です。",
+  "choices": [
+    "コント2",
+    "コント4",
+    "コント6",
+    "コント8"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-138",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からブランデーをベースに作られるカクテルを選択してください。",
+  "explanation": "ALEXANDERが正解です。",
+  "choices": [
+    "KIR",
+    "ALEXANDER",
+    "WHITE LADY",
+    "NEGRONI"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-139",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたアルマニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「3 étoiles」",
+  "explanation": "コント1が正解です。",
+  "choices": [
+    "コント1",
+    "コント3",
+    "コント15",
+    "コント4"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-140",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からランビックの特徴として最も適切なものを選択してください。",
+  "explanation": "1〜2年ほどかけて自然発酵させるため、酸味や特有の香りがあるビール。が正解です。",
+  "choices": [
+    "爽快な風味の淡色ビール。日本の多くの淡色ビールと同じタイプである。",
+    "小麦麦芽を使用し苦みが非常に少なく炭酸ガスは高い清涼感のあるビール。",
+    "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。",
+    "1〜2年ほどかけて自然発酵させるため、酸味や特有の香りがあるビール。"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-141",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「黒スグリの実をスピリッツやワインに浸漬、糖を加えて熟成させた果実系のリキュール。フランスのブルゴーニュ地方コート・ドール県産のものが有名である。」",
+  "explanation": "クレーム・ド・カシスが正解です。",
+  "choices": [
+    "キンキナ",
+    "カンパリ",
+    "クレーム・ド・カシス",
+    "ベイリーズ・オリジナル・アイリッシュ・クリーム"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-142",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から抹茶の荒茶の名称を選択してください。",
+  "explanation": "碾茶が正解です。",
+  "choices": [
+    "手もみ茶",
+    "碾茶",
+    "粉茶",
+    "玉露"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-143",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致する酒を選択してください。「カクテルの名品マルガリータのベースとして使用されるスピリッツ」",
+  "explanation": "Tequilaが正解です。",
+  "choices": [
+    "Tequila",
+    "Grappa",
+    "Eaux-de-vie de Fruits",
+    "Aquavit"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-144",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカルヴァドスについての説明で正しいものを選択してください。",
+  "explanation": "連続式蒸留または単式蒸留が正解です。",
+  "choices": [
+    "原料は認可されている品種のリンゴとアンズである",
+    "アルコール度数45度以上で販売の義務",
+    "連続式蒸留または単式蒸留",
+    "原料のリンゴのタイプは3種に分けられる"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-145",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からグレーンウイスキーの定義として正しいものを選択してください。",
+  "explanation": "連続式蒸留器を使用するが正解です。",
+  "choices": [
+    "連続式蒸留器を使用する",
+    "主原料は二条大麦麦芽",
+    "ポットスチルを用いて通常1回の蒸留を行う",
+    "ポットスチルを用いて通常2回の蒸留を行う"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-146",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中から最も硬度が低いミネラルウォーターを選択してください。",
+  "explanation": "Crystal Geyserが正解です。",
+  "choices": [
+    "CHATELDON",
+    "Gerol Steiner",
+    "ACQUA PANNA",
+    "Crystal Geyser"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-147",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からウイスキーをベースに作られるカクテルを選択してください。",
+  "explanation": "HIGHBALLが正解です。",
+  "choices": [
+    "HIGHBALL",
+    "FROZEN DAIQUIRI",
+    "ALASKA",
+    "MARTINI"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-148",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEUにおける、リキュールの砂糖含有量の規定を選択してください。",
+  "explanation": "100g/L以上が正解です。",
+  "choices": [
+    "400g/L以上",
+    "100g/L以上",
+    "300g/L以上",
+    "250g/L以上"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-149",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からタンカレーという銘柄と関係の深いスピリッツを選択してください。",
+  "explanation": "ジンが正解です。",
+  "choices": [
+    "テキーラ",
+    "ジン",
+    "ウオッカ",
+    "ラム"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-150",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "STINGERが正解です。",
+  "choices": [
+    "MIMOSA",
+    "STINGER",
+    "BLACK RUSSIAN",
+    "MARTINI"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-151",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から日本茶の二番茶の収穫時期を選択してください。",
+  "explanation": "6〜7月が正解です。",
+  "choices": [
+    "7〜8月",
+    "5〜6月",
+    "6〜7月",
+    "3〜4月"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-152",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からシャルトリューズ・ヴェルトというリキュールのアルコール度数を選択してください。",
+  "explanation": "55度が正解です。",
+  "choices": [
+    "25度",
+    "40度",
+    "55度",
+    "15度"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-153",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたアルマニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「V.S.O.P.」",
+  "explanation": "コント4が正解です。",
+  "choices": [
+    "コント8",
+    "コント10",
+    "コント15",
+    "コント4"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-154",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からポーターの特徴として最も適切なものを選択してください。",
+  "explanation": "1722年ロンドン発祥の濃厚でホップの苦みの強い濃色ビール。が正解です。",
+  "choices": [
+    "1722年ロンドン発祥の濃厚でホップの苦みの強い濃色ビール。",
+    "爽快な風味の淡色ビール。日本の多くの淡色ビールと同じタイプである。",
+    "1〜2年ほどかけて自然発酵させるため、酸味や特有の香りがあるビール。",
+    "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。"
+  ],
+  "answerIndex": 0
+}
 ];
