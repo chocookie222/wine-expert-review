@@ -43218,5 +43218,1237 @@ window.WINE_QUESTIONS = [
     "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。"
   ],
   "answerIndex": 0
+},
+{
+  "id": "france-languedoc-roussillon-033",
+  "category": "フランス/ラングドック・ルーション",
+  "importance": "B",
+  "question": "次の中からフランス、ラングドック・ルーション地方の2023年のワイン年間生産量に最も近いものを選択してください。",
+  "explanation": "1000万ヘクトリットルが正解です。",
+  "choices": [
+    "1700万ヘクトリットル",
+    "1000万ヘクトリットル",
+    "120万ヘクトリットル",
+    "1200万ヘクトリットル"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "france-languedoc-roussillon-034",
+  "category": "フランス/ラングドック・ルーション",
+  "importance": "A",
+  "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から、タンクでの発酵途中でマストを瓶に詰め、瓶内で発酵を完了させた弱発泡性ワインを選択してください。",
+  "explanation": "Limoux méthode ancestraleが正解です。",
+  "choices": [
+    "Picpoul-de-Pinet",
+    "Limoux méthode ancestrale",
+    "Limoux Blanquette de Limoux",
+    "Crémant de Limoux"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "france-languedoc-roussillon-035",
+  "category": "フランス/ラングドック・ルーション",
+  "importance": "A",
+  "question": "次のフランス、ラングドック・ルーション地方のAOCワインの中から赤のスティルワインのみが認められているものを選択してください。",
+  "explanation": "Côtes du Roussillon Villagesが正解です。",
+  "choices": [
+    "Côtes du Roussillon Villages",
+    "Muscat de Lunel",
+    "Banyuls",
+    "La Clape"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-155",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中から炭酸ガス入りのミネラルウォーターを選択してください。",
+  "explanation": "S.Pellegrinoが正解です。",
+  "choices": [
+    "ACQUA PANNA",
+    "Vittel",
+    "Volvic",
+    "S.Pellegrino"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-156",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたコニャックに使用するオー・ド・ヴィーの最低熟成年数を選択してください。「VS」",
+  "explanation": "コント2が正解です。",
+  "choices": [
+    "コント4",
+    "コント3",
+    "コント2",
+    "コント8"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-157",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からStirという技法で作られるカクテルを選択してください。",
+  "explanation": "MANHATTANが正解です。",
+  "choices": [
+    "SHIRLEY TEMPLE",
+    "MANHATTAN",
+    "AMERICANO",
+    "CINDERELLA"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-158",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からMartiniqueのラムの最低アルコール度数を選択してください。",
+  "explanation": "40%以上が正解です。",
+  "choices": [
+    "40%以上",
+    "35%以上",
+    "50%以上",
+    "45%以上"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-159",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からアルマニャックに使用される主たる品種を選択してください。",
+  "explanation": "ユニ・ブランが正解です。",
+  "choices": [
+    "ユニ・ブラン",
+    "ピノ・ブラン",
+    "クレレット",
+    "アルテス"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-160",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「イタリア産のリキュール。アニスシード、エルダーベリー、リコリス等をスピリッツに浸漬してエキスを抽出し、独特の芳香を得る。」",
+  "explanation": "サンブーカが正解です。",
+  "choices": [
+    "キュラソー",
+    "アニゼ",
+    "白色アニス",
+    "サンブーカ"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-161",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「オレンジ果皮で香味をつけた果実系のリキュール。」",
+  "explanation": "キュラソーが正解です。",
+  "choices": [
+    "キュラソー",
+    "カンパリ",
+    "ドランブイ",
+    "サンブーカ"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-162",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からStirという技法で作られるカクテルを選択してください。",
+  "explanation": "BAMBOOが正解です。",
+  "choices": [
+    "GRASSHOPPER",
+    "BAMBOO",
+    "KIR",
+    "GIN FIZZ"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-163",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からリンゴを原料とする醸造酒の名称を選択してください。",
+  "explanation": "Cidreが正解です。",
+  "choices": [
+    "Poiré",
+    "Calvados",
+    "Pisco",
+    "Cidre"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-164",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEaux-de-Vie de Fruitsの原料、木イチゴを表すフランス語を選択してください。",
+  "explanation": "Framboiseが正解です。",
+  "choices": [
+    "Poire Williams",
+    "Framboise",
+    "Cassis",
+    "Mirabelle"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-165",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するビールの種類を選択してください。「淡色ビールで世界中で最も普及している。日本の多くの淡色ビールもこのタイプである。」",
+  "explanation": "ピルスナーが正解です。",
+  "choices": [
+    "ランビック",
+    "ポーター",
+    "ピルスナー",
+    "ヴァイツェン"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-166",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からリキュールをベースに作られるカクテルを選択してください。",
+  "explanation": "GRASSHOPPERが正解です。",
+  "choices": [
+    "GRASSHOPPER",
+    "ALASKA",
+    "SALTYDOG",
+    "STINGER"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-167",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するアルマニャックの生産地区を選択してください。「砂の最も多い土壌。最高品質。フィネス、非常に芳香性に富み、干しすももの香味を有する。」",
+  "explanation": "Bas-Armagnacが正解です。",
+  "choices": [
+    "Fins Bois",
+    "Armagnac-Ténarèze",
+    "Haut-Armagnac",
+    "Bas-Armagnac"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-168",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "ALASKAが正解です。",
+  "choices": [
+    "AMERICANO",
+    "SALTYDOG",
+    "MANHATTAN",
+    "ALASKA"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-169",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEaux-de-Vie de Fruitsの原料、洋ナシを表すフランス語を選択してください。",
+  "explanation": "Poire Williamsが正解です。",
+  "choices": [
+    "Quetsche",
+    "Mirabelle",
+    "Poire Williams",
+    "Prune"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-170",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からアルマニャックについての説明で正しいものを選択してください。",
+  "explanation": "ガスコーニュ地方産の約400リットルのオーク樽で熟成が正解です。",
+  "choices": [
+    "同じ産地にPineau des CharentesというVDLがある",
+    "ガスコーニュ地方産の約400リットルのオーク樽で熟成",
+    "単式蒸留を2回行う（連続式蒸留は不可）",
+    "アルコール度数45度以上で販売の義務"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-171",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からEUにおける、Crème deという呼称を付けるリキュールの砂糖含有量の規定を選択してください。",
+  "explanation": "250g/L以上が正解です。",
+  "choices": [
+    "400g/L以上",
+    "250g/L以上",
+    "300g/L以上",
+    "100g/L以上"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-172",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の4つの中からイタリア産のミネラルウォーターを選択してください。",
+  "explanation": "COURMAYEURが正解です。",
+  "choices": [
+    "Volvic",
+    "Perrier",
+    "Gerol Steiner",
+    "COURMAYEUR"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-173",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からコニャックについての説明で正しいものを選択してください。",
+  "explanation": "主にリムーザン、トロンセ、アリエ産の350リットルのオーク樽で熟成が正解です。",
+  "choices": [
+    "アルコール度数45度以上で販売の義務",
+    "連続式蒸留または単式蒸留",
+    "主にリムーザン、トロンセ、アリエ産の350リットルのオーク樽で熟成",
+    "同じ産地にFloc de GascogneというVDLがある"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-174",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からピルスナーの特徴として最も適切なものを選択してください。",
+  "explanation": "爽快な風味の淡色ビール。日本の多くの淡色ビールと同じタイプである。が正解です。",
+  "choices": [
+    "濃色でホップの香りを強調するのが特徴。アルコール分は4.5〜5.5度のビール。",
+    "爽快な風味の淡色ビール。日本の多くの淡色ビールと同じタイプである。",
+    "現在は淡色が多い。芳醇でコクがありアルコール分も6〜6.5度と高いビール。",
+    "小麦麦芽を使用し苦みが非常に少なく炭酸ガスは高い清涼感のあるビール。"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-175",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からShakeという技法で作られるカクテルを選択してください。",
+  "explanation": "GIMLETが正解です。",
+  "choices": [
+    "BLACK RUSSIAN",
+    "KIR",
+    "FROZEN DAIQUIRI",
+    "GIMLET"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-176",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からアルマニャックに使用される主たる品種を選択してください。",
+  "explanation": "バコ・ブランが正解です。",
+  "choices": [
+    "ピノ・ブラン",
+    "アルテス",
+    "クレレット",
+    "バコ・ブラン"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-177",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からリンデが、ビールの品質向上につながるアンモニア冷凍機を発明した年を選択してください。",
+  "explanation": "1873年が正解です。",
+  "choices": [
+    "1619年",
+    "1873年",
+    "1336年",
+    "1418年"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-178",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「イタリアのチェリー・リキュールで、代表銘柄にルクサルドがある。」",
+  "explanation": "マラスキーノが正解です。",
+  "choices": [
+    "マラスキーノ",
+    "チナール",
+    "グリーン・ティー",
+    "ドランブイ"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-179",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からコーヒー豆モカの産地を選択してください。",
+  "explanation": "エチオピアが正解です。",
+  "choices": [
+    "ジャマイカ",
+    "タンザニア",
+    "インドネシア、スラウェシ島",
+    "エチオピア"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-180",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジンをベースに作られるカクテルを選択してください。",
+  "explanation": "MARTINIが正解です。",
+  "choices": [
+    "COSMOPOLITAN",
+    "STINGER",
+    "MARTINI",
+    "MINT JULEP"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-181",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中から上面発酵のビールを選択してください。",
+  "explanation": "ヴァイツェンが正解です。",
+  "choices": [
+    "ランビック",
+    "ヴァイツェン",
+    "ピルスナー",
+    "ボック"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-182",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中からチャから作る飲料で半発酵茶に属する茶を選択してください。",
+  "explanation": "烏龍茶が正解です。",
+  "choices": [
+    "紅茶",
+    "麦茶",
+    "烏龍茶",
+    "緑茶"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-183",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致するリキュールを選択してください。「アニスの種子の香味を主体にしたリキュールの中で、アニスと甘草が香味の主原料のもの。代表銘柄にリカール、ベルジェがある。」",
+  "explanation": "パスティスが正解です。",
+  "choices": [
+    "ドランブイ",
+    "アニゼット",
+    "ベネディクティン",
+    "パスティス"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-184",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からモルトウイスキーの定義として正しいものを選択してください。",
+  "explanation": "主原料は二条大麦麦芽が正解です。",
+  "choices": [
+    "主原料は六条大麦麦芽",
+    "連続式蒸留器を使用する",
+    "主原料は二条大麦麦芽",
+    "ポットスチルを用いて通常1回の蒸留を行う"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-185",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から収穫前に遮光して作られる日本茶を選択してください。",
+  "explanation": "玉露が正解です。",
+  "choices": [
+    "玉露",
+    "三番茶",
+    "秋冬番茶",
+    "抹茶"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-186",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の説明に合致するミネラルウォーターの分類を選択してください。「特定水源から採水した地下水。地下で滞留または移動中に地層中の無機塩類が溶解した原水。濾過、沈殿、加熱殺菌以外の物理的・化学的処理を行ってはいけない。」",
+  "explanation": "ナチュラルミネラルウォーターが正解です。",
+  "choices": [
+    "ナチュラルウォーター",
+    "ボトルドウォーター",
+    "ミネラルウォーター",
+    "ナチュラルミネラルウォーター"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-187",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に合致する酒を選択してください。「北欧で製造されるスピリッツで、キャラウェイ、フェンネル、アニスなどを用いて香り付けされており、ほの甘い香味を有する。」",
+  "explanation": "Aquavitが正解です。",
+  "choices": [
+    "Eaux-de-vie de Fruits",
+    "Marc",
+    "Aquavit",
+    "Rum"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-188",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルCOSMOPOLITANのベースとなる酒を選択してください。",
+  "explanation": "ウオッカが正解です。",
+  "choices": [
+    "ウオッカ",
+    "テキーラ",
+    "ラム",
+    "ブランデー"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-189",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からジンをベースに作られるカクテルを選択してください。",
+  "explanation": "WHITE LADYが正解です。",
+  "choices": [
+    "WHITE LADY",
+    "MINT JULEP",
+    "SALTYDOG",
+    "MOSCOW MULE"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-190",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からBuildという技法で作られるカクテルを選択してください。",
+  "explanation": "AMERICANOが正解です。",
+  "choices": [
+    "AMERICANO",
+    "GRASSHOPPER",
+    "WHITE LADY",
+    "GIMLET"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-191",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の表示がなされたカルヴァドスの最低熟成年数を選択してください。「VS」",
+  "explanation": "2年が正解です。",
+  "choices": [
+    "1年",
+    "2年",
+    "6年",
+    "5年"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-192",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の説明に最も良く合致するビールの種類を選択してください。「チェコのプルゼニュ生まれ。爽快な風味でアルコール分は4.0〜5.0度程度である。」",
+  "explanation": "ピルスナーが正解です。",
+  "choices": [
+    "ピルスナー",
+    "スタウト",
+    "アルト",
+    "ボック"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "non-wine-beverages-193",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカルヴァドスについての説明で正しいものを選択してください。",
+  "explanation": "熟成はオーク樽で行われ、樽のサイズは2000リットル以下が正解です。",
+  "choices": [
+    "原料のリンゴのタイプは3種に分けられる",
+    "原料は認可されている品種のリンゴとアンズである",
+    "熟成はオーク樽で行われ、樽のサイズは2000リットル以下",
+    "アルコール度数45度以上で販売の義務"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "non-wine-beverages-194",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からスコッチウイスキーの味わいの特徴として最も適切なものを選択してください。",
+  "explanation": "複雑で多彩な香味を持つ。スモーキーフレーバーも特徴の一つ。が正解です。",
+  "choices": [
+    "華やかで厚みがありオークの香味が強い。",
+    "複雑で多彩な香味を持つ。スモーキーフレーバーも特徴の一つ。",
+    "ライトでスムーズ。カクテルベースとしても使いやすい。",
+    "穀物の穏やかな風味があり、飲みやすい。"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "non-wine-beverages-195",
+  "category": "ワイン以外の飲料",
+  "importance": "A",
+  "question": "次の中からカクテルHIGHBALLのベースとなる酒を選択してください。",
+  "explanation": "ウイスキーが正解です。",
+  "choices": [
+    "ジン",
+    "ウオッカ",
+    "ワイン",
+    "ウイスキー"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "non-wine-beverages-196",
+  "category": "ワイン以外の飲料",
+  "importance": "B",
+  "question": "次の中から荒茶を強火で焙煎して作られる日本茶を選択してください。",
+  "explanation": "ほうじ茶が正解です。",
+  "choices": [
+    "玄米茶",
+    "深蒸し煎茶",
+    "ほうじ茶",
+    "玉露"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-001",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から、日本酒の醸造に用いられる「熊本酵母」の正式名称を選択してください。",
+  "explanation": "きょうかい9号酵母が正解です。",
+  "choices": [
+    "きょうかい6号酵母",
+    "きょうかい9号酵母",
+    "きょうかい14号酵母",
+    "きょうかい7号酵母"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-002",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から清酒の地理的表示「はりま」が指定された年月を選択してください。",
+  "explanation": "2020年3月が正解です。",
+  "choices": [
+    "2023年9月",
+    "2017年12月",
+    "2020年6月",
+    "2020年3月"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-003",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から、酒税法における日本酒の定義の中で、正しくないものを選択してください。",
+  "explanation": "清酒に醸造アルコールを加えて漉したものが正解です。",
+  "choices": [
+    "清酒に醸造アルコールを加えて漉したもの",
+    "米、米麹、水を原料として発酵させ、漉したもの",
+    "清酒に清酒粕を加えて漉したもの",
+    "米、米麹、水、清酒粕、そのほか政令で定める物品を原料として発酵させ、漉したもの"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-004",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から福島県と関係の深い酒造好適米を選択してください。",
+  "explanation": "夢の香が正解です。",
+  "choices": [
+    "五百万石",
+    "美山錦",
+    "夢の香",
+    "吟風"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-005",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から琉球泡盛の米麹の一般的な使用比率を選択してください。",
+  "explanation": "全量が麹が正解です。",
+  "choices": [
+    "全量の1/2が麹",
+    "全量が麹",
+    "全量の1/3が麹",
+    "全量の2/3が麹"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-006",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の特定名称「大吟醸酒」の定義の一つとして正しいものを選択してください。",
+  "explanation": "原料は米、米麹、醸造アルコールが正解です。",
+  "choices": [
+    "麹米25%以上",
+    "アルコールの添加量は白米の重量の20%まで",
+    "精米歩合60%以下",
+    "原料は米、米麹、醸造アルコール"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-007",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の醸造工程で「酵母を大量に純粋培養する」という役割を果たすものを選択してください。",
+  "explanation": "酛が正解です。",
+  "choices": [
+    "酛",
+    "麹",
+    "蒸米",
+    "留添"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-008",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から2024年9月時点、ぶどう酒と清酒の両方が地理的表示に指定されている名称を選択してください。",
+  "explanation": "山梨が正解です。",
+  "choices": [
+    "新潟",
+    "岩手",
+    "山梨",
+    "大阪"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-009",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の説明に最も良く合致する酒造好適米の品種を選択してください。「晩生らしく、よく熟して水分が多く、幅や複雑さもある。ふくよかな味わいの酒を生む。」",
+  "explanation": "雄町が正解です。",
+  "choices": [
+    "山田錦",
+    "雄町",
+    "五百万石",
+    "美山錦"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-010",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から単式蒸留焼酎の特徴として正しいものを選択してください。",
+  "explanation": "焼酎乙類とも呼ばれるが正解です。",
+  "choices": [
+    "アルコール度数36度未満である",
+    "無味無臭のクリアな味わいとなる",
+    "焼酎乙類とも呼ばれる",
+    "ホワイトリカー①と表示することができる"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-011",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から酒造好適米「五百万石」の交配を選択してください。",
+  "explanation": "菊水 × 新200号が正解です。",
+  "choices": [
+    "山田穂 × 短稈渡船",
+    "菊水 × 華吹雪",
+    "菊水 × 新200号",
+    "山田穂 × たかね錦"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-012",
+  "category": "日本酒・焼酎",
+  "importance": "B",
+  "question": "次の中から鹿児島県奄美市および大島郡と関係の深い焼酎を選択してください。",
+  "explanation": "黒糖焼酎が正解です。",
+  "choices": [
+    "球磨焼酎",
+    "黒糖焼酎",
+    "琉球泡盛",
+    "壱岐焼酎"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-013",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から酒税法で定められている日本酒のアルコール度数を選択してください。",
+  "explanation": "22度未満が正解です。",
+  "choices": [
+    "20度未満",
+    "18度未満",
+    "16度以上18度未満",
+    "22度未満"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-014",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から清酒の地理的表示「信濃大町」が指定された年月を選択してください。",
+  "explanation": "2023年6月が正解です。",
+  "choices": [
+    "2010年12月",
+    "2016年12月",
+    "2021年6月",
+    "2023年6月"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-015",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から2024年9月時点、ぶどう酒と清酒の両方が地理的表示に指定されている名称を選択してください。",
+  "explanation": "長野が正解です。",
+  "choices": [
+    "北海道",
+    "長野",
+    "新潟",
+    "滋賀"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-016",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から広島県と関係の深い酒造好適米を選択してください。",
+  "explanation": "千本錦が正解です。",
+  "choices": [
+    "千本錦",
+    "ひとごこち",
+    "出羽燦々",
+    "五百万石"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-017",
+  "category": "日本酒・焼酎",
+  "importance": "B",
+  "question": "次の中から、日本酒用の米の中で、飯米に比べて酒造りに適した性質を持つ米を何と呼ぶか選択してください。",
+  "explanation": "酒造好適米が正解です。",
+  "choices": [
+    "醸造用玄米",
+    "特定名称米",
+    "日本酒用玄米",
+    "酒造好適米"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-018",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から焼酎の名称「壱岐」が地理的表示に指定された年を選択してください。",
+  "explanation": "1995年が正解です。",
+  "choices": [
+    "2020年",
+    "1990年",
+    "1995年",
+    "2024年"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-019",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の醸造工程で「酵母を大量に純粋培養する」という役割を果たすものを選択してください。",
+  "explanation": "酒母が正解です。",
+  "choices": [
+    "麹",
+    "留添",
+    "蒸米",
+    "酒母"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-020",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から「布引おろし」と関係が深い清酒のGIを選択してください。",
+  "explanation": "三重が正解です。",
+  "choices": [
+    "静岡",
+    "岩手",
+    "新潟",
+    "三重"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-021",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の醸造に使われる生酛が確立された時代を選択してください。",
+  "explanation": "江戸時代が正解です。",
+  "choices": [
+    "大正時代",
+    "江戸時代",
+    "室町時代",
+    "明治時代"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-022",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から酒造好適米「山田錦」の2023年の生産量を選択してください。",
+  "explanation": "約3.5万トンが正解です。",
+  "choices": [
+    "約0.7万トン",
+    "約3.5万トン",
+    "約5.4万トン",
+    "約2.3万トン"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-023",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から酒税法における正式な日本酒の表記を選択してください。",
+  "explanation": "清酒が正解です。",
+  "choices": [
+    "麹酒",
+    "醸酒",
+    "清酒",
+    "濁酒"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-024",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から琉球泡盛に一般的に用いられる麹菌を選択してください。",
+  "explanation": "黒麹菌が正解です。",
+  "choices": [
+    "白麹菌",
+    "黒麹菌",
+    "黄麹菌",
+    "紅麹菌"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-025",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から2024年9月時点、清酒の地理的表示に指定されている名称を選択してください。",
+  "explanation": "山形が正解です。",
+  "choices": [
+    "和歌山",
+    "越後",
+    "山形",
+    "兵庫"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-026",
+  "category": "日本酒・焼酎",
+  "importance": "B",
+  "question": "次の中から日本酒の原料米で「米粒の中心に出現することのある白色不透明な部分」を意味する用語を選択してください。",
+  "explanation": "心白が正解です。",
+  "choices": [
+    "乳白",
+    "諸白",
+    "心白",
+    "太白"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-027",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から長野県と関係の深い酒造好適米を選択してください。",
+  "explanation": "ひとごこちが正解です。",
+  "choices": [
+    "華吹雪",
+    "雄町",
+    "越淡麗",
+    "ひとごこち"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-028",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から単式蒸留焼酎の特徴として正しいものを選択してください。",
+  "explanation": "ホワイトリカー②と表示することができるが正解です。",
+  "choices": [
+    "無味無臭のクリアな味わいとなる",
+    "ホワイトリカー②と表示することができる",
+    "アルコール度数36度未満である",
+    "焼酎甲類とも呼ばれる"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-029",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から、酒税法における日本酒の定義の中で、正しくないものを選択してください。",
+  "explanation": "でんぷん質原料や糖質原料を発酵させたアルコール含有物が正解です。",
+  "choices": [
+    "米、米麹、水、清酒粕、そのほか政令で定める物品を原料として発酵させ、漉したもの",
+    "でんぷん質原料や糖質原料を発酵させたアルコール含有物",
+    "清酒に清酒粕を加えて漉したもの",
+    "米、米麹、水を原料として発酵させ、漉したもの"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-030",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から単式蒸留焼酎の特徴として正しいものを選択してください。",
+  "explanation": "アルコール度数45度以下であるが正解です。",
+  "choices": [
+    "アルコール度数45度以下である",
+    "焼酎甲類とも呼ばれる",
+    "無味無臭のクリアな味わいとなる",
+    "ホワイトリカー①と表示することができる"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-031",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から清酒の地理的表示「佐賀」が指定された年月を選択してください。",
+  "explanation": "2021年6月が正解です。",
+  "choices": [
+    "2021年6月",
+    "2024年8月",
+    "2022年2月",
+    "2021年4月"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-032",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の段仕込みで、2日目の工程の名称を選択してください。",
+  "explanation": "踊りが正解です。",
+  "choices": [
+    "留添",
+    "踊り",
+    "初添",
+    "仲添"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-033",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から酒造好適米「美山錦」の祖先にあたる品種を選択してください。",
+  "explanation": "亀ノ尾が正解です。",
+  "choices": [
+    "祝",
+    "亀ノ尾",
+    "強力",
+    "菊水"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-034",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の醸造工程で「蒸米、米麹、水を容器に何回かに分けて仕込む方法」を何と呼ぶか選択してください。",
+  "explanation": "段掛け法が正解です。",
+  "choices": [
+    "速醸法",
+    "段掛け法",
+    "二段階発酵",
+    "並行複発酵"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-035",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から「丹波杜氏」と関係が深い清酒のGIを選択してください。",
+  "explanation": "灘五郷が正解です。",
+  "choices": [
+    "萩",
+    "佐賀",
+    "三重",
+    "灘五郷"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-036",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の特定名称「純米酒」の定義の一つとして正しいものを選択してください。",
+  "explanation": "麹米15%以上が正解です。",
+  "choices": [
+    "アルコールの添加量は白米の重量の10%まで",
+    "麹米15%以上",
+    "精米歩合70%以下",
+    "原料は米、米麹、醸造アルコール"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-037",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から、日本酒を醸造するときに吟醸香成分を多く生成し、セルレニン耐性酵母、高エステル生成酵母と呼ばれる酵母を選択してください。",
+  "explanation": "きょうかい1801酵母が正解です。",
+  "choices": [
+    "きょうかい7号酵母",
+    "きょうかい6号酵母",
+    "きょうかい9号酵母",
+    "きょうかい1801酵母"
+  ],
+  "answerIndex": 3
+},
+{
+  "id": "sake-shochu-038",
+  "category": "日本酒・焼酎",
+  "importance": "B",
+  "question": "次の中から日本酒の醸造に有害な水の成分を選択してください。",
+  "explanation": "マンガンが正解です。",
+  "choices": [
+    "マンガン",
+    "カリウム",
+    "リン",
+    "マグネシウム"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-039",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から焼酎の名称「琉球」が地理的表示に指定された年を選択してください。",
+  "explanation": "1995年が正解です。",
+  "choices": [
+    "2005年",
+    "1995年",
+    "1990年",
+    "2020年"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-040",
+  "category": "日本酒・焼酎",
+  "importance": "B",
+  "question": "次の中から東京島酒のタイプを選択してください。",
+  "explanation": "芋焼酎、麦焼酎、両者のブレンドの3タイプがあるが正解です。",
+  "choices": [
+    "芋焼酎、麦焼酎、両者のブレンドの3タイプがある",
+    "芋焼酎のみである",
+    "芋焼酎1/3と麦焼酎2/3のブレンドである",
+    "麦焼酎のみである"
+  ],
+  "answerIndex": 0
+},
+{
+  "id": "sake-shochu-041",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から日本酒の特定名称「純米酒」の定義の一つとして正しいものを選択してください。",
+  "explanation": "精米歩合の規定無しが正解です。",
+  "choices": [
+    "アルコールの添加量は白米の重量の10%まで",
+    "麹米25%以上",
+    "精米歩合の規定無し",
+    "原料は米、米麹、醸造アルコール"
+  ],
+  "answerIndex": 2
+},
+{
+  "id": "sake-shochu-042",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から「南部杜氏」と関係が深い清酒のGIを選択してください。",
+  "explanation": "岩手が正解です。",
+  "choices": [
+    "萩",
+    "岩手",
+    "はりま",
+    "静岡"
+  ],
+  "answerIndex": 1
+},
+{
+  "id": "sake-shochu-043",
+  "category": "日本酒・焼酎",
+  "importance": "A",
+  "question": "次の中から2024年9月時点、清酒の地理的表示に指定されている名称を選択してください。",
+  "explanation": "三重が正解です。",
+  "choices": [
+    "兵庫",
+    "三重",
+    "越後",
+    "伏見"
+  ],
+  "answerIndex": 1
 }
 ];
