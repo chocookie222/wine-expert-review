@@ -38670,20 +38670,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「Semi Secco」です。"
   },
   {
-    "id": "italy-overview-law-093",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "次の中からイタリア、トレンティーノ・アルト・アディジェ州で世界遺産に登録されているものを選択してください。",
-    "choices": [
-      "チンクエ・テッレの海に迫る絶壁の段々畑の風景",
-      "ドロミーティ山塊",
-      "神秘的な城カステル・デル・モンテ",
-      "ランゲ・ロエロ・モンフェッラートの葡萄畑の景観"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「ドロミーティ山塊」です。"
-  },
-  {
     "id": "italy-overview-law-094",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -38710,20 +38696,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 1,
     "explanation": "正解は「アペニン山脈」です。"
-  },
-  {
-    "id": "italy-overview-law-096",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
-    "choices": [
-      "DOワインのみに認められる",
-      "収穫翌年の3月31日までに瓶詰め",
-      "アルコール度数8%以上",
-      "収穫年を記載しなくてはいけない"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「収穫年を記載しなくてはいけない」です。"
   },
   {
     "id": "italy-overview-law-097",
@@ -38754,48 +38726,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「エトルリア人」です。"
   },
   {
-    "id": "italy-overview-law-099",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が4〜12グラム/リットルのものに表示されるものを選んでください。",
-    "choices": [
-      "Amabile",
-      "Abboccato",
-      "Secco",
-      "Asciutto"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「Abboccato」です。"
-  },
-  {
-    "id": "italy-overview-law-100",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地は9%に過ぎずワインの生産量は少ない。代表的なDOPワインにチロがあり、白はグレーコ・ビアンコ種、赤とロゼはガリオッポ種主体である。」",
-    "choices": [
-      "カラブリア",
-      "フリウリ・ヴェネツィア・ジューリア",
-      "プーリア",
-      "リグーリア"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「カラブリア」です。"
-  },
-  {
-    "id": "italy-overview-law-101",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ワインは軽めのタイプが多く74%が白ワインである。白ワインの代表にエスト!・エスト!!・エスト!!!がある。」",
-    "choices": [
-      "ラツィオ",
-      "エミリア・ロマーニャ",
-      "モリーゼ",
-      "カンパーニア"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「ラツィオ」です。"
-  },
-  {
     "id": "italy-overview-law-102",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -38813,20 +38743,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "正解は「15番」です。"
-  },
-  {
-    "id": "italy-overview-law-103",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の中からイタリア、マルケ州の州都を選択してください。",
-    "choices": [
-      "ヴェネツィア",
-      "ナポリ",
-      "アンコーナ",
-      "ジェノヴァ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「アンコーナ」です。"
   },
   {
     "id": "italy-overview-law-104",
@@ -38871,34 +38787,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「トスカーナ」です。"
   },
   {
-    "id": "italy-overview-law-107",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「西を地中海に接し、北と東をアペニン山脈に囲まれている。ピサ、ルッカ、アレッツォなど観光地が多くあり文化財の宝庫である。オリーブオイルの品質の高さでも有名である。」",
-    "choices": [
-      "カラブリア",
-      "ラツィオ",
-      "トスカーナ",
-      "モリーゼ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「トスカーナ」です。"
-  },
-  {
-    "id": "italy-overview-law-108",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "次の中からイタリアのサルデーニャ島のすぐ北に位置する島の名前を選択してください。",
-    "choices": [
-      "サントリーニ島",
-      "コルシカ島",
-      "キプロス島",
-      "シチリア島"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「コルシカ島」です。"
-  },
-  {
     "id": "italy-overview-law-109",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "B",
@@ -38927,34 +38815,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「Carmignano」です。"
   },
   {
-    "id": "italy-overview-law-111",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリア、ピエモンテ州南部で栽培されている白ブドウで、一般に若飲みのシンプルなワインを生む品種を選んでください。",
-    "choices": [
-      "ノジオーラ",
-      "リボッラ・ジャッラ",
-      "コルテーゼ",
-      "ティンティリア"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「コルテーゼ」です。"
-  },
-  {
-    "id": "italy-overview-law-112",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "下記の中からイタリアの白ブドウの中で栽培面積が第2位の品種を選択してください。",
-    "choices": [
-      "シャルドネ",
-      "トレッビアーノ・トスカーノ",
-      "ピノ・グリージョ",
-      "グレーラ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「ピノ・グリージョ」です。"
-  },
-  {
     "id": "italy-overview-law-113",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "C",
@@ -38981,20 +38841,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "正解は「Dolce」です。"
-  },
-  {
-    "id": "italy-overview-law-115",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "下記の中からイタリアで栽培面積が第3位の品種を選択してください。",
-    "choices": [
-      "モンテプルチャーノ",
-      "バルベーラ",
-      "ピノ・グリージョ",
-      "シャルドネ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「ピノ・グリージョ」です。"
   },
   {
     "id": "italy-overview-law-116",
@@ -39030,20 +38876,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「プーリア」です。"
   },
   {
-    "id": "italy-overview-law-118",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次のイタリアのVino Novelloに関する記述の中で正しいものを選んでください。",
-    "choices": [
-      "収穫翌年の3月31日までに瓶詰め",
-      "収穫年の記載は任意",
-      "販売開始日は11月第3木曜日零時1分",
-      "DOワインとIGTワインに認められる"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「DOワインとIGTワインに認められる」です。"
-  },
-  {
     "id": "italy-overview-law-119",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -39056,48 +38888,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "正解は「プーリア」です。"
-  },
-  {
-    "id": "italy-overview-law-120",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "次の中からイタリアの首都ローマと概ね同じ緯度に位置する日本の都市を選択してください。",
-    "choices": [
-      "釧路",
-      "函館",
-      "福岡",
-      "鹿児島"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「函館」です。"
-  },
-  {
-    "id": "italy-overview-law-121",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリアでトスカーナ大公国のコジモ3世がChiantiなどの生産地の線引きを行った年を選んでください。",
-    "choices": [
-      "1716年",
-      "1638年",
-      "1584年",
-      "1857年"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「1716年」です。"
-  },
-  {
-    "id": "italy-overview-law-122",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「平地はほとんど無く、生産量は全州の中で2番目に少ない。白ワインが69%を占め、有名なワインとしてチンクエ・テッレがある。」",
-    "choices": [
-      "シチリア",
-      "サルデーニャ",
-      "リグーリア",
-      "カンパーニア"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「リグーリア」です。"
   },
   {
     "id": "italy-overview-law-123",
@@ -39128,25 +38918,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「ノジオーラ」です。"
   },
   {
-    "id": "italy-overview-law-125",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でBasilicataに相当する番号を選択してください。",
-    "image": {
-      "src": "assets/italy-regions-map.jpg",
-      "alt": "イタリア20州の地図",
-      "caption": "イタリア20州"
-    },
-    "choices": [
-      "17番",
-      "11番",
-      "20番",
-      "14番"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「17番」です。"
-  },
-  {
     "id": "italy-overview-law-126",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "B",
@@ -39159,20 +38930,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 1,
     "explanation": "正解は「ポテンツァ」です。"
-  },
-  {
-    "id": "italy-overview-law-127",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からヴェネト州でブドウの搾り粕から生産されている蒸留酒を選択してください。",
-    "choices": [
-      "Limoncello",
-      "Vino Novello",
-      "Vermut di Torino",
-      "Bassano del Grappa"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「Bassano del Grappa」です。"
   },
   {
     "id": "italy-overview-law-128",
@@ -39201,20 +38958,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "explanation": "正解は「ラツィオ」です。"
-  },
-  {
-    "id": "italy-overview-law-130",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "下記の中から地中海で一番大きな島を選択してください。",
-    "choices": [
-      "シチリア島",
-      "コルシカ島",
-      "サルデーニャ島",
-      "キプロス島"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「シチリア島」です。"
   },
   {
     "id": "italy-overview-law-131",
@@ -39250,20 +38993,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「Pomino」です。"
   },
   {
-    "id": "italy-overview-law-133",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリアのスティルワインに表示される風味表示で残存糖分が0〜4グラム/リットルのものに表示されるものを選んでください。",
-    "choices": [
-      "Asciutto",
-      "Abboccato",
-      "Dolce",
-      "Amabile"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「Asciutto」です。"
-  },
-  {
     "id": "italy-overview-law-134",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "S",
@@ -39276,20 +39005,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "explanation": "正解は「シチリア」です。"
-  },
-  {
-    "id": "italy-overview-law-135",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「ティレニア海に浮かぶ大きな島で、イタリアで3番目に大きな州である。独自の文化、習慣が色濃く残り、今でも興味深い土着品種が数多く残っている。」",
-    "choices": [
-      "モリーゼ",
-      "ロンバルディア",
-      "リグーリア",
-      "サルデーニャ"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「サルデーニャ」です。"
   },
   {
     "id": "italy-overview-law-136",
@@ -39367,20 +39082,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「4800万ヘクトリットル」です。"
   },
   {
-    "id": "italy-overview-law-141",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "下記の中からイタリアでアレッツォ、フィレンツェ、プラート、ピストイア、ピサ、シエナの6県の広い地域で年間約80万ヘクトリットルを生産するワインを選択してください。",
-    "choices": [
-      "Montepulciano d'Abruzzo",
-      "Asti Spumante",
-      "Trentino",
-      "Chianti"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「Chianti」です。"
-  },
-  {
     "id": "italy-overview-law-142",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -39423,34 +39124,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「カンパーニア」です。"
   },
   {
-    "id": "italy-overview-law-145",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "次の中から、イタリアのDOP(DOCG)ワインValtellina Superioreの品種ネッビオーロの、この地方の別名を選んでください。",
-    "choices": [
-      "モレッリーノ",
-      "ブルネッロ",
-      "キアヴェンナスカ",
-      "プルニョーロ・ジェンティーレ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「キアヴェンナスカ」です。"
-  },
-  {
-    "id": "italy-overview-law-146",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "次の中からイタリアの州の数を選択してください。",
-    "choices": [
-      "18",
-      "20",
-      "24",
-      "13"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「20」です。"
-  },
-  {
     "id": "italy-overview-law-147",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "C",
@@ -39463,20 +39136,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "explanation": "正解は「モリーゼ」です。"
-  },
-  {
-    "id": "italy-overview-law-148",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリア、トスカーナ州、キアンティ・クラシコ地区およびモンタルチーノの土壌を選択してください。",
-    "choices": [
-      "ガレストロと呼ばれる火山性土壌",
-      "ガッルーラと呼ばれる石灰質土壌",
-      "ガレストロと呼ばれる泥灰土土壌",
-      "ガッルーラと呼ばれる花崗岩土壌"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「ガレストロと呼ばれる泥灰土土壌」です。"
   },
   {
     "id": "italy-overview-law-149",
@@ -39537,20 +39196,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「神秘的な城カステル・デル・モンテ」です。"
   },
   {
-    "id": "italy-overview-law-153",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量の85%が白ワインで、白ワインの産地として知られている。有名なワインにコッリオがあり、リボッラ・ジャッラという興味深い品種も使用されている。」",
-    "choices": [
-      "トレンティーノ・アルト・アディジェ",
-      "カラブリア",
-      "フリウリ・ヴェネツィア・ジューリア",
-      "ロンバルディア"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「フリウリ・ヴェネツィア・ジューリア」です。"
-  },
-  {
     "id": "italy-overview-law-154",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -39563,20 +39208,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "正解は「トレンティーノ・アルト・アディジェ」です。"
-  },
-  {
-    "id": "italy-overview-law-155",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州東部とスロヴェニアの白ブドウで、軽やかでフレッシュな白ワインを生む品種を選んでください。",
-    "choices": [
-      "ガリオッポ",
-      "リボッラ・ジャッラ",
-      "サグランティーノ",
-      "レフォスコ・ダル・ペドゥンコロ・ロッソ"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「リボッラ・ジャッラ」です。"
   },
   {
     "id": "italy-overview-law-156",
@@ -39605,20 +39236,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "正解は「ワインの85%以上がその土地で造られたものであること」です。"
-  },
-  {
-    "id": "italy-overview-law-158",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "下記の中からイタリアの白ブドウの中で栽培面積が第3位の品種を選択してください。",
-    "choices": [
-      "シャルドネ",
-      "ピノ・グリージョ",
-      "トレッビアーノ・トスカーノ",
-      "グレーラ"
-    ],
-    "answerIndex": 2,
-    "explanation": "正解は「トレッビアーノ・トスカーノ」です。"
   },
   {
     "id": "italy-overview-law-159",
@@ -39675,20 +39292,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "正解は「ヴェネト」です。"
-  },
-  {
-    "id": "italy-overview-law-163",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の中からイタリア、フリウリ・ヴェネツィア・ジューリア州の州都を選択してください。",
-    "choices": [
-      "ポテンツァ",
-      "トリエステ",
-      "ローマ",
-      "ボローニャ"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「トリエステ」です。"
   },
   {
     "id": "italy-overview-law-164",
@@ -39838,76 +39441,6 @@ window.WINE_QUESTIONS = [
     "explanation": "正解は「トスカーナ」です。"
   },
   {
-    "id": "italy-overview-law-174",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
-    "choices": [
-      "ヴァッレ・ダオスタ州",
-      "ロンバルディア州",
-      "ヴェネト州",
-      "エミリア・ロマーニャ州"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「エミリア・ロマーニャ州」です。"
-  },
-  {
-    "id": "italy-overview-law-175",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "下記の中からイタリアで一般的に「北部イタリア」と分類されている州を選んでください。",
-    "choices": [
-      "モリーゼ",
-      "ロンバルディア",
-      "カラブリア",
-      "カンパーニア"
-    ],
-    "answerIndex": 1,
-    "explanation": "正解は「ロンバルディア」です。"
-  },
-  {
-    "id": "italy-overview-law-176",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "下記の中からイタリアで近年のワイン生産量が第1位である州を選択してください。",
-    "choices": [
-      "ヴェネト",
-      "カラブリア",
-      "アブルッツォ",
-      "ラツィオ"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「ヴェネト」です。"
-  },
-  {
-    "id": "italy-overview-law-177",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "S",
-    "question": "次の中からイタリアの東側に面した海の名前を選択してください。",
-    "choices": [
-      "アドリア海",
-      "ティレニア海",
-      "エーゲ海",
-      "ミルトア海"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「アドリア海」です。"
-  },
-  {
-    "id": "italy-overview-law-178",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "C",
-    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「生産量は全州の中で最も少ないが個性のあるワインを造っている。山麓地帯らしく赤ワインが61%を占めている。」",
-    "choices": [
-      "カンパーニア",
-      "ヴェネト",
-      "フリウリ・ヴェネツィア・ジューリア",
-      "ヴァッレ・ダオスタ"
-    ],
-    "answerIndex": 3,
-    "explanation": "正解は「ヴァッレ・ダオスタ」です。"
-  },
-  {
     "id": "italy-overview-law-179",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
@@ -39925,34 +39458,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 1,
     "explanation": "正解は「3番」です。"
-  },
-  {
-    "id": "italy-overview-law-180",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "A",
-    "question": "次の中からイタリア半島最南端に位置する州を選択してください。",
-    "choices": [
-      "カラブリア州",
-      "バジリカータ州",
-      "シチリア州",
-      "プーリア州"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「カラブリア州」です。"
-  },
-  {
-    "id": "italy-overview-law-181",
-    "category": "イタリア/概論、歴史、品種、ワイン法",
-    "importance": "B",
-    "question": "次の中から紀元前9世紀ころ中部イタリアを広い範囲にわたって支配していた民族を選んでください。",
-    "choices": [
-      "エトルリア人",
-      "フェニキア人",
-      "エジプト人",
-      "ギリシャ人"
-    ],
-    "answerIndex": 0,
-    "explanation": "正解は「エトルリア人」です。"
   },
   {
     "id": "italy-docg-doc-282",
@@ -45638,5 +45143,983 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "id": "sake-shochu-107"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から琉球泡盛の「古酒」の表示規定を選択してください。",
+    "explanation": "全量を3年間以上熟成させたものが正解です。",
+    "choices": [
+      "全量を3年間以上熟成させたもの",
+      "全量の50%を超える量を3年間以上熟成させたもの",
+      "全量を5年間以上熟成させたもの",
+      "全量の50%を超える量を5年間以上熟成させたもの"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-108"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から酒造好適米「五百万石」の2023年の生産量を選択してください。",
+    "explanation": "約1.7万トンが正解です。",
+    "choices": [
+      "約1.7万トン",
+      "約2.3万トン",
+      "約7.6万トン",
+      "約2.8万トン"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-109"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から清酒の地理的表示「萩」が指定された年月を選択してください。",
+    "explanation": "2021年3月が正解です。",
+    "choices": [
+      "2020年3月",
+      "2022年2月",
+      "2023年9月",
+      "2021年3月"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-110"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から、日本酒の醸造に用いられる「きょうかい14号酵母」の別名を選択してください。",
+    "explanation": "金沢酵母が正解です。",
+    "choices": [
+      "香露酵母",
+      "明利小川酵母",
+      "金沢酵母",
+      "熊本酵母"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-111"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から連続式蒸留焼酎のアルコール度数の規定を選択してください。",
+    "explanation": "36度未満が正解です。",
+    "choices": [
+      "45度以下",
+      "35度以下",
+      "50度未満",
+      "36度未満"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-112"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から原料米の産地が、GIの範囲内に限定されている清酒の地理的表示を選択してください。",
+    "explanation": "長野が正解です。",
+    "choices": [
+      "長野",
+      "山形",
+      "はりま",
+      "白山"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-113"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から長野県と関係の深い酒造好適米を選択してください。",
+    "explanation": "美山錦が正解です。",
+    "choices": [
+      "吟風",
+      "夢の香",
+      "美山錦",
+      "山田錦"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-114"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から日本酒の特定名称「本醸造酒」の定義の一つとして正しいものを選択してください。",
+    "explanation": "原料は米、米麹、醸造アルコールが正解です。",
+    "choices": [
+      "精米歩合60%以下",
+      "麹米25%以上",
+      "原料は米、米麹、醸造アルコール",
+      "アルコールの添加量は白米の重量の20%まで"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-115"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から2024年9月時点、清酒の地理的表示に指定されている名称を選択してください。",
+    "explanation": "利根沼田が正解です。",
+    "choices": [
+      "丹波",
+      "兵庫",
+      "和歌山",
+      "利根沼田"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-116"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の説明に最も良く合致する酒造好適米の品種を選択してください。「品種改良されることなく江戸時代から栽培されてきた希少な品種。現在も残る唯一の混血のない品種である。」",
+    "explanation": "雄町が正解です。",
+    "choices": [
+      "山田錦",
+      "雄町",
+      "五百万石",
+      "美山錦"
+    ],
+    "answerIndex": 1,
+    "id": "sake-shochu-117"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から日本酒で「ひやおろし」という酒の一般的な出荷時期を選択してください。",
+    "explanation": "9〜11月が正解です。",
+    "choices": [
+      "1〜3月",
+      "7〜9月",
+      "4〜6月",
+      "9〜11月"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-118"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から連続式蒸留焼酎の特徴として正しいものを選択してください。",
+    "explanation": "無味無臭のクリアな味わいとなるが正解です。",
+    "choices": [
+      "焼酎乙類とも呼ばれる",
+      "ホワイトリカー②と表示することができる",
+      "無味無臭のクリアな味わいとなる",
+      "アルコール度数45度以下である"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-119"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から2024年9月時点、清酒の地理的表示に指定されている名称を選択してください。",
+    "explanation": "灘五郷が正解です。",
+    "choices": [
+      "伏見",
+      "能登",
+      "灘五郷",
+      "和歌山"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-120"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から琉球泡盛の一般的な原料を選択してください。",
+    "explanation": "タイ米（インディカ種）100%が正解です。",
+    "choices": [
+      "国産米（ジャポニカ種）100%",
+      "タイ米（インディカ種）2/3、国産米（ジャポニカ種）1/3",
+      "タイ米（インディカ種）100%",
+      "タイ米（インディカ種）1/3、国産米（ジャポニカ種）2/3"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-121"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から日本酒の特定名称「吟醸酒」の定義の一つとして正しいものを選択してください。",
+    "explanation": "麹米15%以上が正解です。",
+    "choices": [
+      "原料は米、米麹",
+      "アルコールの添加量は白米の重量の20%まで",
+      "精米歩合50%以下",
+      "麹米15%以上"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-122"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から麦焼酎を選択してください。",
+    "explanation": "壱岐焼酎が正解です。",
+    "choices": [
+      "壱岐焼酎",
+      "球磨焼酎",
+      "黒糖焼酎",
+      "薩摩焼酎"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-123"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から原料としてアルコールを使用できない清酒の地理的表示を選択してください。",
+    "explanation": "滋賀が正解です。",
+    "choices": [
+      "三重",
+      "はりま",
+      "白山",
+      "滋賀"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-124"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から2024年9月時点、清酒の地理的表示に指定されている名称を選択してください。",
+    "explanation": "岩手が正解です。",
+    "choices": [
+      "和歌山",
+      "越後",
+      "能登",
+      "岩手"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-125"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から原料としてアルコールを使用できない清酒の地理的表示を選択してください。",
+    "explanation": "利根沼田が正解です。",
+    "choices": [
+      "長野",
+      "新潟",
+      "利根沼田",
+      "山梨"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-126"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から日本酒の醸造工程で「発酵を終えた醪を搾る作業」を何と呼ぶか選択してください。",
+    "explanation": "上槽が正解です。",
+    "choices": [
+      "仲添",
+      "上槽",
+      "下槽",
+      "留添"
+    ],
+    "answerIndex": 1,
+    "id": "sake-shochu-127"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "単式蒸留焼酎の主原料（芋焼酎の芋、そば焼酎のそばなど）はどの段階で添加するか、正しいものを選択してください。",
+    "explanation": "二次醪が正解です。",
+    "choices": [
+      "一次醪",
+      "蒸留直前",
+      "麹造り",
+      "二次醪"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-128"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から焼酎において地理的表示に関する表示基準で保護されている産地を選択してください。",
+    "explanation": "球磨が正解です。",
+    "choices": [
+      "球磨",
+      "高知",
+      "沖縄",
+      "屋久島"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-129"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から酒造用水「宮水」と関係の深い都道府県を選択してください。",
+    "explanation": "兵庫県が正解です。",
+    "choices": [
+      "広島県",
+      "新潟県",
+      "兵庫県",
+      "京都府"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-130"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から、日本酒用の米を農産物規格規定で何と呼ぶか選択してください。",
+    "explanation": "醸造用玄米が正解です。",
+    "choices": [
+      "特定名称米",
+      "日本酒用玄米",
+      "酒造好適米",
+      "醸造用玄米"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-131"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から2024年9月1日時点、清酒の地理的表示に指定されている名称の数（梅酒は除く）を選択してください。",
+    "explanation": "17個が正解です。",
+    "choices": [
+      "17個",
+      "14個",
+      "16個",
+      "13個"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-132"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から令和5酒造年度の清酒生産量が第1位の都道府県を選択してください。",
+    "explanation": "兵庫県が正解です。",
+    "choices": [
+      "山形県",
+      "山口県",
+      "兵庫県",
+      "福島県"
+    ],
+    "answerIndex": 2,
+    "id": "sake-shochu-133"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "次の中から日本酒の醸造で「乳酸菌により乳酸を生成させて造られる酒母」を何と呼ぶか選択してください。",
+    "explanation": "生酛系酒母が正解です。",
+    "choices": [
+      "乳酸系酒母",
+      "連醸系酒母",
+      "速醸系酒母",
+      "生酛系酒母"
+    ],
+    "answerIndex": 3,
+    "id": "sake-shochu-134"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の中から2024年9月時点、ぶどう酒と清酒の両方が地理的表示に指定されている名称を選択してください。",
+    "explanation": "山形が正解です。",
+    "choices": [
+      "山形",
+      "岩手",
+      "新潟",
+      "北海道"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-135"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "A",
+    "question": "清酒の特定名称の要件に定められている「吟醸造り」とは何か、次の中から最も適切なものを選択してください。",
+    "explanation": "低温で4〜5週間かけた発酵が正解です。",
+    "choices": [
+      "高温で4〜5週間かけた発酵",
+      "低温で4〜5週間かけた発酵",
+      "低温で2〜3週間かけた発酵",
+      "高温で2〜3週間かけた発酵"
+    ],
+    "answerIndex": 1,
+    "id": "sake-shochu-136"
+  },
+  {
+    "category": "日本酒・焼酎",
+    "importance": "B",
+    "question": "次の説明に最も良く合致する酒造好適米の品種を選択してください。「岡山県の篤農家により穂が発見され、選抜を続け1866年に選出された。」",
+    "explanation": "雄町が正解です。",
+    "choices": [
+      "雄町",
+      "五百万石",
+      "美山錦",
+      "山田錦"
+    ],
+    "answerIndex": 0,
+    "id": "sake-shochu-137"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中からイタリアで一般的に「中部イタリア」と分類されている州を選んでください。",
+    "choices": [
+      "ヴァッレ・ダオスタ",
+      "バジリカータ",
+      "アブルッツォ",
+      "プーリア"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「アブルッツォ」です。",
+    "id": "italy-overview-law-182"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でPiemonteに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "11番",
+      "4番",
+      "7番",
+      "2番"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「2番」です。",
+    "id": "italy-overview-law-183"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「古代からギリシャ人、フェニキア人、カルタゴ人が頻繁に往来し、ローマ帝国の一部となっていた時代は「ローマの穀物庫」と呼ばれた。」",
+    "choices": [
+      "シチリア",
+      "モリーゼ",
+      "ラツィオ",
+      "ヴェネト"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「シチリア」です。",
+    "id": "italy-overview-law-184"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上で6番の州名をカタカナで入力してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "answerText": "ヴェネト",
+    "answerTextAliases": [
+      "ヴェネト"
+    ],
+    "explanation": "正解は「ヴェネト」です。",
+    "id": "italy-overview-law-185"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、ティレニア海沿岸の州を北から南の順序で正しく並べたものを選択してください。",
+    "choices": [
+      "カンパーニア, ラツィオ, カラブリア, トスカーナ",
+      "トスカーナ, ラツィオ, リグーリア, カンパーニア",
+      "リグーリア, トスカーナ, ラツィオ, カンパーニア",
+      "トスカーナ, カンパーニア, カラブリア, ラツィオ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「リグーリア, トスカーナ, ラツィオ, カンパーニア」です。",
+    "id": "italy-overview-law-186"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の中から地中海で2番目に大きな島を選択してください。",
+    "choices": [
+      "サルデーニャ島",
+      "キプロス島",
+      "シチリア島",
+      "コルシカ島"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「サルデーニャ島」です。",
+    "id": "italy-overview-law-187"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "下記の画像はイタリア20州の地図です。地図上でTrentino-Alto Adigeに相当する番号を選択してください。",
+    "image": {
+      "src": "assets/italy-regions-map.jpg",
+      "alt": "イタリア20州の地図",
+      "caption": "イタリア20州"
+    },
+    "choices": [
+      "7番",
+      "14番",
+      "17番",
+      "5番"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「5番」です。",
+    "id": "italy-overview-law-188"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するイタリアの州を選んでください。\n「アペニン山脈とアドリア海に挟まれるように位置し、グランサッソ山塊のコルノ・グランデとマイエッラ山塊のモンテ・アマーロという高峰がある。山岳地帯が多く平野はあまり無い。」",
+    "choices": [
+      "マルケ",
+      "モリーゼ",
+      "ピエモンテ",
+      "アブルッツォ"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「アブルッツォ」です。",
+    "id": "italy-overview-law-189"
+  },
+  {
+    "category": "イタリア/概論、歴史、品種、ワイン法",
+    "importance": "A",
+    "question": "次の中からイタリア、トスカーナ州に接している州を選択してください。",
+    "choices": [
+      "フリウリ・ヴェネツィア・ジューリア州",
+      "マルケ州",
+      "カンパーニア州",
+      "トレンティーノ・アルト・アディジェ州"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「マルケ州」です。",
+    "id": "italy-overview-law-190"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、ルーション地方のVin Doux Naturelを選択してください。",
+    "choices": [
+      "Macvin du Jura",
+      "Maury",
+      "Pineau des Charentes",
+      "Muscat de Beaumes de Venise"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Maury」です。",
+    "id": "vdn-vdl-nouveau-006"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で赤・ロゼワインのみが認められているものを選択してください。",
+    "choices": [
+      "Côtes du Roussillon",
+      "Touraine",
+      "Anjou Gamay",
+      "Gaillac"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Touraine」です。",
+    "id": "vdn-vdl-nouveau-007"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Touraine",
+      "Chénas",
+      "Rosé d’Anjou",
+      "Bourgogne Aligoté"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Chénas」です。",
+    "id": "vdn-vdl-nouveau-008"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVins de Liqueurを選択してください。",
+    "choices": [
+      "Frontignan",
+      "Banyuls Grand Cru",
+      "Rasteau",
+      "Grand Roussillon"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Frontignan」です。",
+    "id": "vdn-vdl-nouveau-009"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Mauryの主たる品種を選択してください。",
+    "choices": [
+      "カリニャン",
+      "グルナッシュ",
+      "クレレット",
+      "ミュスカ・ブラン・ア・プティ・グラン"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「グルナッシュ」です。",
+    "id": "vdn-vdl-nouveau-010"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、ルーション地方のVin Doux Naturelを選択してください。",
+    "choices": [
+      "Floc de Gascogne",
+      "Pineau des Charentes",
+      "Grand Roussillon",
+      "Frontignan"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Grand Roussillon」です。",
+    "id": "vdn-vdl-nouveau-011"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Banyuls Grand Cruの主たる品種を選択してください。",
+    "choices": [
+      "クレレット",
+      "グルナッシュ",
+      "カリニャン",
+      "ミュスカ・ブラン・ア・プティ・グラン"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「グルナッシュ」です。",
+    "id": "vdn-vdl-nouveau-012"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Fleurie",
+      "Bourgogne Aligoté",
+      "Côtes du Roussillon",
+      "Mâcon"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Fleurie」です。",
+    "id": "vdn-vdl-nouveau-013"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次の中からフランスでヴァン・ド・プリムールの規定が確立された日を選択してください。",
+    "choices": [
+      "1975年6月15日",
+      "1967年11月15日",
+      "1935年6月15日",
+      "1967年6月15日"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「1967年11月15日」です。",
+    "id": "vdn-vdl-nouveau-014"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVin Doux Naturelで「太陽にさらした樽の中で長期熟成させ、特有の色と香りがついたワイン」を意味するフランス語を選択してください。",
+    "choices": [
+      "Rognage",
+      "Rancio",
+      "Mutage",
+      "Rivesaltes"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Rancio」です。",
+    "id": "vdn-vdl-nouveau-015"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Languedoc",
+      "Côte de Brouilly",
+      "Ventoux",
+      "Coteaux Bourguignons"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Côte de Brouilly」です。",
+    "id": "vdn-vdl-nouveau-016"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で白ワインのみが認められているものを選択してください。",
+    "choices": [
+      "Mâcon Villages",
+      "Anjou Gamay",
+      "Coteaux du Lyonnais",
+      "Rosé d’Anjou"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Mâcon Villages」です。",
+    "id": "vdn-vdl-nouveau-017"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Pineau des Charentesの生産可能色を選択してください。",
+    "choices": [
+      "白のみ",
+      "赤・ロゼ",
+      "ロゼ・白",
+      "赤・ロゼ・白"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「赤・ロゼ・白」です。",
+    "id": "vdn-vdl-nouveau-018"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Côtes du Rhône",
+      "Coteaux du Lyonnais",
+      "Médoc",
+      "Beaujolais Villages"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Médoc」です。",
+    "id": "vdn-vdl-nouveau-019"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、コルス地方のVin Doux Naturelを選択してください。",
+    "choices": [
+      "Pineau des Charentes",
+      "Rivesaltes",
+      "Muscat du Cap Corse",
+      "Floc de Gascogne"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Muscat du Cap Corse」です。",
+    "id": "vdn-vdl-nouveau-020"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Pineau des Charentesの白の主たる品種を選択してください。",
+    "choices": [
+      "カリニャン",
+      "クレレット",
+      "ユニ・ブラン",
+      "グルナッシュ"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「ユニ・ブラン」です。",
+    "id": "vdn-vdl-nouveau-021"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方のVin Doux Naturelを選択してください。",
+    "choices": [
+      "Muscat de Beaumes de Venise",
+      "Frontignan",
+      "Pineau des Charentes",
+      "Banyuls"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Muscat de Beaumes de Venise」です。",
+    "id": "vdn-vdl-nouveau-022"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVin Doux Naturelを選択してください。",
+    "choices": [
+      "Pineau des Charentes",
+      "Clairette du Languedoc",
+      "Macvin du Jura",
+      "Frontignan"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Frontignan」です。",
+    "id": "vdn-vdl-nouveau-023"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で赤・ロゼワインのみが認められているものを選択してください。",
+    "choices": [
+      "Anjou Gamay",
+      "Ventoux",
+      "Beaujolais",
+      "Gaillac"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Beaujolais」です。",
+    "id": "vdn-vdl-nouveau-024"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVin Doux Naturelを選択してください。",
+    "choices": [
+      "Clairette du Languedoc",
+      "Macvin du Jura",
+      "Floc de Gascogne",
+      "Muscat de Lunel"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Muscat de Lunel」です。",
+    "id": "vdn-vdl-nouveau-025"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で赤ワインのみが認められているものを選択してください。",
+    "choices": [
+      "Mâcon Villages",
+      "Anjou Gamay",
+      "Côtes du Rhône",
+      "Bourgogne Aligoté"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Anjou Gamay」です。",
+    "id": "vdn-vdl-nouveau-026"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランス、ローヌ渓谷地方のVin Doux Naturelを選択してください。",
+    "choices": [
+      "Muscat de Lunel",
+      "Rasteau",
+      "Banyuls Grand Cru",
+      "Macvin du Jura"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Rasteau」です。",
+    "id": "vdn-vdl-nouveau-027"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次の中からフランス、アルマニャック地方のVin de Liqueurを選択してください。",
+    "choices": [
+      "Muscat de Saint-Jean-de-Minervois",
+      "Floc de Gascogne",
+      "Muscat de Rivesaltes",
+      "Muscat du Cap Corse"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「Floc de Gascogne」です。",
+    "id": "vdn-vdl-nouveau-028"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Frontignanの主たる品種を選択してください。",
+    "choices": [
+      "ミュスカ・ブラン・ア・プティ・グラン",
+      "グルナッシュ",
+      "ムールヴェードル",
+      "カリニャン"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「ミュスカ・ブラン・ア・プティ・グラン」です。",
+    "id": "vdn-vdl-nouveau-029"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの規定で赤・白・ロゼワイン全てが認められているものを選択してください。",
+    "choices": [
+      "Côtes du Roussillon",
+      "Touraine",
+      "Anjou Gamay",
+      "Rosé d’Anjou"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Côtes du Roussillon」です。",
+    "id": "vdn-vdl-nouveau-030"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVins de Liqueurを選択してください。",
+    "choices": [
+      "Muscat de Rivesaltes",
+      "Maury",
+      "Muscat de Beaumes de Venise",
+      "Clairette du Languedoc"
+    ],
+    "answerIndex": 3,
+    "explanation": "正解は「Clairette du Languedoc」です。",
+    "id": "vdn-vdl-nouveau-031"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVin Doux Naturelを選択してください。",
+    "choices": [
+      "Pineau des Charentes",
+      "Clairette du Languedoc",
+      "Muscat de Beaumes de Venise",
+      "Floc de Gascogne"
+    ],
+    "answerIndex": 2,
+    "explanation": "正解は「Muscat de Beaumes de Venise」です。",
+    "id": "vdn-vdl-nouveau-032"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次の中からフランスの新酒の解禁日を選択してください。",
+    "choices": [
+      "11月第1木曜日",
+      "11月第3木曜日",
+      "12月第3木曜日",
+      "12月第1木曜日"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「11月第3木曜日」です。",
+    "id": "vdn-vdl-nouveau-033"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "A",
+    "question": "次の中からフランスのVDNまたはVDL、Floc de Gascogneの生産可能色を選択してください。",
+    "choices": [
+      "赤のみ",
+      "ロゼ・白",
+      "赤・白",
+      "白のみ"
+    ],
+    "answerIndex": 1,
+    "explanation": "正解は「ロゼ・白」です。",
+    "id": "vdn-vdl-nouveau-034"
+  },
+  {
+    "category": "VDN VDL 新酒",
+    "importance": "B",
+    "question": "次のフランスのAOCワインの中からVin de Primeurの販売が認められていないものを選択してください。",
+    "choices": [
+      "Bordeaux",
+      "Muscadet",
+      "Côtes du Roussillon",
+      "Cabernet d’Anjou"
+    ],
+    "answerIndex": 0,
+    "explanation": "正解は「Bordeaux」です。",
+    "id": "vdn-vdl-nouveau-035"
   }
 ];
