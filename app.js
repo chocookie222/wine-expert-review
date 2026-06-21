@@ -31,7 +31,7 @@
         "ジョージア",
         "購入・保管・熟成・販売",
         "チーズ",
-        "ペアリング",
+        "テイスティング",
         "サービス実技"
       ]
     }
@@ -67,6 +67,9 @@
   };
 
   const state = loadState();
+  if (state.filters.category === "ペアリング") {
+    state.filters.category = "テイスティング";
+  }
   let currentSet = [];
   let answered = false;
   let selectedChoiceIndexes = [];
