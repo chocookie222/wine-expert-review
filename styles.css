@@ -456,6 +456,7 @@ select {
   color: #4f473f;
   font-size: 0.95rem;
   line-height: 1.58;
+  white-space: pre-line;
 }
 
 .actions {
