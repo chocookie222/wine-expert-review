@@ -158,9 +158,57 @@ select {
 
 .status-strip {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.study-menu {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   margin-bottom: 12px;
+}
+
+.study-menu button {
+  min-width: 0;
+  min-height: 54px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px 6px;
+  color: var(--ink);
+  background: rgba(255, 253, 249, 0.9);
+}
+
+.study-menu span,
+.study-menu strong {
+  display: block;
+}
+
+.study-menu span {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.study-menu strong {
+  margin-top: 3px;
+  color: var(--accent-dark);
+  font-size: 1rem;
+}
+
+.mock-setup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.mock-setup .primary {
+  grid-column: 1 / -1;
 }
 
 .status-strip > div,
@@ -459,6 +507,44 @@ select {
   white-space: pre-line;
 }
 
+.confidence-panel {
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.confidence-panel > span {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.confidence-panel > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+}
+
+.confidence-panel button {
+  min-width: 0;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px;
+  color: var(--muted);
+  background: #fff;
+  font-size: 0.74rem;
+  font-weight: 850;
+}
+
+.confidence-panel button.selected {
+  border-color: var(--accent);
+  color: #fff;
+  background: var(--accent);
+}
+
 .actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -467,6 +553,10 @@ select {
 }
 
 .review-action {
+  grid-column: 1 / -1;
+}
+
+.similar-action {
   grid-column: 1 / -1;
 }
 
@@ -599,6 +689,152 @@ select {
 .saved-list {
   display: grid;
   gap: 10px;
+}
+
+.study-dashboard {
+  margin-bottom: 18px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+.plan-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.plan-fields input {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 10px;
+  color: var(--ink);
+  background: rgba(255, 253, 249, 0.9);
+  font: inherit;
+}
+
+.plan-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.plan-metrics div {
+  min-width: 0;
+  text-align: center;
+}
+
+.plan-metrics strong,
+.plan-metrics span {
+  display: block;
+}
+
+.plan-metrics strong {
+  font-size: 1rem;
+}
+
+.plan-metrics span {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 750;
+}
+
+.daily-meter {
+  height: 8px;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #ebe5dc;
+}
+
+.daily-meter i {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--leaf);
+  transition: width 180ms ease;
+}
+
+.confidence-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.confidence-metrics div {
+  min-width: 0;
+  text-align: center;
+}
+
+.confidence-metrics strong,
+.confidence-metrics span {
+  display: block;
+}
+
+.confidence-metrics strong {
+  color: var(--accent-dark);
+  font-size: 1.08rem;
+}
+
+.confidence-metrics span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.weakness-section {
+  margin-bottom: 18px;
+}
+
+.weakness-section h3 {
+  margin-bottom: 9px;
+  font-size: 0.96rem;
+}
+
+#weaknessList {
+  display: grid;
+  gap: 7px;
+}
+
+.weakness-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 44px 52px;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  padding: 6px 2px;
+  color: var(--ink);
+  text-align: left;
+  background: transparent;
+}
+
+.weakness-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 800;
+}
+
+.weakness-row strong {
+  color: var(--danger);
+  text-align: right;
+}
+
+.weakness-row small {
+  color: var(--muted);
+  text-align: right;
 }
 
 .stat-row {

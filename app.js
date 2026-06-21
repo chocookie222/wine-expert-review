@@ -37,6 +37,8 @@
     }
   ];
   const mixedCategorySize = 10;
+  const reviewIntervals = [1, 3, 7, 14, 30, 60];
+  const numericQuestionPattern = /\d|％|%|以上|以下|未満|以内|年|月|日|時間|期間|温度|度数|糖分|面積|生産量|数量|順位|第[一二三四五六七八九十]/;
 
   const defaultState = {
     answers: {},
@@ -48,6 +50,18 @@
       category: "all"
     },
     importanceOverrides: {},
+    reviewSchedule: {},
+    confidence: {},
+    dailyActivity: {},
+    studyPlan: {
+      examDate: "",
+      dailyTarget: 20
+    },
+    mockSettings: {
+      questionCount: 50,
+      minutes: 50
+    },
+    similarSourceId: null,
     currentIndex: 0,
     selectedId: null
   };
@@ -58,6 +72,8 @@
   let selectedChoiceIndexes = [];
   let sessionAnswers = {};
   let showingResult = false;
+  let mockSession = null;
+  let mockTimerId = null;
 
   const els = {
     quizPanel: document.getElementById("quizPanel"),
@@ -69,6 +85,17 @@
     questionCounter: document.getElementById("questionCounter"),
     accuracyNow: document.getElementById("accuracyNow"),
     wrongCount: document.getElementById("wrongCount"),
+    mockTimerBox: document.getElementById("mockTimerBox"),
+    mockTimer: document.getElementById("mockTimer"),
+    dueModeButton: document.getElementById("dueModeButton"),
+    numericModeButton: document.getElementById("numericModeButton"),
+    mockModeButton: document.getElementById("mockModeButton"),
+    dueQuestionCount: document.getElementById("dueQuestionCount"),
+    numericQuestionCount: document.getElementById("numericQuestionCount"),
+    mockSetup: document.getElementById("mockSetup"),
+    mockQuestionCount: document.getElementById("mockQuestionCount"),
+    mockMinutes: document.getElementById("mockMinutes"),
+    startMockButton: document.getElementById("startMockButton"),
     questionCard: document.getElementById("questionCard"),
     resultCard: document.getElementById("resultCard"),
     resultTitle: document.getElementById("resultTitle"),
@@ -93,16 +120,33 @@
     answerResult: document.getElementById("answerResult"),
     explanationBox: document.getElementById("explanationBox"),
     explanationText: document.getElementById("explanationText"),
+    confidencePanel: document.getElementById("confidencePanel"),
+    similarButton: document.getElementById("similarButton"),
     reviewButton: document.getElementById("reviewButton"),
     previousButton: document.getElementById("previousButton"),
     nextButton: document.getElementById("nextButton"),
     resetSessionButton: document.getElementById("resetSessionButton"),
     statsList: document.getElementById("statsList"),
     clearHistoryButton: document.getElementById("clearHistoryButton"),
+    examDateInput: document.getElementById("examDateInput"),
+    dailyTargetInput: document.getElementById("dailyTargetInput"),
+    daysRemaining: document.getElementById("daysRemaining"),
+    todayProgress: document.getElementById("todayProgress"),
+    dueReviewMetric: document.getElementById("dueReviewMetric"),
+    dailyProgressBar: document.getElementById("dailyProgressBar"),
+    confidentStatCount: document.getElementById("confidentStatCount"),
+    unsureStatCount: document.getElementById("unsureStatCount"),
+    guessStatCount: document.getElementById("guessStatCount"),
+    incorrectStatCount: document.getElementById("incorrectStatCount"),
+    weaknessList: document.getElementById("weaknessList"),
     wrongSavedCount: document.getElementById("wrongSavedCount"),
     reviewSavedCount: document.getElementById("reviewSavedCount"),
     wrongModeButton: document.getElementById("wrongModeButton"),
     reviewModeButton: document.getElementById("reviewModeButton"),
+    unsureModeButton: document.getElementById("unsureModeButton"),
+    guessModeButton: document.getElementById("guessModeButton"),
+    unsureSavedCount: document.getElementById("unsureSavedCount"),
+    guessSavedCount: document.getElementById("guessSavedCount"),
     savedList: document.getElementById("savedList")
   };
 
@@ -115,6 +159,7 @@
   function init() {
     populateCategories();
     syncFiltersToControls();
+    syncStudyControls();
     bindEvents();
     rebuildSet();
     renderAll();
@@ -123,12 +168,24 @@
   function loadState() {
     try {
       const saved = JSON.parse(window.localStorage.getItem(storageKey));
-      return {
+      const loaded = {
         ...defaultState,
         ...saved,
         filters: { ...defaultState.filters, ...(saved && saved.filters) },
-        importanceOverrides: { ...defaultState.importanceOverrides, ...(saved && saved.importanceOverrides) }
+        importanceOverrides: { ...defaultState.importanceOverrides, ...(saved && saved.importanceOverrides) },
+        reviewSchedule: { ...defaultState.reviewSchedule, ...(saved && saved.reviewSchedule) },
+        confidence: { ...defaultState.confidence, ...(saved && saved.confidence) },
+        dailyActivity: { ...defaultState.dailyActivity, ...(saved && saved.dailyActivity) },
+        studyPlan: { ...defaultState.studyPlan, ...(saved && saved.studyPlan) },
+        mockSettings: { ...defaultState.mockSettings, ...(saved && saved.mockSettings) }
       };
+      Object.keys(loaded.confidence).forEach((id) => {
+        if (loaded.confidence[id] === "again") loaded.confidence[id] = "guess";
+      });
+      Object.values(loaded.answers).forEach((answer) => {
+        if (answer && answer.confidence === "again") answer.confidence = "guess";
+      });
+      return loaded;
     } catch (error) {
       return cloneDefaultState();
     }
@@ -158,6 +215,13 @@
     els.categoryFilter.value = state.filters.category;
   }
 
+  function syncStudyControls() {
+    els.examDateInput.value = state.studyPlan.examDate || "";
+    els.dailyTargetInput.value = String(state.studyPlan.dailyTarget || 20);
+    els.mockQuestionCount.value = String(state.mockSettings.questionCount || 50);
+    els.mockMinutes.value = String(state.mockSettings.minutes || 50);
+  }
+
   function bindEvents() {
     [els.modeFilter, els.importanceFilter, els.categoryFilter].forEach((control) => {
       control.addEventListener("change", () => {
@@ -169,6 +233,8 @@
     });
 
     function applyFiltersFromControls() {
+        stopMockTimer();
+        mockSession = null;
         state.filters.mode = els.modeFilter.value;
         state.filters.importance = els.importanceFilter.value;
         state.filters.category = els.categoryFilter.value;
@@ -180,10 +246,75 @@
         renderAll();
     }
 
+    els.dueModeButton.addEventListener("click", () => switchMode("due"));
+    els.numericModeButton.addEventListener("click", () => switchMode("numeric"));
+    els.mockModeButton.addEventListener("click", () => switchMode("mock"));
+
+    els.startMockButton.addEventListener("click", startMockExam);
+
+    [els.mockQuestionCount, els.mockMinutes].forEach((control) => {
+      control.addEventListener("change", () => {
+        state.mockSettings.questionCount = Number(els.mockQuestionCount.value) || 50;
+        state.mockSettings.minutes = Number(els.mockMinutes.value) || 50;
+        saveState();
+      });
+    });
+
+    els.confidencePanel.addEventListener("click", (event) => {
+      const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
+      const button = target && target.closest("[data-confidence]");
+      const question = getCurrentQuestion();
+      if (!button || !question || !answered || isMockActive()) return;
+      setConfidence(question.id, button.dataset.confidence);
+      renderConfidence(question);
+      renderStats();
+      renderSaved();
+    });
+
+    els.similarButton.addEventListener("click", () => {
+      const question = getCurrentQuestion();
+      if (!question) return;
+      state.similarSourceId = question.id;
+      switchMode("similar");
+    });
+
+    els.examDateInput.addEventListener("change", () => {
+      state.studyPlan.examDate = els.examDateInput.value;
+      saveState();
+      renderStudyDashboard();
+    });
+
+    els.dailyTargetInput.addEventListener("change", () => {
+      state.studyPlan.dailyTarget = clamp(Number(els.dailyTargetInput.value) || 20, 1, 500);
+      els.dailyTargetInput.value = String(state.studyPlan.dailyTarget);
+      saveState();
+      renderStudyDashboard();
+    });
+
+    els.weaknessList.addEventListener("click", (event) => {
+      const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
+      const button = target && target.closest("[data-weak-category]");
+      if (!button) return;
+      state.filters.category = button.dataset.weakCategory;
+      state.filters.mode = "all";
+      state.currentIndex = 0;
+      answered = false;
+      resetSessionProgress();
+      syncFiltersToControls();
+      rebuildSet();
+      saveState();
+      renderAll();
+      document.getElementById("quizTab").click();
+    });
+
     els.previousButton.addEventListener("click", () => moveQuestion(-1));
     els.nextButton.addEventListener("click", () => moveQuestion(1));
 
     els.resultRestartButton.addEventListener("click", () => {
+      if (state.filters.mode === "mock") {
+        startMockExam();
+        return;
+      }
       state.currentIndex = 0;
       answered = false;
       resetSessionProgress();
@@ -219,10 +350,16 @@
     });
 
     els.clearHistoryButton.addEventListener("click", () => {
-      if (!confirm("回答履歴、誤答保存、復習リストを消去しますか。")) return;
+      if (!confirm("回答履歴、誤答保存、復習リスト、復習期限を消去しますか。")) return;
+      stopMockTimer();
+      mockSession = null;
       state.answers = {};
       state.wrongIds = [];
       state.reviewIds = [];
+      state.reviewSchedule = {};
+      state.confidence = {};
+      state.dailyActivity = {};
+      state.similarSourceId = null;
       state.currentIndex = 0;
       answered = false;
       resetSessionProgress();
@@ -233,6 +370,8 @@
 
     els.wrongModeButton.addEventListener("click", () => switchMode("wrong"));
     els.reviewModeButton.addEventListener("click", () => switchMode("review"));
+    els.unsureModeButton.addEventListener("click", () => switchMode("unsure"));
+    els.guessModeButton.addEventListener("click", () => switchMode("guess"));
 
     els.savedList.addEventListener("click", (event) => {
       const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
@@ -300,8 +439,11 @@
   function moveQuestion(step) {
     if (!currentSet.length) return;
     if (step > 0 && isCurrentSetComplete()) {
-      showingResult = true;
-      renderQuiz();
+      if (state.filters.mode === "mock") finishMockExam();
+      else {
+        showingResult = true;
+        renderQuiz();
+      }
       return;
     }
     state.currentIndex = (state.currentIndex + step + currentSet.length) % currentSet.length;
@@ -312,6 +454,8 @@
   }
 
   function switchMode(mode) {
+    stopMockTimer();
+    mockSession = null;
     state.filters.mode = mode;
     state.currentIndex = 0;
     answered = false;
@@ -323,6 +467,63 @@
     document.getElementById("quizTab").click();
   }
 
+  function startMockExam() {
+    const count = clamp(Number(els.mockQuestionCount.value) || 50, 1, 100);
+    const minutes = clamp(Number(els.mockMinutes.value) || 50, 1, 180);
+    state.mockSettings = { questionCount: count, minutes };
+    state.filters.mode = "mock";
+    const source = getQuestionsForCategory(state.filters.category).filter((question) => {
+      return state.filters.importance === "all" || getQuestionImportance(question) === state.filters.importance;
+    });
+    const mockQuestions = shuffleQuestions(source).slice(0, Math.min(count, source.length));
+    const startedAt = Date.now();
+    mockSession = {
+      questions: mockQuestions,
+      startedAt,
+      endsAt: startedAt + minutes * 60 * 1000
+    };
+    state.currentIndex = 0;
+    answered = false;
+    resetSessionProgress();
+    currentSet = mockQuestions;
+    syncFiltersToControls();
+    saveState();
+    startMockTimer();
+    renderAll();
+  }
+
+  function isMockActive() {
+    return state.filters.mode === "mock" && Boolean(mockSession) && !showingResult;
+  }
+
+  function startMockTimer() {
+    stopMockTimer();
+    updateMockTimer();
+    mockTimerId = window.setInterval(updateMockTimer, 1000);
+  }
+
+  function stopMockTimer() {
+    if (mockTimerId) window.clearInterval(mockTimerId);
+    mockTimerId = null;
+  }
+
+  function updateMockTimer() {
+    if (!mockSession) return;
+    const remaining = Math.max(0, mockSession.endsAt - Date.now());
+    const totalSeconds = Math.ceil(remaining / 1000);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    els.mockTimer.textContent = `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+    if (remaining <= 0) finishMockExam();
+  }
+
+  function finishMockExam() {
+    if (!mockSession || showingResult) return;
+    showingResult = true;
+    stopMockTimer();
+    renderQuiz();
+  }
+
   function rebuildSet() {
     const categoryFilter = state.filters.category;
     const isMixed = isMixedCategory(categoryFilter);
@@ -331,15 +532,29 @@
       ? questions.filter((question) => mixedSourceCategories.includes(question.category))
       : questions;
 
-    currentSet = sourceQuestions.filter((question) => {
+    const baseSet = sourceQuestions.filter((question) => {
       if (state.filters.importance !== "all" && getQuestionImportance(question) !== state.filters.importance) return false;
       if (categoryFilter !== "all" && !isMixed && question.category !== categoryFilter) return false;
-      if (state.filters.mode === "wrong" && !state.wrongIds.includes(question.id)) return false;
-      if (state.filters.mode === "review" && !state.reviewIds.includes(question.id)) return false;
       return true;
     });
 
-    if (isMixed) {
+    if (state.filters.mode === "mock") {
+      currentSet = mockSession ? mockSession.questions : [];
+    } else if (state.filters.mode === "similar") {
+      currentSet = getSimilarQuestions(state.similarSourceId, baseSet);
+    } else {
+      currentSet = baseSet.filter((question) => {
+        if (state.filters.mode === "wrong" && !state.wrongIds.includes(question.id)) return false;
+        if (state.filters.mode === "review" && !state.reviewIds.includes(question.id)) return false;
+        if (state.filters.mode === "unsure" && getSavedConfidence(question.id) !== "unsure") return false;
+        if (state.filters.mode === "guess" && !(getSavedConfidence(question.id) === "guess" && state.answers[question.id]?.lastCorrect)) return false;
+        if (state.filters.mode === "due" && !isReviewDue(question.id)) return false;
+        if (state.filters.mode === "numeric" && !isNumericQuestion(question)) return false;
+        return true;
+      });
+    }
+
+    if (isMixed && !["mock", "similar"].includes(state.filters.mode)) {
       currentSet = shuffleQuestions(currentSet).slice(0, mixedCategorySize);
     }
 
@@ -352,10 +567,14 @@
     renderQuiz();
     renderStats();
     renderSaved();
+    renderStudySummary();
   }
 
   function renderQuiz() {
     const question = getCurrentQuestion();
+    const awaitingMockStart = state.filters.mode === "mock" && !isMockActive();
+    els.mockSetup.hidden = !awaitingMockStart;
+    els.mockTimerBox.hidden = !isMockActive();
     updateProgressSummary();
 
     if (showingResult && currentSet.length) {
@@ -366,7 +585,7 @@
     if (!question) {
       els.questionCard.hidden = true;
       els.resultCard.hidden = true;
-      els.emptyState.hidden = false;
+      els.emptyState.hidden = awaitingMockStart;
       els.textAnswerBox.hidden = true;
       els.multiSubmitButton.hidden = true;
       els.previousButton.disabled = true;
@@ -390,6 +609,8 @@
     els.answerResult.hidden = true;
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
+    els.confidencePanel.hidden = true;
+    els.similarButton.hidden = true;
     els.previousButton.disabled = currentSet.length <= 1;
     els.nextButton.disabled = currentSet.length <= 1;
     els.nextButton.innerHTML = `次の問題<span aria-hidden="true">›</span>`;
@@ -462,24 +683,15 @@
     answered = true;
     const answerIndexes = getAnswerIndexes(question);
     const isCorrect = areSameIndexes(choiceIndexes, answerIndexes);
-    const previous = state.answers[question.id] || { correct: 0, total: 0 };
-    state.answers[question.id] = {
-      correct: previous.correct + (isCorrect ? 1 : 0),
-      total: previous.total + 1,
-      lastCorrect: isCorrect,
-      lastAnsweredAt: new Date().toISOString()
-    };
-
-    if (isCorrect) {
-      state.wrongIds = state.wrongIds.filter((id) => id !== question.id);
-    } else if (!state.wrongIds.includes(question.id)) {
-      state.wrongIds.push(question.id);
-    }
-
+    recordAnswer(question, isCorrect);
     sessionAnswers[question.id] = { type: "choice", choiceIndexes: [...choiceIndexes], isCorrect };
     saveState();
     updateProgressSummary();
-    revealAnswer(question, choiceIndexes, isCorrect);
+    if (isMockActive()) {
+      revealMockChoiceAnswer();
+    } else {
+      revealAnswer(question, choiceIndexes, isCorrect);
+    }
     renderStats();
     renderSaved();
   }
@@ -488,6 +700,20 @@
     if (answered) return;
     answered = true;
     const isCorrect = getAnswerTexts(question).includes(normalizeTextAnswer(answerText));
+    recordAnswer(question, isCorrect);
+    sessionAnswers[question.id] = { type: "text", answerText, isCorrect };
+    saveState();
+    updateProgressSummary();
+    if (isMockActive()) {
+      revealMockTextAnswer();
+    } else {
+      revealTextAnswer(question, answerText, isCorrect);
+    }
+    renderStats();
+    renderSaved();
+  }
+
+  function recordAnswer(question, isCorrect) {
     const previous = state.answers[question.id] || { correct: 0, total: 0 };
     state.answers[question.id] = {
       correct: previous.correct + (isCorrect ? 1 : 0),
@@ -495,6 +721,7 @@
       lastCorrect: isCorrect,
       lastAnsweredAt: new Date().toISOString()
     };
+    delete state.confidence[question.id];
 
     if (isCorrect) {
       state.wrongIds = state.wrongIds.filter((id) => id !== question.id);
@@ -502,12 +729,12 @@
       state.wrongIds.push(question.id);
     }
 
-    sessionAnswers[question.id] = { type: "text", answerText, isCorrect };
-    saveState();
-    updateProgressSummary();
-    revealTextAnswer(question, answerText, isCorrect);
-    renderStats();
-    renderSaved();
+    if (!isCorrect) {
+      if (!state.reviewIds.includes(question.id)) state.reviewIds.push(question.id);
+      scheduleIncorrectReview(question.id);
+    }
+
+    recordDailyActivity();
   }
 
   function revealAnswer(question, choiceIndexes, isCorrect) {
@@ -527,6 +754,8 @@
       <span>あなたの回答：${escapeHtml(formatAnswers(question, choiceIndexes))}</span>
     `;
     els.explanationBox.hidden = false;
+    renderConfidence(question);
+    els.similarButton.hidden = false;
     updateNextButtonAfterAnswer();
   }
 
@@ -541,6 +770,30 @@
       <span>あなたの回答：${escapeHtml(answerText)}</span>
     `;
     els.explanationBox.hidden = false;
+    renderConfidence(question);
+    els.similarButton.hidden = false;
+    updateNextButtonAfterAnswer();
+  }
+
+  function revealMockChoiceAnswer() {
+    [...els.choices.children].forEach((button) => {
+      button.disabled = true;
+    });
+    els.multiSubmitButton.disabled = true;
+    els.answerResult.hidden = true;
+    els.explanationBox.hidden = true;
+    els.confidencePanel.hidden = true;
+    els.similarButton.hidden = true;
+    updateNextButtonAfterAnswer();
+  }
+
+  function revealMockTextAnswer() {
+    els.textAnswerInput.disabled = true;
+    els.textSubmitButton.disabled = true;
+    els.answerResult.hidden = true;
+    els.explanationBox.hidden = true;
+    els.confidencePanel.hidden = true;
+    els.similarButton.hidden = true;
     updateNextButtonAfterAnswer();
   }
 
@@ -549,10 +802,12 @@
     if (!saved) return;
     if (saved.type === "text") {
       els.textAnswerInput.value = saved.answerText;
-      revealTextAnswer(question, saved.answerText, saved.isCorrect);
+      if (isMockActive()) revealMockTextAnswer();
+      else revealTextAnswer(question, saved.answerText, saved.isCorrect);
       return;
     }
-    revealAnswer(question, saved.choiceIndexes, saved.isCorrect);
+    if (isMockActive()) revealMockChoiceAnswer();
+    else revealAnswer(question, saved.choiceIndexes, saved.isCorrect);
   }
 
   function updateNextButtonAfterAnswer() {
@@ -565,16 +820,21 @@
 
   function renderResult() {
     const totals = getSessionTotals();
-    const percent = totals.total ? Math.round((totals.correct / totals.total) * 100) : 0;
+    const resultTotal = state.filters.mode === "mock" ? currentSet.length : totals.total;
+    const percent = resultTotal ? Math.round((totals.correct / resultTotal) * 100) : 0;
     const categoryLabel = state.filters.category === "all" ? "現在のセット" : getCategoryLabel(state.filters.category);
     updateProgressSummary();
     els.questionCard.hidden = true;
     els.emptyState.hidden = true;
     els.resultCard.hidden = false;
+    els.mockSetup.hidden = true;
+    els.mockTimerBox.hidden = true;
     els.resultTitle.textContent = `${categoryLabel}の結果`;
-    els.resultScore.textContent = `${totals.correct} / ${totals.total}`;
+    els.resultScore.textContent = `${totals.correct} / ${resultTotal}`;
     els.resultRate.textContent = `正答率 ${percent}%`;
-    els.resultSummary.textContent = `${totals.total}問中${totals.correct}問正解です。復習したい問題は「復習」タブから確認できます。`;
+    els.resultSummary.textContent = state.filters.mode === "mock"
+      ? `${currentSet.length}問中${totals.correct}問正解です。未回答は不正解として扱います。弱点は成績画面で確認できます。`
+      : `${totals.total}問中${totals.correct}問正解です。復習したい問題は「復習」タブから確認できます。`;
   }
 
   function isMultipleChoiceQuestion(question) {
@@ -613,6 +873,134 @@
     return String(value).normalize("NFKC").replace(/\s+/g, "").trim();
   }
 
+  function renderConfidence(question) {
+    if (isMockActive()) {
+      els.confidencePanel.hidden = true;
+      return;
+    }
+    els.confidencePanel.hidden = false;
+    const selected = getSavedConfidence(question.id);
+    els.confidencePanel.querySelectorAll("[data-confidence]").forEach((button) => {
+      const active = button.dataset.confidence === selected;
+      button.classList.toggle("selected", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+  }
+
+  function setConfidence(id, confidence) {
+    if (!["guess", "unsure", "confident"].includes(confidence)) return;
+    state.confidence[id] = confidence;
+    const answer = state.answers[id];
+    if (answer) answer.confidence = confidence;
+    const isIncorrect = Boolean(answer && !answer.lastCorrect);
+
+    if (confidence === "confident" && !isIncorrect) {
+      state.reviewIds = state.reviewIds.filter((savedId) => savedId !== id);
+      delete state.reviewSchedule[id];
+    } else {
+      if (!state.reviewIds.includes(id)) state.reviewIds.push(id);
+      scheduleReview(id, confidence, isIncorrect);
+    }
+    saveState();
+  }
+
+  function scheduleReview(id, confidence, isIncorrect = false) {
+    const previous = state.reviewSchedule[id] || { stage: 0 };
+    let stage = previous.stage || 0;
+    if (isIncorrect || confidence === "guess") stage = 0;
+    else if (confidence === "unsure") stage = Math.max(1, stage);
+    else if (confidence === "confident") stage = Math.min(reviewIntervals.length - 1, stage + 1);
+    const intervalDays = reviewIntervals[stage];
+    state.reviewSchedule[id] = {
+      stage,
+      intervalDays,
+      dueAt: new Date(Date.now() + intervalDays * 86400000).toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+  }
+
+  function scheduleIncorrectReview(id) {
+    state.reviewSchedule[id] = {
+      stage: 0,
+      intervalDays: 1,
+      dueAt: new Date(Date.now() + 86400000).toISOString(),
+      updatedAt: new Date().toISOString()
+    };
+  }
+
+  function getSavedConfidence(id) {
+    const value = state.answers[id]?.confidence || state.confidence[id] || "";
+    return value === "again" ? "guess" : value;
+  }
+
+  function getConfidenceLabel(confidence) {
+    if (confidence === "confident") return "😎 自信あり";
+    if (confidence === "unsure") return "🤔 あやしい";
+    if (confidence === "guess") return "😭 勘";
+    return "";
+  }
+
+  function isReviewDue(id) {
+    const schedule = state.reviewSchedule[id];
+    if (!schedule || !schedule.dueAt) return false;
+    return new Date(schedule.dueAt).getTime() <= Date.now();
+  }
+
+  function getDueQuestions() {
+    return questions.filter((question) => isReviewDue(question.id));
+  }
+
+  function isNumericQuestion(question) {
+    return numericQuestionPattern.test(`${question.question} ${(question.choices || []).join(" ")}`);
+  }
+
+  function recordDailyActivity() {
+    const key = getLocalDateKey();
+    state.dailyActivity[key] = (state.dailyActivity[key] || 0) + 1;
+  }
+
+  function getLocalDateKey(date = new Date()) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }
+
+  function getSimilarQuestions(sourceId, candidates = questions) {
+    const source = questions.find((question) => question.id === sourceId);
+    if (!source) return [];
+    const sourceAnswer = getCorrectAnswerLabel(source);
+    const sourceTerms = extractStudyTerms(`${source.question} ${sourceAnswer}`);
+    return candidates
+      .filter((question) => question.id !== source.id && question.category === source.category)
+      .map((question) => {
+        const candidateText = `${question.question} ${getCorrectAnswerLabel(question)}`;
+        const candidateTerms = extractStudyTerms(candidateText);
+        let score = getCorrectAnswerLabel(question) === sourceAnswer ? 8 : 0;
+        sourceTerms.forEach((term) => {
+          if (candidateTerms.includes(term)) score += 1;
+        });
+        if (candidateText.includes(sourceAnswer) || source.question.includes(getCorrectAnswerLabel(question))) score += 3;
+        return { question, score };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 20)
+      .map((item) => item.question);
+  }
+
+  function getCorrectAnswerLabel(question) {
+    if (isTextAnswerQuestion(question)) return question.answerText;
+    return getAnswerIndexes(question).map((index) => question.choices[index]).join(" ");
+  }
+
+  function extractStudyTerms(value) {
+    const stopWords = new Set(["次の中から", "選択してください", "選んでください", "ワイン", "フランス", "イタリア", "正しいもの"]);
+    const terms = String(value)
+      .normalize("NFKC")
+      .match(/[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'!-]{2,}|[ァ-ヶー]{3,}|[一-龠]{2,}/g) || [];
+    return [...new Set(terms.filter((term) => !stopWords.has(term)).map((term) => term.toLowerCase()))];
+  }
+
   function renderStats() {
     const categories = getCategoryOptions();
     els.statsList.innerHTML = categories
@@ -643,11 +1031,89 @@
         `;
       })
       .join("");
+    renderStudyDashboard();
+    renderWeaknesses();
+    renderStudySummary();
+  }
+
+  function renderStudySummary() {
+    const dueCount = getDueQuestions().length;
+    els.dueQuestionCount.textContent = String(dueCount);
+    els.numericQuestionCount.textContent = String(questions.filter(isNumericQuestion).length);
+    els.dueReviewMetric.textContent = String(dueCount);
+  }
+
+  function renderStudyDashboard() {
+    const target = state.studyPlan.dailyTarget || 20;
+    const today = state.dailyActivity[getLocalDateKey()] || 0;
+    els.todayProgress.textContent = `${today} / ${target}`;
+    els.dailyProgressBar.style.width = `${Math.min(100, Math.round((today / target) * 100))}%`;
+
+    if (!state.studyPlan.examDate) {
+      els.daysRemaining.textContent = "未設定";
+    } else {
+      const examDate = new Date(`${state.studyPlan.examDate}T00:00:00`);
+      const todayStart = new Date();
+      todayStart.setHours(0, 0, 0, 0);
+      const days = Math.ceil((examDate.getTime() - todayStart.getTime()) / 86400000);
+      els.daysRemaining.textContent = days >= 0 ? `${days}日` : "終了";
+    }
+    els.dueReviewMetric.textContent = String(getDueQuestions().length);
+    const confidenceCounts = { confident: 0, unsure: 0, guess: 0 };
+    questions.forEach((question) => {
+      const confidence = getSavedConfidence(question.id);
+      if (Object.prototype.hasOwnProperty.call(confidenceCounts, confidence)) confidenceCounts[confidence] += 1;
+    });
+    els.confidentStatCount.textContent = String(confidenceCounts.confident);
+    els.unsureStatCount.textContent = String(confidenceCounts.unsure);
+    els.guessStatCount.textContent = String(confidenceCounts.guess);
+    els.incorrectStatCount.textContent = String(state.wrongIds.length);
+  }
+
+  function renderWeaknesses() {
+    const weaknesses = getCategoryOptions()
+      .map((category) => {
+        const stats = getQuestionsForCategory(category).reduce(
+          (acc, question) => {
+            const answer = state.answers[question.id];
+            if (!answer) return acc;
+            acc.correct += answer.correct;
+            acc.total += answer.total;
+            return acc;
+          },
+          { correct: 0, total: 0 }
+        );
+        return { category, ...stats, percent: stats.total ? Math.round((stats.correct / stats.total) * 100) : 100 };
+      })
+      .filter((item) => item.total > 0 && !isMixedCategory(item.category))
+      .sort((a, b) => a.percent - b.percent || b.total - a.total)
+      .slice(0, 5);
+
+    if (!weaknesses.length) {
+      els.weaknessList.innerHTML = `<p class="quiet">回答すると苦手分野がここに表示されます。</p>`;
+      return;
+    }
+
+    els.weaknessList.innerHTML = weaknesses
+      .map((item) => `
+        <button type="button" class="weakness-row" data-weak-category="${escapeHtml(item.category)}">
+          <span>${escapeHtml(item.category)}</span>
+          <strong>${item.percent}%</strong>
+          <small>${item.correct} / ${item.total}</small>
+        </button>
+      `)
+      .join("");
   }
 
   function renderSaved() {
     els.wrongSavedCount.textContent = String(state.wrongIds.length);
     els.reviewSavedCount.textContent = String(state.reviewIds.length);
+    const unsureIds = questions.filter((question) => getSavedConfidence(question.id) === "unsure").map((question) => question.id);
+    const guessIds = questions
+      .filter((question) => getSavedConfidence(question.id) === "guess" && state.answers[question.id]?.lastCorrect)
+      .map((question) => question.id);
+    els.unsureSavedCount.textContent = String(unsureIds.length);
+    els.guessSavedCount.textContent = String(guessIds.length);
 
     const savedIds = [...new Set([...state.wrongIds, ...state.reviewIds])];
     if (!savedIds.length) {
@@ -661,7 +1127,8 @@
         if (!question) return "";
         const tags = [
           state.wrongIds.includes(id) ? "誤答" : "",
-          state.reviewIds.includes(id) ? "復習" : ""
+          state.reviewIds.includes(id) ? "復習" : "",
+          getConfidenceLabel(getSavedConfidence(id))
         ].filter(Boolean);
         return `
           <article class="saved-item">
@@ -764,6 +1231,10 @@
     sessionAnswers = {};
     showingResult = false;
     selectedChoiceIndexes = [];
+  }
+
+  function clamp(value, min, max) {
+    return Math.min(max, Math.max(min, value));
   }
 
   function escapeHtml(value) {

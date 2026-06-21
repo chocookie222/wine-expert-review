@@ -25,8 +25,14 @@
               <span>出題</span>
               <select id="modeFilter">
                 <option value="all">すべて</option>
+                <option value="due">今日の復習</option>
                 <option value="wrong">間違えた問題</option>
-                <option value="review">復習リスト</option>
+                <option value="unsure">あやしい問題</option>
+                <option value="guess">勘で正解した問題</option>
+                <option value="review">すべての復習問題</option>
+                <option value="numeric">数字問題</option>
+                <option value="similar">類似問題</option>
+                <option value="mock">模擬試験</option>
               </select>
             </label>
             <label>
@@ -58,7 +64,46 @@
               <strong id="wrongCount">0</strong>
               <span>誤答保存</span>
             </div>
+            <div id="mockTimerBox" hidden>
+              <strong id="mockTimer">--:--</strong>
+              <span>残り時間</span>
+            </div>
           </div>
+
+          <div class="study-menu" aria-label="学習メニュー">
+            <button type="button" id="dueModeButton">
+              <span>期限復習</span>
+              <strong id="dueQuestionCount">0</strong>
+            </button>
+            <button type="button" id="numericModeButton">
+              <span>数字問題</span>
+              <strong id="numericQuestionCount">0</strong>
+            </button>
+            <button type="button" id="mockModeButton">
+              <span>模擬試験</span>
+              <strong>開始</strong>
+            </button>
+          </div>
+
+          <section class="mock-setup" id="mockSetup" hidden aria-label="模擬試験設定">
+            <label>
+              <span>問題数</span>
+              <select id="mockQuestionCount">
+                <option value="20">20問</option>
+                <option value="50" selected>50問</option>
+                <option value="100">100問</option>
+              </select>
+            </label>
+            <label>
+              <span>制限時間</span>
+              <select id="mockMinutes">
+                <option value="20">20分</option>
+                <option value="50" selected>50分</option>
+                <option value="100">100分</option>
+              </select>
+            </label>
+            <button class="primary" id="startMockButton" type="button">模擬試験を開始</button>
+          </section>
 
           <article class="question-card" id="questionCard">
             <div class="question-meta">
@@ -92,6 +137,14 @@
               <h3>解説</h3>
               <p id="explanationText"></p>
             </section>
+            <section class="confidence-panel" id="confidencePanel" hidden aria-label="回答の自信度">
+              <span>この問題の手応え</span>
+              <div>
+                <button type="button" data-confidence="confident">😎 自信あり</button>
+                <button type="button" data-confidence="unsure">🤔 あやしい</button>
+                <button type="button" data-confidence="guess">😭 勘</button>
+              </div>
+            </section>
             <div class="actions">
               <button class="secondary review-action" id="reviewButton" type="button">
                 <span aria-hidden="true">☆</span>
@@ -104,6 +157,9 @@
               <button class="primary" id="nextButton" type="button" disabled>
                 次の問題
                 <span aria-hidden="true">›</span>
+              </button>
+              <button class="secondary similar-action" id="similarButton" type="button" hidden>
+                関連問題をまとめて解く
               </button>
             </div>
           </article>
@@ -137,6 +193,34 @@
             </div>
             <button class="text-button" id="clearHistoryButton" type="button">履歴を消去</button>
           </div>
+          <section class="study-dashboard" aria-label="学習計画">
+            <div class="plan-fields">
+              <label>
+                <span>試験日</span>
+                <input id="examDateInput" type="date">
+              </label>
+              <label>
+                <span>1日の目標</span>
+                <input id="dailyTargetInput" type="number" min="1" max="500" step="1" inputmode="numeric">
+              </label>
+            </div>
+            <div class="plan-metrics">
+              <div><strong id="daysRemaining">未設定</strong><span>試験まで</span></div>
+              <div><strong id="todayProgress">0 / 20</strong><span>今日の回答</span></div>
+              <div><strong id="dueReviewMetric">0</strong><span>復習期限</span></div>
+            </div>
+            <div class="daily-meter" aria-label="今日の学習達成率"><i id="dailyProgressBar"></i></div>
+            <div class="confidence-metrics" aria-label="自信度別の問題数">
+              <div><strong id="confidentStatCount">0</strong><span>😎 自信あり</span></div>
+              <div><strong id="unsureStatCount">0</strong><span>🤔 あやしい</span></div>
+              <div><strong id="guessStatCount">0</strong><span>😭 勘</span></div>
+              <div><strong id="incorrectStatCount">0</strong><span>不正解</span></div>
+            </div>
+          </section>
+          <div class="weakness-section">
+            <h3>優先して復習する分野</h3>
+            <div id="weaknessList"></div>
+          </div>
           <div class="stats-list" id="statsList"></div>
         </section>
 
@@ -154,7 +238,15 @@
             </button>
             <button class="saved-tile" id="reviewModeButton" type="button">
               <strong id="reviewSavedCount">0</strong>
-              <span>復習リストだけ出題</span>
+              <span>すべての復習問題</span>
+            </button>
+            <button class="saved-tile" id="unsureModeButton" type="button">
+              <strong id="unsureSavedCount">0</strong>
+              <span>あやしい問題</span>
+            </button>
+            <button class="saved-tile" id="guessModeButton" type="button">
+              <strong id="guessSavedCount">0</strong>
+              <span>勘で正解した問題</span>
             </button>
           </div>
           <div class="saved-list" id="savedList"></div>
