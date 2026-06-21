@@ -3110,7 +3110,7 @@ window.WINE_QUESTIONS = [
       "12番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Avizeはコート・デ・ブラン地区の代表的なグラン・クリュです。この地図では12番に相当します。\n②覚え方:「シャンパーニュ→12番」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Avizeはコート・デ・ブラン地区の代表的なグラン・クリュです。\n②要点:AvizeはCôte des Blancs。シャルドネと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-002",
@@ -3124,7 +3124,7 @@ window.WINE_QUESTIONS = [
       "CM"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:RMはRécoltant-Manipulantの略で、自社畑のブドウを用いて自ら醸造する栽培農家を示します。\n②覚え方:「シャンパーニュ→RM」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:RMはRécoltant-Manipulantの略。自社畑ブドウだけを自家醸造。\n②要点:RMはRécoltant-Manipulant。自社畑ブドウだけを自家醸造。\n③比較:NMは購入ブドウも使用可能。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-003",
@@ -3138,7 +3138,7 @@ window.WINE_QUESTIONS = [
       "Pressurage, Tirage, Deuxième Fermentation en Bouteille, Bouchage"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャンパーニュでは圧搾後、瓶内二次発酵へ向けたTirageを行い、瓶内二次発酵を経て最終的に栓をします。\n②覚え方:「シャンパーニュ→Pressurage, Tirage, Deuxième」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:圧搾から瓶内二次発酵、澱抜き、糖分調整、打栓へ進む。\n②要点:収穫・圧搾後に一次発酵、調合、瓶詰め、瓶内二次発酵。\n③比較:Remuage→Dégorgement→Dosage→Bouchageが後半。\n④頻出:Tirageは糖・酵母添加、Dosageは澱抜き後の甘辛調整。"
   },
   {
     "id": "france-champagne-004",
@@ -3152,7 +3152,7 @@ window.WINE_QUESTIONS = [
       "Puisieulx"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:PuisieulxはMontagne de Reims地区に属するグラン・クリュです。\n②覚え方:「シャンパーニュ→Puisieulx」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:PuisieulxはMontagne de Reims地区に属するグラン・クリュです。\n②要点:PuisieulxはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-005",
@@ -3166,7 +3166,7 @@ window.WINE_QUESTIONS = [
       "Cube"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャンパーニュの圧搾で最初に得られる果汁はCuvéeと呼ばれます。その後に得られる部分はTailleです。\n②覚え方:「シャンパーニュ→Cuvée」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:シャンパーニュの圧搾で最初に得られる果汁はCuvéeと呼ばれます。\n②要点:4,000kgからCuvée 2,050L、Taille 500Lを採る。\n③比較:Cuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n④頻出:合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-006",
@@ -3180,7 +3180,7 @@ window.WINE_QUESTIONS = [
       "エペルネ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ランスには歴代フランス王の戴冠式が行われた大聖堂があり、シャンパーニュ地方の重要都市です。\n②覚え方:「シャンパーニュ→ランス」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ランスには歴代フランス王の戴冠式が行われた大聖堂があり、シャンパーニュ地方の重要都市です。\n②要点:ランス大聖堂は歴代フランス王の戴冠式で知られる。\n③比較:エペルネはメゾンが集まる商業中心地として対比。\n④頻出:シャンパーニュの景観・地下カーヴは2015年世界遺産。"
   },
   {
     "id": "france-champagne-007",
@@ -3194,7 +3194,7 @@ window.WINE_QUESTIONS = [
       "格付け100%の村のブドウだけから造られた"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Premier Cruは、格付け90%以上の村のブドウだけから造られたシャンパーニュに表示できます。\n②覚え方:「シャンパーニュ→格付け90%以上の村のブドウだけから造られた」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:Premier Cru表示は旧格付け90〜99%村のブドウだけを使う。\n②要点:旧村格付けはGrand Cru=100%、Premier=90〜99%。\n③比較:Grand Cru 17村に対しPremier Cruは42村。\n④頻出:表示には該当格付け村のブドウだけを使う。"
   },
   {
     "id": "france-champagne-008",
@@ -3208,7 +3208,7 @@ window.WINE_QUESTIONS = [
       "プルニョーロ・ジェンティーレ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シュヴァルツリースリングはムニエの別名です。シャンパーニュの主要3品種はシャルドネ、ピノ・ノワール、ムニエです。\n②覚え方:「シャンパーニュ→シュヴァルツリースリング」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シュヴァルツリースリングはムニエの別名です。\n②要点:シュヴァルツリースリングは設問の製法・地理条件を同時に満たす。\n③比較:産地、品種、製法用語を別々にせず工程でつなぐ。\n④頻出:主要3品種・17 Grand Cru・42 Premier Cruが頻出。"
   },
   {
     "id": "france-champagne-009",
@@ -3222,7 +3222,7 @@ window.WINE_QUESTIONS = [
       "3g/リットル未満"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Pas Doséはドザージュをしない、または極めて少ない辛口表示で、残糖度は3g/リットル未満です。\n②覚え方:「シャンパーニュ→3g/リットル未満」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Pas Doséは残糖3g/リットル未満。\n②要点:3g/L未満はBrut Nature・Pas Dosé・Zéro。\n③比較:Brut 12未満を中心に、Extra Brut 0〜6と区別。\n④頻出:甘口側はSec 17〜32、Demi-Sec 32〜50。"
   },
   {
     "id": "france-champagne-010",
@@ -3236,7 +3236,7 @@ window.WINE_QUESTIONS = [
       "Dosage"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:瓶内二次発酵はDeuxième Fermentation en Bouteilleです。\n②覚え方:「シャンパーニュ→Deuxième Fermentation en Bou」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は定義・特徴が一致しない。"
+    "explanation": "①理由:瓶内二次発酵の仏語はDeuxième Fermentation en Bouteille。\n②要点:直訳は『瓶の中での第二発酵』。工程名を意味から復元できる。\n③比較:Tirageの後、澱上熟成の前に行う。\n④頻出:糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
   },
   {
     "id": "france-champagne-011",
@@ -3250,7 +3250,7 @@ window.WINE_QUESTIONS = [
       "アルコール発酵"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Vendangeは収穫を意味します。シャンパーニュ製造工程では最初に位置する基本用語です。\n②覚え方:「シャンパーニュ→収穫」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Vendangeは収穫を意味します。シャンパーニュ製造工程では最初に位置する基本用語です。\n②要点:Vendange＝収穫。房のまま収穫し、次に圧搾へ進む。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-012",
@@ -3264,7 +3264,7 @@ window.WINE_QUESTIONS = [
       "Coteaux Champenois"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Coteaux Champenoisはシャンパーニュ地方の非発泡ワインのAOCで、赤、ロゼ、白が生産されます。\n②覚え方:「シャンパーニュ→Coteaux Champenois」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Coteaux Champenoisは赤・白・ロゼを認める非発泡AOC。\n②要点:Champagneは白・ロゼの発泡。非発泡は別AOCで扱う。\n③比較:Coteaux Champenoisは赤白ロゼ、Rosé des Riceysはロゼのみ。\n④頻出:Rosé des Riceysの認可品種はピノ・ノワールのみ。"
   },
   {
     "id": "france-champagne-013",
@@ -3278,7 +3278,7 @@ window.WINE_QUESTIONS = [
       "12g/リットル未満"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Extra Dryの残糖度は12〜17g/リットルです。名称はDryですが、Brutより残糖が多い点に注意します。\n②覚え方:「シャンパーニュ→12〜17g/リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Extra Dryの残糖度は12〜17g/リットルです。\n②要点:12〜17g/リットルはExtra Dryの範囲。\n③比較:Brut 12未満を中心に、Extra Brut 0〜6と区別。\n④頻出:甘口側はSec 17〜32、Demi-Sec 32〜50。"
   },
   {
     "id": "france-champagne-014",
@@ -3292,7 +3292,7 @@ window.WINE_QUESTIONS = [
       "一族の所有するブドウ畑で収穫された原料を用いて醸造、販売する栽培農家。"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:SRはSociété de Récoltantsの略で、一族の所有するブドウ畑で収穫された原料を用いて醸造、販売する…\n②覚え方:「シャンパーニュ→一族の所有するブドウ畑で収穫された原料を用いて醸造、販売」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:SRはSociété de Récoltantsの略。一族の畑のブドウで醸造・販売。\n②要点:SRはSociété de Récoltants。一族の畑のブドウで醸造・販売。\n③比較:RMは単独の栽培醸造家を示す。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-015",
@@ -3306,7 +3306,7 @@ window.WINE_QUESTIONS = [
       "Ambonnay"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:AvizeはCôte des Blancs地区に属するグラン・クリュです。シャルドネの産地として重要です。\n②覚え方:「シャンパーニュ→Avize」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:AvizeはCôte des Blancs地区に属するグラン・クリュです。\n②要点:AvizeはCôte des Blancs。シャルドネと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-016",
@@ -3320,7 +3320,7 @@ window.WINE_QUESTIONS = [
       "Pinot Gris"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Voltisは、気候変動への適応を目的として2022年にシャンパーニュ地方で使用が認められた品種です。\n②覚え方:「2022年に気候変動への適→Voltis」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Voltisは気候変動への適応を目的に2022年に使用認可。\n②要点:耐病性を備える品種で、主要3品種とは別枠。\n③比較:栽培面積・ブレンド比率に上限がある。\n④頻出:2025年には突然変異種Chardonnay Roseも認定。"
   },
   {
     "id": "france-champagne-017",
@@ -3334,7 +3334,7 @@ window.WINE_QUESTIONS = [
       "約16度"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャンパーニュ地方の年間平均気温は約11度です。冷涼な気候が高酸度のブドウを生みます。\n②覚え方:「シャンパーニュ→約11度」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方の年間平均気温は約11度です。冷涼な気候が高酸度のブドウを生みます。\n②要点:パリの東約140km、Marne県が畑の約7割。\n③比較:栽培面積約3.1万ha、平均気温約11℃。\n④頻出:大手メゾンは出荷量の約7割を担う。"
   },
   {
     "id": "france-champagne-018",
@@ -3348,7 +3348,7 @@ window.WINE_QUESTIONS = [
       "スーパーやレストランなどのプライベートラベルが貼られたシャンパーニュ。"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:MAはMarque d'Acheteurの略で、スーパーやレストランなどのプライベートラベルが貼られたシャンパーニュ…\n②覚え方:「シャンパーニュ→スーパーやレストランなどのプライベートラベルが貼られたシ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:MAはMarque d'Acheteurの略。流通・飲食店などの買い手ブランド。\n②要点:MAはMarque d'Acheteur。流通・飲食店などの買い手ブランド。\n③比較:NDは完成酒を買う流通業者の登録。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-019",
@@ -3362,7 +3362,7 @@ window.WINE_QUESTIONS = [
       "12〜17g/リットル"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Secの残糖度は17〜32g/リットルです。Extra Dryより甘く、Demi-Secより辛口側に位置します。\n②覚え方:「シャンパーニュ→17〜32g/リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Secの残糖度は17〜32g/リットルです。\n②要点:17〜32g/リットルはSecの範囲。\n③比較:Brut 12未満を中心に、Extra Brut 0〜6と区別。\n④頻出:甘口側はSec 17〜32、Demi-Sec 32〜50。"
   },
   {
     "id": "france-champagne-020",
@@ -3376,7 +3376,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワールとムニエ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Blanc de Noirsは黒ブドウから造る白のシャンパーニュで、ピノ・ノワールとムニエを使用できます。\n②覚え方:「シャンパーニュ→ピノ・ノワールとムニエ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は主要品種・別名が違う。"
+    "explanation": "①理由:Blanc de Noirsは黒ブドウのピノ・ノワールとムニエで造る白。\n②要点:ピノ・ノワール38%、ムニエ31%、シャルドネ31%が3本柱。\n③比較:黒2品種のBlanc de Noirs、白のBlanc de Blancsを区別。\n④頻出:ピノは骨格、ムニエは果実味、シャルドネは繊細さと長熟性。"
   },
   {
     "id": "france-champagne-021",
@@ -3395,7 +3395,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:AmbonnayはMontagne de Reims地区の代表的なグラン・クリュです。この地図では1番に相当します。\n②覚え方:「シャンパーニュ→1番」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:AmbonnayはMontagne de Reims地区の代表的なグラン・クリュです。\n②要点:AmbonnayはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-022",
@@ -3409,7 +3409,7 @@ window.WINE_QUESTIONS = [
       "ロゼの非発泡"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Rosé des Riceysは、シャンパーニュ地方で造られるロゼの非発泡ワインのAOCです。\n②覚え方:「Rosé des Riceys→ロゼの非発泡」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Rosé des Riceysはピノ・ノワールで造る非発泡ロゼAOC。\n②要点:Champagneは白・ロゼの発泡。非発泡は別AOCで扱う。\n③比較:Coteaux Champenoisは赤白ロゼ、Rosé des Riceysはロゼのみ。\n④頻出:Rosé des Riceysの認可品種はピノ・ノワールのみ。"
   },
   {
     "id": "france-champagne-023",
@@ -3423,7 +3423,7 @@ window.WINE_QUESTIONS = [
       "Vendange"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Bouchageは打栓を意味します。Deuxième Fermentation en Bouteilleは瓶内二次発…\n②覚え方:「シャンパーニュ→Bouchage」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は定義・特徴が一致しない。"
+    "explanation": "①理由:Bouchageは打栓を意味し、コルクと留め金で最終密栓する。\n②要点:Bouchage＝打栓。コルクと留め金で最終密栓する。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-024",
@@ -3437,7 +3437,7 @@ window.WINE_QUESTIONS = [
       "28万ヘクタール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャンパーニュ地方の2023年のブドウ栽培面積は、選択肢の中では3.1万ヘクタールが最も近い値です。\n②覚え方:「2023年のブドウ栽培面積→3.1万ヘクタール」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:2023年の栽培面積は約3.1万ha。\n②要点:パリの東約140km、Marne県が畑の約7割。\n③比較:栽培面積約3.1万ha、平均気温約11℃。\n④頻出:大手メゾンは出荷量の約7割を担う。"
   },
   {
     "id": "france-champagne-025",
@@ -3451,7 +3451,7 @@ window.WINE_QUESTIONS = [
       "3"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャンパーニュ地方のプルミエ・クリュの村は42です。グラン・クリュ17村とあわせて整理します。\n②覚え方:「シャンパーニュ→42」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方のプルミエ・クリュの村は42です。\n②要点:旧村格付けはGrand Cru=100%、Premier=90〜99%。\n③比較:Grand Cru 17村に対しPremier Cruは42村。\n④頻出:表示には該当格付け村のブドウだけを使う。"
   },
   {
     "id": "france-champagne-026",
@@ -3465,7 +3465,7 @@ window.WINE_QUESTIONS = [
       "CM"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:CMはCoopérative de Manipulationの略で、加盟する栽培農家が持ち込んだブドウから醸造、販売…\n②覚え方:「シャンパーニュ→CM」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:CMはCoopérative de Manipulationの略。加盟農家のブドウを醸造する協同組合。\n②要点:CMはCoopérative de Manipulation。加盟農家のブドウを醸造する協同組合。\n③比較:RCは組合へ委託する栽培農家。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-027",
@@ -3479,7 +3479,7 @@ window.WINE_QUESTIONS = [
       "Cuvéeは酸の豊富なピュアな果汁であり、長い熟成に耐えうる。"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Cuvéeは最初に搾汁される酸の豊富なピュアな果汁で、長い熟成に耐えうるとされます。\n②覚え方:「シャンパーニュ→Cuvéeは酸の豊富なピュアな果汁であり、長い熟成に耐え」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Cuvéeは最初に搾汁される酸の豊富なピュアな果汁で、長い熟成に耐えうるとされます。\n②要点:4,000kgからCuvée 2,050L、Taille 500Lを採る。\n③比較:Cuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n④頻出:合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-028",
@@ -3498,7 +3498,7 @@ window.WINE_QUESTIONS = [
       "15番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Mailly-ChampagneはMontagne de Reims地区のグラン・クリュです。\n②覚え方:「シャンパーニュ→5番」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mailly-ChampagneはMontagne de ReimsのGrand Cru。\n②要点:Mailly-ChampagneはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-029",
@@ -3512,7 +3512,7 @@ window.WINE_QUESTIONS = [
       "格付け90%以上の村のブドウだけから造られた"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Grand Cruは、格付け100%の村のブドウだけから造られたシャンパーニュに表示できます。\n②覚え方:「シャンパーニュ→格付け100%の村のブドウだけから造られた」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:Grand Cru表示は旧格付け100%村のブドウだけを使う。\n②要点:旧村格付けはGrand Cru=100%、Premier=90〜99%。\n③比較:Grand Cru 17村に対しPremier Cruは42村。\n④頻出:表示には該当格付け村のブドウだけを使う。"
   },
   {
     "id": "france-champagne-030",
@@ -3526,7 +3526,7 @@ window.WINE_QUESTIONS = [
       "ジュラ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャンパーニュ地方はパリから約140km東に位置する冷涼な産地です。\n②覚え方:「シャンパーニュ→シャンパーニュ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方はパリから約140km東に位置する冷涼な産地です。\n②要点:パリの東約140km、Marne県が畑の約7割。\n③比較:栽培面積約3.1万ha、平均気温約11℃。\n④頻出:大手メゾンは出荷量の約7割を担う。"
   },
   {
     "id": "france-champagne-031",
@@ -3540,7 +3540,7 @@ window.WINE_QUESTIONS = [
       "0〜6g/リットル"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Dosage ZéroはPas Doséと同様、残糖度3g/リットル未満の表示です。\n②覚え方:「シャンパーニュ→3g/リットル未満」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Dosage ZéroはPas Doséと同様、残糖度3g/リットル未満の表示です。\n②要点:Dosage＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-032",
@@ -3554,7 +3554,7 @@ window.WINE_QUESTIONS = [
       "Marne"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャンパーニュ地方のブドウ畑の約7割はMarne県にあります。Reimsは都市名です。\n②覚え方:「シャンパーニュ→Marne」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方のブドウ畑の約7割はMarne県にあります。Reimsは都市名です。\n②要点:Marneは設問の製法・地理条件を同時に満たす。\n③比較:産地、品種、製法用語を別々にせず工程でつなぐ。\n④頻出:主要3品種・17 Grand Cru・42 Premier Cruが頻出。"
   },
   {
     "id": "france-champagne-033",
@@ -3573,7 +3573,7 @@ window.WINE_QUESTIONS = [
       "Cramant"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:この地図で3番に相当するグラン・クリュはBouzyです。Montagne de Reims地区の重要な村です。\n②覚え方:「シャンパーニュ→Bouzy」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:この地図で3番に相当するグラン・クリュはBouzyです。\n②要点:BouzyはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-034",
@@ -3587,7 +3587,7 @@ window.WINE_QUESTIONS = [
       "赤白の非発泡"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:AOC Champagneで生産できるのは、白またはロゼの発泡ワインです。非発泡ワインは別AOCで整理します。\n②覚え方:「Champagne→ロゼ白の発泡」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:AOC Champagneで生産できるのは、白またはロゼの発泡ワインです。\n②要点:Champagneは白・ロゼの発泡。非発泡は別AOCで扱う。\n③比較:Coteaux Champenoisは赤白ロゼ、Rosé des Riceysはロゼのみ。\n④頻出:Rosé des Riceysの認可品種はピノ・ノワールのみ。"
   },
   {
     "id": "france-champagne-035",
@@ -3601,7 +3601,7 @@ window.WINE_QUESTIONS = [
       "4000キロのブドウから500リットル"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャンパーニュの圧搾では、4000キロのブドウからCuvée 2050リットル、Taille 500リットルまでが認…\n②覚え方:「シャンパーニュ→4000キロのブドウから500リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Tailleは4,000kgのブドウから最大500Lを搾る。\n②要点:4,000kgからCuvée 2,050L、Taille 500Lを採る。\n③比較:Cuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n④頻出:合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-036",
@@ -3615,7 +3615,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:ピノ・ノワールはシャンパーニュの主要3品種の中で栽培面積が大きく、ワインにボディと骨格をもたらします。\n②覚え方:「38%を占める→ピノ・ノワール」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ピノ・ノワールが設問の栽培比率と酒質への役割に合う主要品種。\n②要点:ピノ・ノワール38%、ムニエ31%、シャルドネ31%が3本柱。\n③比較:黒2品種のBlanc de Noirs、白のBlanc de Blancsを区別。\n④頻出:ピノは骨格、ムニエは果実味、シャルドネは繊細さと長熟性。"
   },
   {
     "id": "france-champagne-037",
@@ -3629,7 +3629,7 @@ window.WINE_QUESTIONS = [
       "二次発酵のための瓶詰めから出荷まで最低15ヶ月"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Non Millésiméのシャンパーニュは、二次発酵のための瓶詰めから出荷まで最低15ヶ月の熟成が必要です。\n②覚え方:「シャンパーニュ→二次発酵のための瓶詰めから出荷まで最低15ヶ月」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Non Millésiméは瓶詰めから出荷まで最低15か月熟成する。\n②要点:NVは瓶詰めから出荷まで15か月、うち澱上熟成12か月以上。\n③比較:Vintageは瓶詰めから36か月以上で、NVより長い。\n④頻出:NVは複数年のリザーヴ酒を調合し、メゾンのスタイルを保つ。"
   },
   {
     "id": "france-champagne-038",
@@ -3643,7 +3643,7 @@ window.WINE_QUESTIONS = [
       "アルコール発酵"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Dosageは糖分調整を意味します。澱抜き後に門出のリキュールを加え、甘辛度を調整する工程です。\n②覚え方:「シャンパーニュ→糖分調整」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Dosageは糖分調整を意味します。\n②要点:Dosage＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-039",
@@ -3657,7 +3657,7 @@ window.WINE_QUESTIONS = [
       "Dégorgement"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:マロラクティック発酵はFermentation Malolactiqueです。\n②覚え方:「シャンパーニュ→Fermentation Malolactique」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は定義・特徴が一致しない。"
+    "explanation": "①理由:マロラクティック発酵はFermentation Malolactiqueです。\n②要点:Fermentation Malolactique＝マロラクティック発酵。酸を和らげる任意工程。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-040",
@@ -3671,7 +3671,7 @@ window.WINE_QUESTIONS = [
       "Le Mesnil sur Oger"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:BouzyはMontagne de Reims地区に属する南向きのグラン・クリュで、力強くボディのしっかりしたピノ…\n②覚え方:「シャンパーニュ→Bouzy」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:BouzyはMontagne de ReimsのGrand Cru。地図では地区から絞れる。\n②要点:BouzyはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-041",
@@ -3685,7 +3685,7 @@ window.WINE_QUESTIONS = [
       "一族の所有するブドウ畑で収穫された原料を用いて醸造、販売する栽培農家。"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:NMはNégociant-Manipulantの略で、原料となるブドウを他社から購入し醸造する、いわゆるメゾンを示し…\n②覚え方:「シャンパーニュ→原料となるブドウを他社から購入し醸造する」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:NMはNégociant-Manipulantの略。購入ブドウも使うメゾン。\n②要点:NMはNégociant-Manipulant。購入ブドウも使うメゾン。\n③比較:RMは自社畑ブドウを自家醸造。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-042",
@@ -3699,7 +3699,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ムニエは発芽が遅く、シャンパーニュにフルーティさとしなやかさをもたらす主要品種です。\n②覚え方:「31%→ムニエ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ムニエは発芽が遅く、シャンパーニュにフルーティさとしなやかさをもたらす主要品種です。\n②要点:ピノ・ノワール38%、ムニエ31%、シャルドネ31%が3本柱。\n③比較:黒2品種のBlanc de Noirs、白のBlanc de Blancsを区別。\n④頻出:ピノは骨格、ムニエは果実味、シャルドネは繊細さと長熟性。"
   },
   {
     "id": "france-champagne-043",
@@ -3713,7 +3713,7 @@ window.WINE_QUESTIONS = [
       "最低9ヶ月"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Non Millésiméでは、二次発酵のための瓶詰めから澱抜きまで、澱とともに最低12ヶ月熟成させます。\n②覚え方:「シャンパーニュ→最低12ヶ月」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Non Millésiméの澱上熟成は最低12か月。\n②要点:NVは瓶詰めから出荷まで15か月、うち澱上熟成12か月以上。\n③比較:Vintageは瓶詰めから36か月以上で、NVより長い。\n④頻出:NVは複数年のリザーヴ酒を調合し、メゾンのスタイルを保つ。"
   },
   {
     "id": "france-champagne-044",
@@ -3727,7 +3727,7 @@ window.WINE_QUESTIONS = [
       "2000キロのブドウから2050リットル"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャンパーニュの圧搾では、4000キロのブドウから最大2550リットルまでの搾汁が認められます。\n②覚え方:「シャンパーニュ→4000キロのブドウから2550リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:4,000kgから認められる合計搾汁量は最大2,550L。\n②要点:4,000kgからCuvée 2,050L、Taille 500Lを採る。\n③比較:Cuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n④頻出:合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-045",
@@ -3741,7 +3741,7 @@ window.WINE_QUESTIONS = [
       "Verzy"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:AÿはVallée de la Marne地区に属する代表的なグラン・クリュです。\n②覚え方:「シャンパーニュ→Aÿ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:AÿはVallée de la Marne地区に属する代表的なグラン・クリュです。\n②要点:AÿはVallée de la Marne。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-046",
@@ -3760,7 +3760,7 @@ window.WINE_QUESTIONS = [
       "Bouzy"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:この地図で13番に相当するグラン・クリュはChouillyです。Côte des Blancs地区の重要な村です。\n②覚え方:「シャンパーニュ→Chouilly」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:この地図で13番に相当するグラン・クリュはChouillyです。\n②要点:ChouillyはCôte des Blancs。シャルドネと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-047",
@@ -3774,7 +3774,7 @@ window.WINE_QUESTIONS = [
       "Remuage"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:動瓶はRemuageです。澱を瓶口に集めるため、瓶を少しずつ回転させながら倒立させていく工程です。\n②覚え方:「シャンパーニュ→Remuage」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は定義・特徴が一致しない。"
+    "explanation": "①理由:Remuageは動瓶を意味し、澱を瓶口へ集めるため瓶を回転・傾斜させる。\n②要点:Remuage＝動瓶。澱を瓶口へ集めるため瓶を回転・傾斜させる。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-048",
@@ -3788,7 +3788,7 @@ window.WINE_QUESTIONS = [
       "圧搾"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Assemblageは調合を意味します。複数のワインを組み合わせ、シャンパーニュの味わいを整える重要な工程です。\n②覚え方:「シャンパーニュ→調合」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Assemblageは調合を意味し、品種・村・収穫年やリザーヴ酒を組み合わせる。\n②要点:Assemblage＝調合。品種・村・収穫年やリザーヴ酒を組み合わせる。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-049",
@@ -3807,7 +3807,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:VerzyはMontagne de Reims地区のグラン・クリュです。この地図では9番に相当します。\n②覚え方:「シャンパーニュ→9番」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:VerzyはMontagne de Reims地区のグラン・クリュです。\n②要点:VerzyはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-050",
@@ -3821,7 +3821,7 @@ window.WINE_QUESTIONS = [
       "70〜100%"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャンパーニュ地方では、かつて村（クリュ）が80〜100%の範囲で格付けされていました。\n②覚え方:「シャンパーニュ→80〜100%」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方では、かつて村（クリュ）が80〜100%の範囲で格付けされていました。\n②要点:旧村格付けはGrand Cru=100%、Premier=90〜99%。\n③比較:Grand Cru 17村に対しPremier Cruは42村。\n④頻出:表示には該当格付け村のブドウだけを使う。"
   },
   {
     "id": "france-champagne-051",
@@ -3835,7 +3835,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール、ムニエ、シャルドネ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Rosé des Riceysは、ピノ・ノワールのみから造られるロゼの非発泡ワインです。\n②覚え方:「Rosé des Riceys→ピノ・ノワールのみ」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Rosé des Riceysの認可品種はピノ・ノワールのみ。\n②要点:Champagneは白・ロゼの発泡。非発泡は別AOCで扱う。\n③比較:Coteaux Champenoisは赤白ロゼ、Rosé des Riceysはロゼのみ。\n④頻出:Rosé des Riceysの認可品種はピノ・ノワールのみ。"
   },
   {
     "id": "france-champagne-052",
@@ -3849,7 +3849,7 @@ window.WINE_QUESTIONS = [
       "自社畑で収穫されたブドウのみを用い、自ら醸造も行う栽培農家。"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:RCはRécoltant-Coopérateurの略で、協同組合に醸造を委託し、相当量のシャンパーニュを買い取って自…\n②覚え方:「シャンパーニュ→協同組合にブドウを持ち込み醸造を委託、相当量のシャンパー」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:RCはRécoltant-Coopérateurの略。組合に醸造委託し自社銘柄で販売。\n②要点:RCはRécoltant-Coopérateur。組合に醸造委託し自社銘柄で販売。\n③比較:CMは醸造・販売を担う協同組合。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-053",
@@ -3863,7 +3863,7 @@ window.WINE_QUESTIONS = [
       "自社畑で収穫されたブドウのみを用い、自ら醸造も行う栽培農家。"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:NDはNégociant-Distributeurの略で、完成したシャンパーニュを購入し、自社ブランドのラベルを貼っ…\n②覚え方:「シャンパーニュ→完成したシャンパーニュを購入し、自社ブランドのラベルを貼」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:NDはNégociant-Distributeurの略。完成酒を買い自社ラベルで販売。\n②要点:NDはNégociant-Distributeur。完成酒を買い自社ラベルで販売。\n③比較:NMはブドウを仕入れて醸造する。\n④頻出:略号は『誰のブドウ・誰が醸造・誰が販売』で判別。"
   },
   {
     "id": "france-champagne-054",
@@ -3877,7 +3877,7 @@ window.WINE_QUESTIONS = [
       "約3割"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャンパーニュ地方では、大手メゾンの出荷量が全体の約7割を占めます。\n②覚え方:「シャンパーニュ→約7割」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方では、大手メゾンの出荷量が全体の約7割を占めます。\n②要点:パリの東約140km、Marne県が畑の約7割。\n③比較:栽培面積約3.1万ha、平均気温約11℃。\n④頻出:大手メゾンは出荷量の約7割を担う。"
   },
   {
     "id": "france-champagne-055",
@@ -3896,7 +3896,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Le Mesnil sur OgerはCôte des Blancs地区のグラン・クリュです。\n②覚え方:「シャンパーニュ→15番」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Le Mesnil sur OgerはCôte des BlancsのGrand Cru。\n②要点:Le Mesnil sur OgerはCôte des Blancs。シャルドネと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-056",
@@ -3910,7 +3910,7 @@ window.WINE_QUESTIONS = [
       "8気圧"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャンパーニュでは、24グラム/リットルの糖分により瓶内二次発酵で約6気圧のガス圧が得られます。\n②覚え方:「シャンパーニュ→6気圧」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Tirageの糖24g/Lから瓶内二次発酵で約6気圧を得る。\n②要点:Tirageで糖24g/Lを加えると瓶内二次発酵で約6気圧を得る。\n③比較:Dosageは澱抜き後の甘辛調整で、Tirageとは目的が違う。\n④頻出:瓶内二次発酵後のアルコール上昇は約1.2%。"
   },
   {
     "id": "france-champagne-057",
@@ -3924,7 +3924,7 @@ window.WINE_QUESTIONS = [
       "Côte des Bars"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Montagne de Reimsはランスとエペルネの間に位置する小高い丘の周辺に広がり、ピノ・ノワールが多く植えら…\n②覚え方:「シャンパーニュ→Montagne de Reims」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Montagne de Reimsはランスとエペルネ間の丘陵地。\n②要点:ピノ・ノワールが多く、力強さと骨格を与える。\n③比較:Côte des Blancsはシャルドネ、Vallée de la Marneはムニエも重要。\n④頻出:北向きのVerzyは端正、南向きのBouzyは力強い。"
   },
   {
     "id": "france-champagne-058",
@@ -3938,7 +3938,7 @@ window.WINE_QUESTIONS = [
       "2000キロのブドウから2050リットル"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Cuvéeとして許される最大の搾汁量は、4000キロのブドウから2050リットルです。\n②覚え方:「シャンパーニュ→4000キロのブドウから2050リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Cuvéeとして許される最大の搾汁量は、4000キロのブドウから2050リットルです。\n②要点:4,000kgからCuvée 2,050L、Taille 500Lを採る。\n③比較:Cuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n④頻出:合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-059",
@@ -3952,7 +3952,7 @@ window.WINE_QUESTIONS = [
       "瓶内二次発酵"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Deuxième Fermentation en Bouteilleは瓶内二次発酵を意味します。\n②覚え方:「シャンパーニュ→瓶内二次発酵」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Deuxième Fermentation en Bouteilleは瓶内二次発酵。\n②要点:密閉瓶内で炭酸ガスをワインに溶け込ませる工程。\n③比較:Tirageの後、澱上熟成の前に行う。\n④頻出:糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
   },
   {
     "id": "france-champagne-060",
@@ -3966,7 +3966,7 @@ window.WINE_QUESTIONS = [
       "Bouzy"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:VerzyはMontagne de Reims地区に属する北向きのグラン・クリュで、エレガントで引き締まったピノ・ノ…\n②覚え方:「シャンパーニュ→Verzy」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:VerzyはMontagne de ReimsのGrand Cru。地図では地区から絞れる。\n②要点:VerzyはMontagne de Reims。ピノ・ノワールと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-061",
@@ -3980,7 +3980,7 @@ window.WINE_QUESTIONS = [
       "80〜89%"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャンパーニュ地方でプルミエクリュと認められている42村の格付けは90〜99%です。\n②覚え方:「シャンパーニュ→90〜99%」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方でプルミエクリュと認められている42村の格付けは90〜99%です。\n②要点:90〜99%は設問の製法・地理条件を同時に満たす。\n③比較:産地、品種、製法用語を別々にせず工程でつなぐ。\n④頻出:主要3品種・17 Grand Cru・42 Premier Cruが頻出。"
   },
   {
     "id": "france-champagne-062",
@@ -3999,7 +3999,7 @@ window.WINE_QUESTIONS = [
       "Verzenay"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:この地図で16番に相当するグラン・クリュはOgerです。Côte des Blancs地区の重要な村です。\n②覚え方:「シャンパーニュ→Oger」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:この地図で16番に相当するグラン・クリュはOgerです。\n②要点:OgerはCôte des Blancs。シャルドネと結び付ける。\n③比較:コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\n④頻出:Grand Cruは17村、Premier Cruは42村。"
   },
   {
     "id": "france-champagne-063",
@@ -4013,7 +4013,7 @@ window.WINE_QUESTIONS = [
       "0〜6g/リットル"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Extra Brutの残糖度は0〜6g/リットルです。Brut NatureやPas Doséより広い範囲の辛口表示…\n②覚え方:「シャンパーニュ→0〜6g/リットル」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Extra Brutの残糖度は0〜6g/リットルです。\n②要点:0〜6g/リットルはExtra Brutの範囲。\n③比較:Brut 12未満を中心に、Extra Brut 0〜6と区別。\n④頻出:甘口側はSec 17〜32、Demi-Sec 32〜50。"
   },
   {
     "id": "france-champagne-064",
@@ -4027,7 +4027,7 @@ window.WINE_QUESTIONS = [
       "18グラム"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Liqueur de Tirageとして添加される糖分は1リットルあたり24グラムです。\n②覚え方:「1リットルあたりどれくらい→24グラム」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Liqueur de Tirageとして添加される糖分は1リットルあたり24グラムです。\n②要点:Tirage＝瓶詰め。糖と酵母を加えて瓶内二次発酵へ導く。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-065",
@@ -4041,7 +4041,7 @@ window.WINE_QUESTIONS = [
       "収穫"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Pressurageは圧搾を意味します。収穫したブドウから果汁を搾る工程です。\n②覚え方:「シャンパーニュ→圧搾」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は数値・時期の規定が違う。"
+    "explanation": "①理由:Pressurageは圧搾を意味します。収穫したブドウから果汁を搾る工程です。\n②要点:Pressurage＝圧搾。4,000kgからCuvéeとTailleを採る。\n③比較:Tirageは二次発酵前、Dosageは澱抜き後。\n④頻出:工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-066",
@@ -4055,7 +4055,7 @@ window.WINE_QUESTIONS = [
       "砂質"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャンパーニュ地方の主な土壌は白亜質です。保水性と排水性をあわせ持ち、冷涼な産地のブドウ栽培に関わります。\n②覚え方:「シャンパーニュ→白亜質」で固定。\n③関連頻出:主要品種／製法／熟成規定\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャンパーニュ地方の主な土壌は白亜質です。\n②要点:白亜質は多孔質で排水と保水を両立し、根へ水分を供給。\n③比較:南部Aubeは粘土質・泥灰質が増え、中心部と異なる。\n④頻出:年平均約11℃の冷涼さが高い酸を保つ。"
   },
   {
     "id": "france-bourgogne-aoc-001",
@@ -4069,7 +4069,7 @@ window.WINE_QUESTIONS = [
       "ロゼワインのみ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Pommardはコート・ド・ボーヌ地区の村名AOCで、生産できるワインは赤ワインのみです。\n②覚え方:「ポマール→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pommardはコート・ド・ボーヌ地区の村名AOCで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-002",
@@ -4083,7 +4083,7 @@ window.WINE_QUESTIONS = [
       "Fixin, Morey-Saint-Denis, Chambolle-Musigny, Vosne-Romanée"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:コート・ド・ニュイでは、北からFixin、Morey-Saint-Denis、Chambolle-Musigny、V…\n②覚え方:「ブルゴーニュ→Fixin, Morey-Saint-Denis, Ch」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Fixin→Morey-Saint-Denis→Chambolle-Musigny→Vosne-Romanéeの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-003",
@@ -4104,7 +4104,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:この選択肢の中ではGevrey-Chambertinが赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Gevrey-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他7択は認可タイプ・規定が違う。"
+    "explanation": "①理由:この選択肢の中ではGevrey-Chambertinが赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Meursaultは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-004",
@@ -4118,7 +4118,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Côte de Brouillyはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②覚え方:「コート・ド・ブルイィ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Côte de Brouillyはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-005",
@@ -4132,7 +4132,7 @@ window.WINE_QUESTIONS = [
       "ロゼワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Nuits-Saint-Georgesは村名AOCで、赤ワインと白ワインの生産が認められています。\n②覚え方:「ニュイ・サン・ジョルジュ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Nuits-Saint-Georgesは村名AOCで、赤ワインと白ワインの生産が認められています。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-006",
@@ -4146,7 +4146,7 @@ window.WINE_QUESTIONS = [
       "ガメイ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Saint-Brisはブルゴーニュでは珍しく、ソーヴィニョン・ブランを用いる白ワインのAOCです。\n②覚え方:「サン・ブリ→ソーヴィニョン・ブラン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Brisはブルゴーニュでは珍しく、ソーヴィニョン・ブランを用いる白ワインのAOCです。\n②要点:赤Pinot Noir、白Chardonnay、BeaujolaisのGamayが三本柱。\n③比較:Saint-BrisのSauvignon、BouzeronのAligotéは例外。\n④頻出:Bourgogne AligotéとBourgogne Passe-Tout-Grainsも頻出。"
   },
   {
     "id": "france-bourgogne-aoc-007",
@@ -4160,7 +4160,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Rullyはコート・シャロネーズ地区の村名AOCです。\n②覚え方:「リュリー→コート・シャロネーズ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Rullyはコート・シャロネーズ地区の村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-008",
@@ -4174,7 +4174,7 @@ window.WINE_QUESTIONS = [
       "62%"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ボージョレ地区を除くブルゴーニュ地方では、ピノ・ノワールの栽培比率は選択肢の中では39.5%です。\n②覚え方:「ブルゴーニュ→39.5%」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボージョレ地区を除くブルゴーニュ地方では、ピノ・ノワールの栽培比率は選択肢の中では39.5%です。\n②要点:赤Pinot Noir、白Chardonnay、BeaujolaisのGamayが三本柱。\n③比較:Saint-BrisのSauvignon、BouzeronのAligotéは例外。\n④頻出:Bourgogne AligotéとBourgogne Passe-Tout-Grainsも頻出。"
   },
   {
     "id": "france-bourgogne-aoc-009",
@@ -4188,7 +4188,7 @@ window.WINE_QUESTIONS = [
       "約160個"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ブルゴーニュ地方には多くのAOCがあり、総数は約80個です。\n②覚え方:「ブルゴーニュ→約80個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュ地方には多くのAOCがあり、総数は約80個です。\n②要点:約80個をAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-010",
@@ -4210,7 +4210,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Chorey-lès-BeauneとMercureyは、赤ワインと白ワインの生産が認められているAOCです。\n②覚え方:「ブルゴーニュ→Chorey-lès-Beaune・Mercurey」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Chorey-lès-BeauneとMercureyは、赤ワインと白ワインの生産が認められているAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Irancyは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-011",
@@ -4224,7 +4224,7 @@ window.WINE_QUESTIONS = [
       "Saint-Bris, Saint-Amour, Fixin, Bouzeron"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:北から見ると、Saint-Bris、Santenay、Viré-Clessé、Brouillyの順になります。\n②覚え方:「ブルゴーニュ→Saint-Bris, Santenay, Viré-C」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Bris→Santenay→Viré-Clessé→Brouillyの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-012",
@@ -4238,7 +4238,7 @@ window.WINE_QUESTIONS = [
       "234万ヘクトリットル"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ボージョレ地区を除くブルゴーニュ地方の年間ワイン生産量は、選択肢の中では143万ヘクトリットルが最も近い値です。\n②覚え方:「ブルゴーニュ→143万ヘクトリットル」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボージョレ地区を除くブルゴーニュ地方の年間ワイン生産量は、選択肢の中では143万ヘクトリットルが最も近い値です。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-013",
@@ -4257,7 +4257,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:この選択肢の中でマコネ地区の村名AOCに該当するのはPouilly-Vinzellesです。\n②覚え方:「ブルゴーニュ→Pouilly-Vinzelles」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他5択は産地・位置が違う。"
+    "explanation": "①理由:この選択肢の中でマコネ地区の村名AOCに該当するのはPouilly-Vinzellesです。\n②要点:Pouilly-VinzellesをMâconnaisの村・AOCとして地図に置く。\n③比較:Montagnyは白のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-014",
@@ -4279,7 +4279,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:VolnayとJuliénasは赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Volnay・Juliénas」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:VolnayとJuliénasは赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Vézelayは白のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-015",
@@ -4293,7 +4293,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Auxey-Duressesは赤ワインと白ワインの生産が認められている村名AOCです。\n②覚え方:「オーセ・デュレス→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Auxey-Duressesは赤ワインと白ワインの生産が認められている村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-016",
@@ -4315,7 +4315,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:MeursaultとMonthélieは、赤ワインと白ワインの生産が認められているAOCです。\n②覚え方:「ブルゴーニュ→Meursault・Monthélie」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:MeursaultとMonthélieは、赤ワインと白ワインの生産が認められているAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Irancyは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-017",
@@ -4329,7 +4329,7 @@ window.WINE_QUESTIONS = [
       "Appellation Nationale"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ブルゴーニュのAOC階層で最も広域かつ基礎に位置するのはAppellation Régionaleです。\n②覚え方:「ブルゴーニュ→Appellation Régionale」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュのAOC階層で最も広域かつ基礎に位置するのはAppellation Régionaleです。\n②要点:Appellation RégionaleをAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-018",
@@ -4351,7 +4351,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Saint-BrisとPouilly-Lochéは白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Saint-Bris・Pouilly-Loché」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Saint-BrisとPouilly-Lochéは白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Volnayは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-019",
@@ -4365,7 +4365,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Beaujolais-Villagesでは、赤・白・ロゼワインの生産が認められています。\n②覚え方:「ボージョレ・ヴィラージュ→赤・白・ロゼワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beaujolais-Villagesでは、赤・白・ロゼワインの生産が認められています。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-020",
@@ -4379,7 +4379,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Vougeotは赤ワインと白ワインの生産が認められている村名AOCです。\n②覚え方:「ヴージョ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Vougeotは赤ワインと白ワインの生産が認められている村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-021",
@@ -4401,7 +4401,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Côte de BrouillyとBlagnyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Côte de Brouilly・Blagny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Côte de BrouillyとBlagnyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:Beaujolaisの村名クリュはGamay主体の赤。\n③比較:Marangesは赤白。\n④頻出:白はChardonnay、ロゼも地域AOCでは認可される。"
   },
   {
     "id": "france-bourgogne-aoc-022",
@@ -4415,7 +4415,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Santenayは赤ワインと白ワインの生産が認められているAOCです。\n②覚え方:「サントネ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Santenayは赤ワインと白ワインの生産が認められているAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-023",
@@ -4429,7 +4429,7 @@ window.WINE_QUESTIONS = [
       "トロワ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ニコラ・ロランが1443年にオテル・デューを建設した都市はボーヌです。ブルゴーニュの歴史で重要な事項です。\n②覚え方:「1443年→ボーヌ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ニコラ・ロランが1443年にオテル・デューを建設した都市はボーヌです。ブルゴーニュの歴史で重要な事項です。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-024",
@@ -4450,7 +4450,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:この選択肢の中で白ワインのみを生産できるAOCはPouilly-Lochéです。\n②覚え方:「ブルゴーニュ→Pouilly-Loché」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他7択は認可タイプ・規定が違う。"
+    "explanation": "①理由:この選択肢の中で白ワインのみを生産できるAOCはPouilly-Lochéです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Volnayは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-025",
@@ -4470,7 +4470,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:GivryとRullyはコート・シャロネーズ地区の村名AOCです。\n②覚え方:「ブルゴーニュ→Givry・Rully」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他4択は産地・位置が違う。"
+    "explanation": "①理由:GivryとRullyはコート・シャロネーズ地区の村名AOCです。\n②要点:Givry・RullyをCôte Chalonnaiseの村・AOCとして地図に置く。\n③比較:Pouilly-Fuisséは白のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-026",
@@ -4484,7 +4484,7 @@ window.WINE_QUESTIONS = [
       "ロゼワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Chambolle-Musignyは赤ワインのみを生産できる村名AOCです。\n②覚え方:「シャンボール・ミュジニー→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chambolle-Musignyは赤ワインのみを生産できる村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-027",
@@ -4498,7 +4498,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Chablisはシャルドネから造られる白ワインのみのAOCです。\n②覚え方:「シャブリ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chablisはシャルドネから造られる白ワインのみのAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-028",
@@ -4520,7 +4520,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Beaujolais VillagesとBourgogne Hautes-Côtes de Beauneは、赤・白…\n②覚え方:「ブルゴーニュ→Beaujolais Villages・Bourgogn」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Beaujolais Villages・Bourgogne Hautes-Côtes de Beauneが設問の産地・格付け条件を満たす。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Fleurieは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-029",
@@ -4534,7 +4534,7 @@ window.WINE_QUESTIONS = [
       "グラン・オーセロワ地区"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:マコネ地区は主にソーヌ・エ・ロワール県に属します。\n②覚え方:「ブルゴーニュ→マコネ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:マコネ地区は主にソーヌ・エ・ロワール県に属します。\n②要点:マコネ地区をAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-030",
@@ -4548,7 +4548,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Chénasはボージョレ地区のクリュのひとつで、赤ワインのみを生産できるAOCです。\n②覚え方:「シェナス→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chénasはボージョレ地区のクリュのひとつで、赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-031",
@@ -4562,7 +4562,7 @@ window.WINE_QUESTIONS = [
       "50%"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ボージョレ地区を除くブルゴーニュ地方では、白ワインの割合は選択肢の中では60%が最も近い値です。\n②覚え方:「ブルゴーニュ→60%」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボージョレ地区を除くブルゴーニュ地方では、白ワインの割合は選択肢の中では60%が最も近い値です。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-032",
@@ -4576,7 +4576,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Marsannayは赤・白・ロゼワインの生産が認められている村名AOCです。\n②覚え方:「マルサネ→赤・白・ロゼワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Marsannayは赤・白・ロゼワインの生産が認められている村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-033",
@@ -4596,7 +4596,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:BouzeronとMercureyはコート・シャロネーズ地区の村名AOCです。\n②覚え方:「ブルゴーニュ→Bouzeron・Mercurey」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他4択は産地・位置が違う。"
+    "explanation": "①理由:BouzeronとMercureyはコート・シャロネーズ地区の村名AOCです。\n②要点:Bouzeron・MercureyをCôte Chalonnaiseの村・AOCとして地図に置く。\n③比較:Pouilly-Fuisséは白のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-034",
@@ -4610,7 +4610,7 @@ window.WINE_QUESTIONS = [
       "Nuits-Saint-Georges, Fixin, Chambolle-Musigny, Morey-Saint-Denis"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:コート・ド・ニュイでは、北からMarsannay、Gevrey-Chambertin、Vosne-Romanée、N…\n②覚え方:「ブルゴーニュ→Marsannay, Gevrey-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Marsannay→Gevrey-Chambertin→Vosne-Romanée→Nuits-Saint-Georgesの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-035",
@@ -4624,7 +4624,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Saint-Véranはマコネ地区の白ワインのみのAOCです。\n②覚え方:「サン・ヴェラン→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Véranはマコネ地区の白ワインのみのAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-036",
@@ -4638,7 +4638,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Irancyは主にピノ・ノワールから造られる赤ワインのAOCです。\n②覚え方:「イランシー→ピノ・ノワール」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Irancyは主にピノ・ノワールから造られる赤ワインのAOCです。\n②要点:赤Pinot Noir、白Chardonnay、BeaujolaisのGamayが三本柱。\n③比較:Saint-BrisのSauvignon、BouzeronのAligotéは例外。\n④頻出:Bourgogne AligotéとBourgogne Passe-Tout-Grainsも頻出。"
   },
   {
     "id": "france-bourgogne-aoc-037",
@@ -4660,7 +4660,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:FleurieとVosne-Romanéeは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Fleurie・Vosne-Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:FleurieとVosne-Romanéeは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Saint-Romainは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-038",
@@ -4682,7 +4682,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Bourgogne Hautes-Côtes de BeauneとBourgogne Hautes-Côtes de…\n②覚え方:「ブルゴーニュ→Bourgogne Hautes-Côtes de Be」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Bourgogne Hautes-Côtes de BeauneとBourgogne Hautes-Côtes de Nuitsは赤・白・ロゼを認可。\n②要点:Hautes-Côtesの2地区は3色と覚える。\n③比較:村名AOCは赤のみ・白のみ・赤白の規定が多い。\n④頻出:赤はPinot Noir、白はChardonnay、ロゼもPinot Noir主体。"
   },
   {
     "id": "france-bourgogne-aoc-039",
@@ -4696,7 +4696,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Saint-Aubinは赤ワインと白ワインの生産が認められている村名AOCです。\n②覚え方:「サン・トーバン→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Aubinは赤ワインと白ワインの生産が認められている村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-040",
@@ -4710,7 +4710,7 @@ window.WINE_QUESTIONS = [
       "1395年"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:フィリップ豪胆公がガメイ種の植え付けを禁止した年は1395年です。ブルゴーニュの品種史で重要な出来事です。\n②覚え方:「ブルゴーニュ→1395年」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:フィリップ豪胆公がガメイ種の植え付けを禁止した年は1395年です。ブルゴーニュの品種史で重要な出来事です。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-041",
@@ -4724,7 +4724,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Morey-Saint-Denisは赤ワインと白ワインの生産が認められている村名AOCです。\n②覚え方:「モレ・サン・ドニ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Morey-Saint-Denisは赤ワインと白ワインの生産が認められている村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-042",
@@ -4738,7 +4738,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Chablis Grand Cruは白ワインのみを生産できるAOCです。\n②覚え方:「シャブリ・グラン・クリュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chablis Grand Cruは白ワインのみを生産できるAOCです。\n②要点:白ワインのみをGrand Cru名と所属村で一組にする。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-aoc-043",
@@ -4752,7 +4752,7 @@ window.WINE_QUESTIONS = [
       "コート・ド・ニュイ地区"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Saint-Amourはボージョレ地区のクリュのひとつです。\n②覚え方:「サン・タムール→ボージョレ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Amourはボージョレ地区のクリュのひとつです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-044",
@@ -4766,7 +4766,7 @@ window.WINE_QUESTIONS = [
       "ロゼワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Beaujolaisは赤・白・ロゼワインの生産が認められているAOCです。\n②覚え方:「ボージョレ→赤・白・ロゼワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beaujolaisは赤・白・ロゼワインの生産が認められているAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-045",
@@ -4788,7 +4788,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:ChénasとCôte de Brouillyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Chénas・Côte de Brouilly」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:ChénasとCôte de Brouillyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:Beaujolaisの村名クリュはGamay主体の赤。\n③比較:Chablis Premier Cruは白のみ。\n④頻出:白はChardonnay、ロゼも地域AOCでは認可される。"
   },
   {
     "id": "france-bourgogne-aoc-046",
@@ -4802,7 +4802,7 @@ window.WINE_QUESTIONS = [
       "Appellation Communale"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ブルゴーニュのAOC階層で最上位に位置するのはAppellation Grand Cruです。\n②覚え方:「ブルゴーニュ→Appellation Grand Cru」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュのAOC階層で最上位に位置するのはAppellation Grand Cruです。\n②要点:Appellation Grand CruをAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-047",
@@ -4816,7 +4816,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:コート・シャロネーズ地区は主にソーヌ・エ・ロワール県に属する生産地区です。\n②覚え方:「ブルゴーニュ→コート・シャロネーズ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・シャロネーズ地区は主にソーヌ・エ・ロワール県に属する生産地区です。\n②要点:コート・シャロネーズ地区をAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-048",
@@ -4838,7 +4838,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Pouilly-FuisséとChablis Premier Cruは、この選択肢の中で白ワインのみを生産できるAO…\n②覚え方:「ブルゴーニュ→Pouilly-Fuissé・Chablis Premi」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:設問のAOCで認められるタイプはPouilly-Fuissé・Chablis Premier Cru。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Pommardは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-049",
@@ -4852,7 +4852,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Fleurieはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②覚え方:「フルーリー→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Fleurieはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-050",
@@ -4866,7 +4866,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Côte de Beauneは赤ワインと白ワインの生産が認められているAOCです。\n②覚え方:「コート・ド・ボーヌ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Côte de Beauneは赤ワインと白ワインの生産が認められているAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-051",
@@ -4880,7 +4880,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Vosne-Romanéeはコート・ド・ニュイ地区の村名AOCで、生産できるワインは赤ワインのみです。\n②覚え方:「ヴォーヌ・ロマネ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Vosne-Romanéeはコート・ド・ニュイ地区の村名AOCで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-052",
@@ -4902,7 +4902,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Bourgogne Hautes-Côtes de NuitsとMâconは、赤・白・ロゼワインを生産できるAOCで…\n②覚え方:「ブルゴーニュ→Bourgogne Hautes-Côtes de Nu」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Bourgogne Hautes-Côtes de Nuits・Mâconが設問の産地・格付け条件を満たす。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Saint-Aubinは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-053",
@@ -4924,7 +4924,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Pouilly-LochéとMontagnyは、この選択肢の中で白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Pouilly-Loché・Montagny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Pouilly-LochéとMontagnyは、この選択肢の中で白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Blagnyは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-054",
@@ -4938,7 +4938,7 @@ window.WINE_QUESTIONS = [
       "Viré-Clessé, Nuits-Saint-Georges, Volnay, Saint-Amour"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:北から見ると、Saint-Bris、Nuits-Saint-Georges、Volnay、Montagnyの順に位置…\n②覚え方:「ブルゴーニュ→Saint-Bris, Nuits-Saint-Geor」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Bris→Nuits-Saint-Georges→Volnay→Montagnyの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-055",
@@ -4960,7 +4960,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Saint-BrisとChablisは、この選択肢の中で白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Saint-Bris・Chablis」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Saint-BrisとChablisは、この選択肢の中で白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Volnayは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-056",
@@ -4974,7 +4974,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャブリ地区は主にヨンヌ県に属しています。\n②覚え方:「ブルゴーニュ→シャブリ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャブリ地区は主にヨンヌ県に属しています。\n②要点:シャブリ地区をChablis／Grand Auxerroisの村・AOCとして地図に置く。\n③比較:同名の村名AOC、Premier Cru、Grand Cruを区別。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-057",
@@ -4988,7 +4988,7 @@ window.WINE_QUESTIONS = [
       "シャブリ地区"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Santenayはコート・ド・ボーヌ地区に位置するAOCです。\n②覚え方:「サントネ→コート・ド・ボーヌ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Santenayはコート・ド・ボーヌ地区に位置するAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-058",
@@ -5002,7 +5002,7 @@ window.WINE_QUESTIONS = [
       "320万ヘクトリットル"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ボージョレ地区のみの年間ワイン生産量は、選択肢の中では60万ヘクトリットルが最も近い値です。\n②覚え方:「ブルゴーニュ→60万ヘクトリットル」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボージョレ地区のみの年間ワイン生産量は、選択肢の中では60万ヘクトリットルが最も近い値です。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-059",
@@ -5016,7 +5016,7 @@ window.WINE_QUESTIONS = [
       "シャブリ地区"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:単一品種のガメイから造られるフルーティな赤ワインと10のクリュで知られるのはボージョレ地区です。\n②覚え方:「ブルゴーニュ→ボージョレ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:単一品種のガメイから造られるフルーティな赤ワインと10のクリュで知られるのはボージョレ地区です。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-060",
@@ -5030,7 +5030,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Saint-Romainはコート・ド・ボーヌ地区の村名AOCで、赤ワインと白ワインの生産が認められています。\n②覚え方:「サン・ロマン→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Romainはコート・ド・ボーヌ地区の村名AOCで、赤ワインと白ワインの生産が認められています。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-061",
@@ -5044,7 +5044,7 @@ window.WINE_QUESTIONS = [
       "Vougeot, Nuits-Saint-Georges, Marsannay, Chambolle-Musigny"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:コート・ド・ニュイ地区の村は、北からMarsannay、Fixin、Gevrey-Chambertin、Nuits-…\n②覚え方:「ブルゴーニュ→Marsannay, Fixin, Gevrey-Cha」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Marsannay→Fixin→Gevrey-Chambertin→Nuits-Saint-Georgesの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-062",
@@ -5058,7 +5058,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Chassagne-Montrachetはコート・ド・ボーヌ地区に位置する村名AOCです。\n②覚え方:「シャサーニュ・モンラッシェ→コート・ド・ボーヌ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chassagne-Montrachetはコート・ド・ボーヌ地区に位置する村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-063",
@@ -5072,7 +5072,7 @@ window.WINE_QUESTIONS = [
       "コート・ド・ニュイ地区"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:コート・ドールの南に続き、赤白ワインを産する産地はコート・シャロネーズ地区です。\n②覚え方:「ブルゴーニュ→コート・シャロネーズ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・ドールの南に続き、赤白ワインを産する産地はコート・シャロネーズ地区です。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-064",
@@ -5086,7 +5086,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ種を植えること"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:1395年、フィリップ豪胆公はブルゴーニュでガメイ種を植えることを禁止しました。\n②覚え方:「1395年→ガメイ種を植えること」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:1395年、フィリップ豪胆公はブルゴーニュでガメイ種を植えることを禁止しました。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-065",
@@ -5100,7 +5100,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Saint-Amourはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②覚え方:「サン・タムール→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Amourはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-066",
@@ -5122,7 +5122,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:MontagnyとChablis Grand Cruは、この選択肢の中で白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Montagny・Chablis Grand Cru」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:MontagnyとChablis Grand Cruは、この選択肢の中で白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Fixinは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-067",
@@ -5144,7 +5144,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:ChiroublesとPommardは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Chiroubles・Pommard」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:ChiroublesとPommardは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Mercureyは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-068",
@@ -5166,7 +5166,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:ChénasとChambolle-Musignyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Chénas・Chambolle-Musigny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:ChénasとChambolle-Musignyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Chablisは白のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-069",
@@ -5188,7 +5188,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:VézelayとChablisは、この選択肢の中で白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Vézelay・Chablis」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:VézelayとChablisは、この選択肢の中で白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Vosne-Romanéeは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-070",
@@ -5202,7 +5202,7 @@ window.WINE_QUESTIONS = [
       "コート・ド・ボーヌ地区"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:白ワインの銘醸グラン・クリュが集中するのはコート・ド・ボーヌ地区です。\n②覚え方:「ブルゴーニュ→コート・ド・ボーヌ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:白ワインの銘醸グラン・クリュが集中するのはコート・ド・ボーヌ地区です。\n②要点:コート・ド・ボーヌ地区をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-aoc-071",
@@ -5216,7 +5216,7 @@ window.WINE_QUESTIONS = [
       "6%"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:ボージョレ地区を除くブルゴーニュ地方では、アリゴテの栽培比率は約6%です。\n②覚え方:「ブルゴーニュ→6%」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボージョレ地区を除くブルゴーニュ地方では、アリゴテの栽培比率は約6%です。\n②要点:赤Pinot Noir、白Chardonnay、BeaujolaisのGamayが三本柱。\n③比較:Saint-BrisのSauvignon、BouzeronのAligotéは例外。\n④頻出:Bourgogne AligotéとBourgogne Passe-Tout-Grainsも頻出。"
   },
   {
     "id": "france-bourgogne-aoc-072",
@@ -5230,7 +5230,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Chablis Premier Cruは白ワインのみを生産できるAOCです。\n②覚え方:「シャブリ・プルミエ・クリュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chablis Premier Cruは白ワインのみを生産できるAOCです。\n②要点:白ワインのみは村名AOC内のPremier Cru。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-aoc-073",
@@ -5244,7 +5244,7 @@ window.WINE_QUESTIONS = [
       "Irancy, Marsannay, Vosne-Romanée, Meursault"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:北から南へ、Irancy、Marsannay、Vosne-Romanée、Meursaultの順になります。\n②覚え方:「ブルゴーニュ→Irancy, Marsannay, Vosne-Rom」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Irancy→Marsannay→Vosne-Romanée→Meursaultの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-074",
@@ -5258,7 +5258,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Ladoixは赤ワインと白ワインを生産できるAOCです。\n②覚え方:「ラドワ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Ladoixは赤ワインと白ワインを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-075",
@@ -5272,7 +5272,7 @@ window.WINE_QUESTIONS = [
       "630年"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ボーヌのオテル・デューは1443年に建設されました。\n②覚え方:「ブルゴーニュ→1443年」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボーヌのオテル・デューは1443年に建設されました。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-076",
@@ -5286,7 +5286,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Chiroublesはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②覚え方:「シルーブル→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chiroublesはボージョレ地区のクリュのひとつで、生産できるワインは赤ワインのみです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-077",
@@ -5307,7 +5307,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:この選択肢の中では、Mâcon-Villagesが白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Mâcon-Villages」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他7択は認可タイプ・規定が違う。"
+    "explanation": "①理由:この選択肢の中では、Mâcon-Villagesが白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Volnayは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-078",
@@ -5329,7 +5329,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Saint-RomainとMarangesは、この選択肢の中で赤ワインと白ワインを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Saint-Romain・Maranges」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Saint-RomainとMarangesは、この選択肢の中で赤ワインと白ワインを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Blagnyは赤のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-079",
@@ -5351,7 +5351,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:ChénasとFleurieは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Chénas・Fleurie」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:ChénasとFleurieは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:Beaujolaisの村名クリュはGamay主体の赤。\n③比較:Monthélieは赤白。\n④頻出:白はChardonnay、ロゼも地域AOCでは認可される。"
   },
   {
     "id": "france-bourgogne-aoc-080",
@@ -5365,7 +5365,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Aloxe-Cortonは赤ワインと白ワインを生産できるAOCです。\n②覚え方:「アロース・コルトン→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Aloxe-Cortonは赤ワインと白ワインを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-081",
@@ -5379,7 +5379,7 @@ window.WINE_QUESTIONS = [
       "Marsannay, Gevrey-Chambertin, Morey-Saint-Denis, Vougeot"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:コート・ド・ニュイ地区では北からMarsannay、Gevrey-Chambertin、Morey-Saint-De…\n②覚え方:「ブルゴーニュ→Marsannay, Gevrey-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Marsannay→Gevrey-Chambertin→Morey-Saint-Denis→Vougeotの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-082",
@@ -5393,7 +5393,7 @@ window.WINE_QUESTIONS = [
       "Marsannay, Pommard, Vosne-Romanée, Chambolle-Musigny"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:北からChambolle-Musigny、Vosne-Romanée、Pommard、Meursaultの順になりま…\n②覚え方:「ブルゴーニュ→Chambolle-Musigny, Vosne-Rom」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chambolle-Musigny→Vosne-Romanée→Pommard→Meursaultの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-083",
@@ -5407,7 +5407,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Chénasはボージョレ地区のクリュのひとつです。\n②覚え方:「シェナス→ボージョレ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chénasはボージョレ地区のクリュのひとつです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-084",
@@ -5421,7 +5421,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Blagnyは赤ワインのみを生産できるAOCです。\n②覚え方:「ブラニィ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Blagnyは赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-085",
@@ -5435,7 +5435,7 @@ window.WINE_QUESTIONS = [
       "一般に海洋性または地中海性気候、北部は大陸性気候の影響を受ける"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ブルゴーニュは一般に半大陸性または大陸性気候で、南部は地中海性気候の影響も受けます。\n②覚え方:「ブルゴーニュ→一般に半大陸性または大陸性気候、南部は地中海性気候の影響」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュは一般に半大陸性または大陸性気候で、南部は地中海性気候の影響も受けます。\n②要点:一般に半大陸性または大陸性気候、南部は地中海性気候の影響を受けるをAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-086",
@@ -5449,7 +5449,7 @@ window.WINE_QUESTIONS = [
       "1141年"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos de Tartは1141年に誕生したとされる歴史ある畑です。\n②覚え方:「ブルゴーニュ→1141年」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de Tartは1141年に誕生したとされる歴史ある畑です。\n②要点:Cluny派とCîteaux派修道院が畑の区画化と品質向上に寄与。\n③比較:Closは石垣の区画、Climatは自然条件と歴史を持つ細分畑。\n④頻出:ブルゴーニュのClimatsは2015年に世界文化遺産登録。"
   },
   {
     "id": "france-bourgogne-aoc-087",
@@ -5471,7 +5471,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:IrancyとChiroublesは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Irancy・Chiroubles」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:IrancyとChiroublesは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Pouilly-Fuisséは白のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-088",
@@ -5485,7 +5485,7 @@ window.WINE_QUESTIONS = [
       "Appellation Nationale"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:村名を冠したAOCはAppellation Communaleです。\n②覚え方:「ブルゴーニュ→Appellation Communale」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:村名を冠したAOCはAppellation Communaleです。\n②要点:Appellation CommunaleをAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-089",
@@ -5507,7 +5507,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:VolnayとBlagnyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Volnay・Blagny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:VolnayとBlagnyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Monthélieは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-090",
@@ -5529,7 +5529,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:BeaujolaisとMâconは赤・白・ロゼワインの生産が認められています。\n②覚え方:「ブルゴーニュ→Beaujolais・Mâcon」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:BeaujolaisとMâconは赤・白・ロゼワインの生産が認められています。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Fixinは赤白。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-091",
@@ -5543,7 +5543,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:オーセール東方に位置し、4階層のAOCで知られるのはシャブリ地区です。\n②覚え方:「ブルゴーニュ→シャブリ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:オーセール東方に位置し、4階層のAOCで知られるのはシャブリ地区です。\n②要点:シャブリ地区をChablis／Grand Auxerroisの村・AOCとして地図に置く。\n③比較:同名の村名AOC、Premier Cru、Grand Cruを区別。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-092",
@@ -5557,7 +5557,7 @@ window.WINE_QUESTIONS = [
       "Vougeot, Nuits-Saint-Georges, Gevrey-Chambertin, Fixin"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:北からMarsannay、Chambolle-Musigny、Vougeot、Vosne-Romanéeの順に位置し…\n②覚え方:「ブルゴーニュ→Marsannay, Chambolle-Musigny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Marsannay→Chambolle-Musigny→Vougeot→Vosne-Romanéeの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-093",
@@ -5577,7 +5577,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:RullyとMontagnyはコート・シャロネーズ地区の村名AOCです。\n②覚え方:「ブルゴーニュ→Rully・Montagny」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他4択は産地・位置が違う。"
+    "explanation": "①理由:RullyとMontagnyはコート・シャロネーズ地区の村名AOCです。\n②要点:Rully・MontagnyをCôte Chalonnaiseの村・AOCとして地図に置く。\n③比較:Pouilly-Fuisséは白のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-aoc-094",
@@ -5591,7 +5591,7 @@ window.WINE_QUESTIONS = [
       "シャブリ地区"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:コート・ド・ニュイ地区は主にコート・ドール県に属します。\n②覚え方:「ブルゴーニュ→コート・ド・ニュイ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・ド・ニュイ地区は主にコート・ドール県に属します。\n②要点:コート・ド・ニュイ地区をAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-095",
@@ -5605,7 +5605,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Beauneは赤ワインと白ワインの生産が認められています。\n②覚え方:「ボーヌ→赤・白ワイン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beauneは赤ワインと白ワインの生産が認められています。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-096",
@@ -5619,7 +5619,7 @@ window.WINE_QUESTIONS = [
       "Saint-Bris, Nuits-Saint-Georges, Bouzeron, Saint-Amour"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:北からSaint-Bris、Nuits-Saint-Georges、Bouzeron、Saint-Amourの順です…\n②覚え方:「ブルゴーニュ→Saint-Bris, Nuits-Saint-Geor」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Bris→Nuits-Saint-Georges→Bouzeron→Saint-Amourの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-aoc-097",
@@ -5633,7 +5633,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Morgonはボージョレのクリュで、赤ワインのみを生産できます。\n②覚え方:「モルゴン→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Morgonはボージョレのクリュで、赤ワインのみを生産できます。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-098",
@@ -5647,7 +5647,7 @@ window.WINE_QUESTIONS = [
       "ボーヌ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:コート・ドール県の県庁所在地はディジョンです。\n②覚え方:「ブルゴーニュ→ディジョン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・ドール県の県庁所在地はディジョンです。\n②要点:ディジョンをAOC階層・村・品種の3点で整理。\n③比較:Regional→Village→Premier Cru→Grand Cruの順。\n④頻出:畑名と村名を逆方向にも答えられるようにする。"
   },
   {
     "id": "france-bourgogne-aoc-099",
@@ -5669,7 +5669,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Saint-AubinとFixinは赤ワインと白ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Saint-Aubin・Fixin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Saint-AubinとFixinは赤ワインと白ワインのみを生産できるAOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:Montagnyは白のみ。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-100",
@@ -5683,7 +5683,7 @@ window.WINE_QUESTIONS = [
       "コート・ド・ニュイ地区"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Nuits-Saint-Georgesはコート・ド・ニュイ地区の村名AOCです。\n②覚え方:「ニュイ・サン・ジョルジュ→コート・ド・ニュイ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Nuits-Saint-Georgesはコート・ド・ニュイ地区の村名AOCです。\n②要点:赤はPinot Noir、白はChardonnayが基本。AOCごとの認可色に注意。\n③比較:赤のみ／白のみ／赤白両方／発泡の4群で整理。\n④頻出:Pommard・Volnayは赤、Meursaultは赤白、Pulignyは白のみ。"
   },
   {
     "id": "france-bourgogne-aoc-101",
@@ -5697,7 +5697,7 @@ window.WINE_QUESTIONS = [
       "コート・シャロネーズ地区"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ディジョンを北端とし赤のグラン・クリュが集中するのはコート・ド・ニュイ地区です。\n②覚え方:「ブルゴーニュ→コート・ド・ニュイ地区」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ディジョンを北端とし赤のグラン・クリュが集中するのはコート・ド・ニュイ地区です。\n②要点:コート・ド・ニュイ地区をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-aoc-102",
@@ -5719,7 +5719,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:MorgonとCôte de Brouillyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②覚え方:「ブルゴーニュ→Morgon・Côte de Brouilly」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は認可タイプ・規定が違う。"
+    "explanation": "①理由:MorgonとCôte de Brouillyは、この選択肢の中で赤ワインのみを生産できるAOCです。\n②要点:Beaujolaisの村名クリュはGamay主体の赤。\n③比較:Mercureyは赤白。\n④頻出:白はChardonnay、ロゼも地域AOCでは認可される。"
   },
   {
     "id": "france-bourgogne-grand-cru-001",
@@ -5733,7 +5733,7 @@ window.WINE_QUESTIONS = [
       "Puligny-Montrachet村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:La Grande RueはVosne-Romanée村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Grande RueはVosne-Romanée村に属するグラン・クリュです。\n②要点:La Grande RueはVosne-Romanée村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-002",
@@ -5755,7 +5755,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Clos de la RocheとMazoyères-Chambertinはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→Clos de la Roche・Mazoyères-C」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la RocheとMazoyères-Chambertinはブルゴーニュ地方のグラン・クリュです。\n②要点:Clos de la RocheはMorey-Saint-Denis村。\n③比較:Les DuressesはAuxey-Duresses。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-003",
@@ -5768,7 +5768,7 @@ window.WINE_QUESTIONS = [
       "caption": "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
     },
     "answerText": "シャンベルタン",
-    "explanation": "①正解理由:地図上の6番はChambertin、カタカナではシャンベルタンです。\n②覚え方:「ブルゴーニュ→シャンベルタン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の6番はChambertin、カタカナではシャンベルタンです。\n②要点:ChambertinはGevrey-Chambertin村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-004",
@@ -5787,7 +5787,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:La Grande Rueに相当する番号は8番です。\n②覚え方:「ブルゴーニュ→8番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Grande Rueに相当する番号は8番です。\n②要点:す。地図上でLa Grande Rueを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-005",
@@ -5801,7 +5801,7 @@ window.WINE_QUESTIONS = [
       "Beauroy"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Beauroyはシャブリのプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Beauroy」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beauroyはシャブリのプルミエ・クリュです。\n②要点:Beauroyは村名AOC内のPremier Cru。\n③比較:Clos Saint-JacquesはGevrey-Chambertin。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-006",
@@ -5815,7 +5815,7 @@ window.WINE_QUESTIONS = [
       "Aloxe-Corton村, Ladoix-Serrigny村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:CortonはPernand-Vergelesses村、Aloxe-Corton村、Ladoix-Serrigny村…\n②覚え方:「ブルゴーニュ→Pernand-Vergelesses村, Aloxe-」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:CortonはAloxe-Corton、Ladoix-Serrigny、Pernand-Vergelessesの3村にまたがる。\n②要点:Cortonは「アロックス・ラドワ・ペルナン」の3村。\n③比較:CharlemagneはAloxe-CortonとPernand-Vergelessesの2村。\n④頻出:Cortonは赤白、Corton-Charlemagneは白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-007",
@@ -5829,7 +5829,7 @@ window.WINE_QUESTIONS = [
       "Chassagne-Montrachet村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Chevalier-MontrachetはPuligny-Montrachet村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Puligny-Montrachet村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chevalier-MontrachetはPuligny-Montrachet村に属するグラン・クリュです。\n②要点:Chevalier-MontrachetはPuligny-Montrachet村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-008",
@@ -5842,7 +5842,7 @@ window.WINE_QUESTIONS = [
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
     "answerText": "グルヌイユ",
-    "explanation": "①正解理由:地図上の4番はGrenouilles、カタカナではグルヌイユです。\n②覚え方:「ブルゴーニュ→グルヌイユ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の4番はGrenouilles、カタカナではグルヌイユです。\n②要点:Grenouillesを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-009",
@@ -5856,7 +5856,7 @@ window.WINE_QUESTIONS = [
       "ヴァイヨン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:La Moutonneは、ヴォーデジールとプルーズにまたがる非公式なグラン・クリュとして知られます。\n②覚え方:「ブルゴーニュ→ラ・ムートンヌ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Moutonneは、ヴォーデジールとプルーズにまたがる非公式なグラン・クリュとして知られます。\n②要点:ラ・ムートンヌをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-010",
@@ -5870,7 +5870,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Griotte-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Griotte-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②要点:Griotte-ChambertinはGevrey-Chambertin村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-grand-cru-011",
@@ -5884,7 +5884,7 @@ window.WINE_QUESTIONS = [
       "Puligny-Montrachet村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Bâtard-MontrachetはPuligny-Montrachet村とChassagne-Montrachet…\n②覚え方:「ブルゴーニュ→Puligny-Montrachet村, Chassag」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bâtard-MontrachetはPuligny-MontrachetとChassagne-Montrachetの2村にまたがる。\n②要点:バタールとモンラッシェは「ピュリニー＋シャサーニュ」。\n③比較:BienvenuesはPuligny、CriotsはChassagneのみ。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-012",
@@ -5898,7 +5898,7 @@ window.WINE_QUESTIONS = [
       "5個"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Volnay村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Volnay村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-013",
@@ -5912,7 +5912,7 @@ window.WINE_QUESTIONS = [
       "Monthélie村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Pernand-Vergelesses村にはCortonなど、グラン・クリュに関わる畑があります。\n②覚え方:「ブルゴーニュ→Pernand-Vergelesses村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pernand-Vergelesses村にはCortonなど、グラン・クリュに関わる畑があります。\n②要点:Pernand-Vergelesses村をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-014",
@@ -5934,7 +5934,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Grenouillesはシャブリ・グラン・クリュ、La Moutonneは非公式なグラン・クリュ名として扱われます。\n②覚え方:「ブルゴーニュ→Grenouilles・La Moutonne」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Grenouillesはシャブリ・グラン・クリュ、La Moutonneは非公式なグラン・クリュ名として扱われます。\n②要点:Grenouilles・La MoutonneをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-015",
@@ -5948,7 +5948,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Richebourgは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Richebourgは赤ワインのみを生産できるグラン・クリュです。\n②要点:RichebourgはVosne-Romanée村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-016",
@@ -5970,7 +5970,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:MusignyとChambertinはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→Musigny・Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:MusignyとChambertinはブルゴーニュ地方のグラン・クリュです。\n②要点:MusignyはChambolle-Musigny村。\n③比較:La MaltroieはChassagne-Montrachet。\n④頻出:Côte de NuitsのGrand Cruで例外的に白も認可。"
   },
   {
     "id": "france-bourgogne-grand-cru-017",
@@ -5989,7 +5989,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:La Tâcheに相当する番号は9番です。\n②覚え方:「ブルゴーニュ→9番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Tâcheに相当する番号は9番です。\n②要点:す。地図上でLa Tâcheを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-018",
@@ -6002,7 +6002,7 @@ window.WINE_QUESTIONS = [
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
     "answerText": "ブーグロ",
-    "explanation": "①正解理由:地図上の2番はBougros、カタカナではブーグロです。\n②覚え方:「ブルゴーニュ→ブーグロ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の2番はBougros、カタカナではブーグロです。\n②要点:Bougrosを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-019",
@@ -6016,7 +6016,7 @@ window.WINE_QUESTIONS = [
       "Montée de Tonnerre"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Montée de Tonnerreはシャブリのプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Montée de Tonnerre」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Montée de Tonnerreはシャブリのプルミエ・クリュです。\n②要点:Montée de Tonnerreは村名AOC内のPremier Cru。\n③比較:Les BouchèresはMeursault。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-020",
@@ -6032,7 +6032,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ラトリシエールシャンベルタン"
     ],
-    "explanation": "①正解理由:地図上の8番はLatricières-Chambertin、カタカナではラトリシエール・シャンベルタンです。\n②覚え方:「ブルゴーニュ→ラトリシエール・シャンベルタン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の8番はLatricières-Chambertin、カタカナではラトリシエール・シャンベルタンです。\n②要点:Latricières-ChambertinはGevrey-Chambertin村。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-021",
@@ -6046,7 +6046,7 @@ window.WINE_QUESTIONS = [
       "Puligny-Montrachet村, Chassagne-Montrachet村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Bienvenues-Bâtard-MontrachetはPuligny-Montrachet村に属するグラン・クリ…\n②覚え方:「ブルゴーニュ→Puligny-Montrachet村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bienvenues-Bâtard-MontrachetはPuligny-Montrachet村に属するGrand Cru。\n②要点:Bienvenues-Bâtard-MontrachetはPuligny-Montrachet村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-022",
@@ -6060,7 +6060,7 @@ window.WINE_QUESTIONS = [
       "6個"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Beaune村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beaune村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-023",
@@ -6074,7 +6074,7 @@ window.WINE_QUESTIONS = [
       "Charmes-Chambertin, Clos Saint-Denis, Bonnes-Mares, Mazis-Chambertin"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:北から南の順序では、Mazis-Chambertin、Clos Saint-Denis、Bonnes-Mares、G…\n②覚え方:「ブルゴーニュ→Mazis-Chambertin, Clos Saint」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mazis-Chambertin→Clos Saint-Denis→Bonnes-Mares→Grands Echézeauxの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-grand-cru-024",
@@ -6088,7 +6088,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Charmes-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Charmes-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②要点:Charmes-ChambertinはGevrey-Chambertin村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-grand-cru-025",
@@ -6104,7 +6104,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ラロマネ"
     ],
-    "explanation": "①正解理由:地図上の5番はLa Romanée、カタカナではラ・ロマネです。\n②覚え方:「ブルゴーニュ→ラ・ロマネ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の5番はLa Romanée、カタカナではラ・ロマネです。\n②要点:La RomanéeはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-026",
@@ -6118,7 +6118,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Corton-CharlemagneのPernand-Vergelesses村の区画から生産できるのは白ワインのみで…\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pernand-Vergelesses側のCorton-Charlemagneも白ワインのみ。\n②要点:Corton-Charlemagneは村が変わっても白のみ。\n③比較:Cortonは赤と白の両方を認可する。\n④頻出:主要品種はChardonnay。3村にまたがるGrand Cru。"
   },
   {
     "id": "france-bourgogne-grand-cru-027",
@@ -6132,7 +6132,7 @@ window.WINE_QUESTIONS = [
       "Richebourg"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ヴォーヌ・ロマネ村のグラン・クリュの中で、最も南に位置するのはLa Tâcheです。\n②覚え方:「ブルゴーニュ→La Tâche」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ヴォーヌ・ロマネ村のグラン・クリュの中で、最も南に位置するのはLa Tâcheです。\n②要点:La TâcheはVosne-Romanée村。\n③比較:La Grande RueはVosne-Romanée。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-028",
@@ -6151,7 +6151,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Preusesに相当する番号は5番です。\n②覚え方:「ブルゴーニュ→5番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Preusesに相当する番号は5番です。\n②要点:す。地図上でPreusesを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-029",
@@ -6167,7 +6167,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ロマネコンティ"
     ],
-    "explanation": "①正解理由:地図上の6番はRomanée-Conti、カタカナではロマネ・コンティです。\n②覚え方:「ブルゴーニュ→ロマネ・コンティ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の6番はRomanée-Conti、カタカナではロマネ・コンティです。\n②要点:Romanée-ContiはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-030",
@@ -6186,7 +6186,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Mazis-Chambertinに相当する番号は2番です。\n②覚え方:「ブルゴーニュ→2番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mazis-Chambertinに相当する番号は2番です。\n②要点:す。地図上でMazis-Chambertinを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-031",
@@ -6200,7 +6200,7 @@ window.WINE_QUESTIONS = [
       "Chassagne-Montrachet村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos de TartはMorey-Saint-Denis村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Morey-Saint-Denis村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de TartはMorey-Saint-Denis村に属するグラン・クリュです。\n②要点:Clos de TartはMorey-Saint-Denis村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-032",
@@ -6214,7 +6214,7 @@ window.WINE_QUESTIONS = [
       "Savigny-lès-Beaune村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Flagey-Echézeaux村にはグラン・クリュが存在します。\n②覚え方:「ブルゴーニュ→Flagey-Echézeaux村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Flagey-Echézeaux村にはグラン・クリュが存在します。\n②要点:Flagey-Echézeaux村をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-033",
@@ -6228,7 +6228,7 @@ window.WINE_QUESTIONS = [
       "Clos des Ursules"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Côte de Léchetはシャブリのプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Côte de Léchet」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Côte de Léchetはシャブリのプルミエ・クリュです。\n②要点:Côte de Léchetは村名AOC内のPremier Cru。\n③比較:Les BressandesはBeaune。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-034",
@@ -6250,7 +6250,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Chapelle-ChambertinとBonnes-Maresはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→Chapelle-Chambertin・Bonnes-M」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Chapelle-ChambertinとBonnes-Maresはブルゴーニュ地方のグラン・クリュです。\n②要点:Chapelle-ChambertinはGevrey-Chambertin村。\n③比較:Clos des RéasはVosne-Romanée・Michel Gros。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-grand-cru-035",
@@ -6264,7 +6264,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Criots-Bâtard-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Criots-Bâtard-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②要点:Criots-Bâtard-MontrachetはChassagne-Montrachet村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-036",
@@ -6278,7 +6278,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Latricières-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Latricières-Chambertinは赤ワインのみを生産できるグラン・クリュです。\n②要点:Latricières-ChambertinはGevrey-Chambertin村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-grand-cru-037",
@@ -6292,7 +6292,7 @@ window.WINE_QUESTIONS = [
       "Clos Saint-Denis, Charmes-Chambertin, La Tâche, Richebourg"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:北から南の順序では、Clos Saint-Denis、Grands Echézeaux、Richebourg、La…\n②覚え方:「ブルゴーニュ→Clos Saint-Denis, Grands Ech」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos Saint-Denis→Grands Echézeaux→Richebourg→La Tâcheの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-grand-cru-038",
@@ -6306,7 +6306,7 @@ window.WINE_QUESTIONS = [
       "3個"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Pommard村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pommard村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-039",
@@ -6320,7 +6320,7 @@ window.WINE_QUESTIONS = [
       "Hautes Mourottes"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Beauroyはシャブリのプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Beauroy」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beauroyはシャブリのプルミエ・クリュです。\n②要点:Beauroyは村名AOC内のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-040",
@@ -6342,7 +6342,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La TâcheとChambertinはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→La Tâche・Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La TâcheとChambertinはブルゴーニュ地方のグラン・クリュです。\n②要点:La TâcheはVosne-Romanée村。\n③比較:Les Rugiens-BasはPommard。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-041",
@@ -6358,7 +6358,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "クリオバタールモンラッシェ"
     ],
-    "explanation": "①正解理由:地図上の5番はCriots-Bâtard-Montrachet、カタカナではクリオ・バタール・モンラッシェです。\n②覚え方:「ブルゴーニュ→クリオ・バタール・モンラッシェ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の5番はCriots-Bâtard-Montrachet、カタカナではクリオ・バタール・モンラッシェです。\n②要点:Criots-Bâtard-MontrachetはChassagne-Montrachet村。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-042",
@@ -6372,7 +6372,7 @@ window.WINE_QUESTIONS = [
       "Pernand-Vergelesses村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Grands EchézeauxはFlagey-Echézeaux村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Flagey-Echézeaux村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Grands EchézeauxはFlagey-Echézeaux村に属するグラン・クリュです。\n②要点:Grands EchézeauxはFlagey-Échezeaux村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:EchézeauxとGrands Echézeaux"
   },
   {
     "id": "france-bourgogne-grand-cru-043",
@@ -6386,7 +6386,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Chevalier-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chevalier-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②要点:Chevalier-MontrachetはPuligny-Montrachet村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-044",
@@ -6405,7 +6405,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Criots-Bâtard-Montrachetに相当する番号は5番です。\n②覚え方:「ブルゴーニュ→5番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Criots-Bâtard-Montrachetに相当する番号は5番です。\n②要点:す。地図上でCriots-Bâtard-Montrachetを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-045",
@@ -6419,7 +6419,7 @@ window.WINE_QUESTIONS = [
       "Vosne-Romanée村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Romanée-Saint-VivantはVosne-Romanée村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Romanée-Saint-VivantはVosne-Romanée村に属するグラン・クリュです。\n②要点:Romanée-Saint-VivantはVosne-Romanée村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-046",
@@ -6435,7 +6435,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "シャペルシャンベルタン"
     ],
-    "explanation": "①正解理由:地図上の4番はChapelle-Chambertin、カタカナではシャペル・シャンベルタンです。\n②覚え方:「ブルゴーニュ→シャペル・シャンベルタン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の4番はChapelle-Chambertin、カタカナではシャペル・シャンベルタンです。\n②要点:Chapelle-ChambertinはGevrey-Chambertin村。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-047",
@@ -6457,7 +6457,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Clos de la RocheとChambertin Clos-de-Bèzeはブルゴーニュ地方のグラン・クリュで…\n②覚え方:「ブルゴーニュ→Clos de la Roche・Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la Roche・Chambertin Clos-de-Bèzeが設問の産地・格付け条件を満たす。\n②要点:Clos de la RocheはMorey-Saint-Denis村。\n③比較:Clos des UrsulesはBeaune・Louis Jadot。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-048",
@@ -6474,7 +6474,7 @@ window.WINE_QUESTIONS = [
       "ロマネサンヴィヴァン",
       "ロマネ・サンヴィヴァン"
     ],
-    "explanation": "①正解理由:地図上の7番はRomanée-Saint-Vivant、カタカナではロマネ・サン・ヴィヴァンです。\n②覚え方:「ブルゴーニュ→ロマネ・サン・ヴィヴァン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の7番はRomanée-Saint-Vivant、カタカナではロマネ・サン・ヴィヴァンです。\n②要点:Romanée-Saint-VivantはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-049",
@@ -6488,7 +6488,7 @@ window.WINE_QUESTIONS = [
       "6個"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Morey-Saint-Denis村には5つのグラン・クリュが存在します。\n②覚え方:「ブルゴーニュ→5個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Morey-Saint-Denis村には5つのグラン・クリュが存在します。\n②要点:5個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-050",
@@ -6510,7 +6510,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La Moutonneは非公式なグラン・クリュ名、Les Closはシャブリ・グラン・クリュです。\n②覚え方:「ブルゴーニュ→La Moutonne・Les Clos」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La Moutonneは非公式なグラン・クリュ名、Les Closはシャブリ・グラン・クリュです。\n②要点:La Moutonne・Les ClosをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-051",
@@ -6532,7 +6532,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La RomanéeとRomanée-Saint-Vivantはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→La Romanée・Romanée-Saint-Viv」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La RomanéeとRomanée-Saint-Vivantはブルゴーニュ地方のグラン・クリュです。\n②要点:La RomanéeはVosne-Romanée村。\n③比較:En CailleretはChassagne-Montrachet。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-052",
@@ -6546,7 +6546,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Pernand-Vergelesses村の区画から生産されるCharlemagneは白ワインのみです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pernand-Vergelesses村の区画から生産されるCharlemagneは白ワインのみです。\n②要点:CharlemagneはAloxe-Corton／Pernand-Vergelesses村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-053",
@@ -6560,7 +6560,7 @@ window.WINE_QUESTIONS = [
       "0個"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Monthélie村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Monthélie村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-054",
@@ -6574,7 +6574,7 @@ window.WINE_QUESTIONS = [
       "Santenots"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Montmainsはシャブリ・プルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Montmains」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Montmainsはシャブリ・プルミエ・クリュです。\n②要点:Montmainsは村名AOC内のPremier Cru。\n③比較:Les VaucrainsはNuits-Saint-Georges。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-055",
@@ -6593,7 +6593,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Bienvenues-Bâtard-Montrachetに相当する番号は1番です。\n②覚え方:「ブルゴーニュ→1番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bienvenues-Bâtard-Montrachetに相当する番号は1番です。\n②要点:す。地図上でBienvenues-Bâtard-Montrachetを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-056",
@@ -6609,7 +6609,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "レクロ"
     ],
-    "explanation": "①正解理由:地図上の3番はLes Clos、カタカナではレ・クロです。\n②覚え方:「ブルゴーニュ→レ・クロ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の3番はLes Clos、カタカナではレ・クロです。\n②要点:Les Closを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-057",
@@ -6623,7 +6623,7 @@ window.WINE_QUESTIONS = [
       "Gevrey-Chambertin村, Morey-Saint-Denis村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Bonnes-MaresはMorey-Saint-Denis村とChambolle-Musigny村にまたがるグラン…\n②覚え方:「ブルゴーニュ→Morey-Saint-Denis村, Chamboll」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bonnes-MaresはMorey-Saint-Denis村, Chambolle-Musigny村に属するGrand Cru。\n②要点:Bonnes-MaresはMorey-Saint-Denis／Chambolle-Musigny村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-058",
@@ -6637,7 +6637,7 @@ window.WINE_QUESTIONS = [
       "Meursault村, Puligny-Montrachet村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:MontrachetはPuligny-Montrachet村とChassagne-Montrachet村にまたがるグ…\n②覚え方:「ブルゴーニュ→Puligny-Montrachet村, Chassag」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:MontrachetはPuligny-Montrachet村, Chassagne-Montrachet村に属するGrand Cru。\n②要点:MontrachetはPuligny-Montrachet／Chassagne-Montrachet村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-059",
@@ -6651,7 +6651,7 @@ window.WINE_QUESTIONS = [
       "Ladoix-Serrigny村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des LambraysはMorey-Saint-Denis村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Morey-Saint-Denis村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des LambraysはMorey-Saint-Denis村に属するグラン・クリュです。\n②要点:Clos des LambraysはMorey-Saint-Denis村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-060",
@@ -6665,7 +6665,7 @@ window.WINE_QUESTIONS = [
       "1個"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Savigny-lès-Beaune村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Savigny-lès-Beaune村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-061",
@@ -6681,7 +6681,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ラグランドリュー"
     ],
-    "explanation": "①正解理由:地図上の8番はLa Grande Rue、カタカナではラ・グランド・リューです。\n②覚え方:「ブルゴーニュ→ラ・グランド・リュー」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の8番はLa Grande Rue、カタカナではラ・グランド・リューです。\n②要点:La Grande RueはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-062",
@@ -6698,7 +6698,7 @@ window.WINE_QUESTIONS = [
       "ボーデジール",
       "ヴォデジール"
     ],
-    "explanation": "①正解理由:地図上の7番はVaudésir、カタカナではヴォーデジールです。\n②覚え方:「ブルゴーニュ→ヴォーデジール」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の7番はVaudésir、カタカナではヴォーデジールです。\n②要点:Vaudésirを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-063",
@@ -6712,7 +6712,7 @@ window.WINE_QUESTIONS = [
       "Beauregard"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Mont de Milieuはシャブリ・プルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Mont de Milieu」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mont de Milieuはシャブリ・プルミエ・クリュです。\n②要点:Mont de Milieuは村名AOC内のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-064",
@@ -6726,7 +6726,7 @@ window.WINE_QUESTIONS = [
       "Grands Echézeaux, Clos Saint-Denis, Richebourg, Mazis-Chambertin"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:北から南の順序では、Mazis-Chambertin、Charmes-Chambertin、Clos Saint-D…\n②覚え方:「ブルゴーニュ→Mazis-Chambertin, Charmes-Ch」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mazis-Chambertin→Charmes-Chambertin→Clos Saint-Denis→Richebourgの順に並ぶ。\n②要点:Côte de NuitsはMarsannayからNuits-Saint-Georgesへ南下。\n③比較:Côte de BeauneはLadoixからSantenayへ南下する。\n④頻出:地区順はChablis→Côte d’Or→Chalonnaise→Mâconnais→Beaujolais。"
   },
   {
     "id": "france-bourgogne-grand-cru-065",
@@ -6740,7 +6740,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Montrachetは白ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Montrachetは白ワインのみを生産できるグラン・クリュです。\n②要点:MontrachetはPuligny-Montrachet／Chassagne-Montrachet村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-066",
@@ -6759,7 +6759,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Ruchottes-Chambertinに相当する番号は1番です。\n②覚え方:「ブルゴーニュ→1番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Ruchottes-Chambertinに相当する番号は1番です。\n②要点:す。地図上でRuchottes-Chambertinを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-067",
@@ -6773,7 +6773,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Romanée-Contiは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Romanée-Contiは赤ワインのみを生産できるグラン・クリュです。\n②要点:Romanée-ContiはVosne-Romanée村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-068",
@@ -6787,7 +6787,7 @@ window.WINE_QUESTIONS = [
       "4個"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Flagey-Echézeaux村にはEchézeauxとGrands Echézeauxの2つのグラン・クリュが存…\n②覚え方:「ブルゴーニュ→2個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:2個が設問の産地・格付け条件を満たす。\n②要点:EchézeauxはFlagey-Échezeaux村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:EchézeauxとGrands Echézeaux"
   },
   {
     "id": "france-bourgogne-grand-cru-069",
@@ -6809,7 +6809,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La Moutonneは非公式なグラン・クリュ名、Vaudésirはシャブリ・グラン・クリュです。\n②覚え方:「ブルゴーニュ→La Moutonne・Vaudésir」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La Moutonneは非公式なグラン・クリュ名、Vaudésirはシャブリ・グラン・クリュです。\n②要点:La Moutonne・VaudésirをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-070",
@@ -6823,7 +6823,7 @@ window.WINE_QUESTIONS = [
       "Hautes Mourottes"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Beauroyはシャブリ・プルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Beauroy」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Beauroyはシャブリ・プルミエ・クリュです。\n②要点:Beauroyは村名AOC内のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-grand-cru-071",
@@ -6842,7 +6842,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Chambertin Clos-de-Bèzeに相当する番号は3番です。\n②覚え方:「ブルゴーニュ→3番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chambertin Clos-de-Bèzeに相当する番号は3番です。\n②要点:す。地図上でChambertin Clos-de-Bèzeを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-072",
@@ -6864,7 +6864,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Latricières-ChambertinとClos de Tartはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→Latricières-Chambertin・Clos」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Latricières-ChambertinとClos de Tartはブルゴーニュ地方のグラン・クリュです。\n②要点:Latricières-ChambertinはGevrey-Chambertin村。\n③比較:Clos de la CommaraineはPommard。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-grand-cru-073",
@@ -6878,7 +6878,7 @@ window.WINE_QUESTIONS = [
       "Vougeot村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Vougeot村にはClos de Vougeotなどのグラン・クリュが存在します。\n②覚え方:「ブルゴーニュ→Vougeot村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Vougeot村にはClos de Vougeotなどのグラン・クリュが存在します。\n②要点:Vougeot村をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-074",
@@ -6897,7 +6897,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Vaudésirに相当する番号は7番です。\n②覚え方:「ブルゴーニュ→7番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Vaudésirに相当する番号は7番です。\n②要点:す。地図上でVaudésirを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-075",
@@ -6911,7 +6911,7 @@ window.WINE_QUESTIONS = [
       "8個"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Meursault村にはグラン・クリュは存在しません。\n②覚え方:「ブルゴーニュ→0個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Meursault村にはグラン・クリュは存在しません。\n②要点:0個をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-076",
@@ -6929,7 +6929,7 @@ window.WINE_QUESTIONS = [
       "クロドヴージョ",
       "クロヴージョ"
     ],
-    "explanation": "①正解理由:地図上の1番はClos de Vougeot、カタカナではクロ・ド・ヴージョです。\n②覚え方:「ブルゴーニュ→クロ・ド・ヴージョ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の1番はClos de Vougeot、カタカナではクロ・ド・ヴージョです。\n②要点:Clos de VougeotはVougeot村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-077",
@@ -6943,7 +6943,7 @@ window.WINE_QUESTIONS = [
       "白ワインのみ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Pernand-Vergelesses村の区画におけるCortonは赤ワインのみを生産できます。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pernand-Vergelesses村の区画におけるCortonは赤ワインのみを生産できます。\n②要点:CortonはAloxe-Corton／Ladoix-Serrigny／Pernand-Vergelesses村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Cortonは赤白、Corton-Charlemagneは白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-078",
@@ -6962,7 +6962,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Bâtard-Montrachetに相当する番号は4番です。\n②覚え方:「ブルゴーニュ→4番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bâtard-Montrachetに相当する番号は4番です。\n②要点:す。地図上でBâtard-Montrachetを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-079",
@@ -6976,7 +6976,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:La Tâcheは赤ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→赤ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Tâcheは赤ワインのみを生産できるグラン・クリュです。\n②要点:La TâcheはVosne-Romanée村。\n③比較:白ワインのみはPernand-Vergelesses。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-080",
@@ -6990,7 +6990,7 @@ window.WINE_QUESTIONS = [
       "Nuits-Saint-Georges村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Chassagne-Montrachet村にはMontrachetなどのグラン・クリュが存在します。\n②覚え方:「ブルゴーニュ→Chassagne-Montrachet村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chassagne-Montrachet村にはMontrachetなどのグラン・クリュが存在します。\n②要点:Chassagne-Montrachet村をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-081",
@@ -7004,7 +7004,7 @@ window.WINE_QUESTIONS = [
       "赤・白・ロゼワイン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Corton-Charlemagneは白ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Aloxe-Corton側のCorton-Charlemagneも白ワインのみ。\n②要点:Corton-Charlemagneは村が変わっても白のみ。\n③比較:Cortonは赤と白の両方を認可する。\n④頻出:主要品種はChardonnay。3村にまたがるGrand Cru。"
   },
   {
     "id": "france-bourgogne-grand-cru-082",
@@ -7023,7 +7023,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Chapelle-Chambertinに相当する番号は4番です。\n②覚え方:「ブルゴーニュ→4番」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chapelle-Chambertinに相当する番号は4番です。\n②要点:す。地図上でChapelle-Chambertinを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-083",
@@ -7039,7 +7039,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "シュヴァリエモンラッシェ"
     ],
-    "explanation": "①正解理由:地図上の2番はChevalier-Montrachet、カタカナではシュヴァリエ・モンラッシェです。\n②覚え方:「ブルゴーニュ→シュヴァリエ・モンラッシェ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の2番はChevalier-Montrachet、カタカナではシュヴァリエ・モンラッシェです。\n②要点:Chevalier-MontrachetはPuligny-Montrachet村。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-084",
@@ -7053,7 +7053,7 @@ window.WINE_QUESTIONS = [
       "Flagey-Echézeaux村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos de la RocheはMorey-Saint-Denis村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Morey-Saint-Denis村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la RocheはMorey-Saint-Denis村に属するグラン・クリュです。\n②要点:Clos de la RocheはMorey-Saint-Denis村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Grand Cru 5を持つ小村"
   },
   {
     "id": "france-bourgogne-grand-cru-085",
@@ -7067,7 +7067,7 @@ window.WINE_QUESTIONS = [
       "赤・白ワイン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Bienvenues-Bâtard-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Bienvenues-Bâtard-Montrachetは白ワインのみを生産できるグラン・クリュです。\n②要点:Bienvenues-Bâtard-MontrachetはPuligny-Montrachet村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Montrachet系Grand CruはChardonnayの白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-086",
@@ -7085,7 +7085,7 @@ window.WINE_QUESTIONS = [
       "グラン・エシェゾー",
       "グランエシェゾー"
     ],
-    "explanation": "①正解理由:地図上の3番はGrands Echézeaux、カタカナではグラン・ゼシェゾーです。\n②覚え方:「ブルゴーニュ→グラン・ゼシェゾー」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の3番はGrands Echézeaux、カタカナではグラン・ゼシェゾーです。\n②要点:Grands EchézeauxはFlagey-Échezeaux村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-087",
@@ -7107,7 +7107,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:RichebourgとMontrachetはブルゴーニュ地方のグラン・クリュです。\n②覚え方:「ブルゴーニュ→Richebourg・Montrachet」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:RichebourgとMontrachetはブルゴーニュ地方のグラン・クリュです。\n②要点:RichebourgはVosne-Romanée村。\n③比較:Les Beaux MontsはVosne-Romanée。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-088",
@@ -7121,7 +7121,7 @@ window.WINE_QUESTIONS = [
       "1個"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Aloxe-Corton村にはCorton、Corton-Charlemagne、Charlemagneの3つのグラ…\n②覚え方:「ブルゴーニュ→3個」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:3個が設問の産地・格付け条件を満たす。\n②要点:CortonはAloxe-Corton／Ladoix-Serrigny／Pernand-Vergelesses村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Cortonは赤白、Corton-Charlemagneは白のみ。"
   },
   {
     "id": "france-bourgogne-grand-cru-089",
@@ -7143,7 +7143,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La Moutonneは非公式なグラン・クリュ名です。\n②覚え方:「ブルゴーニュ→La Moutonne・Fourchaume」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La Moutonneは非公式なグラン・クリュ名です。\n②要点:La Moutonne・FourchaumeをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-090",
@@ -7157,7 +7157,7 @@ window.WINE_QUESTIONS = [
       "Vosne-Romanée村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:La RomanéeはVosne-Romanée村に属するグラン・クリュです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La RomanéeはVosne-Romanée村に属するグラン・クリュです。\n②要点:La RomanéeはVosne-Romanée村。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-grand-cru-091",
@@ -7179,7 +7179,7 @@ window.WINE_QUESTIONS = [
       6
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:La Moutonneは非公式なグラン・クリュ名、Blanchotはシャブリ・グラン・クリュです。\n②覚え方:「ブルゴーニュ→La Moutonne・Blanchot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:La Moutonneは非公式なグラン・クリュ名、Blanchotはシャブリ・グラン・クリュです。\n②要点:La Moutonne・BlanchotをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-grand-cru-092",
@@ -7192,7 +7192,7 @@ window.WINE_QUESTIONS = [
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
     "answerText": "リシュブール",
-    "explanation": "①正解理由:地図上の4番はRichebourg、カタカナではリシュブールです。\n②覚え方:「ブルゴーニュ→リシュブール」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の4番はRichebourg、カタカナではリシュブールです。\n②要点:RichebourgはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-093",
@@ -7208,7 +7208,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "シャルムシャンベルタン"
     ],
-    "explanation": "①正解理由:地図上の7番はCharmes-Chambertin、カタカナではシャルム・シャンベルタンです。\n②覚え方:「ブルゴーニュ→シャルム・シャンベルタン」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の7番はCharmes-Chambertin、カタカナではシャルム・シャンベルタンです。\n②要点:Charmes-ChambertinはGevrey-Chambertin村。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-094",
@@ -7225,7 +7225,7 @@ window.WINE_QUESTIONS = [
       "バルミュール",
       "ヴァルミュール"
     ],
-    "explanation": "①正解理由:地図上の6番はValmur、カタカナではヴァルミュールです。\n②覚え方:「ブルゴーニュ→ヴァルミュール」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図上の6番はValmur、カタカナではヴァルミュールです。\n②要点:Valmurを村と隣接畑の位置関係で覚える。\n③比較:北から南、斜面上部から下部の順で隣接畑を確認。\n④頻出:地図問題は村名→Grand Cru→隣接畑の三段階で整理。"
   },
   {
     "id": "france-bourgogne-grand-cru-095",
@@ -7239,7 +7239,7 @@ window.WINE_QUESTIONS = [
       "赤ワインのみ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Aloxe-Corton村の区画におけるCharlemagneは白ワインのみを生産できます。\n②覚え方:「ブルゴーニュ→白ワインのみ」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Aloxe-Corton村の区画におけるCharlemagneは白ワインのみを生産できます。\n②要点:CharlemagneはAloxe-Corton／Pernand-Vergelesses村。\n③比較:赤ワインのみはPernand-Vergelesses。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-other-001",
@@ -7253,7 +7253,7 @@ window.WINE_QUESTIONS = [
       "Meursault村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les BouchèresはMeursault村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Meursault村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les BouchèresはMeursault村に属するプルミエ・クリュです。\n②要点:Les BouchèresはMeursault村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-002",
@@ -7267,7 +7267,7 @@ window.WINE_QUESTIONS = [
       "Corton-Charlemagne"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Les Vaucrainsはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Vaucrains」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Vaucrainsはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Vaucrainsは村名AOC内のPremier Cru。\n③比較:Clos de TartはMorey-Saint-Denis。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-003",
@@ -7281,7 +7281,7 @@ window.WINE_QUESTIONS = [
       "Charmes-Chambertin"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Chapelle-ChambertinはChambertin Clos-de-BèzeとGriotte-Chambe…\n②覚え方:「ブルゴーニュ→Chapelle-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chapelle-Chambertinが設問の産地・格付け条件を満たす。\n②要点:Chapelle-Chambertinは設問の2つのGrand Cruに接する位置。\n③比較:Mazoyères-ChambertinはGevrey-Chambertin村。\n④頻出:Gevrey-ChambertinはGrand Cru 9で最多。"
   },
   {
     "id": "france-bourgogne-other-004",
@@ -7295,7 +7295,7 @@ window.WINE_QUESTIONS = [
       "Meursault"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:この選択肢の中で栽培面積が最大なのはPouilly-Fuisséです。\n②覚え方:「ブルゴーニュ→Pouilly-Fuissé」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:この選択肢の中で栽培面積が最大なのはPouilly-Fuisséです。\n②要点:Pouilly-Fuisséは基準年と単位を含めて覚える。\n③比較:広域AOCと村名AOCでは面積・生産量の桁が異なる。\n④頻出:収穫量は年で変動するため、設問の統計年を必ず確認。"
   },
   {
     "id": "france-bourgogne-other-005",
@@ -7309,7 +7309,7 @@ window.WINE_QUESTIONS = [
       "Clos des Réas"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos des RéasはVosne-Romanée村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Clos des Réas」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des RéasはVosne-Romanée村に属するプルミエ・クリュです。\n②要点:Clos des RéasはVosne-Romanée村のPremier Cru。\n③比較:Les BressandesはBeaune。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-006",
@@ -7323,7 +7323,7 @@ window.WINE_QUESTIONS = [
       "La Tâche"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos des Cortons-FaiveleyはLadoix-Serrigny村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos des Cortons-Faiveley」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Cortons-FaiveleyはLadoix-Serrigny村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos des RéasはVosne-Romanée・Michel Gros。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-007",
@@ -7337,7 +7337,7 @@ window.WINE_QUESTIONS = [
       "Louis Jadot"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos des Ursulesの所有者はLouis Jadotです。\n②覚え方:「ブルゴーニュ→Louis Jadot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Ursulesの所有者はLouis Jadotです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-008",
@@ -7351,7 +7351,7 @@ window.WINE_QUESTIONS = [
       "Les Amoureuses"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des Hospicesは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos des Hospices」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Hospicesは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les AmoureusesはChambolle-Musigny。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-009",
@@ -7365,7 +7365,7 @@ window.WINE_QUESTIONS = [
       "スラン川左岸"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャブリ地区のグラン・クリュはスラン川右岸に位置します。\n②覚え方:「ブルゴーニュ→スラン川右岸」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャブリ地区のグラン・クリュはスラン川右岸に位置します。\n②要点:スラン川右岸をGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-other-010",
@@ -7379,7 +7379,7 @@ window.WINE_QUESTIONS = [
       "Morey-Saint-Denis"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos du FontenyはGevrey-Chambertin村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Gevrey-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos du FontenyはGevrey-Chambertin村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Chablisは白のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-011",
@@ -7393,7 +7393,7 @@ window.WINE_QUESTIONS = [
       "Nuits-Saint-Georges"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Grèves Vigne de l'Enfant JésusはBeaune村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Beaune」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Grèves Vigne de l'Enfant JésusはBeaune村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Meursaultは赤白。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-012",
@@ -7407,7 +7407,7 @@ window.WINE_QUESTIONS = [
       "ガメイ85%以上"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Bourgogne Passe-Tout-Grainsは、ピノ・ノワール30%以上、ガメイ15%以上という品種規定が…\n②覚え方:「Bourgogne Passe-To→ピノ・ノワール30%以上、ガメイ15%以上」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ピノ・ノワール30%以上、ガメイ15%以上が設問の産地・格付け条件を満たす。\n②要点:赤Pinot Noir、白Chardonnay、BeaujolaisのGamayが三本柱。\n③比較:Saint-BrisのSauvignon、BouzeronのAligotéは例外。\n④頻出:Bourgogne AligotéとBourgogne Passe-Tout-Grainsも頻出。"
   },
   {
     "id": "france-bourgogne-other-013",
@@ -7421,7 +7421,7 @@ window.WINE_QUESTIONS = [
       "La Romanée"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:ブルゴーニュ地方で最も栽培面積の小さいグラン・クリュはLa Romanéeです。\n②覚え方:「ブルゴーニュ→La Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュ地方で最も栽培面積の小さいグラン・クリュはLa Romanéeです。\n②要点:La RomanéeはVosne-Romanée村。\n③比較:Clos des LambraysはMorey-Saint-Denis。\n④頻出:Romanée-ContiなどGrand Cru 6"
   },
   {
     "id": "france-bourgogne-other-014",
@@ -7435,7 +7435,7 @@ window.WINE_QUESTIONS = [
       "Les Suchots"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les SuchotsはVosne-Romanée村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Suchots」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les SuchotsはVosne-Romanée村に属するプルミエ・クリュです。\n②要点:Les SuchotsはVosne-Romanée村のPremier Cru。\n③比較:Clos Saint-JacquesはGevrey-Chambertin。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-015",
@@ -7449,7 +7449,7 @@ window.WINE_QUESTIONS = [
       "Blanchot"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les Closに隣接している畑として、選択肢の中ではBlanchotが該当します。\n②覚え方:「ブルゴーニュ→Blanchot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Closに隣接している畑として、選択肢の中ではBlanchotが該当します。\n②要点:BlanchotをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-other-016",
@@ -7463,7 +7463,7 @@ window.WINE_QUESTIONS = [
       "Clos de Vougeot"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos de la Maréchaleは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos de la Maréchale」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la Maréchaleは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les PucellesはPuligny-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-017",
@@ -7477,7 +7477,7 @@ window.WINE_QUESTIONS = [
       "Ruchottes-Chambertin"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Aux Guettesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Aux Guettes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Aux Guettesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Aux Guettesは村名AOC内のPremier Cru。\n③比較:Criots-Bâtard-MontrachetはChassagne-Montrachet村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-018",
@@ -7491,7 +7491,7 @@ window.WINE_QUESTIONS = [
       "Clos de la Barre"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos des Ruchottes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:La Grande RueはVosne-Romanée。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-019",
@@ -7505,7 +7505,7 @@ window.WINE_QUESTIONS = [
       "Chambolle-Musigny村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Beaux MontsはVosne-Romanée村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Beaux MontsはVosne-Romanée村に属するプルミエ・クリュです。\n②要点:Les Beaux MontsはVosne-Romanée村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-020",
@@ -7519,7 +7519,7 @@ window.WINE_QUESTIONS = [
       "Groupe Artemis"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos de la Bousse d'Orの所有者はDomaine de la Pousse d'Orです。\n②覚え方:「ブルゴーニュ→Domaine de la Pousse d'Or」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la Bousse d'Orの所有者はDomaine de la Pousse d'Orです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-021",
@@ -7533,7 +7533,7 @@ window.WINE_QUESTIONS = [
       "Domaine de la Pousse d'Or"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des Ducsの所有者はDomaine Marquis d'Angervilleです。\n②覚え方:「ブルゴーニュ→Domaine Marquis d'Angerville」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Ducsの所有者はDomaine Marquis d'Angervilleです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-022",
@@ -7547,7 +7547,7 @@ window.WINE_QUESTIONS = [
       "Clos des Mouches"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos des MouchesはBeaune村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Clos des Mouches」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des MouchesはBeaune村に属するプルミエ・クリュです。\n②要点:Clos des MouchesはBeaune村のPremier Cru。\n③比較:Les CrâsはVougeot。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-023",
@@ -7561,7 +7561,7 @@ window.WINE_QUESTIONS = [
       "Les Chaumes"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les Chaumesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Chaumes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Chaumesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Chaumesは村名AOC内のPremier Cru。\n③比較:Clos de la RocheはMorey-Saint-Denis。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-024",
@@ -7575,7 +7575,7 @@ window.WINE_QUESTIONS = [
       "Clos des Ursules"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:La RomanéeはVosne-Romanée村に属するモノポールです。\n②覚え方:「ブルゴーニュ→La Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La RomanéeはVosne-Romanée村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos de la MouchèreはPuligny-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-025",
@@ -7589,7 +7589,7 @@ window.WINE_QUESTIONS = [
       "マルヌ川"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャブリ地区を流れる川はスラン川です。\n②覚え方:「ブルゴーニュ→スラン川」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャブリ地区を流れる川はスラン川です。\n②要点:スラン川をChablis／Grand Auxerroisの村・AOCとして地図に置く。\n③比較:同名の村名AOC、Premier Cru、Grand Cruを区別。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-other-026",
@@ -7603,7 +7603,7 @@ window.WINE_QUESTIONS = [
       "Beaune村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Murgers des dents de chienはSaint-Aubin村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Saint-Aubin村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Murgers des dents de chienはSaint-Aubin村に属するプルミエ・クリュです。\n②要点:Les Murgers des dents de chienはSaint-Aubin村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-027",
@@ -7617,7 +7617,7 @@ window.WINE_QUESTIONS = [
       "La Romanée"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:La Romanéeは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→La Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Romanéeは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les VaucrainsはNuits-Saint-Georges。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-028",
@@ -7631,7 +7631,7 @@ window.WINE_QUESTIONS = [
       "Vaudésir"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Les Closに隣接している畑として、選択肢の中ではValmurが該当します。\n②覚え方:「ブルゴーニュ→Valmur」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Closに隣接している畑として、選択肢の中ではValmurが該当します。\n②要点:ValmurをGrand Cru名と所属村で一組にする。\n③比較:Premier Cruは村名を伴うが、Grand Cruは畑名自体がAOC。\n④頻出:Côte de NuitsのGrand CruはPinot Noirの赤が基本。"
   },
   {
     "id": "france-bourgogne-other-029",
@@ -7645,7 +7645,7 @@ window.WINE_QUESTIONS = [
       "Vosne-Romanée"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des MyglandはMercurey村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Mercurey」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des MyglandはMercurey村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Vosne-Romanéeは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-030",
@@ -7659,7 +7659,7 @@ window.WINE_QUESTIONS = [
       "Côte de Brouilly"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:クリュ・ボージョレの中で最北に位置するのはSaint-Amourです。\n②覚え方:「ブルゴーニュ→Saint-Amour」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:クリュ・ボージョレの中で最北に位置するのはSaint-Amourです。\n②要点:Saint-AmourをBeaujolaisの村・AOCとして地図に置く。\n③比較:Fleurieは赤のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-other-031",
@@ -7673,7 +7673,7 @@ window.WINE_QUESTIONS = [
       "Charmes-Chambertin"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Chambertinに隣接している畑として、選択肢の中ではCharmes-Chambertinが該当します。\n②覚え方:「ブルゴーニュ→Charmes-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chambertinに隣接している畑として、選択肢の中ではCharmes-Chambertinが該当します。\n②要点:Charmes-ChambertinはGevrey-Chambertin村。\n③比較:Chapelle-Chambertinはジュヴレ・シャンベルタン。\n④頻出:Grand Cru 9、Côte de Nuitsで最多"
   },
   {
     "id": "france-bourgogne-other-032",
@@ -7687,7 +7687,7 @@ window.WINE_QUESTIONS = [
       "Montrachet"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Les Crasはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Cras」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Crasはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Crasは村名AOC内のPremier Cru。\n③比較:Romanée-Saint-VivantはVosne-Romanée。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-033",
@@ -7701,7 +7701,7 @@ window.WINE_QUESTIONS = [
       "Domaine Jacques-Frédéric Mugnier"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des Porrets Saint-Georgesの所有者はHenri Gougesです。\n②覚え方:「ブルゴーニュ→Henri Gouges」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Porrets Saint-Georgesの所有者はHenri Gougesです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-034",
@@ -7715,7 +7715,7 @@ window.WINE_QUESTIONS = [
       "Clos de la Bousse d'Or"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos de la GarenneはPuligny-Montrachet村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos de la Garenne」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la GarenneはPuligny-Montrachet村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:La Tâcheはヴォーヌ・ロマネ・Domaine de la Romanée Conti。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-035",
@@ -7729,7 +7729,7 @@ window.WINE_QUESTIONS = [
       "Meursault村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Les PucellesはPuligny-Montrachet村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Puligny-Montrachet村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les PucellesはPuligny-Montrachet村に属するプルミエ・クリュです。\n②要点:Les PucellesはPuligny-Montrachet村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-036",
@@ -7743,7 +7743,7 @@ window.WINE_QUESTIONS = [
       "Aux Vergelesses"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les DuressesはAuxey-Duresses村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Duresses」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les DuressesはAuxey-Duresses村に属するプルミエ・クリュです。\n②要点:Les DuressesはAuxey-Duresses村のPremier Cru。\n③比較:Les Grands EpenotsはPommard。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-037",
@@ -7757,7 +7757,7 @@ window.WINE_QUESTIONS = [
       "Mercurey"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Morgeot Clos de la ChapelleはChassagne-Montrachet村に属するモノポール…\n②覚え方:「ブルゴーニュ→Chassagne-Montrachet」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Chassagne-Montrachetが設問の産地・格付け条件を満たす。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Volnayは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-038",
@@ -7771,7 +7771,7 @@ window.WINE_QUESTIONS = [
       "Beaune村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:コート・ドール地区で栽培面積が第2位の村は、選択肢の中ではBeaune村です。\n②覚え方:「ブルゴーニュ→Beaune村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・ドール地区で栽培面積が第2位の村は、選択肢の中ではBeaune村です。\n②要点:Beaune村は基準年と単位を含めて覚える。\n③比較:広域AOCと村名AOCでは面積・生産量の桁が異なる。\n④頻出:収穫量は年で変動するため、設問の統計年を必ず確認。"
   },
   {
     "id": "france-bourgogne-other-039",
@@ -7785,7 +7785,7 @@ window.WINE_QUESTIONS = [
       "Clos de la Maréchale"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos de la Maréchale」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos de la MouchèreはPuligny-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-040",
@@ -7799,7 +7799,7 @@ window.WINE_QUESTIONS = [
       "Clavaillon"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Rugiens-BasはPommard村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Rugiens-Bas」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Rugiens-BasはPommard村に属するプルミエ・クリュです。\n②要点:Les Rugiens-BasはPommard村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-041",
@@ -7813,7 +7813,7 @@ window.WINE_QUESTIONS = [
       "Chambolle-Musigny村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les AmoureusesはChambolle-Musigny村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Chambolle-Musigny村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les AmoureusesはChambolle-Musigny村に属するプルミエ・クリュです。\n②要点:Les AmoureusesはChambolle-Musigny村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-042",
@@ -7827,7 +7827,7 @@ window.WINE_QUESTIONS = [
       "Morgon"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:クリュ・ボージョレの中で面積最大なのはBrouillyです。\n②覚え方:「ブルゴーニュ→Brouilly」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:クリュ・ボージョレの中で面積最大なのはBrouillyです。\n②要点:Brouillyは基準年と単位を含めて覚える。\n③比較:広域AOCと村名AOCでは面積・生産量の桁が異なる。\n④頻出:収穫量は年で変動するため、設問の統計年を必ず確認。"
   },
   {
     "id": "france-bourgogne-other-043",
@@ -7841,7 +7841,7 @@ window.WINE_QUESTIONS = [
       "Domaine Albert Grivault"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:La Tâcheの所有者はDomaine de la Romanée Contiです。\n②覚え方:「ブルゴーニュ→Domaine de la Romanée Conti」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Tâcheの所有者はDomaine de la Romanée Contiです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-044",
@@ -7855,7 +7855,7 @@ window.WINE_QUESTIONS = [
       "Les Grands Epenots"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Grèves Vigne de l'Enfant Jésusは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Grèves Vigne de l'Enfant Jés」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Grèves Vigne de l'Enfant Jésusは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les Grands EpenotsはPommard。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-045",
@@ -7869,7 +7869,7 @@ window.WINE_QUESTIONS = [
       "Richebourg"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos Saint-Jeanはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Clos Saint-Jean」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos Saint-Jeanはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Clos Saint-Jeanは村名AOC内のPremier Cru。\n③比較:Mazis-ChambertinはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-046",
@@ -7883,7 +7883,7 @@ window.WINE_QUESTIONS = [
       "Ladoix-Serrigny"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des UrsulesはBeaune村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Beaune」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des UrsulesはBeaune村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Volnayは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-047",
@@ -7897,7 +7897,7 @@ window.WINE_QUESTIONS = [
       "Charmes-ChambertinのワインはMazoyères-Chambertinを名乗れる"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Mazoyères-ChambertinのワインはCharmes-Chambertinを名乗ることができます。\n②覚え方:「ブルゴーニュ→Mazoyères-ChambertinのワインはCha」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Mazoyères-ChambertinのワインはCharmes-Chambertinを名乗ることができます。\n②要点:Mazoyères-ChambertinはCharmes-Chambertin名でも販売可能。\n③比較:逆にCharmes産をMazoyèresとは表示できない。\n④頻出:両者は隣接し、規定上の特例として頻出。"
   },
   {
     "id": "france-bourgogne-other-048",
@@ -7911,7 +7911,7 @@ window.WINE_QUESTIONS = [
       "Perrières"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Grands EpenotsはPommard村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Grands Epenots」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Grands EpenotsはPommard村に属するプルミエ・クリュです。\n②要点:Les Grands EpenotsはPommard村のPremier Cru。\n③比較:PerrièresはMeursault。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-049",
@@ -7925,7 +7925,7 @@ window.WINE_QUESTIONS = [
       "Clos Blanc de Vougeot"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos Blanc de VougeotはVougeot村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos Blanc de Vougeot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos Blanc de VougeotはVougeot村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Grèves Vigne de l'Enfant JésusはBeaune。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-050",
@@ -7939,7 +7939,7 @@ window.WINE_QUESTIONS = [
       "Corton"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Les Teuronsはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Teurons」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Teuronsはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Teuronsは村名AOC内のPremier Cru。\n③比較:Clos Saint-DenisはMorey-Saint-Denis村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-051",
@@ -7953,7 +7953,7 @@ window.WINE_QUESTIONS = [
       "En Cailleret"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des Ruchottesは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos des Ruchottes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Ruchottesは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:En CailleretはChassagne-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-052",
@@ -7967,7 +7967,7 @@ window.WINE_QUESTIONS = [
       "Nuits-Saint-Georges村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les CaillesはNuits-Saint-Georges村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Nuits-Saint-Georges村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les CaillesはNuits-Saint-Georges村に属するプルミエ・クリュです。\n②要点:Les CaillesはNuits-Saint-Georges村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-053",
@@ -7981,7 +7981,7 @@ window.WINE_QUESTIONS = [
       "Chablis"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des DucsはVolnay村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Volnay」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des DucsはVolnay村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Chablisは白のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-054",
@@ -7995,7 +7995,7 @@ window.WINE_QUESTIONS = [
       "Mazis-Chambertin, Chambertin Clos-de-Bèze, Chambertin, Latricières-Chambertin"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:北から南の順序では、Mazis-Chambertin、Chambertin Clos-de-Bèze、Chamber…\n②覚え方:「ブルゴーニュ→Mazis-Chambertin, Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:北からMazis→Clos-de-Bèze→Chambertin→Latricièresの順に並ぶ。\n②要点:ジュヴレ東側の斜面を北から南へたどる。\n③比較:Clos-de-BèzeはChambertinのすぐ北、Latricièresは南。\n④頻出:ジュヴレ・シャンベルタンにはGrand Cruが9つある。"
   },
   {
     "id": "france-bourgogne-other-055",
@@ -8009,7 +8009,7 @@ window.WINE_QUESTIONS = [
       "Les Grands Epenots"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:En CailleretはChassagne-Montrachet村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→En Cailleret」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:En CailleretはChassagne-Montrachet村に属するプルミエ・クリュです。\n②要点:En CailleretはChassagne-Montrachet村のPremier Cru。\n③比較:Les Grands EpenotsはPommard。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-056",
@@ -8023,7 +8023,7 @@ window.WINE_QUESTIONS = [
       "Fixin村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos de La PerrièreはFixin村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Fixin村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de La PerrièreはFixin村に属するプルミエ・クリュです。\n②要点:Clos de La PerrièreはFixin村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-057",
@@ -8037,7 +8037,7 @@ window.WINE_QUESTIONS = [
       "Clos des Ursules"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos des HospicesはChablis村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos des Hospices」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des HospicesはChablis村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos des UrsulesはBeaune・Louis Jadot。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-058",
@@ -8051,7 +8051,7 @@ window.WINE_QUESTIONS = [
       "Corton-Charlemagne"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Les Fichotsはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Fichots」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Fichotsはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Fichotsは村名AOC内のPremier Cru。\n③比較:Latricières-ChambertinはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-059",
@@ -8065,7 +8065,7 @@ window.WINE_QUESTIONS = [
       "Domaine de la Romanée Conti"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos de la Garenneの所有者はLouis Jadotです。\n②覚え方:「ブルゴーニュ→Louis Jadot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la Garenneの所有者はLouis Jadotです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-060",
@@ -8079,7 +8079,7 @@ window.WINE_QUESTIONS = [
       "Aloxe-Corton村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:コート・ドール地区で栽培面積が第1位の村は、選択肢の中ではGevrey-Chambertin村です。\n②覚え方:「ブルゴーニュ→Gevrey-Chambertin村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:コート・ドール地区で栽培面積が第1位の村は、選択肢の中ではGevrey-Chambertin村です。\n②要点:Gevrey-Chambertin村は基準年と単位を含めて覚える。\n③比較:広域AOCと村名AOCでは面積・生産量の桁が異なる。\n④頻出:収穫量は年で変動するため、設問の統計年を必ず確認。"
   },
   {
     "id": "france-bourgogne-other-061",
@@ -8093,7 +8093,7 @@ window.WINE_QUESTIONS = [
       "Clos de la Mouchère"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos de la Mouchèreは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos de la Mouchère」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la Mouchèreは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Grands EchézeauxはFlagey-Echézeaux。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-062",
@@ -8107,7 +8107,7 @@ window.WINE_QUESTIONS = [
       "Mercurey"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos de la MouchèreはPuligny-Montrachet村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Puligny-Montrachet」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la MouchèreはPuligny-Montrachet村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Vosne-Romanéeは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-063",
@@ -8121,7 +8121,7 @@ window.WINE_QUESTIONS = [
       "Les Vercots"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Le Meix BatailleはMonthélie村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Le Meix Bataille」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Le Meix BatailleはMonthélie村に属するプルミエ・クリュです。\n②要点:Le Meix BatailleはMonthélie村のPremier Cru。\n③比較:Les PucellesはPuligny-Montrachet。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-064",
@@ -8135,7 +8135,7 @@ window.WINE_QUESTIONS = [
       "Vosne-Romanée"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Gevrey-Chambertin」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des RuchottesはGevrey-Chambertin村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Mercureyは赤白。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-065",
@@ -8149,7 +8149,7 @@ window.WINE_QUESTIONS = [
       "Vougeot村"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Les CrâsはVougeot村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Vougeot村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les CrâsはVougeot村に属するプルミエ・クリュです。\n②要点:Les CrâsはVougeot村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-066",
@@ -8163,7 +8163,7 @@ window.WINE_QUESTIONS = [
       "Grands Echézeaux"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Romanée-Contiは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Romanée-Conti」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Romanée-Contiは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les PucellesはPuligny-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-067",
@@ -8177,7 +8177,7 @@ window.WINE_QUESTIONS = [
       "Régnié"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:クリュ・ボージョレの中で最新なのはRégniéです。\n②覚え方:「ブルゴーニュ→Régnié」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:クリュ・ボージョレの中で最新なのはRégniéです。\n②要点:RégniéをBeaujolaisの村・AOCとして地図に置く。\n③比較:Juliénasは赤のみ。\n④頻出:ブルゴーニュは小区画のClimatと階層表示が出題の中心。"
   },
   {
     "id": "france-bourgogne-other-068",
@@ -8191,7 +8191,7 @@ window.WINE_QUESTIONS = [
       "Montrachet"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Caillesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Cailles」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Caillesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Caillesは村名AOC内のPremier Cru。\n③比較:Latricières-ChambertinはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-069",
@@ -8205,7 +8205,7 @@ window.WINE_QUESTIONS = [
       "Bâtard-Montrachet"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ブルゴーニュ地方で最も栽培面積の大きいグラン・クリュはClos de Vougeotです。\n②覚え方:「ブルゴーニュ→Clos de Vougeot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブルゴーニュ地方で最も栽培面積の大きいグラン・クリュはClos de Vougeotです。\n②要点:Clos de VougeotはVougeot村。\n③比較:Romanée-Saint-VivantはVosne-Romanée。\n④頻出:Grand CruはClos de Vougeot"
   },
   {
     "id": "france-bourgogne-other-070",
@@ -8219,7 +8219,7 @@ window.WINE_QUESTIONS = [
       "Puligny-Montrachet村"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Les VaucrainsはNuits-Saint-Georges村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Nuits-Saint-Georges村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les VaucrainsはNuits-Saint-Georges村に属するプルミエ・クリュです。\n②要点:Les VaucrainsはNuits-Saint-Georges村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-071",
@@ -8233,7 +8233,7 @@ window.WINE_QUESTIONS = [
       "La Tâche"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Les Grands Epenotsはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Grands Epenots」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Grands Epenotsはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Grands Epenotsは村名AOC内のPremier Cru。\n③比較:Chambertin Clos-de-BèzeはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-072",
@@ -8247,7 +8247,7 @@ window.WINE_QUESTIONS = [
       "Chablis"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Nuits-Saint-Georges」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la MaréchaleはNuits-Saint-Georges村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Chablisは白のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-073",
@@ -8261,7 +8261,7 @@ window.WINE_QUESTIONS = [
       "La Tâche"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des PerrièresはMeursault村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Clos des Perrières」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des PerrièresはMeursault村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos des MyglandはMercurey・Domaine Faiveley。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-074",
@@ -8275,7 +8275,7 @@ window.WINE_QUESTIONS = [
       "Michel Gros"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos des Réasの所有者はMichel Grosです。\n②覚え方:「ブルゴーニュ→Michel Gros」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Réasの所有者はMichel Grosです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-075",
@@ -8289,7 +8289,7 @@ window.WINE_QUESTIONS = [
       "Charmes-Chambertin, Mazoyères-Chambertin, Griotte-Chambertin, Chapelle-Chambertin"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:北から南の順序では、Chapelle-Chambertin、Griotte-Chambertin、Charmes-C…\n②覚え方:「ブルゴーニュ→Chapelle-Chambertin, Griotte」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:北からChapelle→Griotte→Charmes→Mazoyèresの順に並ぶ。\n②要点:ジュヴレ南東側の4畑を縦一列で覚える。\n③比較:CharmesとMazoyèresは隣接し、表示上の特例がある。\n④頻出:Mazoyères産はCharmes-Chambertinを名乗れるが逆は不可。"
   },
   {
     "id": "france-bourgogne-other-076",
@@ -8303,7 +8303,7 @@ window.WINE_QUESTIONS = [
       "Côte de Brouilly"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:クリュ・ボージョレの中で生産量最大なのはBrouillyです。\n②覚え方:「ブルゴーニュ→Brouilly」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:クリュ・ボージョレの中で生産量最大なのはBrouillyです。\n②要点:Brouillyは基準年と単位を含めて覚える。\n③比較:広域AOCと村名AOCでは面積・生産量の桁が異なる。\n④頻出:収穫量は年で変動するため、設問の統計年を必ず確認。"
   },
   {
     "id": "france-bourgogne-other-077",
@@ -8317,7 +8317,7 @@ window.WINE_QUESTIONS = [
       "Chambertin"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Morgeot Clos de la Chapelleは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Morgeot Clos de la Chapelle」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Morgeot Clos de la Chapelleは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:ChambertinはGevrey-Chambertin村。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-078",
@@ -8331,7 +8331,7 @@ window.WINE_QUESTIONS = [
       "Domaine Armand Rousseau"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos des Ruchottesの所有者はDomaine Armand Rousseauです。\n②覚え方:「ブルゴーニュ→Domaine Armand Rousseau」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Ruchottesの所有者はDomaine Armand Rousseauです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-079",
@@ -8345,7 +8345,7 @@ window.WINE_QUESTIONS = [
       "Aloxe-Corton村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:La MaltroieはChassagne-Montrachet村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Chassagne-Montrachet村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La MaltroieはChassagne-Montrachet村に属するプルミエ・クリュです。\n②要点:La MaltroieはChassagne-Montrachet村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-080",
@@ -8359,7 +8359,7 @@ window.WINE_QUESTIONS = [
       "Basses Mourottes"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos des Porrets Saint-Georgesは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos des Porrets Saint-Georg」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Porrets Saint-Georgesは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Les FolatièresはPuligny-Montrachet。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-081",
@@ -8373,7 +8373,7 @@ window.WINE_QUESTIONS = [
       "Clos de la Barre"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Romanée-ContiはVosne-Romanée村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Romanée-Conti」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Romanée-ContiはVosne-Romanée村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Clos de la MaréchaleはNuits-Saint-Georges。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-082",
@@ -8387,7 +8387,7 @@ window.WINE_QUESTIONS = [
       "Aux Thorey"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos de la CommaraineはPommard村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Clos de la Commaraine」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la CommaraineはPommard村に属するプルミエ・クリュです。\n②要点:Clos de la CommaraineはPommard村のPremier Cru。\n③比較:Les SuchotsはVosne-Romanée。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-083",
@@ -8401,7 +8401,7 @@ window.WINE_QUESTIONS = [
       "Charmes-Chambertin"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:La Grande Rueは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→La Grande Rue」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Grande Rueは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Charmes-Chambertinはジュヴレ・シャンベルタン。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-084",
@@ -8415,7 +8415,7 @@ window.WINE_QUESTIONS = [
       "Fixin村"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos Saint-JacquesはGevrey-Chambertin村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Gevrey-Chambertin村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos Saint-JacquesはGevrey-Chambertin村に属するプルミエ・クリュです。\n②要点:Clos Saint-JacquesはGevrey-Chambertin村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-085",
@@ -8429,7 +8429,7 @@ window.WINE_QUESTIONS = [
       "Vougeot"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:La TâcheはVosne-Romanée村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La TâcheはVosne-Romanée村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Gevrey-Chambertinは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-086",
@@ -8443,7 +8443,7 @@ window.WINE_QUESTIONS = [
       "Charlemagne"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Les Cents Vignesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Cents Vignes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Cents Vignesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Cents Vignesは村名AOC内のPremier Cru。\n③比較:CortonはAloxe-Corton／Ladoix-Serrigny／Pernand-Vergelesses村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-087",
@@ -8457,7 +8457,7 @@ window.WINE_QUESTIONS = [
       "Clos Tamisot"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos Tamisotは所有者が単独の畑です。\n②覚え方:「ブルゴーニュ→Clos Tamisot」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos Tamisotは所有者が単独の畑です。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-088",
@@ -8471,7 +8471,7 @@ window.WINE_QUESTIONS = [
       "Meursault"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Clos de la BarreはMeursault村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Meursault」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos de la BarreはMeursault村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Chablisは白のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-089",
@@ -8485,7 +8485,7 @@ window.WINE_QUESTIONS = [
       "Domaine Albert Grivault"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Clos des Myglandの所有者はDomaine Faiveleyです。\n②覚え方:「ブルゴーニュ→Domaine Faiveley」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Myglandの所有者はDomaine Faiveleyです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-090",
@@ -8499,7 +8499,7 @@ window.WINE_QUESTIONS = [
       "Vergelesses"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les FolatièresはPuligny-Montrachet村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Folatières」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les FolatièresはPuligny-Montrachet村に属するプルミエ・クリュです。\n②要点:Les FolatièresはPuligny-Montrachet村のPremier Cru。\n③比較:Les BressandesはBeaune。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-091",
@@ -8513,7 +8513,7 @@ window.WINE_QUESTIONS = [
       "Auxey-Duresses村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:A l'EcuはBeaune村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Beaune村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:A l'EcuはBeaune村に属するプルミエ・クリュです。\n②要点:Beaune村は村名AOC内のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-092",
@@ -8527,7 +8527,7 @@ window.WINE_QUESTIONS = [
       "Basses Mourottes"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Basses Mourottesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Basses Mourottes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Basses Mourottesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Basses Mourottesは村名AOC内のPremier Cru。\n③比較:Mazis-ChambertinはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-093",
@@ -8541,7 +8541,7 @@ window.WINE_QUESTIONS = [
       "Echézeaux"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Gaudichotsはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Gaudichots」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les GaudichotsはVosne-Romanée村のPremier Cru。\n②要点:La TâcheとLa Grande Rueに接する区画として位置で覚える。\n③比較:Corton-CharlemagneはGrand Cru、Les GaudichotsはPremier Cru。\n④頻出:Premier Cruは村名＋畑名、Grand Cruは畑名だけでAOC。"
   },
   {
     "id": "france-bourgogne-other-094",
@@ -8555,7 +8555,7 @@ window.WINE_QUESTIONS = [
       "Ladoix-Serrigny"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:La Grande RueはVosne-Romanée村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Vosne-Romanée」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:La Grande RueはVosne-Romanée村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Chablisは白のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-095",
@@ -8569,7 +8569,7 @@ window.WINE_QUESTIONS = [
       "Domaine du Château de Vosne-Romanée"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Clos des Hospicesの所有者はDomaine Christian Moreau Père & Fils…\n②覚え方:「ブルゴーニュ→Domaine Christian Moreau Pèr」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des Hospicesの所有者はDomaine Christian Moreau Père & Fils。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Closと名乗っても複数所有者ならMonopoleではない。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bourgogne-other-096",
@@ -8583,7 +8583,7 @@ window.WINE_QUESTIONS = [
       "Musigny"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Les Amoureusesはブルゴーニュ地方のプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Amoureuses」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les Amoureusesはブルゴーニュ地方のプルミエ・クリュです。\n②要点:Les Amoureusesは村名AOC内のPremier Cru。\n③比較:Mazis-ChambertinはGevrey-Chambertin村。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-097",
@@ -8597,7 +8597,7 @@ window.WINE_QUESTIONS = [
       "Pommard村"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:PerrièresはMeursault村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Meursault村」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:PerrièresはMeursault村に属するプルミエ・クリュです。\n②要点:PerrièresはMeursault村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-098",
@@ -8611,7 +8611,7 @@ window.WINE_QUESTIONS = [
       "Basses Mourottes"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Les BressandesはBeaune村に属するプルミエ・クリュです。\n②覚え方:「ブルゴーニュ→Les Bressandes」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Les BressandesはBeaune村に属するプルミエ・クリュです。\n②要点:Les BressandesはBeaune村のPremier Cru。\n③比較:Grand Cruは独立AOC、Premier Cruは村名＋畑名で表示。\n④頻出:Premier Cruはクリマ単位。ラベルでは村名の後に畑名を置く。"
   },
   {
     "id": "france-bourgogne-other-099",
@@ -8625,7 +8625,7 @@ window.WINE_QUESTIONS = [
       "Vosne-Romanée"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Clos des HospicesはChablis村に属するモノポールです。\n②覚え方:「ブルゴーニュ→Chablis」で固定。\n③関連頻出:村名AOC／畑格付け／主要品種\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Clos des HospicesはChablis村に属するモノポールです。\n②要点:Monopoleは一つのクリマを単独所有する畑。Closは石垣で囲まれた畑。\n③比較:Vosne-Romanéeは赤のみ。\n④頻出:Romanée-Conti、La Tâche、Clos de Tartなどが代表例。"
   },
   {
     "id": "france-bordeaux-aoc-001",
@@ -8638,7 +8638,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "カディヤック",
-    "explanation": "①正解理由:地図上の6番はCadillac、カタカナではカディヤックです。\n②覚え方:「ボルドー→カディヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の6番はカディヤック。\n②要点:カディヤックはガロンヌ川右岸の甘口白AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-002",
@@ -8652,7 +8652,7 @@ window.WINE_QUESTIONS = [
       "ポムロール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:説明に合致する地区はフロンサデです。FronsacとCanon Fronsacが属します。\n②覚え方:「ボルドー→フロンサデ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:説明に合致する地区はフロンサデです。FronsacとCanon Fronsacが属します。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-003",
@@ -8666,7 +8666,7 @@ window.WINE_QUESTIONS = [
       "サンテミリオン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Pauillacはメドック地区のAOCです。\n②覚え方:「ポイヤック→メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pauillacはメドック地区のAOCです。\n②要点:メドックを河川と左岸・右岸の位置で捉える。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-004",
@@ -8682,7 +8682,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サンジュリアン"
     ],
-    "explanation": "①正解理由:地図上の5番はSaint-Julien、カタカナではサン・ジュリアンです。\n②覚え方:「ボルドー→サン・ジュリアン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の5番はサン・ジュリアン。\n②要点:サン・ジュリアンはメドック左岸、PauillacとMargauxの間の赤AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-005",
@@ -8696,7 +8696,7 @@ window.WINE_QUESTIONS = [
       "ボルドー"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Saint-Émilionは赤ワインのみが認められているAOCです。\n②覚え方:「ボルドー→サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Émilionは赤ワインのみが認められているAOCです。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-006",
@@ -8715,7 +8715,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Puisseguin-Saint-Émilionに相当する番号は5番です。\n②覚え方:「ボルドー→5番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でPuisseguin-Saint-Émilionは地図の5番に位置する。\n②要点:す。地図上でPuisseguin-Saint-Émilionは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-007",
@@ -8729,7 +8729,7 @@ window.WINE_QUESTIONS = [
       "Listrac-Médoc"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Castillon Côtes de Bordeauxはドルドーニュ川右岸で生産されるAOCです。\n②覚え方:「ボルドー→Castillon Côtes de Bordeaux」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Castillon Côtes de Bordeauxはドルドーニュ川右岸に位置するAOC。\n②要点:Castillon・Francs・Saint-Émilion・Pomerolが右岸側。\n③比較:MoulisやListracはジロンド左岸のMédoc。\n④頻出:右岸は粘土質とMerlot、左岸は砂礫とCabernetが軸。"
   },
   {
     "id": "france-bordeaux-aoc-008",
@@ -8743,7 +8743,7 @@ window.WINE_QUESTIONS = [
       "北緯41度"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ボルドー市はおおむね北緯45度に位置します。\n②覚え方:「ボルドー→北緯45度」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドー市はおおむね北緯45度に位置します。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-009",
@@ -8757,7 +8757,7 @@ window.WINE_QUESTIONS = [
       "ボルドー・シュペリュール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Cadillacは甘口ワインのみが認められているAOCです。\n②覚え方:「ボルドー→カディヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Cadillacは甘口ワインのみが認められているAOCです。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-010",
@@ -8771,7 +8771,7 @@ window.WINE_QUESTIONS = [
       "石灰質土壌"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ドルドーニュ川およびジロンド川右岸は粘土質土壌が重要です。\n②覚え方:「ボルドー→粘土質土壌」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ドルドーニュ川およびジロンド川右岸は粘土質土壌が重要です。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-011",
@@ -8785,7 +8785,7 @@ window.WINE_QUESTIONS = [
       "ペサック・レオニャン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Loupiacは甘口ワインのみが認められているAOCです。\n②覚え方:「ボルドー→ルーピアック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Loupiacは甘口ワインのみが認められているAOCです。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-012",
@@ -8799,7 +8799,7 @@ window.WINE_QUESTIONS = [
       "メドック"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Moulisはメドック地区のAOCです。\n②覚え方:「ムーリス→メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Moulisはメドック地区のAOCです。\n②要点:メドックを河川と左岸・右岸の位置で捉える。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-013",
@@ -8813,7 +8813,7 @@ window.WINE_QUESTIONS = [
       "セロンス"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Haut-Médocは赤ワインのみが認められているAOCです。\n②覚え方:「ボルドー→オー・メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Haut-Médocは赤ワインのみが認められているAOCです。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-014",
@@ -8832,7 +8832,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Saint-Georges Saint-Émilionに相当する番号は2番です。\n②覚え方:「ボルドー→2番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でSaint-Georges Saint-Émilionは地図の2番に位置する。\n②要点:す。地図上でSaint-Georges Saint-Émilionは設問の地区。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-015",
@@ -8848,7 +8848,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "オーメドック"
     ],
-    "explanation": "①正解理由:地図上の2番はHaut-Médoc、カタカナではオー・メドックです。\n②覚え方:「ボルドー→オー・メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の2番はオー・メドック。\n②要点:オー・メドックは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-016",
@@ -8862,7 +8862,7 @@ window.WINE_QUESTIONS = [
       "ポムロールの畑の景観"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ボルドー市の市街区域はユネスコの世界遺産に登録されています。\n②覚え方:「ボルドー→ボルドー市の市街区域」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドー市の市街区域はユネスコの世界遺産に登録されています。\n②要点:数値は基準年を含めて覚える。ボルドー市街は2007年世界遺産。\n③比較:2023年生産量約420万hL、赤の比率約81%が目安。\n④頻出:ヴィンテージで変動するため年次と単位を確認。"
   },
   {
     "id": "france-bordeaux-aoc-017",
@@ -8876,7 +8876,7 @@ window.WINE_QUESTIONS = [
       "Blaye Côtes de Bordeaux"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Cadillacはドルドーニュ川とガロンヌ川の間で生産される甘口ワインのみのAOCです。\n②覚え方:「ボルドー→Cadillac」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Cadillacはドルドーニュ川とガロンヌ川の間で生産される甘口ワインのみのAOCです。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-018",
@@ -8890,7 +8890,7 @@ window.WINE_QUESTIONS = [
       "ポムロール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:説明に合致する地区はサンテミリオンです。北側には衛星地区と呼ばれるAOCがあります。\n②覚え方:「ボルドー→サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:説明に合致する地区はサンテミリオンです。北側には衛星地区と呼ばれるAOCがあります。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-019",
@@ -8909,7 +8909,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Céronsに相当する番号は3番です。\n②覚え方:「ボルドー→3番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でCéronsは地図の3番に位置する。\n②要点:す。地図上でCéronsは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-020",
@@ -8922,7 +8922,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "ソーテルヌ",
-    "explanation": "①正解理由:地図上の1番はSauternes、カタカナではソーテルヌです。\n②覚え方:「ボルドー→ソーテルヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の1番はソーテルヌ。\n②要点:ソーテルヌはシロン川流域の貴腐甘口AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-021",
@@ -8936,7 +8936,7 @@ window.WINE_QUESTIONS = [
       "Médoc"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Côtes de Blayeは2020年の収穫をもって消滅したAOCです。\n②覚え方:「2020年の収穫をもって消→Côtes de Blaye」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Côtes de Blayeは2020年の収穫をもって消滅したAOCです。\n②要点:Côtes de Blayeは河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-022",
@@ -8950,7 +8950,7 @@ window.WINE_QUESTIONS = [
       "Castillon Côtes de Bordeaux"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Sainte-Croix du Montはドルドーニュ川とガロンヌ川の間で生産される甘口ワインのみのAOCです。\n②覚え方:「ボルドー→Sainte-Croix du Mont」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は認可タイプ・規定が違う。"
+    "explanation": "①理由:Sainte-Croix du Montは白の甘口だけを認めるAOC。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-023",
@@ -8969,7 +8969,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Montagne Saint-Émilionに相当する番号は3番です。\n②覚え方:「ボルドー→3番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でMontagne Saint-Émilionは地図の3番に位置する。\n②要点:す。地図上でMontagne Saint-Émilionは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-024",
@@ -8985,7 +8985,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ペサックレオニャン"
     ],
-    "explanation": "①正解理由:地図上の10番はPessac-Léognan、カタカナではペサック・レオニャンです。\n②覚え方:「ボルドー→ペサック・レオニャン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の10番はペサック・レオニャン。\n②要点:ペサック・レオニャンはグラーヴ北部、ボルドー市近郊のAOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-025",
@@ -8999,7 +8999,7 @@ window.WINE_QUESTIONS = [
       "レイヨン川"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:ソーテルヌとバルサックの間に流れる川はシロン川です。\n②覚え方:「ボルドー→シロン川」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ソーテルヌとバルサックの間に流れる川はシロン川です。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-026",
@@ -9013,7 +9013,7 @@ window.WINE_QUESTIONS = [
       "ボルドー地方"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:フランス第2位の規模を持つAOCワイン産地は、選択肢の中ではコート・デュ・ローヌ地方です。\n②覚え方:「ボルドー→コート・デュ・ローヌ地方」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:フランス第2位の規模を持つAOCワイン産地は、選択肢の中ではコート・デュ・ローヌ地方です。\n②要点:コート・デュ・ローヌ地方は河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-027",
@@ -9032,7 +9032,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Lalande-de-Pomerolに相当する番号は7番です。\n②覚え方:「ボルドー→7番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でLalande-de-Pomerolは地図の7番に位置する。\n②要点:す。地図上でLalande-de-Pomerolは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-028",
@@ -9051,7 +9051,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Loupiacに相当する番号は5番です。\n②覚え方:「ボルドー→5番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でLoupiacは地図の5番に位置する。\n②要点:す。地図上でLoupiacは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-029",
@@ -9065,7 +9065,7 @@ window.WINE_QUESTIONS = [
       "2016年"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:サンテミリオン管轄区は1999年にユネスコの世界遺産に登録されました。\n②覚え方:「ボルドー→1999年」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:サンテミリオン管轄区は1999年にユネスコの世界遺産に登録されました。\n②要点:数値は基準年を含めて覚える。ボルドー市街は2007年世界遺産。\n③比較:2023年生産量約420万hL、赤の比率約81%が目安。\n④頻出:ヴィンテージで変動するため年次と単位を確認。"
   },
   {
     "id": "france-bordeaux-aoc-030",
@@ -9079,7 +9079,7 @@ window.WINE_QUESTIONS = [
       "Entre-Deux-Mers-Haut-Benauge"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Fronsacはドルドーニュ川右岸で生産されるAOCです。\n②覚え方:「ボルドー→Fronsac」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Fronsacはドルドーニュ川右岸に位置するAOC。\n②要点:Castillon・Francs・Saint-Émilion・Pomerolが右岸側。\n③比較:MoulisやListracはジロンド左岸のMédoc。\n④頻出:右岸は粘土質とMerlot、左岸は砂礫とCabernetが軸。"
   },
   {
     "id": "france-bordeaux-aoc-031",
@@ -9093,7 +9093,7 @@ window.WINE_QUESTIONS = [
       "Médoc"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Graves Supérieuresは2028年の収穫をもって抹消予定のAOCです。\n②覚え方:「2028年の収穫をもって抹→Graves Supérieures」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Graves Supérieuresは2028年の収穫をもって抹消予定のAOCです。\n②要点:Graves Supérieuresは河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-032",
@@ -9107,7 +9107,7 @@ window.WINE_QUESTIONS = [
       "Pauillac, Pessac-Léognan, Barsac, Cérons"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:上流から下流の順序では、Barsac、Cérons、Saint-Julien、Pauillacとなります。\n②覚え方:「ボルドー→Barsac, Cérons, Saint-Julien」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Barsac→Cérons→Saint-Julien→Pauillacの順に下る。\n②要点:ガロンヌ上流のSauternesからGraves、Médocへ下る。\n③比較:南の甘口産地→Graves→Margaux→Pauillac→St-Estèphe。\n④頻出:川の流れと左岸AOCの位置関係は地図問題でも頻出。"
   },
   {
     "id": "france-bordeaux-aoc-033",
@@ -9121,7 +9121,7 @@ window.WINE_QUESTIONS = [
       "ペサック・レオニャン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Montagne Saint-Émilionは赤ワインのみが認められているAOCです。\n②覚え方:「ボルドー→モンターニュ・サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Montagne Saint-Émilionは赤ワインのみが認められているAOCです。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-034",
@@ -9134,7 +9134,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "ポイヤック",
-    "explanation": "①正解理由:地図上の4番はPauillac、カタカナではポイヤックです。\n②覚え方:「ボルドー→ポイヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の4番はポイヤック。\n②要点:ポイヤックは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-035",
@@ -9148,7 +9148,7 @@ window.WINE_QUESTIONS = [
       "アントル・ドゥー・メール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Saint-Estèpheはメドック地区のAOCです。\n②覚え方:「サン・テステフ→メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Estèpheはメドック地区のAOCです。\n②要点:メドックを河川と左岸・右岸の位置で捉える。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-036",
@@ -9162,7 +9162,7 @@ window.WINE_QUESTIONS = [
       "メドック"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Margauxはメドック地区のAOCです。\n②覚え方:「マルゴー→メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Margauxはメドック地区のAOCです。\n②要点:メドックを河川と左岸・右岸の位置で捉える。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-037",
@@ -9176,7 +9176,7 @@ window.WINE_QUESTIONS = [
       "Canon Fronsac"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Canon Fronsacはドルドーニュ川右岸で生産されるAOCです。\n②覚え方:「ボルドー→Canon Fronsac」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Canon Fronsacはドルドーニュ川右岸に位置するAOC。\n②要点:Castillon・Francs・Saint-Émilion・Pomerolが右岸側。\n③比較:MoulisやListracはジロンド左岸のMédoc。\n④頻出:右岸は粘土質とMerlot、左岸は砂礫とCabernetが軸。"
   },
   {
     "id": "france-bordeaux-aoc-038",
@@ -9190,7 +9190,7 @@ window.WINE_QUESTIONS = [
       "ソーテルヌ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Sauternesは甘口ワインのみが認められているAOCです。\n②覚え方:「ボルドー→ソーテルヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Sauternesは甘口ワインのみが認められているAOCです。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-039",
@@ -9206,7 +9206,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ラランドドポムロール"
     ],
-    "explanation": "①正解理由:地図上の7番はLalande-de-Pomerol、カタカナではラランド・ド・ポムロールです。\n②覚え方:「ボルドー→ラランド・ド・ポムロール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の7番はラランド・ド・ポムロール。\n②要点:ラランド・ド・ポムロールは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-040",
@@ -9219,7 +9219,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "バルサック",
-    "explanation": "①正解理由:地図上の2番はBarsac、カタカナではバルサックです。\n②覚え方:「ボルドー→バルサック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の2番はバルサック。\n②要点:バルサックはシロン川左岸の貴腐甘口AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-041",
@@ -9235,7 +9235,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サンテステフ"
     ],
-    "explanation": "①正解理由:地図上の3番はSaint-Estèphe、カタカナではサン・テステフです。\n②覚え方:「ボルドー→サン・テステフ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の3番はサン・テステフ。\n②要点:サン・テステフは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-042",
@@ -9248,7 +9248,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "マルゴー",
-    "explanation": "①正解理由:地図上の6番はMargaux、カタカナではマルゴーです。\n②覚え方:「ボルドー→マルゴー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の6番はマルゴー。\n②要点:マルゴーは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-043",
@@ -9264,7 +9264,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "リュサックサンテミリオン"
     ],
-    "explanation": "①正解理由:地図上の4番はLussac Saint-Émilion、カタカナではリュサック・サンテミリオンです。\n②覚え方:「ボルドー→リュサック・サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の4番はリュサック・サンテミリオン。\n②要点:リュサック・サンテミリオンはSaint-Émilion北側の衛星AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-044",
@@ -9278,7 +9278,7 @@ window.WINE_QUESTIONS = [
       "Cadillac Côtes de Bordeaux"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Pessac-Léognanは1987年にグラーヴ地区から独立したAOCです。\n②覚え方:「1987年に独立したAOC→Pessac-Léognan」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pessac-Léognanは1987年にグラーヴ地区から独立したAOCです。\n②要点:Pessac-Léognanは河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-045",
@@ -9292,7 +9292,7 @@ window.WINE_QUESTIONS = [
       "ラングドック・ルーション地方"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:フランス最大規模のIGPワイン産地はラングドック・ルーション地方です。\n②覚え方:「ボルドー→ラングドック・ルーション地方」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:フランス最大規模のIGPワイン産地はラングドック・ルーション地方です。\n②要点:ラングドック・ルーション地方は河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-046",
@@ -9306,7 +9306,7 @@ window.WINE_QUESTIONS = [
       "カディヤック"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Saint-Georges Saint-Émilionは赤ワインのみが認められているAOCです。\n②覚え方:「ボルドー→サン・ジョルジュ・サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:サン・ジョルジュ・サンテミリオンは赤だけを認めるAOC。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-047",
@@ -9323,7 +9323,7 @@ window.WINE_QUESTIONS = [
       "ムーリス・アン・メドック",
       "ムーリスアンメドック"
     ],
-    "explanation": "①正解理由:地図上の7番はMoulis、カタカナではムーリスまたはムーリス・アン・メドックです。\n②覚え方:「ボルドー→ムーリス」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の7番はムーリス。\n②要点:ムーリスは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-049",
@@ -9339,7 +9339,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サン・テミリオン"
     ],
-    "explanation": "①正解理由:地図上の1番はSaint-Émilion、カタカナではサンテミリオンです。\n②覚え方:「ボルドー→サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の1番はサンテミリオン。\n②要点:サンテミリオンは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-051",
@@ -9353,7 +9353,7 @@ window.WINE_QUESTIONS = [
       "メキシコ湾流"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:ボルドー地方の気候にはメキシコ湾流の影響があります。\n②覚え方:「ボルドー→メキシコ湾流」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドー地方の気候にはメキシコ湾流の影響があります。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-052",
@@ -9367,7 +9367,7 @@ window.WINE_QUESTIONS = [
       "2003年"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ボルドー市の市街区域は2007年にユネスコの世界遺産に登録されました。\n②覚え方:「ボルドー→2007年」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドー市の市街区域は2007年にユネスコの世界遺産に登録されました。\n②要点:数値は基準年を含めて覚える。ボルドー市街は2007年世界遺産。\n③比較:2023年生産量約420万hL、赤の比率約81%が目安。\n④頻出:ヴィンテージで変動するため年次と単位を確認。"
   },
   {
     "id": "france-bordeaux-aoc-053",
@@ -9383,7 +9383,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サン・ジョルジュ・サンテミリオン"
     ],
-    "explanation": "①正解理由:地図上の2番はSaint-Georges Saint-Émilion、カタカナではサンジョルジュ・サンテミリオンです…\n②覚え方:「ボルドー→サンジョルジュ・サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の2番はサンジョルジュ・サンテミリオン。\n②要点:サンジョルジュ・サンテミリオンは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-054",
@@ -9402,7 +9402,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Saint-Estèpheに相当する番号は3番です。\n②覚え方:「ボルドー→3番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でSaint-Estèpheは地図の3番に位置する。\n②要点:す。地図上でSaint-Estèpheは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-055",
@@ -9415,7 +9415,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "ルーピアック",
-    "explanation": "①正解理由:地図上の5番はLoupiac、カタカナではルーピアックです。\n②覚え方:「ボルドー→ルーピアック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の5番はルーピアック。\n②要点:ルーピアックは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-056",
@@ -9429,7 +9429,7 @@ window.WINE_QUESTIONS = [
       "コート・デュ・ローヌ地方"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:フランス最大規模のAOCワイン産地はボルドー地方です。\n②覚え方:「ボルドー→ボルドー地方」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:フランス最大規模のAOCワイン産地はボルドー地方です。\n②要点:ボルドー地方は河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-057",
@@ -9443,7 +9443,7 @@ window.WINE_QUESTIONS = [
       "Francs Côtes de Bordeaux"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Francs Côtes de Bordeauxはドルドーニュ川右岸で生産されるAOCです。\n②覚え方:「ボルドー→Francs Côtes de Bordeaux」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Francs Côtes de Bordeauxはドルドーニュ川右岸に位置するAOC。\n②要点:Castillon・Francs・Saint-Émilion・Pomerolが右岸側。\n③比較:MoulisやListracはジロンド左岸のMédoc。\n④頻出:右岸は粘土質とMerlot、左岸は砂礫とCabernetが軸。"
   },
   {
     "id": "france-bordeaux-aoc-058",
@@ -9459,7 +9459,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ピュイスガンサンテミリオン"
     ],
-    "explanation": "①正解理由:地図上の5番はPuisseguin-Saint-Émilion、カタカナではピュイスガン・サンテミリオンです。\n②覚え方:「ボルドー→ピュイスガン・サンテミリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の5番はピュイスガン・サンテミリオン。\n②要点:ピュイスガン・サンテミリオンはSaint-Émilion北東側の衛星AOC。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-059",
@@ -9473,7 +9473,7 @@ window.WINE_QUESTIONS = [
       "アントル・ドゥー・メール"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Céronsはソーテルヌ地区のAOCです。\n②覚え方:「セロンス→ソーテルヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Céronsはソーテルヌ地区のAOCです。\n②要点:ソーテルヌはシロン川流域の貴腐甘口AOC。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-060",
@@ -9487,7 +9487,7 @@ window.WINE_QUESTIONS = [
       "フロンサデ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:説明に合致する地区はソーテルヌ＆バルサックです。\n②覚え方:「ボルドー→ソーテルヌ＆バルサック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:説明に合致する地区はソーテルヌ＆バルサックです。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-061",
@@ -9501,7 +9501,7 @@ window.WINE_QUESTIONS = [
       "サント・フォア・コート・ド・ボルドー"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Barsacは甘口ワインのみが認められているAOCです。\n②覚え方:「ボルドー→バルサック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Barsacは甘口ワインのみが認められているAOCです。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-062",
@@ -9515,7 +9515,7 @@ window.WINE_QUESTIONS = [
       "ロット・エ・ガロンヌ県"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:ボルドー地方のワイン産地の大部分はジロンド県に属します。\n②覚え方:「ボルドー→ジロンド県」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドー地方のワイン産地の大部分はジロンド県に属します。\n②要点:ジロンド県は河川・地区・認可色を組み合わせて識別。\n③比較:左岸／右岸、赤専用／赤白／甘口専用を対比。\n④頻出:主要品種は左岸CS、右岸Merlot、白はSémillon・SB。"
   },
   {
     "id": "france-bordeaux-aoc-063",
@@ -9529,7 +9529,7 @@ window.WINE_QUESTIONS = [
       "Saint-Julien"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Lussac Saint-Émilionはドルドーニュ川右岸で生産されるAOCです。\n②覚え方:「ボルドー→Lussac Saint-Émilion」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は設問条件に該当しない。"
+    "explanation": "①理由:Lussac Saint-Émilionはドルドーニュ川右岸に位置するAOC。\n②要点:Castillon・Francs・Saint-Émilion・Pomerolが右岸側。\n③比較:MoulisやListracはジロンド左岸のMédoc。\n④頻出:右岸は粘土質とMerlot、左岸は砂礫とCabernetが軸。"
   },
   {
     "id": "france-bordeaux-aoc-064",
@@ -9542,7 +9542,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "メドック",
-    "explanation": "①正解理由:地図上の1番はMédoc、カタカナではメドックです。\n②覚え方:「ボルドー→メドック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:記述式。固有名と表記をセット暗記。"
+    "explanation": "①理由:地図の1番はメドック。\n②要点:メドックは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-065",
@@ -9556,7 +9556,7 @@ window.WINE_QUESTIONS = [
       "サンテミリオン・グラン・クリュ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Saint-Émilion Grand Cruは赤ワインのみが認められているAOCです。\n②覚え方:「ボルドー→サンテミリオン・グラン・クリュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Émilion Grand Cruは赤ワインのみが認められているAOCです。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-classification-001",
@@ -9570,7 +9570,7 @@ window.WINE_QUESTIONS = [
       "シャトー・デュクリュ・ボカイユ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ブラネール・デュクリュはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・ブラネール・デュクリュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ブラネール・デュクリュはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラ・ラギュンヌ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-002",
@@ -9584,7 +9584,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ローザン・セグラ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ダルマイヤックはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ダルマイヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ダルマイヤックはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:モンローズ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-003",
@@ -9598,7 +9598,7 @@ window.WINE_QUESTIONS = [
       "シャトー・コス・ラボリー"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ベレール・モナンジュはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ベレール・モナンジュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ベレール・モナンジュはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:ローザン・ガシー=2級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-004",
@@ -9612,7 +9612,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラスコンブ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ラスコンブはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・ラスコンブ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラスコンブはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:1級5、2級14、3級14、4級10、5級18。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-005",
@@ -9626,7 +9626,7 @@ window.WINE_QUESTIONS = [
       "シャトー・コス・デストゥールネル"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・マルキ・ダレーム・ベッケールはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・マルキ・ダレーム・ベッケール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・マルキ・ダレーム・ベッケールはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:レオヴィル・ポワフェレ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-006",
@@ -9640,7 +9640,7 @@ window.WINE_QUESTIONS = [
       "シャトー・スミス・オー・ラフィット"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ラモット・ギニャールはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ラモット・ギニャール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラモット・ギニャールはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:カノン=Saint-Émilion。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-007",
@@ -9654,7 +9654,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ネラック"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・クーアンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・クーアン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・クーアンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ピション・ロングヴィル・コンテス・ド・ラランド=2級。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-008",
@@ -9668,7 +9668,7 @@ window.WINE_QUESTIONS = [
       "シャトー・オー・バージュ・リベラル"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・デュアール・ミロン・ロートシルトはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・デュアール・ミロン・ロートシルト」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・デュアール・ミロン・ロートシルトはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:レオヴィル・ポワフェレ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-009",
@@ -9682,7 +9682,7 @@ window.WINE_QUESTIONS = [
       "シャトー・オー・バイィ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・スオはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・スオ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・スオはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:マラルティック・ラグラヴィエール=Graves。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-010",
@@ -9696,7 +9696,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・ミッション・オー・ブリオン"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ラ・ミッション・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ラ・ミッション・オー・ブリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラ・ミッション・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ラモット・ギニャール=Sauternes & Barsac。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-011",
@@ -9710,7 +9710,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グリュオ・ラローズ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ドーザックはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ドーザック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ドーザックはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ピション・ロングヴィル・コンテス・ド・ラランド=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-012",
@@ -9724,7 +9724,7 @@ window.WINE_QUESTIONS = [
       "シャトー・モンローズ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・モンローズはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・モンローズ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・モンローズはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:マレスコ・サン・テグジュペリ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-013",
@@ -9738,7 +9738,7 @@ window.WINE_QUESTIONS = [
       "シャトー・デュアール・ミロン・ロートシルト"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ヴァランドローはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ヴァランドロー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ヴァランドローはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:デュアール・ミロン・ロートシルト=4級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-014",
@@ -9752,7 +9752,7 @@ window.WINE_QUESTIONS = [
       "シャトー・マルキ・ダレーム・ベッケール"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・マルキ・ド・テルムはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・マルキ・ド・テルム」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・マルキ・ド・テルムはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:マルキ・ダレーム・ベッケール=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-015",
@@ -9766,7 +9766,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ブラーヌ・カントナック"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・マレスコ・サン・テグジュペリはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・マレスコ・サン・テグジュペリ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・マレスコ・サン・テグジュペリはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ポンテ・カネ=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-016",
@@ -9780,7 +9780,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カルボニュー"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・カルボニューはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カルボニュー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カルボニューはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:スオ=Sauternes & Barsac。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-017",
@@ -9794,7 +9794,7 @@ window.WINE_QUESTIONS = [
       "シャトー・マルキ・ダレーム・ベッケール"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ローザン・セグラはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・ローザン・セグラ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ローザン・セグラはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:デュアール・ミロン・ロートシルト=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-018",
@@ -9808,7 +9808,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ボイド・カントナック"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ボイド・カントナックはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・ボイド・カントナック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ボイド・カントナックはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ポンテ・カネ=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-019",
@@ -9822,7 +9822,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グリュオ・ラローズ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ド・カマンサックはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ド・カマンサック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ド・カマンサックはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラフォン・ロッシェ=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-020",
@@ -9836,7 +9836,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ボー・セジュール・ベコ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ボー・セジュール・ベコはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ボー・セジュール・ベコ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ボー・セジュール・ベコはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:スオ=Sauternes & Barsac。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-021",
@@ -9850,7 +9850,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ボイド・カントナック"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・カイユーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カイユー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カイユーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:グリュオ・ラローズ=2級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-022",
@@ -9864,7 +9864,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グラン・ピュイ・デュカス"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・グラン・ピュイ・デュカスはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・グラン・ピュイ・デュカス」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・グラン・ピュイ・デュカスはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ディサン=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-023",
@@ -9878,7 +9878,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラトゥール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・フェリエールはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・フェリエール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・フェリエールはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ローザン・ガシー=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-024",
@@ -9892,7 +9892,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カノン・ラ・ガフリエール"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ド・フューザルはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ド・フューザル」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ド・フューザルはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ド・ミラ=Sauternes & Barsac。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-025",
@@ -9906,7 +9906,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カノン・ラ・ガフリエール"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・カノン・ラ・ガフリエールはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カノン・ラ・ガフリエール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カノン・ラ・ガフリエールはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:ラ・ラギュンヌ=3級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-026",
@@ -9920,7 +9920,7 @@ window.WINE_QUESTIONS = [
       "シャトー・レオヴィル・ポワフェレ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・レオヴィル・ポワフェレはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・レオヴィル・ポワフェレ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・レオヴィル・ポワフェレはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:サン・ピエール=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-027",
@@ -9934,7 +9934,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カロン・セギュール"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・カロン・セギュールはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・カロン・セギュール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カロン・セギュールはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ペデスクロー=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-028",
@@ -9948,7 +9948,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・トゥール・オー・ブリオン"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ラ・トゥール・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ラ・トゥール・オー・ブリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラ・トゥール・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:赤白両方、赤のみ、白のみのシャトーを区別。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-029",
@@ -9962,7 +9962,7 @@ window.WINE_QUESTIONS = [
       "シャトー・オー・バタイイ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・プージェはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・プージェ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・プージェはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:デスミライユ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-030",
@@ -9976,7 +9976,7 @@ window.WINE_QUESTIONS = [
       "クロ・フルテ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ド・ミラはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ド・ミラ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ド・ミラはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:ローザン・ガシー=2級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-031",
@@ -9990,7 +9990,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・トゥール・カルネ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ピション・ロングヴィル・コンテス・ド・ラランドはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・ピション・ロングヴィル・コンテス・ド・ラランド」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ピション・ロングヴィル・コンテス・ド・ラランドはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:デスミライユ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-032",
@@ -10004,7 +10004,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ペデスクロー"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ペデスクローはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ペデスクロー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ペデスクローはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ローザン・セグラ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-033",
@@ -10018,7 +10018,7 @@ window.WINE_QUESTIONS = [
       "クロ・フルテ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:クロ・フルテはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→クロ・フルテ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:クロ・フルテはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:マラルティック・ラグラヴィエール=Graves。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-034",
@@ -10032,7 +10032,7 @@ window.WINE_QUESTIONS = [
       "シャトー・トロタノワ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ドワジー・ヴェドリーヌはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ドワジー・ヴェドリーヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ドワジー・ヴェドリーヌはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:YquemだけがPremier Cru Supérieur。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-035",
@@ -10046,7 +10046,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・フルール・ペトリュス"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・フィヨーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・フィヨー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・フィヨーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:マルキ・ダレーム・ベッケール=3級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-036",
@@ -10060,7 +10060,7 @@ window.WINE_QUESTIONS = [
       "シャトー・クロワゼ・バージュ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ラ・トゥール・カルネはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・ラ・トゥール・カルネ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラ・トゥール・カルネはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:クロワゼ・バージュ=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-037",
@@ -10074,7 +10074,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カントナック・ブラウン"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ランシュ・ムーサスはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ランシュ・ムーサス」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ランシュ・ムーサスはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:マレスコ・サン・テグジュペリ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-038",
@@ -10088,7 +10088,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラフォン・ロッシェ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ラフォン・ロッシェはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・ラフォン・ロッシェ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラフォン・ロッシェはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:レオヴィル・ポワフェレ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-039",
@@ -10102,7 +10102,7 @@ window.WINE_QUESTIONS = [
       "シャトー・シガラ・ラボー"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・シガラ・ラボーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・シガラ・ラボー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・シガラ・ラボーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:カルボニュー=Graves。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-040",
@@ -10116,7 +10116,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ランゴア・バルトン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・デュクリュ・ボカイユはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・デュクリュ・ボカイユ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・デュクリュ・ボカイユはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ランゴア・バルトン=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-041",
@@ -10130,7 +10130,7 @@ window.WINE_QUESTIONS = [
       "シャトー・キルヴァン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ランシュ・バージュはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ランシュ・バージュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ランシュ・バージュはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ベイシュヴェル=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-042",
@@ -10144,7 +10144,7 @@ window.WINE_QUESTIONS = [
       "シャトー・トロタノワ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・カノンはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カノン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カノンはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:ローザン・ガシー=2級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-043",
@@ -10158,7 +10158,7 @@ window.WINE_QUESTIONS = [
       "シャトー・コス・デストゥールネル"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ランゴア・バルトンはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・ランゴア・バルトン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ランゴア・バルトンはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ベイシュヴェル=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-044",
@@ -10172,7 +10172,7 @@ window.WINE_QUESTIONS = [
       "ル・パン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ブスコーはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ブスコー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ブスコーはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ローザン・ガシー=2級。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-045",
@@ -10186,7 +10186,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グリュオ・ラローズ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・デスミライユはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・デスミライユ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・デスミライユはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:グリュオ・ラローズ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-046",
@@ -10200,7 +10200,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・トゥール・ブランシュ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ラ・トゥール・ブランシュはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ラ・トゥール・ブランシュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラ・トゥール・ブランシュはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:クロワゼ・バージュ=5級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-047",
@@ -10214,7 +10214,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ベルグラーヴ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・マラルティック・ラグラヴィエールはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・マラルティック・ラグラヴィエール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・マラルティック・ラグラヴィエールはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:赤白両方、赤のみ、白のみのシャトーを区別。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-048",
@@ -10228,7 +10228,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ピション・ロングヴィル・バロン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・クロワゼ・バージュはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・クロワゼ・バージュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・クロワゼ・バージュはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:モンローズ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-049",
@@ -10242,7 +10242,7 @@ window.WINE_QUESTIONS = [
       "シャトー・マルキ・ダレーム・ベッケール"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・グリュオ・ラローズはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・グリュオ・ラローズ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・グリュオ・ラローズはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:マルキ・ダレーム・ベッケール=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-050",
@@ -10256,7 +10256,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ドーザック"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ド・マルはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ド・マル」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ド・マルはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:マルキ・ド・テルム=4級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-051",
@@ -10270,7 +10270,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グリュオ・ラローズ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ラ・ラギュンヌはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・ラ・ラギュンヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラ・ラギュンヌはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ローザン・セグラ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-052",
@@ -10284,7 +10284,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラフィット・ロートシルト"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ポンテ・カネはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ポンテ・カネ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ポンテ・カネはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:マルキ・ダレーム・ベッケール=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-053",
@@ -10298,7 +10298,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ダルマイヤック"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ローザン・ガシーはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・ローザン・ガシー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ローザン・ガシーはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラ・トゥール・カルネ=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-054",
@@ -10312,7 +10312,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ペデスクロー"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・オー・ブリオン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・オー・ブリオンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ペデスクロー=5級。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-055",
@@ -10326,7 +10326,7 @@ window.WINE_QUESTIONS = [
       "シャトー・タルボ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・タルボはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・タルボ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・タルボはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラ・ラギュンヌ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-056",
@@ -10340,7 +10340,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・トゥール・カルネ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・トロロン・モンドはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・トロロン・モンド」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・トロロン・モンドはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:ド・カマンサック=5級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-057",
@@ -10354,7 +10354,7 @@ window.WINE_QUESTIONS = [
       "シャトー・オー・バージュ・リベラル"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ベイシュヴェルはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・ベイシュヴェル」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ベイシュヴェルはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:1級5、2級14、3級14、4級10、5級18。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-058",
@@ -10368,7 +10368,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ディサン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ドワジー・デーヌはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ドワジー・デーヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ドワジー・デーヌはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:ドーザック=5級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-059",
@@ -10382,7 +10382,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ドーザック"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・デュルフォール・ヴィヴァンはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・デュルフォール・ヴィヴァン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・デュルフォール・ヴィヴァンはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ポンテ・カネ=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-061",
@@ -10396,7 +10396,7 @@ window.WINE_QUESTIONS = [
       "シャトー・サン・ピエール"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・クーアン・リュルトンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・クーアン・リュルトン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・クーアン・リュルトンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:サン・ピエール=4級。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-062",
@@ -10410,7 +10410,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ロメール・デュ・アヨ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・カルボニューはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カルボニュー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カルボニューはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:マレスコ・サン・テグジュペリ=3級。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-063",
@@ -10424,7 +10424,7 @@ window.WINE_QUESTIONS = [
       "シャトー・マルゴー"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・カイユーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・カイユー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カイユーはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:ベイシュヴェル=4級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-064",
@@ -10438,7 +10438,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ブラネール・デュクリュ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ブラネール・デュクリュはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・ブラネール・デュクリュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ブラネール・デュクリュはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ランゴア・バルトン=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-065",
@@ -10452,7 +10452,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ダルシュ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:ラ・モンドットはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→ラ・モンドット」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ラ・モンドットはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:ボイド・カントナック=3級。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-066",
@@ -10466,7 +10466,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ド・カマンサック"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ラスコンブはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・ラスコンブ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラスコンブはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ペデスクロー=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-067",
@@ -10480,7 +10480,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ペデスクロー"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ペデスクローはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ペデスクロー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ペデスクローはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:デュクリュ・ボカイユ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-068",
@@ -10494,7 +10494,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ド・カマンサック"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・カロン・セギュールはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・カロン・セギュール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・カロン・セギュールはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ランシュ・ムーサス=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-069",
@@ -10508,7 +10508,7 @@ window.WINE_QUESTIONS = [
       "シャトー・サン・ピエール"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・サン・ピエールはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・サン・ピエール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・サン・ピエールはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:グラン・ピュイ・デュカス=5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-070",
@@ -10522,7 +10522,7 @@ window.WINE_QUESTIONS = [
       "シャトー・パルメ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・パプ・クレマンはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・パプ・クレマン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・パプ・クレマンはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ラ・トゥール・ブランシュ=Sauternes & Barsac。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-071",
@@ -10536,7 +10536,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラグランジュ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・モンローズはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・モンローズ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・モンローズはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラフォン・ロッシェ=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-072",
@@ -10550,7 +10550,7 @@ window.WINE_QUESTIONS = [
       "シャトー・グリュオ・ラローズ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・クレール・ミロンはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・クレール・ミロン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・クレール・ミロンはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラ・ラギュンヌ=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-073",
@@ -10564,7 +10564,7 @@ window.WINE_QUESTIONS = [
       "シャトー・カロン・セギュール"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・スデュイローはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・スデュイロー」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・スデュイローはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:サン・ピエール=4級。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-074",
@@ -10578,7 +10578,7 @@ window.WINE_QUESTIONS = [
       "シャトー・デュルフォール・ヴィヴァン"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・ディサンはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・ディサン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ディサンはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ラ・トゥール・カルネ=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-075",
@@ -10592,7 +10592,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ベレール・モナンジュ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・ベレール・モナンジュはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ベレール・モナンジュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ベレール・モナンジュはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:2022年AはPavieとFigeac。参加見送りにも注意。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-076",
@@ -10606,7 +10606,7 @@ window.WINE_QUESTIONS = [
       "シャトー・デュクリュ・ボカイユ"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ラグランジュはメドック格付け3級です。\n②覚え方:「ボルドー→シャトー・ラグランジュ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ラグランジュはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:デュクリュ・ボカイユ=2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-077",
@@ -10620,7 +10620,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・トゥール・ブランシュ"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・マラルティック・ラグラヴィエールはグラーヴ地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・マラルティック・ラグラヴィエール」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・マラルティック・ラグラヴィエールはグラーヴ地区の格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:ドワジー・ヴェドリーヌ=Sauternes & Barsac。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-078",
@@ -10634,7 +10634,7 @@ window.WINE_QUESTIONS = [
       "シャトー・デュアール・ミロン・ロートシルト"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:シャトー・レオヴィル・バルトンはメドック格付け2級です。\n②覚え方:「ボルドー→シャトー・レオヴィル・バルトン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・レオヴィル・バルトンはメドック格付け2級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ブラネール・デュクリュ=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-079",
@@ -10648,7 +10648,7 @@ window.WINE_QUESTIONS = [
       "シャトー・プージェ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:シャトー・プージェはメドック格付け4級です。\n②覚え方:「ボルドー→シャトー・プージェ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・プージェはメドック格付け4級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:カロン・セギュール=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-080",
@@ -10662,7 +10662,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラ・フルール・ペトリュス"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・ディケムはソーテルヌ＆バルサック地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・ディケム」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ディケムはソーテルヌ＆バルサック地区の格付けシャトーです。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:パプ・クレマン=Graves。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-081",
@@ -10676,7 +10676,7 @@ window.WINE_QUESTIONS = [
       "シャトー・キルヴァン"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:シャトー・ダルマイヤックはメドック格付け5級です。\n②覚え方:「ボルドー→シャトー・ダルマイヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・ダルマイヤックはメドック格付け5級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:ランゴア・バルトン=3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-082",
@@ -10690,7 +10690,7 @@ window.WINE_QUESTIONS = [
       "シャトー・ラトゥール・マルティヤック"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:シャトー・トロロン・モンドはサンテミリオン地区の格付けシャトーです。\n②覚え方:「ボルドー→シャトー・トロロン・モンド」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:シャトー・トロロン・モンドはサンテミリオン地区の格付けシャトーです。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:2022年AはPavieとFigeac。参加見送りにも注意。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-practice-001",
@@ -10712,7 +10712,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château RieussecとChâteau SuduirautはSauternes & Barsac地区のPr…\n②覚え方:「ボルドー→Château Rieussec・Château Sud」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:SauternesのPremier CruはRieussec、Suduiraut。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:YquemだけがPremier Cru Supérieur。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-002",
@@ -10734,7 +10734,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château DesmirailとChâteau Boyd-CantenacはCantenac村のメドック格付け3…\n②覚え方:「ボルドー→Château Desmirail・Château Bo」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Desmirail・Boyd-CantenacはCantenac村のメドック格付け3級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Talbot=Saint-Julien・4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-003",
@@ -10756,7 +10756,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Domaine de ChevalierとChâteau Carbonnieuxは、赤ワインと白ワインの両方がグラー…\n②覚え方:「ボルドー→Domaine de Chevalier・Château」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:赤白とも格付けはD. Chevalier、Carbonnieux。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:Haut-Brion=Pessac・Graves。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-004",
@@ -10770,7 +10770,7 @@ window.WINE_QUESTIONS = [
       "Château Canon la Gaffelière"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Château Cheval Blancは2022年格付けへの参加を見送り、Premiers Grands Crus…\n②覚え方:「2022年の格付けで→Château Cheval Blanc」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château Cheval Blancは2022年格付けへの参加を見送った。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:2022年AはPavieとFigeac。参加見送りにも注意。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-practice-005",
@@ -10784,7 +10784,7 @@ window.WINE_QUESTIONS = [
       "Château Laville Haut-Brion"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Château Smith-Haut-LafitteはMartillac村に位置するグラーヴ格付けシャトーです。\n②覚え方:「ボルドー→Château Smith-Haut-Lafitte」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Smith-Haut-LafitteはMartillac村に位置するグラーヴ格付けシャトー。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:Haut-Brion=Pessac・Graves。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-006",
@@ -10806,7 +10806,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Pontet-CanetとChâteau Clerc-MilonはPauillac村のメドック格付け…\n②覚え方:「ボルドー→Château Pontet-Canet・Château」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Pontet-Canet・Clerc-MilonはPauillac村のメドック格付け5級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Branaire-Ducru=Saint-Julien・4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-007",
@@ -10828,7 +10828,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château DesmirailとChâteau Cantenac-BrownはCantenac村で生産されるAO…\n②覚え方:「ボルドー→Château Desmirail・Château Ca」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Desmirail・Cantenac-BrownはCantenac村のメドック格付け3級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Giscours=Labarde・3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-008",
@@ -10842,7 +10842,7 @@ window.WINE_QUESTIONS = [
       "Château Haut-Batailley"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Château Rauzan-GassiesはAOC Margauxの2級格付けで、この選択肢の中では最上位です。\n②覚え方:「ボルドー→Château Rauzan-Gassies」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:Château Rauzan-Gassiesが設問の地区・等級条件を満たす格付けシャトー。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Gruaud-Larose=Saint-Julien・2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-009",
@@ -10856,7 +10856,7 @@ window.WINE_QUESTIONS = [
       "Château Broustet"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Château La Tour BlancheはPremier Cruで、この選択肢の中では最上位です。\n②覚え方:「ボルドー→Château La Tour Blanche」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château La Tour Blancheが設問の地区・等級条件を満たす格付けシャトー。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:YquemだけがPremier Cru Supérieur。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-010",
@@ -10878,7 +10878,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château BeychevelleとChâteau TalbotはSaint-Julien村のメドック格付け4級…\n②覚え方:「ボルドー→Château Beychevelle・Château」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Beychevelle・TalbotはSaint-Julien村のメドック格付け4級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Boyd-Cantenac=Cantenac・3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-011",
@@ -10900,7 +10900,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château La Tour BlancheとChâteau Lafaurie PeyragueyはSautern…\n②覚え方:「ボルドー→Château La Tour Blanche・Chât」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:SauternesのPremier CruはLa Tour Blanche、Lafaurie Peyraguey。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:YquemだけがPremier Cru Supérieur。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-012",
@@ -10914,7 +10914,7 @@ window.WINE_QUESTIONS = [
       "Château Haut-Bailly"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Château Pape ClémentはPessac村に位置するグラーヴ格付けシャトーです。\n②覚え方:「ボルドー→Château Pape Clément」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pape ClémentはPessac村に位置するグラーヴ格付けシャトー。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:Carbonnieux=Graves・赤白両方。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-013",
@@ -10928,7 +10928,7 @@ window.WINE_QUESTIONS = [
       "Château Rabaud-Promis"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Château Rabaud-PromisはBommes村に位置するSauternes & Barsac地区の格付け…\n②覚え方:「ボルドー→Château Rabaud-Promis」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Rabaud-PromisはBommes村のSauternes & Barsac格付けシャトー。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:Suduiraut=Premier Cru。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-014",
@@ -10942,7 +10942,7 @@ window.WINE_QUESTIONS = [
       "1969年"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Château Mouton Baronne Philippeは1989年にChâteau d'Armailhacへ…\n②覚え方:「ボルドー→1989年」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:1989年が設問の地区・等級条件を満たす格付けシャトー。\n②要点:1989年の地区・等級・村名を一体で覚える。\n③比較:メドック、グラーヴ、甘口、右岸の制度を混同しない。\n④頻出:1855年、1953/59年、2022年という基準年が頻出。"
   },
   {
     "id": "france-bordeaux-classification-practice-015",
@@ -10956,7 +10956,7 @@ window.WINE_QUESTIONS = [
       "Château Dauzac"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Château MontroseはSaint-Estèpheの2級格付けで、この選択肢の中では最上位です。\n②覚え方:「ボルドー→Château Montrose」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:Château Montroseが設問の地区・等級条件を満たす格付けシャトー。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:1級5、2級14、3級14、4級10、5級18。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-016",
@@ -10978,7 +10978,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Haut-Bages-LibéralとChâteau BatailleyはPauillac村のメドッ…\n②覚え方:「ボルドー→Château Haut-Bages-Libéral・C」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Haut-Bages-Libéral・BatailleyはPauillac村のメドック格付け5級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Boyd-Cantenac=Cantenac・3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-017",
@@ -10999,7 +10999,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château GiscoursはLabarde村で生産されるAOC Margauxの3級シャトーです。\n②覚え方:「ボルドー→Château Giscours」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他7択は産地・位置が違う。"
+    "explanation": "①理由:Château GiscoursはLabarde村のメドック格付け3級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Rauzan-Gassies=Médoc。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-018",
@@ -11021,7 +11021,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Branaire-DucruとChâteau Saint-PierreはSaint-Julien村の…\n②覚え方:「ボルドー→Château Branaire-Ducru・Châte」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Julien村の4級はBranaire-Ducru、Saint-Pierre。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Clerc-Milon=Pauillac・5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-019",
@@ -11043,7 +11043,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château FerrièreとChâteau Kirwanはメドック格付け3級です。\n②覚え方:「ボルドー→Château Ferrière・Château Kir」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Château FerrièreとChâteau Kirwanはメドック格付け3級です。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Rauzan-Gassies=Médoc。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-020",
@@ -11065,7 +11065,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Léoville-Las CasesとChâteau Gruaud-LaroseはSaint-Jul…\n②覚え方:「ボルドー→Château Léoville-Las Cases・C」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Saint-Julien村の2級はLéoville-Las Cases、Gruaud-Larose。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Lafon-Rochet=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-021",
@@ -11079,7 +11079,7 @@ window.WINE_QUESTIONS = [
       "Château Climens"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Château Clos-Haut-PeyragueyはBommes村に位置します。\n②覚え方:「ボルドー→Château Clos-Haut-Peyraguey」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château Clos-Haut-PeyragueyはBommes村に位置します。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:Suduiraut=Premier Cru。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-022",
@@ -11101,7 +11101,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château PédesclauxとChâteau Lynch-Bagesはメドック格付け5級です。\n②覚え方:「ボルドー→Château Pédesclaux・Château L」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Château Pédesclaux・Château Lynch-Bagesはメドック格付け5級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Beychevelle=Saint-Julien・4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-023",
@@ -11115,7 +11115,7 @@ window.WINE_QUESTIONS = [
       "Château Guiraud"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Château GuiraudはPremier Cruで、この選択肢の中では最上位です。\n②覚え方:「ボルドー→Château Guiraud」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château GuiraudはPremier Cruで、この選択肢の中では最上位です。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:YquemだけがPremier Cru Supérieur。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-024",
@@ -11136,7 +11136,7 @@ window.WINE_QUESTIONS = [
       2
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Calon-SégurはSaint-Estèphe村のメドック格付け3級シャトーです。\n②覚え方:「ボルドー→Château Calon-Ségur」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他7択は産地・位置が違う。"
+    "explanation": "①理由:Château Calon-SégurはSaint-Estèphe村のメドック格付け3級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Cantemerle=Macau・5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-025",
@@ -11150,7 +11150,7 @@ window.WINE_QUESTIONS = [
       "Château Belair-Monange"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:Château PavieはPremiers Grands Crus Classés Aで、この選択肢の中では最上位…\n②覚え方:「ボルドー→Château Pavie」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château Pavieが設問の地区・等級条件を満たす格付けシャトー。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:2022年AはPavieとFigeac。参加見送りにも注意。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-practice-026",
@@ -11171,7 +11171,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Saint-PierreはSaint-Julien村のメドック格付け4級シャトーです。\n②覚え方:「ボルドー→Château Saint-Pierre」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他7択は産地・位置が違う。"
+    "explanation": "①理由:Château Saint-PierreはSaint-Julien村のメドック格付け4級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Léoville-Las Cases=Saint-Julien・2級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-027",
@@ -11193,7 +11193,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château ClimensとChâteau GuiraudはSauternes & Barsac地区のPremi…\n②覚え方:「ボルドー→Château Climens・Château Guir」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:SauternesのPremier CruはClimens、Guiraud。\n②要点:1855年甘口格付けはYquemを頂点にPremier、Deuxième。\n③比較:Domaine de Chevalier=Graves・赤白両方。\n④頻出:Barsacの格付け酒はAOC BarsacまたはSauternesを名乗れる。"
   },
   {
     "id": "france-bordeaux-classification-practice-028",
@@ -11215,7 +11215,7 @@ window.WINE_QUESTIONS = [
       3
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château CarbonnieuxとChâteau Olivierは赤ワインと白ワインの両方がグラーヴ格付けに含…\n②覚え方:「ボルドー→Château Carbonnieux・Château」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Carbonnieux・Olivierはグラーヴ格付けで赤・白の両方が対象。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:Smith-Haut-Lafitte=Martillac・Graves。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-029",
@@ -11229,7 +11229,7 @@ window.WINE_QUESTIONS = [
       "1954年"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:グラーヴ地区の最初の格付けは1953年に発表されました。\n②覚え方:「ボルドー→1953年」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:グラーヴ地区の最初の格付けは1953年に発表されました。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:赤白両方、赤のみ、白のみのシャトーを区別。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-030",
@@ -11243,7 +11243,7 @@ window.WINE_QUESTIONS = [
       "Château Léoville-Las Cases"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:Château Léoville-Las CasesはSaint-Julienの2級格付けで、この選択肢の中では最上…\n②覚え方:「ボルドー→Château Léoville-Las Cases」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は表示要件が違う。"
+    "explanation": "①理由:Château Léoville-Las Casesが設問の地区・等級条件を満たす格付けシャトー。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Branaire-Ducru=Saint-Julien・4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-031",
@@ -11264,7 +11264,7 @@ window.WINE_QUESTIONS = [
       7
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château CantemerleはMacau村のメドック格付け5級シャトーです。\n②覚え方:「ボルドー→Château Cantemerle」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他7択は産地・位置が違う。"
+    "explanation": "①理由:Château CantemerleはMacau村のメドック格付け5級シャトーです。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Calon-Ségur=Saint-Estèphe・3級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-032",
@@ -11286,7 +11286,7 @@ window.WINE_QUESTIONS = [
       5
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château DesmirailとChâteau Cantenac-BrownはCantenac村のメドック格付け…\n②覚え方:「ボルドー→Château Desmirail・Château Ca」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Desmirail・Cantenac-BrownはCantenac村のメドック格付け3級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Lafon-Rochet=4級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-bordeaux-classification-practice-033",
@@ -11300,7 +11300,7 @@ window.WINE_QUESTIONS = [
       "Château Olivier"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:Château Haut-BrionはPessac村に位置するグラーヴ格付けシャトーです。\n②覚え方:「ボルドー→Château Haut-Brion」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château Haut-BrionはPessac村に位置するグラーヴ格付けシャトーです。\n②要点:グラーヴ格付けは赤・白をワイン単位で評価する。\n③比較:Olivier=Graves・赤白両方。\n④頻出:1953年発表、1959年確定。全てPessac-Léognan内。"
   },
   {
     "id": "france-bordeaux-classification-practice-034",
@@ -11314,7 +11314,7 @@ window.WINE_QUESTIONS = [
       "2022年"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:Château Pavieは2012年にPremiers Grands Crus Classés Aへ昇格しました。\n②覚え方:「ボルドー→2012年」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Château Pavieは2012年にPremier Grand Cru Classé Aへ昇格。\n②要点:サンテミリオン格付けは定期的に見直され、2022年版が最新。\n③比較:2022年AはPavieとFigeac。参加見送りにも注意。\n④頻出:AOC Saint-Émilion自体と格付け制度は別物。"
   },
   {
     "id": "france-bordeaux-classification-practice-035",
@@ -11336,7 +11336,7 @@ window.WINE_QUESTIONS = [
       4
     ],
     "maxSelections": 2,
-    "explanation": "①正解理由:Château Branaire-DucruとChâteau Lafon-Rochetはメドック格付け4級です。\n②覚え方:「ボルドー→Château Branaire-Ducru・Châte」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他6択は産地・位置が違う。"
+    "explanation": "①理由:Branaire-Ducru・Lafon-Rochetはメドック格付け4級。\n②要点:1855年メドック格付けは1〜5級、現在61シャトー。\n③比較:Haut-Bages-Libéral=Pauillac・5級。\n④頻出:格付けはシャトー単位。AOCと村名も一緒に問われる。"
   },
   {
     "id": "france-alsace-001",
@@ -46778,7 +46778,7 @@ window.WINE_QUESTIONS = [
       "グラーヴ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:正解は「グラーヴ」です。\n②覚え方:「ペサック・レオニャン→グラーヴ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Pessac-Léognanはグラーヴ地区に属するAOC。\n②要点:グラーヴ北部、ボルドー市近郊に位置する。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-067",
@@ -46792,7 +46792,7 @@ window.WINE_QUESTIONS = [
       "コート・ド・ブール"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:正解は「サント・クロワ・デュ・モン」です。\n②覚え方:「ボルドー→サント・クロワ・デュ・モン」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:サント・クロワ・デュ・モンは白の甘口だけを認めるAOC。\n②要点:Cadillac・Loupiac・Sainte-Croix-du-Montは甘口専用。\n③比較:SauternesとBarsacも貴腐甘口。Médocは赤専用。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-068",
@@ -46811,7 +46811,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:正解は「5番」です。\n②覚え方:「ボルドー→5番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でSaint-Julienは地図の5番に位置する。\n②要点:す。地図上でSaint-Julienは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-069",
@@ -46825,7 +46825,7 @@ window.WINE_QUESTIONS = [
       "ポイヤック"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:正解は「ポイヤック」です。\n②覚え方:「ボルドー→ポイヤック」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ポイヤックは赤だけを認めるAOC。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-070",
@@ -46839,7 +46839,7 @@ window.WINE_QUESTIONS = [
       "グラーヴ"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:正解は「コート」です。\n②覚え方:「ボルドー→コート」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Côtesはフランス語で『丘・斜面』を表し、河川沿いの丘陵産地。\n②要点:Blaye、Cadillac、Castillon、FrancsなどにCôtes名が付く。\n③比較:FronsacやPomerolは右岸だがCôtes名称ではない。\n④頻出:2016年からSainte-FoyもCôtes de Bordeauxを付記。"
   },
   {
     "id": "france-bordeaux-aoc-071",
@@ -46853,7 +46853,7 @@ window.WINE_QUESTIONS = [
       "海洋性気候"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:正解は「海洋性気候」です。\n②覚え方:「ボルドー→海洋性気候」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドーは大西洋とジロンド川の影響を受ける海洋性気候。\n②要点:左岸は砂礫、右岸は粘土、甘口産地はシロン川の霧が鍵。\n③比較:砂礫は排水・蓄熱に優れ、粘土は保水性が高い。\n④頻出:海洋性気候で、ボルドー市はおおむね北緯45度。"
   },
   {
     "id": "france-bordeaux-aoc-072",
@@ -46867,7 +46867,7 @@ window.WINE_QUESTIONS = [
       "ソーテルヌ"
     ],
     "answerIndex": 3,
-    "explanation": "①正解理由:正解は「ソーテルヌ」です。\n②覚え方:「バルサック→ソーテルヌ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ソーテルヌが設問のAOCを含む生産地区。\n②要点:ソーテルヌはシロン川流域の貴腐甘口AOC。\n③比較:左岸は砂礫とカベルネ、右岸は粘土とメルロが軸。\n④頻出:Entre-Deux-Mersはガロンヌ川とドルドーニュ川の間。"
   },
   {
     "id": "france-bordeaux-aoc-073",
@@ -46881,7 +46881,7 @@ window.WINE_QUESTIONS = [
       "73%"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:正解は「81%」です。\n②覚え方:「ボルドー→81%」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ボルドーAOC生産量では赤が約81%を占める。\n②要点:数値は基準年を含めて覚える。ボルドー市街は2007年世界遺産。\n③比較:2023年生産量約420万hL、赤の比率約81%が目安。\n④頻出:ヴィンテージで変動するため年次と単位を確認。"
   },
   {
     "id": "france-bordeaux-aoc-074",
@@ -46895,7 +46895,7 @@ window.WINE_QUESTIONS = [
       "ルーピアック"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:正解は「ブライ」です。\n②覚え方:「ボルドー→ブライ」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:ブライは赤だけを認めるAOC。\n②要点:Médocと右岸主要AOCは赤専用が多い。\n③比較:GravesやPessac-Léognanは赤白、Bordeauxは複数色。\n④頻出:認可色は『赤のみ・甘口のみ・赤白』に分けて整理。"
   },
   {
     "id": "france-bordeaux-aoc-075",
@@ -46909,7 +46909,7 @@ window.WINE_QUESTIONS = [
       "Pessac-Léognan, Barsac, Saint-Estèphe, Pauillac"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:正解は「Barsac, Cérons, Margaux, Saint-Estèphe」です。\n②覚え方:「ボルドー→Barsac, Cérons, Margaux, Sai」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Barsac→Cérons→Margaux→Saint-Estèpheの順に下る。\n②要点:ガロンヌ上流のSauternesからGraves、Médocへ下る。\n③比較:南の甘口産地→Graves→Margaux→Pauillac→St-Estèphe。\n④頻出:川の流れと左岸AOCの位置関係は地図問題でも頻出。"
   },
   {
     "id": "france-bordeaux-aoc-076",
@@ -46923,7 +46923,7 @@ window.WINE_QUESTIONS = [
       "Saint-Estèphe, Pessac-Léognan, Pauillac, Sauternes"
     ],
     "answerIndex": 0,
-    "explanation": "①正解理由:正解は「Sauternes, Barsac, Cérons, Saint-Estèphe」です。\n②覚え方:「ボルドー→Sauternes, Barsac, Cérons, S」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:Sauternes→Barsac→Cérons→Saint-Estèpheの順に下る。\n②要点:ガロンヌ上流のSauternesからGraves、Médocへ下る。\n③比較:南の甘口産地→Graves→Margaux→Pauillac→St-Estèphe。\n④頻出:川の流れと左岸AOCの位置関係は地図問題でも頻出。"
   },
   {
     "id": "france-bordeaux-aoc-077",
@@ -46942,7 +46942,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:正解は「10番」です。\n②覚え方:「ボルドー→10番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でPessac-Léognanは地図の10番に位置する。\n②要点:す。地図上でPessac-Léognanは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "france-bordeaux-aoc-078",
@@ -46956,7 +46956,7 @@ window.WINE_QUESTIONS = [
       "630万ヘクトリットル"
     ],
     "answerIndex": 1,
-    "explanation": "①正解理由:正解は「420万ヘクトリットル」です。\n②覚え方:「2023年のワイン年間生産→420万ヘクトリットル」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:2023年の年間生産量に近い値は420万ヘクトリットル。\n②要点:数値は基準年を含めて覚える。ボルドー市街は2007年世界遺産。\n③比較:2023年生産量約420万hL、赤の比率約81%が目安。\n④頻出:ヴィンテージで変動するため年次と単位を確認。"
   },
   {
     "id": "france-bordeaux-aoc-079",
@@ -46975,7 +46975,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 2,
-    "explanation": "①正解理由:正解は「6番」です。\n②覚え方:「ボルドー→6番」で固定。\n③関連頻出:主要AOC／左右岸／格付け\n④誤答:他3択は産地・位置が違う。"
+    "explanation": "①理由:す。地図上でPomerolは地図の6番に位置する。\n②要点:す。地図上でPomerolは設問の地区。河川と隣接AOCを基準に置く。\n③比較:左岸はメドック・グラーヴ、右岸はサンテミリオン系。\n④頻出:ガロンヌとドルドーニュが合流してジロンド川になる。"
   },
   {
     "id": "management-001",
