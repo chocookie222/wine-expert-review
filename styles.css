@@ -138,6 +138,53 @@ h1 {
   grid-column: 1 / -1;
 }
 
+.question-limit {
+  margin: 0 0 12px;
+  border: 0;
+  padding: 0;
+}
+
+.question-limit legend {
+  margin: 0 0 6px 2px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+.question-limit > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 249, 0.9);
+}
+
+.question-limit button {
+  min-width: 0;
+  min-height: 44px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  color: var(--muted);
+  background: transparent;
+  font-weight: 850;
+}
+
+.question-limit button:last-child {
+  border-right: 0;
+}
+
+.question-limit button span {
+  display: block;
+  margin-top: 1px;
+  font-size: 0.58rem;
+}
+
+.question-limit button.selected {
+  color: #fff;
+  background: var(--accent);
+}
+
 label span {
   display: block;
   margin: 0 0 5px 2px;
@@ -523,7 +570,7 @@ select {
 
 .confidence-panel > div {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 7px;
 }
 
@@ -539,6 +586,10 @@ select {
   font-weight: 850;
 }
 
+.confidence-panel button[hidden] {
+  display: none;
+}
+
 .confidence-panel button.selected {
   border-color: var(--accent);
   color: #fff;
@@ -550,10 +601,6 @@ select {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 16px;
-}
-
-.review-action {
-  grid-column: 1 / -1;
 }
 
 .similar-action {

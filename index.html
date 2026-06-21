@@ -27,7 +27,7 @@
                 <option value="all">すべて</option>
                 <option value="due">今日の復習</option>
                 <option value="wrong">間違えた問題</option>
-                <option value="unsure">あやしい問題</option>
+                <option value="unsure">自信ありで誤答</option>
                 <option value="guess">勘で正解した問題</option>
                 <option value="review">すべての復習問題</option>
                 <option value="numeric">数字問題</option>
@@ -50,6 +50,16 @@
               <select id="categoryFilter"></select>
             </label>
           </div>
+
+          <fieldset class="question-limit" id="questionLimitControl">
+            <legend>今回の問題数</legend>
+            <div>
+              <button type="button" data-question-limit="10">10問</button>
+              <button type="button" data-question-limit="20">20問</button>
+              <button type="button" data-question-limit="30">30問</button>
+              <button type="button" data-question-limit="all">全件<span>上級</span></button>
+            </div>
+          </fieldset>
 
           <div class="status-strip">
             <div>
@@ -89,17 +99,15 @@
             <label>
               <span>問題数</span>
               <select id="mockQuestionCount">
-                <option value="20">20問</option>
-                <option value="50" selected>50問</option>
-                <option value="100">100問</option>
+                <option value="60" selected>60問</option>
+                <option value="120">120問</option>
               </select>
             </label>
             <label>
               <span>制限時間</span>
               <select id="mockMinutes">
-                <option value="20">20分</option>
-                <option value="50" selected>50分</option>
-                <option value="100">100分</option>
+                <option value="35" selected>35分</option>
+                <option value="70">70分</option>
               </select>
             </label>
             <button class="primary" id="startMockButton" type="button">模擬試験を開始</button>
@@ -141,15 +149,11 @@
               <span>この問題の手応え</span>
               <div>
                 <button type="button" data-confidence="confident">😎 自信あり</button>
-                <button type="button" data-confidence="unsure">🤔 あやしい</button>
+                <button type="button" data-confidence="unsure">😐 自信あった</button>
                 <button type="button" data-confidence="guess">😭 勘</button>
               </div>
             </section>
             <div class="actions">
-              <button class="secondary review-action" id="reviewButton" type="button">
-                <span aria-hidden="true">☆</span>
-                復習に追加
-              </button>
               <button class="secondary" id="previousButton" type="button" disabled>
                 <span aria-hidden="true">‹</span>
                 前の問題
@@ -212,7 +216,7 @@
             <div class="daily-meter" aria-label="今日の学習達成率"><i id="dailyProgressBar"></i></div>
             <div class="confidence-metrics" aria-label="自信度別の問題数">
               <div><strong id="confidentStatCount">0</strong><span>😎 自信あり</span></div>
-              <div><strong id="unsureStatCount">0</strong><span>🤔 あやしい</span></div>
+              <div><strong id="unsureStatCount">0</strong><span>😐 自信あり誤答</span></div>
               <div><strong id="guessStatCount">0</strong><span>😭 勘</span></div>
               <div><strong id="incorrectStatCount">0</strong><span>不正解</span></div>
             </div>
@@ -242,7 +246,7 @@
             </button>
             <button class="saved-tile" id="unsureModeButton" type="button">
               <strong id="unsureSavedCount">0</strong>
-              <span>あやしい問題</span>
+              <span>自信ありで誤答</span>
             </button>
             <button class="saved-tile" id="guessModeButton" type="button">
               <strong id="guessSavedCount">0</strong>

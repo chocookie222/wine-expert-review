@@ -36,7 +36,6 @@
       ]
     }
   ];
-  const mixedCategorySize = 10;
   const reviewIntervals = [1, 3, 7, 14, 30, 60];
   const numericQuestionPattern = /\d|％|%|以上|以下|未満|以内|年|月|日|時間|期間|温度|度数|糖分|面積|生産量|数量|順位|第[一二三四五六七八九十]/;
 
@@ -47,7 +46,8 @@
     filters: {
       mode: "all",
       importance: "all",
-      category: "all"
+      category: "all",
+      questionLimit: 20
     },
     importanceOverrides: {},
     reviewSchedule: {},
@@ -58,8 +58,8 @@
       dailyTarget: 20
     },
     mockSettings: {
-      questionCount: 50,
-      minutes: 50
+      questionCount: 60,
+      minutes: 35
     },
     similarSourceId: null,
     currentIndex: 0,
@@ -85,6 +85,7 @@
     modeFilter: document.getElementById("modeFilter"),
     importanceFilter: document.getElementById("importanceFilter"),
     categoryFilter: document.getElementById("categoryFilter"),
+    questionLimitControl: document.getElementById("questionLimitControl"),
     questionCounter: document.getElementById("questionCounter"),
     accuracyNow: document.getElementById("accuracyNow"),
     wrongCount: document.getElementById("wrongCount"),
@@ -125,7 +126,6 @@
     explanationText: document.getElementById("explanationText"),
     confidencePanel: document.getElementById("confidencePanel"),
     similarButton: document.getElementById("similarButton"),
-    reviewButton: document.getElementById("reviewButton"),
     previousButton: document.getElementById("previousButton"),
     nextButton: document.getElementById("nextButton"),
     resetSessionButton: document.getElementById("resetSessionButton"),
@@ -188,6 +188,16 @@
       Object.values(loaded.answers).forEach((answer) => {
         if (answer && answer.confidence === "again") answer.confidence = "guess";
       });
+      Object.keys(loaded.confidence).forEach((id) => {
+        if (loaded.confidence[id] === "unsure" && loaded.answers[id]?.lastCorrect) {
+          loaded.confidence[id] = "guess";
+        }
+      });
+      Object.values(loaded.answers).forEach((answer) => {
+        if (answer && answer.confidence === "unsure" && answer.lastCorrect) answer.confidence = "guess";
+      });
+      if (![60, 120].includes(Number(loaded.mockSettings.questionCount))) loaded.mockSettings.questionCount = 60;
+      if (![35, 70].includes(Number(loaded.mockSettings.minutes))) loaded.mockSettings.minutes = 35;
       return loaded;
     } catch (error) {
       return cloneDefaultState();
@@ -216,13 +226,19 @@
     els.modeFilter.value = state.filters.mode;
     els.importanceFilter.value = state.filters.importance;
     els.categoryFilter.value = state.filters.category;
+    const selectedLimit = String(state.filters.questionLimit || 20);
+    els.questionLimitControl.querySelectorAll("[data-question-limit]").forEach((button) => {
+      const selected = button.dataset.questionLimit === selectedLimit;
+      button.classList.toggle("selected", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
   }
 
   function syncStudyControls() {
     els.examDateInput.value = state.studyPlan.examDate || "";
     els.dailyTargetInput.value = String(state.studyPlan.dailyTarget || 20);
-    els.mockQuestionCount.value = String(state.mockSettings.questionCount || 50);
-    els.mockMinutes.value = String(state.mockSettings.minutes || 50);
+    els.mockQuestionCount.value = String(state.mockSettings.questionCount || 60);
+    els.mockMinutes.value = String(state.mockSettings.minutes || 35);
   }
 
   function bindEvents() {
@@ -233,6 +249,20 @@
       control.addEventListener("input", () => {
         applyFiltersFromControls();
       });
+    });
+
+    els.questionLimitControl.addEventListener("click", (event) => {
+      const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
+      const button = target && target.closest("[data-question-limit]");
+      if (!button) return;
+      state.filters.questionLimit = button.dataset.questionLimit === "all" ? "all" : Number(button.dataset.questionLimit);
+      state.currentIndex = 0;
+      answered = false;
+      resetSessionProgress();
+      syncFiltersToControls();
+      rebuildSet();
+      saveState();
+      renderAll();
     });
 
     function applyFiltersFromControls() {
@@ -257,8 +287,8 @@
 
     [els.mockQuestionCount, els.mockMinutes].forEach((control) => {
       control.addEventListener("change", () => {
-        state.mockSettings.questionCount = Number(els.mockQuestionCount.value) || 50;
-        state.mockSettings.minutes = Number(els.mockMinutes.value) || 50;
+        state.mockSettings.questionCount = Number(els.mockQuestionCount.value) || 60;
+        state.mockSettings.minutes = Number(els.mockMinutes.value) || 35;
         saveState();
       });
     });
@@ -329,14 +359,6 @@
       document.getElementById("statsTab").click();
     });
 
-    els.reviewButton.addEventListener("click", () => {
-      const question = getCurrentQuestion();
-      if (!question) return;
-      toggleReview(question.id);
-      renderReviewButton(question);
-      renderSaved();
-    });
-
     els.importanceEditor.addEventListener("change", () => {
       const question = getCurrentQuestion();
       if (!question) return;
@@ -384,8 +406,6 @@
       if (!id) return;
       if (button.dataset.savedAction === "remove-wrong") {
         removeWrong(id);
-      } else if (button.dataset.savedAction === "toggle-review") {
-        toggleReview(id);
       }
       renderQuiz();
       renderStats();
@@ -471,8 +491,8 @@
   }
 
   function startMockExam() {
-    const count = clamp(Number(els.mockQuestionCount.value) || 50, 1, 100);
-    const minutes = clamp(Number(els.mockMinutes.value) || 50, 1, 180);
+    const count = clamp(Number(els.mockQuestionCount.value) || 60, 1, 120);
+    const minutes = clamp(Number(els.mockMinutes.value) || 35, 1, 70);
     state.mockSettings = { questionCount: count, minutes };
     state.filters.mode = "mock";
     const source = getQuestionsForCategory(state.filters.category).filter((question) => {
@@ -549,7 +569,7 @@
       currentSet = baseSet.filter((question) => {
         if (state.filters.mode === "wrong" && !state.wrongIds.includes(question.id)) return false;
         if (state.filters.mode === "review" && !state.reviewIds.includes(question.id)) return false;
-        if (state.filters.mode === "unsure" && getSavedConfidence(question.id) !== "unsure") return false;
+        if (state.filters.mode === "unsure" && !(getSavedConfidence(question.id) === "unsure" && !state.answers[question.id]?.lastCorrect)) return false;
         if (state.filters.mode === "guess" && !(getSavedConfidence(question.id) === "guess" && state.answers[question.id]?.lastCorrect)) return false;
         if (state.filters.mode === "due" && !isReviewDue(question.id)) return false;
         if (state.filters.mode === "numeric" && !isNumericQuestion(question)) return false;
@@ -557,8 +577,12 @@
       });
     }
 
-    if (isMixed && !["mock", "similar"].includes(state.filters.mode)) {
-      currentSet = shuffleQuestions(currentSet).slice(0, mixedCategorySize);
+    if (state.filters.mode !== "mock" && state.filters.mode !== "similar") {
+      currentSet = sampleQuestionSet(
+        currentSet,
+        state.filters.questionLimit,
+        categoryFilter === "all" || isMixed
+      );
     }
 
     if (state.currentIndex >= currentSet.length) {
@@ -576,6 +600,7 @@
   function renderQuiz() {
     const question = getCurrentQuestion();
     const awaitingMockStart = state.filters.mode === "mock" && !isMockActive();
+    els.questionLimitControl.hidden = state.filters.mode === "mock";
     els.mockSetup.hidden = !awaitingMockStart;
     els.mockTimerBox.hidden = !isMockActive();
     updateProgressSummary();
@@ -624,8 +649,6 @@
     els.textAnswerInput.disabled = false;
     els.textSubmitButton.disabled = true;
 
-    renderReviewButton(question);
-
     els.choices.innerHTML = "";
     if (isTextAnswerQuestion(question)) {
       restoreSessionAnswer(question);
@@ -656,12 +679,6 @@
     els.questionImage.src = question.image.src;
     els.questionImage.alt = question.image.alt || "問題画像";
     els.questionImageCaption.textContent = question.image.caption || "";
-  }
-
-  function renderReviewButton(question) {
-    const inReview = Boolean(question && state.reviewIds.includes(question.id));
-    els.reviewButton.classList.toggle("selected", inReview);
-    els.reviewButton.innerHTML = `<span aria-hidden="true">${inReview ? "★" : "☆"}</span>${inReview ? "復習から外す" : "復習に追加"}`;
   }
 
   function toggleMultipleChoice(button, choiceIndex, question) {
@@ -718,16 +735,22 @@
 
   function recordAnswer(question, isCorrect) {
     const previous = state.answers[question.id] || { correct: 0, total: 0 };
+    const recentResults = [...(previous.recentResults || []), isCorrect].slice(-5);
+    const consecutiveCorrect = isCorrect ? (previous.consecutiveCorrect || 0) + 1 : 0;
     state.answers[question.id] = {
       correct: previous.correct + (isCorrect ? 1 : 0),
       total: previous.total + 1,
       lastCorrect: isCorrect,
-      lastAnsweredAt: new Date().toISOString()
+      lastAnsweredAt: new Date().toISOString(),
+      recentResults,
+      consecutiveCorrect
     };
     delete state.confidence[question.id];
 
     if (isCorrect) {
-      state.wrongIds = state.wrongIds.filter((id) => id !== question.id);
+      if (consecutiveCorrect >= 2) {
+        state.wrongIds = state.wrongIds.filter((id) => id !== question.id);
+      }
     } else if (!state.wrongIds.includes(question.id)) {
       state.wrongIds.push(question.id);
     }
@@ -883,7 +906,9 @@
     }
     els.confidencePanel.hidden = false;
     const selected = getSavedConfidence(question.id);
+    const isIncorrect = Boolean(state.answers[question.id] && !state.answers[question.id].lastCorrect);
     els.confidencePanel.querySelectorAll("[data-confidence]").forEach((button) => {
+      button.hidden = isIncorrect ? button.dataset.confidence === "confident" : button.dataset.confidence === "unsure";
       const active = button.dataset.confidence === selected;
       button.classList.toggle("selected", active);
       button.setAttribute("aria-pressed", String(active));
@@ -892,12 +917,13 @@
 
   function setConfidence(id, confidence) {
     if (!["guess", "unsure", "confident"].includes(confidence)) return;
-    state.confidence[id] = confidence;
     const answer = state.answers[id];
-    if (answer) answer.confidence = confidence;
     const isIncorrect = Boolean(answer && !answer.lastCorrect);
+    if ((isIncorrect && confidence === "confident") || (!isIncorrect && confidence === "unsure")) return;
+    state.confidence[id] = confidence;
+    if (answer) answer.confidence = confidence;
 
-    if (confidence === "confident" && !isIncorrect) {
+    if (confidence === "confident" && !isIncorrect && !state.wrongIds.includes(id)) {
       state.reviewIds = state.reviewIds.filter((savedId) => savedId !== id);
       delete state.reviewSchedule[id];
     } else {
@@ -938,7 +964,7 @@
 
   function getConfidenceLabel(confidence) {
     if (confidence === "confident") return "😎 自信あり";
-    if (confidence === "unsure") return "🤔 あやしい";
+    if (confidence === "unsure") return "😐 自信あった";
     if (confidence === "guess") return "😭 勘";
     return "";
   }
@@ -1111,7 +1137,9 @@
   function renderSaved() {
     els.wrongSavedCount.textContent = String(state.wrongIds.length);
     els.reviewSavedCount.textContent = String(state.reviewIds.length);
-    const unsureIds = questions.filter((question) => getSavedConfidence(question.id) === "unsure").map((question) => question.id);
+    const unsureIds = questions
+      .filter((question) => getSavedConfidence(question.id) === "unsure" && !state.answers[question.id]?.lastCorrect)
+      .map((question) => question.id);
     const guessIds = questions
       .filter((question) => getSavedConfidence(question.id) === "guess" && state.answers[question.id]?.lastCorrect)
       .map((question) => question.id);
@@ -1140,25 +1168,15 @@
               <strong>${escapeHtml(question.question)}</strong>
             </div>
             <small>${tags.map(escapeHtml).join(" / ")}</small>
-            <div class="saved-actions">
-              ${state.wrongIds.includes(id) ? `<button class="text-button" type="button" data-saved-action="remove-wrong" data-question-id="${escapeHtml(id)}">誤答を解除</button>` : ""}
-              <button class="text-button" type="button" data-saved-action="toggle-review" data-question-id="${escapeHtml(id)}">
-                ${state.reviewIds.includes(id) ? "復習から外す" : "復習に追加"}
-              </button>
-            </div>
+            ${state.wrongIds.includes(id) ? `
+              <div class="saved-actions">
+                <button class="text-button" type="button" data-saved-action="remove-wrong" data-question-id="${escapeHtml(id)}">誤答を解除</button>
+              </div>
+            ` : ""}
           </article>
         `;
       })
       .join("");
-  }
-
-  function toggleReview(id) {
-    if (state.reviewIds.includes(id)) {
-      state.reviewIds = state.reviewIds.filter((savedId) => savedId !== id);
-    } else {
-      state.reviewIds.push(id);
-    }
-    saveState();
   }
 
   function removeWrong(id) {
@@ -1323,6 +1341,33 @@
       [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
     }
     return shuffled;
+  }
+
+  function sampleQuestionSet(items, requestedLimit, balanceCategories) {
+    const limit = requestedLimit === "all" ? items.length : Math.max(1, Number(requestedLimit) || 20);
+    if (!balanceCategories) return shuffleQuestions(items).slice(0, limit);
+
+    const buckets = new Map();
+    items.forEach((question) => {
+      if (!buckets.has(question.category)) buckets.set(question.category, []);
+      buckets.get(question.category).push(question);
+    });
+    const categoryOrder = shuffleQuestions([...buckets.keys()]);
+    categoryOrder.forEach((category) => buckets.set(category, shuffleQuestions(buckets.get(category))));
+
+    const sampled = [];
+    while (sampled.length < Math.min(limit, items.length)) {
+      let added = false;
+      categoryOrder.forEach((category) => {
+        if (sampled.length >= limit) return;
+        const question = buckets.get(category).pop();
+        if (!question) return;
+        sampled.push(question);
+        added = true;
+      });
+      if (!added) break;
+    }
+    return shuffleQuestions(sampled);
   }
 
   function showStartupError(error) {
