@@ -633,7 +633,7 @@
     els.importanceEditor.value = importance;
     els.questionText.textContent = question.question;
     renderQuestionImage(question);
-    els.explanationText.textContent = question.explanation;
+    renderExplanation(question.explanation);
     els.answerResult.hidden = true;
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
@@ -664,6 +664,21 @@
       els.choices.appendChild(button);
     });
     restoreSessionAnswer(question);
+  }
+
+  function renderExplanation(explanation) {
+    const paragraphs = String(explanation || "")
+      .split(/\n+/)
+      .map((paragraph) => paragraph.trim())
+      .filter(Boolean);
+
+    els.explanationText.replaceChildren();
+    paragraphs.forEach((paragraph) => {
+      const block = document.createElement("span");
+      block.className = "explanation-paragraph";
+      block.textContent = paragraph.replace(/、(?=[^、。\n]{1,36}→)/g, "\n");
+      els.explanationText.appendChild(block);
+    });
   }
 
   function renderQuestionImage(question) {
