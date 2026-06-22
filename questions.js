@@ -22797,7 +22797,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から米国オレゴン州で最も冷涼な気候で、良質のピノ・ノワールを生産しているAVAを選択してください。",
-    "explanation": "Willamette Valleyは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Willamette Valleyはオレゴン北西部の冷涼な中心産地で、海の影響とピノ・ノワールで知られる。\nOakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。対して、Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。",
     "choices": [
       "Oakville",
       "Lewis-Clark Valley",
@@ -22811,7 +22811,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
-    "explanation": "Petaluma GapはSonoma Countyに属するAVAです。\nPetaluma Gapは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Petaluma GapはSonoma County南部。太平洋から霧と強風が入り、ピノ・ノワールとシャルドネに向く。\nAtlas PeakはNapa Valley東側のヴァカ山脈にある高地AVA。対して、Spring Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Atlas Peak",
       "Spring Mountain District",
@@ -22825,7 +22825,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ニューヨーク州で2019年1月に承認された新しいAVAを選択してください。",
-    "explanation": "Upper Hudsonはニューヨーク州で2019年1月に承認されたAVAです。\nUpper Hudsonという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Upper Hudsonはニューヨーク州北東部で2019年1月承認。耐寒性品種も重要な冷涼AVA。\nPuget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。対して、Yamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。",
     "choices": [
       "Upper Hudson",
       "Puget Sound",
@@ -22839,7 +22839,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国のテーブルワインの規定アルコール度数を選択してください。",
-    "explanation": "米国のテーブルワインは、アルコール度数7%以上14%以下と規定されています。\n7%以上14%以下は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "7%以上14%以下。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "7%以上13%以下",
       "7%以上14%以下",
@@ -22853,7 +22853,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となりました。\n1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となった。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となった。赤はStag's Leap Wine Cellars、白はChateau Montelenaが首位となった。\n歴史問題は1492年、1776年、禁酒法、1934年Wine Institute、1976年パリ・テイスティングを時系列で整理する。",
     "choices": [
       "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤白ともに第1位となった。",
       "1976年のパリ・テイスティングを開催したのは、フランス人エミール・ペイノーである。",
@@ -22867,7 +22867,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ワシントン州で1850年代からブドウ栽培が始まったパイオニア的ワイナリーが多く存在する地区で、特にシラーが高い評価を受けているAVAを選択してください。",
-    "explanation": "Walla Walla Valleyはワシントン州の歴史ある産地で、シラーも高く評価されています。\nWalla Walla Valleyは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Walla Walla Valleyはワシントン州とオレゴン州にまたがり、古い栽培史と高品質シラーで知られる。\nColumbia Valleyはカスケード山脈東側の雨陰に広がり、ワシントン州中心で一部オレゴン州にもまたがる大AVA。対して、Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。",
     "choices": [
       "Columbia Valley",
       "Lewis-Clark Valley",
@@ -22881,7 +22881,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第1位の品種を選択してください。",
-    "explanation": "カリフォルニア州の白ブドウではシャルドネが栽培面積第1位です。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "シャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。\nピノ・グリはカリフォルニア白品種で栽培面積上位に入る。対して、ソーヴィニョン・ブランはカリフォルニアでシャルドネに次ぐ主要白品種。",
     "choices": [
       "フレンチ・コロンバール",
       "ピノ・グリ",
@@ -22895,7 +22895,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSan Diegoに相当する番号を選択してください。",
-    "explanation": "地図上でSan Diegoに相当する番号は37番です。\n37番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "37番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nCalifornia全図ではNorth Coastを起点に、Central Coastを経て最南端San Diegoまで海岸線を下る。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -22914,7 +22914,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "Laurelwood DistrictはWillamette Valley AVAのサブリージョンです。\nLaurelwood Districtは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Laurelwood DistrictはWillamette Valley内、Chehalem Mountains北東部のサブAVA。\nThe Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。対して、Red Hill Douglas CountyはSouthern Oregon内、Umpqua Valleyに囲まれる小規模AVA。",
     "choices": [
       "The Rocks District of Milton-Freewater",
       "Laurelwood District",
@@ -22928,7 +22928,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
-    "explanation": "Crystal Springs of Napa ValleyはNapa Countyのヴァカ山脈側に位置します。\nCrystal Springs of Napa Valleyは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Crystal Springs of Napa ValleyはNapa Valley北部、ヴァカ山脈側の山麓に位置するAVA。\nSpring Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、Diamond Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Spring Mountain District",
       "Diamond Mountain District",
@@ -22942,7 +22942,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
-    "explanation": "Chalk HillはSonoma Countyに属するAVAです。\nChalk Hillは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Chalk HillはSonoma Countyの内陸寄りで、火山性の白い土壌とシャルドネで知られる。\nYountvilleはNapa Valley中央南部の谷床AVA。対して、Mount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Yountville",
       "Mount Veeder",
@@ -22956,7 +22956,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州とアイダホ州にまたがるAVAを選択してください。",
-    "explanation": "Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVAです。\nLewis-Clark Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。\nMount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、Finger Lakesはニューヨーク州西部の湖群が寒さを緩和する冷涼AVAで、リースリングが代表。",
     "choices": [
       "Mount Veeder",
       "Finger Lakes",
@@ -22970,7 +22970,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でChamplain Valley of New Yorkに相当する番号を選択してください。",
-    "explanation": "Champlain Valley of New Yorkに相当する番号は11番です。\n11番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "11番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -22989,7 +22989,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ワシントン州で最も生産量の多い白ブドウ品種を選択してください。",
-    "explanation": "ワシントン州で最も生産量の多い白ブドウ品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "リースリングはワシントン州の主要白品種で、Finger Lakesでも代表品種。\nピノ・グリはカリフォルニア白品種で栽培面積上位に入る。対して、シャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。",
     "choices": [
       "ピノ・グリ",
       "シャルドネ",
@@ -23003,7 +23003,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ニューヨーク州に属するAVAを選択してください。",
-    "explanation": "Hudson River Regionはニューヨーク州に属するAVAです。\nHudson River Regionは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Hudson River Regionはニューヨーク州のハドソン川沿いに広がる歴史あるAVA。\nPuget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。対して、OakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。",
     "choices": [
       "Puget Sound",
       "Oakville",
@@ -23017,7 +23017,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で2番のカウンティ名をカタカナで入力してください。",
-    "explanation": "地図上の2番はSonoma、カタカナではソノマです。\nソノマは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ソノマはNapaの西側に接し、海岸から内陸まで多様な気候を持つNorth Coastのカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23031,7 +23031,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。",
-    "explanation": "Rogue ValleyはSouthern Oregon AVAのサブリージョンです。\nRogue Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。\nYamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。",
     "choices": [
       "Yamhill-Carlton District",
       "Mt.Pisgah, Polk County, Oregon",
@@ -23045,7 +23045,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国カリフォルニア州サザン・カリフォルニア地区で最も南に位置するカウンティを選択してください。",
-    "explanation": "サザン・カリフォルニア地区で最も南に位置するカウンティはSan Diegoです。\nSan Diegoは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "San DiegoはSouthern California最南端、メキシコ国境に接するカウンティ。\nMarinはSan Francisco湾北側、Sonomaの南西に位置する冷涼なNorth Coastのカウンティ。対して、Santa BarbaraはCentral Coast最南部の主要カウンティで、東西方向の谷から海風が入る。",
     "choices": [
       "San Diego",
       "Marin",
@@ -23059,7 +23059,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国の2023年の国内ワイン消費量順位を選択してください。",
-    "explanation": "米国の2023年の国内ワイン消費量は世界第1位です。\n世界第1位という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "世界第1位。消費量は総量と1人当たりを区別し、必ず基準年と組にする。\n統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。",
     "choices": [
       "世界第1位",
       "世界第3位",
@@ -23073,7 +23073,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "1976年のパリ・テイスティングを開催したのは、イギリス人スティーヴン・スパリアです。\n1976年のパリ・テイスティングを開催したのは、イギリス人スティーヴン・スパリアである。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1976年のパリ・テイスティングを開催したのは、イギリス人スティーヴン・スパリアである。赤はStag's Leap Wine Cellars、白はChateau Montelenaが首位となった。\n歴史問題は1492年、1776年、禁酒法、1934年Wine Institute、1976年パリ・テイスティングを時系列で整理する。",
     "choices": [
       "ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。",
       "マイクロソフト社の本拠地、任天堂のアメリカ本社はニューヨーク州にある。",
@@ -23087,7 +23087,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ヴァージニア州で最も生産量の多い黒ブドウ品種を選択してください。",
-    "explanation": "ヴァージニア州で最も生産量の多い黒ブドウ品種はカベルネ・フランです。\nカベルネ・フランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "カベルネ・フランはヴァージニア州で重要度が高く、同州の主要黒品種。\nジンファンデルはカリフォルニア固有の歴史を象徴し、LodiやSierra Foothillsの古樹で著名。",
     "choices": [
       "カベルネ・フラン",
       "メルロ",
@@ -23101,7 +23101,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国でワイン生産量が第4位の州を選択してください。",
-    "explanation": "米国でワイン生産量が第4位の州はオレゴン州です。\nオレゴン州は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "オレゴン州は米国の主要ワイン生産州の一つ。\n統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。",
     "choices": [
       "オレゴン州",
       "ヴァージニア州",
@@ -23115,7 +23115,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "Yamhill-Carlton DistrictはWillamette Valley AVAのサブリージョンです。\nYamhill-Carlton Districtは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Yamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。\nRogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。対して、The Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。",
     "choices": [
       "Rogue Valley",
       "The Rocks District of Milton-Freewater",
@@ -23129,7 +23129,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "地図上のFはSouthern California、カタカナではサザン・カリフォルニアです。\nサザン・カリフォルニアは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "サザン・カリフォルニアはLos AngelesからSan Diego方面へ広がる州南部のリージョン。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23143,7 +23143,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
-    "explanation": "Walla Walla Valleyはオレゴン州にも属するAVAです。\nWalla Walla Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Walla Walla Valleyはワシントン州とオレゴン州にまたがり、古い栽培史と高品質シラーで知られる。\nYakima Valleyは1983年にワシントン州で最初に認可されたAVAで、Columbia Valley内に位置する。対して、Puget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。",
     "choices": [
       "Yakima Valley",
       "Puget Sound",
@@ -23157,7 +23157,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
-    "explanation": "Santa Cruzはカリフォルニア州セントラル・コースト地区に属するカウンティです。\nSanta Cruzは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Santa CruzはSan Francisco湾の南、Central Coast北部に位置するカウンティ。\nMendocinoはSonomaの北に位置するNorth Coastのカウンティ。",
     "choices": [
       "Mendocino",
       "Lake",
@@ -23171,7 +23171,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国オレゴン州で、「AVA名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
-    "explanation": "オレゴン州でAVA名を表記する場合、該当するブドウを95%以上使用する必要があります。\n95%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "95%。連邦基準の品種表示75%に対し、オレゴン州は州名100%・AVA名95%など独自に厳しい。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "100%",
       "95%",
@@ -23185,7 +23185,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCarneros/Los Carnerosに相当する番号を選択してください。",
-    "explanation": "Carneros/Los Carnerosに相当する番号は13番です。\n13番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "13番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -23204,7 +23204,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
-    "explanation": "Mount VeederはNapa Countyに属するAVAです。\nMount Veederは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Mount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。\nナパのAVAと、SonomaのAlexander Valley・Russian River Valley・Rockpileなどを混同しない。",
     "choices": [
       "Mount Veeder",
       "Bennett Valley",
@@ -23218,7 +23218,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。",
-    "explanation": "Marinはカリフォルニア州ノース・コースト地区に属するカウンティです。\nMarinは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "MarinはSan Francisco湾北側、Sonomaの南西に位置する冷涼なNorth Coastのカウンティ。\nSan BenitoはMontereyの東側に位置するCentral Coastのカウンティ。",
     "choices": [
       "San Francisco",
       "San Benito",
@@ -23232,7 +23232,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でHudson River Regionに相当する番号を選択してください。",
-    "explanation": "Hudson River Regionに相当する番号は4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "4番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -23251,7 +23251,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国カリフォルニア州のワイン産出カウンティを北から南の順序で正しく並べたものを選択してください。",
-    "explanation": "北から南の順序はMendocino, Sonoma, Monterey, Santa Barbaraです。\nMendocino, Sonoma, Monterey, Santa Barbaraは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Mendocino→Sonoma→Monterey→Santa Barbara。北から南へ海岸線をたどると位置関係を再現できる。\n米国問題は「州→広域AVA→サブAVA→山・川・海」の階層で位置関係を組み立てる。",
     "choices": [
       "Mendocino, Sonoma, Monterey, Santa Barbara",
       "Monterey, Sonoma, San Francisco, Santa Barbara",
@@ -23265,7 +23265,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国でブドウ栽培面積が第3位の州を選択してください。",
-    "explanation": "米国でブドウ栽培面積が第3位の州はオレゴン州です。\nオレゴン州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "オレゴン州は米国の主要ワイン生産州の一つ。\n統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。",
     "choices": [
       "ワシントン州",
       "ヴァージニア州",
@@ -23279,7 +23279,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中からアメリカ合衆国が独立を宣言し誕生した年代を選択してください。",
-    "explanation": "アメリカ合衆国は1776年に独立を宣言しました。\n1776年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1776年。米国問題は「州→広域AVA→サブAVA→山・川・海」の階層で位置関係を組み立てる。\n1492年はコロンブスが大西洋を横断しアメリカ大陸に到達した年。",
     "choices": [
       "1833年",
       "1776年",
@@ -23293,7 +23293,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ニューヨーク州で穏やかな海洋性気候に恵まれたAVAを選択してください。",
-    "explanation": "Long Islandは穏やかな海洋性気候に恵まれたニューヨーク州のAVAです。\nLong Islandは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Long Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。\nWillamette Valleyはオレゴン北西部の冷涼な中心産地で、海の影響とピノ・ノワールで知られる。対して、Yamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。",
     "choices": [
       "Long Island",
       "Willamette Valley",
@@ -23307,7 +23307,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
-    "explanation": "Ancient Lakes of Columbia Valleyはワシントン州に属するAVAです。\nAncient Lakes of Columbia Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Ancient Lakes of Columbia Valleyはワシントン州Columbia Valley内。玄武岩上の砂質土壌と冷涼さを持つAVA。\nMount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、St. HelenaはNapa Valley中央北部の谷床AVA。",
     "choices": [
       "Ancient Lakes of Columbia Valley",
       "Mount Veeder",
@@ -23321,7 +23321,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から2025年8月現在、米国カリフォルニア州に存在するAVAの数を選択してください。",
-    "explanation": "2025年8月現在、カリフォルニア州には154のAVAがあります。\n154という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "154。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "154",
       "78",
@@ -23335,7 +23335,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国オレゴン州で、「州名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
-    "explanation": "オレゴン州で州名を表記する場合、該当するブドウを100%使用する必要があります。\n100%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "100%。連邦基準の品種表示75%に対し、オレゴン州は州名100%・AVA名95%など独自に厳しい。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "75%",
       "100%",
@@ -23349,7 +23349,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "1934年にカリフォルニアでワイン・インスティテュートが設立されました。\n1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・インスティテュートが設立された。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・インスティテュートが設立された。誤答は人物・州・年代・数値の一部を入れ替えている。\n歴史問題は1492年、1776年、禁酒法、1934年Wine Institute、1976年パリ・テイスティングを時系列で整理する。",
     "choices": [
       "19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。",
       "1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・インスティテュートが設立された。",
@@ -23363,7 +23363,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国の州をワイン生産量の多い順に正しく並べたものを選択してください。",
-    "explanation": "生産量の多い順は、ニューヨーク州、ワシントン州、オレゴン州、ヴァージニア州です。\nニューヨーク州, ワシントン州, オレゴン州, ヴァージニア州は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ニューヨーク州, ワシントン州, オレゴン州, ヴァージニア州は米国の主要ワイン生産州の一つ。\n統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。",
     "choices": [
       "ニューヨーク州, ヴァージニア州, ワシントン州, オレゴン州",
       "ワシントン州, ヴァージニア州, オレゴン州, ニューヨーク州",
@@ -23377,7 +23377,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第3位の品種を選択してください。",
-    "explanation": "カリフォルニア州で白ブドウ栽培面積第3位の品種はピノ・グリです。\nピノ・グリは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ピノ・グリはカリフォルニア白品種で栽培面積上位に入る。\nシャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。対して、ソーヴィニョン・ブランはカリフォルニアでシャルドネに次ぐ主要白品種。",
     "choices": [
       "シャルドネ",
       "ピノ・グリ",
@@ -23391,7 +23391,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でAのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "地図上のAはFar North California、カタカナではファー・ノース・カリフォルニアです。\nファー・ノース・カリフォルニアは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ファー・ノース・カリフォルニアは州最北部のリージョンで、North Coastよりさらに北に位置する。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23407,7 +23407,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国ワシントン州で最初に認可されたAVAを選択してください。",
-    "explanation": "ワシントン州で最初に認可されたAVAはYakima Valleyです。\nYakima Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Yakima Valleyは1983年にワシントン州で最初に認可されたAVAで、Columbia Valley内に位置する。\nPuget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。対して、Columbia Valleyはカスケード山脈東側の雨陰に広がり、ワシントン州中心で一部オレゴン州にもまたがる大AVA。",
     "choices": [
       "Yakima Valley",
       "Puget Sound",
@@ -23421,7 +23421,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でNorth Coastに相当する記号を選択してください。",
-    "explanation": "North Coastに相当する記号はBです。\nBは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "B。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23440,7 +23440,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で、ナパ・ヴァレー西端にある山を選択してください。",
-    "explanation": "ナパ・ヴァレー西端にある山はマヤカマス山脈です。\nマヤカマス山脈は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "マヤカマス山脈はNapa Valley西側を区切り、Napa CountyとSonoma Countyの境界をなす山系。\nヴァカ山脈はNapa Valley東側を区切り、Napa CountyとSolano County側を分ける山系。対して、セント・ヘレナ山はNapa Valley北端、マヤカマス山脈北部に位置する火山。",
     "choices": [
       "マヤカマス山脈",
       "ヴァカ山脈",
@@ -23454,7 +23454,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFar North Californiaに相当する記号を選択してください。",
-    "explanation": "Far North Californiaに相当する記号はAです。\nAは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "A。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23473,7 +23473,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から米国カリフォルニア州、Lodi AVAを歴史的にも代表する品種を選択してください。",
-    "explanation": "Lodi AVAは歴史的にもジンファンデルを代表品種とする産地です。\nジンファンデルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ジンファンデルはカリフォルニア固有の歴史を象徴し、LodiやSierra Foothillsの古樹で著名。\nカベルネ・ソーヴィニョンはカリフォルニアとワシントンを代表する黒品種。",
     "choices": [
       "シラー",
       "フレンチ・コロンバール",
@@ -23487,7 +23487,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上で1番のA.V.A名をカタカナで入力してください。",
-    "explanation": "地図上の1番はLong Island、カタカナではロング・アイランドです。\nロング・アイランドは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ロング・アイランドはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長い。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -23503,7 +23503,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ヴァージニア州北部、ワシントンDCの西約80kmに位置するAVAを選択してください。",
-    "explanation": "Middleburg VirginiaはワシントンDCの西約80kmに位置するAVAです。\nMiddleburg Virginiaは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Middleburg Virginiaはヴァージニア州北部、ワシントンD.C.の西約80kmに位置するAVA。\nLong Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。対して、Monticelloはヴァージニア州中部、トーマス・ジェファーソンゆかりのAVA。",
     "choices": [
       "Middleburg Virginia",
       "Long Island",
@@ -23517,7 +23517,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
-    "explanation": "Puget Soundはワシントン州に属するAVAです。\nPuget Soundは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Puget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。\nYamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。対して、Dundee HillsはWillamette Valleyの代表的サブAVAで、赤い火山性Jory土壌とピノ・ノワールで知られる。",
     "choices": [
       "Yamhill-Carlton District",
       "Puget Sound",
@@ -23531,7 +23531,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
-    "explanation": "San Benitoはセントラル・コースト地区に属するカウンティです。\nSan Benitoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "San BenitoはMontereyの東側に位置するCentral Coastのカウンティ。\nSonomaはNapaの西側に接し、海岸から内陸まで多様な気候を持つNorth Coastのカウンティ。",
     "choices": [
       "Lake",
       "San Benito",
@@ -23545,7 +23545,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州セントラル・コースト地区で最も南に位置するカウンティを選択してください。",
-    "explanation": "セントラル・コースト地区で最も南に位置するのはSanta Barbaraです。\nSanta Barbaraは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Santa BarbaraはCentral Coast最南部の主要カウンティで、東西方向の谷から海風が入る。\nSan BenitoはMontereyの東側に位置するCentral Coastのカウンティ。",
     "choices": [
       "San Luis Obispo",
       "San Benito",
@@ -23559,7 +23559,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から米国（オレゴン州を除く）で、「品種名」をラベルに表記する場合、該当するブドウの最低使用比率を選択してください。",
-    "explanation": "米国では、オレゴン州を除き品種名を表記する場合は原則75%以上の使用が必要です。\n75%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "75%。連邦基準の品種表示75%に対し、オレゴン州は州名100%・AVA名95%など独自に厳しい。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "75%",
       "100%",
@@ -23573,7 +23573,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "ワシントン州には現在1000軒を超えるワイナリーがあります。\nワシントン州には現在1000軒を超えるワイナリーがある。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ワシントン州には現在1000軒を超えるワイナリーがある。Columbia Valleyを中心に産地が拡大し、多数の小規模生産者が存在する。\n州西部のPuget Soundより、雨陰となる東部Columbia Valleyにブドウ畑が集中する。",
     "choices": [
       "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤は第1位、白は第2位に入った。",
       "19世紀初頭、ロシア人がカリフォルニア州ナパ・カウンティに最初のブドウを植えて入植した。",
@@ -23587,7 +23587,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
-    "explanation": "Diamond Mountain DistrictはNapa Countyに属するAVAです。\nDiamond Mountain Districtは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Diamond Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。\nPetaluma GapはSonoma County南部。太平洋から霧と強風が入り、ピノ・ノワールとシャルドネに向く。対して、Chalk HillはSonoma Countyの内陸寄りで、火山性の白い土壌とシャルドネで知られる。",
     "choices": [
       "Knights Valley",
       "Petaluma Gap",
@@ -23601,7 +23601,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、コロンビア・ヴァレー流域で初の、オレゴン側に100%含まれる新設されたAVAを選択してください。",
-    "explanation": "The Rocks District of Milton-Freewaterは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "The Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。\nYakima Valleyは1983年にワシントン州で最初に認可されたAVAで、Columbia Valley内に位置する。対して、OakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。",
     "choices": [
       "Yakima Valley",
       "The Rocks District of Milton-Freewater",
@@ -23615,7 +23615,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国でワイン生産量が第2位の州を選択してください。",
-    "explanation": "米国でワイン生産量が第2位の州はニューヨーク州です。\nニューヨーク州は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ニューヨーク州は米国の主要ワイン生産州の一つ。\n統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。",
     "choices": [
       "ニューヨーク州",
       "オレゴン州",
@@ -23629,7 +23629,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国オレゴン州、Southern Oregon AVAのサブリージョンを選択してください。",
-    "explanation": "Red Hill Douglas CountyはSouthern Oregon AVAのサブリージョンです。\nRed Hill Douglas Countyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Red Hill Douglas CountyはSouthern Oregon内、Umpqua Valleyに囲まれる小規模AVA。\nTualatin HillsはWillamette Valley北西部のサブAVA。対して、The Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。",
     "choices": [
       "Mt.Pisgah, Polk County, Oregon",
       "Red Hill Douglas County",
@@ -23643,7 +23643,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から長い間、米国のジンファンデルと同じであると見なされていた品種を選択してください。",
-    "explanation": "プリミティーヴォは長い間、米国のジンファンデルと同じ品種と見なされていました。\nプリミティーヴォは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "プリミティーヴォはDNA上ジンファンデルと同一品種で、イタリア・プーリアで知られる名称。\n品種順位は全米ではなく州別か、白・黒別かを確認してから比較する。",
     "choices": [
       "カリニャン",
       "ネロ・ダヴォラ",
@@ -23657,7 +23657,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSierra Foothillsに相当する記号を選択してください。",
-    "explanation": "Sierra Foothillsに相当する記号はDです。\nDは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "D。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23676,7 +23676,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
-    "explanation": "Howell MountainはNapa Countyのヴァカ山脈側に位置するAVAです。\nHowell Mountainは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Howell MountainはNapa Valley東側のヴァカ山脈にある高地AVAで、力強いカベルネ系が中心。\nDiamond Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、Mount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Diamond Mountain District",
       "Howell Mountain",
@@ -23690,7 +23690,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "Eola-Amity HillsはWillamette Valley AVAのサブリージョンです。\nEola-Amity Hillsは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Eola-Amity HillsはWillamette Valley内。Van Duzer Corridorからの冷風を受けるサブAVA。\nThe Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。対して、Red Hill Douglas CountyはSouthern Oregon内、Umpqua Valleyに囲まれる小規模AVA。",
     "choices": [
       "The Rocks District of Milton-Freewater",
       "Red Hill Douglas County",
@@ -23704,7 +23704,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第2位のものを選択してください。",
-    "explanation": "カリフォルニア州のブドウ品種で栽培面積第2位はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "シャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。\nジンファンデルはカリフォルニア固有の歴史を象徴し、LodiやSierra Foothillsの古樹で著名。対して、カベルネ・ソーヴィニョンはカリフォルニアとワシントンを代表する黒品種。",
     "choices": [
       "ジンファンデル",
       "カベルネ・ソーヴィニョン",
@@ -23718,7 +23718,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中からクリストファー・コロンブスがアメリカ大陸を発見した年代を選択してください。",
-    "explanation": "クリストファー・コロンブスがアメリカ大陸に到達したのは1492年です。\n1492年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1492年。米国問題は「州→広域AVA→サブAVA→山・川・海」の階層で位置関係を組み立てる。\n1776年はアメリカ独立宣言の年。",
     "choices": [
       "1492年",
       "1776年",
@@ -23732,7 +23732,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
-    "explanation": "Alexander ValleyはSonoma Countyに属するAVAです。\nAlexander Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Alexander ValleyはSonoma County北部の比較的温暖な内陸産地で、カベルネ・ソーヴィニョンが重要。\nAtlas PeakはNapa Valley東側のヴァカ山脈にある高地AVA。対して、Diamond Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Atlas Peak",
       "Alexander Valley",
@@ -23746,7 +23746,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションを選択してください。",
-    "explanation": "Candy MountainはYakima Valley AVAのサブ・アペレーションです。\nCandy Mountainは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Candy Mountainはワシントン州Yakima Valley内の小規模サブAVA。\nColumbia Gorgeはコロンビア川沿いでワシントン州とオレゴン州にまたがり、東西で気候が大きく変わるAVA。対して、Ancient Lakes of Columbia Valleyはワシントン州Columbia Valley内。玄武岩上の砂質土壌と冷涼さを持つAVA。",
     "choices": [
       "Columbia Gorge",
       "Ancient Lakes of Columbia Valley",
@@ -23760,7 +23760,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
-    "explanation": "Santa Barbaraはセントラル・コースト地区に属するカウンティです。\nSanta Barbaraは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Santa BarbaraはCentral Coast最南部の主要カウンティで、東西方向の谷から海風が入る。\nNapaはNorth Coastを代表するカウンティで、Napa Valley AVAを中心に多数のサブAVAを持つ。対して、MarinはSan Francisco湾北側、Sonomaの南西に位置する冷涼なNorth Coastのカウンティ。",
     "choices": [
       "Napa",
       "Marin",
@@ -23774,7 +23774,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でInland Valleysに相当する記号を選択してください。",
-    "explanation": "Inland Valleysに相当する記号はEです。\nEは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "E。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23793,7 +23793,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国カリフォルニア州サザン・カリフォルニア地区に属するカウンティを選択してください。",
-    "explanation": "San Diegoはサザン・カリフォルニア地区に属するカウンティです。\nSan Diegoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "San DiegoはSouthern California最南端、メキシコ国境に接するカウンティ。\nSanta CruzはSan Francisco湾の南、Central Coast北部に位置するカウンティ。対して、MarinはSan Francisco湾北側、Sonomaの南西に位置する冷涼なNorth Coastのカウンティ。",
     "choices": [
       "San Diego",
       "Santa Cruz",
@@ -23807,7 +23807,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCalistogaに相当する番号を選択してください。",
-    "explanation": "Calistogaに相当する番号は3番です。\n3番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "3番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -23826,7 +23826,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州でNapa County, Sonoma County両方に属するAVAを選択してください。",
-    "explanation": "Carneros/Los Carnerosは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Carneros/Los CarnerosはNapa CountyとSonoma Countyにまたがる冷涼AVAで、ピノ・ノワールとシャルドネが中心。\nSpring Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、OakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。",
     "choices": [
       "Spring Mountain District",
       "Carneros/Los Carneros",
@@ -23840,7 +23840,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ニューヨーク州のFinger Lakes AVAのサブ・アペレーションの数を選択してください。",
-    "explanation": "Finger Lakes AVAには2つのサブ・アペレーションがあります。\n2は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "2。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "7",
       "5",
@@ -23854,7 +23854,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でDのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "地図上のDはSierra Foothills、カタカナではシエラ・フットヒルズです。\nシエラ・フットヒルズは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "シエラ・フットヒルズはシエラネヴァダ山脈西麓の内陸リージョンで、ゴールドラッシュと古樹ジンファンデルで知られる。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23870,7 +23870,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
-    "explanation": "Columbia Valleyはオレゴン州にもまたがるAVAです。\nColumbia Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Columbia Valleyはカスケード山脈東側の雨陰に広がり、ワシントン州中心で一部オレゴン州にもまたがる大AVA。\nOakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。対して、Finger Lakesはニューヨーク州西部の湖群が寒さを緩和する冷涼AVAで、リースリングが代表。",
     "choices": [
       "Oakville",
       "Coombsville",
@@ -23884,7 +23884,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
-    "explanation": "Yakima Valleyはワシントン州に属するAVAです。\nYakima Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Yakima Valleyは1983年にワシントン州で最初に認可されたAVAで、Columbia Valley内に位置する。\nWillamette Valleyはオレゴン北西部の冷涼な中心産地で、海の影響とピノ・ノワールで知られる。対して、Yamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。",
     "choices": [
       "Willamette Valley",
       "Yamhill-Carlton District",
@@ -23898,7 +23898,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ヴァージニア州の気候に影響を与え、同州の南東部を温暖にしている海流を選択してください。",
-    "explanation": "北大西洋海流はヴァージニア州南東部を温暖にする要因です。\n北大西洋海流は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "北大西洋海流は北大西洋沿岸側を温暖にする暖流で、ヴァージニア南東部の気候にも影響する。\n米国問題は「州→広域AVA→サブAVA→山・川・海」の階層で位置関係を組み立てる。",
     "choices": [
       "ベンゲラ海流",
       "北大西洋海流",
@@ -23912,7 +23912,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "マイクロソフト社の本拠地と任天堂のアメリカ本社はワシントン州にあります。\nマイクロソフト社の本拠地、任天堂のアメリカ本社はワシントン州にある。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "マイクロソフト社の本拠地、任天堂のアメリカ本社はワシントン州にある。誤答は人物・州・年代・数値の一部を入れ替えている。\n両社の拠点はSeattle近郊。ワイン産地の中心Columbia Valleyは州の東側に広がる。",
     "choices": [
       "1934年にカリフォルニアで、ワイン生産者組合で組織される協会、ワイン・アカデミーが設立された。",
       "ニューヨーク州では18世紀中頃オランダ人によってマンハッタン島に初めてブドウが植えられた。",
@@ -23926,7 +23926,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "McMinnvilleはWillamette Valley AVAのサブリージョンです。\nMcMinnvilleは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "McMinnvilleはWillamette Valley西側の丘陵にあるサブAVA。\nRed Hill Douglas CountyはSouthern Oregon内、Umpqua Valleyに囲まれる小規模AVA。対して、Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。",
     "choices": [
       "Red Hill Douglas County",
       "McMinnville",
@@ -23940,7 +23940,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でHowell Mountainに相当する番号を選択してください。",
-    "explanation": "Howell Mountainに相当する番号は2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "2番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -23959,7 +23959,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ニューヨーク州に属するAVAを選択してください。",
-    "explanation": "Upper Hudsonはニューヨーク州に属するAVAです。\nUpper Hudsonは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Upper Hudsonはニューヨーク州北東部で2019年1月承認。耐寒性品種も重要な冷涼AVA。\nDundee HillsはWillamette Valleyの代表的サブAVAで、赤い火山性Jory土壌とピノ・ノワールで知られる。対して、Willamette Valleyはオレゴン北西部の冷涼な中心産地で、海の影響とピノ・ノワールで知られる。",
     "choices": [
       "Dundee Hills",
       "Willamette Valley",
@@ -23973,7 +23973,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
-    "explanation": "Lewis-Clark Valleyはワシントン州にも属するAVAです。\nLewis-Clark Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Lewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。\nLong Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。対して、OakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。",
     "choices": [
       "Lewis-Clark Valley",
       "Long Island",
@@ -23987,7 +23987,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
-    "explanation": "Russian River ValleyはSonoma Countyに属するAVAです。\nRussian River Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Russian River ValleyはSonoma Countyの冷涼産地で、霧の影響を受けるピノ・ノワールとシャルドネが代表。\nStags Leap DistrictはNapa Valley東側の岩壁付近にあるAVAで、カベルネ・ソーヴィニョンが著名。対して、Howell MountainはNapa Valley東側のヴァカ山脈にある高地AVAで、力強いカベルネ系が中心。",
     "choices": [
       "Stags Leap District",
       "Howell Mountain",
@@ -24001,7 +24001,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でOakvilleに相当する番号を選択してください。",
-    "explanation": "Oakvilleに相当する番号は8番です。\n8番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "8番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24020,7 +24020,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で、Napa CountyとSonoma Countyの間にある山を選択してください。",
-    "explanation": "Napa CountyとSonoma Countyの間にある山はマヤカマス山脈です。\nマヤカマス山脈は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "マヤカマス山脈はNapa Valley西側を区切り、Napa CountyとSonoma Countyの境界をなす山系。\nセント・ヘレナ山はNapa Valley北端、マヤカマス山脈北部に位置する火山。対して、ヴァカ山脈はNapa Valley東側を区切り、Napa CountyとSolano County側を分ける山系。",
     "choices": [
       "セント・ヘレナ山",
       "マヤカマス山脈",
@@ -24034,7 +24034,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
-    "explanation": "Wild Horse ValleyはNapa Countyのヴァカ山脈側に位置するAVAです。\nWild Horse Valleyは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Wild Horse ValleyはNapa County東南部のヴァカ山脈側に位置し、一部Solano CountyにもまたがるAVA。\nDiamond Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、Spring Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Diamond Mountain District",
       "Spring Mountain District",
@@ -24048,7 +24048,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "S",
     "question": "次の中から米国のワイン法におけるAVAの意味を選択してください。",
-    "explanation": "AVAはAmerican Viticultural Areaの略で、ブドウ栽培地域を意味します。\nブドウ栽培地域は語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ブドウ栽培地域はAmerican Viticultural Areaの直訳に近い意味で、地理的境界を示す。\nAVAは地理的境界であり、欧州のPDOのように品種・収量・醸造法を一律に保証する制度ではない。",
     "choices": [
       "原産地名称保護",
       "地理的表示保護",
@@ -24062,7 +24062,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国ワシントン州で最も生産量の多い黒ブドウ品種を選択してください。",
-    "explanation": "ワシントン州で最も生産量の多い黒ブドウ品種はカベルネ・ソーヴィニョンです。\nカベルネ・ソーヴィニョンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "カベルネ・ソーヴィニョンはカリフォルニアとワシントンを代表する黒品種。\nピノ・ノワールはカリフォルニアで栽培面積上位の黒品種で、冷涼沿岸部やオレゴンが得意。",
     "choices": [
       "シラー",
       "カベルネ・ソーヴィニョン",
@@ -24076,7 +24076,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で3番のA.V.A名をカタカナで入力してください。",
-    "explanation": "地図上の3番はCalistoga、カタカナではカリストガです。\nカリストガは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "カリストガはNapa Valley最北部のAVA。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24093,7 +24093,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で、ナパ・ヴァレー北端にある山を選択してください。",
-    "explanation": "ナパ・ヴァレー北端にある山はセント・ヘレナ山です。\nセント・ヘレナ山は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "セント・ヘレナ山はNapa Valley北端、マヤカマス山脈北部に位置する火山。\nマヤカマス山脈はNapa Valley西側を区切り、Napa CountyとSonoma Countyの境界をなす山系。対して、ヴァカ山脈はNapa Valley東側を区切り、Napa CountyとSolano County側を分ける山系。",
     "choices": [
       "カスケード山脈",
       "マヤカマス山脈",
@@ -24107,7 +24107,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
-    "explanation": "CalistogaはNapa Countyに属するAVAです。\nCalistogaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "CalistogaはNapa Valley最北部のAVAで、日中は温暖だが山からの冷気も受ける。\nRussian River ValleyはSonoma Countyの冷涼産地で、霧の影響を受けるピノ・ノワールとシャルドネが代表。対して、Chalk HillはSonoma Countyの内陸寄りで、火山性の白い土壌とシャルドネで知られる。",
     "choices": [
       "Russian River Valley",
       "Fort Ross-Seaview",
@@ -24121,7 +24121,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国でアペレーションの規定を含む現在のワイン法の原形が形成された年代を選択してください。",
-    "explanation": "米国で現在のワイン法の原形が形成されたのは1978年です。\n1978年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1978年。AVAは地理的境界であり、欧州のPDOのように品種・収量・醸造法を一律に保証する制度ではない。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "1949年",
       "1978年",
@@ -24135,7 +24135,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でLong Islandに相当する番号を選択してください。",
-    "explanation": "Long Islandに相当する番号は1番です。\n1番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "1番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -24154,7 +24154,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "Tualatin HillsはWillamette Valley AVAのサブリージョンです。\nTualatin Hillsは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Tualatin HillsはWillamette Valley北西部のサブAVA。\nRed Hill Douglas CountyはSouthern Oregon内、Umpqua Valleyに囲まれる小規模AVA。対して、Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。",
     "choices": [
       "Tualatin Hills",
       "Red Hill Douglas County",
@@ -24168,7 +24168,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州のNapa Valley AVAのサブ・リージョンの数を選択してください。",
-    "explanation": "Napa Valley AVAのサブ・リージョンの数は17です。\n17は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "17。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "14",
       "19",
@@ -24182,7 +24182,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSanta Cruzに相当する番号を選択してください。",
-    "explanation": "Santa Cruzに相当する番号は12番です。\n12番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "12番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nCalifornia全図ではNorth Coastを起点に、Central Coastを経て最南端San Diegoまで海岸線を下る。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24201,7 +24201,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国でRobert M. Parker Jr.が発行する独自のワインニュースレターを選択してください。",
-    "explanation": "Robert M. Parker Jr.が発行する独自のワインニュースレターはWine Advocateです。\nWine Advocateは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Wine AdvocateはRobert M. Parker Jr.が創刊したワイン評価誌・ニュースレター。\n米国問題は「州→広域AVA→サブAVA→山・川・海」の階層で位置関係を組み立てる。",
     "choices": [
       "Wine Advocate",
       "Wine Enthusiast",
@@ -24215,7 +24215,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州でSonoma Countyに属するAVAを選択してください。",
-    "explanation": "RockpileはSonoma Countyに属するAVAです。\nRockpileは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "RockpileはSonoma County北西部の高地で、急斜面と風の影響を受けるAVA。\nMount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、St. HelenaはNapa Valley中央北部の谷床AVA。",
     "choices": [
       "Mount Veeder",
       "St. Helena",
@@ -24229,7 +24229,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で1番のカウンティ名をカタカナで入力してください。",
-    "explanation": "地図上の1番はMendocino、カタカナではメンドシーノです。\nメンドシーノは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "メンドシーノはSonomaの北に位置するNorth Coastのカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24246,7 +24246,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSouthern Californiaに相当する記号を選択してください。",
-    "explanation": "Southern Californiaに相当する記号はFです。\nFは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "F。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24265,7 +24265,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で、Napa CountyとSolano Countyの間にある山を選択してください。",
-    "explanation": "Napa CountyとSolano Countyの間にある山はヴァカ山脈です。\nヴァカ山脈は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ヴァカ山脈はNapa Valley東側を区切り、Napa CountyとSolano County側を分ける山系。\nセント・ヘレナ山はNapa Valley北端、マヤカマス山脈北部に位置する火山。対して、マヤカマス山脈はNapa Valley西側を区切り、Napa CountyとSonoma Countyの境界をなす山系。",
     "choices": [
       "カスケード山脈",
       "ヴァカ山脈",
@@ -24279,7 +24279,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ニューヨーク州でマンハッタン近郊に位置するAVAを選択してください。",
-    "explanation": "マンハッタン近郊に位置するニューヨーク州のAVAはLong Islandです。\nLong Islandは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Long Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。\nOakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。対して、Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。",
     "choices": [
       "Van Duzer Corridor",
       "Oakville",
@@ -24293,7 +24293,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州のYakima Valley AVAのサブ・アペレーションの数を選択してください。",
-    "explanation": "Yakima Valley AVAのサブ・アペレーションの数は5です。\n5は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "5。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "3",
       "9",
@@ -24307,7 +24307,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
-    "explanation": "Yamhill-Carlton Districtはオレゴン州に属するAVAです。\nYamhill-Carlton Districtは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Yamhill-Carlton DistrictはWillamette Valley西側の丘陵サブAVAで、ピノ・ノワールが中心。\nLong Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。対して、OakvilleはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。",
     "choices": [
       "Long Island",
       "Oakville",
@@ -24321,7 +24321,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州で白ブドウの中で栽培面積が第2位の品種を選択してください。",
-    "explanation": "カリフォルニア州で白ブドウの中で栽培面積が第2位の品種はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ソーヴィニョン・ブランはカリフォルニアでシャルドネに次ぐ主要白品種。\nシャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。対して、ピノ・グリはカリフォルニア白品種で栽培面積上位に入る。",
     "choices": [
       "フレンチ・コロンバール",
       "ソーヴィニョン・ブラン",
@@ -24335,7 +24335,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
-    "explanation": "Rogue Valleyはオレゴン州に属するAVAです。\nRogue Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。\nLewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。対して、Puget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。",
     "choices": [
       "Coombsville",
       "Rogue Valley",
@@ -24349,7 +24349,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州で唯一、カスケード山脈の西側にあるAVAを選択してください。",
-    "explanation": "ワシントン州で唯一、カスケード山脈の西側にあるAVAはPuget Soundです。\nPuget Soundは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Puget Soundはワシントン州で唯一カスケード山脈西側にある、海洋性で冷涼なAVA。\nLewis-Clark Valleyはワシントン州とアイダホ州にまたがるAVA。対して、Columbia Valleyはカスケード山脈東側の雨陰に広がり、ワシントン州中心で一部オレゴン州にもまたがる大AVA。",
     "choices": [
       "Puget Sound",
       "Lewis-Clark Valley",
@@ -24363,7 +24363,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で12番のカウンティ名をカタカナで入力してください。",
-    "explanation": "地図上の12番はSanta Cruz、カタカナではサンタ・クルーズです。\nサンタ・クルーズは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "サンタ・クルーズはSan Francisco湾の南、Central Coast北部に位置するカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24379,7 +24379,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州のブドウ品種の中で栽培面積が第3位のものを選択してください。",
-    "explanation": "カリフォルニア州のブドウ品種で栽培面積が第3位のものはピノ・ノワールです。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ピノ・ノワールはカリフォルニアで栽培面積上位の黒品種で、冷涼沿岸部やオレゴンが得意。\nシャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。対して、ジンファンデルはカリフォルニア固有の歴史を象徴し、LodiやSierra Foothillsの古樹で著名。",
     "choices": [
       "シャルドネ",
       "ジンファンデル",
@@ -24393,7 +24393,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州ノース・コースト地区に属するカウンティを選択してください。",
-    "explanation": "Napaはノース・コースト地区に属するカウンティです。\nNapaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "NapaはNorth Coastを代表するカウンティで、Napa Valley AVAを中心に多数のサブAVAを持つ。\nSanta CruzはSan Francisco湾の南、Central Coast北部に位置するカウンティ。",
     "choices": [
       "San Francisco",
       "San Luis Obispo",
@@ -24407,7 +24407,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国において、ワインの製造方法を規定し品質管理を担っている組織の略称を選択してください。",
-    "explanation": "米国でワインの製造方法を規定し品質管理を担う組織はTTBです。\nTTBは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "TTBはAlcohol and Tobacco Tax and Trade Bureau。米国の酒類表示・製造規則やAVA承認を担う。\nAVAは地理的境界であり、欧州のPDOのように品種・収量・醸造法を一律に保証する制度ではない。",
     "choices": [
       "DAC",
       "TTB",
@@ -24421,7 +24421,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の米国に関する記述の中から正しいものを選択してください。",
-    "explanation": "正しい記述は、ワシントン州コロンビア・ヴァレーの7〜8月の平均気温はボルドーより高い、です。\nワシントン州コロンビア・ヴァレーの7〜8月の平均気温はボルドーより高い。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ワシントン州コロンビア・ヴァレーの7〜8月の平均気温はボルドーより高い。緯度は高くても大陸性気候と長い日照により、夏は十分な熱を得る。\nカスケード山脈の雨陰で乾燥し、灌漑を利用する点も海洋性のボルドーとの大きな違い。",
     "choices": [
       "1976年のパリ・テイスティングでは、ナパ・ヴァレーのワインが赤は第1位、白は第2位に入った。",
       "ニューヨーク州には現在約140軒のワイナリーがある。",
@@ -24435,7 +24435,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でBのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "地図上のBはNorth Coast、カタカナではノース・コーストです。\nノース・コーストは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ノース・コーストはMendocino・Sonoma・NapaなどSan Francisco湾北側の主要産地群。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24451,7 +24451,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国ワシントン州に属するAVAを選択してください。",
-    "explanation": "Columbia Gorgeはワシントン州に属するAVAです。\nColumbia Gorgeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Columbia Gorgeはコロンビア川沿いでワシントン州とオレゴン州にまたがり、東西で気候が大きく変わるAVA。\nNiagara Escarpmentはニューヨーク州西部、ナイアガラ断崖沿いのAVA。対して、St. HelenaはNapa Valley中央北部の谷床AVA。",
     "choices": [
       "Columbia Gorge",
       "Niagara Escarpment",
@@ -24465,7 +24465,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から2025年8月現在の米国オレゴン州のAVAの数を選択してください。",
-    "explanation": "2025年8月現在のオレゴン州のAVAの数は23です。\n23という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "23。統計値は基準年が変わると動くため、順位・数値と年を一体で覚える。\nAVA名は単独暗記にせず、親AVA・州・隣接産地まで一緒に地図へ置く。",
     "choices": [
       "21",
       "28",
@@ -24479,7 +24479,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "次の中から米国カリフォルニア州セントラル・コースト地区に属するカウンティを選択してください。",
-    "explanation": "Contra Costaはセントラル・コースト地区に属するカウンティです。\nContra Costaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Contra CostaはSan Francisco湾東側に位置し、教本区分ではCentral Coastに含まれるカウンティ。\nMendocinoはSonomaの北に位置するNorth Coastのカウンティ。対して、NapaはNorth Coastを代表するカウンティで、Napa Valley AVAを中心に多数のサブAVAを持つ。",
     "choices": [
       "Mendocino",
       "Napa",
@@ -24493,7 +24493,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州、Willamette Valley AVAのサブリージョンを選択してください。",
-    "explanation": "Ribbon RidgeはWillamette Valley AVAのサブリージョンです。\nRibbon Ridgeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Ribbon RidgeはWillamette Valley内、Chehalem Mountainsに囲まれる小規模サブAVA。\nThe Rocks District of Milton-FreewaterはWalla Walla Valley内でオレゴン州側に全域が入り、丸石土壌とシラーで著名。対して、Rogue ValleyはSouthern Oregonの主要サブAVAで、州南部の比較的温暖で多様な産地。",
     "choices": [
       "Ribbon Ridge",
       "The Rocks District of Milton-Freewater",
@@ -24507,7 +24507,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で8番のA.V.A名をカタカナで入力してください。",
-    "explanation": "地図上の8番はOakville、カタカナではオークヴィルです。\nオークヴィルは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "オークヴィルはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24523,7 +24523,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "A",
     "question": "次の中から米国カリフォルニア州でNapa Countyに属するAVAを選択してください。",
-    "explanation": "Stags Leap DistrictはNapa Countyに属するAVAです。\nStags Leap Districtは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Stags Leap DistrictはNapa Valley東側の岩壁付近にあるAVAで、カベルネ・ソーヴィニョンが著名。\nRockpileはSonoma County北西部の高地で、急斜面と風の影響を受けるAVA。対して、Alexander ValleyはSonoma County北部の比較的温暖な内陸産地で、カベルネ・ソーヴィニョンが重要。",
     "choices": [
       "Stags Leap District",
       "Knights Valley",
@@ -24537,7 +24537,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で3番のカウンティ名をカタカナで入力してください。",
-    "explanation": "地図上の3番はNapa、カタカナではナパです。\nナパは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "ナパはNorth Coastを代表するカウンティで、Napa Valley AVAを中心に多数のサブAVAを持つ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24554,7 +24554,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国ヴァージニア州で最も生産量の多い白ブドウ品種を選択してください。",
-    "explanation": "ヴァージニア州で最も生産量の多い白ブドウ品種はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "シャルドネはカリフォルニアで白ブドウ栽培面積首位、ヴァージニアでも主要白品種。\nソーヴィニョン・ブランはカリフォルニアでシャルドネに次ぐ主要白品種。対して、ピノ・グリはカリフォルニア白品種で栽培面積上位に入る。",
     "choices": [
       "ソーヴィニョン・ブラン",
       "シャルドネ",
@@ -24568,7 +24568,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国カリフォルニア州Napa Countyでヴァカ山脈側に位置するAVAを選択してください。",
-    "explanation": "Atlas PeakはNapa Countyのヴァカ山脈側に位置するAVAです。\nAtlas Peakは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Atlas PeakはNapa Valley東側のヴァカ山脈にある高地AVA。\nMount VeederはNapa Valley西側のマヤカマス山脈にある山地AVA。対して、Spring Mountain DistrictはNapa Valley西側のマヤカマス山脈にある山地AVA。",
     "choices": [
       "Mount Veeder",
       "Atlas Peak",
@@ -24582,7 +24582,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "次の中から米国オレゴン州に属するAVAを選択してください。",
-    "explanation": "Dundee Hillsはオレゴン州に属するAVAです。\nDundee Hillsは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\n米国のAVAは産地境界を示す制度で、欧州の原産地呼称のように品種や収量を一律には規定しない。",
+    "explanation": "Dundee HillsはWillamette Valleyの代表的サブAVAで、赤い火山性Jory土壌とピノ・ノワールで知られる。\nYakima Valleyは1983年にワシントン州で最初に認可されたAVAで、Columbia Valley内に位置する。対して、Long Islandはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長く、ボルドー系品種にも向く。",
     "choices": [
       "Yakima Valley",
       "Coombsville",
@@ -26313,7 +26313,7 @@ window.WINE_QUESTIONS = [
       "サン・フアン州"
     ],
     "answerIndex": 3,
-    "explanation": "サン・フアン州はアルゼンチンのクージョ地方に位置します。\nサン・フアン州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "サン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。\nサルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。対して、トゥクマン州はノルテ地方で、サルタとカタマルカの間に位置する州。"
   },
   {
     "id": "argentina-002",
@@ -26327,7 +26327,7 @@ window.WINE_QUESTIONS = [
       "8月8日"
     ],
     "answerIndex": 0,
-    "explanation": "アルゼンチンのマルベックデーは4月17日です。\n4月17日は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "4月17日は1853年にメンドーサでマルベック導入事業が始まった日にちなむMalbec World Day。\n歴史は16世紀の伝来、1853年のMalbec導入、1970年代の大量消費、1990年代以降の品質化で整理する。"
   },
   {
     "id": "argentina-003",
@@ -26341,7 +26341,7 @@ window.WINE_QUESTIONS = [
       "緯度が高く冷涼すぎるため、低い標高の温暖なブドウ畑で栽培が進んだ。"
     ],
     "answerIndex": 2,
-    "explanation": "アルゼンチンの国土は、ブラジルに次いで南米第2位の広さがあります。\nアルゼンチンの国土は、ブラジルに次いで南米第2位の広さがある。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "アルゼンチンの国土は、ブラジルに次いで南米第2位の広さがある。南米最大はブラジルで、アルゼンチンが続く。\n誤答は海洋性気候・灌漑不要・低標高という点が逆。実際は乾燥した大陸性気候と高標高・灌漑が鍵。"
   },
   {
     "id": "argentina-004",
@@ -26355,7 +26355,7 @@ window.WINE_QUESTIONS = [
       "DOワイン"
     ],
     "answerIndex": 2,
-    "explanation": "地理的表示ワインに該当する品質分類はIGワインです。\nIGワインは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "IGワインはIndicación Geográfica。認定地域との地理的結び付きを示す分類。\nIPワインはIndicación de Procedencia。一般的なテーブルワイン側の産地表示分類。対して、DOCワインは原産地に加えて品種・収量・醸造などの生産基準も規定する上位分類。"
   },
   {
     "id": "argentina-005",
@@ -26369,7 +26369,7 @@ window.WINE_QUESTIONS = [
       "ケブラダ・デ・ウマワカ"
     ],
     "answerIndex": 1,
-    "explanation": "この中で最も標高の低いブドウ栽培地域はリオ・ネグロです。\nリオ・ネグロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "リオ・ネグロはパタゴニアの川沿いにある低標高産地で、高地の北部・メンドーサと対照的。\nトゥプンガトはメンドーサのウコ・ヴァレー北部にある高標高産地。"
   },
   {
     "id": "argentina-006",
@@ -26383,7 +26383,7 @@ window.WINE_QUESTIONS = [
       "Criolla Grande"
     ],
     "answerIndex": 1,
-    "explanation": "この特徴に合致する品種はCriolla Chicaです。\nCriolla Chicaは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Criolla ChicaはチリのPaís、カリフォルニアのMissionと同一で、トロンテスの交配親。\nMalbecはアルゼンチン最多栽培品種。メンドーサを中心に、高標高で酸と香りを保つ。対して、Pedro Gimenezはアルゼンチンで広く栽培される白品種で、スペインのPedro Ximénezとは別品種。"
   },
   {
     "id": "argentina-007",
@@ -26397,7 +26397,7 @@ window.WINE_QUESTIONS = [
       "サルタ州"
     ],
     "answerIndex": 2,
-    "explanation": "アルゼンチンで最もブドウ栽培面積が広い州はメンドーサ州です。\nメンドーサ州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。\nリオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。対して、サン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。"
   },
   {
     "id": "argentina-008",
@@ -26411,7 +26411,7 @@ window.WINE_QUESTIONS = [
       "トゥルム"
     ],
     "answerIndex": 1,
-    "explanation": "太平洋からチリを越えて吹く暑く乾燥した風はソンダです。\nソンダは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "ソンダはアンデスを越えて吹き下ろす高温・乾燥したフェーン風で、乾燥害をもたらす。\n地図は北からノルテ、中央のクージョ、南のパタゴニア。主要畑はアンデス東麓に南北へ連なる。"
   },
   {
     "id": "argentina-009",
@@ -26425,7 +26425,7 @@ window.WINE_QUESTIONS = [
       "サルタ州"
     ],
     "answerIndex": 3,
-    "explanation": "カファジャテはサルタ州に位置します。\nサルタ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "サルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。\nサン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。対して、リオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。"
   },
   {
     "id": "argentina-010",
@@ -26439,7 +26439,7 @@ window.WINE_QUESTIONS = [
       "Vino Gasificado"
     ],
     "answerIndex": 3,
-    "explanation": "スティルワインにガスを注入したスパークリングワインはVino Gasificadoです。\nVino Gasificadoは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Vino Gasificadoは完成したスティルワインへ炭酸ガスを注入した発泡性ワイン。\nVino Compuestoはワインに芳香物質や甘味などを加えた区分。対して、Vinos Espumososは発酵によって炭酸ガスを得るスパークリングワイン。"
   },
   {
     "id": "argentina-011",
@@ -26453,7 +26453,7 @@ window.WINE_QUESTIONS = [
       "IGワイン"
     ],
     "answerIndex": 2,
-    "explanation": "原産地だけではなく製造基準も規定されている品質分類はDOCワインです。\nDOCワインは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "DOCワインは原産地に加えて品種・収量・醸造などの生産基準も規定する上位分類。\nIPワインはIndicación de Procedencia。一般的なテーブルワイン側の産地表示分類。対して、IGワインはIndicación Geográfica。認定地域との地理的結び付きを示す分類。"
   },
   {
     "id": "argentina-012",
@@ -26467,7 +26467,7 @@ window.WINE_QUESTIONS = [
       "プリメーラ・ソナ"
     ],
     "answerIndex": 3,
-    "explanation": "ルハン・デ・クージョはプリメーラ・ソナに属します。\nプリメーラ・ソナは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "プリメーラ・ソナはメンドーサの伝統的中心地で、ルハン・デ・クージョとマイプを含む。\n地図は北からノルテ、中央のクージョ、南のパタゴニア。主要畑はアンデス東麓に南北へ連なる。"
   },
   {
     "id": "argentina-013",
@@ -26481,7 +26481,7 @@ window.WINE_QUESTIONS = [
       "緯度が高く冷涼すぎるため、低い標高の温暖なブドウ畑で栽培が進んだ。"
     ],
     "answerIndex": 0,
-    "explanation": "1970年頃のアルゼンチンは大量のワイン消費国でした。\n1970年頃のアルゼンチンは、フランスやイタリアなどと並び大量のワイン消費国だった。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "1970年頃のアルゼンチンは、フランスやイタリアなどと並び大量のワイン消費国だった。当時は1人当たり消費量が非常に多く、その後国内消費が減少して輸出志向へ転じた。\n誤答は海洋性気候・灌漑不要・低標高という点が逆。実際は乾燥した大陸性気候と高標高・灌漑が鍵。"
   },
   {
     "id": "argentina-014",
@@ -26495,7 +26495,7 @@ window.WINE_QUESTIONS = [
       "サン・フアン州"
     ],
     "answerIndex": 3,
-    "explanation": "アルゼンチンで二番目にブドウ栽培面積が広い州はサン・フアン州です。\nサン・フアン州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "サン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。\nメンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。対して、サルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。"
   },
   {
     "id": "argentina-015",
@@ -26509,7 +26509,7 @@ window.WINE_QUESTIONS = [
       "セレサ"
     ],
     "answerIndex": 3,
-    "explanation": "アルゼンチンで栽培面積が第2位のブドウ品種はセレサです。\nセレサは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "セレサは栽培面積第2位のピンク色果皮品種で、白・淡色ロゼや濃縮果汁に使われる。\nボナルダはアルゼンチンの主要黒品種で、フランスのCorbeau/Douce Noireと同一。"
   },
   {
     "id": "argentina-016",
@@ -26523,7 +26523,7 @@ window.WINE_QUESTIONS = [
       "Chicha"
     ],
     "answerIndex": 3,
-    "explanation": "この定義に該当するワインはChichaです。\nChichaは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Chichaは発酵途中で止め、アルコール5%未満・糖分80g/L以上とする甘い低アルコール飲料。\nVinos Espumososは発酵によって炭酸ガスを得るスパークリングワイン。対して、Vino Compuestoはワインに芳香物質や甘味などを加えた区分。"
   },
   {
     "id": "argentina-017",
@@ -26537,7 +26537,7 @@ window.WINE_QUESTIONS = [
       "リオ・ネグロ州"
     ],
     "answerIndex": 1,
-    "explanation": "ソンダ・ヴァレーはサン・フアン州に位置します。\nサン・フアン州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "サン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。\nメンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。対して、サルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。"
   },
   {
     "id": "argentina-018",
@@ -26551,7 +26551,7 @@ window.WINE_QUESTIONS = [
       "ボナルダ"
     ],
     "answerIndex": 3,
-    "explanation": "サン・フアン州トゥルム・ヴァレーで最も主要な品種はボナルダです。\nボナルダは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "ボナルダはアルゼンチンの主要黒品種で、フランスのCorbeau/Douce Noireと同一。\nトロンテスはアルゼンチンを代表する芳香性白品種で、サルタの高地が著名。対して、タナは強い色・酸・タンニンを持つ黒品種で、サン・フアンのソンダ・ヴァレーでも重要。"
   },
   {
     "id": "argentina-019",
@@ -26565,7 +26565,7 @@ window.WINE_QUESTIONS = [
       "フラッド灌漑"
     ],
     "answerIndex": 3,
-    "explanation": "日本の水田方式にあたる灌漑法はフラッド灌漑です。\nフラッド灌漑は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "フラッド灌漑は畑全体へ水を流す伝統的灌漑。雪解け水を利用するが、水使用量が多い。\nドリップ灌漑は必要な根域へ少量ずつ水を与え、水利用効率と区画管理に優れる。対して、ファロー灌漑は畝間の溝へ水を流す灌漑法。"
   },
   {
     "id": "argentina-020",
@@ -26579,7 +26579,7 @@ window.WINE_QUESTIONS = [
       "チュブ州"
     ],
     "answerIndex": 0,
-    "explanation": "DOC認定の2地区が属する州はメンドーサ州です。\nメンドーサ州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。\nリオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。対して、チュブ州はパタゴニア南部に位置し、極端な高緯度・冷涼地での栽培が進む州。"
   },
   {
     "id": "argentina-021",
@@ -26593,7 +26593,7 @@ window.WINE_QUESTIONS = [
       "リオ・ネグロ州"
     ],
     "answerIndex": 2,
-    "explanation": "ルハン・デ・クージョはメンドーサ州に位置します。\nメンドーサ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。\nサルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。対して、リオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。"
   },
   {
     "id": "argentina-022",
@@ -26607,7 +26607,7 @@ window.WINE_QUESTIONS = [
       "マルベック"
     ],
     "answerIndex": 0,
-    "explanation": "サン・フアン州ソンダ・ヴァレーで最も主要な品種はタナです。\nタナは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "タナは強い色・酸・タンニンを持つ黒品種で、サン・フアンのソンダ・ヴァレーでも重要。\nボナルダはアルゼンチンの主要黒品種で、フランスのCorbeau/Douce Noireと同一。"
   },
   {
     "id": "argentina-023",
@@ -26621,7 +26621,7 @@ window.WINE_QUESTIONS = [
       "日本のアルゼンチンワイン輸入量は、2014年をピークに減少傾向が続いている。"
     ],
     "answerIndex": 3,
-    "explanation": "日本のアルゼンチンワイン輸入量は、2014年をピークに減少傾向が続いています。\n日本のアルゼンチンワイン輸入量は、2014年をピークに減少傾向が続いている。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "日本のアルゼンチンワイン輸入量は、2014年をピークに減少傾向が続いている。統計問題は輸入量と基準年を組にして覚える。\n誤答は海洋性気候・灌漑不要・低標高という点が逆。実際は乾燥した大陸性気候と高標高・灌漑が鍵。"
   },
   {
     "id": "argentina-024",
@@ -26635,7 +26635,7 @@ window.WINE_QUESTIONS = [
       "ラ・リオハ州"
     ],
     "answerIndex": 1,
-    "explanation": "トゥプンガトはメンドーサ州に位置します。\nメンドーサ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。\nサン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。対して、サルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。"
   },
   {
     "id": "argentina-025",
@@ -26649,7 +26649,7 @@ window.WINE_QUESTIONS = [
       "リオ・ネグロ州"
     ],
     "answerIndex": 0,
-    "explanation": "カタマルカ州はノルテ地方に位置します。\nカタマルカ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "カタマルカ州はサルタの南に続くノルテ地方の州。\nチュブ州はパタゴニア南部に位置し、極端な高緯度・冷涼地での栽培が進む州。対して、リオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。"
   },
   {
     "id": "argentina-026",
@@ -26663,7 +26663,7 @@ window.WINE_QUESTIONS = [
       "6ヶ月"
     ],
     "answerIndex": 1,
-    "explanation": "Reservaと表示された赤ワインの最低樽熟成期間は1年です。\n1年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "1年はアルゼンチンのReserva赤ワインに求められる最低オーク熟成期間。\n分類はIP→IG→DOCの順に地域・生産規定との結び付きが強まり、輸出表示には85%ルールがある。"
   },
   {
     "id": "argentina-027",
@@ -26677,7 +26677,7 @@ window.WINE_QUESTIONS = [
       "Cereza"
     ],
     "answerIndex": 3,
-    "explanation": "この特徴に合致する品種はCerezaです。\nCerezaは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Cerezaはピンク色果皮の大粒品種で、白・淡色ロゼや濃縮果汁に多く用いられる。\nCriolla Grandeはピンク色果皮を持ち、かつてコモンワインの主力だったクリオジャ系品種。対して、Criolla ChicaはチリのPaís、カリフォルニアのMissionと同一で、トロンテスの交配親。"
   },
   {
     "id": "argentina-028",
@@ -26691,7 +26691,7 @@ window.WINE_QUESTIONS = [
       "カタマルカ州"
     ],
     "answerIndex": 0,
-    "explanation": "ラ・パンパ州はパタゴニア地方に位置します。\nラ・パンパ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "ラ・パンパ州はパタゴニア地方に含まれる州。\nサルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。対して、トゥクマン州はノルテ地方で、サルタとカタマルカの間に位置する州。"
   },
   {
     "id": "argentina-029",
@@ -26705,7 +26705,7 @@ window.WINE_QUESTIONS = [
       "メンドーサ州"
     ],
     "answerIndex": 0,
-    "explanation": "トゥルム・ヴァレーはサン・フアン州に位置します。\nサン・フアン州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "サン・フアン州はクージョ地方に属し、栽培面積はメンドーサに次ぐ第2位。\nリオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。対して、メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。"
   },
   {
     "id": "argentina-030",
@@ -26719,7 +26719,7 @@ window.WINE_QUESTIONS = [
       "95%"
     ],
     "answerIndex": 2,
-    "explanation": "輸出用ワインが生産年を表示する場合、該当するブドウを85%以上使用する必要があります。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "85%は輸出向けワインで生産年を表示する際、その年のブドウに求められる最低比率。\n分類はIP→IG→DOCの順に地域・生産規定との結び付きが強まり、輸出表示には85%ルールがある。"
   },
   {
     "id": "argentina-031",
@@ -26733,7 +26733,7 @@ window.WINE_QUESTIONS = [
       "Cereza"
     ],
     "answerIndex": 0,
-    "explanation": "この特徴に合致する品種はCriolla Grandeです。\nCriolla Grandeは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Criolla Grandeはピンク色果皮を持ち、かつてコモンワインの主力だったクリオジャ系品種。\nPedro Gimenezはアルゼンチンで広く栽培される白品種で、スペインのPedro Ximénezとは別品種。対して、Criolla ChicaはチリのPaís、カリフォルニアのMissionと同一で、トロンテスの交配親。"
   },
   {
     "id": "argentina-032",
@@ -26747,7 +26747,7 @@ window.WINE_QUESTIONS = [
       "IPワイン"
     ],
     "answerIndex": 3,
-    "explanation": "一般にビノ・デ・メサ（コモンワイン）と呼ばれている品質分類はIPワインです。\nIPワインは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "IPワインはIndicación de Procedencia。一般的なテーブルワイン側の産地表示分類。\nDOCワインは原産地に加えて品種・収量・醸造などの生産基準も規定する上位分類。対して、IGワインはIndicación Geográfica。認定地域との地理的結び付きを示す分類。"
   },
   {
     "id": "argentina-033",
@@ -26761,7 +26761,7 @@ window.WINE_QUESTIONS = [
       "リオ・ネグロ州"
     ],
     "answerIndex": 3,
-    "explanation": "リオ・ネグロ州はパタゴニア地方に位置します。\nリオ・ネグロ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "リオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。\nメンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。対して、サルタ州はノルテ地方の高標高産地で、カファジャテとトロンテスが代表。"
   },
   {
     "id": "argentina-034",
@@ -26775,7 +26775,7 @@ window.WINE_QUESTIONS = [
       "Valentin Bianchi"
     ],
     "answerIndex": 1,
-    "explanation": "該当する人物はNicolas Catenaです。\nNicolas Catenaという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Nicolas Catenaはカリフォルニアで学び、高標高畑とヴァラエタルワインでアルゼンチンの品質革新を牽引した人物。\n歴史は16世紀の伝来、1853年のMalbec導入、1970年代の大量消費、1990年代以降の品質化で整理する。"
   },
   {
     "id": "argentina-035",
@@ -26789,7 +26789,7 @@ window.WINE_QUESTIONS = [
       "Vino Gasificado"
     ],
     "answerIndex": 1,
-    "explanation": "この定義に該当するワインはVinos Genuinosです。\nVinos Genuinosは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Vinos Genuinosは熟した新鮮なブドウまたは果汁を発酵した基本的なスティルワイン。\nVino Compuestoはワインに芳香物質や甘味などを加えた区分。対して、Vino Gasificadoは完成したスティルワインへ炭酸ガスを注入した発泡性ワイン。"
   },
   {
     "id": "argentina-036",
@@ -26803,7 +26803,7 @@ window.WINE_QUESTIONS = [
       "Cabernet Sauvignon"
     ],
     "answerIndex": 3,
-    "explanation": "この特徴に合致する品種はCabernet Sauvignonです。\nCabernet Sauvignonは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "Cabernet Sauvignonは19世紀後半に導入され、黒ブドウ栽培面積第3位の国際品種。\nCriolla ChicaはチリのPaís、カリフォルニアのMissionと同一で、トロンテスの交配親。対して、Criolla Grandeはピンク色果皮を持ち、かつてコモンワインの主力だったクリオジャ系品種。"
   },
   {
     "id": "argentina-037",
@@ -26817,7 +26817,7 @@ window.WINE_QUESTIONS = [
       "12世紀"
     ],
     "answerIndex": 2,
-    "explanation": "キリスト教の伝道師がスペインからアルゼンチンにワイン用ブドウを持ち込んだのは16世紀です。\n16世紀は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "16世紀はスペイン人宣教師がミサ用ワインのためブドウを持ち込んだ時代。\n歴史は16世紀の伝来、1853年のMalbec導入、1970年代の大量消費、1990年代以降の品質化で整理する。"
   },
   {
     "id": "argentina-038",
@@ -26831,7 +26831,7 @@ window.WINE_QUESTIONS = [
       "ラ・パンパ州"
     ],
     "answerIndex": 1,
-    "explanation": "メンドーサ州はクージョ地方に位置します。\nメンドーサ州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "メンドーサ州はクージョ地方の中心で、アルゼンチン全体のブドウ畑の約70%が集中する最大産地。\nフフイ州はアルゼンチン最北部で、世界最高地級のブドウ畑を持つ州。対して、リオ・ネグロ州はパタゴニア北部。川沿いの比較的低標高で、冷涼・乾燥した産地。"
   },
   {
     "id": "argentina-039",
@@ -26845,7 +26845,7 @@ window.WINE_QUESTIONS = [
       "ドリップ灌漑"
     ],
     "answerIndex": 1,
-    "explanation": "アルゼンチンで伝統的に用いられてきた灌漑法はフラッド灌漑です。\nフラッド灌漑は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "フラッド灌漑は畑全体へ水を流す伝統的灌漑。雪解け水を利用するが、水使用量が多い。\nスプリンクラー灌漑は散水装置で上方から水を与える方式。対して、ファロー灌漑は畝間の溝へ水を流す灌漑法。"
   },
   {
     "id": "argentina-040",
@@ -26859,7 +26859,7 @@ window.WINE_QUESTIONS = [
       "ルハン・デ・クージョ"
     ],
     "answerIndex": 3,
-    "explanation": "DOCに認定されている産地はルハン・デ・クージョです。\nルハン・デ・クージョは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "ルハン・デ・クージョはメンドーサのプリメーラ・ソナに属し、マルベックで著名なDOC認定産地。\nカファジャテはサルタ州のカルチャキ・ヴァレーにある高標高産地。対して、トゥプンガトはメンドーサのウコ・ヴァレー北部にある高標高産地。"
   },
   {
     "id": "argentina-041",
@@ -26873,7 +26873,7 @@ window.WINE_QUESTIONS = [
       "マルベック"
     ],
     "answerIndex": 0,
-    "explanation": "メンドーサ南部で最も主要な白品種はシュナン・ブランです。\nシュナン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nアルゼンチンではAndesの標高が日較差と紫外線量を生み、乾燥地での灌漑が栽培を支える。"
+    "explanation": "シュナン・ブランはメンドーサ南部で重要な白品種で、酸を保ちスパークリングにも用いられる。\nトロンテスはアルゼンチンを代表する芳香性白品種で、サルタの高地が著名。"
   },
   {
     "id": "australia-001",
