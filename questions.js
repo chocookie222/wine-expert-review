@@ -54853,5 +54853,202 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "モルドバはソ連解体に伴い1991年に独立した。古いワイン文化を持つ一方、国家としては若く、近年EU市場を意識した品質改革を進める。\nCodruは白ブドウが約63%。国のワインマークは鷲ではなくコウノトリとブドウで、D.O.P.の登録数に関する記述も教本値と合わない。"
+  },
+  {
+    "id": "cheese-043",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランスの地方料理、Entrecôte Bordelaiseに合わせるワインとして最も適切なものを、地域性も考慮して選択してください。",
+    "choices": [
+      "Château Doisy Daëne",
+      "Château Smith-Haut-Lafitte",
+      "Château d'Arche",
+      "Château Lamothe"
+    ],
+    "answerIndex": 1,
+    "explanation": "Entrecôte Bordelaiseは牛肉に赤ワイン、エシャロット、骨髄などを使うボルドー料理。Pessac-Léognanの赤を造るChâteau Smith-Haut-Lafitteなら、タンニンと酸が肉の脂やソースに対応する。\nDoisy Daëneとd'Archeは甘口のSauternesで方向が異なる。料理の地名→同郷の辛口赤→肉料理との強さ、の順で絞る。"
+  },
+  {
+    "id": "cheese-044",
+    "category": "チーズ",
+    "importance": "B",
+    "question": "次の中から酵母タイプのチーズの表面にまぶされることがあるものを選択してください。",
+    "choices": [
+      "石灰",
+      "海草の粉",
+      "木炭の粉",
+      "バター"
+    ],
+    "answerIndex": 2,
+    "explanation": "シェーヴルなどでは表面に木炭の粉をまぶすことがある。余分な水分を吸い、表面の酸を和らげて酵母やカビが働きやすい環境を整える。\nValençayやSelles-sur-Cherの黒い外観が代表例。石灰・海草・バターは、この表面熟成を促す標準的な処理ではない。"
+  },
+  {
+    "id": "cheese-045",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からイタリアの地方料理または食材、Bagna Caudaから連想される地方として最も適切なものを選択してください。",
+    "choices": [
+      "ヴェネト州",
+      "サルデーニャ州",
+      "ピエモンテ州",
+      "シチーリア州"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bagna Caudaはニンニクとアンチョビを温め、野菜を浸して食べるPiemonteの郷土料理。名は現地語で「温かいソース」を表す。\nVeneto、Sardegna、Siciliaはいずれも別地方。料理名からPiemonteを出せれば、地元のGaviやBarberaなどのペアリングにも展開できる。"
+  },
+  {
+    "id": "cheese-046",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランスの地方料理「トロワ風アンドゥイエット」から連想されるワイン産地として最も適切なものを選択してください。",
+    "choices": [
+      "ラングドック地方",
+      "プロヴァンス地方",
+      "アルザス地方",
+      "シャンパーニュ地方"
+    ],
+    "answerIndex": 3,
+    "explanation": "トロワはChampagne地方オーブ県の都市で、豚の内臓を腸詰めにしたAndouillette de Troyesで知られる。したがって連想する産地はシャンパーニュ。\nAlsaceは東方、ProvenceとLanguedocは南仏。料理名に都市名が入る場合は、まず地図上の所属地方を確定する。"
+  },
+  {
+    "id": "cheese-047",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランスの地方料理、Tarte Flambéeに合わせるワインとして最も適切なものを、地域性も考慮して選択してください。",
+    "choices": [
+      "Muscadet",
+      "Gevrey-Chambertin",
+      "Château Lafon-Rochet",
+      "Alsace Riesling"
+    ],
+    "answerIndex": 3,
+    "explanation": "Tarte Flambéeは薄い生地にフロマージュ・ブラン、玉ねぎ、ベーコンをのせるAlsace料理。地元Rieslingの高い酸が乳脂肪を切り、燻製香と塩味を引き締める。\nMuscadetはLoire、Gevrey-ChambertinはBourgogne、Lafon-RochetはBordeaux。地域性と酸の働きが一致するのはAlsace Riesling。"
+  },
+  {
+    "id": "cheese-048",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランスのチーズ、Valençayに最も良く合うと考えられるワインを、地域性も考慮して選択してください。",
+    "choices": [
+      "Coteaux d'Aix-en-Provence",
+      "Gevrey-Chambertin",
+      "Champagne Brut",
+      "Touraine Blanc"
+    ],
+    "answerIndex": 3,
+    "explanation": "ValençayはLoire地方の山羊乳チーズで、灰をまとった截頭ピラミッド形が特徴。同郷のTouraine Blancの爽やかな酸と果実味が、シェーヴルの酸味や塩味に寄り添う。\nProvence、Bourgogne、Champagneは産地が異なる。Valençay・Chavignol・Selles-sur-Cherは「Loireのシェーヴル」でまとめる。"
+  },
+  {
+    "id": "cheese-049",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からウォッシュタイプのチーズを全て選択してください。2個まで選択できます。",
+    "choices": [
+      "Picodon",
+      "Selles-sur-Cher",
+      "Brie de Meaux",
+      "Pont-l'Évêque",
+      "Époisses",
+      "Fourme d'Ambert",
+      "Chaource",
+      "Valençay"
+    ],
+    "answerIndexes": [
+      3,
+      4
+    ],
+    "maxSelections": 2,
+    "explanation": "Pont-l'ÉvêqueとÉpoissesがウォッシュタイプ。前者はNormandie、後者はBourgogneで、塩水や酒を使って表皮を洗い、リネンス菌による強い熟成香を生む。\nBrie de MeauxとChaourceは白カビ、Fourme d'Ambertは青カビ。Picodon、Selles-sur-Cher、Valençayは山羊乳のシェーヴル。"
+  },
+  {
+    "id": "cheese-050",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランスのチーズ、Chavignolに最も良く合うと考えられるワインを、地域性も考慮して選択してください。",
+    "choices": [
+      "Champagne Brut",
+      "Touraine Blanc",
+      "Grande Champagne",
+      "Sancerre Blanc"
+    ],
+    "answerIndex": 3,
+    "explanation": "ChavignolはSancerre近郊で造られるLoireの山羊乳チーズ。同じ土地のSancerre BlancはSauvignon Blancの鋭い酸と柑橘・ハーブ香を持ち、チーズの酸味とよく重なる。\nTouraineもLoireだが、より直接的な組合せはSancerre。Grande ChampagneはCognacのクリュで、Champagne地方とは別物。"
+  },
+  {
+    "id": "cheese-051",
+    "category": "チーズ",
+    "importance": "B",
+    "question": "次の中からイタリアでペコリーノと呼ばれるチーズの原料乳を選択してください。",
+    "choices": [
+      "牛乳",
+      "水牛乳",
+      "羊乳",
+      "山羊乳"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pecorinoはイタリア語のpecora（羊）に由来する羊乳チーズの総称。Pecorino Romano、Toscano、Sardoなど、産地ごとに塩味や熟成期間が異なる。\n牛乳はParmigiano Reggianoなど、水牛乳はMozzarella di Bufala Campana、山羊乳はcaprinoと整理すると原料乳問題に強い。"
+  },
+  {
+    "id": "cheese-052",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からイタリア、カンパーニア州のチーズを選択してください。",
+    "choices": [
+      "Parmigiano Reggiano",
+      "Pecorino Romano",
+      "Castelmagno",
+      "Mozzarella di Bufala Campana"
+    ],
+    "answerIndex": 3,
+    "explanation": "Mozzarella di Bufala Campanaは水牛乳を使うパスタ・フィラータタイプで、Campaniaを中心とするDOP。弾力ある繊維状組織とみずみずしさが特徴。\nParmigiano ReggianoはEmilia-Romagna、CastelmagnoはPiemonte。Pecorino RomanoはLazioなどが中心で、羊乳という点も異なる。"
+  },
+  {
+    "id": "cheese-053",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からフランス、ロワール地方のチーズを全て選択してください。2個まで選択できます。",
+    "choices": [
+      "Ossau-Iraty",
+      "Chavignol",
+      "Brie de Meaux",
+      "Époisses",
+      "Comté",
+      "Chaource",
+      "Picodon",
+      "Mont-d'Or"
+    ],
+    "answerIndexes": [
+      1
+    ],
+    "maxSelections": 2,
+    "explanation": "この選択肢ではChavignolがLoire地方。Sancerre近郊の山羊乳チーズで、同地方にはSelles-sur-Cher、Valençay、Sainte-Maure de Touraineもある。\nOssau-IratyはBasque・Béarn、BrieはÎle-de-France、ÉpoissesはBourgogne、ComtéとMont-d'OrはJura、PicodonはRhône。"
+  },
+  {
+    "id": "cheese-054",
+    "category": "チーズ",
+    "importance": "B",
+    "question": "次の中から「料理とワインの良いペアリング」とは言えないものを選択してください。",
+    "choices": [
+      "料理よりワインが目立つペアリング",
+      "店の独自性となるペアリング",
+      "料理と楽しむことでワインの可能性が広がるペアリング",
+      "料理を引き立てるペアリング"
+    ],
+    "answerIndex": 0,
+    "explanation": "良いペアリングは主役を奪うのではなく、料理とワイン双方の魅力を高めるもの。ワインだけが目立つ組合せは、料理との強度や香味の釣り合いを欠く。\n料理を引き立てる、ワインの可能性を広げる、店の独自性を示すことは目的になり得る。強さ・温度・供出順も全体で調整する。"
+  },
+  {
+    "id": "cheese-055",
+    "category": "チーズ",
+    "importance": "A",
+    "question": "次の中からイタリアの地方料理、Bagna Caudaに合わせるワインとして最も適切なものを、地域性も考慮して選択してください。",
+    "choices": [
+      "Aglianico del Taburno",
+      "Sangiovese di Romagna",
+      "Colli Orientali del Friuli Refosco",
+      "Gavi"
+    ],
+    "answerIndex": 3,
+    "explanation": "Bagna CaudaはPiemonteの料理なので、同州のGaviが地域性に合う。Corteseから造る辛口白の酸と軽い苦味が、アンチョビの塩味やニンニク、野菜をすっきりまとめる。\nAglianico del TaburnoはCampania、Sangiovese di RomagnaはEmilia-Romagna、RefoscoはFriuli。料理の州を先に決める。"
   }
 ];
