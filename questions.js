@@ -19104,7 +19104,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で3番の州名をカタカナで入力してください。",
-    "explanation": "地図上の3番はウィーンです。\nウィーンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "3番はウィーン。国の東端寄り、ニーダーエステライヒに囲まれた小さな州として捉える。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19120,7 +19120,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアで栽培されている白ブドウ品種を選択してください。",
-    "explanation": "オーストリアで栽培されている白ブドウ品種はヴァイスブルグンダーです。\nヴァイスブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Pinot Blancのドイツ語名。オーストリアでは白品種として各地のDACに用いられる。\nブラウフレンキッシュは晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。対して、ツヴァイゲルトは1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。",
     "choices": [
       "ヴァイスブルグンダー",
       "ブラウアー・ポルトギーザー",
@@ -19134,7 +19134,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の説明に最も良く合致するオーストリアの限定的生産地域の名称を選んでください。「ブラウアー・ヴィルトバッハー種を早く収穫して、強烈な酸を持つロゼワインに仕上げたシルヒャーで有名な産地である。」",
-    "explanation": "シルヒャーで有名な産地はヴェストシュタイヤーマルクDACです。\nヴェストシュタイヤーマルクDACという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Blauer Wildbacherから高酸のロゼSchilcherを造る、西シュタイヤーマルクのDAC。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "ロザリアDAC",
       "ヴェストシュタイヤーマルクDAC",
@@ -19148,7 +19148,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でRosalia DACに相当する番号を選択してください。",
-    "explanation": "Rosalia DACは地図上の12番です。\n12番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "12番はRosalia DAC。Leithabergの西、Mittelburgenlandの北に位置する。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19167,7 +19167,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの包括的生産地域の数を選択してください。",
-    "explanation": "オーストリアの包括的生産地域は9です。\n9は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "包括的生産地域は9。州を軸にした広域区分で、その内側に18の限定的生産地域がある。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "34",
       "22",
@@ -19181,7 +19181,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で3番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の3番はカンプタールです。\nカンプタールは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "3番はKamptal。Wachau、Kremstalの東に続き、Kamp川がドナウへ合流する。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19197,7 +19197,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の説明に最も良く合致するオーストリアの包括的生産地域の名称を選んでください。「ハンガリーとの国境に広がる産地である。赤が多く造られ、同国の赤ワインの半分はこの地域から生産される。」",
-    "explanation": "説明はブルゲンラント州に合致します。\nブルゲンラント州という認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "パノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。\nニーダーエステライヒ州は栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。対して、シュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。",
     "choices": [
       "ニーダーエステライヒ州",
       "シュタイヤーマルク州",
@@ -19211,7 +19211,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの二大生産地の一つを選択してください。",
-    "explanation": "オーストリアの二大生産地の一つはニーダーエステライヒです。\nニーダーエステライヒは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "同国最大の包括的生産地域で、Wachau、Kremstal、Kamptal、Weinviertelなど8地域を含む。\nウィーンはドナウ川沿いの首都であり、都市そのものが包括的生産地域。名物は複数品種を混植・混醸するWiener Gemischter Satz DAC。",
     "choices": [
       "ウィーン",
       "ニーダーエステライヒ",
@@ -19225,7 +19225,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の説明に最も良く合致するオーストリア、ヴァッハウの格付け名称を選んでください。「鷹狩りの道具にちなんで命名された名称。豊かな果実味をもつエレガントなワイン。」",
-    "explanation": "説明はFederspielに合致します。\nFederspielは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Vinea Wachauの中位区分で、鷹狩りの道具が語源。軽快さと熟度を両立する辛口。\nSmaragdはVinea Wachauの最上位区分で、石垣に棲む緑色のトカゲが語源。最低12.5%の力強い辛口。",
     "choices": [
       "Smaragd",
       "Ausbruch",
@@ -19239,7 +19239,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのアイスヴァインのブドウの最低KMW糖度を選択してください。",
-    "explanation": "アイスヴァインのブドウには最低25度KMWが求められます。\n25度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Eisweinは25度KMW以上。樹上で凍結した健全なブドウを凍ったまま圧搾する。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "35度",
       "25度",
@@ -19253,7 +19253,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DACに相当する番号を選択してください。",
-    "explanation": "Kamptal DACは地図上の3番です。\n3番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Kamptal DACは3番。西からWachau、Kremstal、Kamptalの順で並べる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19272,7 +19272,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で11番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の11番はルスター・アウスブルッフです。\nルスター・アウスブルッフは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "11番はRuster Ausbruch DAC。ノイジードラー湖西岸、Rust市の貴腐甘口産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19290,7 +19290,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアワインのカテゴリーを、要求されるKMW糖度が高いものから低いものの順序で正しく並べたものを選択してください。",
-    "explanation": "Auslese, Smaragd, Federspiel, Steinfederは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "糖度順はAuslese 21度KMW、Smaragd 18.2度、Federspiel、Steinfeder。Ausleseだけは国のPrädikatswein区分で、後三者はVinea Wachauの伝統区分。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "Steinfeder, Smaragd, Auslese, Federspiel",
       "Steinfeder, Auslese, Smaragd, Federspiel",
@@ -19304,7 +19304,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアの限定的生産地域ミッテルブルゲンラントDACの主要品種を選んでください。",
-    "explanation": "ミッテルブルゲンラントDACの主要品種はブラウフレンキッシュです。\nブラウフレンキッシュは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。\nグリューナー・ヴェルトリーナーは栽培面積最大の白品種。白胡椒を思わせる香りと酸が特徴で、ニーダーエステライヒの主役。対して、ツヴァイゲルトは1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。",
     "choices": [
       "グリューナー・ヴェルトリーナー",
       "ツヴァイゲルト",
@@ -19318,7 +19318,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でNiederösterreich州に相当する番号を選択してください。",
-    "explanation": "Niederösterreich州は地図上の1番です。\n1番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1番はニーダーエステライヒ州。ウィーンを囲む北東部の最大産地。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19337,7 +19337,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのシュトローヴァインのブドウの最低KMW糖度を選択してください。",
-    "explanation": "シュトローヴァインのブドウには最低25度KMWが求められます。\n25度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Strohweinは25度KMW以上。藁や葦の上、または吊るして乾燥させ糖分を濃縮する。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "25度",
       "21度",
@@ -19351,7 +19351,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの二大生産地ニーダーエステライヒ州とブルゲンラント州が、全栽培面積に占める割合を選択してください。",
-    "explanation": "ニーダーエステライヒ州とブルゲンラント州で、全栽培面積の約87%を占めます。\n約87%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "NiederösterreichとBurgenlandで約87%。最大の白産地と主要な赤・甘口産地への集中を示す。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "約56%",
       "約68%",
@@ -19365,7 +19365,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアワインを生産している限定的生産地域ルスター・アウスブルッフDACが属する州を選んでください。",
-    "explanation": "ルスター・アウスブルッフDACはブルゲンラント州に属します。\nブルゲンラント州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "パノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。\nシュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。対して、ウィーン州は首都域に北・北東・南の畑が広がり、ホイリゲ文化とWiener Gemischter Satz DACで知られる。",
     "choices": [
       "シュタイヤーマルク州",
       "ウィーン州",
@@ -19379,7 +19379,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの限定的生産地域の数を選択してください。",
-    "explanation": "オーストリアの限定的生産地域は18です。\n18は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "限定的生産地域は18。DACはこの地域名と典型的な品種・スタイルを結び付ける制度。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "18",
       "4",
@@ -19393,7 +19393,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の説明に最も良く合致するオーストリアの包括的生産地域の名称を選んでください。「同国東北部にあり栽培面積は約2.7万ha、同国全体の60%を占める。グリューナー・ヴェルトリーナー種が49%を占め、白ワインが高い評価を得ている。」",
-    "explanation": "説明はニーダーエステライヒ州に合致します。\nニーダーエステライヒ州という認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。\nシュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。対して、ブルゲンラント州はパノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。",
     "choices": [
       "シュタイヤーマルク州",
       "ブルゲンラント州",
@@ -19407,7 +19407,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアの限定的生産地域ノイジードラーゼーDACの赤ワインの主要品種を選んでください。",
-    "explanation": "ノイジードラーゼーDACの赤ワインの主要品種はツヴァイゲルトです。\nツヴァイゲルトは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。\nブラウフレンキッシュは晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。",
     "choices": [
       "ツヴァイゲルト",
       "ザンクト・ラウレント",
@@ -19421,7 +19421,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアのゼクトの3段階の品質分類の中で、瓶内発酵のSekt Austriaの最低熟成期間を選択してください。",
-    "explanation": "瓶内発酵のSekt Austriaの最低熟成期間は9ヶ月です。\n9ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "瓶内発酵のSekt Austriaは最低9か月。Reserveは18か月、Grosse Reserveは36か月と段階的に延びる。\n9・18・36か月の順に熟成が長くなり、上位ほど原料産地や収穫方法などの条件も厳しくなる。",
     "choices": [
       "15ヶ月",
       "9ヶ月",
@@ -19435,7 +19435,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で13番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の13番はミッテルブルゲンラントです。\nミッテルブルゲンラントは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "13番はMittelburgenland。Rosaliaの南、Eisenbergの北にある赤ワイン産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19451,7 +19451,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で2番の州名をカタカナで入力してください。",
-    "explanation": "地図上の2番はブルゲンラントです。\nブルゲンラントは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "2番はブルゲンラント州。東端でハンガリーと接し、ノイジードラー湖を抱える。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19467,7 +19467,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのベーレンアウスレーゼのブドウの最低KMW糖度を選択してください。",
-    "explanation": "ベーレンアウスレーゼのブドウには最低25度KMWが求められます。\n25度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Beerenausleseは25度KMW以上。貴腐または過熟粒を選別する甘口で、Ausleseの21度より高い。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "25度",
       "15度",
@@ -19481,7 +19481,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアで栽培されている白ブドウ品種を選択してください。",
-    "explanation": "ヴェルシュリースリングはオーストリアで栽培されている白ブドウ品種です。\nヴェルシュリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Rieslingとは別品種で、高い酸を生かした辛口や貴腐甘口に用いられる。\nツヴァイゲルトは1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。対して、ブラウフレンキッシュは晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。",
     "choices": [
       "ヴェルシュリースリング",
       "ツヴァイゲルト",
@@ -19495,7 +19495,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアで有名な「ホイリゲ」のシュタイヤーマルク州での呼び名を選択してください。",
-    "explanation": "シュタイヤーマルク州ではホイリゲをブッシェンシャンクと呼びます。\nブッシェンシャンクは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "シュタイヤーマルクで使われる自家製ワイン酒場の呼称。入口の枝飾りが営業の印。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "ブッシェンシャンク",
       "ターフェルシュピッツ",
@@ -19509,7 +19509,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの包括的生産地域の数を選択してください。",
-    "explanation": "オーストリアの包括的生産地域は9です。\n9は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "包括的生産地域は9。限定的生産地域18と混同しない。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "4",
       "9",
@@ -19523,7 +19523,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で1番の州名をカタカナで入力してください。",
-    "explanation": "地図上の1番はニーダーエステライヒです。\nニーダーエステライヒは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1番はニーダーエステライヒ州。2番Burgenland、3番Wien、4番Steiermarkと対比する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19539,7 +19539,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の説明に最も良く合致するオーストリアの限定的生産地域の名称を選んでください。「アルプスから運ばれた石灰岩・ドロマイト礫の土壌が特徴。グリューナー・ヴェルトリーナーが約62%を占め、固い酸とエッジの効いたメリハリ感のある味わい。」",
-    "explanation": "説明はトライゼンタールDACに合致します。\nトライゼンタールDACは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "石灰岩・ドロマイト礫が多い小産地で、引き締まったGrüner VeltlinerとRieslingが中心。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "ノイジードラーゼーDAC",
       "ヴァーグラムDAC",
@@ -19553,7 +19553,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアで最も多く栽培されている白ブドウ品種を選択してください。",
-    "explanation": "オーストリアで最も多く栽培されている白ブドウ品種はグリューナー・ヴェルトリーナーです。\nグリューナー・ヴェルトリーナーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "栽培面積最大の白品種。白胡椒を思わせる香りと酸が特徴で、ニーダーエステライヒの主役。\nヴェルシュリースリングはRieslingとは別品種で、高い酸を生かした辛口や貴腐甘口に用いられる。対して、ブラウフレンキッシュは晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。",
     "choices": [
       "ヴェルシュリースリング",
       "ブラウフレンキッシュ",
@@ -19567,7 +19567,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアのゼクトの3段階の品質分類の中で、Sekt Austria Grosse Reserveの最低熟成期間を選択してください。",
-    "explanation": "Sekt Austria Grosse Reserveの最低熟成期間は36ヶ月です。\n36ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Sekt Austria Grosse Reserveは最低36か月。Reserve 18か月、基本区分9か月の最上段。\n9・18・36か月の順に熟成が長くなり、上位ほど原料産地や収穫方法などの条件も厳しくなる。",
     "choices": [
       "36ヶ月",
       "6ヶ月",
@@ -19581,7 +19581,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアで有名な「ホイリゲ」の意味を選択してください。",
-    "explanation": "ホイリゲはフランスのヌーヴォーと同じような新酒を意味します。\nフランスのヌーヴォーと同じような新酒は語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Heurigerの第一義は当年産の新酒で、転じてその新酒を出す生産者直営酒場も指す。\nHeurigerは「今年のワイン」と「それを供する生産者直営酒場」の二つの意味を持つ。",
     "choices": [
       "ブドウで造る伝統的な蒸留酒",
       "フランスのヌーヴォーと同じような新酒",
@@ -19595,7 +19595,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でMittelburgenland DACに相当する番号を選択してください。",
-    "explanation": "Mittelburgenland DACは地図上の13番です。\n13番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Mittelburgenland DACは13番。ブルゲンラントを北から湖周辺、Rosalia、Mittelburgenland、Eisenbergと追う。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19614,7 +19614,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DACに相当する番号を選択してください。",
-    "explanation": "Kamptal DACは地図上の3番です。\n3番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Kamptal DACは3番。Kremsの東、Weinviertelの南西に位置する。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19633,7 +19633,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのトロッケンベーレンアウスレーゼのブドウの最低KMW糖度を選択してください。",
-    "explanation": "トロッケンベーレンアウスレーゼのブドウには最低30度KMWが求められます。\n30度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Trockenbeerenausleseは30度KMW以上で最上級。干しブドウ状の貴腐粒から極甘口を造る。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "35度",
       "30度",
@@ -19647,7 +19647,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の説明に最も良く合致するオーストリアの包括的生産地域の名称を選んでください。「8つの限定的生産地域に分かれるが、北部、ドナウ系、パノニア系の3つに大別すると分かりやすい。」",
-    "explanation": "説明はニーダーエステライヒ州に合致します。\nニーダーエステライヒ州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。\nシュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。対して、ブルゲンラント州はパノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。",
     "choices": [
       "シュタイヤーマルク州",
       "ブルゲンラント州",
@@ -19661,7 +19661,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の説明に最も良く合致するオーストリアの包括的生産地域の名称を選んでください。「スロヴェニアの北、ハンガリーの西に位置する同国南部の地域である。州都グラーツは同国第二の都市である。」",
-    "explanation": "説明はシュタイヤーマルク州に合致します。\nシュタイヤーマルク州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。\nブルゲンラント州はパノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。対して、ニーダーエステライヒ州は栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。",
     "choices": [
       "ブルゲンラント州",
       "ニーダーエステライヒ州",
@@ -19675,7 +19675,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのカビネットに要求されるエクスレ度について、正しい記述を選択してください。",
-    "explanation": "オーストリアのカビネットに要求されるエクスレ度は、ドイツのそれよりも高いです。\nオーストリアのカビネットに要求されるエクスレ度は、ドイツのそれよりも高い。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "オーストリアKabinettは17度KMWで、概算するとドイツKabinettの最低エクスレ度より高い。両国は測定単位も分類上の位置も異なる。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "オーストリアとドイツとではエクスレ度の定義が異なるため一概には比較できない。",
       "オーストリアのカビネットに要求されるエクスレ度は、ドイツのそれよりも低い。",
@@ -19689,7 +19689,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアの2023年のブドウ栽培面積に最も近いものを選択してください。",
-    "explanation": "オーストリアの2023年のブドウ栽培面積は約4.4万ヘクタールです。\n4.4万ヘクタールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "2023年の栽培面積は約4.4万ha。約70%が白品種で、最大州はNiederösterreich。\nDACは産地の典型品種・スタイルを示し、Prädikatsweinは収穫時の果汁糖度で段階を分ける。",
     "choices": [
       "33万ヘクタール",
       "4.4万ヘクタール",
@@ -19703,7 +19703,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWachauに相当する番号を選択してください。",
-    "explanation": "Wachauは地図上の1番です。\n1番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Wachauは1番。ドナウ沿いで最も西にあり、東へKremstal、Kamptalと続く。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19722,7 +19722,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でLeithaberg DACに相当する番号を選択してください。",
-    "explanation": "Leithaberg DACは地図上の10番です。\n10番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Leithaberg DACは10番。ノイジードラー湖西岸を南北に延び、Rustと隣接する。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19741,7 +19741,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でSteiermark州に相当する番号を選択してください。",
-    "explanation": "Steiermark州は地図上の4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "4番はSteiermark州。国の南東部でスロヴェニアに接する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19760,7 +19760,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の説明に最も良く合致するオーストリア、ヴァッハウの格付け名称を選んでください。「シュペートレーゼ級のブドウから造り、最低KMW糖度は18.2度、アルコール度数は12.5度以上。豊かな果実味とバランスのよい酸味の調和したワインである。」",
-    "explanation": "説明はSmaragdに合致します。\nSmaragdは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Vinea Wachauの最上位区分で、石垣に棲む緑色のトカゲが語源。最低12.5%の力強い辛口。\nFederspielはVinea Wachauの中位区分で、鷹狩りの道具が語源。軽快さと熟度を両立する辛口。",
     "choices": [
       "Smaragd",
       "Federspiel",
@@ -19774,7 +19774,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアの限定的生産地域クレムスタールDACの白ワインのDAC認可品種を選んでください。",
-    "explanation": "クレムスタールDACの白ワインのDAC認可品種はグリューナー・ヴェルトリーナーとリースリングです。\nグリューナー・ヴェルトリーナーとリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Kremstal DACの白はGrüner VeltlinerとRiesling。隣接するWachau、Kamptal、Traisentalもこの二品種が比較の軸になる。\n白はGrüner Veltliner、黒はZweigeltが栽培面積最大。BlaufränkischはBurgenlandの主要DACと結ぶ。",
     "choices": [
       "グリューナー・ヴェルトリーナーのみ",
       "グリューナー・ヴェルトリーナーとソーヴィニョン・ブラン",
@@ -19788,7 +19788,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのアウスレーゼのブドウの最低KMW糖度を選択してください。",
-    "explanation": "アウスレーゼのブドウには最低21度KMWが求められます。\n21度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Ausleseは21度KMW以上。Kabinett 17、Spätlese 19、Auslese 21と2度ずつ上がる。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "21度",
       "30度",
@@ -19802,7 +19802,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアで栽培されている白ブドウ品種を選択してください。",
-    "explanation": "グリューナー・ヴェルトリーナーはオーストリアを代表する白ブドウ品種です。\nグリューナー・ヴェルトリーナーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "栽培面積最大の白品種。白胡椒を思わせる香りと酸が特徴で、ニーダーエステライヒの主役。\nツヴァイゲルトは1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。対して、ブラウフレンキッシュは晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。",
     "choices": [
       "グリューナー・ヴェルトリーナー",
       "ツヴァイゲルト",
@@ -19816,7 +19816,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアの限定的生産地域アイゼンベルクDACの赤ワインの主要品種を選んでください。",
-    "explanation": "アイゼンベルクDACの赤ワインの主要品種はブラウフレンキッシュです。\nブラウフレンキッシュは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。\nツヴァイゲルトは1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。",
     "choices": [
       "ブラウフレンキッシュ",
       "ゲミシュター・サッツ",
@@ -19830,7 +19830,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのブドウ栽培地域の気候に影響を与えているものを選択してください。",
-    "explanation": "オーストリアのブドウ栽培地域では、ドナウ川が寒暖差を調整する要素になっています。\n寒暖差を調整するドナウ川は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "ドナウ川は周辺の温度を緩和し、支流の冷気と組み合わさって昼夜の寒暖差を作る。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "ヴォージュ山脈から吹き下ろす暑く乾燥した風",
       "東に接する黒海から吹き寄せる暖かい風",
@@ -19844,7 +19844,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWeinviertel DACに相当する番号を選択してください。",
-    "explanation": "Weinviertel DACは地図上の6番です。\n6番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Weinviertel DACは6番。ニーダーエステライヒ北東部を占める最大の限定的生産地域。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19863,7 +19863,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアワインを生産している限定的生産地域ヴァインフィアテルDACが属する州を選んでください。",
-    "explanation": "ヴァインフィアテルDACはニーダーエステライヒ州に属します。\nニーダーエステライヒ州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。\nウィーン州は首都域に北・北東・南の畑が広がり、ホイリゲ文化とWiener Gemischter Satz DACで知られる。対して、シュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。",
     "choices": [
       "ウィーン州",
       "シュタイヤーマルク州",
@@ -19877,7 +19877,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアのクヴァリテーツヴァインの最低アルコール度数を選択してください。",
-    "explanation": "オーストリアのクヴァリテーツヴァインの最低アルコール度数は9度です。\n9度は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Qualitätsweinの最低アルコール度数は9%。糖度基準とは別に完成ワインの度数を問う数値。\nDACは産地の典型品種・スタイルを示し、Prädikatsweinは収穫時の果汁糖度で段階を分ける。",
     "choices": [
       "7度",
       "11度",
@@ -19891,7 +19891,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアで栽培されている黒ブドウ品種を選択してください。",
-    "explanation": "ブラウフレンキッシュはオーストリアで栽培されている黒ブドウ品種です。\nブラウフレンキッシュは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "晩熟で酸とタンニンを備える黒品種。MittelburgenlandとEisenbergの主役。\nヴァイスブルグンダーはPinot Blancのドイツ語名。オーストリアでは白品種として各地のDACに用いられる。対して、ノイブルガーはRoter VeltlinerとSilvanerの自然交配で、WachauやThermenregionに残る白品種。",
     "choices": [
       "ヴァイスブルグンダー",
       "ブラウフレンキッシュ",
@@ -19905,7 +19905,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で6番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の6番はヴァインフィアテルです。\nヴァインフィアテルは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "6番はWeinviertel。Wachauなどドナウ沿いの産地より北東に大きく広がる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19923,7 +19923,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアのワイン法における「g.U」の意味を選択してください。",
-    "explanation": "g.Uは原産地呼称保護ワインを意味します。\n原産地呼称保護ワインは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "g.U.は「原産地呼称保護ワイン」でEUのPDO相当。g.g.A.は地理的表示保護で、地域との結び付きがより緩い。\n地理的表示保護ワインはg.g.A.（EUのPGI）に相当し、g.U.より地域との結び付きの要件が緩い区分。",
     "choices": [
       "地理的表示保護ワイン",
       "地理的表示なしワイン",
@@ -19937,7 +19937,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアのヴァッハウDACの代表的なお菓子を選択してください。",
-    "explanation": "ヴァッハウDACの代表的なお菓子はMarillenknödelです。\nMarillenknödelは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Wachau名産のアンズMarilleを生地で包んだ団子で、地域を代表する菓子。\nGrammelpogatscherlは豚脂かすGrammelnを練り込む塩味の焼き菓子で、パノニア地方の郷土料理。",
     "choices": [
       "Grammelpogatscherl",
       "Tafelspitz",
@@ -19951,7 +19951,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で10番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の10番はライタベルクです。\nライタベルクは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "10番はLeithaberg。ノイジードラー湖西岸の石灰岩・結晶片岩の産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19967,7 +19967,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でWien州に相当する番号を選択してください。",
-    "explanation": "Wien州は地図上の3番です。\n3番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "3番はWien州。ニーダーエステライヒ州内に見える小区画として識別する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19986,7 +19986,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアワインを生産している限定的生産地域ライタベルクDACが属する州を選んでください。",
-    "explanation": "ライタベルクDACはブルゲンラント州に属します。\nブルゲンラント州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "パノニアの暖気を受ける東部州で、Blaufränkisch、Zweigelt、貴腐甘口が頻出。\nウィーン州は首都域に北・北東・南の畑が広がり、ホイリゲ文化とWiener Gemischter Satz DACで知られる。対して、ニーダーエステライヒ州は栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。",
     "choices": [
       "ウィーン州",
       "ブルゲンラント州",
@@ -20000,7 +20000,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアのゼクトの3段階の品質分類の中で、Sekt Austria Reserveの最低熟成期間を選択してください。",
-    "explanation": "Sekt Austria Reserveの最低熟成期間は18ヶ月です。\n18ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Sekt Austria Reserveは最低18か月。基本区分9か月とGrosse Reserve 36か月の中間。\n9・18・36か月の順に熟成が長くなり、上位ほど原料産地や収穫方法などの条件も厳しくなる。",
     "choices": [
       "9ヶ月",
       "18ヶ月",
@@ -20014,7 +20014,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で9番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の9番はノイジードラーゼーです。\nノイジードラーゼーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "9番はNeusiedlersee。湖東岸に広がり、Zweigeltと貴腐甘口が重要。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -20030,7 +20030,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の説明に最も良く合致するオーストリアの包括的生産地域の名称を選んでください。\n「大都市郊外のワイン産地であり、市の北、北東、南の3カ所に畑がある。ホイリゲが数多くあり、都市の住人がワインと夕食を楽しむ風景が見られる。」",
-    "explanation": "説明はウィーン州に合致します。\nウィーン州は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "首都域に北・北東・南の畑が広がり、ホイリゲ文化とWiener Gemischter Satz DACで知られる。\nシュタイヤーマルク州は南部の急斜面と冷涼多雨の気候が特徴で、Sauvignon BlancやSchilcherが重要。対して、ニーダーエステライヒ州は栽培面積の約6割を占める最大州で、グリューナー・ヴェルトリーナーとドナウ沿いの白が中心。",
     "choices": [
       "シュタイヤーマルク州",
       "ウィーン州",
@@ -20044,7 +20044,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でBurgenland州に相当する番号を選択してください。",
-    "explanation": "Burgenland州は地図上の2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "2番はBurgenland州。1番Niederösterreichの南東、ハンガリー国境沿い。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -20063,7 +20063,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのブドウ栽培面積に占める白ブドウの割合に最も近いものを選択してください。",
-    "explanation": "オーストリアのブドウ栽培面積に占める白ブドウの割合は約70%です。\n約70%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "白ブドウは栽培面積の約70%。Grüner Veltlinerだけで全体の約3割を占める。\nDACは産地の典型品種・スタイルを示し、Prädikatsweinは収穫時の果汁糖度で段階を分ける。",
     "choices": [
       "約70%",
       "90%以上",
@@ -20077,7 +20077,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアでブドウ果汁濃度を計る単位を選択してください。",
-    "explanation": "オーストリアではブドウ果汁濃度をKMW糖度で表します。\nKMW糖度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Klosterneuburger Mostwaageの略で、ブドウ果汁の糖度を測り品質区分に用いる。\nDACは産地の典型品種・スタイルを示し、Prädikatsweinは収穫時の果汁糖度で段階を分ける。",
     "choices": [
       "KWV糖度",
       "Brix糖度",
@@ -20091,7 +20091,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKremstal DACに相当する番号を選択してください。",
-    "explanation": "Kremstal DACは地図上の2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Kremstal DACは2番。西のWachauと東のKamptalに挟まれる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20110,7 +20110,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で2番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の2番はクレムスタールです。\nクレムスタールは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "2番はKremstal。Krems市を中心にドナウ両岸へ広がる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20126,7 +20126,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の説明に最も良く合致するオーストリアの限定的生産地域の名称を選んでください。\n「昼はパノニアからの温風、夜は冷風で寒暖差の大きな産地。ツヴァイゲルトが最多でルビン・カルヌントゥムが有名。シュピッツァーベルクの石灰岩から秀逸なブラウフレンキッシュができる。」",
-    "explanation": "説明はカルヌントゥムDACに合致します。\nカルヌントゥムDACは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "ウィーン東方のパノニア系産地。ZweigeltとBlaufränkisch、特にSpitzerbergが重要。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "クレムスタールDAC",
       "カルヌントゥムDAC",
@@ -20140,7 +20140,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアのワイン法における「g.g.A」の意味を選択してください。",
-    "explanation": "g.g.Aは地理的表示保護ワインを意味します。\n地理的表示保護ワインは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "g.g.A.は「地理的表示保護ワイン」でEUのPGI相当。より厳格なg.U.、原産地表示のないWeinと区別する。\n原産地呼称保護ワインはg.U.（EUのPDO）に相当し、原料調達と生産工程を特定地域に強く結び付ける区分。",
     "choices": [
       "単一ブドウ畑限定ワイン",
       "原産地呼称保護ワイン",
@@ -20154,7 +20154,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのカビネットのブドウの最低KMW糖度を選択してください。",
-    "explanation": "オーストリアのカビネットのブドウには最低17度KMWが求められます。\n17度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Kabinettは17度KMW以上。オーストリアではPrädikatsweinではなくQualitätswein内の区分。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "35度",
       "19度",
@@ -20168,7 +20168,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアのカビネットについて、正しい記述を選択してください。",
-    "explanation": "カビネットは、ドイツのワイン法ではプレディカーツヴァインに含まれるが、オーストリアのワイン法ではプレディカーツヴァインには含まれない。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "ドイツではKabinettがPrädikatsweinの最初の段階だが、オーストリアではQualitätswein内の区分。名称が同じでも法的位置が違う。\n糖度階段はKabinett 17→Spätlese 19→Auslese 21→BA・Eiswein・Strohwein 25→Ausbruch 27→TBA 30度KMW。",
     "choices": [
       "カビネットは、ドイツのワイン法でもオーストリアのワイン法でもプレディカーツヴァインに含まれる。",
       "カビネットは、ドイツのワイン法ではプレディカーツヴァインに含まれるが、オーストリアのワイン法ではプレディカーツヴァインには含まれない。",
@@ -20182,7 +20182,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアで栽培されている黒ブドウ品種を選択してください。",
-    "explanation": "ツヴァイゲルトはオーストリアで栽培されている黒ブドウ品種です。\nツヴァイゲルトは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。\nヴァイスブルグンダーはPinot Blancのドイツ語名。オーストリアでは白品種として各地のDACに用いられる。対して、ヴェルシュリースリングはRieslingとは別品種で、高い酸を生かした辛口や貴腐甘口に用いられる。",
     "choices": [
       "ツヴァイゲルト",
       "ヴァイスブルグンダー",
@@ -20196,7 +20196,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "A",
     "question": "次の中からオーストリアで有名な「ホイリゲ」の意味を選択してください。",
-    "explanation": "ホイリゲは新酒を意味するほか、そのワインを提供するワイン生産者兼居酒屋も指します。\nワイン生産者兼居酒屋は語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Heurigerは当年産ワインと、それを供する生産者直営酒場の双方を指す語。\nHeurigerは「今年のワイン」と「それを供する生産者直営酒場」の二つの意味を持つ。",
     "choices": [
       "瓶内二次発酵のスパークリングワイン",
       "ワイン生産者兼居酒屋",
@@ -20210,7 +20210,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアの限定的生産地域トライゼンタールDACの白ワインのDAC認可品種を選んでください。",
-    "explanation": "トライゼンタールDACの白ワインのDAC認可品種はグリューナー・ヴェルトリーナーとリースリングです。\nグリューナー・ヴェルトリーナーとリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Traisental DACの白はGrüner VeltlinerとRiesling。石灰質土壌が酸の明瞭なスタイルを生む。\n白はGrüner Veltliner、黒はZweigeltが栽培面積最大。BlaufränkischはBurgenlandの主要DACと結ぶ。",
     "choices": [
       "グリューナー・ヴェルトリーナーとソーヴィニョン・ブラン",
       "グリューナー・ヴェルトリーナーとリースリング",
@@ -20224,7 +20224,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の中からオーストリアのミッテルブルゲンラントDAC、パノニア地方の特産料理を選択してください。",
-    "explanation": "ミッテルブルゲンラントDAC、パノニア地方の特産料理はGrammelpogatscherlです。\nGrammelpogatscherlは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "豚脂かすGrammelnを練り込む塩味の焼き菓子で、パノニア地方の郷土料理。\nMarillenknödelはWachau名産のアンズMarilleを生地で包んだ団子で、地域を代表する菓子。",
     "choices": [
       "Marillenknödel",
       "Marchfelder Spargel",
@@ -20238,7 +20238,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "次の中からオーストリアのブドウ栽培地域の気候に影響を与えているものを選択してください。",
-    "explanation": "オーストリアのブドウ栽培地域には、パノニア平原からの乾燥した暖かい風が影響しています。\nパノニア平原からの乾燥した暖かい風は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "東部の成熟を進め、ブルゲンラントやカルヌントゥムで黒ブドウと甘口の熟度を高める。\n地図は北東のNiederösterreich、東のBurgenland、南のSteiermark、その中のWienを骨格にする。",
     "choices": [
       "パノニア平原からの乾燥した暖かい風",
       "東に接する黒海から吹き寄せる暖かい風",
@@ -20252,7 +20252,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアで栽培されていて以下の特徴を持つ品種を選択してください。\n「ローター・ヴェルトリーナーとシルヴァーナーの自然交配で、ヴァッハウとテルメンレギオンで重要な品種。」",
-    "explanation": "説明はノイブルガーに合致します。\nノイブルガーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Roter VeltlinerとSilvanerの自然交配で、WachauやThermenregionに残る白品種。\nグリューナー・ヴェルトリーナーは栽培面積最大の白品種。白胡椒を思わせる香りと酸が特徴で、ニーダーエステライヒの主役。対して、ヴェルシュリースリングはRieslingとは別品種で、高い酸を生かした辛口や貴腐甘口に用いられる。",
     "choices": [
       "グリューナー・ヴェルトリーナー",
       "ブラウアー・ポルトギーザー",
@@ -20266,7 +20266,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で1番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の1番はヴァッハウです。\nヴァッハウは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1番はWachau。ニーダーエステライヒのドナウ系産地では最西端。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20284,7 +20284,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "S",
     "question": "次の中からオーストリアで栽培されていて以下の特徴を持つ品種を選択してください。\n「1922年にブラウフレンキッシュとザンクト・ラウレントを交配して作り出した早熟な品種。」",
-    "explanation": "説明はツヴァイゲルトに合致します。\nツヴァイゲルトは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "1922年にBlaufränkischとSt. Laurentを交配した早熟品種で、同国最多の黒品種。\nグリューナー・ヴェルトリーナーは栽培面積最大の白品種。白胡椒を思わせる香りと酸が特徴で、ニーダーエステライヒの主役。対して、ヴェルシュリースリングはRieslingとは別品種で、高い酸を生かした辛口や貴腐甘口に用いられる。",
     "choices": [
       "グリューナー・ヴェルトリーナー",
       "ツヴァイゲルト",
@@ -20298,7 +20298,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "B",
     "question": "次の説明に最も良く合致するオーストリア、ヴァッハウの格付け名称を選んでください。\n「ヴァッハウで最高のワインに与えられる名称で、日当たりの良いテラスの石畳で観察されるエメラルド色のとかげに由来する。」",
-    "explanation": "ヴァッハウで最高のワインに与えられる名称はSmaragdです。\nSmaragdという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nオーストリアはDACが産地らしいスタイルを示し、Prädikatsweinは果汁糖度による分類になる。",
+    "explanation": "Vinea Wachauの最上位区分で、石垣に棲む緑色のトカゲが語源。最低12.5%の力強い辛口。\nFederspielはVinea Wachauの中位区分で、鷹狩りの道具が語源。軽快さと熟度を両立する辛口。",
     "choices": [
       "Smaragd",
       "Steinfeder",
@@ -21345,7 +21345,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCava Gran Reservaの瓶詰めから澱抜きまでの最低熟成期間を選択してください。",
-    "explanation": "Cava Gran Reservaは瓶詰めから澱抜きまで最低30ヶ月の熟成が必要です。\n30ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava Gran Reservaは瓶詰めから澱抜きまで30か月以上。Guarda 9か月、Reserva 18か月との段階比較が重要。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "30ヶ月",
       "9ヶ月",
@@ -21359,7 +21359,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フィロキセラの害で畑を失ったフランス人が、リオハなどスペイン北部のワイン産地にやってきてワイン造りに従事した。」",
-    "explanation": "フィロキセラ被害後、19世紀後半にフランス人がリオハなどに移り、ワイン造りに影響を与えました。\n19世紀後半という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "19世紀後半、Phylloxeraで畑を失ったBordeaux系生産者がRiojaへ移り、樽熟成技術などを伝えた。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "choices": [
       "18世紀後半",
       "19世紀後半",
@@ -21373,7 +21373,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのリオハの赤ワインへの使用が認定されていない品種を選択してください。",
-    "explanation": "メンシアはリオハ赤ワインの認定品種ではありません。\nメンシアは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Bierzoの主要黒品種で、Rioja赤の認定品種ではない。大西洋側で香り高く酸のある赤を生む。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "choices": [
       "メンシア",
       "グラシアーノ",
@@ -21387,7 +21387,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのワイン産地、プリオラートの土壌を選択してください。",
-    "explanation": "プリオラートはリコレリャと呼ばれるスレート土壌で知られます。\nスレート土壌は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Prioratのリコレリャ。砕けた粘板岩が熱を蓄え、古樹GarnachaやCariñenaから凝縮した赤を生む。\n石灰岩で真っ白な土壌はJerezやMontilla-MorilesのAlbariza。高い保水性と反射光が特徴。対して、赤い粘土質の土壌はLa Manchaに広がる土壌。乾燥したMeseta上でAirénやTempranilloを支える。",
     "choices": [
       "スレート土壌",
       "石灰岩で真っ白な土壌",
@@ -21401,7 +21401,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのリオハの産地で、最も西部に位置し全栽培面積の約50%を占めるところを選択してください。",
-    "explanation": "リオハ・アルタは最も西部に位置し、リオハの主要な栽培地域です。\nリオハ・アルタは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。\nリオハ・アラベサはEbro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。対して、リオハ・オリエンタルはRioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。",
     "choices": [
       "リオハ・アラベサ",
       "リオハ・アルタ",
@@ -21415,7 +21415,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Andalucía州に属するDOまたはDOCaを選択してください。",
-    "explanation": "GranadaはAndalucía州に属するDOです。\nGranadaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Andalucía州南東部の山岳DOで、標高の高い畑も持つ。\nBierzoはCastilla y León州北西端のDOで、大西洋と内陸の移行気候。主要黒品種はMencía。対して、La ManchaはCastilla-La Mancha州の広大なDOで、乾燥したMeseta上にAirénなどを栽培する。",
     "choices": [
       "Bierzo",
       "La Mancha",
@@ -21429,7 +21429,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "スペインで2番目に多く栽培されている品種を選択してください。",
-    "explanation": "スペインで2番目に多く栽培されている品種はアイレンです。\nアイレンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。\nボバルはUtiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。",
     "choices": [
       "ベルデホ",
       "テンプラニーリョ",
@@ -21443,7 +21443,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、最もバルセロナの近くに位置するところを選択してください。",
-    "explanation": "ペネデスはカタルーニャ州にあり、バルセロナに近い産地です。\nペネデスは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Barcelona南西のCataluña州産地で、Cavaの中心地Sant Sadurní d’Anoiaを含む。\nナバーラはPyrenees西部に近い北部産地で、ロゼに加え多様な赤白を生産する。対して、リベラ・デル・ドゥエロはDuero川上流の高原産地で、標高約750〜850m。Tinto Fino主体の力強い赤が中心。",
     "choices": [
       "ナバーラ",
       "ペネデス",
@@ -21457,7 +21457,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上で5番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の5番はGalicia、カタカナではガリシアです。\nガリシアは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "5番はGalicia。北西端で大西洋に面し、東隣のAsturias、南のPortugalとの位置で覚える。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -21471,7 +21471,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の説明に合致するスペインのシェリーのタイプを選択してください。「濃い琥珀色からマホガニー色。酸化熟成したワインをベースとする甘口のシェリー。」",
-    "explanation": "酸化熟成したワインをベースとする甘口シェリーはCreamです。\nCreamという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Olorosoなど酸化熟成酒を甘口化した、濃い琥珀色からマホガニー色のSherry。\nPale CreamはFino系の生物学的熟成酒を甘口化した、色の淡いSherry。",
     "choices": [
       "Medium",
       "Pale Dry",
@@ -21485,7 +21485,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインでシェリーの熟成システムで、樽を段積みしたブロックの呼称を選択してください。",
-    "explanation": "樽を段積みしたブロックはアンダナと呼ばれます。\nアンダナは工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Solera熟成で樽を積み上げた一つのブロック。最下段のSoleraと上段のCriaderaで構成する。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "ロシオ",
       "ソレラ",
@@ -21499,7 +21499,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "スペインでレセルバと表記された赤ワインの最低熟成期間を選択してください。",
-    "explanation": "赤ワインのReservaは最低36ヶ月熟成です。\n36ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "一般規定の赤Reservaは総熟成36か月以上。白・Rosadoは24か月以上で、うち樽6か月以上。\n熟成表示は総期間、樽期間、色、樽容量を分けて確認する。産地独自規定が一般規定より厳しい場合もある。",
     "choices": [
       "36ヶ月",
       "24ヶ月",
@@ -21513,7 +21513,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Altaに相当する記号を選択してください。",
-    "explanation": "Rioja Altaは地図上のAです。\nAは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja AltaはA。西からAlta、中央北岸にAlavesa、東にOrientalと並ぶ。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -21532,7 +21532,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Toroが属する州を選択してください。",
-    "explanation": "ToroはCastilla y León州に属します。\nCastilla y Leónは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "北部内陸の州で、Ribera del Duero、Rueda、Toro、Bierzoなどを擁する。\nGaliciaは北西端の大西洋性地域で、Rías BaixasのAlbariñoや内陸河川沿いの産地が重要。対して、CataluñaはBarcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。",
     "choices": [
       "Galicia",
       "Extremadura",
@@ -21546,7 +21546,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次のスペインのDOまたはDOCaの中から、最もバルセロナの近くに位置するところを選択してください。",
-    "explanation": "この中ではプリオラートがバルセロナに最も近い産地です。\nプリオラートは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cataluña州Tarragona北西の山地にあるDOCaで、リコレリャ土壌と古樹Garnacha・Cariñenaが核。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "プリオラート",
       "モンティーリャ・モリーレス",
@@ -21560,7 +21560,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのワイン産地、ラ・マンチャ地方の土壌を選択してください。",
-    "explanation": "ラ・マンチャ地方は赤い粘土質の土壌が特徴です。\n赤い粘土質の土壌は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "La Manchaに広がる土壌。乾燥したMeseta上でAirénやTempranilloを支える。\nスレート土壌はPrioratのリコレリャ。砕けた粘板岩が熱を蓄え、古樹GarnachaやCariñenaから凝縮した赤を生む。対して、石灰岩で真っ白な土壌はJerezやMontilla-MorilesのAlbariza。高い保水性と反射光が特徴。",
     "choices": [
       "火山性土壌",
       "スレート土壌",
@@ -21574,7 +21574,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「ソモンターノ」が属する地方を選択してください。",
-    "explanation": "Somontanoはスペイン北部地方に属します。\n北部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。\n地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。対して、内陸部地方はMesetaを中心とする高原地帯で、Castilla y LeónとCastilla-La Manchaの主要産地を含む。",
     "choices": [
       "地中海地方",
       "内陸部地方",
@@ -21588,7 +21588,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインの2024年のワイン生産量順位を選択してください。",
-    "explanation": "スペインの2024年ワイン生産量は世界第3位です。\n世界第3位という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "2024年の生産量は世界第3位。輸出量は世界第2位で、同じ順位問題でも指標が異なる。\n世界第2位は2024年のワイン輸出量順位。大量のバルクワイン輸出も順位を押し上げる。",
     "choices": [
       "世界第3位",
       "世界第4位",
@@ -21602,7 +21602,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "スペインで最も多く栽培されている白ブドウ品種を選択してください。",
-    "explanation": "スペインで最も多く栽培されている白ブドウ品種はアイレンです。\nアイレンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。\n栽培面積はTempranilloが全体首位、白首位はAirén。別名と代表産地を一組にする。",
     "choices": [
       "ベルデホ",
       "アイレン",
@@ -21616,7 +21616,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのリオハの産地で、エブロ川左岸に位置し南向きの斜面に畑が多く見られるところを選択してください。",
-    "explanation": "Rioja Alavesaはエブロ川左岸に位置し、南向き斜面に畑が多く見られます。\nリオハ・アラベサは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Ebro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。\nリオハ・アルタはRioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。対して、リオハ・オリエンタルはRioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。",
     "choices": [
       "リオハ・デマンダ",
       "リオハ・アラベサ",
@@ -21630,7 +21630,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "スペインで3番目に多く栽培されている黒ブドウ品種を選択してください。",
-    "explanation": "スペインで3番目に多く栽培されている黒ブドウ品種はボバルです。\nボバルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Utiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。\nガルナッチャ・ティンタはCava Rosadoに認められる黒品種。果実味とアルコールを与える。",
     "choices": [
       "ボバル",
       "ガルナッチャ・ティンタ",
@@ -21644,7 +21644,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の説明に合致するスペインのシェリーのタイプを選択してください。「淡い黄色から淡い金色。フロールのもとで熟成したワインをベースにする甘口のシェリー。」",
-    "explanation": "フロールのもとで熟成したワインをベースにする甘口シェリーはPale Creamです。\nPale Creamという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Fino系の生物学的熟成酒を甘口化した、色の淡いSherry。\nCreamはOlorosoなど酸化熟成酒を甘口化した、濃い琥珀色からマホガニー色のSherry。",
     "choices": [
       "Medium",
       "Pale Cream",
@@ -21658,7 +21658,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Prioratoが属する州を選択してください。",
-    "explanation": "PrioratoはCataluña州に属します。\nCataluñaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Barcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。\nGaliciaは北西端の大西洋性地域で、Rías BaixasのAlbariñoや内陸河川沿いの産地が重要。",
     "choices": [
       "Islas Canarias",
       "Galicia",
@@ -21672,7 +21672,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCava de Guardaの瓶詰めから澱抜きまでの最低熟成期間を選択してください。",
-    "explanation": "Cava de Guardaは瓶詰めから澱抜きまで最低9ヶ月熟成です。\n9ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava de Guardaは瓶詰めから澱抜きまで最低9か月。Reserva 18、Gran Reserva 30、Paraje 36か月へ続く。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "36ヶ月",
       "12ヶ月",
@@ -21686,7 +21686,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "スペインでクリアンサと表記されたワインの熟成用の樽の容量を選択してください。",
-    "explanation": "クリアンサの熟成に用いる樽は330リットル以下です。\n330リットル以下は工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "一般的なCrianzaの熟成樽は330L以下。DOCa Riojaでは225L樽という、より限定した規定を問われる。\n熟成表示は総期間、樽期間、色、樽容量を分けて確認する。産地独自規定が一般規定より厳しい場合もある。",
     "choices": [
       "230リットル以下",
       "225リットル以下",
@@ -21700,7 +21700,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCavaに使用される品種マカベオの別名を選択してください。",
-    "explanation": "マカベオはビウラとも呼ばれます。\nビウラは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "MacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。\nアルバリーニョはRías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。対して、パレリャーダはCava主要3品種の一つで、比較的高地に適し、香りと上品さを与える。",
     "choices": [
       "ビウラ",
       "ベルデホ",
@@ -21714,7 +21714,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、標高750〜850mの高い位置に畑があるところを選択してください。",
-    "explanation": "Ribera del Dueroは標高750〜850mほどの高地に畑があります。\nリベラ・デル・ドゥエロは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Duero川上流の高原産地で、標高約750〜850m。Tinto Fino主体の力強い赤が中心。\nヘレスはAndalucía州南西部の最南級産地で、FlorとSoleraによるSherryを生む。対して、ナバーラはPyrenees西部に近い北部産地で、ロゼに加え多様な赤白を生産する。",
     "choices": [
       "ヘレス",
       "モンティーリャ・モリーレス",
@@ -21728,7 +21728,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインの2024年のワイン輸出量順位を選択してください。",
-    "explanation": "スペインの2024年ワイン輸出量順位は世界第2位です。\n世界第2位という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "2024年の輸出量は世界第2位。生産量世界第3位と数字を対にして区別する。\n世界第3位は2024年のワイン生産量順位。スペインは広大な畑を持つが乾燥・低収量のため面積順位とは一致しない。",
     "choices": [
       "世界第1位",
       "世界第4位",
@@ -21742,7 +21742,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「ルエダ」が属する地方を選択してください。",
-    "explanation": "Ruedaは内陸部地方に属します。\n内陸部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Mesetaを中心とする高原地帯で、Castilla y LeónとCastilla-La Manchaの主要産地を含む。\n北部地方はRioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。対して、地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。",
     "choices": [
       "北部地方",
       "大西洋地方",
@@ -21756,7 +21756,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でCのゾーン名をカタカナで入力してください。",
-    "explanation": "地図上のCはRioja Oriental、カタカナではリオハ・オリエンタルです。\nリオハ・オリエンタルは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "CはRioja Oriental。東部でMediterraneanの影響が強く、温暖乾燥でGarnachaが多い。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -21772,7 +21772,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上でCataluñaに相当する番号を選択してください。",
-    "explanation": "Cataluñaは地図上の6番です。\n6番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "6番はCataluña。北東端のMediterranean沿岸で、Barcelona、Penedès、Prioratを含む。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -21791,7 +21791,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中から辛口タイプのシェリーの呼称を選択してください。",
-    "explanation": "辛口タイプのシェリーはVino Generosoに分類されます。\nVino Generosoという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Fino、Amontillado、Oloroso、Palo Cortadoなど辛口Sherryのカテゴリー。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "Vino Generoso de Licor",
       "Vino Dulce Natural",
@@ -21805,7 +21805,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Castilla La Mancha州に属するDOまたはDOCaを選択してください。",
-    "explanation": "La ManchaはCastilla La Mancha州に属します。\nLa Manchaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Castilla-La Mancha州の広大なDOで、乾燥したMeseta上にAirénなどを栽培する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "Rías Baixas",
       "La Mancha",
@@ -21819,7 +21819,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのCavaに使用される主要品種を選択してください。",
-    "explanation": "Cavaの主要品種の一つにビウラ（マカベオ）があります。\nビウラは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "MacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。\nアイレンは乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。対して、アルバリーニョはRías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。",
     "choices": [
       "アイレン",
       "パロミノ",
@@ -21833,7 +21833,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "スペインでレセルバと表記された白ワインの最低樽熟成期間を選択してください。",
-    "explanation": "白ワインのReservaは最低6ヶ月の樽熟成が必要です。\n6ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "一般規定で白Reservaの樽熟成は最低6か月、総熟成は24か月以上。赤Reservaの総36か月と対比する。\n熟成表示は総期間、樽期間、色、樽容量を分けて確認する。産地独自規定が一般規定より厳しい場合もある。",
     "choices": [
       "24ヶ月",
       "12ヶ月",
@@ -21847,7 +21847,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのリオハの白ワインの主たる品種として最も適切なものを選択してください。",
-    "explanation": "リオハの白ワインの主たる品種はビウラです。\nビウラは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "MacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。\nアイレンは乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。",
     "choices": [
       "ビウラ",
       "チャレッロとマカベオ",
@@ -21861,7 +21861,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Lanzaroteが属する州を選択してください。",
-    "explanation": "LanzaroteはIslas Canarias州に属します。\nIslas Canariasは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Islas Canarias。地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。\nCastilla La Manchaは中央Meseta南部の大産地で、La Mancha、Valdepeñasなどを擁する。対して、CataluñaはBarcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。",
     "choices": [
       "Castilla La Mancha",
       "Andalucía",
@@ -21875,7 +21875,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのシェリーに影響を与える土壌を選択してください。",
-    "explanation": "シェリー産地では白いアルバリサ土壌が重要です。\nアルバリサは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Jerezの白い石灰質土壌。冬の雨を蓄え、乾燥した夏にブドウへ水分を供給する。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "クリアデラ",
       "テラ・ロッサ",
@@ -21889,7 +21889,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。",
-    "explanation": "Cavaのロゼにはピノ・ノワールなどの黒ブドウ品種が使用されます。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava Rosadoに認められる黒品種の一つ。国際品種で、単独使用も可能。\nボバルはUtiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。対して、ビウラはMacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。",
     "choices": [
       "テンプラニーリョ",
       "ピノ・ノワール",
@@ -21903,7 +21903,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からOlorosoタイプのシェリーのアルコール度を選択してください。",
-    "explanation": "Olorosoタイプのシェリーは17〜22%程度のアルコール度です。\n17〜22%という認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "OlorosoはFlorを消して酸化熟成するため17〜22%。Fino系より高い度数がFlorの形成を防ぐ。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "13〜16%",
       "17〜22%",
@@ -21917,7 +21917,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、タラゴナの北西、モンサン山脈の山間部にあり、粘板岩の地質のところを選択してください。",
-    "explanation": "説明はプリオラートに合致します。\nプリオラートは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cataluña州Tarragona北西の山地にあるDOCaで、リコレリャ土壌と古樹Garnacha・Cariñenaが核。\nヘレスはAndalucía州南西部の最南級産地で、FlorとSoleraによるSherryを生む。",
     "choices": [
       "プリオラート",
       "リオハ",
@@ -21931,7 +21931,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、ガリシア州のRías Baixasで、栽培ブドウの約95%を占めている品種を選択してください。",
-    "explanation": "Rías Baixasではアルバリーニョが栽培ブドウの大部分を占めます。\nアルバリーニョは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。\nアイレンは乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。対して、ボバルはUtiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。",
     "choices": [
       "アイレン",
       "マカベオ",
@@ -21945,7 +21945,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「トロ」が属する地方を選択してください。",
-    "explanation": "Toroは内陸部地方に属します。\n内陸部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Mesetaを中心とする高原地帯で、Castilla y LeónとCastilla-La Manchaの主要産地を含む。\n地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。",
     "choices": [
       "南部地方",
       "内陸部地方",
@@ -21959,7 +21959,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインで原産地呼称シェリーを名乗ることができる熟成地を選択してください。",
-    "explanation": "シェリーを名乗ることができる熟成地の一つはヘレス・デ・ラ・フロンテラです。\nヘレス・デ・ラ・フロンテラは工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Sherryの熟成が認められる中心都市。Sanlúcar、El Puertoと熟成三角地帯を形成する。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "パロ・コルタド",
       "マンサニーリャ",
@@ -21973,7 +21973,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "スペインで2番目に多く栽培されている白ブドウ品種を選択してください。",
-    "explanation": "スペインで2番目に多く栽培されている白ブドウ品種はビウラです。\nビウラは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "MacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。\nアイレンは乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。",
     "choices": [
       "ビウラ",
       "ベルデホ",
@@ -21987,7 +21987,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインで近年ミネラルとフレッシュさのあるグラン・レセルバクラスのCavaに用いられ、ワインに酸味をもたらす品種を選択してください。",
-    "explanation": "チャレッロはCavaに酸味をもたらす重要品種です。\nチャレッロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava主要3品種の一つで、酸・骨格・熟成力を与える。長期熟成Cavaで特に重要。\nアルバリーニョはRías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。",
     "choices": [
       "アルバリーニョ",
       "ペドロ・ヒメネス",
@@ -22001,7 +22001,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Ruedaが属する州を選択してください。",
-    "explanation": "RuedaはCastilla y León州に属します。\nCastilla y Leónは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "北部内陸の州で、Ribera del Duero、Rueda、Toro、Bierzoなどを擁する。\nCataluñaはBarcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。",
     "choices": [
       "Extremadura",
       "Castilla y León",
@@ -22015,7 +22015,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。",
-    "explanation": "RuedaはCastilla y León州に属します。\nRuedaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rueda。地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "Ribeira Sacra",
       "Montilla-Moriles",
@@ -22029,7 +22029,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインの品種テンプラニーリョの別名ではないものを選択してください。",
-    "explanation": "カリニェナはテンプラニーリョの別名ではありません。\nカリニェナは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cariñena/Garnacha Tinta系とは異なり、Tempranilloの別名ではない。\n栽培面積はTempranilloが全体首位、白首位はAirén。別名と代表産地を一組にする。",
     "choices": [
       "ウル・デ・リェブレ",
       "カリニェナ",
@@ -22043,7 +22043,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の説明に合致するスペインのシェリーのタイプを選択してください。「ごく短期間フロールのもとにあったが、特別な酸化熟成タイプになると判断され酸化熟成を行ったタイプ。」",
-    "explanation": "説明はPalo Cortadoに合致します。\nPalo Cortadoという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "短期間Flor下にあった後、繊細な香りとOloroso的な骨格を見込んで酸化熟成へ移す辛口。\nOlorosoは最初からFlorを付けず酸化熟成する辛口Sherry。17〜22%で、濃色・豊かな香ばしさを持つ。対して、AmontilladoはFlor下の生物学的熟成後に酸化熟成へ移る辛口で、Finoの鋭さとOlorosoの熟成香を併せ持つ。",
     "choices": [
       "Oloroso",
       "Palo Cortado",
@@ -22057,7 +22057,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フェニキア人が大西洋岸の町、現在のカディスに到達し、内陸のヘレス地域や地中海沿岸地域でワイン造りをし交易に使った。」",
-    "explanation": "フェニキア人がカディス周辺に到達したのは紀元前1100年頃です。\n紀元前1100年頃という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "紀元前1100年頃、Phoenicia人が現在のCádizへ到達し、Jerez内陸部にもワイン文化を広げた。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "西暦200年頃",
       "紀元前200年頃",
@@ -22071,7 +22071,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのビエルソの赤ワインの主たる品種として最も適切なものを選択してください。",
-    "explanation": "ビエルソの赤ワインの主たる品種はメンシアです。\nメンシアは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Bierzoの主要黒品種で、Rioja赤の認定品種ではない。大西洋側で香り高く酸のある赤を生む。\nボバルはUtiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。",
     "choices": [
       "ガルナッチャとカリニェナ",
       "テンプラニーリョとカベルネ・ソーヴィニョン",
@@ -22085,7 +22085,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でAのゾーン名をカタカナで入力してください。",
-    "explanation": "地図上のAはRioja Alta、カタカナではリオハ・アルタです。\nリオハ・アルタは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "AはRioja Alta。Ebro川上流側の西部で、比較的冷涼なため酸を保つTempranilloに向く。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22101,7 +22101,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、最も南に位置するところを選択してください。",
-    "explanation": "この中で最も南に位置するのはヘレスです。\nヘレスは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Andalucía州南西部の最南級産地で、FlorとSoleraによるSherryを生む。\nリベラ・デル・ドゥエロはDuero川上流の高原産地で、標高約750〜850m。Tinto Fino主体の力強い赤が中心。",
     "choices": [
       "リベイラ・サクラ",
       "ラ・マンチャ",
@@ -22115,7 +22115,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "スペインでクリアンサと表記された赤ワインの最低熟成期間を選択してください。",
-    "explanation": "赤ワインのCrianzaは最低24ヶ月熟成です。\n24ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "一般規定の赤Crianzaは総熟成24か月以上。うち樽6か月以上で、樽容量は330L以下。\n熟成表示は総期間、樽期間、色、樽容量を分けて確認する。産地独自規定が一般規定より厳しい場合もある。",
     "choices": [
       "24ヶ月",
       "48ヶ月",
@@ -22129,7 +22129,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのシェリーでVORSと表示がなされたものの平均熟成期間を選択してください。",
-    "explanation": "VORSは平均熟成期間30年以上を示します。\n30年以上という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "VORSは平均熟成30年以上。VOSは20年以上で、Soleraの平均熟成年数を第三者機関が確認する。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "20年以上",
       "10年以上",
@@ -22143,7 +22143,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上でValenciaに相当する番号を選択してください。",
-    "explanation": "Valenciaは地図上の7番です。\n7番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "7番はValencia。東部Mediterranean沿岸で、Cataluñaの南、Murciaの北に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22162,7 +22162,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「リオハ」が属する地方を選択してください。",
-    "explanation": "Riojaはスペイン北部地方に属します。\n北部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。\n内陸部地方はMesetaを中心とする高原地帯で、Castilla y LeónとCastilla-La Manchaの主要産地を含む。対して、地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。",
     "choices": [
       "南部地方",
       "北部地方",
@@ -22176,7 +22176,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Alavesaに相当する記号を選択してください。",
-    "explanation": "Rioja Alavesaは地図上のB（左右両方）です。\nB（左右両方）は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja AlavesaはBで示す左右両方。Ebro川左岸の細長い区域としてAltaとOrientalの北側に接する。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22195,7 +22195,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインで2025年時点で認定されているD.O.の数を選択してください。",
-    "explanation": "2025年時点でスペインのD.O.は69です。\n69という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "2025年時点のD.O.は69。DOCa、VP、VCなどは別カテゴリーなのでD.O.数へ混ぜない。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "27",
       "7",
@@ -22209,7 +22209,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのリオハの産地で、他の地域に比べて地中海性気候の影響を受け、気温が高く乾燥しているところを選択してください。",
-    "explanation": "Rioja Orientalは他の地区より地中海性気候の影響を受け、気温が高く乾燥しています。\nリオハ・オリエンタルは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。\nリオハ・アルタはRioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。対して、リオハ・アラベサはEbro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。",
     "choices": [
       "リオハ・アルタ",
       "リオハ・デマンダ",
@@ -22223,7 +22223,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。",
-    "explanation": "Ribera del DueroはCastilla y León州に属します。\nRibera del Dueroは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Castilla y León州、Duero川上流の高地DO。TempranilloをTinto Finoと呼ぶ。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "Valdepeñas",
       "Somontano",
@@ -22237,7 +22237,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのワイン産地、バルセロナ県のサン・サドゥルニ・ダノイアが属する州を選択してください。",
-    "explanation": "サン・サドゥルニ・ダノイアはCataluña州に属します。\nCataluñaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Barcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。\nCastilla La Manchaは中央Meseta南部の大産地で、La Mancha、Valdepeñasなどを擁する。対して、Castilla y Leónは北部内陸の州で、Ribera del Duero、Rueda、Toro、Bierzoなどを擁する。",
     "choices": [
       "Castilla La Mancha",
       "Cataluña",
@@ -22251,7 +22251,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのCavaに使用される主要品種を選択してください。",
-    "explanation": "パレリャーダはCavaに使用される主要品種の一つです。\nパレリャーダは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava主要3品種の一つで、比較的高地に適し、香りと上品さを与える。\nアルバリーニョはRías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。",
     "choices": [
       "アルバリーニョ",
       "パレリャーダ",
@@ -22265,7 +22265,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインで2025年時点で認定されているVino de la Tierraの数を選択してください。",
-    "explanation": "2025年時点でスペインのVino de la Tierraは43です。\n43という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "2025年時点のVino de la Tierraは43。EUのPGIに相当し、D.O.より広く柔軟な地理的表示。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "105",
       "2",
@@ -22279,7 +22279,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上でPaís Vascoに相当する番号を選択してください。",
-    "explanation": "País Vascoは地図上の4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "4番はPaís Vasco。北岸東部、France国境側で、Rioja Alavesaの北に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22298,7 +22298,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインのCavaの生産量の中でペネデスを中心としたカタルーニャ州が占める割合を選択してください。",
-    "explanation": "Cavaの生産量は、ペネデスを中心としたカタルーニャ州が約95%を占めます。\n95%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cavaの約95%はPenedèsを中心とするCataluña州産。ただしD.O. Cava自体は複数州にまたがる。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "85%",
       "95%",
@@ -22312,7 +22312,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのリベラ・デル・ドゥエロの赤ワインの品種規定を選択してください。",
-    "explanation": "Ribera del Dueroの赤ワインはテンプラニーリョを75%以上使用します。\nテンプラニーリョ75%以上は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Ribera del Duero赤はTempranillo（Tinto Fino/Tinta del País）75%以上。補助品種との比率を問われやすい。\n栽培面積はTempranilloが全体首位、白首位はAirén。別名と代表産地を一組にする。",
     "choices": [
       "テンプラニーリョ85%以上",
       "ガルナッチャ・ティンタ75%以上",
@@ -22326,7 +22326,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。",
-    "explanation": "Cavaのロゼにはガルナッチャ・ティンタなどの黒ブドウ品種が使用されます。\nガルナッチャ・ティンタは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava Rosadoに認められる黒品種。果実味とアルコールを与える。\nチャレッロはCava主要3品種の一つで、酸・骨格・熟成力を与える。長期熟成Cavaで特に重要。対して、ビウラはMacabeoのRiojaでの呼称。Cava主要3品種の一つで、Rioja白の主力でもある。",
     "choices": [
       "チャレッロ",
       "ビウラ",
@@ -22340,7 +22340,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペイン中央部に広がる高く平らな地形の呼称を選択してください。",
-    "explanation": "スペイン中央部に広がる高く平らな地形はメセタと呼ばれます。\nメセタは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "スペイン中央部を占める標高の高い広大な台地。寒暖差と乾燥が内陸産地を特徴付ける。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "テラロッサ",
       "テュフォー",
@@ -22354,7 +22354,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中から紀元前1100年頃スペインのカディスに到達し、ワイン造りを行った人種を選択してください。",
-    "explanation": "紀元前1100年頃、カディスに到達してワイン造りを行ったのはフェニキア人です。\nフェニキア人という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "紀元前1100年頃Cádizに到来し、Jerez周辺へワイン造りと交易を伝えた人々。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "フェニキア人",
       "エジプト人",
@@ -22368,7 +22368,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインのリオハの産地で、2018年にリオハ・バハから改名されたところを選択してください。",
-    "explanation": "Rioja Bajaは2018年にRioja Orientalへ改名されました。\nリオハ・オリエンタルという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。\nリオハ・アルタはRioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。対して、リオハ・アラベサはEbro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。",
     "choices": [
       "リオハ・アルタ",
       "リオハ・アラベサ",
@@ -22382,7 +22382,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でBのゾーン名をカタカナで入力してください。",
-    "explanation": "地図上のBはRioja Alavesa、カタカナではリオハ・アラベサです。\nリオハ・アラベサは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "BはRioja Alavesa。Ebro川左岸、Cantabria山脈南麓の南向き斜面に広がる。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22398,7 +22398,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Valdepeñasが属する州を選択してください。",
-    "explanation": "ValdepeñasはCastilla La Mancha州に属します。\nCastilla La Manchaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "中央Meseta南部の大産地で、La Mancha、Valdepeñasなどを擁する。\nCataluñaはBarcelonaを州都とし、Penedès、Priorat、Cavaの中心地を含む地中海沿岸州。",
     "choices": [
       "Extremadura",
       "Islas Canarias",
@@ -22412,7 +22412,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Castilla y León州に属するDOまたはDOCaを選択してください。",
-    "explanation": "BierzoはCastilla y León州に属します。\nBierzoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Castilla y León州北西端のDOで、大西洋と内陸の移行気候。主要黒品種はMencía。\nGranadaはAndalucía州南東部の山岳DOで、標高の高い畑も持つ。",
     "choices": [
       "Somontano",
       "Bierzo",
@@ -22426,7 +22426,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上でAragónに相当する番号を選択してください。",
-    "explanation": "Aragónは地図上の3番です。\n3番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "3番はAragón。北東内陸でCataluñaの西、Navarra・Riojaの東に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22445,7 +22445,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、最も北に位置するところを選択してください。",
-    "explanation": "この中で最も北に位置するのはナバーラです。\nナバーラは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Pyrenees西部に近い北部産地で、ロゼに加え多様な赤白を生産する。\nプリオラートはCataluña州Tarragona北西の山地にあるDOCaで、リコレリャ土壌と古樹Garnacha・Cariñenaが核。",
     "choices": [
       "ラ・マンチャ",
       "リベイラ・サクラ",
@@ -22459,7 +22459,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのCavaに使用される主要品種を選択してください。",
-    "explanation": "チャレッロはCavaに使用される主要品種の一つです。\nチャレッロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava主要3品種の一つで、酸・骨格・熟成力を与える。長期熟成Cavaで特に重要。\nアルバリーニョはRías Baixasの約95%を占める白品種。大西洋性気候下で高い酸と柑橘・核果香を保つ。対して、アイレンは乾燥に強いLa Manchaの白品種で、白品種首位・全品種ではTempranilloに次ぐ栽培面積。",
     "choices": [
       "アルバリーニョ",
       "チャレッロ",
@@ -22473,7 +22473,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインでシェリーを熟成させる時、600リットルの樽に入れるワインの量を選択してください。",
-    "explanation": "シェリー熟成では600リットルの樽に約500リットルのワインを入れます。\n500リットルは工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Sherryの600L樽には約500Lだけ入れ、空間を残す。Fino系ではこの空気層とFlorが生物学的熟成を可能にする。\n生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。",
     "choices": [
       "600リットル",
       "300リットル",
@@ -22487,7 +22487,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインで最大の産地カスティーリャ・ラ・マンチャ州の生産量が全体に占める割合を選択してください。",
-    "explanation": "カスティーリャ・ラ・マンチャ州はスペインの生産量の約51%を占めます。\n51%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Castilla-La Manchaは生産量の約51%。栽培面積比約48%と母数が異なる。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "51%",
       "71%",
@@ -22501,7 +22501,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「プリオラートが特選原産地呼称ワインに認定された。」",
-    "explanation": "プリオラートが特選原産地呼称ワインに認定されたのは2009年です。\n2009年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "PrioratがDOCaへ認定されたのは2009年。Riojaに次ぐ2番目のDOCaとして整理する。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "2009年",
       "1998年",
@@ -22515,7 +22515,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCavaのロゼに使用される黒ブドウ品種を選択してください。",
-    "explanation": "トレパットはCavaのロゼに使用される黒ブドウ品種です。\nトレパットは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava Rosadoの伝統黒品種で、酸と繊細な赤系果実香を与える。\nチャレッロはCava主要3品種の一つで、酸・骨格・熟成力を与える。長期熟成Cavaで特に重要。対して、ボバルはUtiel-RequenaやManchuelaに多い黒品種で、色と酸を保つ。黒品種面積では上位。",
     "choices": [
       "チャレッロ",
       "トレパット",
@@ -22529,7 +22529,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の説明に合致するスペインのシェリーのタイプを選択してください。「フロールのもとで熟成したのち、フロールを消失し酸化熟成したタイプ。琥珀色でシャープな辛口である。」",
-    "explanation": "説明はAmontilladoに合致します。\nAmontilladoという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Flor下の生物学的熟成後に酸化熟成へ移る辛口で、Finoの鋭さとOlorosoの熟成香を併せ持つ。\nPalo Cortadoは短期間Flor下にあった後、繊細な香りとOloroso的な骨格を見込んで酸化熟成へ移す辛口。対して、Olorosoは最初からFlorを付けず酸化熟成する辛口Sherry。17〜22%で、濃色・豊かな香ばしさを持つ。",
     "choices": [
       "Amontillado",
       "Palo Cortado",
@@ -22543,7 +22543,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペイン、Cataluña州に属するDOまたはDOCaを選択してください。",
-    "explanation": "PenedésはCataluña州に属します。\nPenedésは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Barcelona南西のCataluña州産地で、Cava主要品種や国際品種から多様なワインを造る。\nLa ManchaはCastilla-La Mancha州の広大なDOで、乾燥したMeseta上にAirénなどを栽培する。",
     "choices": [
       "Lanzarote",
       "Penedés",
@@ -22557,7 +22557,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "スペインでノーブレと表記されたワインの最低熟成期間を選択してください。",
-    "explanation": "Nobleは最低18ヶ月熟成です。\n18ヶ月という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Nobleは最低18か月熟成。熟成表示はCrianza・Reserva・Gran Reservaとは別の追加用語。\n熟成表示は総期間、樽期間、色、樽容量を分けて確認する。産地独自規定が一般規定より厳しい場合もある。",
     "choices": [
       "9ヶ月",
       "12ヶ月",
@@ -22571,7 +22571,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインのワイン産地、アンダルシア地方のシェリーやモンティーリャの土壌を選択してください。",
-    "explanation": "シェリーやモンティーリャの産地は、石灰岩で真っ白なアルバリサ土壌で知られます。\n石灰岩で真っ白な土壌は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "JerezやMontilla-MorilesのAlbariza。高い保水性と反射光が特徴。\n赤い粘土質の土壌はLa Manchaに広がる土壌。乾燥したMeseta上でAirénやTempranilloを支える。対して、スレート土壌はPrioratのリコレリャ。砕けた粘板岩が熱を蓄え、古樹GarnachaやCariñenaから凝縮した赤を生む。",
     "choices": [
       "火山性土壌",
       "赤い粘土質の土壌",
@@ -22585,7 +22585,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "C",
     "question": "次の中からスペインのリオハの産地で、エブロ川上流の右岸と左岸に位置し全栽培面積の約50%を占めるところを選択してください。",
-    "explanation": "Rioja Altaはエブロ川上流の右岸と左岸に位置し、全栽培面積の約50%を占めます。\nリオハ・アルタは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。\nリオハ・アラベサはEbro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。対して、リオハ・オリエンタルはRioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。",
     "choices": [
       "リオハ・アラベサ",
       "リオハ・デマンダ",
@@ -22599,7 +22599,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上で11番の産地名をカタカナで入力してください。",
-    "explanation": "地図上の11番はCastilla La Mancha、カタカナではカスティーリャ・ラ・マンチャです。\nカスティーリャ・ラ・マンチャは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "11番はCastilla-La Mancha。中央南部の広大なMesetaで、国内最大の栽培地域。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22615,7 +22615,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からCavaの一つのカテゴリーで、単一収穫年のみなど厳格な規定があり、単一畑とは限らないが2025年現在18のエリアが認められているものを選択してください。",
-    "explanation": "Cava de Paraje Calificadoは厳格な規定を持つCavaのカテゴリーです。\nCava de Paraje Calificadoという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cava de Paraje Calificadoは単一収穫年・36か月以上など厳格な最上位区分。単一畑だけを意味しない。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "Cava de Origen Calificada",
       "Cava Gran Reserva",
@@ -22629,7 +22629,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「ヘレス」が属する地方を選択してください。",
-    "explanation": "Jerezは南部地方に属します。\n南部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "南部地方。生物学的熟成はFino・Manzanilla、途中から酸化はAmontillado、最初から酸化はOloroso。\n北部地方はRioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。対して、地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。",
     "choices": [
       "南部地方",
       "北部地方",
@@ -22643,7 +22643,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのDOまたはDOCa Rías Baixasが属する州を選択してください。",
-    "explanation": "Rías BaixasはGalicia州に属します。\nGaliciaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "北西端の大西洋性地域で、Rías BaixasのAlbariñoや内陸河川沿いの産地が重要。\nCastilla La Manchaは中央Meseta南部の大産地で、La Mancha、Valdepeñasなどを擁する。対して、Castilla y Leónは北部内陸の州で、Ribera del Duero、Rueda、Toro、Bierzoなどを擁する。",
     "choices": [
       "Islas Canarias",
       "Galicia",
@@ -22657,7 +22657,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインのCavaで使用が認められている外来品種を選択してください。",
-    "explanation": "Cavaでは外来品種としてシャルドネの使用が認められています。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cavaに認められる外来白品種で、果実の厚みと熟成適性を補う。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "ピノ・ブラン",
       "ソーヴィニョン・ブラン",
@@ -22671,7 +22671,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインで最大の産地カスティーリャ・ラ・マンチャ州の栽培面積が全体に占める割合を選択してください。",
-    "explanation": "カスティーリャ・ラ・マンチャ州の栽培面積は、スペイン全体の約48%を占めます。\n48%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Castilla-La Manchaは栽培面積の約48%、生産量の約51%。48は面積、51は生産量。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
     "choices": [
       "62%",
       "48%",
@@ -22685,7 +22685,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の説明に合致するスペインのシェリーのタイプを選択してください。「フロールを消して酸化熟成させたタイプ。琥珀色からマホガニー色でやや甘く感じるが辛口である。」",
-    "explanation": "説明はOlorosoに合致します。\nOlorosoという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "最初からFlorを付けず酸化熟成する辛口Sherry。17〜22%で、濃色・豊かな香ばしさを持つ。\nAmontilladoはFlor下の生物学的熟成後に酸化熟成へ移る辛口で、Finoの鋭さとOlorosoの熟成香を併せ持つ。",
     "choices": [
       "Amontillado",
       "Fino",
@@ -22699,7 +22699,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "スペインでクリアンサと表記されたDOCa Riojaの熟成用の樽の容量を選択してください。",
-    "explanation": "DOCa RiojaのCrianzaでは225リットル樽が用いられます。\n225リットルは工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "DOCa RiojaのCrianza用樽は225L。一般規定の330L以下より小さく限定される。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "choices": [
       "1050リットル",
       "225リットル",
@@ -22713,7 +22713,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「プリオラート」が属する地方を選択してください。",
-    "explanation": "Prioratoは地中海地方に属します。\n地中海地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。\n北部地方はRioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。",
     "choices": [
       "大西洋地方",
       "北部地方",
@@ -22727,7 +22727,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中でスペインのDOまたはDOCa「リベラ・デル・ドゥエロ」が属する地方を選択してください。",
-    "explanation": "Ribera del Dueroは内陸部地方に属します。\n内陸部地方は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Mesetaを中心とする高原地帯で、Castilla y LeónとCastilla-La Manchaの主要産地を含む。\n北部地方はRioja、Navarra、Somontano、Txakoliなどを含み、大西洋・山地・Ebro川の影響が交差する。対して、地中海地方はCataluña、Valencia、Murciaなど地中海沿岸を含み、Cavaから濃厚な赤まで多様。",
     "choices": [
       "北部地方",
       "地中海地方",
@@ -22741,7 +22741,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "S",
     "question": "次の中からスペインのリオハの産地で、他の地域に比べてガルナッチャの栽培が多くアルコール度数の高い赤・ロゼワインが造られているところを選択してください。",
-    "explanation": "Rioja Orientalはガルナッチャの栽培が多く、アルコール度数の高い赤・ロゼワインが造られます。\nリオハ・オリエンタルという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Rioja東部の温暖乾燥地でGarnachaが多い。2018年にRioja Bajaから改称された。\nリオハ・アルタはRioja西部の比較的冷涼な地域で、全体の約半分を占め、酸を保つTempranilloが中心。対して、リオハ・アラベサはEbro川左岸、Cantabria山脈南麓の南向き斜面に広がり、石灰粘土質土壌が多い。",
     "choices": [
       "リオハ・アルタ",
       "リオハ・デマンダ",
@@ -22755,7 +22755,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次のスペインのDOまたはDOCaの中から、大西洋に面しているところを選択してください。",
-    "explanation": "Rías Baixasは大西洋に面した産地です。\nリアス・バイシャスは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Galicia州の大西洋岸DOで、Albariño主体の高酸な白が中心。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "リアス・バイシャス",
       "リオハ",
@@ -22769,7 +22769,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "A",
     "question": "次の中からスペインの産地リベラ・デル・ドゥエロにおけるテンプラニーリョの別名を選択してください。",
-    "explanation": "Ribera del Dueroではテンプラニーリョはティント・フィノとも呼ばれます。\nティント・フィノは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Ribera del DueroにおけるTempranilloの別名。Tinta del Paísとも呼ばれる。\nスペインはD.O.など産地格付けと、Crianzaなど熟成表示が別軸。ラベル問題では両者を混同しない。",
     "choices": [
       "ティンタ・デ・マドリッド",
       "ウル・デ・リェブレ",
@@ -22783,7 +22783,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "次の中からスペインの「Cava」のカタルーニャ語における意味を選択してください。",
-    "explanation": "Cavaはカタルーニャ語で洞窟を意味します。\n洞窟は語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nスペインは熟成表示と産地格付けが別軸で、DOCa・DOとCrianzaなどを混同しないことが大切。",
+    "explanation": "Cavaの語源。Catalan語で地下の洞窟・セラーを意味し、瓶内熟成の場所に由来する。\nCava主要3品種はMacabeo（Viura）・Xarel-lo・Parellada。熟成は9→18→30→Paraje 36か月で整理する。",
     "choices": [
       "湧水",
       "洞窟",
@@ -24603,7 +24603,7 @@ window.WINE_QUESTIONS = [
       "ヴィダル"
     ],
     "answerIndex": 1,
-    "explanation": "オンタリオ州で生産量第1位の白ブドウ品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ州で生産量最大の品種。冷涼なNiagaraで高い酸を保ち、辛口からIcewineまで造られる。\nピノ・グリはブリティッシュ・コロンビア州で最大の白品種。Okanaganの北部など比較的冷涼な場所に適する。対して、ヴィダルは耐寒性のある白い交雑品種で、厚い果皮と高い酸を生かしオンタリオIcewineの中心となる。"
   },
   {
     "id": "canada-002",
@@ -24617,7 +24617,7 @@ window.WINE_QUESTIONS = [
       "北緯52〜54度"
     ],
     "answerIndex": 1,
-    "explanation": "ブリティッシュ・コロンビア州のブドウ栽培地域は北緯49〜50度に位置します。\n北緯49〜50度は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Okanagan Valley周辺の緯度帯。緯度は高いが、乾燥した内陸気候と長い日照が成熟を支える。\nBCはOkanaganが中心。北は白・冷涼品種、南のOsoyoos周辺はMerlotなど黒品種が得意。"
   },
   {
     "id": "canada-003",
@@ -24631,7 +24631,7 @@ window.WINE_QUESTIONS = [
       "Okanagan Valley"
     ],
     "answerIndex": 2,
-    "explanation": "オンタリオ州南西端に位置し、South Islandsを擁する産地はLake Erie North Shoreです。\nLake Erie North Shoreは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。\nTidal BayはNova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。対して、Niagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。"
   },
   {
     "id": "canada-004",
@@ -24645,7 +24645,7 @@ window.WINE_QUESTIONS = [
       "Lake Erie North Shore"
     ],
     "answerIndex": 0,
-    "explanation": "Similkameen Valleyはブリティッシュ・コロンビア州に位置します。\nSimilkameen Valleyは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Okanaganの西側にある乾燥したBC州産地。山に囲まれ、強風と大きな日較差が特徴。\nPrince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。対して、Tidal BayはNova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。"
   },
   {
     "id": "canada-005",
@@ -24659,7 +24659,7 @@ window.WINE_QUESTIONS = [
       "Prince Edward County"
     ],
     "answerIndex": 0,
-    "explanation": "Black Sage Bench/OsoyoosはOkanagan Valleyに属します。\nOkanagan Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Black Sage BenchとOsoyoosはいずれもOkanagan Valley南部。高温・乾燥条件でMerlotやCabernet系が熟しやすい。\nLake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。対して、Niagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。"
   },
   {
     "id": "canada-006",
@@ -24673,7 +24673,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 0,
-    "explanation": "VQAワインが原産州を表示する場合、該当するブドウを100%使用します。\n100%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "VQAで原産州を表示するなら、その州のブドウ100%。収穫年表示の85%と数字を取り違えない。\n85%はVQAで収穫年を表示する際、その年のブドウに求められる最低比率。"
   },
   {
     "id": "canada-007",
@@ -24687,7 +24687,7 @@ window.WINE_QUESTIONS = [
       "オンタリオ州"
     ],
     "answerIndex": 3,
-    "explanation": "ジョン・シラーが1811年にワイン造りを始めた最初の産地はオンタリオ州です。\nオンタリオ州という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。\nブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。対して、ノバ・スコシア州は大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。"
   },
   {
     "id": "canada-008",
@@ -24701,7 +24701,7 @@ window.WINE_QUESTIONS = [
       "ヴィダル"
     ],
     "answerIndex": 1,
-    "explanation": "ブリティッシュ・コロンビア州で生産量第1位の白ブドウ品種はピノ・グリです。\nピノ・グリは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "ブリティッシュ・コロンビア州で最大の白品種。Okanaganの北部など比較的冷涼な場所に適する。\nリースリングはオンタリオ州で生産量最大の品種。冷涼なNiagaraで高い酸を保ち、辛口からIcewineまで造られる。対して、ヴィダルは耐寒性のある白い交雑品種で、厚い果皮と高い酸を生かしオンタリオIcewineの中心となる。"
   },
   {
     "id": "canada-009",
@@ -24715,7 +24715,7 @@ window.WINE_QUESTIONS = [
       "Lake Erie North Shore"
     ],
     "answerIndex": 1,
-    "explanation": "Niagara Peninsulaという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Niagara Peninsulaは3つのRegional Appellationsと10のSub-appellationsを持つ。広域3、細区分10で整理する。\nOkanagan ValleyはBC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。対して、Prince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。"
   },
   {
     "id": "canada-010",
@@ -24729,7 +24729,7 @@ window.WINE_QUESTIONS = [
       "AVA"
     ],
     "answerIndex": 1,
-    "explanation": "カナダのブドウ醸造者資格同盟制度の略称はVQAです。\nVQAは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Vintners Quality Allianceの略。OntarioとBritish Columbiaで原産地・品種・収穫年などを管理する。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-011",
@@ -24743,7 +24743,7 @@ window.WINE_QUESTIONS = [
       "Fraser Valley"
     ],
     "answerIndex": 2,
-    "explanation": "Niagara Peninsulaはオンタリオ州に位置します。\nNiagara Peninsulaは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。\nOkanagan ValleyはBC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。対して、Vancouver IslandはBC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。"
   },
   {
     "id": "canada-012",
@@ -24757,7 +24757,7 @@ window.WINE_QUESTIONS = [
       "ケベック州"
     ],
     "answerIndex": 2,
-    "explanation": "この特徴に合致するのはノバ・スコシア州です。\nノバ・スコシア州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。\nオンタリオ州は五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。対して、ブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。"
   },
   {
     "id": "canada-013",
@@ -24771,7 +24771,7 @@ window.WINE_QUESTIONS = [
       "セイベル4986 × シュナン・ブラン"
     ],
     "answerIndex": 0,
-    "explanation": "ヴィダルはセイベル4986とユニ・ブランの交配品種です。\nセイベル4986 × ユニ・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Vidalの交配。フランス系交雑種Seibel 4986とUgni Blancを親に持つ。\nIcewineは自然凍結・マイナス8℃以下・高糖度果汁が軸。OntarioではVidalとRieslingが代表。"
   },
   {
     "id": "canada-014",
@@ -24785,7 +24785,7 @@ window.WINE_QUESTIONS = [
       "カナダでは全ての州でVQA規定に沿ったワイン生産が行われている。"
     ],
     "answerIndex": 2,
-    "explanation": "正しい記述は、International Blendsについての説明です。\nInternational Blendsとは、カナダ産原料と輸入した原料をカナダでブレンドし、生産瓶詰めしたワインである。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "International Blendsはカナダ産原料と輸入原料を国内でブレンド・瓶詰めしたもの。VQAワインとは原料の由来が異なる。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-015",
@@ -24799,7 +24799,7 @@ window.WINE_QUESTIONS = [
       "Prince Edward County"
     ],
     "answerIndex": 2,
-    "explanation": "ブリティッシュ・コロンビア州の栽培面積の87%を擁するのはOkanagan Valleyです。\nOkanagan Valleyは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "BC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。\nVancouver IslandはBC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。対して、Tidal BayはNova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。"
   },
   {
     "id": "canada-016",
@@ -24813,7 +24813,7 @@ window.WINE_QUESTIONS = [
       "Gulf Islands"
     ],
     "answerIndex": 3,
-    "explanation": "Gulf Islandsはブリティッシュ・コロンビア州に位置します。\nGulf Islandsは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Vancouver Islandと本土の間に点在するBC州の島嶼GIで、海の影響が強い。\nNiagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。対して、Prince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。"
   },
   {
     "id": "canada-017",
@@ -24827,7 +24827,7 @@ window.WINE_QUESTIONS = [
       "Niagara Lakeshore"
     ],
     "answerIndex": 2,
-    "explanation": "West NiagaraはNiagara Peninsulaのリジョナル・アペレーションです。\nWest Niagaraは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "West NiagaraはNiagara PeninsulaのRegional Appellation。Niagara Escarpment、Niagara-on-the-Lakeと合わせて3区分。\nLake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。"
   },
   {
     "id": "canada-018",
@@ -24841,7 +24841,7 @@ window.WINE_QUESTIONS = [
       "525万ヘクトリットル"
     ],
     "answerIndex": 0,
-    "explanation": "カナダの2024年の年間ワイン生産量に最も近いものは66万ヘクトリットルです。\n66万ヘクトリットルという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "2024年の年間生産量のおおよその値。統計問題では対象年と単位を一組にする。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-019",
@@ -24855,7 +24855,7 @@ window.WINE_QUESTIONS = [
       "Vancouver Island"
     ],
     "answerIndex": 3,
-    "explanation": "Vancouver Islandはブリティッシュ・コロンビア州に位置します。\nVancouver Islandは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "BC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。\nPrince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。対して、Tidal BayはNova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。"
   },
   {
     "id": "canada-020",
@@ -24869,7 +24869,7 @@ window.WINE_QUESTIONS = [
       "リースリング"
     ],
     "answerIndex": 3,
-    "explanation": "オンタリオ州で生産量第1位のブドウ品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ州で生産量最大の品種。冷涼なNiagaraで高い酸を保ち、辛口からIcewineまで造られる。\nメルロはブリティッシュ・コロンビア州で最大の黒品種。温暖な南Okanaganでよく熟す。"
   },
   {
     "id": "canada-021",
@@ -24883,7 +24883,7 @@ window.WINE_QUESTIONS = [
       "オンタリオ州"
     ],
     "answerIndex": 2,
-    "explanation": "4つの中で最も西側に位置するのはブリティッシュ・コロンビア州です。\nブリティッシュ・コロンビア州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "最西端はBritish Columbia。OntarioとQuebecは中東部、Nova Scotiaは大西洋岸の最東部にある。\nノバ・スコシア州は大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。対して、オンタリオ州は五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。"
   },
   {
     "id": "canada-022",
@@ -24897,7 +24897,7 @@ window.WINE_QUESTIONS = [
       "Okanagan Valley"
     ],
     "answerIndex": 3,
-    "explanation": "この特徴に合致する産地はOkanagan Valleyです。\nOkanagan Valleyは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "BC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。\nNiagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。対して、Vancouver IslandはBC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。"
   },
   {
     "id": "canada-023",
@@ -24911,7 +24911,7 @@ window.WINE_QUESTIONS = [
       "カナダでは全ての州でVQA規定に沿ったワイン生産が行われている。"
     ],
     "answerIndex": 2,
-    "explanation": "正しい記述は、現在カナダ全体に約620軒のワイナリーがある、です。\n現在カナダ全体に約620軒のワイナリーがある。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "全国のワイナリーは約620軒。生産の中心はOntarioとBritish Columbiaだが、Nova ScotiaやQuebecにも広がる。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-024",
@@ -24925,7 +24925,7 @@ window.WINE_QUESTIONS = [
       "2個"
     ],
     "answerIndex": 0,
-    "explanation": "Niagara Peninsulaの中にあるリジョナル・アペレーションは3個です。\n3個は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Niagara PeninsulaのRegional Appellationsは3つ。内部には、さらに細かな10のSub-appellationsがある。\nOntarioはNiagara Peninsulaが中心で、ほかにLake Erie North ShoreとPrince Edward Countyがある。"
   },
   {
     "id": "canada-025",
@@ -24939,7 +24939,7 @@ window.WINE_QUESTIONS = [
       "ケベック州"
     ],
     "answerIndex": 1,
-    "explanation": "この特徴に合致するのはノバ・スコシア州です。\nノバ・スコシア州という認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。\nオンタリオ州は五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。対して、ブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。"
   },
   {
     "id": "canada-026",
@@ -24953,7 +24953,7 @@ window.WINE_QUESTIONS = [
       "樹上で凍ったブドウを外気温0℃以下で収穫"
     ],
     "answerIndex": 1,
-    "explanation": "カナダのアイスワインは、樹上で凍ったブドウを外気温-8℃以下で収穫します。\n樹上で凍ったブドウを外気温-8℃以下で収穫は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Icewineは樹上で自然凍結したブドウを外気温マイナス8℃以下で収穫する。収穫後の人工冷凍は認められない。\nIcewineは自然凍結・マイナス8℃以下・高糖度果汁が軸。OntarioではVidalとRieslingが代表。"
   },
   {
     "id": "canada-027",
@@ -24967,7 +24967,7 @@ window.WINE_QUESTIONS = [
       "ブリティッシュ・コロンビア州"
     ],
     "answerIndex": 1,
-    "explanation": "カナダで最大のワイン生産量を有する産地はオンタリオ州です。\nオンタリオ州は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。\nノバ・スコシア州は大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。対して、ブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。"
   },
   {
     "id": "canada-028",
@@ -24981,7 +24981,7 @@ window.WINE_QUESTIONS = [
       "Lake Erie North Shore"
     ],
     "answerIndex": 0,
-    "explanation": "Fraser Valleyはブリティッシュ・コロンビア州に位置します。\nFraser Valleyは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "BC州南西部、Vancouver近郊の海洋性で比較的湿潤な産地。\nNiagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。対して、Prince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。"
   },
   {
     "id": "canada-029",
@@ -24995,7 +24995,7 @@ window.WINE_QUESTIONS = [
       "ケベック州"
     ],
     "answerIndex": 2,
-    "explanation": "4つの中で最も東側に位置するのはノバ・スコシア州です。\nノバ・スコシア州は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "最東端は大西洋岸のNova Scotia。British Columbiaは最西端、OntarioとQuebecはその間に位置する。\nオンタリオ州は五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。対して、ブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。"
   },
   {
     "id": "canada-030",
@@ -25009,7 +25009,7 @@ window.WINE_QUESTIONS = [
       "South Islands"
     ],
     "answerIndex": 3,
-    "explanation": "South Islandsはオンタリオ州に位置するサブ・アペレーションです。\nSouth Islandsは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Lake Erie North Shoreに属するサブ・アペレーションで、Pelee Islandなど湖上の島々を含む。\nTidal BayはNova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。対して、Fraser ValleyはBC州南西部、Vancouver近郊の海洋性で比較的湿潤な産地。"
   },
   {
     "id": "canada-031",
@@ -25023,7 +25023,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 3,
-    "explanation": "VQAワインが収穫年を表示する場合、該当するブドウの最低使用比率は85%です。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "VQAの収穫年表示は、その年のブドウ85%以上。州名表示は州産100%なので、85と100を対で覚える。\n100%はVQAで州名を表示する際、その州産ブドウに求められる比率。"
   },
   {
     "id": "canada-032",
@@ -25037,7 +25037,7 @@ window.WINE_QUESTIONS = [
       "Tidal Bay"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致する産地はPrince Edward Countyです。\nPrince Edward Countyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。\nLake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。対して、Niagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。"
   },
   {
     "id": "canada-033",
@@ -25051,7 +25051,7 @@ window.WINE_QUESTIONS = [
       "Fraser Valley"
     ],
     "answerIndex": 0,
-    "explanation": "ブリティッシュ・コロンビア州最大の産地はOkanagan Valleyです。\nOkanagan Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "BC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。\nPrince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。対して、Lake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。"
   },
   {
     "id": "canada-034",
@@ -25065,7 +25065,7 @@ window.WINE_QUESTIONS = [
       "Niagara Escarpment"
     ],
     "answerIndex": 2,
-    "explanation": "West NiagaraはNiagara Peninsulaに属します。\nNiagara Peninsulaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "West NiagaraはNiagara Peninsulaの広域区分。単独の州GIではなく、Niagara内部のRegional Appellation。\nOkanagan ValleyはBC州栽培面積の約87%を占める最大産地。南北に長く、冷涼な北と暑く乾燥する南で品種が変わる。対して、Niagara-on-the-LakeはNiagara Peninsulaの東側、オンタリオ湖岸の比較的平坦で温暖な地域。"
   },
   {
     "id": "canada-035",
@@ -25079,7 +25079,7 @@ window.WINE_QUESTIONS = [
       "カベルネ・ソーヴィニョン"
     ],
     "answerIndex": 0,
-    "explanation": "オンタリオ州でアイスワインの生産量第1位のブドウ品種はヴィダルです。\nヴィダルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "耐寒性のある白い交雑品種で、厚い果皮と高い酸を生かしオンタリオIcewineの中心となる。\nリースリングはオンタリオ州で生産量最大の品種。冷涼なNiagaraで高い酸を保ち、辛口からIcewineまで造られる。"
   },
   {
     "id": "canada-036",
@@ -25093,7 +25093,7 @@ window.WINE_QUESTIONS = [
       "Prince Edward County"
     ],
     "answerIndex": 1,
-    "explanation": "12のサブ・リージョンを擁する産地はOkanagan Valleyです。\nOkanagan Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Okanagan Valleyには12のサブ・リージョンがあり、教本時点で11がSub-GI承認済み。数は改訂されやすい論点。\nNiagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。対して、Vancouver IslandはBC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。"
   },
   {
     "id": "canada-037",
@@ -25107,7 +25107,7 @@ window.WINE_QUESTIONS = [
       "1627年"
     ],
     "answerIndex": 1,
-    "explanation": "ジョン・シラーがワイン造りを始めた年代は1811年です。\n1811年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "John Schillerがオンタリオ州でワイン造りを始めた年。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-038",
@@ -25121,7 +25121,7 @@ window.WINE_QUESTIONS = [
       "Lake Erie North Shore"
     ],
     "answerIndex": 2,
-    "explanation": "Golden Mile BenchはOkanagan Valleyに属します。\nOkanagan Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Golden Mile BenchはOkanagan Valley南部のSub-GI。Black Sage BenchやOsoyoosも同じ南部に集まる。\nPrince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。対して、Niagara Peninsulaはオンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。"
   },
   {
     "id": "canada-039",
@@ -25135,7 +25135,7 @@ window.WINE_QUESTIONS = [
       "Tidal Bay"
     ],
     "answerIndex": 1,
-    "explanation": "オンタリオ湖とエリー湖を区切る位置にある産地はNiagara Peninsulaです。\nNiagara Peninsulaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。\nVancouver IslandはBC州太平洋岸の島嶼産地。海洋性気候でPinot Noirなど冷涼品種が中心。対して、Prince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。"
   },
   {
     "id": "canada-040",
@@ -25149,7 +25149,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 2,
-    "explanation": "ブリティッシュ・コロンビア州で生産量第1位の黒ブドウ品種はメルロです。\nメルロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "ブリティッシュ・コロンビア州で最大の黒品種。温暖な南Okanaganでよく熟す。\nBCはOkanaganが中心。北は白・冷涼品種、南のOsoyoos周辺はMerlotなど黒品種が得意。"
   },
   {
     "id": "canada-041",
@@ -25163,7 +25163,7 @@ window.WINE_QUESTIONS = [
       "Gulf Islands"
     ],
     "answerIndex": 0,
-    "explanation": "Prince Edward Countyはオンタリオ州に位置します。\nPrince Edward Countyは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。\nSimilkameen ValleyはOkanaganの西側にある乾燥したBC州産地。山に囲まれ、強風と大きな日較差が特徴。対して、Fraser ValleyはBC州南西部、Vancouver近郊の海洋性で比較的湿潤な産地。"
   },
   {
     "id": "canada-042",
@@ -25177,7 +25177,7 @@ window.WINE_QUESTIONS = [
       "Niagara Lakeshore"
     ],
     "answerIndex": 2,
-    "explanation": "Niagara-on-the-LakeはNiagara Peninsulaに属します。\nNiagara Peninsulaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Niagara-on-the-LakeはNiagara Peninsula東部のRegional Appellation。オンタリオ湖の緩和作用を受ける。\nNiagara EscarpmentはNiagara Peninsulaの3 Regional Appellationsの一つ。断崖斜面とオンタリオ湖の影響を受ける。"
   },
   {
     "id": "canada-043",
@@ -25191,7 +25191,7 @@ window.WINE_QUESTIONS = [
       "Niagara-on-the-Lake"
     ],
     "answerIndex": 1,
-    "explanation": "Niagara EscarpmentはNiagara Peninsulaに属します。\nNiagara Peninsulaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Niagara EscarpmentはNiagara PeninsulaのRegional Appellation。断崖の斜面と湖風が排水・気温を左右する。\nNiagara-on-the-LakeはNiagara Peninsulaの東側、オンタリオ湖岸の比較的平坦で温暖な地域。"
   },
   {
     "id": "canada-044",
@@ -25205,7 +25205,7 @@ window.WINE_QUESTIONS = [
       "サミュエル・マースデン"
     ],
     "answerIndex": 0,
-    "explanation": "カナダで1811年に最初のワイン造りを始めた人物はジョン・シラーです。\nジョン・シラーという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "1811年にオンタリオ州でワイン造りを始めた、カナダ初期ワイン史の人物。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-045",
@@ -25219,7 +25219,7 @@ window.WINE_QUESTIONS = [
       "オンタリオ州"
     ],
     "answerIndex": 3,
-    "explanation": "カナダで最大のブドウ栽培面積を有するワイン産地はオンタリオ州です。\nオンタリオ州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "五大湖の影響で寒さが緩和される国内最大産地。Niagara Peninsulaが生産の中心。\nノバ・スコシア州は大西洋に囲まれた東部の冷涼州。高酸の白と瓶内二次発酵スパークリングが評価される。対して、ブリティッシュ・コロンビア州は太平洋岸の西端の州だが、主要産地Okanaganは山脈の雨陰にある乾燥した内陸地。"
   },
   {
     "id": "canada-046",
@@ -25233,7 +25233,7 @@ window.WINE_QUESTIONS = [
       "International Blendsとは、カナダ産ブドウを100%使用し、シャルドネなど国際品種のみのブレンドで造られる高品質ワインである。"
     ],
     "answerIndex": 0,
-    "explanation": "VQA規定に沿ったワイン生産が行われているのはOntario州とBritish Columbia州です。\nカナダではOntario州とBritish Columbia州でのみVQA規定に沿ったワイン生産が行われている。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "VQA制度を運用するのはOntarioとBritish Columbia。Nova ScotiaやQuebecにも産地はあるがVQA州ではない。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-047",
@@ -25247,7 +25247,7 @@ window.WINE_QUESTIONS = [
       "Fraser Valley"
     ],
     "answerIndex": 2,
-    "explanation": "Tidal Bayはノバ・スコシア州に位置します。\nTidal Bayは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Nova Scotiaの冷涼な海洋性を表す白ワインのアペレーションで、爽やかな酸と低めのアルコールが特徴。\nGulf IslandsはVancouver Islandと本土の間に点在するBC州の島嶼GIで、海の影響が強い。対して、Prince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。"
   },
   {
     "id": "canada-048",
@@ -25261,7 +25261,7 @@ window.WINE_QUESTIONS = [
       "International Blendsとは、カナダ産ブドウを100%使用し、シャルドネなど国際品種のみのブレンドで造られる高品質ワインである。"
     ],
     "answerIndex": 1,
-    "explanation": "カナダにはNova Scotia州とQuebec州にもワイン産地がある。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Nova ScotiaとQuebecにもワイン産地がある。主要2州だけを「カナダ全産地」と誤認しないことがポイント。\n地図は西のBritish Columbia、五大湖周辺のOntario、東のQuebecとNova Scotiaで組み立てる。"
   },
   {
     "id": "canada-049",
@@ -25275,7 +25275,7 @@ window.WINE_QUESTIONS = [
       "Golden Mile Bench"
     ],
     "answerIndex": 3,
-    "explanation": "Golden Mile Benchは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Golden Mile Benchは2015年、Okanagan Valleyで最初に正式承認されたSub-GI。南部の西側斜面に位置する。\nBCはOkanaganが中心。北は白・冷涼品種、南のOsoyoos周辺はMerlotなど黒品種が得意。"
   },
   {
     "id": "canada-050",
@@ -25289,7 +25289,7 @@ window.WINE_QUESTIONS = [
       "Vancouver Island"
     ],
     "answerIndex": 2,
-    "explanation": "北緯43度に位置するカナダ最大の産地はNiagara Peninsulaです。\nNiagara Peninsulaは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "オンタリオ湖とエリー湖の間にある国内最大産地。3 Regional Appellationsと10 Sub-appellationsを持つ。\nPrince Edward Countyはオンタリオ湖北東岸の石灰岩質産地。厳冬のため樹を土中に埋めて越冬させることもある。対して、Lake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。"
   },
   {
     "id": "canada-051",
@@ -25303,7 +25303,7 @@ window.WINE_QUESTIONS = [
       "Lake Erie North Shore"
     ],
     "answerIndex": 2,
-    "explanation": "Niagara EscarpmentはNiagara Peninsulaのリジョナル・アペレーションです。\nNiagara Escarpmentは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nカナダのVQAは産地と品種表示を管理し、冷涼気候とIcewineの収穫条件が重要になる。"
+    "explanation": "Niagara Escarpmentは3つあるRegional Appellationsの一つ。West Niagara、Niagara-on-the-Lakeと同階層。\nLake Erie North Shoreはオンタリオ州南西端、エリー湖北岸の温暖な産地で、South Islandsを含む。"
   },
   {
     "id": "chile-001",
@@ -26887,7 +26887,7 @@ window.WINE_QUESTIONS = [
       "Limestone Coast"
     ],
     "answerIndex": 0,
-    "explanation": "オーストラリアで最初にフィロキセラが発見された産地はGeelongです。\nGeelongという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Geelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。\nMcLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。対して、Swan HillはMurray川流域にまたがる温暖な灌漑産地。"
   },
   {
     "id": "australia-002",
@@ -26901,7 +26901,7 @@ window.WINE_QUESTIONS = [
       "Australian Pinot Noir Challenge"
     ],
     "answerIndex": 3,
-    "explanation": "Australian Pinot Noir Challengeという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Australian Pinot Noir ChallengeはMornington Peninsulaで行われるピノ・ノワールの全国品評会。\nJimmy Watson TrophyはRoyal Melbourne Wine Showで、仕込み後1年の最優秀辛口赤ワインに贈られる賞。"
   },
   {
     "id": "australia-003",
@@ -26915,7 +26915,7 @@ window.WINE_QUESTIONS = [
       "Margaret River"
     ],
     "answerIndex": 0,
-    "explanation": "Clare Valleyは南オーストラリア州に属します。\nClare Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Clare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。\nTamar Valleyはタスマニア北部の主要ワイン産地で、冷涼気候品種と発泡性ワインが中心。対して、Mornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。"
   },
   {
     "id": "australia-004",
@@ -26929,7 +26929,7 @@ window.WINE_QUESTIONS = [
       "タスマニア州"
     ],
     "answerIndex": 0,
-    "explanation": "2024年のワイン用ブドウ破砕量第3位はヴィクトリア州です。\nヴィクトリア州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ヴィクトリア州。年号は人物・産地・出来事と一組にする。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。"
   },
   {
     "id": "australia-005",
@@ -26943,7 +26943,7 @@ window.WINE_QUESTIONS = [
       "ヴィクトリア州"
     ],
     "answerIndex": 1,
-    "explanation": "オーストラリアのワイン産業の起源と言える州はニュー・サウス・ウェールズ州です。\nニュー・サウス・ウェールズ州は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ニュー・サウス・ウェールズ州。豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。"
   },
   {
     "id": "australia-006",
@@ -26957,7 +26957,7 @@ window.WINE_QUESTIONS = [
       "Padthaway"
     ],
     "answerIndex": 2,
-    "explanation": "Margaret Riverは地中海性気候の産地です。\nMargaret Riverは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。\nCoonawarraはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。対して、Geelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。"
   },
   {
     "id": "australia-007",
@@ -26971,7 +26971,7 @@ window.WINE_QUESTIONS = [
       "ルビー"
     ],
     "answerIndex": 0,
-    "explanation": "20年以上熟成の最高峰とされるTopaqueはレアです。\nレアという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "レアは長期熟成したRutherglen Topaqueの最高カテゴリー。\nドライはAperaの辛口カテゴリー。"
   },
   {
     "id": "australia-008",
@@ -26987,7 +26987,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ライムストーンコースト"
     ],
-    "explanation": "地図上の7番はLimestone Coast、カタカナではライムストーン・コーストです。\nライムストーン・コーストは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ライムストーン・コーストは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
   },
   {
     "id": "australia-009",
@@ -27001,7 +27001,7 @@ window.WINE_QUESTIONS = [
       "20%以上"
     ],
     "answerIndex": 0,
-    "explanation": "5種類以下のブドウ品種を表示する場合、各品種が5%以上含まれる必要があります。\n5%以上は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "5%以上は複数品種表示で各品種に求められる最低含有率。\n20%以上は3品種を表示する場合に各品種へ求められる比率の考え方。"
   },
   {
     "id": "australia-010",
@@ -27015,7 +27015,7 @@ window.WINE_QUESTIONS = [
       "Margaret River, Hunter, Adelaide Hills, Great Southern"
     ],
     "answerIndex": 2,
-    "explanation": "Margaret River, Great Southern, Yarra Valley, Hunterは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Margaret River→Great Southern→Yarra Valley→Hunter。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
   },
   {
     "id": "australia-011",
@@ -27029,7 +27029,7 @@ window.WINE_QUESTIONS = [
       "112〜596m"
     ],
     "answerIndex": 0,
-    "explanation": "Eden Valleyの標高は219〜632mです。\n219〜632mは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "219〜632m。数値・順位は対象年と、州別か品種別かを確認する。\nSouth AustraliaはBarossa・Eden・Clare・McLaren Vale・Limestone CoastをAdelaideとの位置で整理する。"
   },
   {
     "id": "australia-012",
@@ -27043,7 +27043,7 @@ window.WINE_QUESTIONS = [
       "Tumbarumba"
     ],
     "answerIndex": 0,
-    "explanation": "Tamar Valleyはタスマニア州に属します。\nTamar Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Tamar Valleyはタスマニア北部の主要ワイン産地で、冷涼気候品種と発泡性ワインが中心。\nMcLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。対して、Peelは西オーストラリア州、Perthの南側に位置する産地。"
   },
   {
     "id": "australia-013",
@@ -27057,7 +27057,7 @@ window.WINE_QUESTIONS = [
       "複数の品種が使用されている場合、原則として品種の表記は認められない"
     ],
     "answerIndex": 0,
-    "explanation": "5つ以下の品種で、各品種が5%以上含まれる場合、すべてを表示できます。\n使用品種が5つ以下で、各々5%以上含まれていた場合、これら全てを表示するは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "判断の要点は「使用品種が5つ以下で、各々5%以上含まれていた場合、これら全てを表示する」。数値・表示順・含有率のどこが他肢と異なるかを見る。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。"
   },
   {
     "id": "australia-014",
@@ -27071,7 +27071,7 @@ window.WINE_QUESTIONS = [
       "Margaret River, Coonawarra, Yarra Valley, Hunter"
     ],
     "answerIndex": 3,
-    "explanation": "西から東へ、Margaret River、Coonawarra、Yarra Valley、Hunterの順です。\nMargaret River, Coonawarra, Yarra Valley, Hunterは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Margaret River→Coonawarra→Yarra Valley→Hunter。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
   },
   {
     "id": "australia-015",
@@ -27084,7 +27084,7 @@ window.WINE_QUESTIONS = [
       "caption": "南オーストラリア州 ワイン産地"
     },
     "answerText": "クナワラ",
-    "explanation": "地図上の8番はCoonawarra、カタカナではクナワラです。\nクナワラは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "クナワラはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
   },
   {
     "id": "australia-016",
@@ -27098,7 +27098,7 @@ window.WINE_QUESTIONS = [
       "ヤン・ファン・リーベック"
     ],
     "answerIndex": 0,
-    "explanation": "オーストラリアのワイン用ブドウ栽培の父と呼ばれる人物はジェームズ・バズビーです。\nジェームズ・バズビーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ジェームズ・バズビーは欧州から多数のブドウ品種を持ち帰り、豪州ワイン産業の父と呼ばれる人物。\n歴史は1788年の植樹、Busbyの品種導入、州ごとの開拓、近代の品質革新を時系列で結ぶ。"
   },
   {
     "id": "australia-017",
@@ -27112,7 +27112,7 @@ window.WINE_QUESTIONS = [
       "International Wine Celebration"
     ],
     "answerIndex": 1,
-    "explanation": "Jimmy Watson Trophyという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Jimmy Watson TrophyはRoyal Melbourne Wine Showで、仕込み後1年の最優秀辛口赤ワインに贈られる賞。\nAustralian Pinot Noir ChallengeはMornington Peninsulaで行われるピノ・ノワールの全国品評会。"
   },
   {
     "id": "australia-018",
@@ -27126,7 +27126,7 @@ window.WINE_QUESTIONS = [
       "Rutherglen"
     ],
     "answerIndex": 0,
-    "explanation": "Mornington Peninsulaという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "Mornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。\nGreat Southernは西オーストラリア州南部の広大な冷涼産地で、Riesling、Shiraz、Cabernetが重要。対して、Clare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。"
   },
   {
     "id": "australia-019",
@@ -27140,7 +27140,7 @@ window.WINE_QUESTIONS = [
       "ニュー・サウス・ウェールズ州"
     ],
     "answerIndex": 2,
-    "explanation": "2019年のワイン用ブドウ栽培面積第3位はヴィクトリア州です。\nヴィクトリア州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ヴィクトリア州。年号は人物・産地・出来事と一組にする。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。"
   },
   {
     "id": "australia-020",
@@ -27154,7 +27154,7 @@ window.WINE_QUESTIONS = [
       "シラーズ、グルナッシュ、ムールヴェードル"
     ],
     "answerIndex": 1,
-    "explanation": "Topaqueの主要品種はミュスカデルです。\nミュスカデルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "ミュスカデルはRutherglenのTopaqueに用いる品種。かつてTokayの名で知られた。\nシラーズ、グルナッシュ、ムールヴェードルは南オーストラリア州で典型的なGSMブレンドの3品種。"
   },
   {
     "id": "australia-021",
@@ -27168,7 +27168,7 @@ window.WINE_QUESTIONS = [
       "同国で3番目に大きい島"
     ],
     "answerIndex": 3,
-    "explanation": "カンガルー島はオーストラリアで3番目に大きい島です。\n同国で3番目に大きい島は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "同国で3番目に大きい島。South AustraliaはBarossa・Eden・Clare・McLaren Vale・Limestone CoastをAdelaideとの位置で整理する。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。"
   },
   {
     "id": "australia-022",
@@ -27182,7 +27182,7 @@ window.WINE_QUESTIONS = [
       "ニュー・サウス・ウェールズ州"
     ],
     "answerIndex": 2,
-    "explanation": "2024年のワイン用ブドウ破砕量第1位は南オーストラリア州です。\n南オーストラリア州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "南オーストラリア州。年号は人物・産地・出来事と一組にする。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。"
   },
   {
     "id": "australia-023",
@@ -27196,7 +27196,7 @@ window.WINE_QUESTIONS = [
       "Adelaide Hills"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致するのはTasmaniaです。\nTasmaniaは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Tasmaniaは南緯の高い冷涼な海洋性産地で、ピノ・ノワール、シャルドネ、発泡性ワインが中心。\nMcLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。対して、Swan HillはMurray川流域にまたがる温暖な灌漑産地。"
   },
   {
     "id": "australia-024",
@@ -27210,7 +27210,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 3,
-    "explanation": "特定のブドウ品種を表示する場合の最低使用比率は85%です。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "85%は単一品種名または収穫年を表示する際の基本的な最低比率。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。"
   },
   {
     "id": "australia-025",
@@ -27224,7 +27224,7 @@ window.WINE_QUESTIONS = [
       "McLaren Vale"
     ],
     "answerIndex": 2,
-    "explanation": "パースに最も近い選択肢はMargaret Riverです。\nMargaret Riverは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。\nTasmaniaは南緯の高い冷涼な海洋性産地で、ピノ・ノワール、シャルドネ、発泡性ワインが中心。対して、Clare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。"
   },
   {
     "id": "australia-026",
@@ -27238,7 +27238,7 @@ window.WINE_QUESTIONS = [
       "Peel"
     ],
     "answerIndex": 3,
-    "explanation": "Peelは西オーストラリア州に属します。\nPeelは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "Peelは西オーストラリア州、Perthの南側に位置する産地。\nLanghorne CreekはAdelaide南東、Lake Alexandrinaの影響を受ける平坦な産地。対して、Tamar Valleyはタスマニア北部の主要ワイン産地で、冷涼気候品種と発泡性ワインが中心。"
   },
   {
     "id": "australia-027",
@@ -27257,7 +27257,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 1,
-    "explanation": "Coonawarraに相当する番号は8番です。\n8番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。"
+    "explanation": "8番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。"
   },
   {
     "id": "australia-028",
@@ -27270,7 +27270,7 @@ window.WINE_QUESTIONS = [
       "ヤラ・ヴァレー"
     ],
     "answerIndex": 1,
-    "explanation": "クナワラは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "クナワラはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。\nバロッサ・ヴァレーはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。",
     "importance": "B"
   },
   {
@@ -27284,7 +27284,7 @@ window.WINE_QUESTIONS = [
       "Padthaway"
     ],
     "answerIndex": 3,
-    "explanation": "Padthawayは南オーストラリア州の産地です。\nPadthawayは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "PadthawayはLimestone Coast内、Coonawarraの北側に位置する平坦な産地。\nGeelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。対して、Great Southernは西オーストラリア州南部の広大な冷涼産地で、Riesling、Shiraz、Cabernetが重要。",
     "importance": "C"
   },
   {
@@ -27298,7 +27298,7 @@ window.WINE_QUESTIONS = [
       "75%以上"
     ],
     "answerIndex": 1,
-    "explanation": "3種類以下のブドウ品種を表示する場合、各品種が20%以上含まれ、合計が85%以上である必要があります。\n20%以上は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "20%以上は3品種を表示する場合に各品種へ求められる比率の考え方。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。",
     "importance": "A"
   },
   {
@@ -27312,7 +27312,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 1,
-    "explanation": "2024年の黒ブドウ品種の破砕量第2位はカベルネ・ソーヴィニョンです。\nカベルネ・ソーヴィニョンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "カベルネ・ソーヴィニョンは豪州の主要黒品種で、CoonawarraとMargaret Riverが代表産地。\nシラーズは豪州を象徴する黒品種で、Barossaの濃厚型から冷涼地のスパイシー型まで幅広い。対して、ピノ・ノワールはTasmania、Yarra Valley、Mornington Peninsulaなど冷涼地の主要黒品種。",
     "importance": "B"
   },
   {
@@ -27326,7 +27326,7 @@ window.WINE_QUESTIONS = [
       "スイート"
     ],
     "answerIndex": 0,
-    "explanation": "TopaqueのカテゴリーにはRare（レア）があります。\nレアは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "レアは長期熟成したRutherglen Topaqueの最高カテゴリー。\nスイートはAperaの甘口カテゴリー。",
     "importance": "B"
   },
   {
@@ -27340,7 +27340,7 @@ window.WINE_QUESTIONS = [
       "Great Southern, Hunter, Margaret River, Adelaide Hills"
     ],
     "answerIndex": 2,
-    "explanation": "Margaret River, Great Southern, Adelaide Hills, Yarra Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Margaret River→Great Southern→Adelaide Hills→Yarra Valley。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -27354,7 +27354,7 @@ window.WINE_QUESTIONS = [
       "Tasmania"
     ],
     "answerIndex": 1,
-    "explanation": "Clare Valleyは大陸性気候の産地です。\nClare Valleyは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Clare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。\nKangaroo Islandは南オーストラリア州沖にある同国第3の大島で、海洋の影響を強く受ける。対して、Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。",
     "importance": "B"
   },
   {
@@ -27368,7 +27368,7 @@ window.WINE_QUESTIONS = [
       "Margaret River"
     ],
     "answerIndex": 3,
-    "explanation": "Margaret Riverは西オーストラリア州の産地です。\nMargaret Riverは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。\nKing Valleyはヴィクトリア州北東部の高地を含み、イタリア系品種の栽培で知られる。対して、Langhorne CreekはAdelaide南東、Lake Alexandrinaの影響を受ける平坦な産地。",
     "importance": "C"
   },
   {
@@ -27382,7 +27382,7 @@ window.WINE_QUESTIONS = [
       "Apera"
     ],
     "answerIndex": 3,
-    "explanation": "オーストラリアではシェリータイプの酒精強化ワインは現在Aperaと呼ばれます。\nAperaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Aperaは豪州産シェリーの現在の名称で、辛口から甘口までカテゴリーを持つ酒精強化ワイン。\nTopaqueは豪州産Tokayの現在の名称で、主にMuscadelleから造る酒精強化ワイン。",
     "importance": "B"
   },
   {
@@ -27396,7 +27396,7 @@ window.WINE_QUESTIONS = [
       "Tasmania, Great Southern, Margaret River, Clare Valley"
     ],
     "answerIndex": 1,
-    "explanation": "東から西へ、Hunter、Tasmania、Great Southern、Margaret Riverの順です。\nHunter, Tasmania, Great Southern, Margaret Riverは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Hunter→Tasmania→Great Southern→Margaret River。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -27410,7 +27410,7 @@ window.WINE_QUESTIONS = [
       "McLaren Vale"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致する産地はMornington Peninsulaです。\nMornington Peninsulaは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Mornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。\nHunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。対して、McLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。",
     "importance": "A"
   },
   {
@@ -27424,7 +27424,7 @@ window.WINE_QUESTIONS = [
       "20%以上含まれる品種が3つ以下で、合計75%以上含まれていた場合、これら全てを表示する"
     ],
     "answerIndex": 0,
-    "explanation": "3つ以下のGIのワインが合計95%以上含まれる場合、多い順に表示できます。\n3つ以下のGIのワインが合計95%以上含まれていた場合、これを多い順に表示できるは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "判断の要点は「3つ以下のGIのワインが合計95%以上含まれていた場合、これを多い順に表示できる」。数値・表示順・含有率のどこが他肢と異なるかを見る。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。",
     "importance": "A"
   },
   {
@@ -27438,7 +27438,7 @@ window.WINE_QUESTIONS = [
       "1725年"
     ],
     "answerIndex": 2,
-    "explanation": "タスマニア州に最初にワイン用ブドウ樹がもたらされたのは1823年です。\n1823年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1823年。年号は人物・産地・出来事と一組にする。\nTasmaniaは海洋性の冷涼地で、ピノ・ノワール、シャルドネ、瓶内二次発酵ワインが頻出。",
     "importance": "C"
   },
   {
@@ -27452,7 +27452,7 @@ window.WINE_QUESTIONS = [
       "シラーズ"
     ],
     "answerIndex": 3,
-    "explanation": "2024年のワイン用ブドウ破砕量第2位はシラーズです。\nシラーズは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "シラーズは豪州を象徴する黒品種で、Barossaの濃厚型から冷涼地のスパイシー型まで幅広い。\nソーヴィニョン・ブランは豪州の主要白品種で、Adelaide HillsやMargaret Riverなどで重要。対して、シャルドネは豪州の主要白品種で、温暖地から冷涼地まで広く栽培される。",
     "importance": "B"
   },
   {
@@ -27466,7 +27466,7 @@ window.WINE_QUESTIONS = [
       "Treasury Wine Estates"
     ],
     "answerIndex": 1,
-    "explanation": "Vinarchy（ヴィナーキー）という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Vinarchy（ヴィナーキー）はAccolade WinesとPernod Ricard Winemakersの統合で誕生した大手ワイン企業。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "C"
   },
   {
@@ -27480,7 +27480,7 @@ window.WINE_QUESTIONS = [
       "樹齢125年以上"
     ],
     "answerIndex": 0,
-    "explanation": "Barossa Old Vineは樹齢35年以上の樹を指します。\n樹齢35年以上は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "樹齢35年以上。South AustraliaはBarossa・Eden・Clare・McLaren Vale・Limestone CoastをAdelaideとの位置で整理する。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "C"
   },
   {
@@ -27494,7 +27494,7 @@ window.WINE_QUESTIONS = [
       "Barossa Valley"
     ],
     "answerIndex": 3,
-    "explanation": "この選択肢の中ではBarossa Valleyがアデレードに最も近い産地です。\nBarossa Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Barossa ValleyはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。\nHunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。対して、Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。",
     "importance": "C"
   },
   {
@@ -27508,7 +27508,7 @@ window.WINE_QUESTIONS = [
       "カベルネ・ソーヴィニョン"
     ],
     "answerIndex": 3,
-    "explanation": "2024年のワイン用ブドウ破砕量第3位はカベルネ・ソーヴィニョンです。\nカベルネ・ソーヴィニョンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "カベルネ・ソーヴィニョンは豪州の主要黒品種で、CoonawarraとMargaret Riverが代表産地。\nシャルドネは豪州の主要白品種で、温暖地から冷涼地まで広く栽培される。対して、ソーヴィニョン・ブランは豪州の主要白品種で、Adelaide HillsやMargaret Riverなどで重要。",
     "importance": "B"
   },
   {
@@ -27522,7 +27522,7 @@ window.WINE_QUESTIONS = [
       "ラザグレン"
     ],
     "answerIndex": 1,
-    "explanation": "AperaにはDry（ドライ）のカテゴリーがあります。\nドライは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ドライはAperaの辛口カテゴリー。\nラザグレンはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。",
     "importance": "B"
   },
   {
@@ -27536,7 +27536,7 @@ window.WINE_QUESTIONS = [
       "Swan Hill"
     ],
     "answerIndex": 0,
-    "explanation": "Barossa Valleyはオーストラリアの酒精強化ワインの代表的産地の一つです。\nBarossa Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Barossa ValleyはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。\nLimestone Coastは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。対して、Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。",
     "importance": "B"
   },
   {
@@ -27550,7 +27550,7 @@ window.WINE_QUESTIONS = [
       "約4100社"
     ],
     "answerIndex": 2,
-    "explanation": "2024年のオーストラリアのワイナリー数は約2200社です。\n約2200社という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "約2200社は豪州のワイナリー数のおおよその規模。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "C"
   },
   {
@@ -27564,7 +27564,7 @@ window.WINE_QUESTIONS = [
       "1889年"
     ],
     "answerIndex": 0,
-    "explanation": "南オーストラリア州に最初の移民が入植したのは1836年です。\n1836年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1836年。年号は人物・産地・出来事と一組にする。\nSouth AustraliaはBarossa・Eden・Clare・McLaren Vale・Limestone CoastをAdelaideとの位置で整理する。",
     "importance": "C"
   },
   {
@@ -27583,7 +27583,7 @@ window.WINE_QUESTIONS = [
       "マクラーレンベール",
       "McLaren Vale"
     ],
-    "explanation": "地図上の5番はMcLaren Vale（マクラーレン・ヴェール）です。\nマクラーレン・ヴェールは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "マクラーレン・ヴェールはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "B"
   },
   {
@@ -27597,7 +27597,7 @@ window.WINE_QUESTIONS = [
       "3種類以下"
     ],
     "answerIndex": 0,
-    "explanation": "5種類以下のブドウ品種を使用し、各品種が5%以上含まれる場合は、すべて表示します。\n5種類以下は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "5種類以下は複数品種を表示する際の品種数上限。\n3種類以下は複数GIを表示する際のGI数上限。",
     "importance": "A"
   },
   {
@@ -27616,7 +27616,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "Barossa Valleyに相当する番号は1番です。\n1番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "C"
   },
   {
@@ -27630,7 +27630,7 @@ window.WINE_QUESTIONS = [
       "ロゼワイン"
     ],
     "answerIndex": 2,
-    "explanation": "1930〜1960年代まで、オーストラリアでは酒精強化ワインがワイン全体の生産量の約70%を占めていました。\n酒精強化ワインという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "酒精強化ワインはAperaとTopaqueが属するカテゴリー。\n歴史は1788年の植樹、Busbyの品種導入、州ごとの開拓、近代の品質革新を時系列で結ぶ。",
     "importance": "C"
   },
   {
@@ -27644,7 +27644,7 @@ window.WINE_QUESTIONS = [
       "1780年代"
     ],
     "answerIndex": 1,
-    "explanation": "バロッサ・ヴァレーでは1840年代に現在のドイツ周辺からの入植者がワイン醸造を始めました。\n1840年代という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1840年代。年号は人物・産地・出来事と一組にする。\n歴史は1788年の植樹、Busbyの品種導入、州ごとの開拓、近代の品質革新を時系列で結ぶ。",
     "importance": "C"
   },
   {
@@ -27658,7 +27658,7 @@ window.WINE_QUESTIONS = [
       "Hunter"
     ],
     "answerIndex": 1,
-    "explanation": "Langhorne Creekは南オーストラリア州の産地です。\nLanghorne Creekは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Langhorne CreekはAdelaide南東、Lake Alexandrinaの影響を受ける平坦な産地。\nRutherglenはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。対して、Hunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。",
     "importance": "C"
   },
   {
@@ -27672,7 +27672,7 @@ window.WINE_QUESTIONS = [
       "McLaren Vale"
     ],
     "answerIndex": 0,
-    "explanation": "Clare Valleyと並ぶ高品質なリースリング産地はEden Valleyです。\nEden Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。\nLanghorne CreekはAdelaide南東、Lake Alexandrinaの影響を受ける平坦な産地。対して、Adelaide HillsはAdelaide東側の冷涼な高地産地で、ソーヴィニョン・ブランやシャルドネが重要。",
     "importance": "B"
   },
   {
@@ -27686,7 +27686,7 @@ window.WINE_QUESTIONS = [
       "シドニー大学"
     ],
     "answerIndex": 2,
-    "explanation": "オーストラリアでブドウ栽培・ワイン醸造学の教育の中心となっている大学はアデレード大学です。\nアデレード大学は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "アデレード大学はRoseworthy Agricultural Collegeの教育研究を継承する豪州の重要なワイン教育機関。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "A"
   },
   {
@@ -27700,7 +27700,7 @@ window.WINE_QUESTIONS = [
       "Eden Valley"
     ],
     "answerIndex": 1,
-    "explanation": "ジョン・レイネルがChateau Reynellaを興したことに始まる産地はMcLaren Valeです。\nMcLaren Valeという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "McLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。\nGeelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。対して、Mornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。",
     "importance": "C"
   },
   {
@@ -27714,7 +27714,7 @@ window.WINE_QUESTIONS = [
       "Coonawarra"
     ],
     "answerIndex": 1,
-    "explanation": "この選択肢の中ではMcLaren Valeがアデレードに最も近い産地です。\nMcLaren Valeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "McLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。\nHunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。対して、Tasmaniaは南緯の高い冷涼な海洋性産地で、ピノ・ノワール、シャルドネ、発泡性ワインが中心。",
     "importance": "C"
   },
   {
@@ -27728,7 +27728,7 @@ window.WINE_QUESTIONS = [
       "特定の収穫年のワインが75%以上含まれていた場合、これを表示できる"
     ],
     "answerIndex": 0,
-    "explanation": "複数品種を表示する場合、原則として全ての品種を多い順に表示します。\n複数の品種が使用されている場合、原則として全ての品種を多い順に表示することとなっているは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "判断の要点は「複数の品種が使用されている場合、原則として全ての品種を多い順に表示することとなっている」。数値・表示順・含有率のどこが他肢と異なるかを見る。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。",
     "importance": "S"
   },
   {
@@ -27742,7 +27742,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ"
     ],
     "answerIndex": 0,
-    "explanation": "2024年の白ブドウ品種の破砕量第2位はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ソーヴィニョン・ブランは豪州の主要白品種で、Adelaide HillsやMargaret Riverなどで重要。\nシャルドネは豪州の主要白品種で、温暖地から冷涼地まで広く栽培される。",
     "importance": "B"
   },
   {
@@ -27756,7 +27756,7 @@ window.WINE_QUESTIONS = [
       "Geelong"
     ],
     "answerIndex": 1,
-    "explanation": "Pewsey Valeを有し、シラーズとリースリングの重要産地であるのはEden Valleyです。\nEden Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。\nGreat Southernは西オーストラリア州南部の広大な冷涼産地で、Riesling、Shiraz、Cabernetが重要。対して、Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。",
     "importance": "B"
   },
   {
@@ -27770,7 +27770,7 @@ window.WINE_QUESTIONS = [
       "340年"
     ],
     "answerIndex": 2,
-    "explanation": "オーストラリアのワイン造りの歴史は約230年です。\n230年は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "230年。数値・順位は対象年と、州別か品種別かを確認する。\n歴史は1788年の植樹、Busbyの品種導入、州ごとの開拓、近代の品質革新を時系列で結ぶ。",
     "importance": "C"
   },
   {
@@ -27784,7 +27784,7 @@ window.WINE_QUESTIONS = [
       "ホワイト"
     ],
     "answerIndex": 1,
-    "explanation": "TopaqueにはRutherglen（ラザグレン）のカテゴリーがあります。\nラザグレンは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ラザグレンはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。\nSherryはApera、TokayはTopaqueへ改称。Rutherglenの熟成酒として整理する。",
     "importance": "B"
   },
   {
@@ -27798,7 +27798,7 @@ window.WINE_QUESTIONS = [
       "Rutherglen"
     ],
     "answerIndex": 1,
-    "explanation": "Geographeは西オーストラリア州の産地です。\nGeographeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Geographeは西オーストラリア州南西部、PerthとMargaret Riverの間にある産地。\nEden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。対して、PadthawayはLimestone Coast内、Coonawarraの北側に位置する平坦な産地。",
     "importance": "C"
   },
   {
@@ -27812,7 +27812,7 @@ window.WINE_QUESTIONS = [
       "16%"
     ],
     "answerIndex": 2,
-    "explanation": "ブドウ破砕量10,000トン以上の大手ワイナリー数が全体に占める割合は約3%です。\n3%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "3%は表示順位や端数規定で区別される比率。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。",
     "importance": "C"
   },
   {
@@ -27826,7 +27826,7 @@ window.WINE_QUESTIONS = [
       "King Valley"
     ],
     "answerIndex": 3,
-    "explanation": "King Valleyはヴィクトリア州の産地です。\nKing Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "King Valleyはヴィクトリア州北東部の高地を含み、イタリア系品種の栽培で知られる。\nPadthawayはLimestone Coast内、Coonawarraの北側に位置する平坦な産地。対して、Tamar Valleyはタスマニア北部の主要ワイン産地で、冷涼気候品種と発泡性ワインが中心。",
     "importance": "C"
   },
   {
@@ -27840,7 +27840,7 @@ window.WINE_QUESTIONS = [
       "Geelong"
     ],
     "answerIndex": 1,
-    "explanation": "南オーストラリア州の高品質なリースリング産地の一つはEden Valleyです。\nEden Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。\nAdelaide HillsはAdelaide東側の冷涼な高地産地で、ソーヴィニョン・ブランやシャルドネが重要。対して、Tasmaniaは南緯の高い冷涼な海洋性産地で、ピノ・ノワール、シャルドネ、発泡性ワインが中心。",
     "importance": "B"
   },
   {
@@ -27854,7 +27854,7 @@ window.WINE_QUESTIONS = [
       "シドニーから車で1時間程度の距離に位置する。"
     ],
     "answerIndex": 3,
-    "explanation": "Yarra Valleyはシドニーではなくメルボルン近郊に位置するため、4が誤りです。\nシドニーから車で1時間程度の距離に位置する。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "シドニーから車で1時間程度の距離に位置する。Victoriaは冷涼なYarra・Mornington・Geelongと、温暖なRutherglen・Swan Hillを対比する。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "C"
   },
   {
@@ -27868,7 +27868,7 @@ window.WINE_QUESTIONS = [
       "複数の品種が使用されている場合、原則として品種の表記は認められない"
     ],
     "answerIndex": 0,
-    "explanation": "特定の品種が85%以上含まれていれば、その品種だけを表示できます。\n特定の品種が85%以上含まれていた場合、その品種だけを表示できるは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "判断の要点は「特定の品種が85%以上含まれていた場合、その品種だけを表示できる」。数値・表示順・含有率のどこが他肢と異なるかを見る。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。",
     "importance": "S"
   },
   {
@@ -27882,7 +27882,7 @@ window.WINE_QUESTIONS = [
       "セミヨン"
     ],
     "answerIndex": 1,
-    "explanation": "2024年の白ブドウ品種の破砕量第1位はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "シャルドネは豪州の主要白品種で、温暖地から冷涼地まで広く栽培される。\nソーヴィニョン・ブランは豪州の主要白品種で、Adelaide HillsやMargaret Riverなどで重要。",
     "importance": "B"
   },
   {
@@ -27896,7 +27896,7 @@ window.WINE_QUESTIONS = [
       "アルバリサ"
     ],
     "answerIndex": 0,
-    "explanation": "タスマニア州に最も広く分布する土壌はジュラ紀ドレライトです。\nジェラシック・ドレライトは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ジェラシック・ドレライトはタスマニアに広く分布するジュラ紀の粗粒玄武岩質岩石。\nTasmaniaは海洋性の冷涼地で、ピノ・ノワール、シャルドネ、瓶内二次発酵ワインが頻出。",
     "importance": "B"
   },
   {
@@ -27910,7 +27910,7 @@ window.WINE_QUESTIONS = [
       "複数の品種が使用されている場合、原則として品種の表記は認められない"
     ],
     "answerIndex": 2,
-    "explanation": "特定の収穫年のワインが85%以上含まれていれば、その収穫年を表示できます。\n特定の収穫年のワインが85%以上含まれていた場合、これを表示できるは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "判断の要点は「特定の収穫年のワインが85%以上含まれていた場合、これを表示できる」。数値・表示順・含有率のどこが他肢と異なるかを見る。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。",
     "importance": "S"
   },
   {
@@ -27924,7 +27924,7 @@ window.WINE_QUESTIONS = [
       "ホワイト"
     ],
     "answerIndex": 1,
-    "explanation": "FortifiedにはVintage（ヴィンテージ）のカテゴリーがあります。\nヴィンテージは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ヴィンテージ。SherryはApera、TokayはTopaqueへ改称。Rutherglenの熟成酒として整理する。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "B"
   },
   {
@@ -27938,7 +27938,7 @@ window.WINE_QUESTIONS = [
       "UCD5"
     ],
     "answerIndex": 0,
-    "explanation": "バズビー・クローンと称されるピノ・ノワールのクローンはMV6です。\nMV6は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "MV6は豪州で広く使われるピノ・ノワールの重要クローン。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "A"
   },
   {
@@ -27952,7 +27952,7 @@ window.WINE_QUESTIONS = [
       "クリーム"
     ],
     "answerIndex": 3,
-    "explanation": "AperaにはCream（クリーム）のカテゴリーがあります。\nクリームは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "クリームはAperaの濃厚な甘口カテゴリー。\nラザグレンはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。",
     "importance": "B"
   },
   {
@@ -27966,7 +27966,7 @@ window.WINE_QUESTIONS = [
       "1825年"
     ],
     "answerIndex": 0,
-    "explanation": "バロッサ・ヴァレーには1843年に同国最古のシラーズが植えられました。\n1843年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1843年。年号は人物・産地・出来事と一組にする。\nSouth AustraliaはBarossa・Eden・Clare・McLaren Vale・Limestone CoastをAdelaideとの位置で整理する。",
     "importance": "B"
   },
   {
@@ -27980,7 +27980,7 @@ window.WINE_QUESTIONS = [
       "Coonawarra"
     ],
     "answerIndex": 1,
-    "explanation": "Mount Barkerなど5つの小地区を有する西オーストラリア州の産地はGreat Southernです。\nGreat Southernは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Great Southernは西オーストラリア州南部の広大な冷涼産地で、Riesling、Shiraz、Cabernetが重要。\nMargaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。対して、CoonawarraはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。",
     "importance": "A"
   },
   {
@@ -27994,7 +27994,7 @@ window.WINE_QUESTIONS = [
       "労働者の不足"
     ],
     "answerIndex": 2,
-    "explanation": "オーストラリアのワイン生産で一番の障害となっているのは、利用可能な水の不足です。\n利用可能な水の不足は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "利用可能な水の不足は乾燥する豪州産地で、灌漑と持続可能性を左右する主要課題。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "B"
   },
   {
@@ -28008,7 +28008,7 @@ window.WINE_QUESTIONS = [
       "Tamar Valley"
     ],
     "answerIndex": 2,
-    "explanation": "Yarra Valleyはヴィクトリア州の産地です。\nYarra Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Yarra Valleyはヴィクトリア州Melbourne近郊の冷涼な海洋性産地で、ピノ・ノワールとシャルドネが代表。\nCoonawarraはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。対して、Barossa ValleyはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。",
     "importance": "C"
   },
   {
@@ -28022,7 +28022,7 @@ window.WINE_QUESTIONS = [
       "Clare Valley"
     ],
     "answerIndex": 1,
-    "explanation": "この選択肢の中で海洋性気候に該当するのはTasmaniaです。\nTasmaniaは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Tasmaniaは南緯の高い冷涼な海洋性産地で、ピノ・ノワール、シャルドネ、発泡性ワインが中心。\nMargaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。対して、Clare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。",
     "importance": "B"
   },
   {
@@ -28036,7 +28036,7 @@ window.WINE_QUESTIONS = [
       "Rutherglen"
     ],
     "answerIndex": 3,
-    "explanation": "Rutherglenはオーストラリアの酒精強化ワインの代表的産地の一つです。\nRutherglenは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Rutherglenはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。\nHunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。対して、Limestone Coastは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。",
     "importance": "B"
   },
   {
@@ -28050,7 +28050,7 @@ window.WINE_QUESTIONS = [
       "Hunter"
     ],
     "answerIndex": 0,
-    "explanation": "McLaren Valeは南オーストラリア州の産地です。\nMcLaren Valeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "McLaren ValeはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。\nPeelは西オーストラリア州、Perthの南側に位置する産地。対して、Hunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。",
     "importance": "C"
   },
   {
@@ -28064,7 +28064,7 @@ window.WINE_QUESTIONS = [
       "Great Southern, Adelaide Hills, Coonawarra, Yarra Valley"
     ],
     "answerIndex": 3,
-    "explanation": "Great Southern, Adelaide Hills, Coonawarra, Yarra Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Great Southern→Adelaide Hills→Coonawarra→Yarra Valley。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -28078,7 +28078,7 @@ window.WINE_QUESTIONS = [
       "Mornington Peninsula"
     ],
     "answerIndex": 3,
-    "explanation": "Mornington Peninsulaはヴィクトリア州の産地です。\nMornington Peninsulaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Mornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。\nClare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。対して、Peelは西オーストラリア州、Perthの南側に位置する産地。",
     "importance": "C"
   },
   {
@@ -28092,7 +28092,7 @@ window.WINE_QUESTIONS = [
       "Swan District"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致する巨大なGIはLimestone Coastです。\nLimestone Coastは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Limestone Coastは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。\nGeelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。対して、Yarra Valleyはヴィクトリア州Melbourne近郊の冷涼な海洋性産地で、ピノ・ノワールとシャルドネが代表。",
     "importance": "A"
   },
   {
@@ -28106,7 +28106,7 @@ window.WINE_QUESTIONS = [
       "メルロ"
     ],
     "answerIndex": 1,
-    "explanation": "2019年統計でワイン用ブドウ栽培面積第1位の品種はシラーズです。\nシラーズは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "シラーズは豪州を象徴する黒品種で、Barossaの濃厚型から冷涼地のスパイシー型まで幅広い。\nカベルネ・ソーヴィニョンは豪州の主要黒品種で、CoonawarraとMargaret Riverが代表産地。対して、シャルドネは豪州の主要白品種で、温暖地から冷涼地まで広く栽培される。",
     "importance": "B"
   },
   {
@@ -28120,7 +28120,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 3,
-    "explanation": "特定のGIを表示するには、そのGIのワインが85%以上含まれている必要があります。\n85%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "85%は単一品種名または収穫年を表示する際の基本的な最低比率。\n豪州表示は単一品種・収穫年85%、複数品種は最大5種、複数GIは最大3つが基本軸。",
     "importance": "A"
   },
   {
@@ -28139,7 +28139,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 1,
-    "explanation": "Clare Valleyに相当する番号は4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "4番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "C"
   },
   {
@@ -28153,7 +28153,7 @@ window.WINE_QUESTIONS = [
       "シラーズ、グルナッシュ、ムールヴェードル"
     ],
     "answerIndex": 3,
-    "explanation": "Fortifiedの主要品種はシラーズ、グルナッシュ、ムールヴェードルです。\nシラーズ、グルナッシュ、ムールヴェードルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "シラーズ、グルナッシュ、ムールヴェードルは南オーストラリア州で典型的なGSMブレンドの3品種。\nミュスカデルはRutherglenのTopaqueに用いる品種。かつてTokayの名で知られた。",
     "importance": "S"
   },
   {
@@ -28167,7 +28167,7 @@ window.WINE_QUESTIONS = [
       "世界第6位"
     ],
     "answerIndex": 0,
-    "explanation": "オーストラリアの2021年のワイン生産量順位は世界第5位です。\n世界第5位という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "世界第5位は設問の基準年における豪州のワイン生産量順位。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "C"
   },
   {
@@ -28181,7 +28181,7 @@ window.WINE_QUESTIONS = [
       "Margaret River"
     ],
     "answerIndex": 2,
-    "explanation": "この選択肢の中で海洋性気候に該当するのはKangaroo Islandです。\nKangaroo Islandは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Kangaroo Islandは南オーストラリア州沖にある同国第3の大島で、海洋の影響を強く受ける。\nRutherglenはヴィクトリア州北東部の温暖産地で、MuscadelleによるTopaqueなど酒精強化ワインで著名。対して、RiverlandはMurray川沿いの温暖な灌漑産地で、大量生産の重要拠点。",
     "importance": "B"
   },
   {
@@ -28195,7 +28195,7 @@ window.WINE_QUESTIONS = [
       "Adelaide Hills, Margaret River, Hunter, Yarra Valley"
     ],
     "answerIndex": 0,
-    "explanation": "西から東へ、Great Southern、Adelaide Hills、Coonawarra、Hunterの順です。\nGreat Southern, Adelaide Hills, Coonawarra, Hunterは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Great Southern→Adelaide Hills→Coonawarra→Hunter。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -28209,7 +28209,7 @@ window.WINE_QUESTIONS = [
       "Swan District"
     ],
     "answerIndex": 1,
-    "explanation": "Wilyabrup地区を代表的なサブリージョンとする産地はMargaret Riverです。\nMargaret Riverという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。\nHunterはニュー・サウス・ウェールズ州の歴史的産地で、長熟のセミヨンとシラーズが代表。対して、Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。",
     "importance": "B"
   },
   {
@@ -28223,7 +28223,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 3,
-    "explanation": "タスマニア州で最も収穫量の多いブドウ品種はピノ・ノワールです。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ピノ・ノワールはTasmania、Yarra Valley、Mornington Peninsulaなど冷涼地の主要黒品種。\nカベルネ・ソーヴィニョンは豪州の主要黒品種で、CoonawarraとMargaret Riverが代表産地。対して、シラーズは豪州を象徴する黒品種で、Barossaの濃厚型から冷涼地のスパイシー型まで幅広い。",
     "importance": "S"
   },
   {
@@ -28237,7 +28237,7 @@ window.WINE_QUESTIONS = [
       "1890年"
     ],
     "answerIndex": 0,
-    "explanation": "ヤラ・ヴァレーに最初にワイン用ブドウが植えられたのは1838年です。\n1838年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "1838年。年号は人物・産地・出来事と一組にする。\nVictoriaは冷涼なYarra・Mornington・Geelongと、温暖なRutherglen・Swan Hillを対比する。",
     "importance": "C"
   },
   {
@@ -28251,7 +28251,7 @@ window.WINE_QUESTIONS = [
       "100%"
     ],
     "answerIndex": 0,
-    "explanation": "20%以上含まれるブドウ品種が3種類以下で、合計85%以上となる場合は、すべて表示できます。\n85%以上は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "85%以上は単一品種名または収穫年を表示する際の基本的な最低比率。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。",
     "importance": "A"
   },
   {
@@ -28265,7 +28265,7 @@ window.WINE_QUESTIONS = [
       "ニュー・サウス・ウェールズ州"
     ],
     "answerIndex": 3,
-    "explanation": "2019年のワイン用ブドウ栽培面積第2位はニュー・サウス・ウェールズ州です。\nニュー・サウス・ウェールズ州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ニュー・サウス・ウェールズ州。年号は人物・産地・出来事と一組にする。\n豪州は州→ゾーン→リージョン→サブリージョンの階層と、海からの距離・標高で整理する。",
     "importance": "C"
   },
   {
@@ -28282,7 +28282,7 @@ window.WINE_QUESTIONS = [
       "イーデンヴァレー",
       "Eden Valley"
     ],
-    "explanation": "地図上の2番はEden Valley（イーデン・ヴァレー）です。\nイーデン・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "イーデン・ヴァレーはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "B"
   },
   {
@@ -28296,7 +28296,7 @@ window.WINE_QUESTIONS = [
       "Coonawarra"
     ],
     "answerIndex": 2,
-    "explanation": "この選択肢の中で大陸性気候に該当するのはRiverlandです。\nRiverlandは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "RiverlandはMurray川沿いの温暖な灌漑産地で、大量生産の重要拠点。\nMornington PeninsulaはMelbourne南東の海洋性半島で、ピノ・ノワールとシャルドネが中心。対して、Geelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。",
     "importance": "B"
   },
   {
@@ -28310,7 +28310,7 @@ window.WINE_QUESTIONS = [
       "Tasmania"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致する南オーストラリア州の重要産地はBarossa Valleyです。\nBarossa Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Barossa ValleyはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。\nSwan HillはMurray川流域にまたがる温暖な灌漑産地。対して、Limestone Coastは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。",
     "importance": "C"
   },
   {
@@ -28324,7 +28324,7 @@ window.WINE_QUESTIONS = [
       "西オーストラリア州"
     ],
     "answerIndex": 0,
-    "explanation": "2024年のワイン用ブドウ破砕量第2位はニュー・サウス・ウェールズ州です。\nニュー・サウス・ウェールズ州は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ニュー・サウス・ウェールズ州。年号は人物・産地・出来事と一組にする。\n統計は全品種、白品種、黒品種のどの順位かを確認し、基準年と組にする。",
     "importance": "C"
   },
   {
@@ -28338,7 +28338,7 @@ window.WINE_QUESTIONS = [
       "Great Southern, Margaret River, Hunter, Coonawarra"
     ],
     "answerIndex": 1,
-    "explanation": "東から西へ、Hunter、Tasmania、Coonawarra、Margaret Riverの順です。\nHunter, Tasmania, Coonawarra, Margaret Riverは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Hunter→Tasmania→Coonawarra→Margaret River。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -28352,7 +28352,7 @@ window.WINE_QUESTIONS = [
       "Margaret River"
     ],
     "answerIndex": 0,
-    "explanation": "この選択肢の中で海洋性気候に該当するのはPadthawayです。\nPadthawayは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "PadthawayはLimestone Coast内、Coonawarraの北側に位置する平坦な産地。\nClare Valleyは南オーストラリア州北部の高地産地で、石灰や柑橘香を持つリースリングが代表。対して、Margaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。",
     "importance": "B"
   },
   {
@@ -28366,7 +28366,7 @@ window.WINE_QUESTIONS = [
       "3種類以上"
     ],
     "answerIndex": 1,
-    "explanation": "20%以上含まれるブドウ品種が3種類以下で、合計85%以上となる場合は、すべて表示できます。\n3種類以下は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "3種類以下は複数GIを表示する際のGI数上限。\n5種類以下は複数品種を表示する際の品種数上限。",
     "importance": "A"
   },
   {
@@ -28380,7 +28380,7 @@ window.WINE_QUESTIONS = [
       "Rutherglen"
     ],
     "answerIndex": 1,
-    "explanation": "この選択肢の中で海洋性気候に該当するのはCoonawarraです。\nCoonawarraは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "CoonawarraはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。\nMargaret Riverは西オーストラリア州南西部の海洋性産地で、カベルネ系とシャルドネが著名。対して、RiverlandはMurray川沿いの温暖な灌漑産地で、大量生産の重要拠点。",
     "importance": "B"
   },
   {
@@ -28397,7 +28397,7 @@ window.WINE_QUESTIONS = [
       "クレアヴァレー",
       "Clare Valley"
     ],
-    "explanation": "地図上の4番はClare Valley（クレア・ヴァレー）です。\nクレア・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "クレア・ヴァレー。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
     "importance": "B"
   },
   {
@@ -28411,7 +28411,7 @@ window.WINE_QUESTIONS = [
       "ペイル"
     ],
     "answerIndex": 1,
-    "explanation": "AperaにはSweet（スイート）のカテゴリーがあります。\nスイートは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "スイートはAperaの甘口カテゴリー。\nレアは長期熟成したRutherglen Topaqueの最高カテゴリー。",
     "importance": "B"
   },
   {
@@ -28425,7 +28425,7 @@ window.WINE_QUESTIONS = [
       "ジョン・グラッドストーンズ"
     ],
     "answerIndex": 3,
-    "explanation": "Margaret Riverを6つに区分するサブリージョン案を提案したのはジョン・グラッドストーンズです。\nジョン・グラッドストーンズは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "ジョン・グラッドストーンズはMargaret Riverの気候適性を研究し、産地開発の理論的基盤を築いた人物。\nジェームズ・バズビーは欧州から多数のブドウ品種を持ち帰り、豪州ワイン産業の父と呼ばれる人物。",
     "importance": "C"
   },
   {
@@ -28439,7 +28439,7 @@ window.WINE_QUESTIONS = [
       "Great Southern"
     ],
     "answerIndex": 2,
-    "explanation": "Geelongはヴィクトリア州の産地です。\nGeelongは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Geelongはヴィクトリア州の冷涼産地で、1877年に豪州で初めてフィロキセラが確認された。\nBarossa ValleyはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。対して、Eden ValleyはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。",
     "importance": "C"
   },
   {
@@ -28453,7 +28453,7 @@ window.WINE_QUESTIONS = [
       "Tasmania, Clare Valley, Great Southern, Margaret River"
     ],
     "answerIndex": 3,
-    "explanation": "Tasmania, Clare Valley, Great Southern, Margaret Riverは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。",
+    "explanation": "Tasmania→Clare Valley→Great Southern→Margaret River。海岸線と主要都市を基準に東西を再現する。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "C"
   },
   {
@@ -28467,7 +28467,7 @@ window.WINE_QUESTIONS = [
       "McLaren Vale"
     ],
     "answerIndex": 2,
-    "explanation": "ヴィクトリア州とニュー・サウス・ウェールズ州にまたがる産地はSwan Hillです。\nSwan Hillは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "Swan HillはMurray川流域にまたがる温暖な灌漑産地。\nYarra Valleyはヴィクトリア州Melbourne近郊の冷涼な海洋性産地で、ピノ・ノワールとシャルドネが代表。対して、CoonawarraはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。",
     "importance": "C"
   },
   {
@@ -28481,7 +28481,7 @@ window.WINE_QUESTIONS = [
       "約47%"
     ],
     "answerIndex": 3,
-    "explanation": "タスマニア州のワイン生産の中で、ピノ・ノワールは約47%を占めます。\n約47%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "約47%は南オーストラリア州が豪州のブドウ栽培面積に占めるおおよその比率。\nTasmaniaは海洋性の冷涼地で、ピノ・ノワール、シャルドネ、瓶内二次発酵ワインが頻出。",
     "importance": "C"
   },
   {
@@ -28500,7 +28500,7 @@ window.WINE_QUESTIONS = [
       "バロッサバレー",
       "Barossa Valley"
     ],
-    "explanation": "地図上の1番はBarossa Valley（バロッサ・ヴァレー）です。\nバロッサ・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nオーストラリアは州よりGIの位置と気候要因を押さえると、主要品種のスタイルまでつながる。",
+    "explanation": "バロッサ・ヴァレーはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
     "importance": "B"
   },
   {
@@ -53202,20 +53202,6 @@ window.WINE_QUESTIONS = [
     "explanation": "Verdeaはザギントス島の伝統的白ワインで、語源はイタリア語Verde。島が長くヴェネツィア支配下にあった歴史が名前に残る。\nVin liastosは天日干しワイン、Retsinaは松脂入り、Limnosはエーゲ海のPDO。"
   },
   {
-    "id": "greece-006",
-    "category": "ギリシャ",
-    "importance": "A",
-    "question": "次の中からギリシャのエーゲ海の島々に位置するPDOを選んでください。",
-    "choices": [
-      "Nemea",
-      "Naoussa",
-      "Samos",
-      "Mantineia"
-    ],
-    "answerIndex": 2,
-    "explanation": "Samosは東エーゲ海のサモス島にあるPDOで、マスカット・ブラン・ア・プティ・グランの甘口が中心。\nNemeaとMantineiaはペロポネソス半島、Naoussaは北部マケドニアに位置する。"
-  },
-  {
     "id": "greece-007",
     "category": "ギリシャ",
     "importance": "A",
@@ -53284,20 +53270,6 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 2,
     "explanation": "Nemeaはヘラクレスがネメアの獅子を退治した神話の地で、アギオルギティコの赤は「ヘラクレスの血」と呼ばれる。\nMalvasia-Sitiaはクレタ島の甘口、LimnosとSamosはエーゲ海の島で白・甘口が中心。"
-  },
-  {
-    "id": "greece-012",
-    "category": "ギリシャ",
-    "importance": "A",
-    "question": "次の中からギリシャのエーゲ海の島々に位置するPDOを選んでください。",
-    "choices": [
-      "Santorini",
-      "Naoussa",
-      "Mantineia",
-      "Nemea"
-    ],
-    "answerIndex": 0,
-    "explanation": "Santoriniはキクラデス諸島に属するエーゲ海の火山島。アシルティコ、クルーラ仕立て、甘口Vinsantoを一組で覚える。\nNaoussaはマケドニア、MantineiaとNemeaはペロポネソス半島。"
   },
   {
     "id": "greece-013",
@@ -53396,5 +53368,1055 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 0,
     "explanation": "サヴァティアノは栽培面積首位の白品種で、中央ギリシャのアッティカを中心にRetsinaにも使われる。\nアギオルギティコは黒品種最多、クシノマヴロは北部の代表黒品種、アシルティコはSantoriniの高品質白品種。"
+  },
+  {
+    "id": "uruguay-001",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイの品種マルスランの交配を選択してください。",
+    "choices": [
+      "メルロ × グルナッシュ・ノワール",
+      "カベルネ・ソーヴィニョン × グルナッシュ・ノワール",
+      "タナ × メルロ",
+      "タナ × カベルネ・ソーヴィニョン"
+    ],
+    "answerIndex": 1,
+    "explanation": "Marselanは1961年フランス生まれのCabernet Sauvignon×Grenache Noir。多収で病害虫に強く、色濃く芳香豊かな赤を生む。\nTannat交配ではなく、ウルグアイではTannatを補う品種として近年栽培が増えている。"
+  },
+  {
+    "id": "uruguay-002",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイの首都を擁する、同国第2位の産地を選択してください。",
+    "choices": [
+      "コロニア",
+      "カネロネス",
+      "モンテビデオ",
+      "マルドナド"
+    ],
+    "answerIndex": 2,
+    "explanation": "首都Montevideo県は栽培面積702ha、国内第2位。最大は首都北側のCanelonesで、全体の約66.6%を占める。\nMaldonadoは第3位の大西洋岸産地、Coloniaは南西部ラ・プラタ川沿いの第4位。"
+  },
+  {
+    "id": "uruguay-003",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中から降雨量が比較的多く湿度が高いウルグアイの伝統的な仕立て方を選択してください。",
+    "choices": [
+      "ペルゴラ仕立て",
+      "リラ仕立て",
+      "バスケット仕立て",
+      "スマートマイヨーガー仕立て"
+    ],
+    "answerIndex": 1,
+    "explanation": "LIRAは樹冠をY字に分けて風通しと受光を確保する仕立て。高湿度による病害を抑え、夏の日照も取り込みやすい。\nバスケットはSantoriniの強風対策、Smart-Dysonは上下に新梢を分ける垣根仕立てで目的が異なる。"
+  },
+  {
+    "id": "uruguay-004",
+    "category": "ウルグアイ",
+    "importance": "C",
+    "question": "次の中からパンに牛肉、野菜、オリーブ、チーズなどを挟んだウルグアイの国民食を選択してください。",
+    "choices": [
+      "Chivito",
+      "Alfajor",
+      "Milanesa",
+      "Asado"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chivitoは薄切り牛肉、野菜、オリーブ、チーズなどをパンに挟む国民的サンドイッチ。語は「仔ヤギ」だが主役は牛肉。\nAsadoは塊肉の炭火焼き、Milanesaは仔牛のカツレツ、AlfajorはDulce de Lecheを挟む菓子。"
+  },
+  {
+    "id": "uruguay-005",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイで最も栽培されている白ブドウ品種を選択してください。",
+    "choices": [
+      "タナ",
+      "アルバリーニョ",
+      "メルロ",
+      "ユニ・ブラン"
+    ],
+    "answerIndex": 3,
+    "explanation": "白品種首位はUgni Blanc。2024年は約601haで、Sauvignon Blanc、Albariño、Chardonnayが続く。\nTannatとMerlotは黒品種。Albariñoは大西洋岸で注目されるが、全国面積ではUgni Blancより少ない。"
+  },
+  {
+    "id": "uruguay-006",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイで栽培されるブドウの中で黒ブドウ品種が占める割合を選択してください。",
+    "choices": [
+      "80%",
+      "70%",
+      "50%",
+      "60%"
+    ],
+    "answerIndex": 0,
+    "explanation": "栽培面積は黒品種80%、白品種20%。黒だけで約4,647haあり、Tannatがその中心を占める。\nワインの色別生産は赤56%なので、「黒ブドウ80%」と「赤ワイン56%」を取り違えない。"
+  },
+  {
+    "id": "uruguay-007",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次のウルグアイに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ウルグアイの国民一人あたりの牛肉消費量は、アメリカに次ぐ世界第2位である。",
+      "ウルグアイは南米大陸で2番目に小さい国である。",
+      "ウルグアイにスペインから初めてブドウが持ち込まれたのは19世紀である。",
+      "ウルグアイのタナは、フランスのタナに比べて力強く、熟成が必要な傾向がある。"
+    ],
+    "answerIndex": 1,
+    "explanation": "ウルグアイはSurinameに次いで南米で2番目に小さい国。一方、ワイン生産は南米第4位で、国土規模以上の存在感を持つ。\nブドウ伝来は17世紀末。TannatはMadiranよりタンニンが柔らかく若飲みしやすく、牛肉消費量は世界首位級。"
+  },
+  {
+    "id": "uruguay-008",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイで生産されるワインの中で赤ワインが占める割合を選択してください。",
+    "choices": [
+      "76%",
+      "44%",
+      "56%",
+      "65%"
+    ],
+    "answerIndex": 2,
+    "explanation": "色別生産は赤56%、白33%、ロゼ11%。Tannatを核とするため赤が最多だが、栽培面積の黒品種比率80%とは一致しない。\n統計問題では「ブドウの色別面積」と「完成ワインの色別生産」を別の母数として覚える。"
+  },
+  {
+    "id": "uruguay-009",
+    "category": "ウルグアイ",
+    "importance": "A",
+    "question": "次の中からウルグアイで最も栽培されているブドウ品種を選択してください。",
+    "choices": [
+      "メルロ",
+      "ユニ・ブラン",
+      "アルバリーニョ",
+      "タナ"
+    ],
+    "answerIndex": 3,
+    "explanation": "最多品種はTannat。1874年にバスク移民Pascual Harriagueが持ち込み、現在は別名Harriagueとも呼ばれる国の象徴。\n白首位はUgni Blanc。Merlotは黒品種3位、Albariñoは大西洋岸を中心に伸びる白品種。"
+  },
+  {
+    "id": "uruguay-010",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイの「優良品質ワイン」がラベルに収穫年や品種名を記載する場合、該当するブドウの最低使用比率を選択してください。",
+    "choices": [
+      "85%",
+      "75%",
+      "100%",
+      "95%"
+    ],
+    "answerIndex": 0,
+    "explanation": "VCPで収穫年を表示する場合はその年のブドウ85%以上、品種名も当該品種85%以上が必要。\n85%は各国のヴィンテージ・品種表示で頻出する数字。VCP自体は優良品質ワインの区分を指す。"
+  },
+  {
+    "id": "uruguay-011",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイで栽培されるブドウの中で品種タナが占める割合を選択してください。",
+    "choices": [
+      "79%",
+      "61%",
+      "27%",
+      "42%"
+    ],
+    "answerIndex": 2,
+    "explanation": "Tannatは全栽培面積の約27%で品種別首位。黒品種全体の80%とは母数が異なる。\n名称は渋味を表すTanninに由来するとされるが、ウルグアイではMadiranより柔らかなスタイルになりやすい。"
+  },
+  {
+    "id": "uruguay-012",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイのワイン法で「VCP」という略号の意味を選択してください。",
+    "choices": [
+      "原産地呼称ワイン",
+      "瓶内二次発酵のスパークリングワイン",
+      "テーブルワイン",
+      "優良品質ワイン"
+    ],
+    "answerIndex": 3,
+    "explanation": "VCPはVino de Calidad Preferente、優良品質ワイン。指定品種、最低アルコール10.5%、750ml以下の瓶などの条件を持つ。\n日常的なテーブルワインはVino Común（VC）。ウルグアイにはチリ型のDO制度はない。"
+  },
+  {
+    "id": "uruguay-013",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイの気候を選択してください。",
+    "choices": [
+      "亜熱帯気候",
+      "地中海性気候",
+      "温暖湿潤気候",
+      "大陸性気候"
+    ],
+    "answerIndex": 2,
+    "explanation": "ウルグアイは温暖湿潤気候で、年間平均湿度は約75%。夏雨が多く、海やラ・プラタ川の影響も強い。\n乾燥する地中海性・大陸性産地と異なり、病害対策と風通し確保のためLIRA仕立てが発達した。"
+  },
+  {
+    "id": "uruguay-014",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイとアルゼンチンの間に流れる川を選択してください。",
+    "choices": [
+      "ネウケン川",
+      "サン・ファン川",
+      "ラ・プラタ川",
+      "ネグロ川"
+    ],
+    "answerIndex": 2,
+    "explanation": "国の西側はウルグアイ川、南西側はラ・プラタ川を挟んでアルゼンチンと向き合う。設問の選択肢ではラ・プラタ川。\nNeuquén、San Juan、Negroはいずれもアルゼンチン国内の産地・河川名として現れる。"
+  },
+  {
+    "id": "uruguay-015",
+    "category": "ウルグアイ",
+    "importance": "B",
+    "question": "次の中からウルグアイが国土の東側に接しているものを選択してください。",
+    "choices": [
+      "アルゼンチン",
+      "太平洋",
+      "ボリビア",
+      "ブラジル"
+    ],
+    "answerIndex": 3,
+    "explanation": "東から北はBrazil、西はArgentina、南東は大西洋。南西にはラ・プラタ川が広がる。\nウルグアイは太平洋に面せず、Boliviaとも国境を接しない。地図はBrazilとArgentinaの間で捉える。"
+  },
+  {
+    "id": "uruguay-016",
+    "category": "ウルグアイ",
+    "importance": "C",
+    "question": "次の中から牛肉をブロックのまま豪快に焼き上げるウルグアイ料理を選択してください。",
+    "choices": [
+      "Alfajor",
+      "Milanesa",
+      "Chivito",
+      "Asado"
+    ],
+    "answerIndex": 3,
+    "explanation": "Asadoは大きな塊肉を専用グリルParrillaで豪快に焼く料理。牛肉文化のウルグアイを代表し、Tannatと好相性。\nChivitoは牛肉サンド、Milanesaはカツレツ、AlfajorはDulce de Lecheを挟む甘い菓子。"
+  },
+  {
+    "id": "greece-020",
+    "category": "ギリシャ",
+    "importance": "A",
+    "question": "次の特徴に最も良く合致するギリシャのブドウ品種を選択してください。「気温が高くなる地域でも高い酸を維持することができる品種で、サントリーニ島を中心とするキクラデス諸島の主要品種である。アシリ、アイダニとブレンドされることがある。」",
+    "choices": [
+      "アギオルギティコ",
+      "クシノマヴロ",
+      "サヴァティアノ",
+      "アシルティコ"
+    ],
+    "answerIndex": 3,
+    "explanation": "Assyrtikoは暑く乾燥したSantoriniでも高い酸を保つ白品種。火山性土壌由来の緊張感ある辛口や甘口Vinsantoを生む。\nAgiorgitikoとXinomavroは黒品種。Savatianoは本土で広く栽培され、Retsinaにも用いられる。"
+  },
+  {
+    "id": "greece-021",
+    "category": "ギリシャ",
+    "importance": "C",
+    "question": "次の中からギリシャのワイン生産量の中でPGIワインが占める割合を選択してください。",
+    "choices": [
+      "約55%",
+      "約15%",
+      "約24%",
+      "約45%"
+    ],
+    "answerIndex": 2,
+    "explanation": "PGIワインは生産量の約24%。PDOより広い地域単位で、地理的表示と比較的柔軟な品種・スタイルを両立する。\n統計は年度で変わるため、教本の基準年と「PDO・PGI・その他」のどの比率かをセットで確認する。"
+  },
+  {
+    "id": "greece-022",
+    "category": "ギリシャ",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するギリシャのPDOを選んでください。「島全体がワイン産地に認可されており、2011年に設立された。辛口赤ワインと、天日干しブドウから造られる甘口および酒精強化の赤ワインが対象となっている。」",
+    "choices": [
+      "Naoussa",
+      "Limnos",
+      "Malvasia-Sitia",
+      "Samos"
+    ],
+    "answerIndex": 1,
+    "explanation": "PDO Limnosは島全体が対象。辛口赤に加え、天日干しブドウによる甘口・酒精強化赤も認められる。\nSamosはMuscat Blancの甘口、NaoussaはXinomavroの赤、Malvasia-SitiaはCrete島の甘口系PDO。"
+  },
+  {
+    "id": "greece-023",
+    "category": "ギリシャ",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するギリシャの産地を選んでください。「同国本土の中央部に位置する地方で、夏の降水量も多いため『ギリシャの穀倉地帯』と呼ばれている。」",
+    "choices": [
+      "テッサリア地方",
+      "マケドニア地方",
+      "イオニア諸島",
+      "中央ギリシャ"
+    ],
+    "answerIndex": 0,
+    "explanation": "Thessaliaは本土中央部の平野で、夏の降水も比較的多い「ギリシャの穀倉地帯」。山地と平野の対比が大きい。\nMacedoniaは最北部、Ionian Islandsは西側の島々、Central GreeceはAthensを含む南寄りの本土地域。"
+  },
+  {
+    "id": "greece-024",
+    "category": "ギリシャ",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するギリシャのPDOを選んでください。「マスカット・ブランから酒精強化によるヴァン・ドゥー・ナチュレルや、天日干ししたブドウなどから甘口のワインが造られている。」",
+    "choices": [
+      "Nemea",
+      "Samos",
+      "Santorini",
+      "Malvasia-Sitia"
+    ],
+    "answerIndex": 1,
+    "explanation": "PDO SamosはMuscat Blanc à Petits Grainsから、VDNや天日干し果による甘口を造るエーゲ海の島。\nNemeaはAgiorgitikoの赤、SantoriniはAssyrtiko、Malvasia-SitiaはCrete島の甘口系で区別する。"
+  },
+  {
+    "id": "greece-025",
+    "category": "ギリシャ",
+    "importance": "A",
+    "question": "次の中からギリシャで最も多く栽培されている黒ブドウ品種を選択してください。",
+    "choices": [
+      "サヴァティアノ",
+      "アギオルギティコ",
+      "クシノマヴロ",
+      "アシルティコ"
+    ],
+    "answerIndex": 1,
+    "explanation": "黒品種首位はAgiorgitiko。Peloponnese半島のNemeaを中心に、果実味豊かな赤から長期熟成型まで造る。\nSavatianoとAssyrtikoは白品種。XinomavroはMacedoniaの重要黒品種だが全国面積ではAgiorgitikoに及ばない。"
+  },
+  {
+    "id": "greece-026",
+    "category": "ギリシャ",
+    "importance": "A",
+    "question": "次の中からギリシャのPDO、Naoussaの主要品種を選択してください。",
+    "choices": [
+      "リムニオ",
+      "サヴァティアノ",
+      "クシノマヴロ",
+      "アシルティコ"
+    ],
+    "answerIndex": 2,
+    "explanation": "PDO NaoussaはXinomavro単一の赤。高い酸とタンニンを持ち、熟成でドライトマトやオリーブを思わせる複雑さが現れる。\nLimnioは北東部の古い黒品種、SavatianoとAssyrtikoは白品種でNaoussaの主要品種ではない。"
+  },
+  {
+    "id": "greece-027",
+    "category": "ギリシャ",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するギリシャの産地を選んでください。「同国本土最南端に位置する地方で、多くのアペレーションを抱え、近年注目度が増している。」",
+    "choices": [
+      "テッサリア地方",
+      "中央ギリシャ",
+      "マケドニア地方",
+      "ペロポネソス半島"
+    ],
+    "answerIndex": 3,
+    "explanation": "Peloponnese半島は本土最南端で、Nemea、Mantineia、Patrasなど多様なPDOを持つ重要地域。\nMacedoniaは最北部、Thessaliaは本土中央、Central GreeceはAthens周辺を含むため位置が異なる。"
+  },
+  {
+    "id": "greece-028",
+    "category": "ギリシャ",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するギリシャのPDOを選んでください。「ギリシャを代表する高品質ワインの産地である。単一品種から長期熟成型の赤ワインを造っていて、酸が強くタンニンが多い。」",
+    "choices": [
+      "Santorini",
+      "Naoussa",
+      "Malvasia-Sitia",
+      "Limnos"
+    ],
+    "answerIndex": 1,
+    "explanation": "NaoussaはXinomavro単一で造るMacedoniaの長期熟成型赤。強い酸とタンニンがNebbioloに例えられることもある。\nSantoriniはAssyrtikoの白、Malvasia-Sitiaは甘口系、Limnosは島の赤・甘口などを対象とする。"
+  },
+  {
+    "id": "greece-029",
+    "category": "ギリシャ",
+    "importance": "B",
+    "question": "次の中からギリシャのワイン法のカテゴリーの中で、同国の歴史的価値を持つと認められたワインに表記され、全てのレチーナとヴェルデアが含まれるカテゴリーを選択してください。",
+    "choices": [
+      "Traditional Appellation",
+      "PGI Greek Wines",
+      "PGI District Wines",
+      "Protected Designation of Origin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Traditional Appellationは歴史的・伝統的価値を保護するカテゴリーで、RetsinaとVerdeaが含まれる。\nPDOは限定産地、PGI Districtは地方単位、PGI Greek Winesはより広域の地理的表示で分類軸が異なる。"
+  },
+  {
+    "id": "greece-030",
+    "category": "ギリシャ",
+    "importance": "B",
+    "question": "次の説明に最も良く合致するギリシャの産地を選んでください。「同国で最も北に位置する地方で、西はピンドス山脈から東のトラキア地方までを含む。」",
+    "choices": [
+      "ペロポネソス半島",
+      "イオニア諸島",
+      "テッサリア地方",
+      "マケドニア地方"
+    ],
+    "answerIndex": 3,
+    "explanation": "Macedoniaはギリシャ最北部で、西のPindos山脈から東のThrace方面まで広がる。NaoussaやAmyndeonが重要。\nPeloponneseは最南部、Ionian Islandsは西側の島々、Thessaliaは本土中央部に位置する。"
+  },
+  {
+    "id": "greece-031",
+    "category": "ギリシャ",
+    "importance": "C",
+    "question": "次の中からギリシャの2024年のワイン用ブドウ栽培面積を選択してください。",
+    "choices": [
+      "約3.3万ヘクタール",
+      "約33万ヘクタール",
+      "約6.3万ヘクタール",
+      "約9.3万ヘクタール"
+    ],
+    "answerIndex": 3,
+    "explanation": "2024年のワイン用ブドウ栽培面積は約9.3万ha。統計値は食用を含む面積と混同せず、年度と単位を一組にする。\n約33万haでは一桁大きすぎる。統計問題では「生産量」か「栽培面積」かも必ず確認する。"
+  },
+  {
+    "id": "greece-032",
+    "category": "ギリシャ",
+    "importance": "C",
+    "question": "次の中からギリシャのワイン産地が位置する緯度を選択してください。",
+    "choices": [
+      "北緯42〜51度",
+      "北緯39〜46.5度",
+      "北緯35〜41.5度",
+      "北緯35〜47度"
+    ],
+    "answerIndex": 2,
+    "explanation": "ギリシャの産地はおおむね北緯35〜41.5度。南のCreteから北のMacedoniaまでを含む。\n北緯42度以北を含む選択肢は北へ広すぎる。緯度が低くても標高・海風・北向き斜面が酸を保つ。"
+  },
+  {
+    "id": "croatia-001",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次のクロアチアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "クロアチアのワイン造りの歴史は2500年前にさかのぼる",
+      "クロアチア内陸部の気候は地中海性気候である",
+      "クロアチアはまだEUに加盟していない",
+      "クロアチアではシャルドネなど国際品種が全体の70%以上を占める"
+    ],
+    "answerIndex": 0,
+    "explanation": "クロアチアのブドウ栽培は約2500年前まで遡り、古代ギリシャ人の島嶼部での栽培を示す遺物も残る。\n内陸は大陸性、沿岸は地中海性。2013年にEU加盟し、栽培の中心は国際品種より土着品種である。"
+  },
+  {
+    "id": "croatia-002",
+    "category": "クロアチア",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するクロアチアのワイン産地を選択してください。「1000年以上にわたりワイン生産が盛んな地域で、イストラ半島のマルヴァジアと黒ワインが造られるテランが代表品種である。」",
+    "choices": [
+      "スラヴォニア",
+      "フルヴァツカ・イストラ",
+      "プレシヴィツァ",
+      "スレディニャ・イ・ユジュナ・ダルマチア"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hrvatska Istraはイストラ半島の産地。白のMalvazija Istarskaと、高酸・高タンニンの黒品種Teranが象徴。\nSlavoniaはGraševina、Plešivicaは首都西方の冷涼高地、中央・南DalmatiaはPlavac Maliが重要。"
+  },
+  {
+    "id": "croatia-003",
+    "category": "クロアチア",
+    "importance": "C",
+    "question": "次の中からクロアチアの2024年のブドウ栽培面積に最も近いものを選択してください。",
+    "choices": [
+      "14万ヘクタール",
+      "2.0万ヘクタール",
+      "4.8万ヘクタール",
+      "1.1万ヘクタール"
+    ],
+    "answerIndex": 1,
+    "explanation": "2024年の栽培面積は19,938haで、約2.0万ha。上位20品種だけで約1.3万haを占める。\n同年の生産量約60万hlとは単位が異なる。統計は「ha＝面積」「hl＝生産量」を先に確認する。"
+  },
+  {
+    "id": "croatia-004",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次の中からクロアチアで原産地表記なしのテーブルワインに相当する品質分類を選択してください。",
+    "choices": [
+      "Stolno vino",
+      "Vrhunsko vino s kontroliranim podrijetlom",
+      "Kvalitetno vino s kontroliranim podrijetlom",
+      "Stolno vino s kontroliranim podrijetlom"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stolno vinoは地理的表示なしのテーブルワイン。複数地域のブドウをブレンドでき、基礎的な品質区分に当たる。\n「s kontroliranim podrijetlom」が付けば統制原産地名付き。Kvalitetno、Vrhunskoは上級区分である。"
+  },
+  {
+    "id": "croatia-005",
+    "category": "クロアチア",
+    "importance": "C",
+    "question": "次の中からクロアチアの2024年の年間ワイン生産量に最も近いものを選択してください。",
+    "choices": [
+      "150万ヘクトリットル",
+      "95万ヘクトリットル",
+      "60万ヘクトリットル",
+      "72万ヘクトリットル"
+    ],
+    "answerIndex": 2,
+    "explanation": "2024年の年間生産量は603,000hlで、約60万hl。栽培面積は約2.0万haなので数値と単位を対で覚える。\n60万は生産量、2.0万は面積。似た統計問題では対象年が同じでも単位の見落としが誤答につながる。"
+  },
+  {
+    "id": "croatia-006",
+    "category": "クロアチア",
+    "importance": "A",
+    "question": "次の中からクロアチアで最も多く栽培されている品種を選択してください。",
+    "choices": [
+      "シャルドネ",
+      "マルヴァジア",
+      "グラシェヴィナ",
+      "プラヴァッツ・マリ"
+    ],
+    "answerIndex": 2,
+    "explanation": "栽培面積首位はGraševinaで約4,267ha。大陸部Slavoniaを代表する白品種で、Welschrieslingと同一。\nMalvazijaはIstria、Plavac MaliはDalmatiaの代表。Chardonnayは国際品種だが全国首位ではない。"
+  },
+  {
+    "id": "croatia-007",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次の中からクロアチアのワイン産地（リージョン）の数を選択してください。",
+    "choices": [
+      "72",
+      "4",
+      "18",
+      "27"
+    ],
+    "answerIndex": 1,
+    "explanation": "2019年からリージョンは4つ。SlavoniaとCroatian Danube、Croatian Uplands、Istria & Kvarner、Dalmatia。\nその下に12のサブリージョン、72の小地区があるため、「4・12・72」の階層で整理する。"
+  },
+  {
+    "id": "croatia-008",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次の中からクロアチアで最も有名なロゼワイン、ロゼ・ベンコヴァッツの品種を選択してください。",
+    "choices": [
+      "メルロ",
+      "グルナッシュ",
+      "ポルトギザッツ",
+      "シラー"
+    ],
+    "answerIndex": 1,
+    "explanation": "北DalmatiaのBenkovacで造られるRosé BenkovacはGrenacheを使用し、クロアチアを代表するロゼとして知られる。\nMerlotやSyrahも沿岸で栽培されるが、この固有名との組合せはGrenache。Portugizacは主に大陸部の黒品種。"
+  },
+  {
+    "id": "croatia-009",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次の中からクロアチアで原産地表記つきテーブルワインに相当する品質分類を選択してください。",
+    "choices": [
+      "Stolno vino s kontroliranim podrijetlom",
+      "Kvalitetno vino s kontroliranim podrijetlom",
+      "Stolno vino",
+      "Vrhunsko vino s kontroliranim podrijetlom"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stolno vino s kontroliranim podrijetlomは統制原産地名付きテーブルワイン。認定品種を使い、地理的由来を示す。\nStolno vinoは原産地表示なし。Kvalitetnoは上級、Vrhunskoはさらに上位のプレミアム区分。"
+  },
+  {
+    "id": "croatia-010",
+    "category": "クロアチア",
+    "importance": "B",
+    "question": "次のクロアチアに関する記述の中から正しいものを選んでください。「国土と文化の地域区分」に注目してください。",
+    "choices": [
+      "クロアチア内陸部の気候は地中海性気候である",
+      "クロアチアのワイン造りの歴史は14世紀のオーストリア・ハンガリー帝国時代からである",
+      "クロアチアの国土は大きく4つに分かれ、異なる文化を持つ",
+      "クロアチアはまだEUに加盟していない"
+    ],
+    "answerIndex": 2,
+    "explanation": "国土はSlavonia、中央高地、Istria・Kvarner、Dalmatiaの4地域に整理でき、気候・文化・主要品種が異なる。\n内陸は大陸性、沿岸は地中海性。歴史は約2500年前に遡り、クロアチアは2013年にEUへ加盟した。"
+  },
+  {
+    "id": "uk-001",
+    "category": "英国",
+    "importance": "A",
+    "question": "次の中から英国イングランドの産地SussexとHampshireに連なる白亜質土壌が地表に露出した丘陵地帯の名称を選択してください。",
+    "choices": [
+      "South Hills",
+      "Surrey Hills",
+      "North Downs",
+      "South Downs"
+    ],
+    "answerIndex": 3,
+    "explanation": "South DownsはSussexからHampshireへ続く白亜質の丘陵帯。海峡を隔てたChampagneと同系の地質が露出する。\nNorth DownsはKentからSurrey側へ延びる別の丘陵帯。Surrey Hillsはその西側周辺で、設問の連なりとは異なる。"
+  },
+  {
+    "id": "uk-002",
+    "category": "英国",
+    "importance": "B",
+    "question": "次の中から英国のワイン法で「地理的表示保護」に相当する品質分類を選択してください。",
+    "choices": [
+      "PGI",
+      "PDO",
+      "CMD",
+      "CIB"
+    ],
+    "answerIndex": 0,
+    "explanation": "PGIはProtected Geographical Indication、地理的表示保護。English Regional WineやWelsh Regional Wineが該当する。\nPDOはより地域との結び付きが強い原産地名称保護。英国ではEnglish Wine、Welsh Wine、Sussex Wineなどがある。"
+  },
+  {
+    "id": "uk-003",
+    "category": "英国",
+    "importance": "A",
+    "question": "次の中から英国でワイン生産が最も集中している構成国を選択してください。",
+    "choices": [
+      "スコットランド",
+      "北アイルランド",
+      "イングランド",
+      "ウェールズ"
+    ],
+    "answerIndex": 2,
+    "explanation": "英国ワインの約98%はEngland産で、畑は温暖な南東・南西部に集中する。Kent、Sussex、Hampshireが中心。\nWalesの生産は約1.5%。ScotlandとNorthern Irelandはさらに寒冷で、商業的な畑はごく少ない。"
+  },
+  {
+    "id": "uk-004",
+    "category": "英国",
+    "importance": "C",
+    "question": "次の英国に関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "英国は5つの構成国が連合した形をとっている",
+      "EUワイン法は原則として英国内には適用されない",
+      "英国は1703年にフランスとメシュエン条約を結びフランスワインの輸入が増えた",
+      "英国の国内総生産は金融などのサービス産業が大半を占める"
+    ],
+    "answerIndex": 3,
+    "explanation": "英国のGDPは金融をはじめとするサービス産業が大半。ワイン産業も観光・試飲・飲食を組み合わせる生産者が多い。\n構成国は4つ。Methuen条約はPortugalと結ばれ、EU離脱後も旧制度を基にした国内GI制度が続く。"
+  },
+  {
+    "id": "uk-005",
+    "category": "英国",
+    "importance": "B",
+    "question": "次の英国に関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "英国では紀元前1100年頃フェニキア人がワイン造りを始めたと考えられている",
+      "20世紀後半の英国では、ボルドー系品種を利用した酒精強化の甘口ワインが多かった",
+      "英国の2023年のワイナリー数は1000軒を超えた",
+      "英国は4つの構成国が連合した形をとっている"
+    ],
+    "answerIndex": 3,
+    "explanation": "United KingdomはEngland、Wales、Scotland、Northern Irelandの4構成国からなる。Great Britainは前3者の島を指す。\n近代英国では寒冷地向け交雑種が中心だったが、現在はChampagne系品種が主流。2024年のワイナリーは約238軒。"
+  },
+  {
+    "id": "uk-006",
+    "category": "英国",
+    "importance": "B",
+    "question": "次の中から英国において2024年に生産されたワインの中で、スパークリングワインが占める割合に最も近いものを選択してください。",
+    "choices": [
+      "38%",
+      "82%",
+      "69%",
+      "91%"
+    ],
+    "answerIndex": 2,
+    "explanation": "2024年の生産はSparkling 69%、Still 31%。冷涼気候の高い酸を生かす発泡性ワインが主力である。\n91%はSparklingのうちTraditional Methodが占める比率。全ワインに対する69%と母数を取り違えない。"
+  },
+  {
+    "id": "uk-007",
+    "category": "英国",
+    "importance": "A",
+    "question": "次の中から英国南部を特徴づける、シャンパーニュ地方と良く似た土壌を選択してください。",
+    "choices": [
+      "白亜土壌",
+      "粘板岩土壌",
+      "砂質土壌",
+      "花崗岩土壌"
+    ],
+    "answerIndex": 0,
+    "explanation": "England南部には英仏海峡を越えてChampagneへ続く白亜層が露出し、排水性と保水性を両立する。\nただし全畑が白亜ではなく、粘土・砂・砂利・花崗岩も存在する。土壌だけでなく冷涼気候も品質を左右する。"
+  },
+  {
+    "id": "uk-008",
+    "category": "英国",
+    "importance": "B",
+    "question": "次の中から英国の原産地名称保護スパークリングワインWelsh Wineの、滓とともに瓶内熟成させる最低期間を選択してください。",
+    "choices": [
+      "15ヶ月",
+      "18ヶ月",
+      "12ヶ月",
+      "9ヶ月"
+    ],
+    "answerIndex": 3,
+    "explanation": "PDO Welsh WineのTraditional Methodは滓とともに最低9か月瓶内熟成。最低ガス圧は3.5bar。\n15か月はChampagneのNV規定として知られる数字。英国・Walesの規定とは分けて覚える。"
+  },
+  {
+    "id": "uk-009",
+    "category": "英国",
+    "importance": "A",
+    "question": "次の中から英国で最も栽培面積の広いブドウ品種を選択してください。",
+    "choices": [
+      "バッカス",
+      "シャルドネ",
+      "ピノ・ノワール",
+      "セイヴァル・ブラン"
+    ],
+    "answerIndex": 1,
+    "explanation": "栽培面積首位はChardonnay、次いでPinot Noir、Meunier。上位3品種がTraditional Methodの主役を担う。\nBacchusは芳香豊かなStill白で重要、Seyval Blancは耐寒性のある交雑種だが面積首位ではない。"
+  },
+  {
+    "id": "uk-010",
+    "category": "英国",
+    "importance": "A",
+    "question": "英国のワイン法の分類による下記のワインに対する表示を選択してください。「輸入ブドウや濃縮ブドウ果汁を原料にして英国で造られた酒類」",
+    "choices": [
+      "British Wine",
+      "English Wine",
+      "European Union Wine",
+      "Wine of United Kingdom"
+    ],
+    "answerIndex": 0,
+    "explanation": "British Wineは輸入果実・濃縮果汁などを英国で発酵・製品化した酒類で、英国産ブドウのEnglish Wineとは別物。\nWine of United Kingdomは英国産ブドウを用いる基礎区分。名称のBritishとEnglishを地理的原料表示と誤認しない。"
+  },
+  {
+    "id": "georgia-001",
+    "importance": "A",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアは6000年におよぶワイン造りの歴史を有している",
+      "ジョージアのブドウ栽培面積の約39%を品種ルカツィテリが占めている",
+      "ジョージアではワイン造りが国家の免許制度などで管理されていない",
+      "ジョージアのブドウ栽培面積の約88%を東部カヘティが占めている"
+    ],
+    "answerIndex": 2,
+    "explanation": "ジョージアでは家庭醸造も広く、ワイン造り自体を一律の国家免許で管理していない。PDOやトレーサビリティの制度はあるため、無規制という意味ではない。\n歴史は約8000年、カヘティの栽培面積比率は約77%。ルカツィテリの比率も39%ではなく、数値の組み替えに注意。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-002",
+    "importance": "A",
+    "question": "次の中からジョージアが国土の西側に接しているものを選択してください。",
+    "choices": [
+      "ロシア",
+      "アドリア海",
+      "クロアチア",
+      "黒海"
+    ],
+    "answerIndex": 3,
+    "explanation": "ジョージアの西は黒海で、その影響を受ける西部は湿潤な亜熱帯性気候。北には大コーカサス山脈を挟んでロシアがある。\nアドリア海とクロアチアはバルカン半島側で、南コーカサスのジョージアとは離れている。地図では「西＝黒海、北＝ロシア」を対で覚える。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-003",
+    "importance": "B",
+    "question": "次の中からジョージア各地で作られるボート型のパンに卵とチーズをのせた料理を選択してください。",
+    "choices": [
+      "Khinkali",
+      "Pkhali",
+      "Khachapuri",
+      "Shkmeruli"
+    ],
+    "answerIndex": 2,
+    "explanation": "Khachapuriはチーズ入りパンの総称で、アジャラ地方の型は舟形に卵とバターをのせる。黒海沿岸のAdjaraと舟形を結び付けると忘れにくい。\nKhinkaliは小籠包状の肉料理、Pkhaliは野菜とクルミの前菜、Shkmeruliは鶏肉のニンニク・乳製品煮込み。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-004",
+    "importance": "B",
+    "question": "次の中からジョージア西部（黒海沿岸部）に位置する産地を選択してください。",
+    "choices": [
+      "Kartli",
+      "Guria",
+      "Racha",
+      "Imereti"
+    ],
+    "answerIndex": 1,
+    "explanation": "Guriaは黒海に面する西部の産地。海の影響で温暖多湿となり、東部の乾燥したKakhetiやKartliと気候が対照的である。\nImeretiとRachaも西部だが内陸側。Kartliは首都Tbilisiを含む東部なので、「黒海沿岸」という限定がGuriaを選ぶ決め手。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-005",
+    "importance": "A",
+    "question": "次の中からジョージア、イメレティで使われているワイン醸造用の素焼きの壺を選択してください。",
+    "choices": [
+      "サツナヘリ",
+      "チャチャ",
+      "チュリ",
+      "マラニ"
+    ],
+    "answerIndex": 2,
+    "explanation": "素焼きの醸造壺は一般にQvevriだが、西部ImeretiではChuriと呼ばれる。地域による呼称の違いが狙われやすい。\nSatsnakheliはブドウを踏む木製槽、Chachaは搾りかすや蒸留酒、Maraniはワインを造り貯蔵する場所。道具・原料・場所を分ける。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-006",
+    "importance": "A",
+    "question": "次の中からジョージア東部の気候を選択してください。",
+    "choices": [
+      "乾燥した大陸性気候",
+      "温暖な海洋性気候",
+      "温暖な地中海性気候",
+      "湿潤な亜熱帯性気候"
+    ],
+    "answerIndex": 0,
+    "explanation": "東部は黒海から離れ、山脈の影響もあって乾燥した大陸性気候。主産地Kakhetiでは昼夜差がブドウの成熟と酸の保持を助ける。\n湿潤な亜熱帯性気候は黒海側の西部。海洋性・地中海性ではなく、「西は湿潤、東は乾燥」の対比で整理する。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-007",
+    "importance": "A",
+    "question": "次の中からジョージア西部を代表する産地を選択してください。",
+    "choices": [
+      "Racha",
+      "Imereti",
+      "Kartli",
+      "Kakheti"
+    ],
+    "answerIndex": 1,
+    "explanation": "Imeretiはジョージア西部を代表する広域産地で、壺をChuriと呼び、果皮などの使用量を抑えた醸造も見られる。\nRachaも西部だが小規模な山間産地。Kartliは中東部、Kakhetiは東部最大の中心地なので、代表産地の東西比較ではImeretiが軸になる。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-008",
+    "importance": "A",
+    "question": "次の中からジョージアで最も広く栽培されている黒ブドウ品種を選択してください。",
+    "choices": [
+      "ツォリコウリ",
+      "サペラヴィ",
+      "ムツヴァネ・カフリ",
+      "ルカツィテリ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Saperaviは最重要黒ブドウで、果肉にも色素を持つタンテュリエ。深い色調と酸、熟成力を備え、Kakhetiの赤ワインを支える。\nRkatsiteliは栽培面積首位の白、Tsolikouriも白で西部、Mtsvane Kakhuriは芳香性の白。黒品種という条件を見落とさない。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-009",
+    "importance": "B",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアでは大部分のワインが国際品種から造られている",
+      "ジョージアは2014年にEUと連合協定を結び2016年に発効した",
+      "ジョージアのワイン生産量の約93%が東部カヘティと隣のカルトリで生産されている",
+      "ジョージアのブドウ栽培面積の約39%を品種ルカツィテリが占めている"
+    ],
+    "answerIndex": 1,
+    "explanation": "ジョージアは2014年にEUとの連合協定へ署名し、2016年に発効。欧州市場との結び付きや制度整備を考える重要な年号である。\n国際品種は約3%にすぎず、ワイン生産は東部が約84%。93%やルカツィテリ39%は近い数値を混ぜた誤答。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-010",
+    "importance": "B",
+    "question": "次の中からジョージアにおけるKantsiの意味を選択してください。",
+    "choices": [
+      "客人をもてなす宴",
+      "ヤギの角でできた杯",
+      "宴を取り仕切る乾杯役",
+      "乾杯時の発声"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kantsiはヤギなどの角で作る伝統的な杯。置けない形のため、注がれた酒を飲み切る宴席文化とも結び付く。\n宴はSupra、乾杯を取り仕切る役はTamada、乾杯の発声はGaumarjos。4語を宴・人・言葉・器に分けて覚える。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-011",
+    "importance": "A",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアには29個のPDOが登録されていて、そのうち19個がカヘティにある",
+      "ジョージアではワイン造りが国家の免許制度で管理されている",
+      "ジョージアでは大部分のワインが国際品種から造られている",
+      "ジョージアは8000年におよぶワイン造りの歴史を有している"
+    ],
+    "answerIndex": 3,
+    "explanation": "南コーカサスでは紀元前6000年頃のワイン造りの痕跡が確認され、ジョージアは約8000年の歴史を持つ「ワイン発祥地」の一つとされる。\nPDOは教本時点で32、うちKakhetiが20。国際品種中心でも国家免許制でもなく、多数の土着品種と家庭醸造が特徴。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-012",
+    "importance": "A",
+    "question": "次の中からジョージアが国土の北側に接しているものを選択してください。",
+    "choices": [
+      "ロシア",
+      "黒海",
+      "カスピ海",
+      "アドリア海"
+    ],
+    "answerIndex": 0,
+    "explanation": "北側は大コーカサス山脈を境にロシアと接する。山脈は冷気を遮り、ジョージアのブドウ栽培環境を守る地理的要素でもある。\n黒海は西側。カスピ海には接しておらず、その手前にアゼルバイジャンがある。アドリア海はバルカン半島西側。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-013",
+    "importance": "B",
+    "question": "次の中からジョージアの鶏肉をニンニク、バター、牛乳とともに煮込む郷土料理を選択してください。",
+    "choices": [
+      "Khinkali",
+      "Shkmeruli",
+      "Khachapuri",
+      "Pkhali"
+    ],
+    "answerIndex": 1,
+    "explanation": "ShkmeruliはRacha地方のShkmeri村に由来する鶏料理で、ニンニクを利かせた乳製品のソースが特徴。料理名とRachaを結び付ける。\nKhinkaliは肉入りの包み料理、Khachapuriはチーズパン、Pkhaliは野菜とクルミの前菜で、素材と調理法がそれぞれ異なる。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-014",
+    "importance": "B",
+    "question": "次の中からジョージア西部に位置する産地を選択してください。",
+    "choices": [
+      "Kakheti",
+      "Racha",
+      "Meskheti",
+      "Kartli"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rachaは西部内陸の山間産地で、冷涼な環境と甘口赤Khvanchkaraで知られる。黒海沿岸ではない点も押さえたい。\nKakhetiとKartliは東部、Meskhetiは南部。西部では代表的なImereti、その北側のRachaという位置関係で覚える。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-015",
+    "importance": "A",
+    "question": "次の中からジョージアで最も広く栽培されているブドウ品種を選択してください。",
+    "choices": [
+      "ルカツィテリ",
+      "ツォリコウリ",
+      "ムツヴァネ・カフリ",
+      "サペラヴィ"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rkatsiteliはジョージア全体で栽培面積首位の白品種。高い酸を保ちやすく、欧州式にもQvevri式にも用いられるKakhetiの基幹品種である。\nSaperaviは黒品種首位、Tsolikouriは西部の主要白、Mtsvane Kakhuriは香りを補う白。全体首位と色別首位を区別する。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-016",
+    "importance": "A",
+    "question": "次の中からジョージアで使用されているブドウ品種の中で国際品種が占める割合を選択してください。",
+    "choices": [
+      "3%",
+      "60%",
+      "30%",
+      "6%"
+    ],
+    "answerIndex": 0,
+    "explanation": "国際品種は約3%にとどまり、栽培の中心はRkatsiteliやSaperaviなどの土着品種。525種もの土着品種を持つ多様性が背景にある。\n60%や30%なら国際品種主体の国になってしまう。6%も倍の数値で、試験では「525種・国際品種3%」をセットで押さえる。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-017",
+    "importance": "A",
+    "question": "次の中からジョージアのワイン造りにおける「udedo」の意味を選択してください。",
+    "choices": [
+      "ブドウを踏みつぶす木製の槽",
+      "果汁のみを発酵させたワイン",
+      "果醪（果汁、果皮、茎、種）",
+      "果汁とともに果皮、茎、種を漬け込み発酵させたワイン"
+    ],
+    "answerIndex": 1,
+    "explanation": "udedoは果汁だけを発酵させたワイン。接頭語u-を「ない」と捉え、固形物を伴うdedaがない状態と連想すると覚えやすい。\ndedazeは果皮・茎・種も漬け込むワイン、dedaは果醪、木製の踏み槽はSatsnakheli。製法・中身・器具を分ける。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-018",
+    "importance": "B",
+    "question": "次の中からジョージアにおけるGaumarjosの意味を選択してください。",
+    "choices": [
+      "宴を取り仕切る乾杯役",
+      "乾杯時の発声",
+      "ヤギの角でできた杯",
+      "客人をもてなす宴"
+    ],
+    "answerIndex": 1,
+    "explanation": "Gaumarjosは乾杯時の発声で、「勝利を」の意味を持つ。宴席でTamadaの導きに続いて唱える言葉として覚える。\n乾杯役はTamada、角杯はKantsi、宴そのものはSupra。似た文化用語は、人・器・場・発声の4分類なら取り違えにくい。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-019",
+    "importance": "A",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアのブドウ栽培面積の約77%を東部カヘティが占めている",
+      "ジョージアのブドウ栽培面積の約39%を品種ルカツィテリが占めている",
+      "ジョージアではワイン造りが国家の免許制度で管理されている",
+      "ジョージアでは大部分のワインが国際品種から造られている"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kakhetiは栽培面積の約76.7%、四捨五入して約77%を占める圧倒的中心地。乾燥した東部にあり、RkatsiteliとSaperaviが主役となる。\n国際品種は約3%で、免許制中心でもない。ルカツィテリ39%は旧値などと混同しやすく、最新教本の面積比率を優先する。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-020",
+    "importance": "A",
+    "question": "次の中からジョージア東部に位置する産地を選択してください。",
+    "choices": [
+      "Lechkhumi",
+      "Imereti",
+      "Racha",
+      "Kakheti"
+    ],
+    "answerIndex": 3,
+    "explanation": "Kakhetiは国土東端に広がる最大産地で、アラザニ川流域を中心にブドウ畑が集中する。栽培面積約77%という数値も位置と結び付ける。\nImereti、Racha、Lechkhumiはいずれも西部。選択肢に西部3産地が並ぶため、「東＝Kakheti」が一つだけと見抜く。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-021",
+    "importance": "A",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアのワイン生産量の約93%が東部カヘティと隣のカルトリで生産されている",
+      "ジョージアではワイン造りが国家の免許制度で管理されている",
+      "ジョージアには525種の土着品種がある",
+      "ジョージアのブドウ栽培面積の約39%を品種ルカツィテリが占めている"
+    ],
+    "answerIndex": 2,
+    "explanation": "ジョージアには525種の土着ブドウが確認され、国際品種の使用は約3%にすぎない。この多様性が「ワイン発祥地」の文化的厚みを支える。\n東部の生産比率は約84%で93%ではない。免許制度やルカツィテリ39%も誤りで、数字は「525・3・84・77」を整理する。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-022",
+    "importance": "A",
+    "question": "次の中からジョージアの首都トビリシを含む産地を選択してください。",
+    "choices": [
+      "Kakheti",
+      "Racha",
+      "Kartli",
+      "Imereti"
+    ],
+    "answerIndex": 2,
+    "explanation": "首都Tbilisiは東部のKartliに位置する。KartliはKakhetiの西隣で、内陸性気候のもと伝統品種とスパークリング用ブドウも見られる。\nKakhetiはさらに東の最大産地。ImeretiとRachaは西部なので、「首都＝Kartli、最大産地＝Kakheti」を対にする。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-023",
+    "importance": "A",
+    "question": "次の中からジョージアでワイン造りが始まった年代を選択してください。",
+    "choices": [
+      "紀元前6000年頃",
+      "紀元前4000年頃",
+      "紀元前3000年頃",
+      "紀元前5000年頃"
+    ],
+    "answerIndex": 0,
+    "explanation": "南コーカサスで紀元前6000年頃のワイン成分を含む土器が見つかり、ジョージアのワイン史は約8000年とされる。年代と年数は同じ事実の表裏。\n紀元前5000〜3000年では歴史が短くなる。「紀元前6000年頃＝約8000年史」を一組で覚える。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-024",
+    "importance": "A",
+    "question": "次の中からジョージアのワイン造りにおける「dedaze」の意味を選択してください。",
+    "choices": [
+      "果汁とともに果皮、茎、種を漬け込み発酵させたワイン",
+      "果汁のみを発酵させたワイン",
+      "果醪（果汁、果皮、茎、種）",
+      "ブドウを踏みつぶす木製の槽"
+    ],
+    "answerIndex": 0,
+    "explanation": "dedazeは果汁に果皮・茎・種を加えて発酵させたワイン。長い接触により色、タンニン、香味成分を引き出す伝統的Qvevri醸造につながる。\nudedoは果汁のみ、dedaは固形物を含む果醪そのもの、Satsnakheliは木製の踏み槽。完成酒と原料状態を区別する。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-025",
+    "importance": "A",
+    "question": "次のジョージアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ジョージアのワイン生産量の約84%がカヘティを中心とする東部で生産されている",
+      "ジョージアのブドウ栽培面積の約39%を品種ルカツィテリが占めている",
+      "ジョージアには29個のPDOが登録されていて、そのうち19個がカヘティにある",
+      "ジョージアは6000年におよぶワイン造りの歴史を有している"
+    ],
+    "answerIndex": 0,
+    "explanation": "ワイン生産量の約84%はKakhetiを中心とする東部に集中する。栽培面積約77%と混同せず、「面積77、生産84」と分ける。\n歴史は約8000年。PDOは教本時点で32、うちKakhetiが20で、29・19は旧情報。ルカツィテリ39%も最新値ではない。",
+    "category": "ジョージア"
+  },
+  {
+    "id": "georgia-026",
+    "importance": "B",
+    "question": "次の中からジョージア西部（黒海沿岸部）に位置する産地を選択してください。",
+    "choices": [
+      "Adjara",
+      "Imereti",
+      "Kakheti",
+      "Kartli"
+    ],
+    "answerIndex": 0,
+    "explanation": "Adjaraはトルコ国境に近い黒海沿岸の南西部。舟形Khachapuriで知られる地域でもあり、料理と地理を一緒に覚えられる。\nImeretiも西部だが内陸、KakhetiとKartliは東部。設問の「黒海沿岸部」がAdjaraを選ぶ決定的な手掛かり。",
+    "category": "ジョージア"
   }
 ];
