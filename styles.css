@@ -185,6 +185,85 @@ h1 {
   background: var(--accent);
 }
 
+.reading-toggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 11px;
+  background: rgba(255, 253, 249, 0.9);
+  cursor: pointer;
+}
+
+.reading-toggle > span {
+  min-width: 0;
+  margin: 0;
+}
+
+.reading-toggle strong,
+.reading-toggle small {
+  display: block;
+}
+
+.reading-toggle strong {
+  color: var(--ink);
+  font-size: 0.84rem;
+}
+
+.reading-toggle small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.reading-toggle input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reading-toggle i {
+  position: relative;
+  width: 46px;
+  height: 26px;
+  flex: 0 0 46px;
+  border-radius: 999px;
+  background: #c8c4bd;
+  transition: background 160ms ease;
+}
+
+.reading-toggle i::after {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(32, 33, 38, 0.22);
+  content: "";
+  transition: transform 160ms ease;
+}
+
+.reading-toggle input:checked + i {
+  background: var(--leaf);
+}
+
+.reading-toggle input:checked + i::after {
+  transform: translateX(20px);
+}
+
+.reading-toggle input:focus-visible + i {
+  outline: 3px solid rgba(49, 95, 150, 0.3);
+  outline-offset: 2px;
+}
+
 label span {
   display: block;
   margin: 0 0 5px 2px;
@@ -382,6 +461,7 @@ select {
   margin-bottom: 18px;
   font-size: 1.24rem;
   line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .question-image {
@@ -457,6 +537,7 @@ select {
 .choice-button strong {
   font-size: 0.96rem;
   line-height: 1.34;
+  overflow-wrap: anywhere;
 }
 
 .choice-button.correct {
@@ -552,6 +633,7 @@ select {
   color: #4f473f;
   font-size: 0.95rem;
   line-height: 1.58;
+  overflow-wrap: anywhere;
 }
 
 .explanation-paragraph {

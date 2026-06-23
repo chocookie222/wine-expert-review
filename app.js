@@ -2,6 +2,9 @@
   "use strict";
 
   const questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
+  const readingFormatter = typeof window.WINE_READING_FORMATTER === "function"
+    ? window.WINE_READING_FORMATTER
+    : (value) => String(value || "");
   const storageKey = "wineExpertReviewApp.v1";
   const mixedCategoryRules = {
     "フランス": (category) => category === "フランス概論" || category.startsWith("フランス/"),
@@ -61,6 +64,9 @@
       questionCount: 60,
       minutes: 35
     },
+    preferences: {
+      showKanaReadings: true
+    },
     similarSourceId: null,
     currentIndex: 0,
     selectedId: null
@@ -86,6 +92,7 @@
     importanceFilter: document.getElementById("importanceFilter"),
     categoryFilter: document.getElementById("categoryFilter"),
     questionLimitControl: document.getElementById("questionLimitControl"),
+    kanaReadingToggle: document.getElementById("kanaReadingToggle"),
     questionCounter: document.getElementById("questionCounter"),
     accuracyNow: document.getElementById("accuracyNow"),
     wrongCount: document.getElementById("wrongCount"),
@@ -180,7 +187,8 @@
         confidence: { ...defaultState.confidence, ...(saved && saved.confidence) },
         dailyActivity: { ...defaultState.dailyActivity, ...(saved && saved.dailyActivity) },
         studyPlan: { ...defaultState.studyPlan, ...(saved && saved.studyPlan) },
-        mockSettings: { ...defaultState.mockSettings, ...(saved && saved.mockSettings) }
+        mockSettings: { ...defaultState.mockSettings, ...(saved && saved.mockSettings) },
+        preferences: { ...defaultState.preferences, ...(saved && saved.preferences) }
       };
       Object.keys(loaded.confidence).forEach((id) => {
         if (loaded.confidence[id] === "again") loaded.confidence[id] = "guess";
@@ -239,6 +247,7 @@
     els.dailyTargetInput.value = String(state.studyPlan.dailyTarget || 20);
     els.mockQuestionCount.value = String(state.mockSettings.questionCount || 60);
     els.mockMinutes.value = String(state.mockSettings.minutes || 35);
+    els.kanaReadingToggle.checked = state.preferences.showKanaReadings !== false;
   }
 
   function bindEvents() {
@@ -263,6 +272,13 @@
       rebuildSet();
       saveState();
       renderAll();
+    });
+
+    els.kanaReadingToggle.addEventListener("change", () => {
+      state.preferences.showKanaReadings = els.kanaReadingToggle.checked;
+      saveState();
+      renderQuiz();
+      renderSaved();
     });
 
     function applyFiltersFromControls() {
@@ -631,9 +647,9 @@
     els.importanceBadge.textContent = `重要度 ${importance}`;
     els.importanceBadge.dataset.importance = importance;
     els.importanceEditor.value = importance;
-    els.questionText.textContent = question.question;
+    els.questionText.textContent = formatStudyText(question.question);
     renderQuestionImage(question);
-    renderExplanation(question.explanation);
+    renderExplanation(formatStudyText(question.explanation));
     els.answerResult.hidden = true;
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
@@ -660,7 +676,7 @@
       button.className = "choice-button";
       button.dataset.choiceIndex = String(index);
       if (isMultipleChoiceQuestion(question)) button.setAttribute("aria-pressed", "false");
-      button.innerHTML = `<span>${index + 1}</span><strong>${escapeHtml(choice)}</strong>`;
+      button.innerHTML = `<span>${index + 1}</span><strong>${escapeHtml(formatStudyText(choice))}</strong>`;
       els.choices.appendChild(button);
     });
     restoreSessionAnswer(question);
@@ -692,8 +708,8 @@
 
     els.questionImageBox.hidden = false;
     els.questionImage.src = question.image.src;
-    els.questionImage.alt = question.image.alt || "問題画像";
-    els.questionImageCaption.textContent = question.image.caption || "";
+    els.questionImage.alt = formatStudyText(question.image.alt || "問題画像");
+    els.questionImageCaption.textContent = formatStudyText(question.image.caption || "");
   }
 
   function toggleMultipleChoice(button, choiceIndex, question) {
@@ -791,8 +807,8 @@
     els.answerResult.classList.add(isCorrect ? "correct" : "incorrect");
     els.answerResult.innerHTML = `
       <strong>${isCorrect ? "正解です" : "不正解です。誤答として保存しました"}</strong>
-      <span>正解：${escapeHtml(formatAnswers(question, answerIndexes))}</span>
-      <span>あなたの回答：${escapeHtml(formatAnswers(question, choiceIndexes))}</span>
+      <span>正解：${escapeHtml(formatStudyText(formatAnswers(question, answerIndexes)))}</span>
+      <span>あなたの回答：${escapeHtml(formatStudyText(formatAnswers(question, choiceIndexes)))}</span>
     `;
     els.explanationBox.hidden = false;
     renderConfidence(question);
@@ -807,7 +823,7 @@
     els.answerResult.classList.add(isCorrect ? "correct" : "incorrect");
     els.answerResult.innerHTML = `
       <strong>${isCorrect ? "正解です" : "不正解です。誤答として保存しました"}</strong>
-      <span>正解：${escapeHtml(question.answerText)}</span>
+      <span>正解：${escapeHtml(formatStudyText(question.answerText))}</span>
       <span>あなたの回答：${escapeHtml(answerText)}</span>
     `;
     els.explanationBox.hidden = false;
@@ -1180,7 +1196,7 @@
           <article class="saved-item">
             <div>
               <span>${escapeHtml(question.category)}・重要度${escapeHtml(getQuestionImportance(question))}</span>
-              <strong>${escapeHtml(question.question)}</strong>
+              <strong>${escapeHtml(formatStudyText(question.question))}</strong>
             </div>
             <small>${tags.map(escapeHtml).join(" / ")}</small>
             ${state.wrongIds.includes(id) ? `
@@ -1271,6 +1287,11 @@
 
   function clamp(value, min, max) {
     return Math.min(max, Math.max(min, value));
+  }
+
+  function formatStudyText(value) {
+    const text = String(value || "");
+    return state.preferences.showKanaReadings ? readingFormatter(text) : text;
   }
 
   function escapeHtml(value) {

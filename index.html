@@ -61,6 +61,15 @@
             </div>
           </fieldset>
 
+          <label class="reading-toggle" for="kanaReadingToggle">
+            <span>
+              <strong>カタカナ読み</strong>
+              <small>欧文の地名・呼称・品種名</small>
+            </span>
+            <input id="kanaReadingToggle" type="checkbox" checked>
+            <i aria-hidden="true"></i>
+          </label>
+
           <div class="status-strip">
             <div>
               <strong id="questionCounter">0 / 0</strong>
@@ -274,6 +283,7 @@
     </div>
 
     <script src="questions.js"></script>
+    <script src="readings.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
