@@ -3097,7 +3097,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-001",
     "category": "フランス/シャンパーニュ",
     "importance": "S",
-    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAvizeに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAvize（アヴィーズ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
       "alt": "シャンパーニュ地方のグラン・クリュ地図",
@@ -3110,7 +3110,7 @@ window.WINE_QUESTIONS = [
       "12番"
     ],
     "answerIndex": 3,
-    "explanation": "Avizeはコート・デ・ブラン地区の代表的なグラン・クリュです。AvizeはCôte des Blancs。シャルドネと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は5番→Mailly-Champagne、9番→Verzy、12番→Avize。"
+    "explanation": "所属地区：コート・デ・ブラン　主要品種：シャルドネ\n近隣の頻出村・産地：Cramant（クラマン）、Oger（オジェ）、Le Mesnil-sur-Oger（ル・メニル・シュール・オジェ）\n見分け方：Avize（アヴィーズ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-002",
@@ -3382,7 +3382,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-021",
     "category": "フランス/シャンパーニュ",
     "importance": "S",
-    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAmbonnayに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でAmbonnay（アンボネイ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
       "alt": "シャンパーニュ地方のグラン・クリュ地図",
@@ -3395,7 +3395,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "AmbonnayはMontagne de Reims地区の代表的なグラン・クリュです。AmbonnayはMontagne de Reims。ピノ・ノワールと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は13番→Chouilly、16番→Oger、1番→Ambonnay。"
+    "explanation": "所属地区：モンターニュ・ド・ランス南東部　主要品種：ピノ・ノワール主体\n近隣の頻出村・産地：Bouzy（ブージィ）、Louvois（ルーヴォワ）、Verzy（ヴェルジィ）\n見分け方：Ambonnay（アンボネイ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-022",
@@ -3485,7 +3485,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-028",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でMailly-Champagneに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でMailly-Champagne（マイィ・シャンパーニュ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
       "alt": "シャンパーニュ地方のグラン・クリュ地図",
@@ -3498,7 +3498,7 @@ window.WINE_QUESTIONS = [
       "15番"
     ],
     "answerIndex": 2,
-    "explanation": "Mailly-ChampagneはMontagne de ReimsのGrand Cru。Mailly-ChampagneはMontagne de Reims。ピノ・ノワールと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は13番→Chouilly、5番→Mailly-Champagne、15番→Le Mesnil sur Oger。"
+    "explanation": "所属地区：モンターニュ・ド・ランス北東部　主要品種：ピノ・ノワール主体\n近隣の頻出村・産地：Verzenay（ヴェルズネ）、Verzy（ヴェルジィ）、Sillery（シルリ）\n見分け方：Mailly-Champagne（マイィ・シャンパーニュ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-029",
@@ -3567,13 +3567,13 @@ window.WINE_QUESTIONS = [
       "caption": "シャンパーニュ地方 グラン・クリュ地図"
     },
     "choices": [
-      "Bouzy",
-      "Oger",
-      "Chouilly",
-      "Cramant"
+      "Bouzy（ブージィ）",
+      "Oger（オジェ）",
+      "Chouilly（シュイィ）",
+      "Cramant（クラマン）"
     ],
     "answerIndex": 0,
-    "explanation": "この地図で3番に相当するグラン・クリュはBouzyです。BouzyはMontagne de Reims。ピノ・ノワールと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は1番→Ambonnay、3番→Bouzy、5番→Mailly-Champagne、9番→Verzy。"
+    "explanation": "所属地区：モンターニュ・ド・ランス南部　主要品種：ピノ・ノワール主体\n近隣の頻出村・産地：Ambonnay（アンボネイ）、Louvois（ルーヴォワ）、Tours-sur-Marne（トゥール・シュール・マルヌ）\n見分け方：Bouzy（ブージィ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-034",
@@ -3754,13 +3754,13 @@ window.WINE_QUESTIONS = [
       "caption": "シャンパーニュ地方 グラン・クリュ地図"
     },
     "choices": [
-      "Verzenay",
-      "Mailly-Champagne",
-      "Chouilly",
-      "Bouzy"
+      "Verzenay（ヴェルズネ）",
+      "Mailly-Champagne（マイィ・シャンパーニュ）",
+      "Chouilly（シュイィ）",
+      "Bouzy（ブージィ）"
     ],
     "answerIndex": 2,
-    "explanation": "この地図で13番に相当するグラン・クリュはChouillyです。ChouillyはCôte des Blancs。シャルドネと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は12番→Avize、13番→Chouilly、15番→Le Mesnil sur Oger、16番→Oger。"
+    "explanation": "所属地区：コート・デ・ブラン北端　主要品種：シャルドネ\n近隣の頻出村・産地：Cramant（クラマン）、Avize（アヴィーズ）、Oiry（オワリィ）\n見分け方：Chouilly（シュイィ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-047",
@@ -3794,7 +3794,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-049",
     "category": "フランス/シャンパーニュ",
     "importance": "S",
-    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でVerzyに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でVerzy（ヴェルジィ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
       "alt": "シャンパーニュ地方のグラン・クリュ地図",
@@ -3807,7 +3807,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 3,
-    "explanation": "VerzyはMontagne de Reims地区のグラン・クリュです。VerzyはMontagne de Reims。ピノ・ノワールと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は16番→Oger、13番→Chouilly、15番→Le Mesnil sur Oger、9番→Verzy。"
+    "explanation": "所属地区：モンターニュ・ド・ランス北東部　主要品種：ピノ・ノワール主体\n近隣の頻出村・産地：Verzenay（ヴェルズネ）、Mailly-Champagne（マイィ・シャンパーニュ）、Sillery（シルリ）\n見分け方：Verzy（ヴェルジィ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-050",
@@ -3883,7 +3883,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-055",
     "category": "フランス/シャンパーニュ",
     "importance": "S",
-    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でLe Mesnil sur Ogerに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、シャンパーニュ地方のグラン・クリュの地図です。地図上でLe Mesnil sur Oger（ル・メニル・シュール・オジェ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/champagne-grand-cru-map.jpg",
       "alt": "シャンパーニュ地方のグラン・クリュ地図",
@@ -3896,7 +3896,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 1,
-    "explanation": "Le Mesnil sur OgerはCôte des BlancsのGrand Cru。Le Mesnil sur OgerはCôte des Blancs。シャルドネと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は1番→Ambonnay、15番→Le Mesnil sur Oger、3番→Bouzy。"
+    "explanation": "所属地区：コート・デ・ブラン　主要品種：シャルドネ\n近隣の頻出村・産地：Oger（オジェ）、Avize（アヴィーズ）、Cramant（クラマン）\n見分け方：Le Mesnil sur Oger（ル・メニル・シュール・オジェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-056",
@@ -3993,13 +3993,13 @@ window.WINE_QUESTIONS = [
       "caption": "シャンパーニュ地方 グラン・クリュ地図"
     },
     "choices": [
-      "Oger",
-      "Verzy",
-      "Bouzy",
-      "Verzenay"
+      "Oger（オジェ）",
+      "Verzy（ヴェルジィ）",
+      "Bouzy（ブージィ）",
+      "Verzenay（ヴェルズネ）"
     ],
     "answerIndex": 0,
-    "explanation": "この地図で16番に相当するグラン・クリュはOgerです。OgerはCôte des Blancs。シャルドネと結び付ける。コート・デ・ブラン=シャルドネ、モンターニュ=ピノ。\nGrand Cruは17村、Premier Cruは42村。\n選択肢の対応は15番→Le Mesnil sur Oger、16番→Oger。"
+    "explanation": "所属地区：コート・デ・ブラン　主要品種：シャルドネ\n近隣の頻出村・産地：Avize（アヴィーズ）、Le Mesnil-sur-Oger（ル・メニル・シュール・オジェ）、Cramant（クラマン）\n見分け方：Oger（オジェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-champagne-063",
@@ -5767,14 +5767,18 @@ window.WINE_QUESTIONS = [
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
       "caption": "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
     },
-    "answerText": "シャンベルタン",
-    "explanation": "地図上の6番はChambertin、カタカナではシャンベルタンです。ChambertinはGevrey-Chambertin村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は4番→Chapelle-Chambertin、6番→シャンベルタン、7番→シャルム・シャンベルタン、8番→ラトリシエール・シャンベルタン。"
+    "answerText": "Chambertin（シャンベルタン）",
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Chambertin（シャンベルタン）の位置を、周辺産地との並びで覚える。",
+    "answerTextAliases": [
+      "シャンベルタン",
+      "Chambertin（シャンベルタン）"
+    ]
   },
   {
     "id": "france-bourgogne-grand-cru-004",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Grande Rueに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Grande Rue（ラ・グランド・リュー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
@@ -5787,7 +5791,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 3,
-    "explanation": "La Grande Rueに相当する番号は8番です。す。地図上でLa Grande Rueを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は4番→リシュブール、9番→La Tâche、7番→Vaudésir、8番→ラ・グランド・リュー。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：La Grande Rue（ラ・グランド・リュー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-005",
@@ -5841,8 +5845,12 @@ window.WINE_QUESTIONS = [
       "alt": "シャブリ地区のグラン・クリュ地図",
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
-    "answerText": "グルヌイユ",
-    "explanation": "地図上の4番はGrenouilles、カタカナではグルヌイユです。Grenouillesを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は3番→グラン・ゼシェゾー、4番→リシュブール、5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール。"
+    "answerText": "Grenouilles（グルヌイユ）",
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Grenouilles（グルヌイユ）の位置を、周辺産地との並びで覚える。",
+    "answerTextAliases": [
+      "グルヌイユ",
+      "Grenouilles（グルヌイユ）"
+    ]
   },
   {
     "id": "france-bourgogne-grand-cru-009",
@@ -5976,7 +5984,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-017",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Tâcheに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュの地図です。地図上でLa Tâche（ラ・ターシュ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-vosne-romanee-grand-cru.jpg",
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
@@ -5989,7 +5997,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 0,
-    "explanation": "La Tâcheに相当する番号は9番です。す。地図上でLa Tâcheを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は9番→La Tâche、6番→ヴァルミュール、7番→Vaudésir、3番→グラン・ゼシェゾー。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：La Tâche（ラ・ターシュ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-018",
@@ -6001,8 +6009,12 @@ window.WINE_QUESTIONS = [
       "alt": "シャブリ地区のグラン・クリュ地図",
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
-    "answerText": "ブーグロ",
-    "explanation": "地図上の2番はBougros、カタカナではブーグロです。Bougrosを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は1番→クロ・ド・ヴージョ、2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー、4番→リシュブール。"
+    "answerText": "Bougros（ブーグロ）",
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Bougros（ブーグロ）の位置を、周辺産地との並びで覚える。",
+    "answerTextAliases": [
+      "ブーグロ",
+      "Bougros（ブーグロ）"
+    ]
   },
   {
     "id": "france-bourgogne-grand-cru-019",
@@ -6028,11 +6040,13 @@ window.WINE_QUESTIONS = [
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
       "caption": "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
     },
-    "answerText": "ラトリシエール・シャンベルタン",
+    "answerText": "Latricières-Chambertin（ラトリシエール・シャンベルタン）",
     "answerTextAliases": [
-      "ラトリシエールシャンベルタン"
+      "ラトリシエールシャンベルタン",
+      "ラトリシエール・シャンベルタン",
+      "Latricières-Chambertin（ラトリシエール・シャンベルタン）"
     ],
-    "explanation": "地図上の8番はLatricières-Chambertin、カタカナではラトリシエール・シャンベルタンです。Latricières-ChambertinはGevrey-Chambertin村。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は7番→シャルム・シャンベルタン、8番→ラトリシエール・シャンベルタン。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Latricières-Chambertin（ラトリシエール・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-021",
@@ -6100,11 +6114,13 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "ラ・ロマネ",
+    "answerText": "La Romanée（ラ・ロマネ）",
     "answerTextAliases": [
-      "ラロマネ"
+      "ラロマネ",
+      "ラ・ロマネ",
+      "La Romanée（ラ・ロマネ）"
     ],
-    "explanation": "地図上の5番はLa Romanée、カタカナではラ・ロマネです。La RomanéeはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は4番→リシュブール、5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール、7番→Vaudésir。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：La Romanée（ラ・ロマネ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-026",
@@ -6138,7 +6154,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-028",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でPreusesに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でPreuses（レ・プルーズ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
       "alt": "シャブリ地区のグラン・クリュ地図",
@@ -6151,7 +6167,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 3,
-    "explanation": "Preusesに相当する番号は5番です。す。地図上でPreusesを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は2番→シュヴァリエ・モンラッシェ、7番→Vaudésir、3番→グラン・ゼシェゾー、5番→Criots-Bâtard-Montrachet。"
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Preuses（レ・プルーズ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-029",
@@ -6163,17 +6179,19 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "ロマネ・コンティ",
+    "answerText": "Romanée-Conti（ロマネ・コンティ）",
     "answerTextAliases": [
-      "ロマネコンティ"
+      "ロマネコンティ",
+      "ロマネ・コンティ",
+      "Romanée-Conti（ロマネ・コンティ）"
     ],
-    "explanation": "地図上の6番はRomanée-Conti、カタカナではロマネ・コンティです。Romanée-ContiはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール、7番→Vaudésir、8番→ラ・グランド・リュー。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：Romanée-Conti（ロマネ・コンティ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-030",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でMazis-Chambertinに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でMazis-Chambertin（マジ・シャンベルタン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
@@ -6186,7 +6204,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 2,
-    "explanation": "Mazis-Chambertinに相当する番号は2番です。す。地図上でMazis-Chambertinを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は7番→シャルム・シャンベルタン、3番→Chambertin Clos-de-Bèze、2番→Mazis-Chambertin。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Mazis-Chambertin（マジ・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-031",
@@ -6354,11 +6372,13 @@ window.WINE_QUESTIONS = [
       "alt": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
       "caption": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村 グラン・クリュ地図"
     },
-    "answerText": "クリオ・バタール・モンラッシェ",
+    "answerText": "Criots-Bâtard-Montrachet（クリオ・バタール・モンラッシェ）",
     "answerTextAliases": [
-      "クリオバタールモンラッシェ"
+      "クリオバタールモンラッシェ",
+      "クリオ・バタール・モンラッシェ",
+      "Criots-Bâtard-Montrachet（クリオ・バタール・モンラッシェ）"
     ],
-    "explanation": "地図上の5番はCriots-Bâtard-Montrachet、カタカナではクリオ・バタール・モンラッシェです。Criots-Bâtard-MontrachetはChassagne-Montrachet村。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は4番→リシュブール、5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール、7番→Vaudésir。"
+    "explanation": "所属地区：コート・ド・ボーヌ／ピュリニィ〜シャサーニュ・モンラッシェ　主要品種：シャルドネ\n近隣の頻出村・産地：Montrachet（モンラッシェ）、Chevalier-Montrachet（シュヴァリエ・モンラッシェ）、Bâtard-Montrachet（バタール・モンラッシェ）\n見分け方：Criots-Bâtard-Montrachet（クリオ・バタール・モンラッシェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-042",
@@ -6392,7 +6412,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-044",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でCriots-Bâtard-Montrachetに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でCriots-Bâtard-Montrachet（クリオ・バタール・モンラッシェ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
       "alt": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
@@ -6405,7 +6425,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 0,
-    "explanation": "Criots-Bâtard-Montrachetに相当する番号は5番です。す。地図上でCriots-Bâtard-Montrachetを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は5番→Criots-Bâtard-Montrachet、2番→シュヴァリエ・モンラッシェ、4番→リシュブール、3番→グラン・ゼシェゾー。"
+    "explanation": "所属地区：コート・ド・ボーヌ／ピュリニィ〜シャサーニュ・モンラッシェ　主要品種：シャルドネ\n近隣の頻出村・産地：Montrachet（モンラッシェ）、Chevalier-Montrachet（シュヴァリエ・モンラッシェ）、Bâtard-Montrachet（バタール・モンラッシェ）\n見分け方：Criots-Bâtard-Montrachet（クリオ・バタール・モンラッシェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-045",
@@ -6431,11 +6451,13 @@ window.WINE_QUESTIONS = [
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
       "caption": "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
     },
-    "answerText": "シャペル・シャンベルタン",
+    "answerText": "Chapelle-Chambertin（シャペル・シャンベルタン）",
     "answerTextAliases": [
-      "シャペルシャンベルタン"
+      "シャペルシャンベルタン",
+      "シャペル・シャンベルタン",
+      "Chapelle-Chambertin（シャペル・シャンベルタン）"
     ],
-    "explanation": "地図上の4番はChapelle-Chambertin、カタカナではシャペル・シャンベルタンです。Chapelle-ChambertinはGevrey-Chambertin村。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は3番→Chambertin Clos-de-Bèze、4番→Chapelle-Chambertin、6番→シャンベルタン、7番→シャルム・シャンベルタン。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Chapelle-Chambertin（シャペル・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-047",
@@ -6469,12 +6491,14 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "ロマネ・サン・ヴィヴァン",
+    "answerText": "Romanée-Saint-Vivant（ロマネ・サン・ヴィヴァン）",
     "answerTextAliases": [
       "ロマネサンヴィヴァン",
-      "ロマネ・サンヴィヴァン"
+      "ロマネ・サンヴィヴァン",
+      "ロマネ・サン・ヴィヴァン",
+      "Romanée-Saint-Vivant（ロマネ・サン・ヴィヴァン）"
     ],
-    "explanation": "地図上の7番はRomanée-Saint-Vivant、カタカナではロマネ・サン・ヴィヴァンです。Romanée-Saint-VivantはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。\n北から南、斜面上部から下部の順で隣接畑を確認。地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は6番→ヴァルミュール、7番→Vaudésir、8番→ラ・グランド・リュー、9番→La Tâche。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：Romanée-Saint-Vivant（ロマネ・サン・ヴィヴァン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-049",
@@ -6580,7 +6604,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-055",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBienvenues-Bâtard-Montrachetに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBienvenues-Bâtard-Montrachet（ビアンヴニュ・バタール・モンラッシェ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
       "alt": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
@@ -6593,7 +6617,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "Bienvenues-Bâtard-Montrachetに相当する番号は1番です。す。地図上でBienvenues-Bâtard-Montrachetを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー、5番→Criots-Bâtard-Montrachet、1番→クロ・ド・ヴージョ。"
+    "explanation": "所属地区：コート・ド・ボーヌ／ピュリニィ〜シャサーニュ・モンラッシェ　主要品種：シャルドネ\n近隣の頻出村・産地：Montrachet（モンラッシェ）、Chevalier-Montrachet（シュヴァリエ・モンラッシェ）、Bâtard-Montrachet（バタール・モンラッシェ）\n見分け方：Bienvenues-Bâtard-Montrachet（ビアンヴニュ・バタール・モンラッシェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-056",
@@ -6605,11 +6629,13 @@ window.WINE_QUESTIONS = [
       "alt": "シャブリ地区のグラン・クリュ地図",
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
-    "answerText": "レ・クロ",
+    "answerText": "Les Clos（レ・クロ）",
     "answerTextAliases": [
-      "レクロ"
+      "レクロ",
+      "レ・クロ",
+      "Les Clos（レ・クロ）"
     ],
-    "explanation": "地図上の3番はLes Clos、カタカナではレ・クロです。Les Closを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー、4番→リシュブール、5番→Criots-Bâtard-Montrachet。"
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Les Clos（レ・クロ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-057",
@@ -6677,11 +6703,13 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "ラ・グランド・リュー",
+    "answerText": "La Grande Rue（ラ・グランド・リュー）",
     "answerTextAliases": [
-      "ラグランドリュー"
+      "ラグランドリュー",
+      "ラ・グランド・リュー",
+      "La Grande Rue（ラ・グランド・リュー）"
     ],
-    "explanation": "地図上の8番はLa Grande Rue、カタカナではラ・グランド・リューです。La Grande RueはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は7番→Vaudésir、8番→ラ・グランド・リュー、9番→La Tâche。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：La Grande Rue（ラ・グランド・リュー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-062",
@@ -6693,12 +6721,14 @@ window.WINE_QUESTIONS = [
       "alt": "シャブリ地区のグラン・クリュ地図",
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
-    "answerText": "ヴォーデジール",
+    "answerText": "Vaudésir（ヴォーデジール）",
     "answerTextAliases": [
       "ボーデジール",
-      "ヴォデジール"
+      "ヴォデジール",
+      "ヴォーデジール",
+      "Vaudésir（ヴォーデジール）"
     ],
-    "explanation": "地図上の7番はVaudésir、カタカナではヴォーデジールです。Vaudésirを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は6番→ヴァルミュール、7番→Vaudésir、8番→ラ・グランド・リュー、9番→La Tâche。"
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Vaudésir（ヴォーデジール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-063",
@@ -6746,7 +6776,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-066",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "B",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でRuchottes-Chambertinに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でRuchottes-Chambertin（リュショット・シャンベルタン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
@@ -6759,7 +6789,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 1,
-    "explanation": "Ruchottes-Chambertinに相当する番号は1番です。す。地図上でRuchottes-Chambertinを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は8番→ラトリシエール・シャンベルタン、1番→Ruchottes-Chambertin、2番→Mazis-Chambertin、6番→シャンベルタン。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Ruchottes-Chambertin（リュショット・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-067",
@@ -6829,7 +6859,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-071",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "B",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でChambertin Clos-de-Bèzeに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でChambertin Clos-de-Bèze（シャンベルタン・クロ・ド・ベーズ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
@@ -6842,7 +6872,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 1,
-    "explanation": "Chambertin Clos-de-Bèzeに相当する番号は3番です。す。地図上でChambertin Clos-de-Bèzeを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は3番→Chambertin Clos-de-Bèze、6番→シャンベルタン、8番→ラトリシエール・シャンベルタン。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Chambertin Clos-de-Bèze（シャンベルタン・クロ・ド・ベーズ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-072",
@@ -6884,7 +6914,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-074",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でVaudésirに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方シャブリ地区のグラン・クリュの地図です。地図上でVaud（ヴォー）ésir（ヴォーデジール）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-chablis-grand-cru.jpg",
       "alt": "シャブリ地区のグラン・クリュ地図",
@@ -6897,7 +6927,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 0,
-    "explanation": "Vaudésirに相当する番号は7番です。す。地図上でVaudésirを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は7番→Vaudésir、2番→シュヴァリエ・モンラッシェ、1番→クロ・ド・ヴージョ、4番→リシュブール。"
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Vaudésir（ヴォーデジール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-075",
@@ -6923,13 +6953,15 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "クロ・ド・ヴージョ",
+    "answerText": "Clos de Vougeot（クロ・ド・ヴージョ）",
     "answerTextAliases": [
       "クロ・ヴージョ",
       "クロドヴージョ",
-      "クロヴージョ"
+      "クロヴージョ",
+      "クロ・ド・ヴージョ",
+      "Clos de Vougeot（クロ・ド・ヴージョ）"
     ],
-    "explanation": "地図上の1番はClos de Vougeot、カタカナではクロ・ド・ヴージョです。Clos de VougeotはVougeot村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は1番→クロ・ド・ヴージョ、2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：Clos de Vougeot（クロ・ド・ヴージョ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-077",
@@ -6949,7 +6981,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-078",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "A",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBâtard-Montrachetに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュの地図です。地図上でBâtard-Montrachet（バタール・モンラッシェ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-puligny-montrachet-grand-cru.jpg",
       "alt": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
@@ -6962,7 +6994,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 2,
-    "explanation": "Bâtard-Montrachetに相当する番号は4番です。す。地図上でBâtard-Montrachetを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は1番→クロ・ド・ヴージョ、5番→Criots-Bâtard-Montrachet、4番→リシュブール、2番→シュヴァリエ・モンラッシェ。"
+    "explanation": "所属地区：コート・ド・ボーヌ／ピュリニィ〜シャサーニュ・モンラッシェ　主要品種：シャルドネ\n近隣の頻出村・産地：Montrachet（モンラッシェ）、Chevalier-Montrachet（シュヴァリエ・モンラッシェ）、Bâtard-Montrachet（バタール・モンラッシェ）\n見分け方：Bâtard-Montrachet（バタール・モンラッシェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-079",
@@ -7010,7 +7042,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bourgogne-grand-cru-082",
     "category": "フランス/ブルゴーニュ（グラン・クリュ）",
     "importance": "B",
-    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でChapelle-Chambertinに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ブルゴーニュ地方ジュヴレ・シャンベルタン村のグラン・クリュの地図です。地図上でChapelle-Chambertin（シャペル・シャンベルタン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bourgogne-gevrey-chambertin-grand-cru.jpg",
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
@@ -7023,7 +7055,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 0,
-    "explanation": "Chapelle-Chambertinに相当する番号は4番です。す。地図上でChapelle-Chambertinを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は4番→Chapelle-Chambertin、3番→Chambertin Clos-de-Bèze、1番→Ruchottes-Chambertin、2番→Mazis-Chambertin。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Chapelle-Chambertin（シャペル・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-083",
@@ -7035,11 +7067,13 @@ window.WINE_QUESTIONS = [
       "alt": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村にかけてのグラン・クリュ地図",
       "caption": "ピュリニィ・モンラッシェ村からシャサーニュ・モンラッシェ村 グラン・クリュ地図"
     },
-    "answerText": "シュヴァリエ・モンラッシェ",
+    "answerText": "Chevalier-Montrachet（シュヴァリエ・モンラッシェ）",
     "answerTextAliases": [
-      "シュヴァリエモンラッシェ"
+      "シュヴァリエモンラッシェ",
+      "シュヴァリエ・モンラッシェ",
+      "Chevalier-Montrachet（シュヴァリエ・モンラッシェ）"
     ],
-    "explanation": "地図上の2番はChevalier-Montrachet、カタカナではシュヴァリエ・モンラッシェです。Chevalier-MontrachetはPuligny-Montrachet村。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は1番→クロ・ド・ヴージョ、2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー、4番→リシュブール。"
+    "explanation": "所属地区：コート・ド・ボーヌ／ピュリニィ〜シャサーニュ・モンラッシェ　主要品種：シャルドネ\n近隣の頻出村・産地：Montrachet（モンラッシェ）、Chevalier-Montrachet（シュヴァリエ・モンラッシェ）、Bâtard-Montrachet（バタール・モンラッシェ）\n見分け方：Chevalier-Montrachet（シュヴァリエ・モンラッシェ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-084",
@@ -7079,13 +7113,15 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "グラン・ゼシェゾー",
+    "answerText": "Grands Échezeaux（グラン・ゼシェゾー）",
     "answerTextAliases": [
       "グランゼシェゾー",
       "グラン・エシェゾー",
-      "グランエシェゾー"
+      "グランエシェゾー",
+      "グラン・ゼシェゾー",
+      "Grands Échezeaux（グラン・ゼシェゾー）"
     ],
-    "explanation": "地図上の3番はGrands Echézeaux、カタカナではグラン・ゼシェゾーです。Grands EchézeauxはFlagey-Échezeaux村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は2番→シュヴァリエ・モンラッシェ、3番→グラン・ゼシェゾー、4番→リシュブール、5番→Criots-Bâtard-Montrachet。"
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：Grands Échezeaux（グラン・ゼシェゾー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-087",
@@ -7191,8 +7227,12 @@ window.WINE_QUESTIONS = [
       "alt": "ヴォーヌ・ロマネ村からヴージョ村にかけてのグラン・クリュ地図",
       "caption": "ヴォーヌ・ロマネ村からヴージョ村 グラン・クリュ地図"
     },
-    "answerText": "リシュブール",
-    "explanation": "地図上の4番はRichebourg、カタカナではリシュブールです。RichebourgはVosne-Romanée村。村ごとのGrand Cru群で位置を絞る。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は3番→グラン・ゼシェゾー、4番→リシュブール、5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール。"
+    "answerText": "Richebourg（リシュブール）",
+    "explanation": "所属地区：コート・ド・ニュイ／ヴォーヌ・ロマネ〜ヴージョ　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Romanée-Conti（ロマネ・コンティ）、Richebourg（リシュブール）、Clos de Vougeot（クロ・ド・ヴージョ）\n見分け方：Richebourg（リシュブール）の位置を、周辺産地との並びで覚える。",
+    "answerTextAliases": [
+      "リシュブール",
+      "Richebourg（リシュブール）"
+    ]
   },
   {
     "id": "france-bourgogne-grand-cru-093",
@@ -7204,11 +7244,13 @@ window.WINE_QUESTIONS = [
       "alt": "ジュヴレ・シャンベルタン村のグラン・クリュ地図",
       "caption": "ジュヴレ・シャンベルタン村 グラン・クリュ地図"
     },
-    "answerText": "シャルム・シャンベルタン",
+    "answerText": "Charmes-Chambertin（シャルム・シャンベルタン）",
     "answerTextAliases": [
-      "シャルムシャンベルタン"
+      "シャルムシャンベルタン",
+      "シャルム・シャンベルタン",
+      "Charmes-Chambertin（シャルム・シャンベルタン）"
     ],
-    "explanation": "地図上の7番はCharmes-Chambertin、カタカナではシャルム・シャンベルタンです。Charmes-ChambertinはGevrey-Chambertin村。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は6番→シャンベルタン、7番→シャルム・シャンベルタン、8番→ラトリシエール・シャンベルタン。"
+    "explanation": "所属地区：コート・ド・ニュイ／ジュヴレ・シャンベルタン村　主要品種：ピノ・ノワール\n近隣の頻出村・産地：Chambertin（シャンベルタン）、Clos de Bèze（クロ・ド・ベーズ）、Mazis-Chambertin（マジ・シャンベルタン）\n見分け方：Charmes-Chambertin（シャルム・シャンベルタン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-094",
@@ -7220,12 +7262,13 @@ window.WINE_QUESTIONS = [
       "alt": "シャブリ地区のグラン・クリュ地図",
       "caption": "シャブリ地区 グラン・クリュ地図"
     },
-    "answerText": "ヴァルミュール",
+    "answerText": "Valmur（ヴァルミュール）",
     "answerTextAliases": [
       "バルミュール",
-      "ヴァルミュール"
+      "ヴァルミュール",
+      "Valmur（ヴァルミュール）"
     ],
-    "explanation": "地図上の6番はValmur、カタカナではヴァルミュールです。Valmurを村と隣接畑の位置関係で覚える。北から南、斜面上部から下部の順で隣接畑を確認。\n地図問題は村名→Grand Cru→隣接畑の三段階で整理。\n選択肢の対応は5番→Criots-Bâtard-Montrachet、6番→ヴァルミュール、7番→Vaudésir、8番→ラ・グランド・リュー。"
+    "explanation": "所属地区：シャブリ地区・ヨンヌ県　主要品種：シャルドネ\n近隣の頻出村・産地：Bougros（ブーグロ）、Les Clos（レ・クロ）、Vaudésir（ヴォーデジール）\n見分け方：Valmur（ヴァルミュール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bourgogne-grand-cru-095",
@@ -8638,7 +8681,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "カディヤック",
-    "explanation": "地図の6番はカディヤック。カディヤックはガロンヌ川右岸の甘口白AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は5番→ルーピアック、6番→カディヤック。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：カディヤックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-002",
@@ -8682,7 +8725,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サンジュリアン"
     ],
-    "explanation": "地図の5番はサン・ジュリアン。サン・ジュリアンはメドック左岸、PauillacとMargauxの間の赤AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は4番→ポイヤック、5番→Saint-Julien、6番→マルゴー、7番→ムーリス。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：サン・ジュリアンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-005",
@@ -8702,7 +8745,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-006",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPuisseguin-Saint-Émilionに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPuisseguin-Saint-Émilion（ピュイスガン・サンテミリオン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
       "alt": "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
@@ -8715,7 +8758,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 2,
-    "explanation": "す。地図上でPuisseguin-Saint-Émilionは地図の5番に位置する。す。地図上でPuisseguin-Saint-Émilionは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は2番→サンジョルジュ・サンテミリオン、7番→ラランド・ド・ポムロール、5番→ピュイスガン・サンテミリオン、1番→サンテミリオン。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：Puisseguin-Saint-Émilion（ピュイスガン・サンテミリオン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-007",
@@ -8819,7 +8862,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-014",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でSaint-Georges Saint-Émilionに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でSaint-Georges Saint-Émilion（サン・ジョルジュ・サンテミリオン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
       "alt": "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
@@ -8832,7 +8875,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 0,
-    "explanation": "す。地図上でSaint-Georges Saint-Émilionは地図の2番に位置する。す。地図上でSaint-Georges Saint-Émilionは設問の地区。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は2番→サンジョルジュ・サンテミリオン、7番→ラランド・ド・ポムロール、1番→サンテミリオン、4番→リュサック・サンテミリオン。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：Saint-Georges Saint-Émilion（サン・ジョルジュ・サンテミリオン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-015",
@@ -8848,7 +8891,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "オーメドック"
     ],
-    "explanation": "地図の2番はオー・メドック。オー・メドックは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→メドック、2番→オー・メドック、3番→Saint-Estèphe、4番→ポイヤック。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：オー・メドックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-016",
@@ -8896,7 +8939,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-019",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でCéronsに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でCérons（セロンス）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
       "alt": "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
@@ -8909,7 +8952,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 3,
-    "explanation": "す。地図上でCéronsは地図の3番に位置する。す。地図上でCéronsは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→ソーテルヌ、5番→ルーピアック、2番→バルサック、3番→Cérons。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：Cérons（セロンス）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-020",
@@ -8922,7 +8965,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "ソーテルヌ",
-    "explanation": "地図の1番はソーテルヌ。ソーテルヌはシロン川流域の貴腐甘口AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→ソーテルヌ、2番→バルサック、3番→Cérons。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：ソーテルヌの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-021",
@@ -8956,7 +8999,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-023",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でMontagne Saint-Émilionに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でMontagne Saint-Émilion（モンターニュ・サンテミリオン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
       "alt": "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
@@ -8969,7 +9012,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 1,
-    "explanation": "す。地図上でMontagne Saint-Émilionは地図の3番に位置する。す。地図上でMontagne Saint-Émilionは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は3番→Montagne Saint-Émilion、6番→Pomerol、4番→リュサック・サンテミリオン。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：Montagne Saint-Émilion（モンターニュ・サンテミリオン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-024",
@@ -8985,7 +9028,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ペサックレオニャン"
     ],
-    "explanation": "地図の10番はペサック・レオニャン。ペサック・レオニャンはグラーヴ北部、ボルドー市近郊のAOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は7番→ムーリス、10番→Pessac-Léognan。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：ペサック・レオニャンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-025",
@@ -9019,7 +9062,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-027",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でLalande-de-Pomerolに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でLalande-de-Pomerol（ラランド・ド・ポムロール）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
       "alt": "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
@@ -9032,13 +9075,13 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "す。地図上でLalande-de-Pomerolは地図の7番に位置する。す。地図上でLalande-de-Pomerolは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は7番→ラランド・ド・ポムロール、5番→ピュイスガン・サンテミリオン、6番→Pomerol。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：Lalande-de-Pomerol（ラランド・ド・ポムロール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-028",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でLoupiacに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOCの地図です。地図上でLoupiac（ルーピアック）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-sauternes-entre-deux-mers.jpg",
       "alt": "ソーテルヌ＆バルサック地区、およびアントル・ドゥー・メール地区のAOC地図",
@@ -9051,7 +9094,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "す。地図上でLoupiacは地図の5番に位置する。す。地図上でLoupiacは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は5番→ルーピアック、3番→Cérons、6番→カディヤック。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：Loupiac（ルーピアック）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-029",
@@ -9134,7 +9177,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "ポイヤック",
-    "explanation": "地図の4番はポイヤック。ポイヤックは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は3番→Saint-Estèphe、4番→ポイヤック、5番→Saint-Julien、6番→マルゴー。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：ポイヤックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-035",
@@ -9206,7 +9249,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ラランドドポムロール"
     ],
-    "explanation": "地図の7番はラランド・ド・ポムロール。ラランド・ド・ポムロールは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は6番→Pomerol、7番→ラランド・ド・ポムロール。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：ラランド・ド・ポムロールの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-040",
@@ -9219,7 +9262,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "バルサック",
-    "explanation": "地図の2番はバルサック。バルサックはシロン川左岸の貴腐甘口AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→ソーテルヌ、2番→バルサック、3番→Cérons、5番→ルーピアック。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：バルサックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-041",
@@ -9235,7 +9278,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サンテステフ"
     ],
-    "explanation": "地図の3番はサン・テステフ。サン・テステフは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は2番→オー・メドック、3番→Saint-Estèphe、4番→ポイヤック、5番→Saint-Julien。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：サン・テステフの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-042",
@@ -9248,7 +9291,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "マルゴー",
-    "explanation": "地図の6番はマルゴー。マルゴーは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は5番→Saint-Julien、6番→マルゴー、7番→ムーリス、10番→Pessac-Léognan。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：マルゴーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-043",
@@ -9264,7 +9307,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "リュサックサンテミリオン"
     ],
-    "explanation": "地図の4番はリュサック・サンテミリオン。リュサック・サンテミリオンはSaint-Émilion北側の衛星AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は3番→Montagne Saint-Émilion、4番→リュサック・サンテミリオン、5番→ピュイスガン・サンテミリオン、6番→Pomerol。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：リュサック・サンテミリオンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-044",
@@ -9323,7 +9366,7 @@ window.WINE_QUESTIONS = [
       "ムーリス・アン・メドック",
       "ムーリスアンメドック"
     ],
-    "explanation": "地図の7番はムーリス。ムーリスは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は6番→マルゴー、7番→ムーリス、10番→Pessac-Léognan。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：ムーリスの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-049",
@@ -9339,7 +9382,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サン・テミリオン"
     ],
-    "explanation": "地図の1番はサンテミリオン。サンテミリオンは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→サンテミリオン、2番→サンジョルジュ・サンテミリオン、3番→Montagne Saint-Émilion。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：サンテミリオンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-051",
@@ -9383,13 +9426,13 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "サン・ジョルジュ・サンテミリオン"
     ],
-    "explanation": "地図の2番はサンジョルジュ・サンテミリオン。サンジョルジュ・サンテミリオンは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→サンテミリオン、2番→サンジョルジュ・サンテミリオン、3番→Montagne Saint-Émilion、4番→リュサック・サンテミリオン。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：サンジョルジュ・サンテミリオンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-054",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "A",
-    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でSaint-Estèpheに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でSaint-Estèphe（サン・テステフ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
       "alt": "メドック＆グラーヴ地区のAOC地図",
@@ -9402,7 +9445,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 1,
-    "explanation": "す。地図上でSaint-Estèpheは地図の3番に位置する。す。地図上でSaint-Estèpheは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は2番→オー・メドック、3番→Saint-Estèphe、5番→Saint-Julien。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：Saint-Estèphe（サン・テステフ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-055",
@@ -9415,7 +9458,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー ソーテルヌ＆バルサック / アントル・ドゥー・メール地区"
     },
     "answerText": "ルーピアック",
-    "explanation": "地図の5番はルーピアック。ルーピアックは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は3番→Cérons、5番→ルーピアック、6番→カディヤック。"
+    "explanation": "所属地区：ボルドー南部・ソーテルヌ／アントル・ドゥー・メール　主要品種：セミヨン、ソーヴィニョン・ブラン\n近隣の頻出村・産地：Sauternes（ソーテルヌ）、Barsac（バルサック）、Loupiac（ルーピアック）、Cadillac（カディヤック）\n見分け方：ルーピアックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-056",
@@ -9459,7 +9502,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ピュイスガンサンテミリオン"
     ],
-    "explanation": "地図の5番はピュイスガン・サンテミリオン。ピュイスガン・サンテミリオンはSaint-Émilion北東側の衛星AOC。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は4番→リュサック・サンテミリオン、5番→ピュイスガン・サンテミリオン、6番→Pomerol、7番→ラランド・ド・ポムロール。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：ピュイスガン・サンテミリオンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-059",
@@ -9542,7 +9585,7 @@ window.WINE_QUESTIONS = [
       "caption": "ボルドー メドック＆グラーヴ地区"
     },
     "answerText": "メドック",
-    "explanation": "地図の1番はメドック。メドックは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→メドック、2番→オー・メドック、3番→Saint-Estèphe。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：メドックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-065",
@@ -12595,7 +12638,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方南部"
     },
     "answerText": "シャトーヌフ・デュ・パプ",
-    "explanation": "地図の15番はシャトーヌフ・デュ・パプ。シャトーヌフ・デュ・パプは南部・左岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\nChâteauneufは左岸、LiracとTavelは対岸の右岸に並ぶ。\n選択肢の対応は15番→シャトーヌフ・デュ・パプ、16番→リラック、17番→タヴェル。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：シャトーヌフ・デュ・パプの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-009",
@@ -12608,7 +12651,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "コンドリュー",
-    "explanation": "地図の2番はコンドリュー。コンドリューは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は1番→Côte-Rôtie、2番→Condrieu、3番→Château-Grillet、4番→Saint-Joseph。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：コンドリューの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-010",
@@ -12719,7 +12762,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方南部"
     },
     "answerText": "タヴェル",
-    "explanation": "地図の17番はタヴェル。タヴェルは南部・右岸、ロゼのみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\nChâteauneufは左岸、LiracとTavelは対岸の右岸に並ぶ。\n選択肢の対応は16番→リラック、17番→タヴェル。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：タヴェルの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-018",
@@ -12746,7 +12789,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "コート・ロティ",
-    "explanation": "地図の1番はコート・ロティ。コート・ロティは北部・右岸、赤のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は1番→Côte-Rôtie、2番→Condrieu、3番→Château-Grillet。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：コート・ロティの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-020",
@@ -12885,7 +12928,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方南部"
     },
     "answerText": "リラック",
-    "explanation": "地図の16番はリラック。リラックは南部・右岸、赤・白・ロゼ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\nChâteauneufは左岸、LiracとTavelは対岸の右岸に並ぶ。\n選択肢の対応は15番→シャトーヌフ・デュ・パプ、16番→リラック、17番→タヴェル。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：リラックの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-030",
@@ -12905,7 +12948,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-031",
     "category": "フランス/ローヌ渓谷",
     "importance": "C",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でChâteau-Grilletに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でChâteau-Grillet（シャトー・グリエ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -12918,7 +12961,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 0,
-    "explanation": "Château-Grilletは地図の3番。Château-Grilletは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は3番→Château-Grillet、7番→Cornas、4番→Saint-Joseph、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Château-Grillet（シャトー・グリエ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-032",
@@ -12952,7 +12995,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-034",
     "category": "フランス/ローヌ渓谷",
     "importance": "A",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieu（コンドリュー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -12965,7 +13008,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 1,
-    "explanation": "Condrieuは地図の2番。Condrieuは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は1番→Côte-Rôtie、2番→Condrieu、5番→クローズ・エルミタージュ、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Condrieu（コンドリュー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-035",
@@ -13104,7 +13147,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "クローズ・エルミタージュ",
-    "explanation": "地図の5番はクローズ・エルミタージュ。クローズ・エルミタージュは北部・左岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は4番→Saint-Joseph、5番→クローズ・エルミタージュ、6番→エルミタージュ、7番→Cornas。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：クローズ・エルミタージュの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-045",
@@ -13312,7 +13355,7 @@ window.WINE_QUESTIONS = [
       "alt": "プロヴァンス地方のAOC地図"
     },
     "answerText": "カシス",
-    "explanation": "地図上の10番はCassis。カシス＝Marseille近郊の海辺として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は9番→バンドール、10番→Cassis、11番→Palette、12番→ベレ。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：カシスの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-004",
@@ -13352,7 +13395,7 @@ window.WINE_QUESTIONS = [
       "alt": "プロヴァンス地方のAOC地図"
     },
     "answerText": "バンドール",
-    "explanation": "地図上の9番はBandol。バンドール＝Marseille東方の海岸として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は8番→レ・ボー・ド・プロヴァンス、9番→バンドール、10番→Cassis、11番→Palette。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：バンドールの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-007",
@@ -13456,7 +13499,7 @@ window.WINE_QUESTIONS = [
     "id": "france-provence-014",
     "category": "フランス/プロヴァンス",
     "importance": "B",
-    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でCassisに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でCassis（カシス）に相当する番号を選択してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
       "alt": "プロヴァンス地方のAOC地図"
@@ -13468,7 +13511,7 @@ window.WINE_QUESTIONS = [
       "10番"
     ],
     "answerIndex": 3,
-    "explanation": "Cassisは地図上の10番。Cassis＝Marseille近郊の海辺として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は11番→Palette、12番→ベレ、9番→バンドール、10番→Cassis。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：Cassis（カシス）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-015",
@@ -13480,7 +13523,7 @@ window.WINE_QUESTIONS = [
       "alt": "プロヴァンス地方のAOC地図"
     },
     "answerText": "レ・ボー・ド・プロヴァンス",
-    "explanation": "地図上の8番はLes Baux de Provence。レ・ボー・ド・プロヴァンス＝西部として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は8番→レ・ボー・ド・プロヴァンス、9番→バンドール、10番→Cassis。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：レ・ボー・ド・プロヴァンスの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-016",
@@ -13525,7 +13568,7 @@ window.WINE_QUESTIONS = [
       "ベレ、ヴァン・ド・ベレ",
       "ベレ,ヴァン・ド・ベレ"
     ],
-    "explanation": "地図上の12番はBellet（Vin de Bellet）。ベレ＝Nice近郊・東端として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は11番→Palette、12番→ベレ、13番→Pierrevert。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：ベレの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-019",
@@ -13573,7 +13616,7 @@ window.WINE_QUESTIONS = [
     "id": "france-provence-022",
     "category": "フランス/プロヴァンス",
     "importance": "C",
-    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPierrevertに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPierrevert（ピエールヴェール）に相当する番号を選択してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
       "alt": "プロヴァンス地方のAOC地図"
@@ -13585,7 +13628,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 0,
-    "explanation": "Pierrevertは地図上の13番。Pierrevert＝最北として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は13番→Pierrevert、11番→Palette、9番→バンドール、8番→レ・ボー・ド・プロヴァンス。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：Pierrevert（ピエールヴェール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-023",
@@ -13667,7 +13710,7 @@ window.WINE_QUESTIONS = [
       "alt": "プロヴァンス地方のAOC地図"
     },
     "answerText": "パレット",
-    "explanation": "地図上の11番はPalette。パレット＝Aix-en-Provence近郊として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は10番→Cassis、11番→Palette、12番→ベレ、13番→Pierrevert。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：パレットの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-provence-029",
@@ -13729,7 +13772,7 @@ window.WINE_QUESTIONS = [
     "id": "france-provence-033",
     "category": "フランス/プロヴァンス",
     "importance": "C",
-    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPaletteに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、プロヴァンス地方のAOCの地図です。地図上でPalette（パレット）に相当する番号を選択してください。",
     "image": {
       "src": "assets/provence-aoc-map.jpg",
       "alt": "プロヴァンス地方のAOC地図"
@@ -13741,7 +13784,7 @@ window.WINE_QUESTIONS = [
       "11番"
     ],
     "answerIndex": 3,
-    "explanation": "Paletteは地図上の11番。Palette＝Aix-en-Provence近郊として海岸線に置く。東からBellet→Bandol/Cassis→Palette→Les Bauxの方向感覚を持つ。\nCassis 10、Palette 11、Bellet 12、Pierrevert 13の番号列が頻出。\n選択肢の対応は10番→Cassis、13番→Pierrevert、9番→バンドール、11番→Palette。"
+    "explanation": "所属地区：プロヴァンス地方　主要品種：グルナッシュ、サンソー、ムールヴェードル\n近隣の頻出村・産地：Bandol（バンドール）、Cassis（カシス）、Palette（パレット）、Bellet（ベレ）\n見分け方：Palette（パレット）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-languedoc-roussillon-001",
@@ -14461,7 +14504,7 @@ window.WINE_QUESTIONS = [
     "id": "france-loire-004",
     "category": "フランス/ロワール渓谷地方",
     "importance": "C",
-    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でReuillyに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でReuilly（ルイィ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/loire-centre-map.jpg",
       "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
@@ -14474,7 +14517,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上でReuillyは6番。6番がCentre Loire地図上の該当位置。SancerreとPouilly-FuméはLoire川を挟んで向かい合う。\n地図番号はPouilly-Fumé 2、Sancerre 3、Reuilly 6を核にする。\n選択肢の対応は3番→サンセール、6番→Reuilly。"
+    "explanation": "所属地区：ロワール上流・中央フランス　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール\n近隣の頻出村・産地：Sancerre（サンセール）、Pouilly-Fumé（プイィ・フュメ）、Menetou-Salon（ムヌトゥ・サロン）\n見分け方：Reuilly（ルイィ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-loire-005",
@@ -14585,7 +14628,7 @@ window.WINE_QUESTIONS = [
       "caption": "サントル・ロワール地区"
     },
     "answerText": "サンセール",
-    "explanation": "地図上の3番はSancerre、カタカナではサンセール。サンセールがCentre Loire地図上の該当位置。SancerreとPouilly-FuméはLoire川を挟んで向かい合う。\n地図番号はPouilly-Fumé 2、Sancerre 3、Reuilly 6を核にする。\n選択肢の対応は2番→プイィ・フュメ、3番→サンセール、6番→Reuilly。"
+    "explanation": "所属地区：ロワール上流・中央フランス　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール\n近隣の頻出村・産地：Sancerre（サンセール）、Pouilly-Fumé（プイィ・フュメ）、Menetou-Salon（ムヌトゥ・サロン）\n見分け方：サンセールの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-loire-013",
@@ -14955,7 +14998,7 @@ window.WINE_QUESTIONS = [
     "id": "france-loire-039",
     "category": "フランス/ロワール渓谷地方",
     "importance": "A",
-    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でPouilly-Fuméに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ロワール渓谷地方、サントル・ロワール地区の地図です。地図上でPouilly-Fumé（プイィ・フュメ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/loire-centre-map.jpg",
       "alt": "ロワール渓谷地方サントル・ロワール地区の地図",
@@ -14968,7 +15011,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上でPouilly-Fuméは2番。2番がCentre Loire地図上の該当位置。SancerreとPouilly-FuméはLoire川を挟んで向かい合う。\n地図番号はPouilly-Fumé 2、Sancerre 3、Reuilly 6を核にする。\n選択肢の対応は2番→プイィ・フュメ、6番→Reuilly。"
+    "explanation": "所属地区：ロワール上流・中央フランス　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール\n近隣の頻出村・産地：Sancerre（サンセール）、Pouilly-Fumé（プイィ・フュメ）、Menetou-Salon（ムヌトゥ・サロン）\n見分け方：Pouilly-Fumé（プイィ・フュメ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-loire-040",
@@ -15028,7 +15071,7 @@ window.WINE_QUESTIONS = [
       "プイィ・フュメー",
       "プイィフュメー"
     ],
-    "explanation": "地図上の2番はPouilly-Fumé、カタカナではプイィ・フュメ。プイィ・フュメがCentre Loire地図上の該当位置。SancerreとPouilly-FuméはLoire川を挟んで向かい合う。\n地図番号はPouilly-Fumé 2、Sancerre 3、Reuilly 6を核にする。\n選択肢の対応は2番→プイィ・フュメ、3番→サンセール、6番→Reuilly。"
+    "explanation": "所属地区：ロワール上流・中央フランス　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール\n近隣の頻出村・産地：Sancerre（サンセール）、Pouilly-Fumé（プイィ・フュメ）、Menetou-Salon（ムヌトゥ・サロン）\n見分け方：プイィ・フュメの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-loire-044",
@@ -15230,7 +15273,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-003",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でVenetoに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でVeneto（ヴェネト）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -15243,7 +15286,7 @@ window.WINE_QUESTIONS = [
       "7番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上の対応は6番。北西の1番から島の19・20番まで位置で結ぶ。\n5番→Trentino-Alto Adige、16番→Puglia、6番→Veneto、7番→Friuli-Venezia Giulia。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：北東部イタリア　主要品種：グレーラ、ガルガーネガ、コルヴィーナ\n近隣の頻出村・産地：Trentino-Alto Adige（トレンティーノ・アルト・アディジェ）、Friuli-Venezia Giulia（フリウリ・ヴェネツィア・ジューリア）、Lombardia（ロンバルディア）\n見分け方：Veneto（ヴェネト）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-004",
@@ -15361,7 +15404,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-012",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でLombardiaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でLombardia（ロンバルディア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -15374,7 +15417,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上の対応は4番。北西の1番から島の19・20番まで位置で結ぶ。\n4番→Lombardia、19番→Sicilia、10番→Umbria、3番→Liguria。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：北部イタリア　主要品種：シャルドネ、ピノ・ネロ、ネッビオーロ\n近隣の頻出村・産地：Piemonte（ピエモンテ）、Veneto（ヴェネト）、Emilia-Romagna（エミリア・ロマーニャ）\n見分け方：Lombardia（ロンバルディア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-013",
@@ -15590,7 +15633,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-028",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でBasilicataに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でBasilicata（バジリカータ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -15603,7 +15646,7 @@ window.WINE_QUESTIONS = [
       "17番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上の対応は17番。北西の1番から島の19・20番まで位置で結ぶ。\n16番→Puglia、18番→Calabria、14番→Molise、17番→Basilicata。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：南部イタリア　主要品種：アリアニコ\n近隣の頻出村・産地：Campania（カンパーニア）、Puglia（プーリア）、Calabria（カラブリア）\n見分け方：Basilicata（バジリカータ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-029",
@@ -15721,7 +15764,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-037",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "B",
-    "question": "下記の画像はイタリア20州の地図です。地図上でUmbriaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でUmbria（ウンブリア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -15734,7 +15777,7 @@ window.WINE_QUESTIONS = [
       "12番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上の対応は10番。北西の1番から島の19・20番まで位置で結ぶ。\n10番→Umbria、5番→Trentino-Alto Adige、14番→Molise、12番→Lazio。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：中部イタリア・内陸州　主要品種：サンジョヴェーゼ、グレケット、サグランティーノ\n近隣の頻出村・産地：Toscana（トスカーナ）、Marche（マルケ）、Lazio（ラツィオ）\n見分け方：Umbria（ウンブリア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-038",
@@ -15778,7 +15821,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "エミリアロマーニャ"
     ],
-    "explanation": "地図上の対応はエミリア・ロマーニャ。北西の1番から島の19・20番まで位置で結ぶ。\n7番→Friuli-Venezia Giulia、8番→Emilia-Romagna、9番→Toscana、10番→Umbria。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：イタリア20州　主要品種：州ごとの主要土着品種\n近隣の頻出村・産地：接する州と州都を併せて確認\n見分け方：エミリア・ロマーニャの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-041",
@@ -16046,7 +16089,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "カラブリア州"
     ],
-    "explanation": "地図上の対応はカラブリア。北西の1番から島の19・20番まで位置で結ぶ。\n17番→Basilicata、18番→Calabria、19番→Sicilia、20番→Sardegna。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：イタリア20州　主要品種：州ごとの主要土着品種\n近隣の頻出村・産地：接する州と州都を併せて確認\n見分け方：カラブリアの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-060",
@@ -16220,7 +16263,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-072",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "B",
-    "question": "下記の画像はイタリア20州の地図です。地図上でSiciliaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でSicilia（シチリア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -16233,7 +16276,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上の対応は19番。北西の1番から島の19・20番まで位置で結ぶ。\n19番→Sicilia、3番→Liguria、16番→Puglia、6番→Veneto。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：南部・地中海最大の島　主要品種：ネロ・ダーヴォラ、カタラット、グリッロ\n近隣の頻出村・産地：Calabria（カラブリア）、Sardegna（サルデーニャ）\n見分け方：Sicilia（シチリア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-073",
@@ -16333,7 +16376,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ウンブリア州"
     ],
-    "explanation": "地図上の対応はウンブリア。北西の1番から島の19・20番まで位置で結ぶ。\n9番→Toscana、10番→Umbria、11番→Marche、12番→Lazio。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：中部イタリア・内陸州　主要品種：サンジョヴェーゼ、グレケット、サグランティーノ\n近隣の頻出村・産地：トスカーナ、マルケ、ラツィオ\n見分け方：ウンブリアの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-080",
@@ -17593,7 +17636,7 @@ window.WINE_QUESTIONS = [
       "ポルトギーザー"
     ],
     "answerIndex": 1,
-    "explanation": "ショイレーベの親にはブケットトラウベが含まれます。\nブケットトラウベは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "ScheurebeはRieslingとBuketttraubeの交配。黒スグリやグレープフルーツの芳香を持ち、辛口から甘口まで造られる。\nMüller-ThurgauやSilvanerは親ではない。交配品種は「Scheurebe＝Riesling×Buketttraube」で一組にする。"
   },
   {
     "id": "germany-overview-law-002",
@@ -17607,7 +17650,7 @@ window.WINE_QUESTIONS = [
       "1995〜2024年の間で、ミュラー・トゥルガウの栽培面積は大幅に減少した。"
     ],
     "answerIndex": 3,
-    "explanation": "1995〜2024年の間で、ミュラー・トゥルガウの栽培面積は大きく減少しました。\n1995〜2024年の間で、ミュラー・トゥルガウの栽培面積は大幅に減少した。は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "1995〜2024年にMüller-Thurgauは大幅減少し、RieslingやPinot系が伸長した。量産向け早熟品種から地域性重視への変化を映す。\n白比率は約7割を保ち、Spätburgunderも重要。品種順位だけでなく増減傾向も問われる。"
   },
   {
     "id": "germany-overview-law-003",
@@ -17621,7 +17664,7 @@ window.WINE_QUESTIONS = [
       "7.0%"
     ],
     "answerIndex": 3,
-    "explanation": "ドイツのQualitätsweinで必要な最低アルコール度数は7.0%です。\n7.0%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Qualitätsweinの最低実アルコール度数は原則7.0%。補糖でアルコールを補えるが、原料は一つの特定生産地域に由来する。\nBeerenausleseなど一部Prädikatsweinは5.5%が最低。品質区分と最低度数を混同しない。"
   },
   {
     "id": "germany-overview-law-004",
@@ -17635,7 +17678,7 @@ window.WINE_QUESTIONS = [
       "ドルンフェルダー"
     ],
     "answerIndex": 3,
-    "explanation": "ドイツの黒ブドウ品種で栽培面積第2位はドルンフェルダーです。\nドルンフェルダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "黒品種2位はDornfelder。濃い色と果実味を持ち、Helfensteiner×Heroldrebeから育成された。\n黒品種首位はSpätburgunder。TrollingerはWürttemberg、Lembergerは南部で重要だが全国2位ではない。"
   },
   {
     "id": "germany-overview-law-005",
@@ -17649,7 +17692,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ムニエ"
     ],
     "answerIndex": 1,
-    "explanation": "スキアーヴァはドイツではトロリンガーの名でも知られます。\nトロリンガーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "SchiavaはドイツでTrollingerと呼ばれ、Württembergの代表的な軽快な赤を生む。イタリアではTrentino-Alto Adigeに多い。\nLembergerはBlaufränkisch、RuländerはPinot Gris。別名は国・果皮色と一緒に整理する。"
   },
   {
     "id": "germany-overview-law-006",
@@ -17663,7 +17706,7 @@ window.WINE_QUESTIONS = [
       "格付けの基準が、地理的呼称範囲から収穫時の果汁糖度に変わる"
     ],
     "answerIndex": 0,
-    "explanation": "Großes GewächsまたはErstes Gewächsでは、肩書き（Prädikat）は表記しません。\nGroßes GewächsまたはErstes Gewächsに格付けされた場合、肩書き（Prädikat）は表記しないという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Großes GewächsまたはErstes Gewächsでは、地理的格付けを前面に出すためPrädikatを併記しない。新法は糖度より原産地を重視する。\nPrädikatは廃止ではなく、甘口などには存続。辛口上級地理呼称との表示上の役割を分ける。"
   },
   {
     "id": "germany-overview-law-007",
@@ -17677,7 +17720,7 @@ window.WINE_QUESTIONS = [
       "ケルナー"
     ],
     "answerIndex": 0,
-    "explanation": "ムスカリスは病害抵抗性を持つPIWI品種です。\nムスカリスは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "MuscarisはSolaris系のPIWI白品種で、病害抵抗性とMuscat系の香りを併せ持つ。減農薬栽培の選択肢として注目される。\nRieslingやSilvanerは伝統的Vitis vinifera。PIWIではRegent、Cabernet Blancも頻出。"
   },
   {
     "id": "germany-overview-law-008",
@@ -17691,7 +17734,7 @@ window.WINE_QUESTIONS = [
       "1867年"
     ],
     "answerIndex": 0,
-    "explanation": "モーゼルのブドウ畑の格付け地図は1868年に出版されました。\n1868年は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Moselの畑を評価したザール・モーゼル地域の格付け地図は1868年。翌年ではなく、Rheingauの1867年と対になる。\n革命後の地租評価が畑の価値を可視化し、現代の単一畑重視にもつながった。"
   },
   {
     "id": "germany-overview-law-009",
@@ -17705,7 +17748,7 @@ window.WINE_QUESTIONS = [
       "13の特定ワイン生産地域のいずれか一つのブドウを100%用いる"
     ],
     "answerIndex": 3,
-    "explanation": "Qualitätsweinは13の特定ワイン生産地域のいずれか一つのブドウを100%用います。\n13の特定ワイン生産地域のいずれか一つのブドウを100%用いるは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Qualitätsweinは13の特定生産地域のいずれか一地域からブドウを100%得る。地域をまたぐブレンドでは名乗れない。\n最低糖度や検査番号も必要。Landweinより原産地との結び付きが強い区分である。"
   },
   {
     "id": "germany-overview-law-010",
@@ -17719,7 +17762,7 @@ window.WINE_QUESTIONS = [
       "ポルトギーザー"
     ],
     "answerIndex": 3,
-    "explanation": "ドミナの親にはポルトギーザーが含まれます。\nポルトギーザーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "DominaはPortugieser×Spätburgunder。色が濃く、Frankenを中心に栽培される黒品種である。\nDornfelderはHelfensteiner×Heroldrebe、RegentはDiana×Chambourcin。交配名を横断して区別する。"
   },
   {
     "id": "germany-overview-law-011",
@@ -17733,7 +17776,7 @@ window.WINE_QUESTIONS = [
       "ポルトギーザー"
     ],
     "answerIndex": 0,
-    "explanation": "ショイレーベはドイツの白ブドウ品種です。\nショイレーベは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Scheurebeはドイツ育成の白品種で、黒スグリや柑橘の強い芳香が特徴。RheinhessenやPfalzで重要。\nDornfelder、Regent、Dominaは黒品種。交配品種でも果皮色を必ず確認する。"
   },
   {
     "id": "germany-overview-law-012",
@@ -17747,7 +17790,7 @@ window.WINE_QUESTIONS = [
       "リヴァーナー"
     ],
     "answerIndex": 1,
-    "explanation": "ルーレンダーはグラウブルグンダーのシノニムです。\nグラウブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "RuländerはGrauburgunder、国際名Pinot Grisと同一。Ruländerは熟した豊かなスタイル、Grauburgunderは辛口表示に使われやすい。\nWeißburgunderはPinot Blanc、SpätburgunderはPinot Noir。Burgunder系を色で整理する。"
   },
   {
     "id": "germany-overview-law-013",
@@ -17761,7 +17804,7 @@ window.WINE_QUESTIONS = [
       "Auslese"
     ],
     "answerIndex": 0,
-    "explanation": "Kabinettは繊細で軽いスタイルが期待されるPrädikatです。\nKabinettは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "KabinettはPrädikatsweinの入口で、70〜85°Oeの軽快で繊細なスタイル。Prädikatは甘味度そのものではなく収穫時糖度を示す。\n上位はSpätlese、Auslese、BA／Eiswein、TBA。補糖不可という共通点も重要。"
   },
   {
     "id": "germany-overview-law-014",
@@ -17775,7 +17818,7 @@ window.WINE_QUESTIONS = [
       "ポルトギーザー"
     ],
     "answerIndex": 1,
-    "explanation": "バッフスの親にはジルヴァーナーが含まれます。\nジルヴァーナーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Bacchusは（Silvaner×Riesling）×Müller-Thurgau。早熟で芳香が強く、Rieslingが熟しにくい場所でも糖度を得やすい。\nScheurebeやMüller-Thurgauとは親子関係が別。Silvanerを含む交配として覚える。"
   },
   {
     "id": "germany-overview-law-015",
@@ -17789,7 +17832,7 @@ window.WINE_QUESTIONS = [
       "約7割"
     ],
     "answerIndex": 3,
-    "explanation": "ドイツでは白ブドウが栽培面積の約7割を占めます。\n約7割は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "白ブドウは栽培面積の約7割。冷涼な気候に適するRieslingを筆頭にMüller-Thurgau、Grauburgunderが続く。\n黒は約3割でSpätburgunderが中心。ドイツ＝白だけではなく黒の増加も押さえる。"
   },
   {
     "id": "germany-overview-law-016",
@@ -17803,7 +17846,7 @@ window.WINE_QUESTIONS = [
       "ミュラー・トゥルガウ"
     ],
     "answerIndex": 0,
-    "explanation": "ドイツで栽培面積第1位の品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "栽培面積首位はRiesling。高い酸と成熟の遅さを持ち、辛口からTBAまで幅広く、MoselとRheingauの軸になる。\nMüller-Thurgauは全体3位、白3位はGrauburgunder。順位の母集団に注意する。"
   },
   {
     "id": "germany-overview-law-017",
@@ -17817,7 +17860,7 @@ window.WINE_QUESTIONS = [
       "1786年"
     ],
     "answerIndex": 2,
-    "explanation": "シュタインベルクで貴腐ブドウの収穫が行われたのは1753年です。\n1753年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "1753年、Kloster Eberbach所有のSteinbergで貴腐ブドウが収穫された記録がある。Rheingauの甘口史を示す年号。\nJohannisbergのRiesling大量植樹は1720年。場所と出来事を交換しない。"
   },
   {
     "id": "germany-overview-law-018",
@@ -17831,7 +17874,7 @@ window.WINE_QUESTIONS = [
       "原産地呼称保護ワインの生産条件は、現行のQualitätsweinと同じである"
     ],
     "answerIndex": 3,
-    "explanation": "2021年改正では、原産地呼称保護ワインの生産条件は現行のQualitätsweinと同じです。\n原産地呼称保護ワインの生産条件は、現行のQualitätsweinと同じであるという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "新法の原産地呼称保護ワインも、生産条件の基礎は従来のQualitätsweinと同じ。変更の核心は品質を糖度から地理的範囲へ移したこと。\n条件を全面廃止したのではない。既存制度の上に原産地階層を再構成した。"
   },
   {
     "id": "germany-overview-law-019",
@@ -17845,7 +17888,7 @@ window.WINE_QUESTIONS = [
       "ジルヴァーナー"
     ],
     "answerIndex": 1,
-    "explanation": "ドイツの白ブドウ品種で栽培面積第3位はグラウブルグンダーです。\nグラウブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "白品種3位はGrauburgunder。Pinot Grisの同義名で、温暖化と辛口志向を背景に増加した。\n白首位Riesling、全体3位Müller-Thurgauとは順位の切り口が異なる。"
   },
   {
     "id": "germany-overview-law-020",
@@ -17859,7 +17902,7 @@ window.WINE_QUESTIONS = [
       "リヴァーナー"
     ],
     "answerIndex": 1,
-    "explanation": "ピノ・グリはドイツではルーレンダーとも呼ばれます。\nルーレンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Pinot Grisのドイツ伝統名がRuländer、現代の辛口表示ではGrauburgunderが一般的。どちらも同一品種である。\nPinot BlancはWeißburgunder、Pinot NoirはSpätburgunder。Pinot三色を対で覚える。"
   },
   {
     "id": "germany-overview-law-021",
@@ -17873,7 +17916,7 @@ window.WINE_QUESTIONS = [
       "リースリング"
     ],
     "answerIndex": 3,
-    "explanation": "リースリングはドイツを代表する白ブドウ品種です。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Rieslingは白品種で、高酸・晩熟・テロワール表現力が特徴。ドイツ全体の栽培面積首位でもある。\nSpätburgunder、Dornfelder、Lembergerは黒品種。名称だけでなく果皮色を確認する。"
   },
   {
     "id": "germany-overview-law-022",
@@ -17887,7 +17930,7 @@ window.WINE_QUESTIONS = [
       "ミュラー・トゥルガウ"
     ],
     "answerIndex": 3,
-    "explanation": "ドイツで栽培面積第3位の品種はミュラー・トゥルガウです。\nミュラー・トゥルガウは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "全品種3位はMüller-Thurgau。早熟・多収で20世紀に普及したが、近年は面積が大きく減少している。\n首位Riesling、黒首位Spätburgunder。現在順位と長期推移をセットにする。"
   },
   {
     "id": "germany-overview-law-023",
@@ -17901,7 +17944,7 @@ window.WINE_QUESTIONS = [
       "レンベルガー"
     ],
     "answerIndex": 3,
-    "explanation": "ブラウフレンキッシュはドイツではレンベルガーとも呼ばれます。\nレンベルガーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Blaufränkischのドイツ名がLemberger。Württembergを中心に、酸とスパイスを持つ赤を生む。\nTrollingerはSchiava、RuländerはPinot Gris。別名問題は主要産地も手掛かりになる。"
   },
   {
     "id": "germany-overview-law-024",
@@ -17915,7 +17958,7 @@ window.WINE_QUESTIONS = [
       "ブケットトラウベ"
     ],
     "answerIndex": 1,
-    "explanation": "レゲントの親にはシャンボールサンが含まれます。\nシャンボールサンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "RegentはDiana×Chambourcinから育成されたPIWI黒品種。病害抵抗性があり、濃い色の赤を生む。\nChambourcinは親の一方。DornfelderやDominaは別の交配で、PIWIという条件でも区別する。"
   },
   {
     "id": "germany-overview-law-025",
@@ -17929,7 +17972,7 @@ window.WINE_QUESTIONS = [
       "1892年"
     ],
     "answerIndex": 1,
-    "explanation": "ラインガウのブドウ畑の格付け地図は1867年に出版されました。\n1867年は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Rheingauの畑の格付け地図は1867年。Moselの1868年より1年早い。\n畑の収益・税評価を基にした歴史的地図で、Rheingau 1867、Mosel 1868を対にする。"
   },
   {
     "id": "germany-overview-law-026",
@@ -17943,7 +17986,7 @@ window.WINE_QUESTIONS = [
       "原産地呼称保護ワイン"
     ],
     "answerIndex": 2,
-    "explanation": "g.g.A.は地理的表示保護ワインを意味します。\n地理的表示保護ワインという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "g.g.A.はgeschützte geografische Angabe、EUの地理的表示保護（PGI）に相当する。ドイツではLandweinが該当。\ng.U.は原産地呼称保護（PDO）。AとUの一文字違いを階層とともに覚える。"
   },
   {
     "id": "germany-overview-law-027",
@@ -17957,7 +18000,7 @@ window.WINE_QUESTIONS = [
       "80〜95°Oe"
     ],
     "answerIndex": 0,
-    "explanation": "Trockenbeerenausleseに必要な最低果汁糖度は150〜154°Oeです。\n150〜154°Oeは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "TBAの最低果汁糖度は産地により150〜154°Oe。貴腐で干しブドウ状になった粒を選別し、極甘口・長命となる。\nBA／Eisweinより上位で、Prädikat最高糖度。補糖は認められない。"
   },
   {
     "id": "germany-overview-law-028",
@@ -17971,7 +18014,7 @@ window.WINE_QUESTIONS = [
       "42"
     ],
     "answerIndex": 0,
-    "explanation": "ドイツのBestimmte Anbaugebieteは13です。\n13は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "特定ワイン生産地域Bestimmte Anbaugebieteは13。Qualitätsweinはこのいずれか一地域に100%由来する。\nBereichはその内側の中地区で51。13地域と51ベライヒを混同しない。"
   },
   {
     "id": "germany-overview-law-029",
@@ -17985,7 +18028,7 @@ window.WINE_QUESTIONS = [
       "レンベルガー"
     ],
     "answerIndex": 1,
-    "explanation": "ヴァイスブルグンダーはドイツの白ブドウ品種です。\nヴァイスブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "WeißburgunderはPinot Blancのドイツ名で白品種。穏やかな酸とナッツ様の風味を持ち、辛口や発泡に使われる。\nGrauburgunderはPinot Gris、SpätburgunderはPinot Noir。接頭語が果皮色を示す。"
   },
   {
     "id": "germany-overview-law-030",
@@ -17999,7 +18042,7 @@ window.WINE_QUESTIONS = [
       "Spätlese"
     ],
     "answerIndex": 2,
-    "explanation": "樹上で凍結したブドウを凍結したまま圧搾して造るのはEisweinです。\nEisweinは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Eisweinは樹上で自然凍結した健全なブドウを凍ったまま圧搾し、水分を氷として除く。貴腐は必須ではない。\nBA・TBAは貴腐が中心。凍結濃縮か貴腐濃縮かを分ける。"
   },
   {
     "id": "germany-overview-law-032",
@@ -18013,7 +18056,7 @@ window.WINE_QUESTIONS = [
       "ジルヴァーナー"
     ],
     "answerIndex": 0,
-    "explanation": "レゲントは病害抵抗性を持つPIWI品種です。\nレゲントは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Regentは代表的なPIWI黒品種で、べと病・うどんこ病への抵抗性を狙って育成された。\nMuscarisとCabernet BlancもPIWI。Spätburgunderなど伝統品種は病害抵抗性交配品種ではない。"
   },
   {
     "id": "germany-overview-law-034",
@@ -18027,7 +18070,7 @@ window.WINE_QUESTIONS = [
       "ドルンフェルダー"
     ],
     "answerIndex": 0,
-    "explanation": "ドイツの黒ブドウ品種で栽培面積第1位はシュペートブルグンダーです。\nシュペートブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "黒品種首位はSpätburgunder、国際名Pinot Noir。Ahr、Baden、Pfalzなどで高品質赤を生む。\n2位Dornfelder。ドイツは世界有数のPinot Noir栽培国でもある。"
   },
   {
     "id": "germany-overview-law-035",
@@ -18041,7 +18084,7 @@ window.WINE_QUESTIONS = [
       "世界第10位"
     ],
     "answerIndex": 1,
-    "explanation": "ドイツの2021年のワイン生産量順位は世界第9位です。\n世界第9位という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "2021年のワイン生産量は世界9位。年により収量変動が大きいため、統計は基準年とセットで扱う。\n栽培面積順位とは別指標。冷涼年や病害の影響で生産量順位は動きやすい。"
   },
   {
     "id": "germany-overview-law-037",
@@ -18055,7 +18098,7 @@ window.WINE_QUESTIONS = [
       "ジルヴァーナー"
     ],
     "answerIndex": 2,
-    "explanation": "ドミナの親にはシュペートブルグンダーが含まれます。\nシュペートブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Dominaのもう一方の親はSpätburgunder。Portugieserとの交配で、濃色と早熟性を得た。\nDornfelderにもPinot系の血統が間接的に入るが、直接の親はHelfensteinerとHeroldrebe。"
   },
   {
     "id": "germany-overview-law-038",
@@ -18069,7 +18112,7 @@ window.WINE_QUESTIONS = [
       "8.5%"
     ],
     "answerIndex": 2,
-    "explanation": "Beerenausleseで必要な最低アルコール度数は5.5%です。\n5.5%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Beerenausleseの最低実アルコール度数は5.5%。高糖度の未発酵糖を残す甘口を想定した低い下限である。\nQualitätsweinは7.0%。果汁糖度と完成ワインのアルコール度数を混同しない。"
   },
   {
     "id": "germany-overview-law-041",
@@ -18083,7 +18126,7 @@ window.WINE_QUESTIONS = [
       "格付けの基準が、収穫時の果汁糖度から地理的呼称範囲に変わる"
     ],
     "answerIndex": 3,
-    "explanation": "2021年改正では、格付けの基準が収穫時の果汁糖度から地理的呼称範囲へ変わりました。\n格付けの基準が、収穫時の果汁糖度から地理的呼称範囲に変わるという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "2021年改正の核心は、格付け基準を収穫時果汁糖度中心から地理的呼称範囲中心へ移すこと。狭い原産地ほど上位となる。\nAnbaugebiet→Region／Bereich→Gemeinde／Ortsteil→Einzellageの順で範囲が狭くなる。"
   },
   {
     "id": "germany-overview-law-042",
@@ -18097,7 +18140,7 @@ window.WINE_QUESTIONS = [
       "シュペートブルグンダー"
     ],
     "answerIndex": 3,
-    "explanation": "シュペートブルグンダーはドイツの黒ブドウ品種です。\nシュペートブルグンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "SpätburgunderはPinot Noirのドイツ名で黒品種。黒品種の栽培面積首位を占める。\nWeißburgunderとGrauburgunderは白ワイン用品種。Burgunderの前の色語が判断材料。"
   },
   {
     "id": "germany-overview-law-043",
@@ -18111,7 +18154,7 @@ window.WINE_QUESTIONS = [
       "1720年"
     ],
     "answerIndex": 3,
-    "explanation": "ヨハニスベルク修道院でリースリングが大量に植樹されたのは1720年です。\n1720年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "1720年、Schloss JohannisbergでRieslingが大規模に植えられ、Rheingauの単一品種化を先導した。\nSteinbergの貴腐収穫は1753年。Johannisberg 1720とEberbach 1753を分ける。"
   },
   {
     "id": "germany-overview-law-044",
@@ -18125,7 +18168,7 @@ window.WINE_QUESTIONS = [
       "26"
     ],
     "answerIndex": 2,
-    "explanation": "ドイツワインのBereicheは51です。\n51は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Bereicheは51。13のAnbaugebietをさらに分ける中地区で、その下にGemeindeやEinzellageが置かれる。\n13は特定生産地域の数。地理階層と個数を一緒に覚える。"
   },
   {
     "id": "germany-overview-law-045",
@@ -18139,7 +18182,7 @@ window.WINE_QUESTIONS = [
       "リースリング"
     ],
     "answerIndex": 0,
-    "explanation": "ドルンフェルダーの親にはヘロルトレーベが含まれます。\nヘロルトレーベは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "DornfelderはHelfensteiner×Heroldrebe。濃色で果実味豊かな黒品種として広く普及した。\nHeroldrebeは親の一方。DominaやRegentとは交配組合せが異なる。"
   },
   {
     "id": "germany-overview-law-047",
@@ -18153,7 +18196,7 @@ window.WINE_QUESTIONS = [
       "ピノ・グリ"
     ],
     "answerIndex": 1,
-    "explanation": "レンベルガーはブラウフレンキッシュのシノニムです。\nブラウフレンキッシュは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Lembergerの国際的同義名はBlaufränkisch。Württembergで重要な晩熟黒品種である。\nTrollinger＝Schiava、Ruländer＝Pinot Grisと並ぶ頻出シノニム。"
   },
   {
     "id": "germany-overview-law-049",
@@ -18167,7 +18210,7 @@ window.WINE_QUESTIONS = [
       "1945年"
     ],
     "answerIndex": 0,
-    "explanation": "収穫時の果汁糖度に応じる格付けシステムは1971年に導入されました。\n1971年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "1971年法は収穫時果汁糖度を軸にPrädikatsweinの格を組み立て、畑名も大幅統合した。\n2021年改正は逆に原産地の狭さを重視する方向へ転換。二つの年を制度思想で比較する。"
   },
   {
     "id": "germany-overview-law-052",
@@ -18181,7 +18224,7 @@ window.WINE_QUESTIONS = [
       "ルーレンダー"
     ],
     "answerIndex": 3,
-    "explanation": "グラウブルグンダーはルーレンダーのシノニムです。\nルーレンダーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Grauburgunderの同義名がRuländer、国際名Pinot Gris。現代は辛口にGrauburgunder表記が多い。\nWeißburgunderはPinot Blanc。似たBurgunder名を果皮色で区別する。"
   },
   {
     "id": "germany-overview-law-053",
@@ -18195,7 +18238,7 @@ window.WINE_QUESTIONS = [
       "シャンボールサン"
     ],
     "answerIndex": 2,
-    "explanation": "ミュラー・トゥルガウの親にはマドレーヌ・ロワイヤルが含まれます。\nマドレーヌ・ロワイヤルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Müller-ThurgauはRiesling×Madeleine Royale。かつてSilvanerが親と考えられたためRivanerの別名が残る。\nDNA解析で親が確定した。古い通説と現在の交配を取り違えない。"
   },
   {
     "id": "germany-overview-law-054",
@@ -18209,7 +18252,7 @@ window.WINE_QUESTIONS = [
       "カベルネ・ブラン"
     ],
     "answerIndex": 3,
-    "explanation": "カベルネ・ブランは病害抵抗性を持つPIWI品種です。\nカベルネ・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Cabernet BlancはCabernet Sauvignon系のPIWI白品種。病害抵抗性と爽やかな香りを持つ。\nMuscarisも白PIWI、Regentは黒PIWI。国際品種Cabernet Sauvignonそのものではない。"
   },
   {
     "id": "germany-overview-law-056",
@@ -18223,7 +18266,7 @@ window.WINE_QUESTIONS = [
       "Einzellage, GemeindeまたはOrtsteil, BereichまたはRegion, Anbaugebiet"
     ],
     "answerIndex": 3,
-    "explanation": "Einzellage, GemeindeまたはOrtsteil, BereichまたはRegion, Anbaugebietという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "上位からEinzellage→Gemeinde／Ortsteil→Bereich／Region→Anbaugebiet。狭い地理単位ほど品質上位というブルゴーニュ型の発想。\n旧来の糖度階層とは別軸。単一畑から生産地域へ範囲が広がる順に読む。"
   },
   {
     "id": "germany-overview-law-057",
@@ -18237,7 +18280,7 @@ window.WINE_QUESTIONS = [
       "ショイレーベ"
     ],
     "answerIndex": 0,
-    "explanation": "レンベルガーはドイツの黒ブドウ品種です。\nレンベルガーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "LembergerはBlaufränkischのドイツ名で黒品種。Württembergで酸とタンニンのある赤を生む。\nRiesling、Silvaner、Scheurebeは白品種。別名を知れば果皮色も判断できる。"
   },
   {
     "id": "germany-overview-law-058",
@@ -18251,7 +18294,7 @@ window.WINE_QUESTIONS = [
       "Auslese"
     ],
     "answerIndex": 0,
-    "explanation": "Spätleseは遅くまで待ち、完熟したブドウを用いる肩書きです。\nSpätleseは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Spätleseは80〜95°Oeで、遅摘みの完熟ブドウを用いる。Kabinettより凝縮し、辛口にも甘口にもなり得る。\nAusleseはさらに選別した房。Prädikat名は残糖ではなく収穫時熟度を示す。"
   },
   {
     "id": "germany-overview-law-059",
@@ -18265,7 +18308,7 @@ window.WINE_QUESTIONS = [
       "ヴァイスブルグンダー"
     ],
     "answerIndex": 2,
-    "explanation": "ミュラーレーベはピノ・ムニエのシノニムです。\nピノ・ムニエは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "MüllerrebeはPinot Meunierのドイツ名。葉裏の白い毛が粉をまいたように見えることが名称の由来。\nMüller-Thurgauとは別品種。似たMüllerの語に引かれない。"
   },
   {
     "id": "germany-overview-law-061",
@@ -18279,7 +18322,7 @@ window.WINE_QUESTIONS = [
       "ブケットトラウベ"
     ],
     "answerIndex": 1,
-    "explanation": "ミュラー・トゥルガウの親にはリースリングが含まれます。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Müller-Thurgauの親の一方はRiesling、もう一方はMadeleine Royale。早熟・多収で冷涼地に普及した。\nSilvaner親説は否定済み。Rivanerという別名が古い誤認を連想させる。"
   },
   {
     "id": "germany-overview-law-064",
@@ -18293,14 +18336,14 @@ window.WINE_QUESTIONS = [
       "26の特定ワイン生産地域のいずれか一つのブドウを100%用いる"
     ],
     "answerIndex": 0,
-    "explanation": "Qualitätsweinではアルコール度数を補うための補糖が可能です。\nアルコール度数を補うための補糖は可能は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの品質分類では原産地と果汁糖度、辛口表示を別々の軸として整理する必要がある。"
+    "explanation": "Qualitätsweinは補糖によりアルコール度数を補える。一方Prädikatsweinは補糖不可で、自然な果汁糖度を区分の基礎とする。\n甘味付与と補糖は別操作。補糖は発酵後の甘さではなく潜在アルコールを上げる。"
   },
   {
     "id": "germany-regions-001",
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのラインガウ地方の村の中で、最も西に位置するものを選択してください。",
-    "explanation": "ラインガウ地方の村の中で、Lorchは最も西に位置します。\nLorchは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Rheingau西端、Mittelrheinとの境に近い村。Rüdesheimよりさらに西に位置する。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "Erbach",
       "Hochheim",
@@ -18314,7 +18357,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に合致するドイツの生産地域を選択してください。「ポーランド国境近くのエルベ川沿いに位置する産地。州都ドレスデンにも近い。ボーリングのピンのようなボトルと、交配品種ゴルトリースリングが特産品である。」",
-    "explanation": "説明はザクセンに合致します。ドレスデン近郊、エルベ川沿いの産地です。\nザクセンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Elbe川沿い、Dresden近郊のドイツ最東端産地。Goldrieslingとボウリングピン形ボトルが特色。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ザクセン",
       "プファルツ",
@@ -18328,7 +18371,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "下記の画像はドイツのワイン産地の地図です。地図上で7番の特定ワイン生産地域名をカタカナで入力してください。",
-    "explanation": "地図上の7番はPfalz、カタカナではプファルツです。\nプファルツは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：プファルツの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -18341,7 +18384,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のようなドイツ料理を選択してください。「ヴュルテンベルクの郷土料理の一つで、卵入りの太麺にチーズをおろして溶かしフライドオニオンを散らした料理」",
-    "explanation": "Käsespätzleは太麺にチーズを絡め、フライドオニオンを散らす郷土料理です。\nKäsespätzleは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "卵麺Spätzleにチーズと炒め玉ねぎを重ねるWürttembergの料理。Trollingerなど軽快な赤と合わせやすい。\n料理名は材料・調理法・所属産地を一組にすると、地域ワインとの組合せ問題にも対応できる。",
     "choices": [
       "Sauerkraut",
       "Käsespätzle",
@@ -18355,7 +18398,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のドイツのベライヒの中からバーデン地方に属するものを選択してください。",
-    "explanation": "Kaiserstuhlはバーデン地方のベライヒです。\nKaiserstuhlは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Badenの火山性丘陵を中心とするBereich。温暖でSpätburgunderとBurgunder系白が重要。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Kaiserstuhl",
       "Burg Cochem",
@@ -18369,7 +18412,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツ、モーゼル地域のEitelsbach村に属する畑を選択してください。",
-    "explanation": "Karthäusserhofbergはモーゼル地域Eitelsbach村に属する畑です。\nKarthäusserhofbergは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "MoselのEitelsbach村に属する著名な単一畑。Ruwer川流域のRieslingで知られる。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Prälat",
       "Karthäusserhofberg",
@@ -18383,7 +18426,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツ産のロゼワインを選択してください。",
-    "explanation": "Schillerweinはドイツ産ロゼワインの一種です。\nSchillerweinという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "WürttembergのRotlingで、白黒ブドウを混醸する。名称は色が玉虫色に輝くことに由来する。\nWeißherbstは単一黒品種、Rotlingは白黒混醸、SchillerweinとBadisch Rotgoldは地域限定型として比較する。",
     "choices": [
       "Schaumwein",
       "Schillerwein",
@@ -18397,7 +18440,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、第3階級（村名入りワイン）に相当するクラスを選択してください。",
-    "explanation": "VDPの第3階級、村名入りワインはOrtsweinです。\nOrtsweinは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "VDPの村名ワインで上から3階級。Gutsweinより上、Erste Lageより下に位置する。\nVDP階層はGroße Lage→Erste Lage→Ortswein→Gutswein。法定区分ではなく生産者団体の自主基準である。",
     "choices": [
       "Ortswein",
       "Großlage",
@@ -18411,7 +18454,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツの生産地域モーゼルで最も栽培面積の大きいブドウ品種を選択してください。",
-    "explanation": "モーゼルで最も栽培面積が大きい品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "高酸・晩熟で斜面と冷涼気候に適し、MoselとRheingauの首位品種。辛口から甘口まで造る。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ジルヴァーナー",
       "シュペートブルグンダー",
@@ -18425,7 +18468,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツワイン生産地域の中からRauenthal村が属する産地を選択してください。",
-    "explanation": "Rauenthal村はラインガウに属します。\nラインガウは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Taunus山地とRhein川に挟まれた南向き斜面の産地。Rieslingが約4分の3を占める。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "ラインガウ",
       "ラインヘッセン",
@@ -18439,7 +18482,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "下記の画像はドイツのワイン産地の地図です。地図上で1番の特定ワイン生産地域名をカタカナで入力してください。",
-    "explanation": "地図上の1番はAhr、カタカナではアールです。\nアールは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：アールの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -18452,7 +18495,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に最もよく合致するドイツ産スパークリングワインを選択してください。「発泡性ワインで20℃で3.0気圧以上、最低アルコール度数9.5%。白・赤・生産国などの異なるワインをブレンドしたベースワインを使用できる。」",
-    "explanation": "説明はSchaumweinに合致します。\nSchaumweinという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "20℃で3.0気圧以上、最低9.5%。原料国や色の異なるベースワインも混合できる広い発泡区分。\nSchaumweinは3.0気圧・9.5%、Sektは3.5気圧・10%。Deutscher Sektはドイツ産原料が必要。",
     "choices": [
       "Sekt b.A.",
       "Schaumwein",
@@ -18466,7 +18509,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次の説明に合致するドイツの生産地域を選択してください。「ドイツで3番目に大きなワイン生産地域で、南北におよそ400kmにわたって細長く広がり、南はスイス国境まで達する。9つのベライヒに区分され、シュペートブルグンダーが栽培面積の約32%を占める。」",
-    "explanation": "説明はバーデンに合致します。南北に長く、シュペートブルグンダーも重要です。\nバーデンは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "ドイツ第3位の細長い南部産地。9 Bereicheを持ち、温暖でSpätburgunderが約3割を占める。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "ザクセン",
       "ナーエ",
@@ -18480,7 +18523,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のようなドイツ料理を選択してください。「アールの郷土料理の一つで、イノシシをソテーし、赤ワインと香草を加えて蒸し煮にした料理」",
-    "explanation": "Wildschweinbratenはイノシシを使った料理です。\nWildschweinbratenという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "イノシシを赤ワインと香草で蒸し煮するAhrの料理。Spätburgunderとの地域ペアリングが定番。\n料理名は材料・調理法・所属産地を一組にすると、地域ワインとの組合せ問題にも対応できる。",
     "choices": [
       "Rheinischer Sauerbraten",
       "Wildschweinbraten",
@@ -18494,7 +18537,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツワイン生産地域の中からWürzburg村が属する産地を選択してください。",
-    "explanation": "Würzburg村はフランケンに属します。\nフランケンは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Main川流域の産地で、Silvanerと扁平なBocksbeutel瓶が象徴。WürzburgやEscherndorfを含む。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "フランケン",
       "バーデン",
@@ -18508,7 +18551,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのラインガウ地方の村を、西から東の順序で正しく並べたものを選択してください。",
-    "explanation": "西から東へ、Rüdesheim、Johannisberg、Hattenheim、Erbachの順です。\nRüdesheim, Johannisberg, Hattenheim, Erbachは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Rheingauを西から東へ並べた順。さらに西にLorch、東端側にHochheimがある。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "Rüdesheim, Assmannshausen, Hattenheim, Johannisberg",
       "Johannisberg, Assmannshausen, Rüdesheim, Erbach",
@@ -18522,7 +18565,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次の中からドイツ、ラインガウ地域のRauenthal村に属する畑を選択してください。",
-    "explanation": "Baikenはラインガウ地域Rauenthal村に属する畑です。\nBaikenは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "RheingauのRauenthal村に属する畑。Nonnenbergも同村、GräfenbergはKiedrich村。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Baiken",
       "Steinberg",
@@ -18536,7 +18579,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツの生産地域ヴュルテンベルクで最も栽培面積の大きい赤ワイン用品種を選択してください。",
-    "explanation": "ヴュルテンベルクで最も栽培面積が大きい赤ワイン用品種はトロリンガーです。\nトロリンガーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Württembergで面積最大の赤品種。Schiavaの同義名で、淡色・軽快な日常的赤を生む。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "トロリンガー",
       "シュペートブルグンダー",
@@ -18550,7 +18593,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める品質基準の中で、VDP Große Lageの規定として適切なものを選択してください。",
-    "explanation": "VDP Große Lageでは、収穫は選別しながらの手作業とされます。\n収穫は選別しながらの手作業は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "VDP.Große Lageは最高級区画で、低収量と選別手摘みを要求。辛口最高峰はGGと表示する。\nVDP階層はGroße Lage→Erste Lage→Ortswein→Gutswein。法定区分ではなく生産者団体の自主基準である。",
     "choices": [
       "収穫は選別しながらの手作業",
       "辛口ワインのみに認められる",
@@ -18564,7 +18607,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのベライヒの中からバーデン地方に属するものを選択してください。",
-    "explanation": "Tunibergはバーデン地方のベライヒです。\nTunibergは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Kaiserstuhlに隣接するBadenのBereich。温暖な石灰質丘陵でBurgunder系が重要。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Tuniberg",
       "Nierstein",
@@ -18578,7 +18621,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツ、ラインガウ地域のRauenthal村に属する畑を選択してください。",
-    "explanation": "Nonnenbergはラインガウ地域Rauenthal村に属する畑です。\nNonnenbergは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Rauenthal村の単一畑。Baikenと同村にあり、Rieslingの著名畑として知られる。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Gräfenberg",
       "Turmberg",
@@ -18592,7 +18635,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのモーゼル川中流域に位置するベライヒを選択してください。",
-    "explanation": "モーゼル川中流域に位置するベライヒはBernkastelです。\nBernkastelは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Mosel中流の中心Bereich。Bernkastel、Wehlen、Brauneberg、Ürzigなど頻出村を含む。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Ruwertal",
       "Saar",
@@ -18606,7 +18649,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツワイン生産地域の中からEscherndorf村が属する産地を選択してください。",
-    "explanation": "Escherndorf村はフランケンに属します。\nフランケンは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Main川流域の産地で、Silvanerと扁平なBocksbeutel瓶が象徴。WürzburgやEscherndorfを含む。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "フランケン",
       "アール",
@@ -18620,7 +18663,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の説明に合致するドイツの生産地域を選択してください。「ドイツで2番目に大きな生産地域で、西のハールト山地からライン川に向かって続く平野に広がり、南端はフランスとの国境に接している。桃やイチジクなど様々な果樹の栽培にも適した温暖な気候である。」",
-    "explanation": "説明はプファルツに合致します。\nプファルツは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "ドイツ第2位の温暖な産地。Haardt山地東麓に延び、RieslingとBurgunder系が重要。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ナーエ",
       "プファルツ",
@@ -18634,7 +18677,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のようなドイツ料理を選択してください。「ラインガウの郷土料理の一つで、茹でたジャガイモや玉子にかける、サワークリームに7種類の香草を混ぜたソース」",
-    "explanation": "Frankfurter Grüne Soßeは7種類の香草を使う緑色のソースです。\nFrankfurter Grüne Soßeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "7種の香草をサワークリーム等に混ぜるFrankfurt周辺の緑のソース。卵やジャガイモに添える。\n料理名は材料・調理法・所属産地を一組にすると、地域ワインとの組合せ問題にも対応できる。",
     "choices": [
       "Zwiebelkuchen",
       "Blaue Zipfel",
@@ -18648,7 +18691,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、最高級クラス（特級区画）に相当するクラスを選択してください。",
-    "explanation": "VDPの最高級クラス、特級区画はGroße Lageです。\nGroße Lageは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "VDP最高位の特級区画。認可品種・低収量・手摘みを定め、辛口はGroßes Gewächsとなる。\nVDP階層はGroße Lage→Erste Lage→Ortswein→Gutswein。法定区分ではなく生産者団体の自主基準である。",
     "choices": [
       "Ortswein",
       "Erste Lage",
@@ -18662,7 +18705,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "下記の画像はドイツのワイン産地の地図です。地図上で3番の特定ワイン生産地域名をカタカナで入力してください。",
-    "explanation": "地図上の3番はMittelrhein、カタカナではミッテルラインです。\nミッテルラインは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：ミッテルラインの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -18675,7 +18718,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に最も合致するドイツ産ロゼワインを選択してください。「赤ワイン用ブドウと白ワイン用ブドウ、もしくはそれぞれ破砕して果汁に漬けた状態で混ぜて一緒に圧搾・醸造したロゼワイン。」",
-    "explanation": "説明はRotlingに合致します。\nRotlingは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "白黒ブドウまたはその破砕物を混ぜて一緒に醸造する淡色ワイン。完成赤白ワインの混合ではない。\nWeißherbstは単一黒品種、Rotlingは白黒混醸、SchillerweinとBadisch Rotgoldは地域限定型として比較する。",
     "choices": [
       "Rotling",
       "Weißherbst",
@@ -18689,7 +18732,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのベライヒの中からフランケン地方に属するものを選択してください。",
-    "explanation": "Mittelfränkische Bocksbeutelstraßeはフランケン地方のベライヒです。\nMittelfränkische Bocksbeutelstraßeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "FrankenのBereichの一つ。名称通りBocksbeutel文化と結び付く。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Württembergisch-Unterland",
       "Mittelfränkische Bocksbeutelstraße",
@@ -18703,7 +18746,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツの生産地域ラインガウで最も栽培面積の大きいブドウ品種を選択してください。",
-    "explanation": "ラインガウで最も栽培面積が大きい品種はリースリングです。\nリースリングは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "高酸・晩熟で斜面と冷涼気候に適し、MoselとRheingauの首位品種。辛口から甘口まで造る。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "リースリング",
       "トロリンガー",
@@ -18716,8 +18759,8 @@ window.WINE_QUESTIONS = [
     "id": "germany-regions-031",
     "category": "ドイツ/産地",
     "importance": "C",
-    "question": "下記の画像はドイツのワイン産地の地図です。地図上でHessische Bergstraßeに相当する番号を選択してください。",
-    "explanation": "Hessische Bergstraßeは地図上の8番です。\n8番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "question": "下記の画像はドイツのワイン産地の地図です。地図上でHessische Bergstraße（ヘシッシェ・ベルクシュトラーセ）に相当する番号を選択してください。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：Hessische Bergstraße（ヘシッシェ・ベルクシュトラーセ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -18736,7 +18779,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツ最東端であるドイツの生産地域を選択してください。",
-    "explanation": "ドイツ最東端のワイン生産地域はザクセンです。\nザクセンは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Elbe川沿い、Dresden近郊のドイツ最東端産地。Goldrieslingとボウリングピン形ボトルが特色。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ラインガウ",
       "プファルツ",
@@ -18750,7 +18793,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのワイン産地で、かつて「3B」と呼ばれた大御所中心の産地から、若手が活躍するダイナミックな産地へと変貌しているところを選択してください。",
-    "explanation": "説明はプファルツに合致します。\nプファルツは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "ドイツ第2位の温暖な産地。Haardt山地東麓に延び、RieslingとBurgunder系が重要。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ラインヘッセン",
       "バーデン",
@@ -18764,7 +18807,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のようなドイツ料理を選択してください。「プファルツの郷土料理の一つで、豚の胃袋に豚肉、ジャガイモなどを詰めて茹でた後、フライパンで炙って供される料理」",
-    "explanation": "Saumagenはプファルツの郷土料理です。\nSaumagenは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "豚の胃袋に豚肉やジャガイモを詰めるPfalz料理。Rieslingや地域の赤と親しまれる。\n料理名は材料・調理法・所属産地を一組にすると、地域ワインとの組合せ問題にも対応できる。",
     "choices": [
       "Gräwes",
       "Saumagen",
@@ -18778,7 +18821,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に最もよく合致するドイツ産スパークリングワインを選択してください。「発泡性ワインで20℃で3.5気圧以上、最低アルコール度数は10%。白・赤・生産国などの異なるワインをブレンドしたベースワインを使用できる。」",
-    "explanation": "説明はSektに合致します。\nSektという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "20℃で3.5気圧以上、最低10%。Schaumweinよりガス圧・度数の基準が高い。\nSchaumweinは3.0気圧・9.5%、Sektは3.5気圧・10%。Deutscher Sektはドイツ産原料が必要。",
     "choices": [
       "Sekt b.A.",
       "Schaumwein",
@@ -18792,7 +18835,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのベライヒの中からモーゼル地方に属するものを選択してください。",
-    "explanation": "Saarはモーゼル地方のベライヒです。\nSaarは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "MoselのBereich。冷涼なSaar川沿いで、鋭い酸と長い熟成力を持つRieslingが中心。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Nahetal",
       "Nierstein",
@@ -18806,7 +18849,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツ、ラインガウ地域のKiedrich村に属する畑を選択してください。",
-    "explanation": "GräfenbergはKiedrich村に属する畑です。\nGräfenbergは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "RheingauのKiedrich村を代表する著名畑。RauenthalのBaiken／Nonnenbergとは村が異なる。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Gräfenberg",
       "Berg Rottland",
@@ -18820,7 +18863,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツワイン生産地域の中からBrauneberg村が属する産地を選択してください。",
-    "explanation": "Brauneberg村はモーゼルに属します。\nモーゼルは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Mosel、Saar、Ruwer川の急斜面産地。Rieslingが首位で、BernkastelやÜrzig、Wehlenを含む。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "ザーレ・ウンストルート",
       "ヘッシッシェ・ベルクシュトラーセ",
@@ -18834,7 +18877,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次の中からドイツで、市町村名の一部区画(Ortsteil)の地理的呼称をラベルに表記する例外的な畑を選択してください。",
-    "explanation": "Schloss VollradsはOrtsteilの地理的呼称をラベルに表記する例外的な畑です。\nSchloss Vollradsは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "RheingauでOrtsteil名を例外的に表示できる歴史的ワイナリー／地理的呼称。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Uhlen",
       "Braune Kupp",
@@ -18848,7 +18891,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に最も合致するドイツ産ロゼワインを選択してください。「バーデン産のロゼワインで、グラウブルグンダーとシュペートブルグンダーから醸造される。」",
-    "explanation": "Badisch Rotgoldはバーデン産のロゼワインです。\nBadisch Rotgoldという認可範囲は、主要品種と製法まで結びつけると別形式の出題にも対応できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Baden限定のRotling。GrauburgunderとSpätburgunderを一緒に醸造する。\nWeißherbstは単一黒品種、Rotlingは白黒混醸、SchillerweinとBadisch Rotgoldは地域限定型として比較する。",
     "choices": [
       "Weißherbst",
       "Blanc de Noir",
@@ -18862,7 +18905,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツの生産地域フランケンで最も栽培面積の大きいブドウ品種を選択してください。",
-    "explanation": "フランケンで最も栽培面積が大きい品種はジルヴァーナーです。\nジルヴァーナーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Frankenの首位品種。土壌を映す穏やかな香りと酸を持ち、Bocksbeutelに詰められることが多い。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "トロリンガー",
       "リースリング",
@@ -18876,7 +18919,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のドイツのベライヒの中からフランケン地方に属するものを選択してください。",
-    "explanation": "Volkacher Mainschleifeはフランケン地方のベライヒです。\nVolkacher Mainschleifeは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "FrankenのMain川蛇行部にあるBereich。EscherndorfなどSilvanerの銘醸地を含む。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Burg Cochem",
       "Oberer Neckar",
@@ -18890,7 +18933,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次のドイツワイン生産地域の中からWehlen村が属する産地を選択してください。",
-    "explanation": "Wehlen村はモーゼルに属します。\nモーゼルは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Mosel、Saar、Ruwer川の急斜面産地。Rieslingが首位で、BernkastelやÜrzig、Wehlenを含む。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "ラインガウ",
       "モーゼル",
@@ -18904,7 +18947,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のようなドイツ料理を選択してください。「乳酸発酵したキャベツ」",
-    "explanation": "乳酸発酵したキャベツはSauerkrautです。\nSauerkrautは工程名だけでなく、その前後で原料や成分がどう変化するかを見ると理解しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "キャベツを乳酸発酵させた料理。酢漬けではなく、肉料理の酸味ある付け合わせとなる。\n料理名は材料・調理法・所属産地を一組にすると、地域ワインとの組合せ問題にも対応できる。",
     "choices": [
       "Sauerkraut",
       "Rheinischer Sauerbraten",
@@ -18918,7 +18961,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、第4階級（醸造所名入りワイン）に相当するクラスを選択してください。",
-    "explanation": "第4階級、醸造所名入りワインはGutsweinです。\nGutsweinは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "VDPの基礎となる醸造所名ワインで第4階級。上位にOrtswein、Erste Lage、Große Lageがある。\nVDP階層はGroße Lage→Erste Lage→Ortswein→Gutswein。法定区分ではなく生産者団体の自主基準である。",
     "choices": [
       "Große Lage",
       "Großlage",
@@ -18932,7 +18975,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "下記の画像はドイツのワイン産地の地図です。地図上で9番の特定ワイン生産地域名をカタカナで入力してください。",
-    "explanation": "地図上の9番はFranken、カタカナではフランケンです。\nフランケンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：フランケンの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -18945,7 +18988,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に合致するドイツの生産地域を選択してください。「ドイツのブドウ栽培醸造技術を研究するガイゼンハイム大学があり、高品質なドイツワインをリードする産地である。多くの畑はタウヌス山地とライン川の間の斜面にあり、リースリングが約76%を占める。」",
-    "explanation": "説明はラインガウに合致します。\nラインガウは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Taunus山地とRhein川に挟まれた南向き斜面の産地。Rieslingが約4分の3を占める。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "ラインヘッセン",
       "ヴュルテンベルク",
@@ -18959,7 +19002,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次の中からドイツのワイン生産地、ラインヘッセンに接しているところを選択してください。",
-    "explanation": "ラインヘッセンはナーエに接しています。\nナーエは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Rheinhessenの西に接する多様な土壌の産地。Rieslingを中心に、MoselとRheingauの中間的地理にある。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "ザクセン",
       "ナーエ",
@@ -18973,7 +19016,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツワイン生産地域の中からÜrzig村が属する産地を選択してください。",
-    "explanation": "Ürzig村はモーゼルに属します。\nモーゼルは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Mosel、Saar、Ruwer川の急斜面産地。Rieslingが首位で、BernkastelやÜrzig、Wehlenを含む。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "フランケン",
       "モーゼル",
@@ -18987,7 +19030,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の中からドイツのVDPプレディカーツヴァイン醸造所連盟が定める4段階の品質基準の中で、醸造所名を名乗る日常消費用のワインに相当するクラスを選択してください。",
-    "explanation": "醸造所名を名乗る日常消費用のワインはGutsweinです。\nGutsweinは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "VDPの基礎となる醸造所名ワインで第4階級。上位にOrtswein、Erste Lage、Große Lageがある。\nVDP階層はGroße Lage→Erste Lage→Ortswein→Gutswein。法定区分ではなく生産者団体の自主基準である。",
     "choices": [
       "Gutswein",
       "Erste Lage",
@@ -19001,7 +19044,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "A",
     "question": "次の説明に最も合致するドイツ産ロゼワインを選択してください。「単一の赤ワイン用品種から造られるロゼワイン。クヴァリテーツヴァイン以上の品質であることが求められる。5%まで同一品種の赤ワインまたはマストを添加することができる。」",
-    "explanation": "説明はWeißherbstに合致します。\nWeißherbstは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "単一黒品種から造るQualitätswein以上のロゼ。同一品種の赤ワイン／果汁を5%まで加えられる。\nWeißherbstは単一黒品種、Rotlingは白黒混醸、SchillerweinとBadisch Rotgoldは地域限定型として比較する。",
     "choices": [
       "Weißherbst",
       "Pét-Nat",
@@ -19014,8 +19057,8 @@ window.WINE_QUESTIONS = [
     "id": "germany-regions-055",
     "category": "ドイツ/産地",
     "importance": "C",
-    "question": "下記の画像はドイツのワイン産地の地図です。地図上でSachsenに相当する番号を選択してください。",
-    "explanation": "Sachsenは地図上の13番です。\n13番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "question": "下記の画像はドイツのワイン産地の地図です。地図上でSachsen（ザクセン）に相当する番号を選択してください。",
+    "explanation": "所属地区：ドイツ13生産地域　主要品種：リースリング主体、南部はシュペートブルグンダーも重要\n近隣の頻出村・産地：Mosel（モーゼル）、Rheingau（ラインガウ）、Pfalz（ファルツ）、Baden（バーデン）\n見分け方：Sachsen（ザクセン）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/germany-regions-map.jpg",
       "alt": "ドイツのワイン産地の地図",
@@ -19034,7 +19077,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次の中からドイツ、モーゼル地域のKanzem村に属する畑を選択してください。",
-    "explanation": "Altenbergはモーゼル地域Kanzem村に属する畑です。\nAltenbergは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "MoselのSaar地区、Kanzem村の著名畑。急斜面のRieslingで知られる。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "Braune Kupp",
       "Uhlen",
@@ -19048,7 +19091,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのラインガウ地方の村の中で、最も東に位置するものを選択してください。",
-    "explanation": "ラインガウ地方の村の中で、Hochheimは最も東に位置します。\nHochheimは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "Rheingau東端、Main川沿いの村。英語hockの語源とも関係する歴史的産地。\n村名は河川に沿った位置関係で覚える。Mosel中流とRheingauの東西順序は特に頻出。",
     "choices": [
       "Hochheim",
       "Kiedrich",
@@ -19062,7 +19105,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのワイン生産地の中から、最も南に位置しているところを選択してください。",
-    "explanation": "この選択肢の中で最も南に位置するのはプファルツです。\nプファルツは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "ドイツ第2位の温暖な産地。Haardt山地東麓に延び、RieslingとBurgunder系が重要。\n13生産地域は河川・州・主要品種で比較する。隣接産地を地図上で結ぶと正誤問題にも強い。",
     "choices": [
       "プファルツ",
       "ナーエ",
@@ -19076,7 +19119,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "B",
     "question": "次のドイツのベライヒの中からラインヘッセン地方に属するものを選択してください。",
-    "explanation": "Niersteinはラインヘッセン地方のベライヒです。\nNiersteinは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "RheinhessenのBereich。Roter Hangの赤色粘板岩とRieslingで著名。\nBereichはAnbaugebiet内の中地区。村Gemeindeや単一畑Einzellageより広い地理単位である。",
     "choices": [
       "Frankens Saalestück",
       "Starkenburg",
@@ -19090,7 +19133,7 @@ window.WINE_QUESTIONS = [
     "category": "ドイツ/産地",
     "importance": "C",
     "question": "次の説明に合致するドイツの生産地域を選択してください。「ドイツで2番目に栽培面積の狭いワイン生産地域。ブドウ畑はオーデンヴァルト山地の西側斜面と北の端に散在し、南をバーデン・ヴュルテンベルク州に接している。」",
-    "explanation": "説明はヘッシッシェ・ベルクシュトラーセに合致します。\nヘッシッシェ・ベルクシュトラーセは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nドイツの産地は川と支流、斜面の向き、主要品種を一枚の地図として覚えると定着する。",
+    "explanation": "ドイツで2番目に小さい生産地域。Odenwald西斜面に散在しRieslingが中心。\n村と畑の対応が頻出。Rauenthal＝Baiken／Nonnenberg、Kiedrich＝Gräfenbergを混同しない。",
     "choices": [
       "ヘッシッシェ・ベルクシュトラーセ",
       "ナーエ",
@@ -19104,7 +19147,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で3番の州名をカタカナで入力してください。",
-    "explanation": "3番はウィーン。国の東端寄り、ニーダーエステライヒに囲まれた小さな州として捉える。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ウィーンの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19147,8 +19190,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-004",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でRosalia DACに相当する番号を選択してください。",
-    "explanation": "12番はRosalia DAC。Leithabergの西、Mittelburgenlandの北に位置する。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でRosalia DAC（ロザリアDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Rosalia DAC（ロザリアDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19181,7 +19224,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で3番の産地名をカタカナで入力してください。",
-    "explanation": "3番はKamptal。Wachau、Kremstalの東に続き、Kamp川がドナウへ合流する。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：カンプタールの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19252,8 +19295,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-011",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DACに相当する番号を選択してください。",
-    "explanation": "Kamptal DACは3番。西からWachau、Kremstal、Kamptalの順で並べる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DAC（カンプタールDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Kamptal DAC（カンプタールDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19272,7 +19315,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で11番の産地名をカタカナで入力してください。",
-    "explanation": "11番はRuster Ausbruch DAC。ノイジードラー湖西岸、Rust市の貴腐甘口産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ルスター・アウスブルッフの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19317,8 +19360,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-015",
     "category": "オーストリア",
     "importance": "C",
-    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でNiederösterreich州に相当する番号を選択してください。",
-    "explanation": "1番はニーダーエステライヒ州。ウィーンを囲む北東部の最大産地。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でNiederösterreich州（ニーダーエステライヒ州）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Niederösterreich州（ニーダーエステライヒ州）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19435,7 +19478,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で13番の産地名をカタカナで入力してください。",
-    "explanation": "13番はMittelburgenland。Rosaliaの南、Eisenbergの北にある赤ワイン産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ミッテルブルゲンラントの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19451,7 +19494,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で2番の州名をカタカナで入力してください。",
-    "explanation": "2番はブルゲンラント州。東端でハンガリーと接し、ノイジードラー湖を抱える。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ブルゲンラントの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19523,7 +19566,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリアのワイン産地の地図です。地図上で1番の州名をカタカナで入力してください。",
-    "explanation": "1番はニーダーエステライヒ州。2番Burgenland、3番Wien、4番Steiermarkと対比する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ニーダーエステライヒの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19594,8 +19637,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-036",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でMittelburgenland DACに相当する番号を選択してください。",
-    "explanation": "Mittelburgenland DACは13番。ブルゲンラントを北から湖周辺、Rosalia、Mittelburgenland、Eisenbergと追う。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でMittelburgenland DAC（ミッテルブルゲンラントDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Mittelburgenland DAC（ミッテルブルゲンラントDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19613,8 +19656,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-038",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DACに相当する番号を選択してください。",
-    "explanation": "Kamptal DACは3番。Kremsの東、Weinviertelの南西に位置する。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKamptal DAC（カンプタールDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Kamptal DAC（カンプタールDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19702,8 +19745,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-044",
     "category": "オーストリア",
     "importance": "C",
-    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWachauに相当する番号を選択してください。",
-    "explanation": "Wachauは1番。ドナウ沿いで最も西にあり、東へKremstal、Kamptalと続く。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWachau（ヴァッハウ）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Wachau（ヴァッハウ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19721,8 +19764,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-045",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でLeithaberg DACに相当する番号を選択してください。",
-    "explanation": "Leithaberg DACは10番。ノイジードラー湖西岸を南北に延び、Rustと隣接する。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上でLeithaberg DAC（ライタベルクDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Leithaberg DAC（ライタベルクDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19740,8 +19783,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-046",
     "category": "オーストリア",
     "importance": "C",
-    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でSteiermark州に相当する番号を選択してください。",
-    "explanation": "4番はSteiermark州。国の南東部でスロヴェニアに接する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でSteiermark州（シュタイヤーマルク州）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Steiermark州（シュタイヤーマルク州）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -19843,8 +19886,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-054",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWeinviertel DACに相当する番号を選択してください。",
-    "explanation": "Weinviertel DACは6番。ニーダーエステライヒ北東部を占める最大の限定的生産地域。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でWeinviertel DAC（ヴァインフィアテルDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Weinviertel DAC（ヴァインフィアテルDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19905,7 +19948,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で6番の産地名をカタカナで入力してください。",
-    "explanation": "6番はWeinviertel。Wachauなどドナウ沿いの産地より北東に大きく広がる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ヴァインフィアテルの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -19951,7 +19994,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で10番の産地名をカタカナで入力してください。",
-    "explanation": "10番はLeithaberg。ノイジードラー湖西岸の石灰岩・結晶片岩の産地。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ライタベルクの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -19966,8 +20009,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-062",
     "category": "オーストリア",
     "importance": "C",
-    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でWien州に相当する番号を選択してください。",
-    "explanation": "3番はWien州。ニーダーエステライヒ州内に見える小区画として識別する。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でWien州（ウィーン州）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Wien州（ウィーン州）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -20014,7 +20057,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ブルゲンラント州のワイン産地の地図です。地図上で9番の産地名をカタカナで入力してください。",
-    "explanation": "9番はNeusiedlersee。湖東岸に広がり、Zweigeltと貴腐甘口が重要。\n湖の東がNeusiedlersee、西がLeithabergとRust、さらに南へRosalia→Mittelburgenland→Eisenberg。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ノイジードラーゼーの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-burgenland-map.jpg",
       "alt": "オーストリア、ブルゲンラント州のワイン産地の地図",
@@ -20043,8 +20086,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-067",
     "category": "オーストリア",
     "importance": "C",
-    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でBurgenland州に相当する番号を選択してください。",
-    "explanation": "2番はBurgenland州。1番Niederösterreichの南東、ハンガリー国境沿い。\n4州は北東Niederösterreich、東Burgenland、南Steiermark、Niederösterreich内のWienで整理する。",
+    "question": "下記の画像はオーストリアのワイン産地の地図です。地図上でBurgenland州（ブルゲンラント州）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Burgenland州（ブルゲンラント州）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-regions-map.jpg",
       "alt": "オーストリアのワイン産地の地図",
@@ -20090,8 +20133,8 @@ window.WINE_QUESTIONS = [
     "id": "austria-070",
     "category": "オーストリア",
     "importance": "B",
-    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKremstal DACに相当する番号を選択してください。",
-    "explanation": "Kremstal DACは2番。西のWachauと東のKamptalに挟まれる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上でKremstal DAC（クレムスタールDAC）に相当する番号を選択してください。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：Kremstal DAC（クレムスタールDAC）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20110,7 +20153,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で2番の産地名をカタカナで入力してください。",
-    "explanation": "2番はKremstal。Krems市を中心にドナウ両岸へ広がる。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：クレムスタールの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20266,7 +20309,7 @@ window.WINE_QUESTIONS = [
     "category": "オーストリア",
     "importance": "C",
     "question": "下記の画像はオーストリア、ニーダーエステライヒ州のワイン産地の地図です。地図上で1番の産地名をカタカナで入力してください。",
-    "explanation": "1番はWachau。ニーダーエステライヒのドナウ系産地では最西端。\nドナウ沿いは西からWachau→Kremstal→Kamptal、北東の広域がWeinviertel。",
+    "explanation": "所属地区：オーストリア東部4州・DAC産地　主要品種：グリューナー・ヴェルトリーナー、リースリング、ブラウフレンキッシュ\n近隣の頻出村・産地：Wachau（ヴァッハウ）、Kremstal（クレムスタール）、Kamptal（カンプタール）、Burgenland（ブルゲンラント）\n見分け方：ヴァッハウの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/austria-niederosterreich-map.jpg",
       "alt": "オーストリア、ニーダーエステライヒ州のワイン産地の地図",
@@ -20774,7 +20817,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガル、ポルトとドウロのワイン産地の地図です。地図上で1番のエリア名をカタカナで入力してください。",
-    "explanation": "地図上の1番はBaixo Corgo、カタカナではバイショ・コルゴです。\nバイショ・コルゴは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：バイショ・コルゴの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-douro-map.jpg",
       "alt": "ポルトガル、ポルトとドウロのワイン産地の地図",
@@ -20831,8 +20874,8 @@ window.WINE_QUESTIONS = [
     "id": "portugal-007",
     "category": "ポルトガル",
     "importance": "C",
-    "question": "下記の画像はポルトガルのワイン産地の地図です。地図上でTerras de Cisterに相当する番号を選択してください。",
-    "explanation": "Terras de Cisterは地図上の4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "question": "下記の画像はポルトガルのワイン産地の地図です。地図上でTerras de Cister（テラス・デ・システル）に相当する番号を選択してください。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：Terras de Cister（テラス・デ・システル）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-regions-map.jpg",
       "alt": "ポルトガルのワイン産地の地図",
@@ -20921,7 +20964,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガルのワイン産地の地図です。地図上で1番のワイン産地名をカタカナで入力してください。",
-    "explanation": "地図上の1番はMinho、カタカナではミーニョです。\nミーニョは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：ミーニョの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-regions-map.jpg",
       "alt": "ポルトガルのワイン産地の地図",
@@ -20951,7 +20994,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガル、ポルトとドウロのワイン産地の地図です。地図上で2番のエリア名をカタカナで入力してください。",
-    "explanation": "地図上の2番はCima Corgo、カタカナではシマ・コルゴです。\nシマ・コルゴは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：シマ・コルゴの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-douro-map.jpg",
       "alt": "ポルトガル、ポルトとドウロのワイン産地の地図",
@@ -21092,8 +21135,8 @@ window.WINE_QUESTIONS = [
     "id": "portugal-026",
     "category": "ポルトガル",
     "importance": "C",
-    "question": "下記の画像はポルトガルのワイン産地の地図です。地図上でTransmontanoに相当する番号を選択してください。",
-    "explanation": "Transmontanoは地図上の2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "question": "下記の画像はポルトガルのワイン産地の地図です。地図上でTransmontano（トランスモンターノ）に相当する番号を選択してください。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：Transmontano（トランスモンターノ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-regions-map.jpg",
       "alt": "ポルトガルのワイン産地の地図",
@@ -21154,7 +21197,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガル、ポルトとドウロ地区のワイン産地の地図です。次の中からポートワイン造りにおいて最も品質の高いブドウが産出されるところを選択してください。",
-    "explanation": "ポートワイン造りで最も品質の高いブドウが産出される中心的なエリアは、地図上の2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：正解地点の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-douro-map.jpg",
       "alt": "ポルトガル、ポルトとドウロのワイン産地の地図",
@@ -21243,7 +21286,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガル、ポルトとドウロのワイン産地の地図です。地図上で3番のエリア名をカタカナで入力してください。",
-    "explanation": "地図上の3番はDouro Superior、カタカナではドウロ・スーペリオールです。\nドウロ・スーペリオールは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：ドウロ・スーペリオールの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-douro-map.jpg",
       "alt": "ポルトガル、ポルトとドウロのワイン産地の地図",
@@ -21287,7 +21330,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガルのワイン産地の地図です。地図上で5番のワイン産地名をカタカナで入力してください。",
-    "explanation": "地図上の5番はTerras do Dão、カタカナではテラス・ド・ダンです。\nテラス・ド・ダンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nポルトガルは多数の土着品種を混植・ブレンドする伝統があり、酒精強化産地との区別も頻出する。",
+    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：テラス・ド・ダンの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/portugal-regions-map.jpg",
       "alt": "ポルトガルのワイン産地の地図",
@@ -21457,7 +21500,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上で5番の産地名をカタカナで入力してください。",
-    "explanation": "5番はGalicia。北西端で大西洋に面し、東隣のAsturias、南のPortugalとの位置で覚える。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：ガリシアの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -21512,8 +21555,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-013",
     "category": "スペイン",
     "importance": "B",
-    "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Altaに相当する記号を選択してください。",
-    "explanation": "Rioja AltaはA。西からAlta、中央北岸にAlavesa、東にOrientalと並ぶ。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Alta（リオハ・アルタ）に相当する記号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：Rioja Alta（リオハ・アルタ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -21756,7 +21799,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でCのゾーン名をカタカナで入力してください。",
-    "explanation": "CはRioja Oriental。東部でMediterraneanの影響が強く、温暖乾燥でGarnachaが多い。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：リオハ・オリエンタルの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -21771,8 +21814,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-034",
     "category": "スペイン",
     "importance": "C",
-    "question": "下記の画像はスペインのワイン産地の地図です。地図上でCataluñaに相当する番号を選択してください。",
-    "explanation": "6番はCataluña。北東端のMediterranean沿岸で、Barcelona、Penedès、Prioratを含む。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "question": "下記の画像はスペインのワイン産地の地図です。地図上でCataluña（カタルーニャ）に相当する番号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：Cataluña（カタルーニャ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22085,7 +22128,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でAのゾーン名をカタカナで入力してください。",
-    "explanation": "AはRioja Alta。Ebro川上流側の西部で、比較的冷涼なため酸を保つTempranilloに向く。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：リオハ・アルタの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22142,8 +22185,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-063",
     "category": "スペイン",
     "importance": "C",
-    "question": "下記の画像はスペインのワイン産地の地図です。地図上でValenciaに相当する番号を選択してください。",
-    "explanation": "7番はValencia。東部Mediterranean沿岸で、Cataluñaの南、Murciaの北に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "question": "下記の画像はスペインのワイン産地の地図です。地図上でValencia（バレンシア）に相当する番号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：Valencia（バレンシア）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22175,8 +22218,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-065",
     "category": "スペイン",
     "importance": "B",
-    "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Alavesaに相当する記号を選択してください。",
-    "explanation": "Rioja AlavesaはBで示す左右両方。Ebro川左岸の細長い区域としてAltaとOrientalの北側に接する。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でRioja Alavesa（リオハ・アラベサ）に相当する記号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：Rioja Alavesa（リオハ・アラベサ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22278,8 +22321,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-072",
     "category": "スペイン",
     "importance": "C",
-    "question": "下記の画像はスペインのワイン産地の地図です。地図上でPaís Vascoに相当する番号を選択してください。",
-    "explanation": "4番はPaís Vasco。北岸東部、France国境側で、Rioja Alavesaの北に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "question": "下記の画像はスペインのワイン産地の地図です。地図上でPaís Vasco（パイス・バスコ）に相当する番号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：País Vasco（パイス・バスコ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22382,7 +22425,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペイン、リオハのワイン産地の地図です。地図上でBのゾーン名をカタカナで入力してください。",
-    "explanation": "BはRioja Alavesa。Ebro川左岸、Cantabria山脈南麓の南向き斜面に広がる。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：リオハ・アラベサの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-rioja-map.jpg",
       "alt": "スペイン、リオハのワイン産地の地図",
@@ -22425,8 +22468,8 @@ window.WINE_QUESTIONS = [
     "id": "spain-082",
     "category": "スペイン",
     "importance": "C",
-    "question": "下記の画像はスペインのワイン産地の地図です。地図上でAragónに相当する番号を選択してください。",
-    "explanation": "3番はAragón。北東内陸でCataluñaの西、Navarra・Riojaの東に位置する。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "question": "下記の画像はスペインのワイン産地の地図です。地図上でAragón（アラゴン）に相当する番号を選択してください。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：Aragón（アラゴン）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22599,7 +22642,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "下記の画像はスペインのワイン産地の地図です。地図上で11番の産地名をカタカナで入力してください。",
-    "explanation": "11番はCastilla-La Mancha。中央南部の広大なMesetaで、国内最大の栽培地域。\n地図は北西Galicia、北部Rioja、北東Cataluña、中央Meseta、南Andalucíaを骨格にする。",
+    "explanation": "所属地区：スペイン17自治州・主要DO　主要品種：テンプラニーリョ、ガルナッチャ、アルバリーニョ\n近隣の頻出村・産地：Rioja（リオハ）、Ribera del Duero（リベラ・デル・ドゥエロ）、Cataluña（カタルーニャ）\n見分け方：カスティーリャ・ラ・マンチャの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/spain-wine-regions-map.jpg",
       "alt": "スペインのワイン産地の地図",
@@ -22894,8 +22937,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-008",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSan Diegoに相当する番号を選択してください。",
-    "explanation": "37番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nCalifornia全図ではNorth Coastを起点に、Central Coastを経て最南端San Diegoまで海岸線を下る。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSan Diego（サンディエゴ）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：San Diego（サンディエゴ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -22969,8 +23012,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-013",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でChamplain Valley of New Yorkに相当する番号を選択してください。",
-    "explanation": "11番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でChamplain Valley of New York（シャンプレーン・ヴァレー・オブ・ニューヨーク）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Champlain Valley of New York（シャンプレーン・ヴァレー・オブ・ニューヨーク）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -23017,7 +23060,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で2番のカウンティ名をカタカナで入力してください。",
-    "explanation": "ソノマはNapaの西側に接し、海岸から内陸まで多様な気候を持つNorth Coastのカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：ソノマの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23129,7 +23172,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "サザン・カリフォルニアはLos AngelesからSan Diego方面へ広がる州南部のリージョン。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：サザン・カリフォルニアの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23184,8 +23227,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-028",
     "category": "アメリカ",
     "importance": "B",
-    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCarneros/Los Carnerosに相当する番号を選択してください。",
-    "explanation": "13番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCarneros/Los Carneros（カーネロス／ロス・カーネロス）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Carneros/Los Carneros（カーネロス／ロス・カーネロス）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -23231,8 +23274,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-031",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でHudson River Regionに相当する番号を選択してください。",
-    "explanation": "4番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でHudson River Region（ハドソン・リヴァー・リージョン）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Hudson River Region（ハドソン・リヴァー・リージョン）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -23391,7 +23434,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でAのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "ファー・ノース・カリフォルニアは州最北部のリージョンで、North Coastよりさらに北に位置する。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：ファー・ノース・カリフォルニアの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23420,8 +23463,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-044",
     "category": "アメリカ",
     "importance": "A",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でNorth Coastに相当する記号を選択してください。",
-    "explanation": "B。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でNorth Coast（ノース・コースト）に相当する記号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：North Coast（ノース・コースト）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23453,8 +23496,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-046",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFar North Californiaに相当する記号を選択してください。",
-    "explanation": "A。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でFar North California（ファー・ノース・カリフォルニア）に相当する記号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Far North California（ファー・ノース・カリフォルニア）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23487,7 +23530,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上で1番のA.V.A名をカタカナで入力してください。",
-    "explanation": "ロング・アイランドはマンハッタン東方の海洋性AVAで、海に囲まれ秋が長い。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：ロング・アイランドの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -23656,8 +23699,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-060",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSierra Foothillsに相当する記号を選択してください。",
-    "explanation": "D。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSierra Foothills（シエラ・フットヒルズ）に相当する記号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Sierra Foothills（シエラ・フットヒルズ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23773,8 +23816,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-068",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でInland Valleysに相当する記号を選択してください。",
-    "explanation": "E。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でInland Valleys（インランド・ヴァレーズ）に相当する記号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Inland Valleys（インランド・ヴァレーズ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23806,8 +23849,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-070",
     "category": "アメリカ",
     "importance": "B",
-    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCalistogaに相当する番号を選択してください。",
-    "explanation": "3番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でCalistoga（カリストガ）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Calistoga（カリストガ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -23854,7 +23897,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でDのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "シエラ・フットヒルズはシエラネヴァダ山脈西麓の内陸リージョンで、ゴールドラッシュと古樹ジンファンデルで知られる。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：シエラ・フットヒルズの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -23939,8 +23982,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-079",
     "category": "アメリカ",
     "importance": "B",
-    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でHowell Mountainに相当する番号を選択してください。",
-    "explanation": "2番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でHowell Mountain（ハウエル・マウンテン）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Howell Mountain（ハウエル・マウンテン）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24000,8 +24043,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-083",
     "category": "アメリカ",
     "importance": "A",
-    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でOakvilleに相当する番号を選択してください。",
-    "explanation": "8番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nナパ谷床は北からCalistoga→St. Helena→Rutherford→Oakville→Yountville、最南部がCarneros。",
+    "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上でOakville（オークヴィル）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Oakville（オークヴィル）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24076,7 +24119,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で3番のA.V.A名をカタカナで入力してください。",
-    "explanation": "カリストガはNapa Valley最北部のAVA。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：カリストガの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24134,8 +24177,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-092",
     "category": "アメリカ",
     "importance": "B",
-    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でLong Islandに相当する番号を選択してください。",
-    "explanation": "1番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nニューヨーク地図は南東Long Island、Hudson川沿い、州西部Finger Lakes、最北部Champlainの順で置く。",
+    "question": "下記の画像はアメリカ、ニューヨーク州のワイン産地の地図です。地図上でLong Island（ロング・アイランド）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Long Island（ロング・アイランド）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-new-york-map.jpg",
       "alt": "アメリカ、ニューヨーク州のワイン産地の地図",
@@ -24181,8 +24224,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-095",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSanta Cruzに相当する番号を選択してください。",
-    "explanation": "12番。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nCalifornia全図ではNorth Coastを起点に、Central Coastを経て最南端San Diegoまで海岸線を下る。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSanta Cruz（サンタ・クルーズ）に相当する番号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Santa Cruz（サンタ・クルーズ）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24229,7 +24272,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で1番のカウンティ名をカタカナで入力してください。",
-    "explanation": "メンドシーノはSonomaの北に位置するNorth Coastのカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：メンドシーノの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24245,8 +24288,8 @@ window.WINE_QUESTIONS = [
     "id": "usa-099",
     "category": "アメリカ",
     "importance": "C",
-    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSouthern Californiaに相当する記号を選択してください。",
-    "explanation": "F。地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。\nカリフォルニア広域区分はA Far North、B North Coast、D Sierra Foothills、E Inland Valleys、F Southern California。",
+    "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でSouthern California（サザン・カリフォルニア）に相当する記号を選択してください。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：Southern California（サザン・カリフォルニア）の位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24363,7 +24406,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で12番のカウンティ名をカタカナで入力してください。",
-    "explanation": "サンタ・クルーズはSan Francisco湾の南、Central Coast北部に位置するカウンティ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：サンタ・クルーズの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24435,7 +24478,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上でBのワイン・リージョン名をカタカナで入力してください。",
-    "explanation": "ノース・コーストはMendocino・Sonoma・NapaなどSan Francisco湾北側の主要産地群。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：ノース・コーストの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -24507,7 +24550,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "B",
     "question": "下記の画像はアメリカ、ナパ・ヴァレーのワイン産地の地図です。地図上で8番のA.V.A名をカタカナで入力してください。",
-    "explanation": "オークヴィルはNapa Valley中央部の谷床AVAで、カベルネ・ソーヴィニョンの銘醸地。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：オークヴィルの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-napa-map.jpg",
       "alt": "アメリカ、ナパ・ヴァレーのワイン産地の地図",
@@ -24537,7 +24580,7 @@ window.WINE_QUESTIONS = [
     "category": "アメリカ",
     "importance": "C",
     "question": "下記の画像はアメリカ、カリフォルニア州のワイン産地の地図です。地図上で3番のカウンティ名をカタカナで入力してください。",
-    "explanation": "ナパはNorth Coastを代表するカウンティで、Napa Valley AVAを中心に多数のサブAVAを持つ。\n地図では海岸・San Francisco湾・山脈を基準に、北から南、谷床から山地へ順にたどる。",
+    "explanation": "所属地区：アメリカの州／AVA　主要品種：カベルネ・ソーヴィニョン、シャルドネ、ピノ・ノワール\n近隣の頻出村・産地：Napa Valley（ナパ・ヴァレー）、Sonoma County（ソノマ郡）、North Coast（ノース・コースト）\n見分け方：ナパの位置を、周辺産地との並びで覚える。",
     "image": {
       "src": "assets/usa-california-map.jpg",
       "alt": "アメリカ、カリフォルニア州のワイン産地の地図",
@@ -25317,7 +25360,7 @@ window.WINE_QUESTIONS = [
       "38万ヘクタール"
     ],
     "answerIndex": 0,
-    "explanation": "チリの2023年のブドウ栽培面積に最も近いものは12万ヘクタールです。\n12万ヘクタールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "2023年の栽培面積は約12万ha。南北約4,300kmの細長い国土に畑が分散するが、面積規模は50万ha級の大産国ではない。\n主要品種はCabernet Sauvignonが首位。統計問題では年次と、ワイン用ブドウか全ブドウかの母集団も確認する。"
   },
   {
     "id": "chile-002",
@@ -25331,7 +25374,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 1,
-    "explanation": "1852年に輸入され植え付けられた主な品種はカベルネ・ソーヴィニョンです。\nカベルネ・ソーヴィニョンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "1852年、Silvestre OchagavíaがフランスからCabernet Sauvignonなどボルドー系品種を導入し、Maipoに植えた。\nPaísは16世紀の宣教師が持ち込んだ古い品種。Torrontésはアルゼンチン、Pinot Noirは冷涼沿岸部で重要だが、この導入史の主役ではない。"
   },
   {
     "id": "chile-003",
@@ -25345,7 +25388,7 @@ window.WINE_QUESTIONS = [
       "DO Elqui Valley, DO Maipo Valley, DO Curicó Valley, DO Maule Valley"
     ],
     "answerIndex": 3,
-    "explanation": "DO Elqui Valley, DO Maipo Valley, DO Curicó Valley, DO Maule Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "北からElqui、首都近郊のMaipo、さらにCuricó、Mauleと南下する。地図はCoquimbo→Aconcagua→Central Valley→South→Australが骨格。\nElquiだけが乾燥した北部。Maipo・Curicó・MauleはCentral Valley内で、Mauleがこの4産地中最南。"
   },
   {
     "id": "chile-004",
@@ -25359,7 +25402,7 @@ window.WINE_QUESTIONS = [
       "Entre Cordilleras"
     ],
     "answerIndex": 1,
-    "explanation": "冷たい海と涼しい海風の影響を受ける冷涼な生産エリアはCostaです。\nCostaは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Costaは寒冷なHumboldt海流と海風の影響を受け、Sauvignon Blanc、Chardonnay、Pinot Noirが適する。\nAndesは高地と大きな昼夜差、Entre Cordillerasは肥沃な中央平地。Australは南端リージョンで、東西区分の名称ではない。"
   },
   {
     "id": "chile-005",
@@ -25373,13 +25416,13 @@ window.WINE_QUESTIONS = [
       "ロ・アバルカ"
     ],
     "answerIndex": 1,
-    "explanation": "DOコキンボに位置し、チリで最も標高の高いブドウ畑はアルコワスです。\nアルコワスは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "AlcohuazはCoquimboのElqui Valley上流、標高約2,200mに達する高地畑。強い日照と大きな昼夜差が特徴となる。\nCartagenaとLo Abarcaは海側の冷涼地、Chiloéははるか南の島。高標高を示すのはAndes側のAlcohuaz。"
   },
   {
     "id": "chile-006",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でMaipo Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でMaipo Valley（マイポ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-regions-map.jpg",
       "alt": "チリのワイン産地地図",
@@ -25392,7 +25435,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上でMaipo Valleyに相当する番号は8番です。\n8番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Maipo Valley（マイポ・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-007",
@@ -25406,7 +25449,7 @@ window.WINE_QUESTIONS = [
       "ピンガ"
     ],
     "answerIndex": 1,
-    "explanation": "チリで伝統的に造られているブドウ由来の蒸留酒はピスコです。\nピスコは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "PiscoはMuscat系ブドウを発酵・蒸留するチリ北部の伝統酒。CoquimboとAtacamaが生産の中心となる。\nTequilaはメキシコのアガベ蒸留酒、Martiniqueは産地名、PingaはブラジルのCachaçaを指す俗称。原料と国で区別する。"
   },
   {
     "id": "chile-008",
@@ -25420,7 +25463,7 @@ window.WINE_QUESTIONS = [
       "約3,200km"
     ],
     "answerIndex": 0,
-    "explanation": "チリの国土は南北に約4,300kmあります。\n約4,300kmは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "国土は南北約4,300kmに延び、北の砂漠から南の冷涼多雨地域まで大きな気候差を生む。栽培緯度も南緯27〜46度と広い。\n東西幅は比較的狭い。数字は「南北4,300km、栽培緯度27〜46度」を地図と一緒に記憶する。"
   },
   {
     "id": "chile-009",
@@ -25434,7 +25477,7 @@ window.WINE_QUESTIONS = [
       "ポルトガルのカトリック伝道者"
     ],
     "answerIndex": 2,
-    "explanation": "16世紀半ばにチリでブドウを植えてワイン造りを始めたのはスペインのカトリック伝道者です。\nスペインのカトリック伝道者は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "16世紀半ば、スペインのカトリック宣教師がミサ用ワインのためPaísを植え、チリのワイン史が始まった。\nフランス系品種の本格導入は1852年で時代が別。ポルトガル宣教師はブラジル史と混同しやすい。"
   },
   {
     "id": "chile-010",
@@ -25448,7 +25491,7 @@ window.WINE_QUESTIONS = [
       "温暖湿潤気候"
     ],
     "answerIndex": 2,
-    "explanation": "DOマイポ・ヴァレーは地中海性気候です。\n地中海性気候は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Maipoは夏乾燥・冬雨の地中海性気候で、温暖な日中とAndesからの冷気がCabernet Sauvignonの成熟を支える。\n砂漠気候はAtacama、ステップ気候はAconcaguaの設問で頻出。温暖湿潤ではなく、乾燥による病害の少なさが特徴。"
   },
   {
     "id": "chile-011",
@@ -25461,7 +25504,7 @@ window.WINE_QUESTIONS = [
       "caption": "チリ ワイン産地"
     },
     "answerText": "マウレ・ヴァレー",
-    "explanation": "地図上の12番はMaule Valley、カタカナではマウレ・ヴァレーです。\nマウレ・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：マウレ・ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-012",
@@ -25475,7 +25518,7 @@ window.WINE_QUESTIONS = [
       "カルメネール"
     ],
     "answerIndex": 2,
-    "explanation": "ピスコは主にモスカテルから造られます。\nモスカテルは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Piscoの主要原料は芳香性のMoscatel系品種。蒸留後にもブドウ由来の華やかな香りを残しやすい。\nPaís、Carménère、Malbecはいずれも黒品種で主にワイン用。Piscoは北部産地とMuscatを結び付ける。"
   },
   {
     "id": "chile-013",
@@ -25489,7 +25532,7 @@ window.WINE_QUESTIONS = [
       "75%"
     ],
     "answerIndex": 3,
-    "explanation": "チリの原産地呼称ワインで品種名を表示する場合、該当するブドウの最低使用比率は75%です。\n75%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "国内向けDOワインでは、品種名表示に該当品種75%以上が必要。産地名と収穫年も同じ75%基準である。\n輸出向け表示は国際基準に合わせ85%以上。試験では「国内DO 75、輸出85」の対比が狙われる。"
   },
   {
     "id": "chile-014",
@@ -25503,7 +25546,7 @@ window.WINE_QUESTIONS = [
       "DO Elqui Valley"
     ],
     "answerIndex": 2,
-    "explanation": "DO Aconcaguaに含まれるサブリージョンはDO Aconcagua Valleyです。\nDO Aconcagua Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "DO AconcaguaのサブリージョンにはAconcagua Valley、Casablanca Valley、San Antonio Valleyがある。\nElqui・Limarí・Huascoは北のDO Coquimbo。名称が同じAconcagua Valleyは上位DO Aconcaguaの内側と捉える。"
   },
   {
     "id": "chile-015",
@@ -25517,7 +25560,7 @@ window.WINE_QUESTIONS = [
       "17世紀後半"
     ],
     "answerIndex": 0,
-    "explanation": "チリでカトリック伝道者がブドウを植え、ワイン造りが始まったのは16世紀半ばです。\n16世紀半ばは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "チリのワイン造りは16世紀半ば、スペイン人宣教師がミサ用のPaísを植えたことに始まる。\n1852年はフランス系品種の導入年。起源は「16世紀・País」、近代化は「1852年・Ochagavía」と分ける。"
   },
   {
     "id": "chile-016",
@@ -25531,7 +25574,7 @@ window.WINE_QUESTIONS = [
       "DOサン・アントニオ・ヴァレー"
     ],
     "answerIndex": 1,
-    "explanation": "この特徴に合致するサブリージョンはDOマイポ・ヴァレーです。\nDOマイポ・ヴァレーは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "MaipoはCentral Valley北部の温暖な地中海性産地で、Cabernet Sauvignonが面積の過半を占める「チリのボルドー」。\nCasablancaとSan Antonioは海側の冷涼産地。Curicóはより南で多品種を栽培し、Cabernet過半という決め手に欠ける。"
   },
   {
     "id": "chile-017",
@@ -25545,7 +25588,7 @@ window.WINE_QUESTIONS = [
       "ブドウ栽培"
     ],
     "answerIndex": 2,
-    "explanation": "サステイナビリティ・コードのレッドエリアはワイン製造プロセスです。\nワイン製造プロセスは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "サステイナビリティ・コードのRed Areaは醸造所でのワイン製造工程を評価する。水・エネルギー、廃棄物などが対象。\nGreenはブドウ畑、Orangeは社会、Purpleはワインツーリズム。色と現場を対応させて覚える。"
   },
   {
     "id": "chile-018",
@@ -25559,7 +25602,7 @@ window.WINE_QUESTIONS = [
       "チリのピノ・ノワールは、味わいは軽快でも色は濃くアロマに強さがある。"
     ],
     "answerIndex": 3,
-    "explanation": "正しい記述は、チリのピノ・ノワールは味わいは軽快でも色は濃くアロマに強さがある、です。\nチリのピノ・ノワールは、味わいは軽快でも色は濃くアロマに強さがある。は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "冷涼な沿岸部のPinot Noirは軽快な味わいでも色と香りに強さが出やすい。Humboldt海流の影響が成熟を緩やかにする。\nCarménèreは晩熟で早摘みほど青香が残る。Cabernetの主産地はMaipoなど内陸で、Paísの古木は低収量化により再評価される。"
   },
   {
     "id": "chile-019",
@@ -25573,13 +25616,13 @@ window.WINE_QUESTIONS = [
       "Entre Cordilleras"
     ],
     "answerIndex": 1,
-    "explanation": "アンデス山脈側の斜面を意味する呼称はAndesです。\nAndesは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Andesはアンデス山麓側の畑を示し、高標高、大きな昼夜差、崩積土・火山性土壌が鍵となる。\nCostaは太平洋側、Entre Cordillerasは海岸山脈とAndesの間。Australは南端リージョンで東西区分ではない。"
   },
   {
     "id": "chile-020",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でMaule Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でMaule Valley（マウレ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-regions-map.jpg",
       "alt": "チリのワイン産地地図",
@@ -25592,7 +25635,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上でMaule Valleyに相当する番号は12番です。\n12番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Maule Valley（マウレ・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-021",
@@ -25606,7 +25649,7 @@ window.WINE_QUESTIONS = [
       "Greffage"
     ],
     "answerIndex": 1,
-    "explanation": "成木の枝を土中に埋め、発根後に切り離して新株を得る手法はProvignageです。\nProvignageは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Provignageは親株の枝を土に伏せ、発根後に切り離す取り木。接ぎ木を使わず古い畑を補植できる。\nBouturageは挿し木、Greffageは接ぎ木。Marcottageも取り木の一般語だが、チリ教本の伝統手法名はProvignage。"
   },
   {
     "id": "chile-022",
@@ -25620,7 +25663,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 3,
-    "explanation": "輸出向けチリワインで産地名、品種名、収穫年を表示する場合の最低使用比率は85%です。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "輸出向けワインが産地・品種・収穫年を表示する場合は、該当ブドウ85%以上。国際市場の表示基準に合わせる。\nチリ国内のDO規定は75%以上。数字だけでなく「国内75、輸出85」と用途を付けて覚える。"
   },
   {
     "id": "chile-023",
@@ -25634,7 +25677,7 @@ window.WINE_QUESTIONS = [
       "チレ・チコ"
     ],
     "answerIndex": 1,
-    "explanation": "DOコルチャグア・ヴァレーで有名ワイナリーが集まる丘陵はアパルタです。\nアパルタは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "ApaltaはColchagua Valley中央部の馬蹄形丘陵で、日照と冷気のバランスから高品質赤の著名ワイナリーが集まる。\nAlcohuazはElquiの高地、Lo AbarcaとCartagenaは沿岸冷涼地、Chiloéは南部の島。地形と産地を対応させる。"
   },
   {
     "id": "chile-024",
@@ -25648,7 +25691,7 @@ window.WINE_QUESTIONS = [
       "カルメネール"
     ],
     "answerIndex": 1,
-    "explanation": "VIGNOで話題を呼んでいる品種はカリニャンです。\nカリニャンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "VIGNOはMauleの古木Carignanを核にした生産者組織の表示。乾燥農法の古い畑を高品質資源として再評価した。\nCabernetとCarménèreは主要品種だがVIGNOの対象ではない。Carignanは酸と色が強く、古木・Mauleと結ぶ。"
   },
   {
     "id": "chile-025",
@@ -25662,7 +25705,7 @@ window.WINE_QUESTIONS = [
       "2007年"
     ],
     "answerIndex": 3,
-    "explanation": "日本でチリワインの輸入増加が始まった年は2007年です。\n2007年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "2007年の日チリ経済連携協定を機に関税が段階的に下がり、日本でチリワイン輸入が増加した。\n2014年は増加開始ではない。年号単独より「2007年EPA→価格競争力」と因果で覚える。"
   },
   {
     "id": "chile-026",
@@ -25676,13 +25719,13 @@ window.WINE_QUESTIONS = [
       "DO Maule Valley"
     ],
     "answerIndex": 1,
-    "explanation": "DO Southに含まれるサブリージョンはDO Itata Valleyです。\nDO Itata Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Itata Valleyは南部DO Southのサブリージョンで、古木PaísやCinsault、非灌漑畑が注目される。\nMauleはCentral Valley、HuascoとCopiapóは北部。SouthにはItata、Bío Bío、Mallecoが並ぶ。"
   },
   {
     "id": "chile-027",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でElqui Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でElqui Valley（エルキ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-regions-map.jpg",
       "alt": "チリのワイン産地地図",
@@ -25695,7 +25738,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上でElqui Valleyに相当する番号は2番です。\n2番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Elqui Valley（エルキ・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-028",
@@ -25709,7 +25752,7 @@ window.WINE_QUESTIONS = [
       "30℃以上"
     ],
     "answerIndex": 0,
-    "explanation": "チリの海岸沿いのブドウ畑では、夏の昼夜の気温差は15〜18℃ほどです。\n15〜18℃は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "海岸沿いでも夏の昼夜差は15〜18℃。冷たいHumboldt海流と霧、海風が日中の昇温を抑え、酸を保つ。\nAndes山麓は標高の影響で20℃以上とさらに大きい。「海15〜18、山20超」で比較する。"
   },
   {
     "id": "chile-029",
@@ -25723,7 +25766,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ"
     ],
     "answerIndex": 2,
-    "explanation": "チリで栽培面積が第2位の品種はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "栽培面積2位はSauvignon Blanc。冷涼なCostaのCasablanca、San Antonio、Leydaなどで成功する代表白品種。\n1位Cabernet Sauvignon、3位País、4位Merlotという順位も一続きで押さえる。Chardonnayは主要白だが2位ではない。"
   },
   {
     "id": "chile-030",
@@ -25737,7 +25780,7 @@ window.WINE_QUESTIONS = [
       "DOアタカマ"
     ],
     "answerIndex": 0,
-    "explanation": "チリのブドウ栽培が始まり、代表的なワイン産地が集まるリージョンはDOセントラル・ヴァレーです。\nDOセントラル・ヴァレーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Central Valleyはスペイン人による栽培が始まった中心地で、Maipo、Rapel、Curicó、Mauleを含むチリ最大の核。\nAtacamaは北端、SouthとAustralは南部。歴史・生産量・主要赤産地をCentral Valleyに集約する。"
   },
   {
     "id": "chile-031",
@@ -25751,7 +25794,7 @@ window.WINE_QUESTIONS = [
       "DO Bío Bío Valley"
     ],
     "answerIndex": 1,
-    "explanation": "DO Central Valleyに含まれるサブリージョンはDO Maule Valleyです。\nDO Maule Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Maule ValleyはCentral Valleyを構成する4サブリージョンの一つ。ほかはMaipo、Rapel、Curicó。\nHuascoはCoquimbo、Bío BíoはSouth、CautínはAustral。上位リージョンごとの箱分けが有効。"
   },
   {
     "id": "chile-032",
@@ -25770,7 +25813,7 @@ window.WINE_QUESTIONS = [
       "コルチャグアバレー",
       "Colchagua Valley"
     ],
-    "explanation": "地図上の10番はColchagua Valley（コルチャグア・ヴァレー）です。\nコルチャグア・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：コルチャグア・ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-033",
@@ -25784,7 +25827,7 @@ window.WINE_QUESTIONS = [
       "間断灌漑"
     ],
     "answerIndex": 3,
-    "explanation": "チリで行われている伝統的な灌漑方法は間断灌漑です。\n間断灌漑は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "伝統的な間断灌漑はAndesの雪解け水や河川水を畝間へ周期的に流す方法。乾燥した中央部の農業を支えてきた。\nDripは点滴、Dry farmingは無灌水。名称だけでなく「畝間に流す＝間断」と動作で覚える。"
   },
   {
     "id": "chile-034",
@@ -25798,7 +25841,7 @@ window.WINE_QUESTIONS = [
       "Reserva Especial"
     ],
     "answerIndex": 2,
-    "explanation": "法定アルコール度数より1.0%以上高く、独自の香味があり樽熟成した場合はGran Reservaを表示できます。\nGran Reservaは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Gran Reservaは法定最低度数より1.0%以上高く、独自の香味を持ち、樽熟成したワインに用いる。\nReserva Privadaは+1.0%以上だが樽熟成条件なし、Reservaは+0.5%以上。度数差と樽の有無で階段化する。"
   },
   {
     "id": "chile-035",
@@ -25812,7 +25855,7 @@ window.WINE_QUESTIONS = [
       "メルロ"
     ],
     "answerIndex": 3,
-    "explanation": "チリで栽培面積が第4位の品種はメルロです。\nメルロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "栽培面積4位はMerlot。かつて畑にCarménèreが混在し、両者が長く混同されていた歴史も重要。\n順位はCabernet Sauvignon、Sauvignon Blanc、País、Merlot。Carménèreは象徴的だが上位4品種には入らない。"
   },
   {
     "id": "chile-036",
@@ -25826,7 +25869,7 @@ window.WINE_QUESTIONS = [
       "Reserva"
     ],
     "answerIndex": 2,
-    "explanation": "法定アルコール度数より1.0%以上高く、独自の香味がある場合はReserva Privadaを表示できます。\nReserva Privadaは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Reserva Privadaは法定最低度数より1.0%以上高く、独自の香味があるワイン。樽熟成は必須条件ではない。\nGran Reservaは同じ+1.0%に樽熟成が加わる。Reservaは+0.5%。「Privada 1、Gran 1+樽」で区別する。"
   },
   {
     "id": "chile-037",
@@ -25840,7 +25883,7 @@ window.WINE_QUESTIONS = [
       "DOカチャポアル・ヴァレー"
     ],
     "answerIndex": 0,
-    "explanation": "この特徴に合致するサブリージョンはDOコルチャグア・ヴァレーです。\nDOコルチャグア・ヴァレーは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Colchagua ValleyはRapel南側の温暖な赤ワイン産地。Cabernet、Merlot、Carménèreが中心で、Apalta丘陵に著名ワイナリーが集まる。\nMaipoもCabernetで有名だがApaltaはない。AconcaguaとSan AntonioはCentral Valleyの外。"
   },
   {
     "id": "chile-038",
@@ -25854,7 +25897,7 @@ window.WINE_QUESTIONS = [
       "チリからの方が35円安い"
     ],
     "answerIndex": 1,
-    "explanation": "チリからワインを輸入するときとEUから輸入するときの関税の差額はありません。\n差額はないは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "現在は日チリEPAと日EU EPAの双方で対象ワインの関税が撤廃され、CIF500円のボトルでも差額はない。\nかつてチリが先に関税優位を得た時期とは区別する。統計・関税問題は教本の基準年を必ず確認する。"
   },
   {
     "id": "chile-039",
@@ -25873,7 +25916,7 @@ window.WINE_QUESTIONS = [
       "オソルノバレー",
       "Osorno Valley"
     ],
-    "explanation": "地図上の16番はOsorno Valley（オソルノ・ヴァレー）です。\nオソルノ・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：オソルノ・ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-040",
@@ -25887,7 +25930,7 @@ window.WINE_QUESTIONS = [
       "DO Aconcagua Valley"
     ],
     "answerIndex": 2,
-    "explanation": "DO Coquimboに含まれるサブリージョンはDO Elqui Valleyです。\nDO Elqui Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Elqui ValleyはLimarí、ChoapaとともにDO Coquimboを構成する北部サブリージョン。高地畑とPiscoでも重要。\nHuascoとCopiapóはさらに北のAtacama。AconcaguaやCentral Valleyの産地と箱を分ける。"
   },
   {
     "id": "chile-041",
@@ -25901,7 +25944,7 @@ window.WINE_QUESTIONS = [
       "トロンテス"
     ],
     "answerIndex": 1,
-    "explanation": "元来ボルドーで栽培され、19世紀半ばにチリに持ち込まれた品種はカルメネールです。\nカルメネールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Carménèreは元来ボルドー系で、19世紀半ばにフランスからチリへ渡った。フィロキセラ禍後の欧州ではほぼ姿を消した。\nチリではMerlotとして残り、1994年に再同定された。MalbecやPetit Verdotもボルドー系だが、この復活物語の主役ではない。"
   },
   {
     "id": "chile-042",
@@ -25920,7 +25963,7 @@ window.WINE_QUESTIONS = [
       "マイポバレー",
       "Maipo Valley"
     ],
-    "explanation": "地図上の8番はMaipo Valley（マイポ・ヴァレー）です。\nマイポ・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：マイポ・ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-043",
@@ -25934,7 +25977,7 @@ window.WINE_QUESTIONS = [
       "ラペル・ヴァレー"
     ],
     "answerIndex": 0,
-    "explanation": "1852年、フランスから輸入した苗木が植え付けられたのはマイポ・ヴァレーです。\nマイポ・ヴァレーは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "1852年、Ochagavíaが輸入したフランス系苗木はMaipo Valleyに植えられ、近代チリワインの基礎となった。\nCasablancaの開発は20世紀後半の冷涼産地開拓。ColchaguaやMauleではなく、近代化の起点は首都近郊Maipo。"
   },
   {
     "id": "chile-044",
@@ -25948,7 +25991,7 @@ window.WINE_QUESTIONS = [
       "DO San Antonio Valley"
     ],
     "answerIndex": 3,
-    "explanation": "DO Aconcaguaに含まれるサブリージョンはDO San Antonio Valleyです。\nDO San Antonio Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "San Antonio ValleyはCasablanca、Aconcagua ValleyとともにDO Aconcaguaのサブリージョン。海に近く、Leydaを含む冷涼地。\nElqui・Limarí・Huascoは北部Coquimbo。上位DO名と地理的位置をセットにする。"
   },
   {
     "id": "chile-045",
@@ -25962,7 +26005,7 @@ window.WINE_QUESTIONS = [
       "トロンテス"
     ],
     "answerIndex": 1,
-    "explanation": "チリで長い間メルロと混同されていたボルドー由来の品種はカルメネールです。\nカルメネールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Carménèreは葉や成熟時期がMerlotと似ていたため長く混植・混同され、1994年に別品種と確認された。\n晩熟で、未熟だとメトキシピラジン由来の青い香りが出る。MalbecやPetit Verdotではない。"
   },
   {
     "id": "chile-046",
@@ -25976,7 +26019,7 @@ window.WINE_QUESTIONS = [
       "ドライ・ファーミング"
     ],
     "answerIndex": 3,
-    "explanation": "自然のままに任せて灌水をしない方法はドライ・ファーミングです。\nドライ・ファーミングは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Dry farmingは灌水せず自然降雨だけで栽培する方法。Maule、Itataなど南部のSecano Interiorに古いPaísやCinsaultが残る。\n間断灌漑は畝間へ水を流し、Dripは点滴する。無灌水なのに「灌漑方法」と問われる点がひっかけ。"
   },
   {
     "id": "chile-047",
@@ -25990,13 +26033,13 @@ window.WINE_QUESTIONS = [
       "20℃以上"
     ],
     "answerIndex": 3,
-    "explanation": "チリのアンデスの麓のブドウ畑では、夏の昼夜の気温差が20℃以上になります。\n20℃以上は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Andes山麓では夏の昼夜差が20℃以上になる。高標高の日射で成熟し、夜間の冷却で酸と香りを保つ。\n海岸沿いも15〜18℃と大きいが、Andes側の方がさらに大きい。「山20超、海15〜18」。"
   },
   {
     "id": "chile-048",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でCasablanca Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でCasablanca Valley（カサブランカ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-regions-map.jpg",
       "alt": "チリのワイン産地地図",
@@ -26009,7 +26052,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上でCasablanca Valleyに相当する番号は6番です。\n6番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Casablanca Valley（カサブランカ・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-049",
@@ -26023,7 +26066,7 @@ window.WINE_QUESTIONS = [
       "マルベック"
     ],
     "answerIndex": 2,
-    "explanation": "チリで栽培面積が最も大きい品種はカベルネ・ソーヴィニョンです。\nカベルネ・ソーヴィニョンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "栽培面積首位はCabernet Sauvignon。Maipoを中心にCentral Valleyの温暖な内陸部でチリを代表する赤を生む。\n2位Sauvignon Blanc、3位País、4位Merlot。Malbecはアルゼンチンの首位品種との混同に注意。"
   },
   {
     "id": "chile-050",
@@ -26037,7 +26080,7 @@ window.WINE_QUESTIONS = [
       "Reserva"
     ],
     "answerIndex": 3,
-    "explanation": "法定アルコール度数より0.5%以上高く、独自の香味がある場合はReservaを表示できます。\nReservaは単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Reservaは法定最低アルコール度数より0.5%以上高く、独自の香味がある場合の表示。必ずしも長期樽熟成を意味しない。\nReserva Privadaは+1.0%、Gran Reservaは+1.0%かつ樽熟成。数字と条件を段階で覚える。"
   },
   {
     "id": "chile-051",
@@ -26051,7 +26094,7 @@ window.WINE_QUESTIONS = [
       "DO Casablanca Valley"
     ],
     "answerIndex": 0,
-    "explanation": "DO Maipo ValleyはDO Central Valleyに含まれるサブリージョンです。\nDO Maipo Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Maipo ValleyはCentral Valleyのサブリージョン。Rapel、Curicó、Mauleと並び、首都周辺のCabernet産地を担う。\nCasablancaはDO Aconcagua、OsornoはAustral、Chiloéも南端。名前の有名さではなく上位区分で判定する。"
   },
   {
     "id": "chile-052",
@@ -26065,7 +26108,7 @@ window.WINE_QUESTIONS = [
       "DOサン・アントニオ・ヴァレー"
     ],
     "answerIndex": 0,
-    "explanation": "DOラペル・ヴァレーはDOカチャポアル・ヴァレーとDOコルチャグア・ヴァレーを含みます。\nDOラペル・ヴァレーは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Rapel ValleyはCachapoalとColchaguaの2サブゾーンから成る。北がCachapoal、南がColchagua。\nMaipoはRapelと同格のCentral Valley内サブリージョン。AconcaguaとSan AntonioはDO Aconcagua側。"
   },
   {
     "id": "chile-053",
@@ -26079,7 +26122,7 @@ window.WINE_QUESTIONS = [
       "トロンテス"
     ],
     "answerIndex": 0,
-    "explanation": "16世紀半ば、カトリック伝道者がワイン造りのために植えた品種はパイスです。\nパイスは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "16世紀半ばに宣教師がミサ用ワインのため植えたのはPaís。スペイン領各地へ広がったListán Prietoと同系統である。\nMalbecとTorrontésはアルゼンチン、Cerezaも同国で多い。チリの起源品種はPaís。"
   },
   {
     "id": "chile-054",
@@ -26093,7 +26136,7 @@ window.WINE_QUESTIONS = [
       "DO Curicó Valley"
     ],
     "answerIndex": 3,
-    "explanation": "DO Curicó ValleyはDO Central Valleyに含まれるサブリージョンです。\nDO Curicó Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Curicó ValleyはMaipo、Rapel、MauleとともにCentral Valleyを構成する。Rapelの南、Mauleの北に位置する。\nOsornoはAustral、Bío BíoはSouth、Aconcaguaは別リージョン。北からの並びで箱分けする。"
   },
   {
     "id": "chile-055",
@@ -26107,7 +26150,7 @@ window.WINE_QUESTIONS = [
       "DOアタカマ"
     ],
     "answerIndex": 1,
-    "explanation": "チリで最南端に位置するワインリージョンはDOアウストラルです。\nDOアウストラルは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "最南端リージョンはAustralで、Cautín、Osornoなど新しい冷涼産地を含む。南緯46度付近まで栽培が広がる。\nAtacamaは最北、Central Valleyは中央、Secano Interiorは特定の非灌漑地に対する呼称。"
   },
   {
     "id": "chile-056",
@@ -26121,7 +26164,7 @@ window.WINE_QUESTIONS = [
       "ワイン製造プロセス"
     ],
     "answerIndex": 1,
-    "explanation": "サステイナビリティ・コードのグリーンエリアはブドウ栽培に関する項目です。\nブドウ栽培は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Green Areaはブドウ畑での栽培管理を評価し、土壌・水・農薬・生物多様性などを扱う。\nRedは醸造工程、Orangeは社会、Purpleは観光。色名と対象現場を一対一で整理する。"
   },
   {
     "id": "chile-057",
@@ -26135,13 +26178,13 @@ window.WINE_QUESTIONS = [
       "カルメネールは早熟な品種なので、遅く摘むとメトキシピラジンの青い香りが出やすい。"
     ],
     "answerIndex": 0,
-    "explanation": "非灌漑地の古いパイスは、樹齢により収量が自然に落ち、品質向上が見直されています。\n放置されてきた非灌漑地のパイスは、樹齢が古くなり自然に収量が落ちて品質が向上している。は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "非灌漑地の古木Paísは樹齢とともに自然に低収量となり、凝縮度が上がるため近年再評価されている。\nPinot Noirは軽快でも色と香りが強く、Carménèreは晩熟。Cabernetの主産地はCasablancaではなくMaipoなど内陸部。"
   },
   {
     "id": "chile-058",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でAconcagua Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でAconcagua Valley（アコンカグア・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-regions-map.jpg",
       "alt": "チリのワイン産地地図",
@@ -26154,7 +26197,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上でAconcagua Valleyに相当する番号は5番です。\n5番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Aconcagua Valley（アコンカグア・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-059",
@@ -26168,7 +26211,7 @@ window.WINE_QUESTIONS = [
       "フンボルト海流"
     ],
     "answerIndex": 3,
-    "explanation": "チリのワイン産地には、南氷洋から北上するフンボルト海流が影響を与えます。\nフンボルト海流は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Humboldt海流は南氷洋からチリ沿岸を北上する寒流。霧と冷涼な海風をもたらし、Costaで白品種とPinot Noirを可能にする。\nAgulhasは南アフリカ、Labradorと北大西洋海流は北大西洋。海流名は作用する大陸と結ぶ。"
   },
   {
     "id": "chile-060",
@@ -26182,7 +26225,7 @@ window.WINE_QUESTIONS = [
       "チリのペソ安"
     ],
     "answerIndex": 2,
-    "explanation": "日本でチリワインの輸入が増え始めたきっかけは、経済連携協定による関税面の優位性です。\n経済連携協定は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "2007年の日チリ経済連携協定で関税が段階的に下がり、価格競争力が輸入増加を後押しした。\n日EU EPAは後発で、増加開始のきっかけではない。現在は双方無税で差額がない点まで時系列で押さえる。"
   },
   {
     "id": "chile-061",
@@ -26196,7 +26239,7 @@ window.WINE_QUESTIONS = [
       "カリニャン"
     ],
     "answerIndex": 0,
-    "explanation": "カルメネールは色素が濃く、品種名は深紅色を意味する語に由来します。\nカルメネールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Carménèreはフランス語cramoisi（深紅色）に通じる名を持ち、濃い色調が特徴。十分な成熟で黒果実やスパイスを示す。\nCarignanはVIGNO、Cabernetは面積首位、SyrahはRhône系。語源とチリでの歴史をCarménèreに結ぶ。"
   },
   {
     "id": "chile-062",
@@ -26210,7 +26253,7 @@ window.WINE_QUESTIONS = [
       "DO Casablanca Valley"
     ],
     "answerIndex": 1,
-    "explanation": "DO Osorno ValleyはDO Australに含まれるサブリージョンです。\nDO Osorno Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Osorno Valleyは最南端DO Australのサブリージョン。冷涼多雨で、従来のチリ像を越える南方開拓地である。\nItataはSouth、HuascoはCoquimbo、CasablancaはAconcagua。OsornoとCautínがAustralの軸。"
   },
   {
     "id": "chile-063",
@@ -26224,7 +26267,7 @@ window.WINE_QUESTIONS = [
       "ドライ・イリゲーション"
     ],
     "answerIndex": 1,
-    "explanation": "雪解け水などを畝間に流す伝統的な方法は間断灌漑です。\n間断灌漑は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "間断灌漑は雪解け水や河川水を貯め、畝間へ一定間隔で流す伝統方式。Andesを水源とする乾燥地域ならではの方法。\nDripは点滴で節水、Dry farmingは無灌水。水の流し方を図にして区別する。"
   },
   {
     "id": "chile-064",
@@ -26238,7 +26281,7 @@ window.WINE_QUESTIONS = [
       "75%"
     ],
     "answerIndex": 3,
-    "explanation": "チリの原産地呼称ワインで収穫年を表示する場合、該当するブドウを75%以上使用する必要があります。\n75%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "国内向けDOワインが収穫年を表示するには、その年のブドウ75%以上。品種名・産地名も国内規定は75%。\n輸出向けは85%。「国内三表示75、輸出三表示85」とまとめると取り違えない。"
   },
   {
     "id": "chile-065",
@@ -26252,7 +26295,7 @@ window.WINE_QUESTIONS = [
       "1981年"
     ],
     "answerIndex": 1,
-    "explanation": "Silvestre Ochagaviaがフランスから大量のブドウ苗木を輸入し植え付けたのは1852年です。\n1852年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "1852年、Silvestre Ochagavíaがフランスから苗木を大量導入し、Maipoへ植えたことが近代化の節目。\n1818年は独立期、1994年はCarménère再同定。年号を出来事と一対一にする。"
   },
   {
     "id": "chile-066",
@@ -26271,7 +26314,7 @@ window.WINE_QUESTIONS = [
       "マジェコバレー",
       "Malleco Valley"
     ],
-    "explanation": "地図上の15番はマジェコ・ヴァレーです。\nマジェコ・ヴァレーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：マジェコ・ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-067",
@@ -26285,7 +26328,7 @@ window.WINE_QUESTIONS = [
       "DOアタカマ"
     ],
     "answerIndex": 0,
-    "explanation": "非灌漑地で栽培したパイスとサンソーに適用される特別な呼称はDOセカノ・インテリオルです。\nDOセカノ・インテリオルは語源や原語の意味を押さえると、似た表示との違いを思い出しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Secano InteriorはCuricó、Maule、Itata、Bío Bíoの非灌漑地で育つPaísとCinsaultに認められる特別呼称。\nsecanoは乾燥農法を示す。通常の広域リージョンではなく、品種・無灌漑・地域を束ねる表示である。"
   },
   {
     "id": "chile-068",
@@ -26299,7 +26342,7 @@ window.WINE_QUESTIONS = [
       "Costa"
     ],
     "answerIndex": 2,
-    "explanation": "チリ農業を支える中心的な耕作地にあたる生産エリアはEntre Cordillerasです。\nEntre Cordillerasは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Entre Cordillerasは海岸山脈とAndesの間の中央平地。肥沃な沖積土でブドウだけでなく小麦・果樹も育つ農業の中心。\nCostaは冷涼な海側、Andesは高地斜面。Australは南端リージョンで、この東西断面区分とは別。"
   },
   {
     "id": "argentina-001",
@@ -26987,7 +27030,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ライムストーンコースト"
     ],
-    "explanation": "ライムストーン・コーストは南オーストラリア州南東端のゾーンで、CoonawarraやPadthawayを含む。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：ライムストーン・コーストの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "australia-009",
@@ -27084,7 +27127,7 @@ window.WINE_QUESTIONS = [
       "caption": "南オーストラリア州 ワイン産地"
     },
     "answerText": "クナワラ",
-    "explanation": "クナワラはLimestone Coast内の細長い産地で、テラロッサ土壌とカベルネ・ソーヴィニョンが象徴。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。"
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：クナワラの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "australia-016",
@@ -27244,7 +27287,7 @@ window.WINE_QUESTIONS = [
     "id": "australia-027",
     "category": "オーストラリア",
     "importance": "C",
-    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でCoonawarraに相当する番号を選択してください。",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でCoonawarra（クナワラ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/australia-south-australia-map.jpg",
       "alt": "南オーストラリア州のワイン産地の地図",
@@ -27257,7 +27300,7 @@ window.WINE_QUESTIONS = [
       "3番"
     ],
     "answerIndex": 1,
-    "explanation": "8番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。"
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：Coonawarra（クナワラ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "australia-028",
@@ -27583,7 +27626,7 @@ window.WINE_QUESTIONS = [
       "マクラーレンベール",
       "McLaren Vale"
     ],
-    "explanation": "マクラーレン・ヴェールはAdelaide南側の海に近い地中海性産地で、シラーズやグルナッシュが重要。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：マクラーレン・ヴェールの位置を、周辺産地との並びで覚える。",
     "importance": "B"
   },
   {
@@ -27603,7 +27646,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "australia-052",
     "category": "オーストラリア",
-    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でBarossa Valleyに相当する番号を選択してください。",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でBarossa Valley（バロッサ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/australia-south-australia-map.jpg",
       "alt": "南オーストラリア州のワイン産地の地図",
@@ -27616,7 +27659,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "1番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：Barossa Valley（バロッサ・ヴァレー）の位置を、周辺産地との並びで覚える。",
     "importance": "C"
   },
   {
@@ -28126,7 +28169,7 @@ window.WINE_QUESTIONS = [
   {
     "id": "australia-089",
     "category": "オーストラリア",
-    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でClare Valleyに相当する番号を選択してください。",
+    "question": "下記の画像は南オーストラリア州のワイン産地の地図です。地図上でClare Valley（クレア・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/australia-south-australia-map.jpg",
       "alt": "南オーストラリア州のワイン産地の地図",
@@ -28139,7 +28182,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 1,
-    "explanation": "4番。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：Clare Valley（クレア・ヴァレー）の位置を、周辺産地との並びで覚える。",
     "importance": "C"
   },
   {
@@ -28282,7 +28325,7 @@ window.WINE_QUESTIONS = [
       "イーデンヴァレー",
       "Eden Valley"
     ],
-    "explanation": "イーデン・ヴァレーはBarossa Valley東側の高地産地で、冷涼なリースリングとシラーズが代表。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：イーデン・ヴァレーの位置を、周辺産地との並びで覚える。",
     "importance": "B"
   },
   {
@@ -28397,7 +28440,7 @@ window.WINE_QUESTIONS = [
       "クレアヴァレー",
       "Clare Valley"
     ],
-    "explanation": "クレア・ヴァレー。地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。\n産地名は州だけでなく、隣接GI・気候・代表品種まで一緒に地図へ置く。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：クレア・ヴァレーの位置を、周辺産地との並びで覚える。",
     "importance": "B"
   },
   {
@@ -28500,7 +28543,7 @@ window.WINE_QUESTIONS = [
       "バロッサバレー",
       "Barossa Valley"
     ],
-    "explanation": "バロッサ・ヴァレーはAdelaide北東の温暖産地で、古樹シラーズとGSMブレンドの中心地。\n地図は西のMargaret River・Great Southern、中央のSouth Australia、東のVictoria・Hunter、南のTasmaniaで組み立てる。",
+    "explanation": "所属地区：南オーストラリア州　主要品種：シラーズ、カベルネ・ソーヴィニョン、リースリング\n近隣の頻出村・産地：Barossa Valley（バロッサ・ヴァレー）、Eden Valley（イーデン・ヴァレー）、Clare Valley（クレア・ヴァレー）、Coonawarra（クナワラ）\n見分け方：バロッサ・ヴァレーの位置を、周辺産地との並びで覚える。",
     "importance": "B"
   },
   {
@@ -28515,7 +28558,7 @@ window.WINE_QUESTIONS = [
       "75%"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドで単一品種名を表示する場合、該当するブドウを85%以上使用する必要があります。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "単一品種・単一収穫年・単一原産地を表示する場合はいずれも該当ブドウ85%以上。国際的に一般的な85%ルールである。\n品種・収穫年・原産地はいずれも85%。3つを別々に暗記せず「表示は85」とまとめる。"
   },
   {
     "id": "new-zealand-002",
@@ -28529,7 +28572,7 @@ window.WINE_QUESTIONS = [
       "ギズボーン, ワイララパ, ノースランド, カンタベリー"
     ],
     "answerIndex": 1,
-    "explanation": "北から南へ、ノースランド、ギズボーン、ワイララパ、カンタベリーの順です。\nノースランド, ギズボーン, ワイララパ, カンタベリーは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島北端Northlandから東岸Gisborne、南端寄りWairarapaを経て、南島Canterburyへ南下する順序。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-003",
@@ -28543,13 +28586,13 @@ window.WINE_QUESTIONS = [
       "Gladstone"
     ],
     "answerIndex": 3,
-    "explanation": "GladstoneはWairarapaに属するサブリージョンです。\nGladstoneは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapaの3サブリージョンの一つ。MartinboroughとMastertonの間に位置し、Pinot Noirなどを生む。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-004",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でCanterburyに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でCanterbury（カンタベリー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -28562,7 +28605,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上でCanterburyに相当する番号は8番です。\n8番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Canterbury（カンタベリー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-005",
@@ -28576,7 +28619,7 @@ window.WINE_QUESTIONS = [
       "Alexandra"
     ],
     "answerIndex": 0,
-    "explanation": "Wanakaはサザン・アルプスに最も近いCentral Otagoのサブリージョンです。\nWanakaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central Otago北西部、Southern AlpsとLake Wanakaに近い冷涼なサブリージョン。景観と長い成熟期で知られる。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-006",
@@ -28590,7 +28633,7 @@ window.WINE_QUESTIONS = [
       "Paua"
     ],
     "answerIndex": 2,
-    "explanation": "Hangiはマオリ族の伝統的な調理法・料理です。\nHangiは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "食材を葉などで包み、地中で熱した石の蒸気を使って調理するマオリの伝統料理。\nHangiを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-007",
@@ -28604,7 +28647,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドが世界的に注目されるきっかけとなった品種はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1980年代のMarlborough産が世界的評価を獲得した代表品種。2024年も栽培面積・生産量とも圧倒的首位。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-008",
@@ -28618,7 +28661,7 @@ window.WINE_QUESTIONS = [
       "ヴィニフェラ系品種による甘口ワイン"
     ],
     "answerIndex": 0,
-    "explanation": "20世紀前半までニュージーランドでは、主にハイブリッド品種による酒精強化ワインが生産されていました。\nハイブリッド品種による酒精強化ワインという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "20世紀前半までは病害に強い交雑種を用いた酒精強化ワインが中心で、現在の国際品種主体とは大きく異なった。\nハイブリッド品種による酒精強化ワインを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-009",
@@ -28632,7 +28675,7 @@ window.WINE_QUESTIONS = [
       "約80%"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドワインのスクリューキャップ使用割合は約95%です。\n約95%は単位と基準年、何に対する割合かを含めて一つの情報として扱う必要がある。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "ニュージーランド産ワインの約95%がスクリューキャップを使用。コルク臭回避と安定した密閉性が普及を後押しした。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-010",
@@ -28646,7 +28689,7 @@ window.WINE_QUESTIONS = [
       "Canterbury"
     ],
     "answerIndex": 0,
-    "explanation": "BendigoはCentral Otagoに属する産地です。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-011",
@@ -28660,7 +28703,7 @@ window.WINE_QUESTIONS = [
       "David Hohnen"
     ],
     "answerIndex": 1,
-    "explanation": "1960年代にミュラー・トゥルガウの栽培を指導したのはHelmut Becker博士です。\nHelmut Beckerという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Geisenheim研究所の博士で、1960年代にMüller-Thurgauの栽培を指導し近代的品種導入を支えた。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-012",
@@ -28674,7 +28717,7 @@ window.WINE_QUESTIONS = [
       "Kumeu"
     ],
     "answerIndex": 0,
-    "explanation": "この説明に合致するGIはWaipara Valleyです。\nWaipara Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Canterbury北部。Southern Alpsの雨陰で乾燥し、石灰質・粘土質土壌からPinot NoirやRieslingを生む。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-013",
@@ -28688,7 +28731,7 @@ window.WINE_QUESTIONS = [
       "カベルネ・ソーヴィニョン"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドで2024年のブドウ生産量が第1位の品種はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1980年代のMarlborough産が世界的評価を獲得した代表品種。2024年も栽培面積・生産量とも圧倒的首位。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-014",
@@ -28702,13 +28745,13 @@ window.WINE_QUESTIONS = [
       "オークランド"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドの産地の中で最北端に位置するのはノースランドです。\nノースランドは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島最北端で、1819年に初のワイン用ブドウが植えられ、後に国内初のフィロキセラも確認された。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-015",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でWaitaki Valley North Otagoに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でWaitaki Valley North Otago（ワイタキ・ヴァレー・ノース・オタゴ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -28721,7 +28764,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上でWaitaki Valley North Otagoに相当する番号は9番です。\n9番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Waitaki Valley North Otago（ワイタキ・ヴァレー・ノース・オタゴ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-016",
@@ -28735,7 +28778,7 @@ window.WINE_QUESTIONS = [
       "5"
     ],
     "answerIndex": 0,
-    "explanation": "カンタベリーにあるサブリージョンの数は2です。\n2は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Canterburyの主要サブリージョンはChristchurch周辺の平地と北のWaipara Valleyという2区分で整理する。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-017",
@@ -28749,7 +28792,7 @@ window.WINE_QUESTIONS = [
       "南緯41度"
     ],
     "answerIndex": 2,
-    "explanation": "セントラル・オタゴはおよそ南緯45度に位置します。\n南緯45度は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central Otagoは南緯45度付近。世界最南端級の産地で、乾燥した内陸性気候と大きな昼夜差を持つ。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-018",
@@ -28763,7 +28806,7 @@ window.WINE_QUESTIONS = [
       "1843年"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドで最初にワインが生産されたのは1836年です。\n1836年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "James BusbyがNorthlandのWaitangiで1836年に初めてワインを生産。植樹の1819年とは17年ずれる。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-019",
@@ -28777,7 +28820,7 @@ window.WINE_QUESTIONS = [
       "メルロ"
     ],
     "answerIndex": 0,
-    "explanation": "ワイララパで最も栽培面積が大きいブドウ品種はピノ・ノワールです。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapa、Central Otago、Waitakiで首位となる冷涼地向き黒品種。地域ごとに土壌と気候の個性を映す。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-020",
@@ -28791,7 +28834,7 @@ window.WINE_QUESTIONS = [
       "Martinborough"
     ],
     "answerIndex": 2,
-    "explanation": "Waiheke IslandはAucklandに属するサブリージョンです。\nWaiheke Islandは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Auckland沖の島のサブリージョン。温暖・海洋性で、SyrahやMerlot、Cabernet系の高品質赤が重要。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-021",
@@ -28805,7 +28848,7 @@ window.WINE_QUESTIONS = [
       "8"
     ],
     "answerIndex": 3,
-    "explanation": "セントラル・オタゴにあるサブリージョンの数は8です。\n8は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central OtagoはGibbston、Bannockburn、Bendigo、Wanaka、Alexandraなど8サブリージョンに整理される。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-022",
@@ -28819,13 +28862,13 @@ window.WINE_QUESTIONS = [
       "115"
     ],
     "answerIndex": 3,
-    "explanation": "通称ディジョン・クローンと呼ばれている苗木として115があります。\n115は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Pinot NoirのDijon clone 115。113、114、115、667、777が1988年以降に導入され、現代の生産基盤となった。\n古いWädenswil系10/5と、1988年以降のDijon系113・114・115・667・777を区別する。"
   },
   {
     "id": "new-zealand-023",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でWairarapaに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でWairarapa（ワイララパ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -28838,7 +28881,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 0,
-    "explanation": "地図上でWairarapaに相当する番号は5番です。\n5番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Wairarapa（ワイララパ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-024",
@@ -28852,7 +28895,7 @@ window.WINE_QUESTIONS = [
       "Gisborne"
     ],
     "answerIndex": 1,
-    "explanation": "この説明に合致するGIはMarlboroughです。\nMarlboroughは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairau Valley、Southern Valleys、Awatere Valleyの3地区から成る最大産地。Sauvignon Blancで世界的名声を得た。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-025",
@@ -28866,7 +28909,7 @@ window.WINE_QUESTIONS = [
       "Savvy MS"
     ],
     "answerIndex": 3,
-    "explanation": "Savvy MSは現在ピノ・ノワール生産の基礎を成しているクローンではありません。\nSavvy MSは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Savvy MSはPinot Noirのクローン名ではない。10/5やDijon系113・114・115・667・777が頻出クローン。\n古いWädenswil系10/5と、1988年以降のDijon系113・114・115・667・777を区別する。"
   },
   {
     "id": "new-zealand-026",
@@ -28880,7 +28923,7 @@ window.WINE_QUESTIONS = [
       "Matakana"
     ],
     "answerIndex": 1,
-    "explanation": "この説明に合致するGIはKumeuです。\nKumeuという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Auckland西部。クロアチア系移民がワイン産業の基礎を築き、現在は高品質Chardonnayで著名。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-027",
@@ -28894,7 +28937,7 @@ window.WINE_QUESTIONS = [
       "Canterbury"
     ],
     "answerIndex": 2,
-    "explanation": "CromwellはCentral Otagoに属します。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-028",
@@ -28908,13 +28951,13 @@ window.WINE_QUESTIONS = [
       "ピノ・グリ"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドで2024年の栽培面積が第1位の品種はソーヴィニョン・ブランです。\nソーヴィニョン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1980年代のMarlborough産が世界的評価を獲得した代表品種。2024年も栽培面積・生産量とも圧倒的首位。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-029",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でHawke's Bayに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でHawke's Bay（ホークス・ベイ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -28927,7 +28970,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上でHawke's Bayに相当する番号は4番です。\n4番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Hawke's Bay（ホークス・ベイ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-030",
@@ -28941,7 +28984,7 @@ window.WINE_QUESTIONS = [
       "3"
     ],
     "answerIndex": 3,
-    "explanation": "オークランドにあるサブリージョンの数は3です。\n3は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "設問の産地は3サブリージョンを持つ。AucklandはKumeu・Waiheke Island・Matakana、WairarapaはMartinborough・Gladstone・Masterton。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-031",
@@ -28955,7 +28998,7 @@ window.WINE_QUESTIONS = [
       "雨が少なすぎるから"
     ],
     "answerIndex": 0,
-    "explanation": "1970年代当時、マールボロは寒すぎると考えられていました。\n寒すぎるからは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1970年代のMarlboroughは冷涼すぎると考えられたが、長い日照と乾燥、昼夜差が芳香性品種に適することが判明した。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-032",
@@ -28969,7 +29012,7 @@ window.WINE_QUESTIONS = [
       "南緯43度"
     ],
     "answerIndex": 1,
-    "explanation": "マールボロはおよそ南緯42度に位置します。\n南緯42度は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Marlboroughは南緯42度前後。Southern Alpsの雨陰と海洋の影響を受け、冷涼で日照に恵まれる。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-033",
@@ -28983,7 +29026,7 @@ window.WINE_QUESTIONS = [
       "2005年"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドのワイン法で卵白などの表示義務が始まった収穫年は2003年です。\n2003年という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2003年収穫から卵・乳・魚由来の清澄剤などアレルゲン表示が義務化。ワインの安全表示制度の重要年。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-034",
@@ -28999,7 +29042,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Canterbury"
     ],
-    "explanation": "地図上の8番はCanterbury（カンタベリー）です。\nカンタベリーは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：カンタベリーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-035",
@@ -29013,7 +29056,7 @@ window.WINE_QUESTIONS = [
       "UCD5"
     ],
     "answerIndex": 2,
-    "explanation": "スイスのヴェーデンスヴィル研究所経由でもたらされたピノ・ノワールのクローンは10/5です。\n10/5（テン・バイ・ファイブ）という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Pinot NoirのWädenswil系clone 10/5は1960年代から存在。1988年以降のDijon clone群より古い。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-036",
@@ -29027,7 +29070,7 @@ window.WINE_QUESTIONS = [
       "Central Otago"
     ],
     "answerIndex": 2,
-    "explanation": "Waiheke IslandはAucklandに属します。\nAucklandは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島北部の温暖なGI。Kumeu、Waiheke Island、Matakanaの3地区を含み、Chardonnayや赤ボルドー系が重要。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-037",
@@ -29041,7 +29084,7 @@ window.WINE_QUESTIONS = [
       "ピノ・グリ"
     ],
     "answerIndex": 1,
-    "explanation": "セントラル・オタゴで最も栽培面積が大きいブドウ品種はピノ・ノワールです。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapa、Central Otago、Waitakiで首位となる冷涼地向き黒品種。地域ごとに土壌と気候の個性を映す。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-038",
@@ -29055,7 +29098,7 @@ window.WINE_QUESTIONS = [
       "Matakana"
     ],
     "answerIndex": 2,
-    "explanation": "この説明に合致するGIはNelsonです。\nNelsonは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南島北端、Moutere HillsとWaimea Plainsが中心。日照が長く、Sauvignon BlancやPinot Noirを生む。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-039",
@@ -29069,7 +29112,7 @@ window.WINE_QUESTIONS = [
       "Derek Milne"
     ],
     "answerIndex": 0,
-    "explanation": "Cape MentelleのオーナーでありCloudy Bayの創設者でもある人物はDavid Hohnenです。\nDavid Hohnenは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "豪州Cape Mentelleのオーナーで、1985年にCloudy Bayを創設しMarlborough Sauvignon Blancの世界進出を牽引。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-040",
@@ -29083,7 +29126,7 @@ window.WINE_QUESTIONS = [
       "Wairarapa"
     ],
     "answerIndex": 1,
-    "explanation": "南緯45度に位置する世界最南端のワイン産地の一つはCentral Otagoです。\nCentral Otagoは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-041",
@@ -29097,7 +29140,7 @@ window.WINE_QUESTIONS = [
       "約9割"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドのブドウ栽培面積の中で、マールボロ地域は約7割を占めます。\n約7割は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "国内ブドウ畑の約7割がMarlboroughに集中。Sauvignon Blancの大規模生産が地域集中を生む。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-042",
@@ -29111,7 +29154,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドで2024年のブドウ生産量が第4位の品種はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年は栽培面積3位・生産量4位。GisborneとAucklandでは首位で、発泡から樽熟成白まで幅広い。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-043",
@@ -29125,7 +29168,7 @@ window.WINE_QUESTIONS = [
       "85%"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドで単一収穫年を表示する場合、該当するブドウを85%以上使用する必要があります。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "単一品種・単一収穫年・単一原産地を表示する場合はいずれも該当ブドウ85%以上。国際的に一般的な85%ルールである。\n品種・収穫年・原産地はいずれも85%。3つを別々に暗記せず「表示は85」とまとめる。"
   },
   {
     "id": "new-zealand-044",
@@ -29139,7 +29182,7 @@ window.WINE_QUESTIONS = [
       "半海洋性気候"
     ],
     "answerIndex": 2,
-    "explanation": "ギズボーンの気候は海洋性気候です。\n海洋性気候は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "海に囲まれるため年較差が小さく、長い成熟期を得る。GisborneやMarlboroughも基本は海洋性気候。\n海洋性を基本に、山地の雨陰や内陸性で地域差が生まれる。降雨・風・昼夜差までつなげる。"
   },
   {
     "id": "new-zealand-045",
@@ -29153,7 +29196,7 @@ window.WINE_QUESTIONS = [
       "Martinborough"
     ],
     "answerIndex": 3,
-    "explanation": "この説明に合致するGIはMartinboroughです。\nMartinboroughは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapa南部の小地区。砂礫質段丘と風の強い冷涼気候から、Ata RangiなどのPinot Noirで著名。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-046",
@@ -29167,7 +29210,7 @@ window.WINE_QUESTIONS = [
       "1819年"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドに初めてワイン用ブドウが植えられたのは1819年です。\n1819年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "宣教師Samuel MarsdenがNorthlandに初めてワイン用ブドウを植えた年。初ワイン生産は1836年。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-047",
@@ -29181,7 +29224,7 @@ window.WINE_QUESTIONS = [
       "Kumeu"
     ],
     "answerIndex": 1,
-    "explanation": "MartinboroughはWairarapaに属するサブリージョンです。\nMartinboroughは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapa南部の小地区。砂礫質段丘と風の強い冷涼気候から、Ata RangiなどのPinot Noirで著名。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-048",
@@ -29195,7 +29238,7 @@ window.WINE_QUESTIONS = [
       "マールボロ, セントラル・オタゴ, オークランド, ホークス・ベイ"
     ],
     "answerIndex": 1,
-    "explanation": "北から南へ、オークランド、ホークス・ベイ、マールボロ、セントラル・オタゴの順です。\nオークランド, ホークス・ベイ, マールボロ, セントラル・オタゴは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北からAuckland、Hawke's Bay、海峡を越えてMarlborough、南端Central Otagoの順。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-049",
@@ -29209,7 +29252,7 @@ window.WINE_QUESTIONS = [
       "75%"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドで単一原産地を表示する場合、該当するブドウを85%以上使用する必要があります。\n85%は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "単一品種・単一収穫年・単一原産地を表示する場合はいずれも該当ブドウ85%以上。国際的に一般的な85%ルールである。\n品種・収穫年・原産地はいずれも85%。3つを別々に暗記せず「表示は85」とまとめる。"
   },
   {
     "id": "new-zealand-050",
@@ -29223,7 +29266,7 @@ window.WINE_QUESTIONS = [
       "オークランド"
     ],
     "answerIndex": 2,
-    "explanation": "南島の北に位置するニュージーランドの産地はネルソンです。\nネルソンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南島北部の小産地で、2024年生産量3位。西のMoutere Hillsと東のWaimea Plainsを対比する。\nネルソンを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-051",
@@ -29239,7 +29282,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Wairarapa"
     ],
-    "explanation": "地図上の5番はWairarapa（ワイララパ）です。\nワイララパは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：ワイララパの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-052",
@@ -29253,7 +29296,7 @@ window.WINE_QUESTIONS = [
       "2"
     ],
     "answerIndex": 1,
-    "explanation": "ホークス・ベイには3つのサブリージョンがあります。\n3は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "設問の産地は3サブリージョンを持つ。AucklandはKumeu・Waiheke Island・Matakana、WairarapaはMartinborough・Gladstone・Masterton。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-053",
@@ -29267,7 +29310,7 @@ window.WINE_QUESTIONS = [
       "Raymond Bernard"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドの気候や土壌を分析・調査したDSIR所属の土壌学者はDerek Milneです。\nDerek Milneは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "DSIRの土壌学者として気候・土壌を調査し、Martinboroughなどの適地選定に貢献した人物。\n海洋性を基本に、山地の雨陰や内陸性で地域差が生まれる。降雨・風・昼夜差までつなげる。"
   },
   {
     "id": "new-zealand-054",
@@ -29281,7 +29324,7 @@ window.WINE_QUESTIONS = [
       "Kumeu"
     ],
     "answerIndex": 1,
-    "explanation": "プロヴィダンスが所在するGIはMatakanaです。\nMatakanaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Auckland北部のサブリージョン。温暖な海洋性気候で、ProvidenceのMerlotなど少量高品質赤が知られる。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-055",
@@ -29295,7 +29338,7 @@ window.WINE_QUESTIONS = [
       "マールボロ"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドで2024年のブドウ生産量が第3位の産地はネルソンです。\nネルソンは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南島北部の小産地で、2024年生産量3位。西のMoutere Hillsと東のWaimea Plainsを対比する。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-056",
@@ -29309,7 +29352,7 @@ window.WINE_QUESTIONS = [
       "Central Otago"
     ],
     "answerIndex": 2,
-    "explanation": "Bridge Pa TriangleはHawke's Bayに属します。\nHawke's Bayは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島東岸の温暖な産地。Gimblett GravelsとBridge Pa Triangleを含み、赤ボルドー系、Syrah、Chardonnayが重要。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-057",
@@ -29325,7 +29368,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Auckland"
     ],
-    "explanation": "地図上の2番はAuckland（オークランド）です。\nオークランドは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：オークランドの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-058",
@@ -29339,7 +29382,7 @@ window.WINE_QUESTIONS = [
       "半海洋性気候"
     ],
     "answerIndex": 1,
-    "explanation": "マールボロの気候は海洋性気候です。\n海洋性気候は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "海に囲まれるため年較差が小さく、長い成熟期を得る。GisborneやMarlboroughも基本は海洋性気候。\n海洋性を基本に、山地の雨陰や内陸性で地域差が生まれる。降雨・風・昼夜差までつなげる。"
   },
   {
     "id": "new-zealand-059",
@@ -29353,7 +29396,7 @@ window.WINE_QUESTIONS = [
       "Central Otago"
     ],
     "answerIndex": 3,
-    "explanation": "Gibbston ValleyはCentral Otagoに属します。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-060",
@@ -29367,7 +29410,7 @@ window.WINE_QUESTIONS = [
       "Waipara Valley"
     ],
     "answerIndex": 0,
-    "explanation": "Wairarapaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。\n似た用語は、共通点ではなく規定上の違いを一つ見つけて区別すると記憶に残りやすい。"
+    "explanation": "首都Wellington北東の北島南端GI。Martinborough、Gladstone、Mastertonの3地区から成りPinot Noirが中心。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-061",
@@ -29383,7 +29426,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Northland"
     ],
-    "explanation": "地図上の1番はNorthland（ノースランド）です。\nノースランドは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：ノースランドの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-062",
@@ -29397,7 +29440,7 @@ window.WINE_QUESTIONS = [
       "メルロ"
     ],
     "answerIndex": 0,
-    "explanation": "ワイタキ・ヴァレー・ノース・オタゴで最も栽培面積が大きい品種はピノ・ノワールです。\nピノ・ノワールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapa、Central Otago、Waitakiで首位となる冷涼地向き黒品種。地域ごとに土壌と気候の個性を映す。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-063",
@@ -29415,7 +29458,7 @@ window.WINE_QUESTIONS = [
       "ワイタキ・バレー・ノース・オタゴ",
       "Waitaki Valley North Otago"
     ],
-    "explanation": "地図上の9番はWaitaki Valley North Otago（ワイタキ・ヴァレー・ノース・オタゴ）です。\nワイタキ・ヴァレー・ノース・オタゴは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：ワイタキ・ヴァレー・ノース・オタゴの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-064",
@@ -29429,7 +29472,7 @@ window.WINE_QUESTIONS = [
       "157万ヘクトリットル"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドの2024年の年間ワイン生産量に最も近いものは284万ヘクトリットルです。\n284万ヘクトリットルという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年の生産量は約284万hL。最大産地MarlboroughとSauvignon Blancへの集中が数字を支える。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-065",
@@ -29443,7 +29486,7 @@ window.WINE_QUESTIONS = [
       "Canterbury"
     ],
     "answerIndex": 0,
-    "explanation": "BannockburnはCentral Otagoに属します。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-066",
@@ -29457,7 +29500,7 @@ window.WINE_QUESTIONS = [
       "Gisborne"
     ],
     "answerIndex": 0,
-    "explanation": "この説明に合致するGIはCentral Otagoです。\nCentral Otagoは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-067",
@@ -29471,7 +29514,7 @@ window.WINE_QUESTIONS = [
       "Wairarapa"
     ],
     "answerIndex": 3,
-    "explanation": "MartinboroughはWairarapaに属します。\nWairarapaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "首都Wellington北東の北島南端GI。Martinborough、Gladstone、Mastertonの3地区から成りPinot Noirが中心。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-068",
@@ -29487,7 +29530,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Nelson"
     ],
-    "explanation": "地図上の7番はNelson（ネルソン）です。\nネルソンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：ネルソンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-069",
@@ -29501,7 +29544,7 @@ window.WINE_QUESTIONS = [
       "大陸性気候"
     ],
     "answerIndex": 1,
-    "explanation": "ワイララパの気候は半海洋性気候です。\n半海洋性気候は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Wairarapaは山地の雨陰で海洋の影響が弱まり、乾燥・風・大きめの昼夜差を持つ半海洋性気候。\n海洋性を基本に、山地の雨陰や内陸性で地域差が生まれる。降雨・風・昼夜差までつなげる。"
   },
   {
     "id": "new-zealand-070",
@@ -29515,7 +29558,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドで2024年の栽培面積が第4位の品種はピノ・グリです。\nピノ・グリは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年栽培面積4位。Sauvignon Blanc、Pinot Noir、Chardonnayに次ぐ白品種で、辛口芳醇なスタイルが多い。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-071",
@@ -29529,13 +29572,13 @@ window.WINE_QUESTIONS = [
       "Hawke's Bay"
     ],
     "answerIndex": 1,
-    "explanation": "首都ウェリントンの北東にあり、ピノ・ノワールの代表産地として評価が高いGIはWairarapaです。\nWairarapaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "首都Wellington北東の北島南端GI。Martinborough、Gladstone、Mastertonの3地区から成りPinot Noirが中心。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-072",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でCentral Otagoに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でCentral Otago（セントラル・オタゴ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -29548,7 +29591,7 @@ window.WINE_QUESTIONS = [
       "10番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上でCentral Otagoに相当する番号は10番です。\n10番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Central Otago（セントラル・オタゴ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-073",
@@ -29562,7 +29605,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 1,
-    "explanation": "オークランドで最も栽培面積が大きいブドウ品種はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年は栽培面積3位・生産量4位。GisborneとAucklandでは首位で、発泡から樽熟成白まで幅広い。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-074",
@@ -29576,7 +29619,7 @@ window.WINE_QUESTIONS = [
       "Martinborough"
     ],
     "answerIndex": 2,
-    "explanation": "KumeuはAucklandに属するサブリージョンです。\nKumeuは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Auckland西部。クロアチア系移民がワイン産業の基礎を築き、現在は高品質Chardonnayで著名。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-075",
@@ -29590,13 +29633,13 @@ window.WINE_QUESTIONS = [
       "Pisa Range"
     ],
     "answerIndex": 1,
-    "explanation": "オタゴの中で最も標高が高く、より冷涼な産地はGibbston Valleyです。\nGibbston Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central Otago東部の高標高・冷涼なサブリージョン。成熟が遅く、香り高く繊細なPinot Noirを生む。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-076",
     "category": "ニュージーランド",
     "importance": "C",
-    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でNelsonに相当する番号を選択してください。",
+    "question": "下記の画像はニュージーランドのワイン産地の地図です。地図上でNelson（ネルソン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/new-zealand-map.jpg",
       "alt": "ニュージーランドのワイン産地の地図",
@@ -29609,7 +29652,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上でNelsonに相当する番号は7番です。\n7番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：Nelson（ネルソン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-077",
@@ -29623,7 +29666,7 @@ window.WINE_QUESTIONS = [
       "マールボロ"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドで2024年のブドウ生産量が第1位の産地はマールボロです。\nマールボロは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年生産量1位で、全国栽培面積の約7割。3サブリージョンとSauvignon Blancを一組にする。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-078",
@@ -29637,7 +29680,7 @@ window.WINE_QUESTIONS = [
       "ピノ・ノワール"
     ],
     "answerIndex": 1,
-    "explanation": "ギズボーンで最も栽培面積が大きいブドウ品種はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年は栽培面積3位・生産量4位。GisborneとAucklandでは首位で、発泡から樽熟成白まで幅広い。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-079",
@@ -29651,7 +29694,7 @@ window.WINE_QUESTIONS = [
       "Auckland"
     ],
     "answerIndex": 1,
-    "explanation": "GladstoneはWairarapaに属します。\nWairarapaは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "首都Wellington北東の北島南端GI。Martinborough、Gladstone、Mastertonの3地区から成りPinot Noirが中心。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-080",
@@ -29665,7 +29708,7 @@ window.WINE_QUESTIONS = [
       "Lowburn"
     ],
     "answerIndex": 0,
-    "explanation": "セントラル・オタゴのサブリージョンで初めてGIに登録されたのはBannockburnです。\nBannockburnは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central Otago中央部の乾燥したサブリージョンで、域内初の独立GI。力強いPinot Noirで知られる。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-081",
@@ -29679,7 +29722,7 @@ window.WINE_QUESTIONS = [
       "ネルソン"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドで2024年のブドウ生産量が第2位の産地はホークス・ベイです。\nホークス・ベイは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島東岸の生産量第2位産地。Gimblett GravelsとBridge Pa Triangleを含み、赤ボルドー系とSyrahが重要。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-082",
@@ -29693,7 +29736,7 @@ window.WINE_QUESTIONS = [
       "23万ヘクタール"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドの2024年のブドウ栽培面積に最も近いものは4.3万ヘクタールです。\n4.3万ヘクタールは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年の栽培面積は約4.3万ha。うち約7割がMarlboroughに集中する。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-083",
@@ -29707,7 +29750,7 @@ window.WINE_QUESTIONS = [
       "DAC"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドにおけるワインの管理機関の略称はNZFSAです。\nNZFSAは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "New Zealand Food Safety Authorityの略。現在の食品安全行政の系譜に連なるワイン管理機関名として問われる。\nNZFSAを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-084",
@@ -29721,7 +29764,7 @@ window.WINE_QUESTIONS = [
       "18"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドで2024年現在、登録済みのGIの数は22です。\n22という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年時点のGIは合計22。登録済み19に、法令で認定されるNew Zealand、North Island、South Islandの3つを加える。\n法定GI数と、教本上の非GIサブリージョン数は別。数値が何の単位かを確認する。"
   },
   {
     "id": "new-zealand-085",
@@ -29737,7 +29780,7 @@ window.WINE_QUESTIONS = [
     "acceptedAnswers": [
       "Gisborne"
     ],
-    "explanation": "地図上の3番はGisborne（ギズボーン）です。\nギズボーンは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "所属地区：ニュージーランド南北島のGI　主要品種：ソーヴィニョン・ブラン、ピノ・ノワール、シャルドネ\n近隣の頻出村・産地：Marlborough（マールボロ）、Hawke's Bay（ホークス・ベイ）、Central Otago（セントラル・オタゴ）\n見分け方：ギズボーンの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "new-zealand-086",
@@ -29751,7 +29794,7 @@ window.WINE_QUESTIONS = [
       "ソーヴィニョン・ブラン"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドで2024年の栽培面積が第3位の品種はシャルドネです。\nシャルドネは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "2024年は栽培面積3位・生産量4位。GisborneとAucklandでは首位で、発泡から樽熟成白まで幅広い。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-087",
@@ -29765,7 +29808,7 @@ window.WINE_QUESTIONS = [
       "1825年"
     ],
     "answerIndex": 0,
-    "explanation": "セントラル・オタゴに初めてワイン用ブドウが植えられたのは1864年です。\n1864年は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Central Otagoでは1864年、ゴールドラッシュ期に初めてワイン用ブドウが植えられた。近代産業化はずっと後。\n歴史は1819年植樹→1836年初醸造→1960年代品種改良→1980年代Marlborough躍進の流れで整理する。"
   },
   {
     "id": "new-zealand-088",
@@ -29779,7 +29822,7 @@ window.WINE_QUESTIONS = [
       "Auckland"
     ],
     "answerIndex": 0,
-    "explanation": "Gimblett Gravels DistrictはHawke's Bayに属します。\nHawke's Bayは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島東岸の温暖な産地。Gimblett GravelsとBridge Pa Triangleを含み、赤ボルドー系、Syrah、Chardonnayが重要。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-089",
@@ -29793,7 +29836,7 @@ window.WINE_QUESTIONS = [
       "ソーヴィニョン・ブラン"
     ],
     "answerIndex": 0,
-    "explanation": "ニュージーランドで1995年まで最大生産量を誇っていた品種はミュラー・トゥルガウです。\nミュラー・トゥルガウは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1995年まで最大生産品種だった早熟白品種。その後Marlborough Sauvignon Blancが主役を奪った。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-090",
@@ -29807,7 +29850,7 @@ window.WINE_QUESTIONS = [
       "南緯35〜45度"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドのワイン産地はおおむね南緯35〜45度に分布しています。\n南緯35〜45度は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "主要産地は北島Northland付近の南緯35度からCentral Otagoの45度まで約10度に分布する。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-091",
@@ -29821,7 +29864,7 @@ window.WINE_QUESTIONS = [
       "4"
     ],
     "answerIndex": 0,
-    "explanation": "ワイララパには3つのサブリージョンがあります。\n3は名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "設問の産地は3サブリージョンを持つ。AucklandはKumeu・Waiheke Island・Matakana、WairarapaはMartinborough・Gladstone・Masterton。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-092",
@@ -29835,7 +29878,7 @@ window.WINE_QUESTIONS = [
       "ギズボーン"
     ],
     "answerIndex": 2,
-    "explanation": "ニュージーランドで初めてフィロキセラが発見されたところはノースランドです。\nノースランドは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島最北端で、1819年に初のワイン用ブドウが植えられ、後に国内初のフィロキセラも確認された。\nノースランドを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-093",
@@ -29849,7 +29892,7 @@ window.WINE_QUESTIONS = [
       "Canterbury"
     ],
     "answerIndex": 0,
-    "explanation": "LowburnはCentral Otagoに属します。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "new-zealand-094",
@@ -29863,7 +29906,7 @@ window.WINE_QUESTIONS = [
       "22"
     ],
     "answerIndex": 1,
-    "explanation": "ニュージーランドで2024年現在、GI登録済みの地域の数は19です。\n19という数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "正式登録された地域GIは19。法令認定の国・両島3 GIを加えると総数22になる。\n法定GI数と、教本上の非GIサブリージョン数は別。数値が何の単位かを確認する。"
   },
   {
     "id": "new-zealand-095",
@@ -29877,7 +29920,7 @@ window.WINE_QUESTIONS = [
       "セントラル・オタゴ"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドの産地の中で最南端に位置するところはセントラル・オタゴです。\nセントラル・オタゴは単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "国内最南端の主要産地。世界最南端級、南緯45度、Pinot Noir8割超という3点が頻出。\n北島はNorthland→Auckland→Gisborne／Hawke's Bay→Wairarapa、南島はNelson／Marlborough→Canterbury→Central Otago。"
   },
   {
     "id": "new-zealand-096",
@@ -29891,7 +29934,7 @@ window.WINE_QUESTIONS = [
       "DRCエイベル"
     ],
     "answerIndex": 2,
-    "explanation": "113、114、115、667、777の5種類が存在するとされるピノ・ノワールのクローンはディジョン・クローンです。\nディジョン・クローンという数値は、制度の対象と起算日を一緒に覚えると、似た年号や熟成期間と混同しにくい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "1988年以降導入されたPinot Noirの113、114、115、667、777。熟度と香味の多様性を高めた。\n古いWädenswil系10/5と、1988年以降のDijon系113・114・115・667・777を区別する。"
   },
   {
     "id": "new-zealand-097",
@@ -29905,7 +29948,7 @@ window.WINE_QUESTIONS = [
       "シャルドネ"
     ],
     "answerIndex": 2,
-    "explanation": "ネルソンで最も栽培面積が大きいブドウ品種はソーヴィニヨン・ブランです。\nソーヴィニヨン・ブランは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "Marlboroughを中心に栽培される同国の象徴。Nelsonでも栽培面積首位で、鮮烈な酸と芳香を持つ。\n2024年統計ではMarlboroughとSauvignon Blancへの集中が最大の特徴。順位と割合を同じ年でそろえる。"
   },
   {
     "id": "new-zealand-098",
@@ -29919,7 +29962,7 @@ window.WINE_QUESTIONS = [
       "ノースランド"
     ],
     "answerIndex": 3,
-    "explanation": "ニュージーランドで初めてワイン用ブドウが植えられたところはノースランドです。\nノースランドは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "北島最北端で、1819年に初のワイン用ブドウが植えられ、後に国内初のフィロキセラも確認された。\nノースランドを単独で覚えず、所属GI・主要品種・気候の三点を結び付ける。"
   },
   {
     "id": "new-zealand-099",
@@ -29933,13 +29976,13 @@ window.WINE_QUESTIONS = [
       "Wairarapa"
     ],
     "answerIndex": 1,
-    "explanation": "AlexandraはCentral Otagoに属します。\nCentral Otagoは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nニュージーランドは海洋性気候が基本だが、山脈の雨陰によって東西の降水量が大きく変わる。"
+    "explanation": "南緯45度前後の内陸性産地で、Pinot Noirが8割超。Bannockburn、Gibbston、Bendigoなど8サブリージョンを持つ。\n親GIと下位地区の対応が頻出。Auckland、Wairarapa、Hawke's Bay、Central Otagoは特に整理する。"
   },
   {
     "id": "chile-069",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でColchagua Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でColchagua Valley（コルチャグア・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-map.jpg",
       "alt": "チリのワイン産地の地図",
@@ -29952,7 +29995,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上でColchagua Valleyに相当する番号は10番です。\n10番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Colchagua Valley（コルチャグア・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-070",
@@ -29966,7 +30009,7 @@ window.WINE_QUESTIONS = [
       "ドライ・イリゲーション"
     ],
     "answerIndex": 2,
-    "explanation": "水が不足している地域で井戸を掘って水を確保し、点滴する灌漑方法はドリップ・イリゲーションです。\nドリップ・イリゲーションは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Drip irrigationは井戸などの限られた水をチューブで根元へ点滴し、蒸発損失を抑える。水不足地域で精密に管理できる。\n間断灌漑は畝間へ大量に流し、Dry farmingは無灌水。節水性が決め手。"
   },
   {
     "id": "chile-071",
@@ -29980,7 +30023,7 @@ window.WINE_QUESTIONS = [
       "Atacama"
     ],
     "answerIndex": 2,
-    "explanation": "この特徴に合致するチリのワイン生産エリアはAndesです。\nAndesは気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Andes側は崩積土・火山性土壌が多く、痩せて水はけが良い。高地では根が地下水へ届き、大きな昼夜差も得られる。\nCostaは海風、Entre Cordillerasは肥沃な平地。Atacamaは南北リージョン名で東西区分ではない。"
   },
   {
     "id": "chile-072",
@@ -29994,7 +30037,7 @@ window.WINE_QUESTIONS = [
       "ステップ気候"
     ],
     "answerIndex": 3,
-    "explanation": "DOアコンカグア・ヴァレーの気候はステップ気候です。\nステップ気候は気候・土壌の名称だけでなく、成熟速度や酸、病害へ与える作用までつなげたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Aconcagua Valley内陸部は降水が少ないステップ気候。強い日照でCabernetやSyrahなど赤品種が成熟する。\nMaipoは地中海性、Atacamaは砂漠気候。沿岸のCasablanca・San Antonioは海流で冷涼になる。"
   },
   {
     "id": "chile-073",
@@ -30008,13 +30051,13 @@ window.WINE_QUESTIONS = [
       "南緯27〜46度"
     ],
     "answerIndex": 3,
-    "explanation": "チリのブドウ栽培地域は南緯27〜46度に広がります。\n南緯27〜46度は産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "栽培地域は南緯27〜46度。北のElqui周辺から南のAustralまで、約19度もの緯度差がある。\n国土の南北距離約4,300kmとセットで、北は乾燥・高地、南は冷涼多雨という変化を理解する。"
   },
   {
     "id": "chile-074",
     "category": "チリ",
     "importance": "C",
-    "question": "下記の画像はチリのワイン産地の地図です。地図上でMalleco Valleyに相当する番号を選択してください。",
+    "question": "下記の画像はチリのワイン産地の地図です。地図上でMalleco Valley（マジェコ・ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/chile-map.jpg",
       "alt": "チリのワイン産地の地図",
@@ -30027,7 +30070,7 @@ window.WINE_QUESTIONS = [
       "16番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上でMalleco Valleyに相当する番号は15番です。\n15番は単独の地名としてではなく、川・山脈・隣接産地との位置関係まで結ぶと地図問題にも応用できる。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "所属地区：チリの南北リージョン／ヴァレー　主要品種：カベルネ・ソーヴィニョン、ソーヴィニョン・ブラン、パイス\n近隣の頻出村・産地：Elqui（エルキ）、Maipo（マイポ）、Colchagua（コルチャグア）、Maule（マウレ）、Malleco（マジェコ）\n見分け方：Malleco Valley（マジェコ・ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "chile-075",
@@ -30041,7 +30084,7 @@ window.WINE_QUESTIONS = [
       "カベルネ・ソーヴィニョン"
     ],
     "answerIndex": 2,
-    "explanation": "チリで栽培面積が第3位のブドウ品種はパイスです。\nパイスは産地との組合せに加え、別名、果皮色、主要・補助品種の区分まで確認しておきたい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "栽培面積3位はPaís。16世紀から続く古い黒品種で、南部の古木・非灌漑畑が品質面から再評価されている。\n1位Cabernet Sauvignon、2位Sauvignon Blanc、4位Merlot。象徴品種Carménèreが3位ではない点に注意。"
   },
   {
     "id": "chile-076",
@@ -30055,7 +30098,7 @@ window.WINE_QUESTIONS = [
       "DO Teno Valley"
     ],
     "answerIndex": 1,
-    "explanation": "DO Rapel Valleyに含まれるサブゾーンはDO Colchagua Valleyです。\nDO Colchagua Valleyは名称だけを覚えるより、産地・原料・製法のどこに属する知識かを整理すると定着しやすい。\nチリは太平洋、海岸山脈、中央渓谷、アンデスの東西断面で産地の気候を整理できる。"
+    "explanation": "Colchagua ValleyはRapel Valley南側のサブゾーン。北側のCachapoalと2地区でRapelを構成する。\nLontuéとTenoはCuricóのサブゾーン、LeydaはSan Antonio。上位→下位の階層で整理する。"
   },
   {
     "id": "intro-001",
@@ -34457,7 +34500,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-078",
     "category": "フランス/ローヌ渓谷",
     "importance": "C",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Pérayに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Péray（サン・ペレイ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -34470,7 +34513,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 3,
-    "explanation": "Saint-Pérayは地図の8番。Saint-Pérayは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は3番→Château-Grillet、2番→Condrieu、4番→Saint-Joseph、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Saint-Péray（サン・ペレイ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-079",
@@ -34567,7 +34610,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "コルナス",
-    "explanation": "地図の7番はコルナス。コルナスは北部・右岸、赤のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は6番→エルミタージュ、7番→Cornas、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：コルナスの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-086",
@@ -34741,7 +34784,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-098",
     "category": "フランス/ローヌ渓谷",
     "importance": "S",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でHermitageに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でHermitage（エルミタージュ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -34754,7 +34797,7 @@ window.WINE_QUESTIONS = [
       "8番"
     ],
     "answerIndex": 0,
-    "explanation": "Hermitageは地図の6番。Hermitageは北部・左岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は6番→エルミタージュ、7番→Cornas、5番→クローズ・エルミタージュ、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Hermitage（エルミタージュ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-099",
@@ -34809,7 +34852,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "エルミタージュ",
-    "explanation": "地図の6番はエルミタージュ。エルミタージュは北部・左岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は5番→クローズ・エルミタージュ、6番→エルミタージュ、7番→Cornas、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：エルミタージュの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-103",
@@ -34878,7 +34921,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "サン・ジョゼフ",
-    "explanation": "地図の4番はサン・ジョゼフ。サン・ジョゼフは北部・右岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は3番→Château-Grillet、4番→Saint-Joseph、5番→クローズ・エルミタージュ、6番→エルミタージュ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：サン・ジョゼフの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-108",
@@ -34968,7 +35011,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-114",
     "category": "フランス/ローヌ渓谷",
     "importance": "A",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Josephに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でSaint-Joseph（サン・ジョゼフ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -34981,7 +35024,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 0,
-    "explanation": "Saint-Josephは地図の4番。Saint-Josephは北部・右岸、赤・白。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は4番→Saint-Joseph、6番→エルミタージュ、7番→Cornas、5番→クローズ・エルミタージュ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Saint-Joseph（サン・ジョゼフ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-115",
@@ -35155,7 +35198,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-127",
     "category": "フランス/ローヌ渓谷",
     "importance": "A",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCôte-Rôtieに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCôte-Rôtie（コート・ロティ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -35168,7 +35211,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 3,
-    "explanation": "Côte-Rôtieは地図の1番。Côte-Rôtieは北部・右岸、赤のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は6番→エルミタージュ、5番→クローズ・エルミタージュ、8番→サン・ペレイ、1番→Côte-Rôtie。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Côte-Rôtie（コート・ロティ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-128",
@@ -35335,7 +35378,7 @@ window.WINE_QUESTIONS = [
       "caption": "ローヌ渓谷地方北部"
     },
     "answerText": "サン・ペレイ",
-    "explanation": "地図の8番はサン・ペレイ。サン・ペレイは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は7番→Cornas、8番→サン・ペレイ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：サン・ペレイの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-140",
@@ -35355,7 +35398,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-141",
     "category": "フランス/ローヌ渓谷",
     "importance": "A",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieuに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCondrieu（コンドリュー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -35368,7 +35411,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 2,
-    "explanation": "Condrieuは地図の2番。Condrieuは北部・右岸、白のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は1番→Côte-Rôtie、4番→Saint-Joseph、2番→Condrieu、6番→エルミタージュ。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：ヴィオニエ、マルサンヌ、ルーサンヌ\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Condrieu（コンドリュー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-142",
@@ -35458,7 +35501,7 @@ window.WINE_QUESTIONS = [
     "id": "france-rhone-148",
     "category": "フランス/ローヌ渓谷",
     "importance": "A",
-    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCornasに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ローヌ渓谷地方北部のAOCの地図です。地図上でCornas（コルナス）に相当する番号を選択してください。",
     "image": {
       "src": "assets/rhone-septentrional-map.jpg",
       "alt": "ローヌ渓谷地方北部のAOC地図",
@@ -35471,7 +35514,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 0,
-    "explanation": "Cornasは地図の7番。Cornasは北部・右岸、赤のみ。右岸は西側、左岸は東側。川の流れに背を向けて判定。\n北からCôte-Rôtie、Condrieu、Saint-Joseph、Hermitage、Cornas、Saint-Péray。\n選択肢の対応は7番→Cornas、8番→サン・ペレイ、5番→クローズ・エルミタージュ、1番→Côte-Rôtie。"
+    "explanation": "所属地区：北部ローヌ・ローヌ川右岸／左岸　主要品種：シラー主体\n近隣の頻出村・産地：Côte-Rôtie（コート・ロティ）、Condrieu（コンドリュー）、Hermitage（エルミタージュ）、Cornas（コルナス）\n見分け方：Cornas（コルナス）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-rhone-149",
@@ -38701,7 +38744,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-102",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でCampaniaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でCampania（カンパーニア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -38714,7 +38757,7 @@ window.WINE_QUESTIONS = [
       "15番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上の対応は15番。北西の1番から島の19・20番まで位置で結ぶ。\n18番→Calabria、2番→Piemonte、7番→Friuli-Venezia Giulia、15番→Campania。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：南部イタリア・ティレニア海側　主要品種：アリアニコ、フィアーノ、グレコ\n近隣の頻出村・産地：Lazio（ラツィオ）、Molise（モリーゼ）、Puglia（プーリア）、Basilicata（バジリカータ）\n見分け方：Campania（カンパーニア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-104",
@@ -38818,7 +38861,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-116",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でPugliaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でPuglia（プーリア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -38831,7 +38874,7 @@ window.WINE_QUESTIONS = [
       "16番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上の対応は16番。北西の1番から島の19・20番まで位置で結ぶ。\n17番→Basilicata、2番→Piemonte、6番→Veneto、16番→Puglia。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：南部イタリア・アドリア海側　主要品種：プリミティーヴォ、ネグロアマーロ、ウーヴァ・ディ・トロイア\n近隣の頻出村・産地：Molise（モリーゼ）、Campania（カンパーニア）、Basilicata（バジリカータ）\n見分け方：Puglia（プーリア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-117",
@@ -38935,7 +38978,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-131",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でAbruzzoに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でAbruzzo（アブルッツォ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -38948,7 +38991,7 @@ window.WINE_QUESTIONS = [
       "7番"
     ],
     "answerIndex": 2,
-    "explanation": "地図上の対応は13番。北西の1番から島の19・20番まで位置で結ぶ。\n5番→Trentino-Alto Adige、2番→Piemonte、13番→Abruzzo、7番→Friuli-Venezia Giulia。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：中部イタリア・アドリア海側　主要品種：モンテプルチャーノ、トレッビアーノ・アブルッツェーゼ\n近隣の頻出村・産地：Marche（マルケ）、Molise（モリーゼ）、Lazio（ラツィオ）\n見分け方：Abruzzo（アブルッツォ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-132",
@@ -39010,7 +39053,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-138",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でCalabriaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でCalabria（カラブリア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -39023,7 +39066,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上の対応は18番。北西の1番から島の19・20番まで位置で結ぶ。\n5番→Trentino-Alto Adige、18番→Calabria、7番→Friuli-Venezia Giulia、9番→Toscana。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：南部イタリア・半島先端　主要品種：ガリオッポ、グレーコ・ビアンコ\n近隣の頻出村・産地：Basilicata（バジリカータ）、Sicilia（シチリア）\n見分け方：Calabria（カラブリア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-139",
@@ -39123,7 +39166,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "マルケ州"
     ],
-    "explanation": "地図上の対応はマルケ。北西の1番から島の19・20番まで位置で結ぶ。\n10番→Umbria、11番→Marche、12番→Lazio、13番→Abruzzo。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：中部イタリア・アドリア海側　主要品種：ヴェルディッキオ、モンテプルチャーノ、サンジョヴェーゼ\n近隣の頻出村・産地：Emilia-Romagna（エミリア・ロマーニャ）、Umbria（ウンブリア）、Abruzzo（アブルッツォ）\n見分け方：マルケの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-150",
@@ -39321,7 +39364,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ピエモンテ州"
     ],
-    "explanation": "地図上の対応はピエモンテ。北西の1番から島の19・20番まで位置で結ぶ。\n1番→Valle d’Aosta、2番→Piemonte、3番→Liguria、4番→Lombardia。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：北西部イタリア　主要品種：ネッビオーロ、バルベーラ、モスカート\n近隣の頻出村・産地：リグーリア、ロンバルディア、ヴァッレ・ダオスタ\n見分け方：ピエモンテの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-168",
@@ -39383,7 +39426,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-172",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でEmilia Romagnaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でEmilia Romagna（エミリア・ロマーニャ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -39396,7 +39439,7 @@ window.WINE_QUESTIONS = [
       "7番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上の対応は8番。北西の1番から島の19・20番まで位置で結ぶ。\n13番→Abruzzo、8番→Emilia-Romagna、15番→Campania、7番→Friuli-Venezia Giulia。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：北部イタリア・ポー平原南側　主要品種：ランブルスコ、サンジョヴェーゼ、トレッビアーノ・ロマニョーロ\n近隣の頻出村・産地：Lombardia（ロンバルディア）、Veneto（ヴェネト）、Toscana（トスカーナ）\n見分け方：Emilia Romagna（エミリア・ロマーニャ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-overview-law-173",
@@ -39416,7 +39459,7 @@ window.WINE_QUESTIONS = [
     "id": "italy-overview-law-179",
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でLiguriaに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でLiguria（リグーリア）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -39429,7 +39472,7 @@ window.WINE_QUESTIONS = [
       "1番"
     ],
     "answerIndex": 1,
-    "explanation": "地図上の対応は3番。北西の1番から島の19・20番まで位置で結ぶ。\n9番→Toscana、3番→Liguria、6番→Veneto、1番→Valle d’Aosta。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。"
+    "explanation": "所属地区：北西部・地中海沿岸　主要品種：ヴェルメンティーノ、ロッセーゼ\n近隣の頻出村・産地：Piemonte（ピエモンテ）、Toscana（トスカーナ）、Emilia-Romagna（エミリア・ロマーニャ）\n見分け方：Liguria（リグーリア）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "italy-docg-doc-282",
@@ -45553,7 +45596,7 @@ window.WINE_QUESTIONS = [
   {
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でPiemonteに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でPiemonte（ピエモンテ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -45566,7 +45609,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上の対応は2番。北西の1番から島の19・20番まで位置で結ぶ。\n11番→Marche、4番→Lombardia、7番→Friuli-Venezia Giulia、2番→Piemonte。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。",
+    "explanation": "所属地区：北西部イタリア　主要品種：ネッビオーロ、バルベーラ、モスカート\n近隣の頻出村・産地：Liguria（リグーリア）、Lombardia（ロンバルディア）、Valle d'Aosta（ヴァッレ・ダオスタ）\n見分け方：Piemonte（ピエモンテ）の位置を、周辺産地との並びで覚える。",
     "id": "italy-overview-law-183"
   },
   {
@@ -45596,7 +45639,7 @@ window.WINE_QUESTIONS = [
     "answerTextAliases": [
       "ヴェネト"
     ],
-    "explanation": "地図上の対応はヴェネト。北西の1番から島の19・20番まで位置で結ぶ。\n5番→Trentino-Alto Adige、6番→Veneto、7番→Friuli-Venezia Giulia、8番→Emilia-Romagna。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。",
+    "explanation": "所属地区：北東部イタリア　主要品種：グレーラ、ガルガーネガ、コルヴィーナ\n近隣の頻出村・産地：トレンティーノ・アルト・アディジェ、フリウリ・ヴェネツィア・ジューリア、ロンバルディア\n見分け方：ヴェネトの位置を、周辺産地との並びで覚える。",
     "id": "italy-overview-law-185"
   },
   {
@@ -45630,7 +45673,7 @@ window.WINE_QUESTIONS = [
   {
     "category": "イタリア/概論、歴史、品種、ワイン法",
     "importance": "A",
-    "question": "下記の画像はイタリア20州の地図です。地図上でTrentino-Alto Adigeに相当する番号を選択してください。",
+    "question": "下記の画像はイタリア20州の地図です。地図上でTrentino-Alto Adige（トレンティーノ・アルト・アディジェ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/italy-regions-map.jpg",
       "alt": "イタリア20州の地図",
@@ -45643,7 +45686,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 3,
-    "explanation": "地図上の対応は5番。北西の1番から島の19・20番まで位置で結ぶ。\n7番→Friuli-Venezia Giulia、14番→Molise、17番→Basilicata、5番→Trentino-Alto Adige。\n番号は北西から東へ進み、その後に中部・南部・Sicilia・Sardegnaへ下る。",
+    "explanation": "所属地区：北東部・アルプス山麓　主要品種：ピノ・グリージョ、シャルドネ、スキアーヴァ\n近隣の頻出村・産地：Veneto（ヴェネト）、Lombardia（ロンバルディア）、Friuli-Venezia Giulia（フリウリ・ヴェネツィア・ジューリア）\n見分け方：Trentino-Alto Adige（トレンティーノ・アルト・アディジェ）の位置を、周辺産地との並びで覚える。",
     "id": "italy-overview-law-188"
   },
   {
@@ -46798,7 +46841,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-068",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でSaint-Julienに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でSaint-Julien（サン・ジュリアン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
       "alt": "メドック＆グラーヴ地区のAOC地図",
@@ -46811,7 +46854,7 @@ window.WINE_QUESTIONS = [
       "6番"
     ],
     "answerIndex": 0,
-    "explanation": "す。地図上でSaint-Julienは地図の5番に位置する。す。地図上でSaint-Julienは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は5番→Saint-Julien、3番→Saint-Estèphe、4番→ポイヤック、6番→マルゴー。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：Saint-Julien（サン・ジュリアン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-069",
@@ -46929,7 +46972,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-077",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でPessac-Léognanに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、メドック＆グラーヴ地区のAOCの地図です。地図上でPessac-Léognan（ペサック・レオニャン）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-medoc-graves.jpg",
       "alt": "メドック＆グラーヴ地区のAOC地図",
@@ -46942,7 +46985,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 2,
-    "explanation": "す。地図上でPessac-Léognanは地図の10番に位置する。す。地図上でPessac-Léognanは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は1番→メドック、5番→Saint-Julien、10番→Pessac-Léognan、4番→ポイヤック。"
+    "explanation": "所属地区：ボルドー左岸・メドック／グラーヴ　主要品種：カベルネ・ソーヴィニョン主体\n近隣の頻出村・産地：Saint-Estèphe（サン・テステフ）、Pauillac（ポイヤック）、Saint-Julien（サン・ジュリアン）、Margaux（マルゴー）\n見分け方：Pessac-Léognan（ペサック・レオニャン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "france-bordeaux-aoc-078",
@@ -46962,7 +47005,7 @@ window.WINE_QUESTIONS = [
     "id": "france-bordeaux-aoc-079",
     "category": "フランス/ボルドー（概要・AOC）",
     "importance": "S",
-    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPomerolに相当する番号を選択してください。",
+    "question": "下記の画像はフランス、ボルドー地方、サン・テミリオン・ポムロール・フロンサック地区のAOCの地図です。地図上でPomerol（ポムロール）に相当する番号を選択してください。",
     "image": {
       "src": "assets/bordeaux-saint-emilion-pomerol-fronsac.jpg",
       "alt": "サン・テミリオン・ポムロール・フロンサック地区のAOC地図",
@@ -46975,7 +47018,7 @@ window.WINE_QUESTIONS = [
       "5番"
     ],
     "answerIndex": 2,
-    "explanation": "す。地図上でPomerolは地図の6番に位置する。す。地図上でPomerolは設問の地区。河川と隣接AOCを基準に置く。左岸はメドック・グラーヴ、右岸はサンテミリオン系。\nガロンヌとドルドーニュが合流してジロンド川になる。\n選択肢の対応は7番→ラランド・ド・ポムロール、2番→サンジョルジュ・サンテミリオン、6番→Pomerol、5番→ピュイスガン・サンテミリオン。"
+    "explanation": "所属地区：ボルドー右岸・リブルヌ地区　主要品種：メルロ、カベルネ・フラン\n近隣の頻出村・産地：Saint-Émilion（サンテミリオン）、Pomerol（ポムロール）、Fronsac（フロンサック）\n見分け方：Pomerol（ポムロール）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "management-001",
@@ -49011,7 +49054,7 @@ window.WINE_QUESTIONS = [
     "id": "hungary-003",
     "category": "ハンガリー",
     "importance": "A",
-    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でEgerに相当する番号を選択してください。",
+    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でEger（エゲル）に相当する番号を選択してください。",
     "image": {
       "src": "assets/hungary-wine-regions-map.jpg",
       "alt": "ハンガリーのワイン産地の地図",
@@ -49024,7 +49067,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 0,
-    "explanation": "地図では10番→Eger。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：北部ハンガリー　主要品種：ケークフランコシュ、カダルカ\n近隣の頻出村・産地：Tokaj（トカイ）、Mátra（マートラ）、Bükk（ビュック）\n見分け方：Eger（エゲル）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-004",
@@ -49142,7 +49185,7 @@ window.WINE_QUESTIONS = [
     "id": "hungary-012",
     "category": "ハンガリー",
     "importance": "A",
-    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でVillányに相当する番号を選択してください。",
+    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でVillány（ヴィッラーニ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/hungary-wine-regions-map.jpg",
       "alt": "ハンガリーのワイン産地の地図",
@@ -49155,7 +49198,7 @@ window.WINE_QUESTIONS = [
       "15番"
     ],
     "answerIndex": 0,
-    "explanation": "地図では31番→Villány。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：パンノン地方南部　主要品種：カベルネ・フラン、ケークフランコシュ\n近隣の頻出村・産地：Szekszárd（セクサールド）、Pécs（ペーチ）、Tolna（トルナ）\n見分け方：Villány（ヴィッラーニ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-013",
@@ -49196,13 +49239,13 @@ window.WINE_QUESTIONS = [
       "caption": "ハンガリー ワイン産地地図"
     },
     "choices": [
-      "Eger",
-      "Villány",
-      "Badacsony",
-      "Duna"
+      "Eger（エゲル）",
+      "Villány（ヴィッラーニ）",
+      "Badacsony（バダチョニ）",
+      "Duna（ドゥナ）"
     ],
     "answerIndex": 1,
-    "explanation": "地図では31番→Villány。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：パンノン地方南部　主要品種：カベルネ・フラン、ケークフランコシュ\n近隣の頻出村・産地：Szekszárd（セクサールド）、Pécs（ペーチ）、Tolna（トルナ）\n見分け方：Villány（ヴィッラーニ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-016",
@@ -49264,7 +49307,7 @@ window.WINE_QUESTIONS = [
     "id": "hungary-020",
     "category": "ハンガリー",
     "importance": "A",
-    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でBadacsonyに相当する番号を選択してください。",
+    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でBadacsony（バダチョニ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/hungary-wine-regions-map.jpg",
       "alt": "ハンガリーのワイン産地の地図",
@@ -49277,13 +49320,13 @@ window.WINE_QUESTIONS = [
       "31番"
     ],
     "answerIndex": 1,
-    "explanation": "地図では1番→Badacsony。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：バラトン湖北岸　主要品種：オラスリズリング、ケークニェリュ\n近隣の頻出村・産地：Balatonfüred-Csopak（バラトンフュレド・チョパク）、Somló（ショムロー）、Balatonboglár（バラトンボグラール）\n見分け方：Badacsony（バダチョニ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-021",
     "category": "ハンガリー",
     "importance": "A",
-    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でDunaに相当する番号を選択してください。",
+    "question": "下記の画像はハンガリーのワイン産地の地図です。地図上でDuna（ドゥナ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/hungary-wine-regions-map.jpg",
       "alt": "ハンガリーのワイン産地の地図",
@@ -49296,7 +49339,7 @@ window.WINE_QUESTIONS = [
       "15番"
     ],
     "answerIndex": 2,
-    "explanation": "地図では9番→Duna。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：ハンガリー大平原・ドナウ地域　主要品種：チェルセギ・フューセレシュ、クンレアニ\n近隣の頻出村・産地：Kunság（クンシャーグ）、Hajós-Baja（ハヨーシュ・バヤ）、Csongrád（チョングラード）\n見分け方：Duna（ドゥナ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-022",
@@ -49407,13 +49450,13 @@ window.WINE_QUESTIONS = [
       "caption": "ハンガリー ワイン産地地図"
     },
     "choices": [
-      "Tokaj",
-      "Duna",
-      "Villány",
-      "Pannon"
+      "Tokaj（トカイ）",
+      "Duna（ドゥナ）",
+      "Villány（ヴィッラーニ）",
+      "Pannon（パンノン）"
     ],
     "answerIndex": 0,
-    "explanation": "地図では29番→Tokaj。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：ハンガリー北東部　主要品種：フルミント、ハールシュレヴェリュー、シャールガ・ムシュコタイ\n近隣の頻出村・産地：Eger（エゲル）、Bükk（ビュック）、Mátra（マートラ）\n見分け方：Tokaj（トカイ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-030",
@@ -49468,13 +49511,13 @@ window.WINE_QUESTIONS = [
       "caption": "ハンガリー ワイン産地地図"
     },
     "choices": [
-      "Villány",
-      "Kunság",
-      "Duna",
-      "Pannon"
+      "Villány（ヴィッラーニ）",
+      "Kunság（クンシャーグ）",
+      "Duna（ドゥナ）",
+      "Pannon（パンノン）"
     ],
     "answerIndex": 3,
-    "explanation": "地図では21番→Pannon。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：ハンガリー南部　主要品種：カベルネ・フラン、ケークフランコシュ\n近隣の頻出村・産地：Villány（ヴィッラーニ）、Szekszárd（セクサールド）、Pécs（ペーチ）\n見分け方：Pannon（パンノン）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-034",
@@ -49543,13 +49586,13 @@ window.WINE_QUESTIONS = [
       "caption": "ハンガリー ワイン産地地図"
     },
     "choices": [
-      "Badacsony",
-      "Pannon",
-      "Eger",
-      "Villány"
+      "Badacsony（バダチョニ）",
+      "Pannon（パンノン）",
+      "Eger（エゲル）",
+      "Villány（ヴィッラーニ）"
     ],
     "answerIndex": 0,
-    "explanation": "地図では1番→Badacsony。北東のTokajとEger、南端のVillány、西のBalaton周辺を先に押さえる。\n1→Badacsony、9→Duna、10→Eger、21→Pannon、29→Tokaj、31→Villány。\nTokajは北東端、Villányはクロアチア国境、BadacsonyはBalaton湖北岸という位置関係が判別の軸。"
+    "explanation": "所属地区：バラトン湖北岸　主要品種：オラスリズリング、ケークニェリュ\n近隣の頻出村・産地：Balatonfüred-Csopak（バラトンフュレド・チョパク）、Somló（ショムロー）、Balatonboglár（バラトンボグラール）\n見分け方：Badacsony（バダチョニ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "hungary-039",
@@ -51112,7 +51155,7 @@ window.WINE_QUESTIONS = [
     "id": "switzerland-006",
     "category": "スイス",
     "importance": "A",
-    "question": "下記の画像はスイスのワイン産地の地図です。地図上でNeuchâtelに相当する番号を選択してください。",
+    "question": "下記の画像はスイスのワイン産地の地図です。地図上でNeuchâtel（ヌーシャテル）に相当する番号を選択してください。",
     "image": {
       "src": "assets/switzerland-wine-regions-map.jpg",
       "alt": "スイスのワイン産地の地図",
@@ -51125,7 +51168,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 3,
-    "explanation": "Neuchâtelは地図の4番で、ヌーシャテル湖からビール湖へ続く三湖地方。\n2番Vaud、3番Genève、5番Jura。レマン湖沿いの2・3と、北西部の4・5を分ける。"
+    "explanation": "所属地区：スイス西部・三湖地方　主要品種：シャスラ、ピノ・ノワール\n近隣の頻出村・産地：Vaud（ヴォー）、Jura（ジュラ）、Bielersee（ビール湖）\n見分け方：Neuchâtel（ヌーシャテル）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-007",
@@ -51198,7 +51241,7 @@ window.WINE_QUESTIONS = [
       "ヴォー州",
       "Vaud"
     ],
-    "explanation": "2番はVaud。レマン湖北岸に細長く広がり、LavauxやLa Côteを含むスイス第2の産地。\n1番Valaisはローヌ渓谷、3番Genèveは南西端、4番Neuchâtelは三湖地方。"
+    "explanation": "所属地区：レマン湖北岸　主要品種：シャスラ主体\n近隣の頻出村・産地：ジュネーヴ、ヴァレー、ヌーシャテル\n見分け方：ヴォーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-012",
@@ -51218,7 +51261,7 @@ window.WINE_QUESTIONS = [
     "id": "switzerland-013",
     "category": "スイス",
     "importance": "A",
-    "question": "下記の画像はスイスのワイン産地の地図です。地図上でGenèveに相当する番号を選択してください。",
+    "question": "下記の画像はスイスのワイン産地の地図です。地図上でGenève（ジュネーヴ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/switzerland-wine-regions-map.jpg",
       "alt": "スイスのワイン産地の地図",
@@ -51231,7 +51274,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 2,
-    "explanation": "Genèveは地図の3番で、レマン湖西端のフランス国境側。主要品種はChasselasとGamay。\n2番Vaud、1番Valais、4番Neuchâtel。湖の西端にある小さな突出部がGenève。"
+    "explanation": "所属地区：スイス西端・レマン湖西側　主要品種：シャスラ、ガメイ、ピノ・ノワール\n近隣の頻出村・産地：Vaud（ヴォー）、Valais（ヴァレー）、Neuchâtel（ヌーシャテル）\n見分け方：Genève（ジュネーヴ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-014",
@@ -51389,7 +51432,7 @@ window.WINE_QUESTIONS = [
       "Valais",
       "Wallis"
     ],
-    "explanation": "1番はValais。レマン湖東側からローヌ川上流へ細長く延びるスイス最大の産地。\n2番Vaudはレマン湖北岸、9番Ticinoは南端。川筋の細長い形がValaisの目印。"
+    "explanation": "所属地区：ローヌ川上流・スイス南西部　主要品種：シャスラ、ピノ・ノワール、プティット・アルヴィーヌ\n近隣の頻出村・産地：ヴォー、ジュネーヴ、ティチーノ\n見分け方：ヴァレーの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-025",
@@ -51479,7 +51522,7 @@ window.WINE_QUESTIONS = [
     "id": "switzerland-031",
     "category": "スイス",
     "importance": "A",
-    "question": "下記の画像はスイスのワイン産地の地図です。地図上でJuraに相当する番号を選択してください。",
+    "question": "下記の画像はスイスのワイン産地の地図です。地図上でJura（ジュラ）に相当する番号を選択してください。",
     "image": {
       "src": "assets/switzerland-wine-regions-map.jpg",
       "alt": "スイスのワイン産地の地図",
@@ -51492,7 +51535,7 @@ window.WINE_QUESTIONS = [
       "2番"
     ],
     "answerIndex": 0,
-    "explanation": "Juraは地図の5番で、フランス国境に接するスイス北西端の最小産地。\n4番Neuchâtel、2番Vaud、3番Genève。Juraは国土の端に小さく突き出す位置で識別する。"
+    "explanation": "所属地区：スイス北西部　主要品種：ピノ・ノワール、シャスラ\n近隣の頻出村・産地：Neuchâtel（ヌーシャテル）、Vaud（ヴォー）、バーゼル周辺\n見分け方：Jura（ジュラ）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-032",
@@ -51523,7 +51566,7 @@ window.WINE_QUESTIONS = [
       "ティチーノ州",
       "Ticino"
     ],
-    "explanation": "9番はTicino。アルプス南側でイタリア国境に接し、Merlotが栽培面積の約80%を占める。\n1番Valais、2番Vaud、3番Genève。南に離れた9番はイタリア語圏の目印。"
+    "explanation": "所属地区：スイス南部・イタリア語圏　主要品種：メルロ主体\n近隣の頻出村・産地：Valais（ヴァレー）、Graubünden（グラウビュンデン）、Lombardia（ロンバルディア）\n見分け方：ティチーノの位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-034",
@@ -51571,7 +51614,7 @@ window.WINE_QUESTIONS = [
     "id": "switzerland-037",
     "category": "スイス",
     "importance": "A",
-    "question": "下記の画像はスイスのワイン産地の地図です。地図上でValaisに相当する番号を選択してください。",
+    "question": "下記の画像はスイスのワイン産地の地図です。地図上でValais（ヴァレー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/switzerland-wine-regions-map.jpg",
       "alt": "スイスのワイン産地の地図",
@@ -51584,7 +51627,7 @@ window.WINE_QUESTIONS = [
       "4番"
     ],
     "answerIndex": 1,
-    "explanation": "Valaisは地図の1番。ローヌ川に沿う南西部の細長い産地で、FendantやPetite Arvineが重要。\n2番Vaud、4番Neuchâtel、5番Jura。Valaisだけがレマン湖東側から内陸へ伸びる。"
+    "explanation": "所属地区：ローヌ川上流・スイス南西部　主要品種：シャスラ、ピノ・ノワール、プティット・アルヴィーヌ\n近隣の頻出村・産地：Vaud（ヴォー）、Genève（ジュネーヴ）、Ticino（ティチーノ）\n見分け方：Valais（ヴァレー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-038",
@@ -51660,7 +51703,7 @@ window.WINE_QUESTIONS = [
     "id": "switzerland-043",
     "category": "スイス",
     "importance": "A",
-    "question": "下記の画像はスイスのワイン産地の地図です。地図上でVaudに相当する番号を選択してください。",
+    "question": "下記の画像はスイスのワイン産地の地図です。地図上でVaud（ヴォー）に相当する番号を選択してください。",
     "image": {
       "src": "assets/switzerland-wine-regions-map.jpg",
       "alt": "スイスのワイン産地の地図",
@@ -51673,7 +51716,7 @@ window.WINE_QUESTIONS = [
       "9番"
     ],
     "answerIndex": 0,
-    "explanation": "Vaudは地図の2番。レマン湖北岸に広がる第2の産地で、ChasselasとLavauxが核。\n3番Genèveは湖西端、1番Valaisは東のローヌ渓谷、9番Ticinoは南端。"
+    "explanation": "所属地区：レマン湖北岸　主要品種：シャスラ主体\n近隣の頻出村・産地：Genève（ジュネーヴ）、Valais（ヴァレー）、Neuchâtel（ヌーシャテル）\n見分け方：Vaud（ヴォー）の位置を、周辺産地との並びで覚える。"
   },
   {
     "id": "switzerland-044",
@@ -54418,5 +54461,397 @@ window.WINE_QUESTIONS = [
     "answerIndex": 0,
     "explanation": "Adjaraはトルコ国境に近い黒海沿岸の南西部。舟形Khachapuriで知られる地域でもあり、料理と地理を一緒に覚えられる。\nImeretiも西部だが内陸、KakhetiとKartliは東部。設問の「黒海沿岸部」がAdjaraを選ぶ決定的な手掛かり。",
     "category": "ジョージア"
+  },
+  {
+    "id": "slovenia-001",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "次の中からスロヴェニアで最も多く栽培されている品種を選択してください。",
+    "choices": [
+      "メルロ",
+      "ラシュキ・リーズリング",
+      "ソーヴィニョン",
+      "レフォシュク"
+    ],
+    "answerIndex": 1,
+    "explanation": "Laški RizlingはWelschrieslingの現地名で、冷涼なPodravjeを中心に広く栽培される同国最多品種。Rieslingとは別品種である。\nMerlotはPrimorskaの重要黒品種、RefoškはKraški Teranの原料。Sauvignonも多いが首位ではない。"
+  },
+  {
+    "id": "slovenia-002",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "次の中からスロヴェニアにおける原産地呼称保護ワインの略称を選択してください。",
+    "choices": [
+      "PTP",
+      "PDC",
+      "PGI",
+      "PDO"
+    ],
+    "answerIndex": 3,
+    "explanation": "PDOは原産地と品質・製法の結び付きが強いEUの原産地呼称保護。スロヴェニア語ではZGPに相当する。\nPGIはより広域な地理的表示。PTPはCvičekなど伝統的名称を守る区分で、PDCはこの制度の略称ではない。"
+  },
+  {
+    "id": "slovenia-003",
+    "category": "スロヴェニア",
+    "importance": "B",
+    "question": "次のスロヴェニアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "スロヴェニアでは原産地呼称保護ワインは生産されていない",
+      "スロヴェニアの国土の北側はクロアチアと接している",
+      "スロヴェニアはEUにまだ加盟していない",
+      "スロヴェニアの国土の総面積は日本の四国程度である"
+    ],
+    "answerIndex": 3,
+    "explanation": "国土は約2万km²で四国とほぼ同規模。小国ながらアルプス、パンノニア平原、地中海の影響が交わり、多様な産地を持つ。\n北はオーストリア、南・東がクロアチア。2004年にEU加盟し、PDOワインも生産される。"
+  },
+  {
+    "id": "slovenia-004",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "次の中からスロヴェニアのプリモルスカ地域で「クラシュキ・テラン」を生産する品種を選択してください。",
+    "choices": [
+      "ソーヴィニョン",
+      "レフォシュク",
+      "ラシュキ・リーズリング",
+      "シャルドネ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kraški TeranはPrimorskaのKras地区で、赤土Terra Rossaに育つRefoškから造る高酸の赤。産地・土壌・品種を一組にする。\nLaški Rizlingは主に東部の白、SauvignonとChardonnayも白品種で、Teranの原料ではない。"
+  },
+  {
+    "id": "slovenia-005",
+    "category": "スロヴェニア",
+    "importance": "B",
+    "question": "次のスロヴェニアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "スロヴェニアの国土の総面積は日本と同じくらいである",
+      "スロヴェニアではブレンドワインが主体である",
+      "スロヴェニアはEUに加盟している",
+      "スロヴェニアの国土の北側はクロアチアと接している"
+    ],
+    "answerIndex": 2,
+    "explanation": "スロヴェニアは2004年にEUへ加盟し、EU共通のPDO・PGI制度を採用する。現在は単一品種表示のワインも重要である。\n面積は日本全体ではなく四国程度。北はオーストリアで、クロアチアは主に南側と東側に接する。"
+  },
+  {
+    "id": "slovenia-006",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "次の中からスロヴェニアにおける地理的表示保護ワインの略称を選択してください。",
+    "choices": [
+      "PDO",
+      "PTP",
+      "PGI",
+      "PDC"
+    ],
+    "answerIndex": 2,
+    "explanation": "PGIは地理的表示保護で、PDOより原料・製法と産地の結び付きが緩やかな広域区分。スロヴェニア語ではZGOに当たる。\nPDOは原産地呼称保護、PTPは伝統的名称を守る区分。英語略称は「原産地PDO、地理的表示PGI」と対で覚える。"
+  },
+  {
+    "id": "slovenia-007",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "下記の説明に合致するスロヴェニアのワイン産地を選択してください。\n「この地を代表するCvičekというロゼワインが生産されている産地」",
+    "choices": [
+      "プリモルスカ地域",
+      "ポサウイエ地域",
+      "イストラ地域",
+      "ポドラウイエ地域"
+    ],
+    "answerIndex": 1,
+    "explanation": "CvičekはPosavjeのDolenjska地区を代表する伝統的ワインで、黒白両品種を用いる淡色・低アルコール・高酸のスタイル。\nPrimorskaは西部の地中海側、Podravjeは北東部の白ワイン中心。IstraはPrimorskaに含まれる地区名で、Cvičekの故郷ではない。"
+  },
+  {
+    "id": "slovenia-008",
+    "category": "スロヴェニア",
+    "importance": "C",
+    "question": "次の中からスロヴェニアの2024年の年間ワイン生産量に最も近いものを選択してください。",
+    "choices": [
+      "73万ヘクトリットル",
+      "57万ヘクトリットル",
+      "480万ヘクトリットル",
+      "37万ヘクトリットル"
+    ],
+    "answerIndex": 3,
+    "explanation": "2024年の生産量は約37万hL。登録栽培面積約1.4万haの小国であることと結び付けると、480万hLのような大産国級の数字を除外できる。\n統計は「面積1.4万ha・生産37万hL」。73万、57万は規模感が近いひっかけなので基準年も確認する。"
+  },
+  {
+    "id": "slovenia-009",
+    "category": "スロヴェニア",
+    "importance": "A",
+    "question": "下記の説明に合致するスロヴェニアのワイン産地を選択してください。\n「北西のイタリア国境沿いとその南に続くアドリア海沿岸地域」",
+    "choices": [
+      "イストラ地域",
+      "ポドラウイエ地域",
+      "ザゴリエ・ムジムリエ地域",
+      "プリモルスカ地域"
+    ],
+    "answerIndex": 3,
+    "explanation": "Primorskaは「海沿い」を意味し、イタリア国境からアドリア海岸へ続く西部地域。地中海の影響を受け、赤白ともに造る。\nIstraはPrimorska内の一地区、Podravjeは北東部。Zagorje・Međimurjeは隣国クロアチア側の名称。"
+  },
+  {
+    "id": "slovenia-010",
+    "category": "スロヴェニア",
+    "importance": "C",
+    "question": "次の中からスロヴェニアの2024年時点の公式に登録されたブドウ栽培面積に最も近いものを選択してください。",
+    "choices": [
+      "33万ヘクタール",
+      "3.6万ヘクタール",
+      "1.4万ヘクタール",
+      "14万ヘクタール"
+    ],
+    "answerIndex": 2,
+    "explanation": "公式登録の栽培面積は約1.4万ha。国土が四国程度で急斜面も多い小国という規模感に合う。\n年間生産量約37万hLとセットで覚える。14万haや33万haは国土規模に対して大きすぎ、3.6万haも倍以上になる。"
+  },
+  {
+    "id": "romania-001",
+    "category": "ルーマニア",
+    "importance": "A",
+    "question": "次の中からルーマニアで原産地呼称保護に相当する品質分類を選択してください。",
+    "choices": [
+      "CIB",
+      "DOC",
+      "ZGP",
+      "CMD"
+    ],
+    "answerIndex": 1,
+    "explanation": "DOC（Denumire de Origine Controlată）がEUのPDOに相当し、限定産地・認可品種・収量などの規定で原産地を保証する。\nCMDとCIBはDOCの中で収穫時の熟度を示す表示。ZGPはスロヴェニア語圏のPDO表記で、ルーマニアの分類ではない。"
+  },
+  {
+    "id": "romania-002",
+    "category": "ルーマニア",
+    "importance": "A",
+    "question": "次の中からルーマニアで地理的表示保護に相当する品質分類を選択してください。",
+    "choices": [
+      "CIB",
+      "IGP",
+      "ZGP",
+      "CMD"
+    ],
+    "answerIndex": 1,
+    "explanation": "IGP（Indicație Geografică Protejată）がEUのPGIに相当し、DOCより広い地域単位で地理的由来を保護する。\nCIBとCMDは熟度区分で、地理的表示の階層ではない。原産地との結び付きが強いDOC、その下に広域のIGPと整理する。"
+  },
+  {
+    "id": "romania-003",
+    "category": "ルーマニア",
+    "importance": "A",
+    "question": "次の中からルーマニアで栽培されているブドウ品種で「白い乙女」という意味を持つものを選択してください。",
+    "choices": [
+      "ブスイオアカ・デ・ボホティン",
+      "フェテアスカ・レガーラ",
+      "フェテアスカ・アルバ",
+      "グラサ・デ・コトナリ"
+    ],
+    "answerIndex": 2,
+    "explanation": "Fetească Albăは「白い乙女」の意。feteascăが乙女、albăが白を表し、辛口から甘口まで造るルーマニアの代表白品種。\nFetească Regalăは「王家の乙女」。Grasă de Cotnariは甘口で著名、Busuioacă de Bohotinは芳香性のグリ系品種。"
+  },
+  {
+    "id": "romania-004",
+    "category": "ルーマニア",
+    "importance": "A",
+    "question": "次のルーマニアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ルーマニアはフランス、アルザス地方と同じくらいの緯度に位置している。",
+      "ルーマニアではまだ原産地統制名称ワインは生産されていない。",
+      "ルーマニアは2007年にEUに加盟した。",
+      "ルーマニアではメルロ、カベルネ・ソーヴィニョンのような国際品種はほとんど栽培されていない。"
+    ],
+    "answerIndex": 2,
+    "explanation": "ルーマニアはブルガリアとともに2007年にEUへ加盟し、現在はEU共通のPDO・PGI制度に対応するDOC・IGPを採用している。\n緯度は主に北緯43〜48度で、アルザスより概して南。土着品種に加えMerlotやCabernet Sauvignonなど国際品種も広く栽培する。"
+  },
+  {
+    "id": "romania-005",
+    "category": "ルーマニア",
+    "importance": "C",
+    "question": "次の中からルーマニアの2024年のブドウ栽培面積に最も近いものを選択してください。",
+    "choices": [
+      "19万ヘクタール",
+      "3.6万ヘクタール",
+      "12万ヘクタール",
+      "33万ヘクタール"
+    ],
+    "answerIndex": 0,
+    "explanation": "2024年のブドウ栽培面積は約19万ha。東欧有数の広さを持ち、小規模な自家消費用畑も多いことが面積の大きさにつながる。\n年間生産量は約370万hL。「面積19万ha・生産370万hL」を組にし、12万ha級のチリなどと混同しない。"
+  },
+  {
+    "id": "romania-006",
+    "category": "ルーマニア",
+    "importance": "C",
+    "question": "次の中からルーマニアの2024年の年間ワイン生産量に最も近いものを選択してください。",
+    "choices": [
+      "510万ヘクトリットル",
+      "130万ヘクトリットル",
+      "54万ヘクトリットル",
+      "370万ヘクトリットル"
+    ],
+    "answerIndex": 3,
+    "explanation": "2024年の年間生産量は約370万hL。栽培面積約19万haに対して、大規模商業畑だけでなく家庭用・零細畑を多く含む。\n510万hLは多すぎ、130万・54万hLは面積規模に対して小さい。統計は基準年を付けて覚える。"
+  },
+  {
+    "id": "romania-007",
+    "category": "ルーマニア",
+    "importance": "A",
+    "question": "次の中からルーマニアで栽培されているブドウ品種で、グリ系のブドウ品種であり、主に辛口や半辛口のロゼワインに使われているものを選択してください。",
+    "choices": [
+      "ブスイオアカ・デ・ボホティン",
+      "バベアスカ・ネアグラ",
+      "フェテアスカ・ネアグラ",
+      "フランクシャ"
+    ],
+    "answerIndex": 0,
+    "explanation": "Busuioacă de BohotinはMuscat系を思わせる芳香を持つグリ系品種で、辛口・半辛口のロゼに用いられる。名のbusuiocはバジルを意味する。\nBăbească NeagrăとFetească Neagrăは黒品種、Frâncușăは白品種。果皮色とワイン色を分けて判断する。"
+  },
+  {
+    "id": "romania-008",
+    "category": "ルーマニア",
+    "importance": "B",
+    "question": "次のルーマニアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ルーマニアはフランス、アルザス地方と同じくらいの緯度に位置している。",
+      "ルーマニアはまだEUに加盟していない。",
+      "ルーマニアのワイン造りは4000年前に遡ることができる。",
+      "ルーマニアではメルロ、カベルネ・ソーヴィニョンのような国際品種はほとんど栽培されていない。"
+    ],
+    "answerIndex": 2,
+    "explanation": "ルーマニアのワイン造りは約4000年前まで遡り、古代ダキア以前からブドウ文化があったとされる。長い歴史と多様な土着品種が特徴。\nEU加盟は2007年。国際品種も多く、緯度はアルザスより概して南に位置するため、残る選択肢は成立しない。"
+  },
+  {
+    "id": "bulgaria-001",
+    "category": "ブルガリア",
+    "importance": "A",
+    "question": "次の中からブルガリアが位置するところを選択してください。",
+    "choices": [
+      "中央ロシア台地",
+      "バルカン半島",
+      "アナトリア高原",
+      "クリミア半島"
+    ],
+    "answerIndex": 1,
+    "explanation": "ブルガリアはヨーロッパ南東部のバルカン半島にあり、北はドナウ川、東は黒海、南はギリシャとトルコに接する。\nアナトリア高原はトルコのアジア側、クリミア半島は黒海北岸。バルカン山脈が国土を南北に分ける点も産地理解の軸。"
+  },
+  {
+    "id": "bulgaria-002",
+    "category": "ブルガリア",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するブルガリアのワイン産地を選択してください。\n「同国の南半分を占めるPGIで、東部から中央にかけては穏やかな大陸性気候の農業産地帯であり、オーガニック栽培も可能である。」",
+    "choices": [
+      "ストルマ・ヴァレー",
+      "黒海沿岸",
+      "トラキア・ヴァレー",
+      "ドナウ平原"
+    ],
+    "answerIndex": 2,
+    "explanation": "Thracian Valley PGIはバルカン山脈より南の広域を覆い、温暖で乾燥した条件からMavrudなど黒品種と有機栽培に適する。\nDanube Plain PGIは北半分。Struma Valleyと黒海沿岸は主要5産地の一部だが、南半分全体を覆うPGI名ではない。"
+  },
+  {
+    "id": "bulgaria-003",
+    "category": "ブルガリア",
+    "importance": "A",
+    "question": "次の中からブルガリアで栽培されている白ブドウ品種を選択してください。",
+    "choices": [
+      "パミッド",
+      "ディミャット",
+      "ガムザ",
+      "マヴルッド"
+    ],
+    "answerIndex": 1,
+    "explanation": "Dimyatはブルガリアを代表する白品種で、黒海沿岸を中心に軽快な辛口白やブランデー原料に用いられる。\nPamid、Gamza、Mavrudはいずれも黒品種。GamzaはKadarkaと同系、Mavrudは南部トラキアの濃色で熟成力ある赤に結び付く。"
+  },
+  {
+    "id": "bulgaria-004",
+    "category": "ブルガリア",
+    "importance": "B",
+    "question": "次の中からブルガリアで生産されている白いブランデーの名称を選択してください。",
+    "choices": [
+      "ピスコ",
+      "ラキア",
+      "マール",
+      "グラッパ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rakiaはブドウや果実を発酵・蒸留するバルカン諸国の伝統的な無色ブランデー。ブルガリアでは食事とともに親しまれる。\nPiscoはチリ・ペルー、Marcはフランス、Grappaはイタリアの搾りかす蒸留酒。国と原料の違いで整理する。"
+  },
+  {
+    "id": "bulgaria-005",
+    "category": "ブルガリア",
+    "importance": "A",
+    "question": "次の中からブルガリアで、EUのワイン法に基づく地理的表示保護ワインに相当する品質分類を選択してください。",
+    "choices": [
+      "IG",
+      "PDO",
+      "DOC",
+      "PGI"
+    ],
+    "answerIndex": 3,
+    "explanation": "PGIがEUの地理的表示保護に相当し、ブルガリアには北のDanube Plainと南のThracian Valleyという2つの広域PGIがある。\nPDOはより限定された原産地呼称保護。DOCはルーマニアなどの原産地呼称表記で、IGだけではEUの正式分類名にならない。"
+  },
+  {
+    "id": "bulgaria-006",
+    "category": "ブルガリア",
+    "importance": "A",
+    "question": "次のブルガリアに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "ブルガリアには紀元前約1500年〜紀元後6世紀までフェニキア人が住んでいた。",
+      "ブルガリアの主要ワイン産地は一般的に大きく6つの地域に分類される。",
+      "ブルガリアは2007年にEUに加盟した。",
+      "ブルガリアではカベルネ・ソーヴィニョンのような国際品種はほとんど栽培されていない。"
+    ],
+    "answerIndex": 2,
+    "explanation": "ブルガリアはルーマニアと同じ2007年にEU加盟し、EUのPDO・PGI制度を採用した。主要産地は一般に5地域として整理される。\n古代にワイン文化を築いたのはトラキア人で、フェニキア人ではない。土着品種に加えCabernet SauvignonやMerlotも広く栽培する。"
+  },
+  {
+    "id": "moldova-001",
+    "category": "モルドバ共和国",
+    "importance": "A",
+    "question": "次の中からモルドバが国土の東側に接しているものを選択してください。",
+    "choices": [
+      "ロシア",
+      "カスピ海",
+      "ウクライナ",
+      "クロアチア"
+    ],
+    "answerIndex": 2,
+    "explanation": "モルドバは内陸国で、西をルーマニア、東・北・南をウクライナに囲まれる。東側の国境沿いにはドニエストル川が流れる。\nロシアやクロアチアとは直接接せず、カスピ海にも面しない。「西ルーマニア、三方ウクライナ」で地図を固定する。"
+  },
+  {
+    "id": "moldova-002",
+    "category": "モルドバ共和国",
+    "importance": "A",
+    "question": "次の中からモルドバ中央部に位置し、約6万haのブドウ畑がある同国最大の産地を選択してください。",
+    "choices": [
+      "Ştefan-Vodă",
+      "Valul lui Traian",
+      "Codru",
+      "Kakheti"
+    ],
+    "answerIndex": 2,
+    "explanation": "Codruは首都Chișinăuを含む中央部の最大産地で、約6万ha。丘陵と森林が冷気を和らげ、白やスパークリングにも向く。\nŞtefan Vodăは南東、Valul lui Traianは南西。Kakhetiはジョージア東部の産地で、国そのものが異なる。"
+  },
+  {
+    "id": "moldova-003",
+    "category": "モルドバ共和国",
+    "importance": "A",
+    "question": "次の中からモルドバ公国原産の赤ワイン用品種で、「黒い乙女」という意味を持つ品種を選択してください。",
+    "choices": [
+      "ルカツィテリ",
+      "フロリチカ",
+      "フェテアスカ・アルバ",
+      "フェテアスカ・ネアグラ"
+    ],
+    "answerIndex": 3,
+    "explanation": "Fetească Neagrăは「黒い乙女」を意味するモルドバ公国由来の黒品種。濃い色調、黒果実、スパイスを持つ熟成型赤を生む。\nFetească Albăは「白い乙女」、Floricicaは白品種。Rkatsiteliはジョージア原産の白品種で、語源と原産国が異なる。"
+  },
+  {
+    "id": "moldova-004",
+    "category": "モルドバ共和国",
+    "importance": "A",
+    "question": "次のモルドバに関する記述の中から正しいものを選んでください。",
+    "choices": [
+      "モルドバの産地Codruでは黒ブドウが63%を占めている。",
+      "モルドバの原産地呼称D.O.P.には2件の名称が登録され、1件が登録進行中である。",
+      "モルドバワインのマークには鷲とブドウが使われている。",
+      "モルドバは1991年に独立した若い国家である。"
+    ],
+    "answerIndex": 3,
+    "explanation": "モルドバはソ連解体に伴い1991年に独立した。古いワイン文化を持つ一方、国家としては若く、近年EU市場を意識した品質改革を進める。\nCodruは白ブドウが約63%。国のワインマークは鷲ではなくコウノトリとブドウで、D.O.P.の登録数に関する記述も教本値と合わない。"
   }
 ];
