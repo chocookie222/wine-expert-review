@@ -2,7 +2,6 @@
   "use strict";
 
   const questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
-  const questionIds = new Set(questions.map((question) => question.id));
   const readingFormatter = typeof window.WINE_READING_FORMATTER === "function"
     ? window.WINE_READING_FORMATTER
     : (value) => String(value || "");
@@ -71,7 +70,6 @@
     preferences: {
       showKanaReadings: true
     },
-    importedTransfers: [],
     similarSourceId: null,
     currentIndex: 0,
     selectedId: null
@@ -161,10 +159,6 @@
     guessStatCount: document.getElementById("guessStatCount"),
     incorrectStatCount: document.getElementById("incorrectStatCount"),
     weaknessList: document.getElementById("weaknessList"),
-    mockTransferStatus: document.getElementById("mockTransferStatus"),
-    mockTransferFeedback: document.getElementById("mockTransferFeedback"),
-    exportLatestMockButton: document.getElementById("exportLatestMockButton"),
-    importMockInput: document.getElementById("importMockInput"),
     wrongSavedCount: document.getElementById("wrongSavedCount"),
     reviewSavedCount: document.getElementById("reviewSavedCount"),
     wrongModeButton: document.getElementById("wrongModeButton"),
@@ -206,7 +200,6 @@
         mockSettings: { ...defaultState.mockSettings, ...(saved && saved.mockSettings) },
         preferences: { ...defaultState.preferences, ...(saved && saved.preferences) }
       };
-      if (!Array.isArray(loaded.importedTransfers)) loaded.importedTransfers = [];
       Object.keys(loaded.confidence).forEach((id) => {
         if (loaded.confidence[id] === "again") loaded.confidence[id] = "guess";
       });
@@ -361,9 +354,6 @@
       saveState();
       renderStudyDashboard();
     });
-
-    els.exportLatestMockButton.addEventListener("click", exportLatestMockTransfer);
-    els.importMockInput.addEventListener("change", importMockTransfer);
 
     els.weaknessList.addEventListener("click", (event) => {
       const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
@@ -658,138 +648,6 @@
     renderStats();
     renderSaved();
     renderStudySummary();
-    renderMockTransferStatus();
-  }
-
-  function getLatestMockTransferCandidate() {
-    const latestAnswers = Object.entries(state.answers)
-      .filter(([id, answer]) => questionIds.has(id) && answer?.lastAnsweredAt)
-      .map(([id, answer]) => ({
-        id,
-        isCorrect: Boolean(answer.lastCorrect),
-        answeredAt: answer.lastAnsweredAt,
-        time: new Date(answer.lastAnsweredAt).getTime()
-      }))
-      .filter((answer) => Number.isFinite(answer.time))
-      .sort((a, b) => b.time - a.time)
-      .slice(0, 60);
-
-    const correct = latestAnswers.filter((answer) => answer.isCorrect).length;
-    const rate = latestAnswers.length ? Math.round((correct / latestAnswers.length) * 100) : 0;
-    const valid = latestAnswers.length === 60 && rate === 28;
-    const signature = latestAnswers
-      .map((answer) => `${answer.id}:${answer.isCorrect ? 1 : 0}:${answer.answeredAt}`)
-      .sort()
-      .join("|");
-
-    return {
-      answers: latestAnswers,
-      correct,
-      rate,
-      valid,
-      transferId: valid ? `mock-60-28-${hashTransferSignature(signature)}` : ""
-    };
-  }
-
-  function renderMockTransferStatus() {
-    const candidate = getLatestMockTransferCandidate();
-    els.exportLatestMockButton.disabled = !candidate.valid;
-    if (candidate.valid) {
-      els.mockTransferStatus.textContent = `直近の模試を確認できました：${candidate.correct} / 60（正答率 ${candidate.rate}%）。iPhone側のデータは消去されません。`;
-      return;
-    }
-    if (candidate.answers.length < 60) {
-      els.mockTransferStatus.textContent = `回答履歴が${candidate.answers.length}問のため、今回の60問模試をまだ特定できません。`;
-      return;
-    }
-    els.mockTransferStatus.textContent = `直近60問の正答率が${candidate.rate}%のため、正答率28%の模試とは確認できませんでした。`;
-  }
-
-  function exportLatestMockTransfer() {
-    const candidate = getLatestMockTransferCandidate();
-    if (!candidate.valid) return;
-    const payload = {
-      kind: "wine-expert-mock-transfer",
-      version: 1,
-      transferId: candidate.transferId,
-      createdAt: new Date().toISOString(),
-      questionCount: 60,
-      correctCount: candidate.correct,
-      rate: candidate.rate,
-      results: candidate.answers.map(({ id, isCorrect, answeredAt }) => ({ id, isCorrect, answeredAt }))
-    };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "wine-mock-60questions-28percent.json";
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(url);
-    els.mockTransferFeedback.textContent = "転送ファイルを書き出しました。iPhoneへ送って読み込んでください。";
-  }
-
-  async function importMockTransfer(event) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    try {
-      const payload = JSON.parse(await file.text());
-      const validResults = Array.isArray(payload.results)
-        && payload.results.length === 60
-        && new Set(payload.results.map((result) => result.id)).size === 60
-        && payload.results.every((result) => typeof result.id === "string" && typeof result.isCorrect === "boolean");
-      const transferredCorrect = validResults
-        ? payload.results.filter((result) => result.isCorrect).length
-        : 0;
-      if (payload.kind !== "wine-expert-mock-transfer"
-        || payload.version !== 1
-        || payload.questionCount !== 60
-        || payload.correctCount !== transferredCorrect
-        || payload.rate !== 28
-        || Math.round((transferredCorrect / 60) * 100) !== 28
-        || !payload.transferId
-        || !validResults) {
-        throw new Error("このアプリ用の60問模試データではありません。");
-      }
-      if (state.importedTransfers.includes(payload.transferId)) {
-        els.mockTransferFeedback.textContent = "この模試結果はすでに統合済みです。データは変更していません。";
-        return;
-      }
-
-      const transferredQuestions = payload.results.map((result) => ({
-        result,
-        question: questions.find((item) => item.id === result.id)
-      }));
-      if (transferredQuestions.some(({ question }) => !question)) {
-        throw new Error("iPhone側に存在しない問題が含まれていたため統合を中止しました。");
-      }
-
-      transferredQuestions.forEach(({ result, question }) => {
-        const answeredAt = Number.isFinite(new Date(result.answeredAt).getTime())
-          ? result.answeredAt
-          : payload.createdAt;
-        recordAnswer(question, result.isCorrect, { answeredAt, countDaily: false });
-      });
-
-      state.importedTransfers.push(payload.transferId);
-      saveState();
-      renderAll();
-      els.mockTransferFeedback.textContent = `60問の模試結果を既存データへ追加しました（${payload.correctCount}問正解）。`;
-    } catch (error) {
-      els.mockTransferFeedback.textContent = error instanceof Error ? error.message : "模試データを読み込めませんでした。";
-    } finally {
-      event.target.value = "";
-    }
-  }
-
-  function hashTransferSignature(value) {
-    let hash = 2166136261;
-    for (let index = 0; index < value.length; index += 1) {
-      hash ^= value.charCodeAt(index);
-      hash = Math.imul(hash, 16777619);
-    }
-    return (hash >>> 0).toString(36);
   }
 
   function renderQuiz() {
@@ -961,7 +819,7 @@
     renderSaved();
   }
 
-  function recordAnswer(question, isCorrect, options = {}) {
+  function recordAnswer(question, isCorrect) {
     const previous = state.answers[question.id] || { correct: 0, total: 0 };
     const recentResults = [...(previous.recentResults || []), isCorrect].slice(-5);
     const consecutiveCorrect = isCorrect ? (previous.consecutiveCorrect || 0) + 1 : 0;
@@ -969,7 +827,7 @@
       correct: previous.correct + (isCorrect ? 1 : 0),
       total: previous.total + 1,
       lastCorrect: isCorrect,
-      lastAnsweredAt: options.answeredAt || new Date().toISOString(),
+      lastAnsweredAt: new Date().toISOString(),
       recentResults,
       consecutiveCorrect
     };
@@ -988,7 +846,7 @@
       scheduleIncorrectReview(question.id);
     }
 
-    if (options.countDaily !== false) recordDailyActivity();
+    recordDailyActivity();
   }
 
   function revealAnswer(question, choiceIndexes, isCorrect) {

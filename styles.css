@@ -932,53 +932,6 @@ select {
   font-size: 0.7rem;
 }
 
-.mock-transfer {
-  margin: 18px 0;
-  border: 1px solid rgba(159, 36, 61, 0.18);
-  border-radius: 8px;
-  padding: 14px;
-  background: #fffaf5;
-}
-
-.mock-transfer h3 {
-  margin-bottom: 6px;
-  font-size: 0.95rem;
-}
-
-.mock-transfer p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.5;
-}
-
-.mock-transfer-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-top: 12px;
-}
-
-.mock-import-button {
-  min-height: 46px;
-  border-radius: 8px;
-  font-weight: 850;
-  cursor: pointer;
-}
-
-.mock-transfer .mock-transfer-feedback {
-  min-height: 1.5em;
-  margin-top: 8px;
-  color: var(--accent-dark);
-  font-weight: 800;
-}
-
-@media (max-width: 380px) {
-  .mock-transfer-actions {
-    grid-template-columns: 1fr;
-  }
-}
-
 .glass-mark {
   width: 74px;
   height: 74px;
