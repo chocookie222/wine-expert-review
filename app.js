@@ -98,6 +98,7 @@
     wrongCount: document.getElementById("wrongCount"),
     mockTimerBox: document.getElementById("mockTimerBox"),
     mockTimer: document.getElementById("mockTimer"),
+    finishMockButton: document.getElementById("finishMockButton"),
     dueModeButton: document.getElementById("dueModeButton"),
     numericModeButton: document.getElementById("numericModeButton"),
     mockModeButton: document.getElementById("mockModeButton"),
@@ -300,6 +301,11 @@
     els.mockModeButton.addEventListener("click", () => switchMode("mock"));
 
     els.startMockButton.addEventListener("click", startMockExam);
+    els.finishMockButton.addEventListener("click", () => {
+      if (!isMockActive()) return;
+      if (!confirm("模擬試験を終了して結果を表示しますか。")) return;
+      finishMockExam();
+    });
 
     [els.mockQuestionCount, els.mockMinutes].forEach((control) => {
       control.addEventListener("change", () => {
@@ -739,7 +745,7 @@
     saveState();
     updateProgressSummary();
     if (isMockActive()) {
-      revealMockChoiceAnswer();
+      revealMockChoiceAnswer(choiceIndexes);
     } else {
       revealAnswer(question, choiceIndexes, isCorrect);
     }
@@ -832,9 +838,12 @@
     updateNextButtonAfterAnswer();
   }
 
-  function revealMockChoiceAnswer() {
-    [...els.choices.children].forEach((button) => {
+  function revealMockChoiceAnswer(choiceIndexes) {
+    [...els.choices.children].forEach((button, index) => {
       button.disabled = true;
+      const selected = choiceIndexes.includes(index);
+      button.classList.toggle("selected", selected);
+      button.setAttribute("aria-pressed", String(selected));
     });
     els.multiSubmitButton.disabled = true;
     els.answerResult.hidden = true;
@@ -863,7 +872,7 @@
       else revealTextAnswer(question, saved.answerText, saved.isCorrect);
       return;
     }
-    if (isMockActive()) revealMockChoiceAnswer();
+    if (isMockActive()) revealMockChoiceAnswer(saved.choiceIndexes);
     else revealAnswer(question, saved.choiceIndexes, saved.isCorrect);
   }
 
