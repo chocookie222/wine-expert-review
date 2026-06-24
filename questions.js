@@ -20964,7 +20964,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガルのワイン産地の地図です。地図上で1番のワイン産地名をカタカナで入力してください。",
-    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：ミーニョの位置を、周辺産地との並びで覚える。",
+    "explanation": "所属地区：Minho（ミーニョ）はポルトガル最北西部で、DOP Vinho Verde（ヴィーニョ・ヴェルデ）の中心。主要品種：Alvarinho（アルヴァリーニョ）、Loureiro（ロウレイロ）\n近隣の頻出産地：東にTransmontano（トランスモンターノ）、南東にDouro（ドウロ）\n見分け方：地図1番。スペイン国境と大西洋に接する北西端で、多雨・冷涼な海洋性気候を手掛かりにする。",
     "image": {
       "src": "assets/portugal-regions-map.jpg",
       "alt": "ポルトガルのワイン産地の地図",
@@ -21197,7 +21197,7 @@ window.WINE_QUESTIONS = [
     "category": "ポルトガル",
     "importance": "C",
     "question": "下記の画像はポルトガル、ポルトとドウロ地区のワイン産地の地図です。次の中からポートワイン造りにおいて最も品質の高いブドウが産出されるところを選択してください。",
-    "explanation": "所属地区：ポルトガル北部〜中部のDOP／IGP　主要品種：トウリガ・ナシオナル、ティンタ・ロリス、アルヴァリーニョ\n近隣の頻出村・産地：Douro（ドウロ）、Dão（ダン）、Vinho Verde（ヴィーニョ・ヴェルデ）\n見分け方：正解地点の位置を、周辺産地との並びで覚える。",
+    "explanation": "所属地区：番号2はCima Corgo（シマ・コルゴ）で、Port（ポート）の最上質ブドウの中心。主要品種：Touriga Nacional（トウリガ・ナショナル）、Touriga Franca（トウリガ・フランカ）\n近隣の頻出産地：西の1番はBaixo Corgo（バイショ・コルゴ）、東の3番はDouro Superior（ドウロ・スーペリオール）\n見分け方：中央のCima Corgoは日照と乾燥のバランスが良い。Baixo Corgoは雨が多く、Douro Superiorは最も暑く乾燥する。",
     "image": {
       "src": "assets/portugal-douro-map.jpg",
       "alt": "ポルトガル、ポルトとドウロのワイン産地の地図",
@@ -55050,5 +55050,122 @@ window.WINE_QUESTIONS = [
     ],
     "answerIndex": 3,
     "explanation": "Bagna CaudaはPiemonteの料理なので、同州のGaviが地域性に合う。Corteseから造る辛口白の酸と軽い苦味が、アンチョビの塩味やニンニク、野菜をすっきりまとめる。\nAglianico del TaburnoはCampania、Sangiovese di RomagnaはEmilia-Romagna、RefoscoはFriuli。料理の州を先に決める。"
+  },
+  {
+    "id": "portugal-045",
+    "category": "ポルトガル",
+    "importance": "B",
+    "question": "次の中からポルトガル北東部の気候を選択してください。",
+    "choices": [
+      "湿度が高く、温暖な海洋性気候",
+      "海の影響を受け、温暖",
+      "山に囲まれ、生育期の降雨量が少ない",
+      "海の影響を受け、降雨量が多く、比較的涼しい"
+    ],
+    "answerIndex": 2,
+    "explanation": "北東部は山地が大西洋の湿気を遮るため、生育期の雨が少なく、冬は寒く夏は暑い大陸的な気候になる。TransmontanoやDouro Superiorの乾燥した環境につながる。\n北西部Minhoは海洋性で多雨・冷涼、沿岸部は海の影響で温暖。ポルトガルは「北西＝湿潤、北東＝乾燥」と対比する。"
+  },
+  {
+    "id": "portugal-046",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するポルトガルのマデイラに使用される加熱熟成法を選んでください。\n「倉庫のガラス窓のある屋根裏部屋や屋根の薄い専用倉庫に樽を並べ、天然の太陽熱を庫内に取り込み、室内を高温にしてワインを熟成させる方法。」",
+    "choices": [
+      "カンテイロ",
+      "ベネフィシオ",
+      "エストゥファ",
+      "クーバ・デ・カロール"
+    ],
+    "answerIndex": 0,
+    "explanation": "Canteiroは樽を屋根裏などに置き、天然の太陽熱でゆっくり加熱・酸化熟成させる上級方式。温度変化が穏やかで、長期熟成向きの複雑な香味を生む。\nEstufagemは人工加熱の総称、Cuba de Calorは温水管を備えたタンク方式。BenefícioはPortの生産管理制度で加熱法ではない。"
+  },
+  {
+    "id": "portugal-047",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "次の中からポルトガルの一般的なマデイラの熟成規定を選んでください。",
+    "choices": [
+      "樽熟成15年以上",
+      "樽熟成3年以上",
+      "樽熟成30年以上",
+      "樽熟成10年以上"
+    ],
+    "answerIndex": 1,
+    "explanation": "一般的なMadeiraは最低3年熟成が基準。熟成期間の表示はReserva 5年、Special Reserva 10年、Extra Reserva 15年、Frasqueira 20年以上へと上がる。\n数字は3→5→10→15→20の階段で覚える。30年は一般的な法定区分の選択肢ではなく、10年・15年は上位表示に当たる。"
+  },
+  {
+    "id": "portugal-048",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "次の中からポルトガルのマデイラでReservaと表記されたものの熟成規定を選んでください。",
+    "choices": [
+      "樽熟成20年以上",
+      "樽熟成5年以上",
+      "樽熟成30年以上",
+      "樽熟成3年以上"
+    ],
+    "answerIndex": 1,
+    "explanation": "MadeiraのReservaは5年以上熟成。一般品の3年以上より一段上で、Special Reserva 10年、Extra Reserva 15年、Frasqueira 20年以上と続く。\n20年はFrasqueira、3年は一般品。Reservaという語だけで他国の規定を当てはめず、Madeira固有の熟成年数で判断する。"
+  },
+  {
+    "id": "portugal-049",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "下記の画像はポルトガルのワイン産地の地図です。地図上でPenínsula de Setúbal（ペニンシュラ・デ・セトゥーバル）に相当する番号を選択してください。",
+    "choices": [
+      "13番",
+      "9番",
+      "10番",
+      "12番"
+    ],
+    "answerIndex": 2,
+    "explanation": "所属地区：Lisboa（リスボン）の南、Tejo（テージョ）川河口の半島で、地図番号は10番。主要品種：Moscatel de Setúbal（モスカテル・デ・セトゥーバル）、Castelão（カステラン）\n近隣の頻出産地：北にLisboa（リスボン）、東にTejo（テージョ）、南東にAlentejano（アレンテジャーノ）\n見分け方：首都のすぐ南に突き出す半島を探す。13番はAzores（アソーレス）などの島嶼部、12番はAlgarve（アルガルヴェ）。",
+    "image": {
+      "src": "assets/portugal-regions-map.jpg",
+      "alt": "ポルトガルのワイン産地を番号で示した地図",
+      "caption": "ポルトガルのワイン産地"
+    }
+  },
+  {
+    "id": "portugal-050",
+    "category": "ポルトガル",
+    "importance": "B",
+    "question": "次のポルトガルに関する記述の中から正しいものを選択してください。",
+    "choices": [
+      "ポルトガルでは世界のコルクの約半分が生産されている。",
+      "ポルトガルは一人あたりの米消費量がスペインに次ぐヨーロッパ第2位である。",
+      "ポルトガルには100種類弱の固有品種がある。",
+      "ポルトガルは一人あたりの魚介消費量が日本に次ぐ世界第2位である。"
+    ],
+    "answerIndex": 0,
+    "explanation": "ポルトガルは世界最大のコルク生産国で、世界生産のおよそ半分を占める。主産地AlentejoではコルクガシQuercus suberの樹皮を周期的に採取する。\n固有品種は100種弱ではなく250種を超える多様性が特徴。米・魚介の消費も多いが、示された順位の記述は正確ではない。"
+  },
+  {
+    "id": "portugal-051",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "次のポルトガルのポルトワインの中から、IVDPへの申請と許可が必要でトウニータイプに属するスペシャルタイプを選んでください。",
+    "choices": [
+      "ヴィンテージ・キャラクター",
+      "コリェイタ",
+      "レイト・ボトルド・ヴィンテージ・ポート",
+      "ヴィンテージ・ポート"
+    ],
+    "answerIndex": 1,
+    "explanation": "Colheitaは単一年のブドウから造るTawnyタイプで、樽で最低7年熟成し、収穫年と瓶詰年を表示する。商品化にはIVDPの審査・承認が必要。\nLBVとVintage PortはRuby系で瓶熟成を意識したスタイル。Vintage Characterは現在Reserve Rubyに相当し、単一年表示ではない。"
+  },
+  {
+    "id": "portugal-052",
+    "category": "ポルトガル",
+    "importance": "A",
+    "question": "次の説明に最も良く合致するポルトガルのポルトワインのタイプを選んでください。\n「平均3年間の樽熟成後に瓶詰めされる若いタイプ。」",
+    "choices": [
+      "トウニータイプ",
+      "ルビータイプ",
+      "ヴィンテージタイプ",
+      "クラステッドタイプ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rubyは大樽などで酸化を抑えながら平均約3年熟成し、濃い色と若い果実味を保って瓶詰めする基本タイプ。\nTawnyは小樽で酸化熟成して黄褐色へ変化する。VintageとCrustedは瓶内熟成で澱を生じやすいため、若飲みのRubyとは扱いが異なる。"
   }
 ];
