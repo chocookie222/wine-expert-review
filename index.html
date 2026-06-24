@@ -154,6 +154,10 @@
             <section class="explanation" id="explanationBox" hidden>
               <h3>解説</h3>
               <p id="explanationText"></p>
+              <aside class="textbook-reference" id="textbookReference" hidden>
+                <strong>教本参照</strong>
+                <span id="textbookReferenceText"></span>
+              </aside>
             </section>
             <section class="confidence-panel" id="confidencePanel" hidden aria-label="回答の自信度">
               <span>この問題の手応え</span>
@@ -190,6 +194,14 @@
               <button class="secondary" id="resultRestartButton" type="button">もう一度解く</button>
               <button class="primary" id="resultStatsButton" type="button">成績を見る</button>
             </div>
+            <section class="mock-result-section" id="mockCategoryResults" hidden>
+              <h3>分野別正答率</h3>
+              <div class="mock-category-results" id="mockCategoryResultsList"></div>
+            </section>
+            <section class="mock-result-section" id="mockQuestionReview" hidden>
+              <h3>問題別の振り返り</h3>
+              <div class="mock-question-review" id="mockQuestionReviewList"></div>
+            </section>
           </section>
 
           <section class="empty-state" id="emptyState" hidden>
@@ -235,6 +247,16 @@
             <h3>優先して復習する分野</h3>
             <div id="weaknessList"></div>
           </div>
+          <section class="mock-transfer" aria-labelledby="mockTransferTitle">
+            <h3 id="mockTransferTitle">今回の模試をiPhoneへ</h3>
+            <p id="mockTransferStatus">直近の模試データを確認しています。</p>
+            <div class="mock-transfer-actions">
+              <button class="secondary" id="exportLatestMockButton" type="button" disabled>60問の結果を書き出す</button>
+              <label class="primary mock-import-button" for="importMockInput">iPhoneで統合する</label>
+              <input id="importMockInput" type="file" accept="application/json,.json" hidden>
+            </div>
+            <p class="mock-transfer-feedback" id="mockTransferFeedback" role="status"></p>
+          </section>
           <div class="stats-list" id="statsList"></div>
         </section>
 
@@ -284,6 +306,7 @@
     </div>
 
     <script src="questions.js"></script>
+    <script src="references.js"></script>
     <script src="readings.js"></script>
     <script src="app.js"></script>
   </body>

@@ -2,9 +2,13 @@
   "use strict";
 
   const questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
+  const questionIds = new Set(questions.map((question) => question.id));
   const readingFormatter = typeof window.WINE_READING_FORMATTER === "function"
     ? window.WINE_READING_FORMATTER
     : (value) => String(value || "");
+  const referenceResolver = typeof window.WINE_REFERENCE_RESOLVER === "function"
+    ? window.WINE_REFERENCE_RESOLVER
+    : () => null;
   const storageKey = "wineExpertReviewApp.v1";
   const mixedCategoryRules = {
     "フランス": (category) => category === "フランス概論" || category.startsWith("フランス/"),
@@ -67,6 +71,7 @@
     preferences: {
       showKanaReadings: true
     },
+    importedTransfers: [],
     similarSourceId: null,
     currentIndex: 0,
     selectedId: null
@@ -114,6 +119,10 @@
     resultScore: document.getElementById("resultScore"),
     resultRate: document.getElementById("resultRate"),
     resultSummary: document.getElementById("resultSummary"),
+    mockCategoryResults: document.getElementById("mockCategoryResults"),
+    mockCategoryResultsList: document.getElementById("mockCategoryResultsList"),
+    mockQuestionReview: document.getElementById("mockQuestionReview"),
+    mockQuestionReviewList: document.getElementById("mockQuestionReviewList"),
     resultRestartButton: document.getElementById("resultRestartButton"),
     resultStatsButton: document.getElementById("resultStatsButton"),
     emptyState: document.getElementById("emptyState"),
@@ -132,6 +141,8 @@
     answerResult: document.getElementById("answerResult"),
     explanationBox: document.getElementById("explanationBox"),
     explanationText: document.getElementById("explanationText"),
+    textbookReference: document.getElementById("textbookReference"),
+    textbookReferenceText: document.getElementById("textbookReferenceText"),
     confidencePanel: document.getElementById("confidencePanel"),
     similarButton: document.getElementById("similarButton"),
     previousButton: document.getElementById("previousButton"),
@@ -150,6 +161,10 @@
     guessStatCount: document.getElementById("guessStatCount"),
     incorrectStatCount: document.getElementById("incorrectStatCount"),
     weaknessList: document.getElementById("weaknessList"),
+    mockTransferStatus: document.getElementById("mockTransferStatus"),
+    mockTransferFeedback: document.getElementById("mockTransferFeedback"),
+    exportLatestMockButton: document.getElementById("exportLatestMockButton"),
+    importMockInput: document.getElementById("importMockInput"),
     wrongSavedCount: document.getElementById("wrongSavedCount"),
     reviewSavedCount: document.getElementById("reviewSavedCount"),
     wrongModeButton: document.getElementById("wrongModeButton"),
@@ -191,6 +206,7 @@
         mockSettings: { ...defaultState.mockSettings, ...(saved && saved.mockSettings) },
         preferences: { ...defaultState.preferences, ...(saved && saved.preferences) }
       };
+      if (!Array.isArray(loaded.importedTransfers)) loaded.importedTransfers = [];
       Object.keys(loaded.confidence).forEach((id) => {
         if (loaded.confidence[id] === "again") loaded.confidence[id] = "guess";
       });
@@ -346,6 +362,9 @@
       renderStudyDashboard();
     });
 
+    els.exportLatestMockButton.addEventListener("click", exportLatestMockTransfer);
+    els.importMockInput.addEventListener("change", importMockTransfer);
+
     els.weaknessList.addEventListener("click", (event) => {
       const target = event.target.nodeType === Node.ELEMENT_NODE ? event.target : event.target.parentElement;
       const button = target && target.closest("[data-weak-category]");
@@ -450,12 +469,19 @@
 
     els.multiSubmitButton.addEventListener("click", () => {
       const question = getCurrentQuestion();
-      if (!question || answered || !isMultipleChoiceQuestion(question) || !selectedChoiceIndexes.length) return;
+      if (!question || (answered && !isMockActive()) || !isMultipleChoiceQuestion(question) || !selectedChoiceIndexes.length) return;
       answerQuestion(question, selectedChoiceIndexes);
     });
 
     els.textAnswerInput.addEventListener("input", () => {
       els.textSubmitButton.disabled = !els.textAnswerInput.value.trim();
+      const question = getCurrentQuestion();
+      if (question && answered && isMockActive()) {
+        delete sessionAnswers[question.id];
+        answered = false;
+        updateProgressSummary();
+        updateNextButtonAfterAnswer();
+      }
     });
 
     els.textAnswerInput.addEventListener("keydown", (event) => {
@@ -467,7 +493,7 @@
     els.textSubmitButton.addEventListener("click", () => {
       const question = getCurrentQuestion();
       const value = els.textAnswerInput.value.trim();
-      if (!question || answered || !isTextAnswerQuestion(question) || !value) return;
+      if (!question || (answered && !isMockActive()) || !isTextAnswerQuestion(question) || !value) return;
       answerTextQuestion(question, value);
     });
 
@@ -525,7 +551,8 @@
     mockSession = {
       questions: mockQuestions,
       startedAt,
-      endsAt: startedAt + minutes * 60 * 1000
+      endsAt: startedAt + minutes * 60 * 1000,
+      committed: false
     };
     state.currentIndex = 0;
     answered = false;
@@ -564,9 +591,23 @@
 
   function finishMockExam() {
     if (!mockSession || showingResult) return;
-    showingResult = true;
     stopMockTimer();
+    commitMockAnswers();
+    showingResult = true;
     renderQuiz();
+    renderStats();
+    renderSaved();
+    renderStudySummary();
+  }
+
+  function commitMockAnswers() {
+    if (!mockSession || mockSession.committed) return;
+    currentSet.forEach((question) => {
+      const answer = sessionAnswers[question.id];
+      if (answer) recordAnswer(question, answer.isCorrect);
+    });
+    mockSession.committed = true;
+    saveState();
   }
 
   function rebuildSet() {
@@ -617,6 +658,138 @@
     renderStats();
     renderSaved();
     renderStudySummary();
+    renderMockTransferStatus();
+  }
+
+  function getLatestMockTransferCandidate() {
+    const latestAnswers = Object.entries(state.answers)
+      .filter(([id, answer]) => questionIds.has(id) && answer?.lastAnsweredAt)
+      .map(([id, answer]) => ({
+        id,
+        isCorrect: Boolean(answer.lastCorrect),
+        answeredAt: answer.lastAnsweredAt,
+        time: new Date(answer.lastAnsweredAt).getTime()
+      }))
+      .filter((answer) => Number.isFinite(answer.time))
+      .sort((a, b) => b.time - a.time)
+      .slice(0, 60);
+
+    const correct = latestAnswers.filter((answer) => answer.isCorrect).length;
+    const rate = latestAnswers.length ? Math.round((correct / latestAnswers.length) * 100) : 0;
+    const valid = latestAnswers.length === 60 && rate === 28;
+    const signature = latestAnswers
+      .map((answer) => `${answer.id}:${answer.isCorrect ? 1 : 0}:${answer.answeredAt}`)
+      .sort()
+      .join("|");
+
+    return {
+      answers: latestAnswers,
+      correct,
+      rate,
+      valid,
+      transferId: valid ? `mock-60-28-${hashTransferSignature(signature)}` : ""
+    };
+  }
+
+  function renderMockTransferStatus() {
+    const candidate = getLatestMockTransferCandidate();
+    els.exportLatestMockButton.disabled = !candidate.valid;
+    if (candidate.valid) {
+      els.mockTransferStatus.textContent = `直近の模試を確認できました：${candidate.correct} / 60（正答率 ${candidate.rate}%）。iPhone側のデータは消去されません。`;
+      return;
+    }
+    if (candidate.answers.length < 60) {
+      els.mockTransferStatus.textContent = `回答履歴が${candidate.answers.length}問のため、今回の60問模試をまだ特定できません。`;
+      return;
+    }
+    els.mockTransferStatus.textContent = `直近60問の正答率が${candidate.rate}%のため、正答率28%の模試とは確認できませんでした。`;
+  }
+
+  function exportLatestMockTransfer() {
+    const candidate = getLatestMockTransferCandidate();
+    if (!candidate.valid) return;
+    const payload = {
+      kind: "wine-expert-mock-transfer",
+      version: 1,
+      transferId: candidate.transferId,
+      createdAt: new Date().toISOString(),
+      questionCount: 60,
+      correctCount: candidate.correct,
+      rate: candidate.rate,
+      results: candidate.answers.map(({ id, isCorrect, answeredAt }) => ({ id, isCorrect, answeredAt }))
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "wine-mock-60questions-28percent.json";
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    els.mockTransferFeedback.textContent = "転送ファイルを書き出しました。iPhoneへ送って読み込んでください。";
+  }
+
+  async function importMockTransfer(event) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    try {
+      const payload = JSON.parse(await file.text());
+      const validResults = Array.isArray(payload.results)
+        && payload.results.length === 60
+        && new Set(payload.results.map((result) => result.id)).size === 60
+        && payload.results.every((result) => typeof result.id === "string" && typeof result.isCorrect === "boolean");
+      const transferredCorrect = validResults
+        ? payload.results.filter((result) => result.isCorrect).length
+        : 0;
+      if (payload.kind !== "wine-expert-mock-transfer"
+        || payload.version !== 1
+        || payload.questionCount !== 60
+        || payload.correctCount !== transferredCorrect
+        || payload.rate !== 28
+        || Math.round((transferredCorrect / 60) * 100) !== 28
+        || !payload.transferId
+        || !validResults) {
+        throw new Error("このアプリ用の60問模試データではありません。");
+      }
+      if (state.importedTransfers.includes(payload.transferId)) {
+        els.mockTransferFeedback.textContent = "この模試結果はすでに統合済みです。データは変更していません。";
+        return;
+      }
+
+      const transferredQuestions = payload.results.map((result) => ({
+        result,
+        question: questions.find((item) => item.id === result.id)
+      }));
+      if (transferredQuestions.some(({ question }) => !question)) {
+        throw new Error("iPhone側に存在しない問題が含まれていたため統合を中止しました。");
+      }
+
+      transferredQuestions.forEach(({ result, question }) => {
+        const answeredAt = Number.isFinite(new Date(result.answeredAt).getTime())
+          ? result.answeredAt
+          : payload.createdAt;
+        recordAnswer(question, result.isCorrect, { answeredAt, countDaily: false });
+      });
+
+      state.importedTransfers.push(payload.transferId);
+      saveState();
+      renderAll();
+      els.mockTransferFeedback.textContent = `60問の模試結果を既存データへ追加しました（${payload.correctCount}問正解）。`;
+    } catch (error) {
+      els.mockTransferFeedback.textContent = error instanceof Error ? error.message : "模試データを読み込めませんでした。";
+    } finally {
+      event.target.value = "";
+    }
+  }
+
+  function hashTransferSignature(value) {
+    let hash = 2166136261;
+    for (let index = 0; index < value.length; index += 1) {
+      hash ^= value.charCodeAt(index);
+      hash = Math.imul(hash, 16777619);
+    }
+    return (hash >>> 0).toString(36);
   }
 
   function renderQuiz() {
@@ -656,6 +829,7 @@
     els.questionText.textContent = formatStudyText(question.question);
     renderQuestionImage(question);
     renderExplanation(formatStudyText(question.explanation));
+    renderTextbookReference(question);
     els.answerResult.hidden = true;
     els.answerResult.className = "answer-result";
     els.explanationBox.hidden = true;
@@ -703,6 +877,14 @@
     });
   }
 
+  function renderTextbookReference(question) {
+    const reference = referenceResolver(question);
+    els.textbookReference.hidden = !reference;
+    els.textbookReferenceText.textContent = reference
+      ? `${reference.pages}「${reference.section}」参照`
+      : "";
+  }
+
   function renderQuestionImage(question) {
     if (!question.image) {
       els.questionImageBox.hidden = true;
@@ -719,7 +901,8 @@
   }
 
   function toggleMultipleChoice(button, choiceIndex, question) {
-    if (answered) return;
+    if (answered && !isMockActive()) return;
+    const editingMockAnswer = answered && isMockActive();
     const maxSelections = question.maxSelections || getAnswerIndexes(question).length;
     const alreadySelected = selectedChoiceIndexes.includes(choiceIndex);
     if (alreadySelected) {
@@ -732,45 +915,53 @@
       button.classList.add("selected");
       button.setAttribute("aria-pressed", "true");
     }
+    if (editingMockAnswer) {
+      delete sessionAnswers[question.id];
+      answered = false;
+      updateProgressSummary();
+      updateNextButtonAfterAnswer();
+    }
     els.multiSubmitButton.disabled = !selectedChoiceIndexes.length;
   }
 
   function answerQuestion(question, choiceIndexes) {
-    if (answered) return;
+    const mockActive = isMockActive();
+    if (answered && !mockActive) return;
     answered = true;
     const answerIndexes = getAnswerIndexes(question);
     const isCorrect = areSameIndexes(choiceIndexes, answerIndexes);
-    recordAnswer(question, isCorrect);
     sessionAnswers[question.id] = { type: "choice", choiceIndexes: [...choiceIndexes], isCorrect };
-    saveState();
     updateProgressSummary();
-    if (isMockActive()) {
+    if (mockActive) {
       revealMockChoiceAnswer(choiceIndexes);
-    } else {
-      revealAnswer(question, choiceIndexes, isCorrect);
+      return;
     }
+    recordAnswer(question, isCorrect);
+    saveState();
+    revealAnswer(question, choiceIndexes, isCorrect);
     renderStats();
     renderSaved();
   }
 
   function answerTextQuestion(question, answerText) {
-    if (answered) return;
+    const mockActive = isMockActive();
+    if (answered && !mockActive) return;
     answered = true;
     const isCorrect = getAnswerTexts(question).includes(normalizeTextAnswer(answerText));
-    recordAnswer(question, isCorrect);
     sessionAnswers[question.id] = { type: "text", answerText, isCorrect };
-    saveState();
     updateProgressSummary();
-    if (isMockActive()) {
+    if (mockActive) {
       revealMockTextAnswer();
-    } else {
-      revealTextAnswer(question, answerText, isCorrect);
+      return;
     }
+    recordAnswer(question, isCorrect);
+    saveState();
+    revealTextAnswer(question, answerText, isCorrect);
     renderStats();
     renderSaved();
   }
 
-  function recordAnswer(question, isCorrect) {
+  function recordAnswer(question, isCorrect, options = {}) {
     const previous = state.answers[question.id] || { correct: 0, total: 0 };
     const recentResults = [...(previous.recentResults || []), isCorrect].slice(-5);
     const consecutiveCorrect = isCorrect ? (previous.consecutiveCorrect || 0) + 1 : 0;
@@ -778,7 +969,7 @@
       correct: previous.correct + (isCorrect ? 1 : 0),
       total: previous.total + 1,
       lastCorrect: isCorrect,
-      lastAnsweredAt: new Date().toISOString(),
+      lastAnsweredAt: options.answeredAt || new Date().toISOString(),
       recentResults,
       consecutiveCorrect
     };
@@ -797,7 +988,7 @@
       scheduleIncorrectReview(question.id);
     }
 
-    recordDailyActivity();
+    if (options.countDaily !== false) recordDailyActivity();
   }
 
   function revealAnswer(question, choiceIndexes, isCorrect) {
@@ -840,12 +1031,12 @@
 
   function revealMockChoiceAnswer(choiceIndexes) {
     [...els.choices.children].forEach((button, index) => {
-      button.disabled = true;
+      button.disabled = false;
       const selected = choiceIndexes.includes(index);
       button.classList.toggle("selected", selected);
       button.setAttribute("aria-pressed", String(selected));
     });
-    els.multiSubmitButton.disabled = true;
+    els.multiSubmitButton.disabled = !isMultipleChoiceQuestion(getCurrentQuestion());
     els.answerResult.hidden = true;
     els.explanationBox.hidden = true;
     els.confidencePanel.hidden = true;
@@ -854,8 +1045,8 @@
   }
 
   function revealMockTextAnswer() {
-    els.textAnswerInput.disabled = true;
-    els.textSubmitButton.disabled = true;
+    els.textAnswerInput.disabled = false;
+    els.textSubmitButton.disabled = false;
     els.answerResult.hidden = true;
     els.explanationBox.hidden = true;
     els.confidencePanel.hidden = true;
@@ -872,11 +1063,15 @@
       else revealTextAnswer(question, saved.answerText, saved.isCorrect);
       return;
     }
-    if (isMockActive()) revealMockChoiceAnswer(saved.choiceIndexes);
+    if (isMockActive()) {
+      selectedChoiceIndexes = [...saved.choiceIndexes];
+      revealMockChoiceAnswer(saved.choiceIndexes);
+    }
     else revealAnswer(question, saved.choiceIndexes, saved.isCorrect);
   }
 
   function updateNextButtonAfterAnswer() {
+    els.nextButton.innerHTML = `次の問題<span aria-hidden="true">›</span>`;
     els.nextButton.disabled = currentSet.length <= 1 && !isCurrentSetComplete();
     if (isCurrentSetComplete()) {
       els.nextButton.disabled = false;
@@ -899,8 +1094,68 @@
     els.resultScore.textContent = `${totals.correct} / ${resultTotal}`;
     els.resultRate.textContent = `正答率 ${percent}%`;
     els.resultSummary.textContent = state.filters.mode === "mock"
-      ? `${currentSet.length}問中${totals.correct}問正解です。未回答は不正解として扱います。弱点は成績画面で確認できます。`
+      ? `${currentSet.length}問中${totals.correct}問正解です。未回答は不正解として扱います。分野別成績と問題ごとの回答は下で確認できます。`
       : `${totals.total}問中${totals.correct}問正解です。復習したい問題は「復習」タブから確認できます。`;
+    renderMockResultDetails();
+  }
+
+  function renderMockResultDetails() {
+    const isMockResult = state.filters.mode === "mock" && Boolean(mockSession);
+    els.mockCategoryResults.hidden = !isMockResult;
+    els.mockQuestionReview.hidden = !isMockResult;
+    els.mockCategoryResultsList.replaceChildren();
+    els.mockQuestionReviewList.replaceChildren();
+    if (!isMockResult) return;
+
+    const categoryTotals = new Map();
+    currentSet.forEach((question) => {
+      const answer = sessionAnswers[question.id];
+      const totals = categoryTotals.get(question.category) || { correct: 0, total: 0 };
+      totals.total += 1;
+      if (answer?.isCorrect) totals.correct += 1;
+      categoryTotals.set(question.category, totals);
+    });
+
+    [...categoryTotals.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0], "ja"))
+      .forEach(([category, totals]) => {
+        const rate = Math.round((totals.correct / totals.total) * 100);
+        const row = document.createElement("div");
+        row.className = "mock-category-row";
+        row.innerHTML = `<span>${escapeHtml(category)}</span><strong>${totals.correct} / ${totals.total}（${rate}%）</strong>`;
+        els.mockCategoryResultsList.appendChild(row);
+      });
+
+    currentSet.forEach((question, index) => {
+      const answer = sessionAnswers[question.id];
+      const status = !answer ? "unanswered" : answer.isCorrect ? "correct" : "incorrect";
+      const statusLabel = status === "correct" ? "正解" : status === "incorrect" ? "不正解" : "未回答";
+      const correctAnswer = isTextAnswerQuestion(question)
+        ? question.answerText
+        : formatAnswers(question, getAnswerIndexes(question));
+      const userAnswer = !answer
+        ? "未回答"
+        : answer.type === "text"
+          ? answer.answerText
+          : formatAnswers(question, answer.choiceIndexes);
+      const reference = referenceResolver(question);
+      const details = document.createElement("details");
+      details.className = `mock-review-item ${status}`;
+      if (status !== "correct") details.open = true;
+      details.innerHTML = `
+        <summary>
+          <span class="mock-status ${status}">${statusLabel}</span>
+          <strong>${index + 1}. ${escapeHtml(formatStudyText(question.question))}</strong>
+        </summary>
+        <div class="mock-review-body">
+          <p><b>あなたの回答</b>${escapeHtml(formatStudyText(userAnswer))}</p>
+          <p><b>正解</b>${escapeHtml(formatStudyText(correctAnswer))}</p>
+          <p><b>解説</b>${escapeHtml(formatStudyText(question.explanation || "解説はありません"))}</p>
+          ${reference ? `<p><b>教本参照</b>${escapeHtml(`${reference.pages}「${reference.section}」`)}</p>` : ""}
+        </div>
+      `;
+      els.mockQuestionReviewList.appendChild(details);
+    });
   }
 
   function isMultipleChoiceQuestion(question) {

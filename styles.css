@@ -661,6 +661,26 @@ select {
   margin-top: 10px;
 }
 
+.textbook-reference {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin-top: 12px;
+  border-top: 1px solid rgba(185, 134, 45, 0.24);
+  padding-top: 10px;
+  color: #5d4a2e;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.textbook-reference[hidden] {
+  display: none;
+}
+
+.textbook-reference strong {
+  color: var(--accent-dark);
+}
+
 .confidence-panel {
   margin-top: 12px;
   border-top: 1px solid var(--line);
@@ -796,6 +816,167 @@ select {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+.mock-result-section {
+  margin-top: 22px;
+  text-align: left;
+}
+
+.mock-result-section h3 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.mock-category-results {
+  display: grid;
+  gap: 7px;
+}
+
+.mock-category-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  padding: 8px 2px;
+  font-size: 0.8rem;
+}
+
+.mock-category-row span {
+  overflow-wrap: anywhere;
+}
+
+.mock-category-row strong {
+  flex: 0 0 auto;
+  color: var(--accent-dark);
+}
+
+.mock-question-review {
+  display: grid;
+  gap: 8px;
+}
+
+.mock-review-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.mock-review-item summary {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: start;
+  gap: 8px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.mock-review-item summary::after {
+  content: "+";
+  color: var(--accent-dark);
+  font-weight: 900;
+}
+
+.mock-review-item[open] summary::after {
+  content: "−";
+}
+
+.mock-review-item summary strong {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.mock-status {
+  border-radius: 5px;
+  padding: 3px 6px;
+  color: #fff;
+  font-size: 0.66rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.mock-status.correct {
+  background: var(--good);
+}
+
+.mock-status.incorrect {
+  background: var(--danger);
+}
+
+.mock-status.unanswered {
+  background: #6f6c68;
+}
+
+.mock-review-body {
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding: 11px;
+}
+
+.mock-review-body p {
+  display: grid;
+  gap: 2px;
+  margin: 0 !important;
+  color: var(--ink) !important;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+
+.mock-review-body b {
+  color: var(--accent-dark);
+  font-size: 0.7rem;
+}
+
+.mock-transfer {
+  margin: 18px 0;
+  border: 1px solid rgba(159, 36, 61, 0.18);
+  border-radius: 8px;
+  padding: 14px;
+  background: #fffaf5;
+}
+
+.mock-transfer h3 {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.mock-transfer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.mock-transfer-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.mock-import-button {
+  min-height: 46px;
+  border-radius: 8px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.mock-transfer .mock-transfer-feedback {
+  min-height: 1.5em;
+  margin-top: 8px;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+@media (max-width: 380px) {
+  .mock-transfer-actions {
+    grid-template-columns: 1fr;
+  }
 }
 
 .glass-mark {
