@@ -119,6 +119,47 @@ h1 {
   line-height: 1;
 }
 
+.icon-button.is-busy span {
+  animation: spin-refresh 0.8s linear infinite;
+}
+
+.icon-button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+@keyframes spin-refresh {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.update-notice {
+  position: fixed;
+  right: 18px;
+  bottom: calc(92px + env(safe-area-inset-bottom));
+  z-index: 20;
+  max-width: min(340px, calc(100vw - 36px));
+  padding: 12px 14px;
+  border: 1px solid rgba(32, 126, 95, 0.24);
+  border-radius: 8px;
+  color: #173d31;
+  background: rgba(240, 250, 245, 0.96);
+  box-shadow: 0 14px 30px rgba(53, 36, 29, 0.16);
+  font-size: 0.86rem;
+  font-weight: 800;
+  line-height: 1.55;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.update-notice.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .panel {
   display: none;
 }

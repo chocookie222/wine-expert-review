@@ -1,11 +1,11 @@
 (function () {
   "use strict";
 
-  const questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
-  const readingFormatter = typeof window.WINE_READING_FORMATTER === "function"
+  let questions = Array.isArray(window.WINE_QUESTIONS) ? window.WINE_QUESTIONS : [];
+  let readingFormatter = typeof window.WINE_READING_FORMATTER === "function"
     ? window.WINE_READING_FORMATTER
     : (value) => String(value || "");
-  const referenceResolver = typeof window.WINE_REFERENCE_RESOLVER === "function"
+  let referenceResolver = typeof window.WINE_REFERENCE_RESOLVER === "function"
     ? window.WINE_REFERENCE_RESOLVER
     : () => null;
   const storageKey = "wineExpertReviewApp.v1";
@@ -396,14 +396,7 @@
       setQuestionImportance(question.id, els.importanceEditor.value);
     });
 
-    els.resetSessionButton.addEventListener("click", () => {
-      state.currentIndex = 0;
-      answered = false;
-      resetSessionProgress();
-      rebuildSet();
-      saveState();
-      renderQuiz();
-    });
+    els.resetSessionButton.addEventListener("click", updateQuestionData);
 
     els.clearHistoryButton.addEventListener("click", () => {
       if (!confirm("回答履歴、誤答保存、復習リスト、復習期限を消去しますか。")) return;
@@ -1405,6 +1398,100 @@
     sessionAnswers = {};
     showingResult = false;
     selectedChoiceIndexes = [];
+  }
+
+  async function updateQuestionData() {
+    if (isMockActive() && !confirm("模擬試験中の未確定の解答は失われます。回答履歴は残したまま問題データを更新しますか。")) {
+      return;
+    }
+
+    saveState();
+    setUpdateButtonBusy(true);
+    try {
+      if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+        await refreshStaticData();
+        stopMockTimer();
+        mockSession = null;
+        state.filters.mode = state.filters.mode === "mock" ? "all" : state.filters.mode;
+        state.currentIndex = 0;
+        state.selectedId = null;
+        answered = false;
+        resetSessionProgress();
+        populateCategories();
+        if (state.filters.category !== "all" && !getCategoryOptions().includes(state.filters.category)) {
+          state.filters.category = "all";
+        }
+        syncFiltersToControls();
+        syncStudyControls();
+        rebuildSet();
+        saveState();
+        renderAll();
+        showUpdateNotice("問題データを更新しました。回答履歴・復習データはそのままです。");
+      } else {
+        showUpdateNotice("回答履歴を保存して再読み込みします。");
+        window.setTimeout(() => window.location.reload(), 250);
+      }
+    } catch (error) {
+      console.error(error);
+      showUpdateNotice("更新を完了できませんでした。通信後にもう一度押してください。");
+    } finally {
+      setUpdateButtonBusy(false);
+    }
+  }
+
+  async function refreshStaticData() {
+    const cacheBuster = `appUpdate=${Date.now()}`;
+    const freshQuestions = await loadGlobalFromScript("questions.js", "WINE_QUESTIONS", cacheBuster);
+    if (!Array.isArray(freshQuestions) || !freshQuestions.length) {
+      throw new Error("Question data was not loaded.");
+    }
+    questions = freshQuestions;
+
+    try {
+      const freshResolver = await loadGlobalFromScript("references.js", "WINE_REFERENCE_RESOLVER", cacheBuster);
+      if (typeof freshResolver === "function") referenceResolver = freshResolver;
+    } catch (error) {
+      console.warn("Reference data update skipped.", error);
+    }
+
+    try {
+      const freshFormatter = await loadGlobalFromScript("readings.js", "WINE_READING_FORMATTER", cacheBuster);
+      if (typeof freshFormatter === "function") readingFormatter = freshFormatter;
+    } catch (error) {
+      console.warn("Reading data update skipped.", error);
+    }
+  }
+
+  async function loadGlobalFromScript(path, globalName, cacheBuster) {
+    const response = await fetch(`${path}?${cacheBuster}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Unable to fetch ${path}`);
+    const source = await response.text();
+    const sandbox = { window: {} };
+    Function("window", source)(sandbox.window);
+    return sandbox.window[globalName];
+  }
+
+  function setUpdateButtonBusy(isBusy) {
+    els.resetSessionButton.disabled = isBusy;
+    els.resetSessionButton.classList.toggle("is-busy", isBusy);
+    els.resetSessionButton.setAttribute("aria-busy", String(isBusy));
+    els.resetSessionButton.setAttribute("aria-label", isBusy ? "問題データを更新中" : "問題データを更新");
+  }
+
+  function showUpdateNotice(message) {
+    let notice = document.getElementById("updateNotice");
+    if (!notice) {
+      notice = document.createElement("div");
+      notice.id = "updateNotice";
+      notice.className = "update-notice";
+      document.body.appendChild(notice);
+    }
+    notice.textContent = message;
+    notice.classList.add("visible");
+    window.clearTimeout(showUpdateNotice.timer);
+    showUpdateNotice.timer = window.setTimeout(() => {
+      notice.classList.remove("visible");
+    }, 3200);
   }
 
   function clamp(value, min, max) {
