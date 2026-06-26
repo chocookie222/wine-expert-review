@@ -34074,7 +34074,7 @@ window.WINE_QUESTIONS = [
       "9〜10月"
     ],
     "answerIndex": 0,
-    "explanation": "7〜8月。数値問題は対象となる酒類・工程・表示と単位を一体で覚える。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Véraison（ヴェレゾン）は日本語で着色期。英語圏ではveraison（ヴェレイゾン）とも読まれます。\n北半球では一般に7〜8月ごろで、果粒が色づき始め、糖が増え酸が下がる転換点。9〜10月は収穫期、11〜12月は休眠へ向かう時期です。"
   },
   {
     "id": "cultivation-149",
@@ -34088,7 +34088,7 @@ window.WINE_QUESTIONS = [
       "Macération finale à froid（マセラシオン・フィナル・ア・フロワ）"
     ],
     "answerIndex": 0,
-    "explanation": "判断の要点は「Macération finale à chaud（マセラシオン・フィナル・ア・ショー）」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Macération finale à chaud（マセラシオン・フィナル・ア・ショー）はM.F.C.。アルコール発酵後、MLF開始前に果皮・種子が残る果醪を30〜45℃に上げる操作です。\n発酵後は果醪中にアルコールがあるため、果皮・種子からタンニンを強く抽出できる。préfermentaireは発酵前、à froidは低温なので目的が違います。"
   },
   {
     "id": "cultivation-150",
