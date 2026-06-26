@@ -3132,13 +3132,13 @@ window.WINE_QUESTIONS = [
     "importance": "B",
     "question": "次の中からシャンパーニュの製造工程を最初から最後の順序で正しく並べたものを選択してください。",
     "choices": [
-      "Dosage, Pressurage, Fermentation Malolactique, Remuage",
-      "Pressurage, Fermentation Alcoolique, Bouchage, Dégorgement",
-      "Assemblage, Fermentation Alcoolique, Dosage, Remuage",
-      "Pressurage, Tirage, Deuxième Fermentation en Bouteille, Bouchage"
+      "Dosage（ドザージュ）, Pressurage（プレスラージュ）, Fermentation Malolactique（フェルマンタシオン・マロラクティック）, Remuage（ルミュアージュ）",
+      "Pressurage（プレスラージュ）, Fermentation Alcoolique（フェルマンタシオン・アルコリック）, Bouchage（ブシャージュ）, Dégorgement（デゴルジュマン）",
+      "Assemblage（アッサンブラージュ）, Fermentation Alcoolique（フェルマンタシオン・アルコリック）, Dosage（ドザージュ）, Remuage（ルミュアージュ）",
+      "Pressurage（プレスラージュ）, Tirage（ティラージュ）, Deuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）, Bouchage（ブシャージュ）"
     ],
     "answerIndex": 3,
-    "explanation": "圧搾から瓶内二次発酵、澱抜き、糖分調整、打栓へ進む。収穫・圧搾後に一次発酵、調合、瓶詰め、瓶内二次発酵。\nRemuage→Dégorgement→Dosage→Bouchageが後半。\nTirageは糖・酵母添加、Dosageは澱抜き後の甘辛調整。"
+    "explanation": "圧搾から瓶内二次発酵、澱抜き、糖分調整、打栓へ進む。収穫・圧搾後に一次発酵、調合、瓶詰め、瓶内二次発酵。\nRemuage（ルミュアージュ）→Dégorgement（デゴルジュマン）→Dosage（ドザージュ）→Bouchage（ブシャージュ）が後半。\nTirage（ティラージュ）は糖・酵母添加、Dosage（ドザージュ）は澱抜き後の甘辛調整。"
   },
   {
     "id": "france-champagne-004",
@@ -3162,11 +3162,11 @@ window.WINE_QUESTIONS = [
     "choices": [
       "Tranche",
       "Cuvée",
-      "Taille",
+      "Taille（タイユ）",
       "Cube"
     ],
     "answerIndex": 1,
-    "explanation": "シャンパーニュの圧搾で最初に得られる果汁はCuvéeと呼ばれます。4,000kgからCuvée 2,050L、Taille 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
+    "explanation": "シャンパーニュの圧搾で最初に得られる果汁はCuvéeと呼ばれます。4,000kgからCuvée 2,050L、Taille（タイユ） 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Taille（タイユ）は果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-006",
@@ -3230,19 +3230,19 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中から、シャンパーニュの製造工程で、瓶内二次発酵を意味するフランス語を選択してください。",
     "choices": [
-      "Vendange",
-      "Remuage",
-      "Deuxième Fermentation en Bouteille",
-      "Dosage"
+      "Vendange（ヴァンダンジュ）",
+      "Remuage（ルミュアージュ）",
+      "Deuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）",
+      "Dosage（ドザージュ）"
     ],
     "answerIndex": 2,
-    "explanation": "瓶内二次発酵の仏語はDeuxième Fermentation en Bouteille。直訳は『瓶の中での第二発酵』。工程名を意味から復元できる。\nTirageの後、澱上熟成の前に行う。\n糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
+    "explanation": "瓶内二次発酵の仏語はDeuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）。直訳は『瓶の中での第二発酵』。工程名を意味から復元できる。\nTirage（ティラージュ）の後、澱上熟成の前に行う。\n糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
   },
   {
     "id": "france-champagne-011",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "次の中から、シャンパーニュの製造工程で、Vendangeを意味する日本語を選択してください。",
+    "question": "次の中から、シャンパーニュの製造工程で、Vendange（ヴァンダンジュ）を意味する日本語を選択してください。",
     "choices": [
       "打栓",
       "収穫",
@@ -3250,7 +3250,7 @@ window.WINE_QUESTIONS = [
       "アルコール発酵"
     ],
     "answerIndex": 1,
-    "explanation": "Vendangeは収穫を意味します。シャンパーニュ製造工程では最初に位置する基本用語です。Vendange＝収穫。房のまま収穫し、次に圧搾へ進む。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Vendange（ヴァンダンジュ）は収穫を意味します。シャンパーニュ製造工程では最初に位置する基本用語です。Vendange（ヴァンダンジュ）＝収穫。房のまま収穫し、次に圧搾へ進む。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-012",
@@ -3417,13 +3417,13 @@ window.WINE_QUESTIONS = [
     "importance": "B",
     "question": "次の中から、シャンパーニュの製造工程で、打栓を意味するフランス語を選択してください。",
     "choices": [
-      "Bouchage",
-      "Deuxième Fermentation en Bouteille",
-      "Dégorgement",
-      "Vendange"
+      "Bouchage（ブシャージュ）",
+      "Deuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）",
+      "Dégorgement（デゴルジュマン）",
+      "Vendange（ヴァンダンジュ）"
     ],
     "answerIndex": 0,
-    "explanation": "Bouchageは打栓を意味し、コルクと留め金で最終密栓する。Bouchage＝打栓。コルクと留め金で最終密栓する。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Bouchage（ブシャージュ）は打栓を意味し、コルクと留め金で最終密栓する。Bouchage（ブシャージュ）＝打栓。コルクと留め金で最終密栓する。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-024",
@@ -3474,12 +3474,12 @@ window.WINE_QUESTIONS = [
     "question": "シャンパーニュの製造工程で搾汁された果汁について正しいものを選択してください。",
     "choices": [
       "Cuvéeは酸の豊富なピュアな果汁だが、熟成向きではない。",
-      "Tailleは酸が少なくフルーティであり、長い熟成に耐えうる。",
-      "Tailleは酸の豊富なピュアな果汁だが、熟成向きではない。",
+      "Taille（タイユ）は酸が少なくフルーティであり、長い熟成に耐えうる。",
+      "Taille（タイユ）は酸の豊富なピュアな果汁だが、熟成向きではない。",
       "Cuvéeは酸の豊富なピュアな果汁であり、長い熟成に耐えうる。"
     ],
     "answerIndex": 3,
-    "explanation": "Cuvéeは最初に搾汁される酸の豊富なピュアな果汁で、長い熟成に耐えうるとされます。4,000kgからCuvée 2,050L、Taille 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
+    "explanation": "Cuvéeは最初に搾汁される酸の豊富なピュアな果汁で、長い熟成に耐えうるとされます。4,000kgからCuvée 2,050L、Taille（タイユ） 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Taille（タイユ）は果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-028",
@@ -3532,7 +3532,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-031",
     "category": "フランス/シャンパーニュ",
     "importance": "S",
-    "question": "シャンパーニュの甘辛度Dosage Zéroの残糖度を選択してください。",
+    "question": "シャンパーニュの甘辛度Dosage（ドザージュ） Zéroの残糖度を選択してください。",
     "choices": [
       "17〜32g/リットル",
       "3g/リットル未満",
@@ -3540,7 +3540,7 @@ window.WINE_QUESTIONS = [
       "0〜6g/リットル"
     ],
     "answerIndex": 1,
-    "explanation": "Dosage ZéroはPas Doséと同様、残糖度3g/リットル未満の表示です。Dosage＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Dosage（ドザージュ） ZéroはPas Doséと同様、残糖度3g/リットル未満の表示です。Dosage（ドザージュ）＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-032",
@@ -3593,7 +3593,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-035",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "シャンパーニュの製造工程の圧搾でTailleとして許される最大の搾汁量を選択してください。",
+    "question": "シャンパーニュの製造工程の圧搾でTaille（タイユ）として許される最大の搾汁量を選択してください。",
     "choices": [
       "4000キロのブドウから2550リットル",
       "4000キロのブドウから2050リットル",
@@ -3601,7 +3601,7 @@ window.WINE_QUESTIONS = [
       "4000キロのブドウから500リットル"
     ],
     "answerIndex": 3,
-    "explanation": "Tailleは4,000kgのブドウから最大500Lを搾る。4,000kgからCuvée 2,050L、Taille 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
+    "explanation": "Taille（タイユ）は4,000kgのブドウから最大500Lを搾る。4,000kgからCuvée 2,050L、Taille（タイユ） 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Taille（タイユ）は果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-036",
@@ -3635,7 +3635,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-038",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "次の中から、シャンパーニュの製造工程で、Dosageを意味する日本語を選択してください。",
+    "question": "次の中から、シャンパーニュの製造工程で、Dosage（ドザージュ）を意味する日本語を選択してください。",
     "choices": [
       "収穫",
       "糖分調整",
@@ -3643,7 +3643,7 @@ window.WINE_QUESTIONS = [
       "アルコール発酵"
     ],
     "answerIndex": 1,
-    "explanation": "Dosageは糖分調整を意味します。Dosage＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Dosage（ドザージュ）は糖分調整を意味します。Dosage（ドザージュ）＝糖分調整。澱抜き後のリキュールで最終甘辛度を決める。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-039",
@@ -3652,12 +3652,12 @@ window.WINE_QUESTIONS = [
     "question": "次の中から、シャンパーニュの製造工程で、マロラクティック発酵を意味するフランス語を選択してください。",
     "choices": [
       "Maturation sur lies",
-      "Fermentation Malolactique",
-      "Dosage",
-      "Dégorgement"
+      "Fermentation Malolactique（フェルマンタシオン・マロラクティック）",
+      "Dosage（ドザージュ）",
+      "Dégorgement（デゴルジュマン）"
     ],
     "answerIndex": 1,
-    "explanation": "マロラクティック発酵はFermentation Malolactiqueです。Fermentation Malolactique＝マロラクティック発酵。酸を和らげる任意工程。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "マロラクティック発酵はFermentation Malolactique（フェルマンタシオン・マロラクティック）です。Fermentation Malolactique（フェルマンタシオン・マロラクティック）＝マロラクティック発酵。酸を和らげる任意工程。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-040",
@@ -3727,7 +3727,7 @@ window.WINE_QUESTIONS = [
       "2000キロのブドウから2050リットル"
     ],
     "answerIndex": 1,
-    "explanation": "4,000kgから認められる合計搾汁量は最大2,550L。4,000kgからCuvée 2,050L、Taille 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
+    "explanation": "4,000kgから認められる合計搾汁量は最大2,550L。4,000kgからCuvée 2,050L、Taille（タイユ） 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Taille（タイユ）は果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-045",
@@ -3768,19 +3768,19 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中から、シャンパーニュの製造工程で、動瓶を意味するフランス語を選択してください。",
     "choices": [
-      "Fermentation Alcoolique",
-      "Vendange",
-      "Assemblage",
-      "Remuage"
+      "Fermentation Alcoolique（フェルマンタシオン・アルコリック）",
+      "Vendange（ヴァンダンジュ）",
+      "Assemblage（アッサンブラージュ）",
+      "Remuage（ルミュアージュ）"
     ],
     "answerIndex": 3,
-    "explanation": "Remuageは動瓶を意味し、澱を瓶口へ集めるため瓶を回転・傾斜させる。Remuage＝動瓶。澱を瓶口へ集めるため瓶を回転・傾斜させる。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Remuage（ルミュアージュ）は動瓶を意味し、澱を瓶口へ集めるため瓶を回転・傾斜させる。Remuage（ルミュアージュ）＝動瓶。澱を瓶口へ集めるため瓶を回転・傾斜させる。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-048",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "次の中から、シャンパーニュの製造工程で、Assemblageを意味する日本語を選択してください。",
+    "question": "次の中から、シャンパーニュの製造工程で、Assemblage（アッサンブラージュ）を意味する日本語を選択してください。",
     "choices": [
       "アルコール発酵",
       "マロラクティック発酵",
@@ -3788,7 +3788,7 @@ window.WINE_QUESTIONS = [
       "圧搾"
     ],
     "answerIndex": 2,
-    "explanation": "Assemblageは調合を意味し、品種・村・収穫年やリザーヴ酒を組み合わせる。Assemblage＝調合。品種・村・収穫年やリザーヴ酒を組み合わせる。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Assemblage（アッサンブラージュ）は調合を意味し、品種・村・収穫年やリザーヴ酒を組み合わせる。Assemblage（アッサンブラージュ）＝調合。品種・村・収穫年やリザーヴ酒を組み合わせる。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-049",
@@ -3910,7 +3910,7 @@ window.WINE_QUESTIONS = [
       "8気圧"
     ],
     "answerIndex": 0,
-    "explanation": "Tirageの糖24g/Lから瓶内二次発酵で約6気圧を得る。Tirageで糖24g/Lを加えると瓶内二次発酵で約6気圧を得る。\nDosageは澱抜き後の甘辛調整で、Tirageとは目的が違う。\n瓶内二次発酵後のアルコール上昇は約1.2%。"
+    "explanation": "Tirage（ティラージュ）の糖24g/Lから瓶内二次発酵で約6気圧を得る。Tirage（ティラージュ）で糖24g/Lを加えると瓶内二次発酵で約6気圧を得る。\nDosage（ドザージュ）は澱抜き後の甘辛調整で、Tirage（ティラージュ）とは目的が違う。\n瓶内二次発酵後のアルコール上昇は約1.2%。"
   },
   {
     "id": "france-champagne-057",
@@ -3938,13 +3938,13 @@ window.WINE_QUESTIONS = [
       "2000キロのブドウから2050リットル"
     ],
     "answerIndex": 0,
-    "explanation": "Cuvéeとして許される最大の搾汁量は、4000キロのブドウから2050リットルです。4,000kgからCuvée 2,050L、Taille 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Tailleは果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
+    "explanation": "Cuvéeとして許される最大の搾汁量は、4000キロのブドウから2050リットルです。4,000kgからCuvée 2,050L、Taille（タイユ） 500Lを採る。\nCuvéeは酸が豊かで熟成向き、Taille（タイユ）は果実味寄り。\n合計搾汁量は2,550L。房のまま圧搾する。"
   },
   {
     "id": "france-champagne-059",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "次の中から、シャンパーニュの製造工程で、Deuxième Fermentation en Bouteilleを意味する日本語を選択してください。",
+    "question": "次の中から、シャンパーニュの製造工程で、Deuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）を意味する日本語を選択してください。",
     "choices": [
       "打栓",
       "果汁清澄",
@@ -3952,7 +3952,7 @@ window.WINE_QUESTIONS = [
       "瓶内二次発酵"
     ],
     "answerIndex": 3,
-    "explanation": "Deuxième Fermentation en Bouteilleは瓶内二次発酵。密閉瓶内で炭酸ガスをワインに溶け込ませる工程。\nTirageの後、澱上熟成の前に行う。\n糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
+    "explanation": "Deuxième Fermentation en Bouteille（ドゥーズィエム・フェルマンタシオン・アン・ブテイユ）は瓶内二次発酵。密閉瓶内で炭酸ガスをワインに溶け込ませる工程。\nTirage（ティラージュ）の後、澱上熟成の前に行う。\n糖24g/Lから約6気圧と約1.2%のアルコールを得る。"
   },
   {
     "id": "france-champagne-060",
@@ -4019,7 +4019,7 @@ window.WINE_QUESTIONS = [
     "id": "france-champagne-064",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "シャンパーニュにLiqueur de Tirageとして添加される糖分は1リットルあたりどれくらいか選択してください。",
+    "question": "シャンパーニュにLiqueur de Tirage（ティラージュ）として添加される糖分は1リットルあたりどれくらいか選択してください。",
     "choices": [
       "12グラム",
       "24グラム",
@@ -4027,13 +4027,13 @@ window.WINE_QUESTIONS = [
       "18グラム"
     ],
     "answerIndex": 1,
-    "explanation": "Liqueur de Tirageとして添加される糖分は1リットルあたり24グラムです。Tirage＝瓶詰め。糖と酵母を加えて瓶内二次発酵へ導く。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Liqueur de Tirage（ティラージュ）として添加される糖分は1リットルあたり24グラムです。Tirage（ティラージュ）＝瓶詰め。糖と酵母を加えて瓶内二次発酵へ導く。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-065",
     "category": "フランス/シャンパーニュ",
     "importance": "A",
-    "question": "次の中から、シャンパーニュの製造工程で、Pressurageを意味する日本語を選択してください。",
+    "question": "次の中から、シャンパーニュの製造工程で、Pressurage（プレスラージュ）を意味する日本語を選択してください。",
     "choices": [
       "澱抜き",
       "瓶内熟成",
@@ -4041,7 +4041,7 @@ window.WINE_QUESTIONS = [
       "収穫"
     ],
     "answerIndex": 2,
-    "explanation": "Pressurageは圧搾を意味します。収穫したブドウから果汁を搾る工程です。Pressurage＝圧搾。4,000kgからCuvéeとTailleを採る。\nTirageは二次発酵前、Dosageは澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
+    "explanation": "Pressurage（プレスラージュ）は圧搾を意味します。収穫したブドウから果汁を搾る工程です。Pressurage（プレスラージュ）＝圧搾。4,000kgからCuvéeとTaille（タイユ）を採る。\nTirage（ティラージュ）は二次発酵前、Dosage（ドザージュ）は澱抜き後。\n工程順は圧搾→発酵→調合→瓶内二次発酵→澱抜き。"
   },
   {
     "id": "france-champagne-066",
@@ -11541,19 +11541,19 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からアルザス地方のCrémant d'Alsaceの製法を選択してください。",
     "choices": [
-      "Méthode rurale",
-      "Méthode cuvée close",
-      "Méthode charmat",
-      "Méthode traditionnelle"
+      "Méthode rurale（メトード・リュラル）",
+      "Méthode cuvée close（メトード・キュヴェ・クローズ）",
+      "Méthode charmat（メトード・シャルマ）",
+      "Méthode traditionnelle（メトード・トラディショネル）"
     ],
     "answerIndex": 3,
-    "explanation": "Crémant d'Alsaceは瓶内二次発酵によるMéthode traditionnelleで造られます。Crémant d’Alsaceは伝統方式で造る白・ロゼの発泡。設問ではMéthode traditionnelleを選ぶ。\nロゼはPinot Noirのみ。白にはPinot Blanc、Riesling、Chardonnayなどを使える。\nAOC制定は1976年。フランスで消費量最大のCrémant。"
+    "explanation": "Crémant d'Alsaceは瓶内二次発酵によるMéthode traditionnelle（メトード・トラディショネル）で造られます。Crémant d’Alsaceは伝統方式で造る白・ロゼの発泡。設問ではMéthode traditionnelle（メトード・トラディショネル）を選ぶ。\nロゼはPinot Noirのみ。白にはPinot Blanc、Riesling、Chardonnayなどを使える。\nAOC制定は1976年。フランスで消費量最大のCrémant。"
   },
   {
     "id": "france-alsace-014",
     "category": "フランス/アルザス",
     "importance": "S",
-    "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesを造る時、ミュスカに求められる最低糖分含有量を選択してください。",
     "choices": [
       "335グラム/リットル",
       "205グラム/リットル",
@@ -11567,7 +11567,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-015",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesを造る時、ゲヴュルツトラミネールに求められる最低糖分含有量を選択してください。",
     "choices": [
       "257グラム/リットル",
       "270グラム/リットル",
@@ -11609,7 +11609,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-021",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のVendanges Tardivesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesを造る時、リースリングに求められる最低糖分含有量を選択してください。",
     "choices": [
       "244グラム/リットル",
       "270グラム/リットル",
@@ -11623,7 +11623,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-022",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のVendanges TardivesまたはSélection de Grains Noblesの最低熟成期間を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s TardivesまたはSélection de Grains Noblesの最低熟成期間を選択してください。",
     "choices": [
       "収穫翌年の4月30日まで",
       "収穫翌々年の8月31日まで",
@@ -11651,7 +11651,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-028",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のVendanges Tardivesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesを造る時、ピノ・グリに求められる最低糖分含有量を選択してください。",
     "choices": [
       "270グラム/リットル",
       "235グラム/リットル",
@@ -11693,7 +11693,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-033",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のVendanges Tardivesに原則として認められていない品種を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesに原則として認められていない品種を選択してください。",
     "choices": [
       "ピノ・ブラン",
       "ミュスカ",
@@ -11763,7 +11763,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-038",
     "category": "フランス/アルザス",
     "importance": "A",
-    "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、Vendanges TardivesおよびSélection de Grains Noblesにおいてピノ・グリが認められないところを選択してください。",
+    "question": "次の中からアルザス地方のAlsace Grand Cruにおいて、Vendange（ヴァンダンジュ）s TardivesおよびSélection de Grains Noblesにおいてピノ・グリが認められないところを選択してください。",
     "choices": [
       "Altenberg de Bergheim",
       "Kaefferkopf",
@@ -11833,7 +11833,7 @@ window.WINE_QUESTIONS = [
     "id": "france-alsace-044",
     "category": "フランス/アルザス",
     "importance": "B",
-    "question": "次の中からアルザス地方のVendanges Tardivesが造ることのできるワインの色を選択してください。",
+    "question": "次の中からアルザス地方のVendange（ヴァンダンジュ）s Tardivesが造ることのできるワインの色を選択してください。",
     "choices": [
       "ロゼ・白",
       "白のみ",
@@ -11841,7 +11841,7 @@ window.WINE_QUESTIONS = [
       "赤・ロゼ・白"
     ],
     "answerIndex": 1,
-    "explanation": "Vendanges Tardivesは白ワインとして造られます。認可色は白のみ。AOC名と色を一組で覚える。\nAlsaceはPinot Noirの赤・ロゼと、多数の白品種を認可。VT・SGNは白のみ。\nCrémant d’Alsaceは白とロゼ、Côtes de ToulとMoselleは3色。"
+    "explanation": "Vendange（ヴァンダンジュ）s Tardivesは白ワインとして造られます。認可色は白のみ。AOC名と色を一組で覚える。\nAlsaceはPinot Noirの赤・ロゼと、多数の白品種を認可。VT・SGNは白のみ。\nCrémant d’Alsaceは白とロゼ、Côtes de ToulとMoselleは3色。"
   },
   {
     "id": "france-alsace-046",
@@ -11864,7 +11864,7 @@ window.WINE_QUESTIONS = [
     "question": "次の中からアルザス地方のAOCアルザスおよびヴァン・ダルザスにおいて、複数の品種を混醸またはアッサンブラージュした場合の表記として適切なものを選択してください。",
     "choices": [
       "Gentil",
-      "Vendanges Tardives",
+      "Vendange（ヴァンダンジュ）s Tardives",
       "Zotzenberg",
       "Edelzwicker"
     ],
@@ -11908,7 +11908,7 @@ window.WINE_QUESTIONS = [
       "Edelzwicker",
       "Gentil",
       "Zotzenberg",
-      "Vendanges Tardives"
+      "Vendange（ヴァンダンジュ）s Tardives"
     ],
     "answerIndex": 1,
     "explanation": "複数の高貴品種を50%以上使用したアッサンブラージュではGentilの表記が用いられます。Gentilは複数品種ブレンドの表示。\nGentilは高貴品種を50%以上使用、Edelzwickerにはその条件がない。\n単一品種名を表示するワインと対比して覚える。"
@@ -14128,13 +14128,13 @@ window.WINE_QUESTIONS = [
     "importance": "B",
     "question": "次の中からフランス、ラングドック・ルーション地方のAOCワインLimoux Blanquette de Limouxの製法を選択してください。",
     "choices": [
-      "Méthode rurale",
-      "Méthode charmat",
-      "Méthode de transfert",
-      "Méthode traditionnelle"
+      "Méthode rurale（メトード・リュラル）",
+      "Méthode charmat（メトード・シャルマ）",
+      "Méthode de transfert（メトード・ド・トランスフェール）",
+      "Méthode traditionnelle（メトード・トラディショネル）"
     ],
     "answerIndex": 3,
-    "explanation": "Limoux Blanquette de Limouxは伝統方式で造られます。Blanquette de LimouxはMauzac主体で伝統方式。設問の答えはMéthode traditionnelle。\nBlanquette＝Mauzac、Crémant＝Chardonnayで区別。\nLimouxは発泡3種と赤白スティルの規定を持つ。"
+    "explanation": "Limoux Blanquette de Limouxは伝統方式で造られます。Blanquette de LimouxはMauzac主体で伝統方式。設問の答えはMéthode traditionnelle（メトード・トラディショネル）。\nBlanquette＝Mauzac、Crémant＝Chardonnayで区別。\nLimouxは発泡3種と赤白スティルの規定を持つ。"
   },
   {
     "id": "france-languedoc-roussillon-026",
@@ -17479,7 +17479,7 @@ window.WINE_QUESTIONS = [
     "category": "イタリア/DOCG、DOC",
     "importance": "B",
     "question": "次の中からイタリア、シチリア州で古木に用いられている伝統的な仕立て方を選んでください。",
-    "explanation": "Siciliaの古木では株仕立てのAlberelloが伝統的。乾燥と強風に耐えやすい低い樹形。\nAlberello→株仕立て、Pergola→棚仕立て、Guyot→長梢剪定。\n製法名は原料・産地・酸化の有無まで比較すると区別できる。",
+    "explanation": "Siciliaの古木では株仕立てのAlberelloが伝統的。乾燥と強風に耐えやすい低い樹形。\nAlberello→株仕立て、Pergola（ペルゴラ）→棚仕立て、Guyot→長梢剪定。\n製法名は原料・産地・酸化の有無まで比較すると区別できる。",
     "choices": [
       "クルラ",
       "テンドーネ",
@@ -20677,7 +20677,7 @@ window.WINE_QUESTIONS = [
     "category": "ルクセンブルク",
     "importance": "B",
     "question": "次の中からルクセンブルクでLieu-ditと表記するワインに表記されるvendange tardiveの意味を選択してください。",
-    "explanation": "Vendange tardiveは通常より遅く収穫し、糖度と風味を高めた遅摘みワイン。\n乾燥させるvin de paille、自然凍結させるvin de glaceとは濃縮方法が異なる。フランス語のtardive＝遅いが手掛かり。",
+    "explanation": "Vendange（ヴァンダンジュ） tardiveは通常より遅く収穫し、糖度と風味を高めた遅摘みワイン。\n乾燥させるvin de paille、自然凍結させるvin de glaceとは濃縮方法が異なる。フランス語のtardive＝遅いが手掛かり。",
     "choices": [
       "遅摘みのブドウを使ったワイン",
       "スパークリングワイン",
@@ -21402,7 +21402,7 @@ window.WINE_QUESTIONS = [
     "category": "スペイン",
     "importance": "B",
     "question": "スペインワインの歴史上で次の出来事が起きた年代を選択してください。「フィロキセラの害で畑を失ったフランス人が、リオハなどスペイン北部のワイン産地にやってきてワイン造りに従事した。」",
-    "explanation": "19世紀後半、Phylloxeraで畑を失ったBordeaux系生産者がRiojaへ移り、樽熟成技術などを伝えた。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
+    "explanation": "19世紀後半、Phylloxera（フィロキセラ）で畑を失ったBordeaux系生産者がRiojaへ移り、樽熟成技術などを伝えた。\nRiojaは西のAlta、Ebro左岸のAlavesa、温暖な東のOriental。主要黒品種はTempranillo。",
     "choices": [
       "18世紀後半",
       "19世紀後半",
@@ -30291,7 +30291,7 @@ window.WINE_QUESTIONS = [
       "Foulage",
       "Égrappage",
       "Mutage",
-      "Dosage"
+      "Dosage（ドザージュ）"
     ],
     "answerIndex": 2,
     "explanation": "Mutageは発酵中にアルコールを加えて酵母の働きを止め、糖分を残す操作。\n他の選択肢は、原料・発酵の有無・蒸留・酒精強化・香味付けのいずれかが異なる。"
@@ -31775,7 +31775,7 @@ window.WINE_QUESTIONS = [
       "Flash Détente",
       "Mutage",
       "Foulage",
-      "Dosage"
+      "Dosage（ドザージュ）"
     ],
     "answerIndex": 1,
     "explanation": "Mutageは発酵中にアルコールを加えて酵母の働きを止め、糖分を残す操作。\n他の選択肢は、原料・発酵の有無・蒸留・酒精強化・香味付けのいずれかが異なる。"
@@ -32008,7 +32008,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-001",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "ブドウの生育サイクルで「Taille」の意味を選択してください。",
+    "question": "ブドウの生育サイクルで「Taille（タイユ）」の意味を選択してください。",
     "choices": [
       "新梢の固定",
       "剪定",
@@ -32016,7 +32016,7 @@ window.WINE_QUESTIONS = [
       "萌芽"
     ],
     "answerIndex": 1,
-    "explanation": "「Taille」は剪定。休眠期に結果母枝や芽数を調整し、収量と樹形を整える作業。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "「Taille（タイユ）」は剪定。休眠期に結果母枝や芽数を調整し、収量と樹形を整える作業。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
   },
   {
     "id": "cultivation-002",
@@ -32064,7 +32064,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-005",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるRipe rotに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるRipe rot（ライプ・ロット）に有効な対処法を選択してください。",
     "choices": [
       "苗木の組織を培養し無菌状態で成長させて畑に移す",
       "ボルドー液の散布",
@@ -32072,7 +32072,7 @@ window.WINE_QUESTIONS = [
       "耐性を有する北米系品種を台木とした接木苗"
     ],
     "answerIndex": 2,
-    "explanation": "判断の要点は「罹病結果母枝や巻きひげを園内から取り除く」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Ripe rot（ライプ・ロット）は晩腐病。雨や高湿度で病原菌が広がり、果粒が褐変・腐敗します。\n対策は園内の罹病結果母枝・巻きひげを除去し、越冬菌を減らすこと。薬剤散布だけでなく、病原の残り場を片付ける発想で覚えます。"
   },
   {
     "id": "cultivation-006",
@@ -32122,13 +32122,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Millerandage",
-      "Downy mildew",
-      "Pierce's Disease",
-      "Crown gall"
+      "Millerandage（ミルランダージュ）",
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Pierce's Disease（ピアス病）",
+      "Crown gall（クラウン・ゴール）"
     ],
     "answerIndex": 1,
-    "explanation": "Downy mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Downy mildew（ダウニー・ミルデュー）はべと病。カビ性病害で、高湿度・雨の多い条件で広がり、葉裏に白いカビ状の症状が出ます。\nPhylloxeraは害虫、Pierce’s Diseaseは細菌、Crown gallは根頭がんしゅ病。カビを選ぶ問題では mildew／mold／Mildiou を目印にします。"
   },
   {
     "id": "cultivation-010",
@@ -32148,7 +32148,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-011",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるOïdiumに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるOïdium（オイディウム）に有効な対処法を選択してください。",
     "choices": [
       "耐性を有する北米系品種を台木とした接木苗",
       "ボルドー液の散布",
@@ -32156,7 +32156,7 @@ window.WINE_QUESTIONS = [
       "開花時に硫黄を含んだ農薬を散布"
     ],
     "answerIndex": 3,
-    "explanation": "開花時に硫黄を含んだ農薬を散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Oïdium（オイディウム）はうどんこ病。若枝や果粒に白い粉状の菌糸が出るカビ性病害です。\n対策は硫黄剤やベノミル剤などの散布。べと病はボルドー液、フィロキセラは台木、ウイルス病は無菌苗で分けて覚えます。"
   },
   {
     "id": "cultivation-012",
@@ -32178,13 +32178,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「ボトリティス・シネレアと呼ばれるカビが、湿度の高い環境下で花、葉、果実に生じる。黒ブドウでは色素を破壊し、赤ワインの着色不良を生じる。」",
     "choices": [
-      "Mildiou",
-      "Gray mold",
-      "Powdery mildew",
-      "Ripe rot"
+      "Mildiou（ミルデュー）",
+      "Gray mold（グレイ・モールド）",
+      "Powdery mildew（パウダリー・ミルデュー）",
+      "Ripe rot（ライプ・ロット）"
     ],
     "answerIndex": 1,
-    "explanation": "Gray moldは灰色カビ病。ボトリティス菌が湿潤条件で腐敗を起こす。\nMildiouはフランス語でべと病を表す。対して、Powdery mildewはうどんこ病。葉や果実に白い粉状の菌糸が現れる。"
+    "explanation": "Gray mold（グレイ・モールド）は灰色カビ病。ボトリティス・シネレアというカビが湿度の高い環境で花・葉・果実に発生します。\n黒ブドウでは色素を壊して赤ワインの色を弱くするのが試験ポイント。対策は風通し確保とイプロジオン水和剤など。"
   },
   {
     "id": "cultivation-014",
@@ -32220,13 +32220,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "ブドウの生育サイクルで「夏期剪定」を表すフランス語を選択してください。",
     "choices": [
-      "Rognage",
-      "Pleurs",
-      "Vendange",
-      "Floraison"
+      "Rognage（ロニャージュ）",
+      "Pleurs（プルール）",
+      "Vendange（ヴァンダンジュ）",
+      "Floraison（フロレゾン）"
     ],
     "answerIndex": 0,
-    "explanation": "「夏期剪定」はRognage。伸びた新梢の先端を切りそろえる夏季剪定。\nFloraisonはフランス語で開花。"
+    "explanation": "「夏期剪定」はRognage（ロニャージュ）。伸びた新梢の先端を切りそろえる夏季剪定。\nFloraison（フロレゾン）はフランス語で開花。"
   },
   {
     "id": "cultivation-017",
@@ -32290,13 +32290,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Crown gall",
-      "Pierce's Disease",
-      "Millerandage",
-      "Mildiou"
+      "Crown gall（クラウン・ゴール）",
+      "Pierce's Disease（ピアス病）",
+      "Millerandage（ミルランダージュ）",
+      "Mildiou（ミルデュー）"
     ],
     "answerIndex": 3,
-    "explanation": "Mildiouはフランス語でべと病を表す。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Mildiou（ミルデュー）はフランス語でべと病。英語ではDowny mildew（ダウニー・ミルデュー）です。\n雨・湿度で広がるカビ性病害で、花・葉・果実に白いカビ状胞子を作り、落花・落葉・落果につながります。対策はボルドー液。"
   },
   {
     "id": "cultivation-022",
@@ -32316,7 +32316,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-023",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるDowny mildewに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるDowny mildew（ダウニー・ミルデュー）に有効な対処法を選択してください。",
     "choices": [
       "耐性を有する北米系品種を台木とした接木苗",
       "罹病結果母枝や巻きひげを園内から取り除く",
@@ -32324,7 +32324,7 @@ window.WINE_QUESTIONS = [
       "ベンレート（ベノミル剤）を散布"
     ],
     "answerIndex": 2,
-    "explanation": "ボルドー液の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Downy mildew（ダウニー・ミルデュー）はべと病。湿度が高い地域で発生しやすいカビ性病害です。\n代表的対策はボルドー液の散布。フィロキセラは北米系台木、ウイルス病は無菌苗、晩腐病は罹病部位の除去と薬剤で対応します。"
   },
   {
     "id": "cultivation-024",
@@ -32346,13 +32346,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に最も良く合致する醸造用語を選択してください。\n「樽育成中に樽の中の澱を撹拌して、酵母とワインの接触を増やす。」",
     "choices": [
-      "Bâtonnage",
-      "Triage",
-      "Séchage",
-      "Pigeage"
+      "Bâtonnage（バトナージュ）",
+      "Triage（トリアージュ）",
+      "Séchage（セシャージュ）",
+      "Pigeage（ピジャージュ）"
     ],
     "answerIndex": 0,
-    "explanation": "Bâtonnageは澱を撹拌して旨味・厚みを引き出す操作。\nPigeageは発酵槽の果帽を液中へ突き崩す操作。"
+    "explanation": "Bâtonnage（バトナージュ）は澱を撹拌して旨味・厚みを引き出す操作。\nPigeage（ピジャージュ）は発酵槽の果帽を液中へ突き崩す操作。"
   },
   {
     "id": "cultivation-026",
@@ -32416,13 +32416,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "ブドウの生育サイクルで「開花」を表すフランス語を選択してください。",
     "choices": [
-      "Pleurs",
-      "Nouaison",
-      "Floraison",
-      "Accolage"
+      "Pleurs（プルール）",
+      "Nouaison（ヌエゾン）",
+      "Floraison（フロレゾン）",
+      "Accolage（アコラージュ）"
     ],
     "answerIndex": 2,
-    "explanation": "「開花」はFloraison。フランス語で開花。\nNouaisonはフランス語で結実。"
+    "explanation": "「開花」はFloraison（フロレゾン）。フランス語で開花。\nNouaison（ヌエゾン）はフランス語で結実。"
   },
   {
     "id": "cultivation-031",
@@ -32442,15 +32442,15 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-032",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中からスパークリングワインの製法Méthode traditionnelleの別名を選択してください。",
+    "question": "次の中からスパークリングワインの製法Méthode traditionnelle（メトード・トラディショネル）の別名を選択してください。",
     "choices": [
-      "Méthode cuvée close",
-      "Méthode ancestrale",
-      "Méthode champenoise",
-      "Méthode ancienne"
+      "Méthode cuvée close（メトード・キュヴェ・クローズ）",
+      "Méthode ancestrale（メトード・アンセストラル）",
+      "Méthode champenoise（メトード・シャンプノワーズ）",
+      "Méthode ancienne（メトード・アンシエンヌ）"
     ],
     "answerIndex": 2,
-    "explanation": "Méthode champenoiseは瓶内二次発酵後、澱抜きを行う伝統方式。\nMéthode ancestraleは一次発酵途中で瓶詰めし、残りの発酵を瓶内で完了させる古式製法。"
+    "explanation": "Méthode champenoise（メトード・シャンプノワーズ）は瓶内二次発酵後、澱抜きを行う伝統方式。\nMéthode ancestrale（メトード・アンセストラル）は一次発酵途中で瓶詰めし、残りの発酵を瓶内で完了させる古式製法。"
   },
   {
     "id": "cultivation-033",
@@ -32472,13 +32472,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の中からフランス語の醸造用語Collageの英語名として適切なものを選択してください。",
     "choices": [
-      "Punching down",
-      "Fining",
-      "Aging",
-      "Sorting"
+      "Punching down（パンチング・ダウン）",
+      "Fining（ファイニング）",
+      "Aging（エイジング）",
+      "Sorting（ソーティング）"
     ],
     "answerIndex": 1,
-    "explanation": "Finingは清澄剤で浮遊物質を凝集・沈降させる滓下げ。\nPunching downはPigeageの英語表現で、果帽を液中へ押し込む。"
+    "explanation": "Fining（ファイニング）は清澄剤で浮遊物質を凝集・沈降させる滓下げ。\nPunching down（パンチング・ダウン）はPigeage（ピジャージュ）の英語表現で、果帽を液中へ押し込む。"
   },
   {
     "id": "cultivation-035",
@@ -32514,13 +32514,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「縦型の大きな密閉ステンレスタンクに収穫した黒ブドウを破砕せずにそのままいっぱいに詰め、二酸化炭素を充満させて数日置く。」",
     "choices": [
-      "Macération carbonique",
-      "Cryo-extraction",
-      "Macération à chaud",
-      "Micro-bullage"
+      "Macération carbonique（マセラシオン・カルボニック）",
+      "Cryo-extraction（クリオ・エクストラクション）",
+      "Macération à chaud（マセラシオン・ア・ショー）",
+      "Micro-bullage（ミクロ・ビュラージュ）"
     ],
     "answerIndex": 0,
-    "explanation": "Macération carboniqueは炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。\nMicro-bullageは微細な気泡で酸素を供給するミクロ・オキシジェナシオンの考え方。"
+    "explanation": "Macération carbonique（マセラシオン・カルボニック）は炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。\nMicro-bullage（ミクロ・ビュラージュ）は微細な気泡で酸素を供給するミクロ・オキシジェナシオンの考え方。"
   },
   {
     "id": "cultivation-038",
@@ -32534,7 +32534,7 @@ window.WINE_QUESTIONS = [
       "罹病結果母枝や巻きひげを園内から取り除く"
     ],
     "answerIndex": 2,
-    "explanation": "判断の要点は「苗木の組織を培養し無菌状態で成長させて畑に移す」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "ウイルス病は、健全に見える苗木にも病原が残ることがあるのが厄介です。\n対策は苗木の組織培養により無菌状態で育て、畑に移すこと。カビ病のような散布、害虫のような台木対策とは発想が違います。"
   },
   {
     "id": "cultivation-039",
@@ -32554,7 +32554,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-040",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "北半球におけるブドウの生育サイクルで、Tailleが行われる最も一般的な時期を選択してください。",
+    "question": "北半球におけるブドウの生育サイクルで、Taille（タイユ）が行われる最も一般的な時期を選択してください。",
     "choices": [
       "9〜10月",
       "8〜9月",
@@ -32562,13 +32562,13 @@ window.WINE_QUESTIONS = [
       "1〜3月"
     ],
     "answerIndex": 3,
-    "explanation": "Tailleは冬季剪定。北半球ではブドウ樹が休眠している1〜3月に行うのが一般的です。\n9〜10月は収穫期、8〜9月は成熟・着色期。11〜12月も休眠へ向かう時期ですが、試験では冬季剪定＝1〜3月で押さえると迷いにくいです。"
+    "explanation": "Taille（タイユ）は冬季剪定。北半球ではブドウ樹が休眠している1〜3月に行うのが一般的です。\n9〜10月は収穫期、8〜9月は成熟・着色期。11〜12月も休眠へ向かう時期ですが、試験では冬季剪定＝1〜3月で押さえると迷いにくいです。"
   },
   {
     "id": "cultivation-041",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "ブドウの生理障害、病害であるRipe rotに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるRipe rot（ライプ・ロット）に有効な対処法を選択してください。",
     "choices": [
       "ボルドー液の散布",
       "苗木の組織を培養し無菌状態で成長させて畑に移す",
@@ -32576,7 +32576,7 @@ window.WINE_QUESTIONS = [
       "開花時に硫黄を含んだ農薬を散布"
     ],
     "answerIndex": 2,
-    "explanation": "ベンレート（ベノミル剤）を散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Ripe rot（ライプ・ロット）は晩腐病。成熟期の雨や高湿度で果粒が腐敗し、日本でも被害が大きい病害です。\n対策はベンレート（ベノミル剤）散布や罹病部位の除去。白い粉ならうどんこ病、葉裏の白カビならべと病と区別します。"
   },
   {
     "id": "cultivation-042",
@@ -32584,13 +32584,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「若枝または生育中のブドウ果粒が白い粉状の胞子で覆われてしまい、果粒の表皮成長が妨げられるが果肉は成長し続ける。そのため、ブドウ果粒が裂かれ、果粒はミイラ化あるいは腐敗の原因となる。」",
     "choices": [
-      "Mildiou",
-      "Pourriture grise",
-      "Powdery mildew",
-      "Ripe rot"
+      "Mildiou（ミルデュー）",
+      "Pourriture grise（プーリチュール・グリーズ）",
+      "Powdery mildew（パウダリー・ミルデュー）",
+      "Ripe rot（ライプ・ロット）"
     ],
     "answerIndex": 2,
-    "explanation": "Powdery mildewはうどんこ病。葉や果実に白い粉状の菌糸が現れる。\nMildiouはフランス語でべと病を表す。対して、Pourriture griseはフランス語で灰色カビ病を表す。"
+    "explanation": "Powdery mildew（パウダリー・ミルデュー）はうどんこ病。果粒や若枝が白い粉状の菌糸で覆われ、果皮成長が妨げられます。\n果肉だけ成長して裂果・腐敗につながるのが特徴。対策は硫黄剤やベノミル剤。Downy mildewはべと病です。"
   },
   {
     "id": "cultivation-043",
@@ -32612,27 +32612,27 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するワインの製法を選択してください。「赤ワインの果醪を70℃前後に加熱し一定時間保持した後、圧搾し果汁を常温まで下げてから発酵させる醸造法。」",
     "choices": [
-      "Macération préfermentaire à froid",
-      "Macération préfermentaire à chaud",
-      "Macération finale à chaud",
-      "Macération finale à froid"
+      "Macération préfermentaire à froid（マセラシオン・プレフェルマンテール・ア・フロワ）",
+      "Macération préfermentaire à chaud（マセラシオン・プレフェルマンテール・ア・ショー）",
+      "Macération finale à chaud（マセラシオン・フィナル・ア・ショー）",
+      "Macération finale à froid（マセラシオン・フィナル・ア・フロワ）"
     ],
     "answerIndex": 1,
-    "explanation": "判断の要点は「Macération préfermentaire à chaud」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n赤は果皮と発酵、白は発酵前に圧搾、ロゼは直接圧搾・短時間醸し・セニエが基本差。"
+    "explanation": "判断の要点は「Macération préfermentaire à chaud（マセラシオン・プレフェルマンテール・ア・ショー）」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n赤は果皮と発酵、白は発酵前に圧搾、ロゼは直接圧搾・短時間醸し・セニエが基本差。"
   },
   {
     "id": "cultivation-045",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中からスパークリングワインの製法Méthode ruraleの別名を選択してください。",
+    "question": "次の中からスパークリングワインの製法Méthode rurale（メトード・リュラル）の別名を選択してください。",
     "choices": [
-      "Méthode champenoise",
-      "Méthode ancestrale",
-      "Méthode de transfert",
-      "Méthode ancienne"
+      "Méthode champenoise（メトード・シャンプノワーズ）",
+      "Méthode ancestrale（メトード・アンセストラル）",
+      "Méthode de transfert（メトード・ド・トランスフェール）",
+      "Méthode ancienne（メトード・アンシエンヌ）"
     ],
     "answerIndex": 1,
-    "explanation": "Méthode ancestraleは一次発酵途中で瓶詰めし、残りの発酵を瓶内で完了させる古式製法。\nMéthode champenoiseは瓶内二次発酵後、澱抜きを行う伝統方式。"
+    "explanation": "Méthode ancestrale（メトード・アンセストラル）は一次発酵途中で瓶詰めし、残りの発酵を瓶内で完了させる古式製法。\nMéthode champenoise（メトード・シャンプノワーズ）は瓶内二次発酵後、澱抜きを行う伝統方式。"
   },
   {
     "id": "cultivation-046",
@@ -32668,13 +32668,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「若枝または生育中のブドウ果粒が白い粉状の胞子で覆われてしまい、果粒の表皮成長が妨げられるが果肉は成長し続ける。そのため、ブドウ果粒が裂かれ、果粒はミイラ化あるいは腐敗の原因となる。」",
     "choices": [
-      "Ripe rot",
-      "Oïdium",
-      "Gray mold",
-      "Mildiou"
+      "Ripe rot（ライプ・ロット）",
+      "Oïdium（オイディウム）",
+      "Gray mold（グレイ・モールド）",
+      "Mildiou（ミルデュー）"
     ],
     "answerIndex": 1,
-    "explanation": "Oïdiumはフランス語でうどんこ病を表す。\nGray moldは灰色カビ病。ボトリティス菌が湿潤条件で腐敗を起こす。対して、Mildiouはフランス語でべと病を表す。"
+    "explanation": "Oïdium（オイディウム）はフランス語でうどんこ病。英語ではPowdery mildew（パウダリー・ミルデュー）です。\n白い粉状の胞子、裂果、ミイラ化がキーワード。Mildiouはべと病、Gray moldは灰色カビ病、Ripe rotは晩腐病。"
   },
   {
     "id": "cultivation-049",
@@ -32710,13 +32710,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に最も良く合致する醸造用語を選択してください。\n「発酵タンク上部に浮上している果帽を、人力による櫂つきによって沈める。」",
     "choices": [
-      "Remontage",
-      "Débourbage",
-      "Bâtonnage",
-      "Pigeage"
+      "Remontage（ルモンタージュ）",
+      "Débourbage（デブルバージュ）",
+      "Bâtonnage（バトナージュ）",
+      "Pigeage（ピジャージュ）"
     ],
     "answerIndex": 3,
-    "explanation": "Pigeageは発酵槽の果帽を液中へ突き崩す操作。\nBâtonnageは澱を撹拌して旨味・厚みを引き出す操作。"
+    "explanation": "Pigeage（ピジャージュ）は発酵槽の果帽を液中へ突き崩す操作。\nBâtonnage（バトナージュ）は澱を撹拌して旨味・厚みを引き出す操作。"
   },
   {
     "id": "cultivation-052",
@@ -32752,13 +32752,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中から「株仕立て」を表すフランス語を選択してください。",
     "choices": [
-      "Pergola",
-      "Gobelet",
-      "Aste",
-      "Courson"
+      "Pergola（ペルゴラ）",
+      "Gobelet（ゴブレ）",
+      "Aste（アスト）",
+      "Courson（クルソン）"
     ],
     "answerIndex": 1,
-    "explanation": "「株仕立て」はGobelet。支柱をほぼ使わない低い株仕立てで、乾燥・強風地に向く。\nPergolaは頭上に枝を広げる棚仕立て。"
+    "explanation": "「株仕立て」はGobelet（ゴブレ）。支柱をほぼ使わない低い株仕立てで、乾燥・強風地に向く。\nPergola（ペルゴラ）は頭上に枝を広げる棚仕立て。"
   },
   {
     "id": "cultivation-055",
@@ -32808,13 +32808,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「1878年ヨーロッパで最初の被害が発見された。湿度の高い地域で繁殖し、花、葉、果実に白いカビ状の胞子が形成され、落花、落葉、落果させる。」",
     "choices": [
-      "Coulure",
-      "Mildiou",
-      "Oïdium",
-      "Gray mold"
+      "Coulure（クルール）",
+      "Mildiou（ミルデュー）",
+      "Oïdium（オイディウム）",
+      "Gray mold（グレイ・モールド）"
     ],
     "answerIndex": 1,
-    "explanation": "Mildiouはフランス語でべと病を表す。\nCoulureは開花後に受精・結実せず花が落ちる花振るい。対して、Oïdiumはフランス語でうどんこ病を表す。"
+    "explanation": "Mildiou（ミルデュー）はべと病。湿度の高い環境で繁殖し、花・葉・果実に白いカビ状胞子を作ります。\n落花・落葉・落果を起こすため収量に直結。対策はボルドー液。Oïdiumはうどんこ病、Pourriture griseは灰色カビ病です。"
   },
   {
     "id": "cultivation-059",
@@ -32836,13 +32836,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「ロゼワインの製法で、黒ブドウを除梗、破砕して果醪をタンクに入れる。発酵の開始前または醸しの初期に、タンク下部のドレインを開けて果汁を抜き、これを発酵させる。」",
     "choices": [
-      "Cryo-extraction",
-      "Saignée",
-      "Skin contact",
-      "Co-inoculation"
+      "Cryo-extraction（クリオ・エクストラクション）",
+      "Saignée（セニエ）",
+      "Skin contact（スキン・コンタクト）",
+      "Co-inoculation（コ・イノキュレーション）"
     ],
     "answerIndex": 1,
-    "explanation": "Saignéeは赤ワイン醸造中の果汁を抜いて造るロゼ製法。\nSkin contactは白ブドウ果皮を果汁と接触させ、香味成分を抽出する。対して、Co-inoculationはアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
+    "explanation": "Saignée（セニエ）は赤ワイン醸造中の果汁を抜いて造るロゼ製法。\nSkin contact（スキン・コンタクト）は白ブドウ果皮を果汁と接触させ、香味成分を抽出する。対して、Co-inoculation（コ・イノキュレーション）はアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
   },
   {
     "id": "cultivation-061",
@@ -32878,13 +32878,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "ブドウの生育サイクルで「成熟」を表すフランス語を選択してください。",
     "choices": [
-      "Véraison",
-      "Nouaison",
-      "Maturité",
-      "Taille"
+      "Véraison（ヴェレゾン）",
+      "Nouaison（ヌエゾン）",
+      "Maturité（マチュリテ）",
+      "Taille（タイユ）"
     ],
     "answerIndex": 2,
-    "explanation": "「成熟」はMaturité。フランス語で成熟。\nNouaisonはフランス語で結実。"
+    "explanation": "「成熟」はMaturité（マチュリテ）。フランス語で成熟。\nNouaison（ヌエゾン）はフランス語で結実。"
   },
   {
     "id": "cultivation-064",
@@ -32906,13 +32906,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からフランス語の醸造用語Foulageの英語名として適切なものを選択してください。",
     "choices": [
-      "Sorting",
-      "Crush",
-      "Settling",
-      "Pumping over"
+      "Sorting（ソーティング）",
+      "Crush（クラッシュ）",
+      "Settling（セトリング）",
+      "Pumping over（パンピング・オーバー）"
     ],
     "answerIndex": 1,
-    "explanation": "Crushが該当する。栽培・醸造用語は、作業の時期と「糖・酸・香り・色・微生物」への作用を結び付けると応用が利く。\nSettlingは果汁を静置し、発酵前に固形物を沈めるデブルバージュ。対して、Pumping overは発酵液を抜き、果帽の上から散布するルモンタージュ。"
+    "explanation": "Crush（クラッシュ）が該当する。栽培・醸造用語は、作業の時期と「糖・酸・香り・色・微生物」への作用を結び付けると応用が利く。\nSettling（セトリング）は果汁を静置し、発酵前に固形物を沈めるデブルバージュ。対して、Pumping over（パンピング・オーバー）は発酵液を抜き、果帽の上から散布するルモンタージュ。"
   },
   {
     "id": "cultivation-066",
@@ -32946,7 +32946,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-068",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "ブドウの生理障害、病害であるGray moldに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるGray mold（グレイ・モールド）に有効な対処法を選択してください。",
     "choices": [
       "苗木の組織を培養し無菌状態で成長させて畑に移す",
       "イプロジオン水和剤の散布",
@@ -32954,7 +32954,7 @@ window.WINE_QUESTIONS = [
       "開花時に硫黄を含んだ農薬を散布"
     ],
     "answerIndex": 1,
-    "explanation": "イプロジオン水和剤の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Gray mold（グレイ・モールド）は灰色カビ病。原因はボトリティス・シネレアで、湿度が高いと花・葉・果実に発生します。\n対策はイプロジオン水和剤の散布や通風改善。べと病はボルドー液、うどんこ病は硫黄剤・ベノミル剤で区別します。"
   },
   {
     "id": "cultivation-069",
@@ -33018,19 +33018,19 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の中から「棚仕立て」を表すフランス語を選択してください。",
     "choices": [
-      "Gobelet",
-      "Pergola",
-      "Aste",
-      "Courson"
+      "Gobelet（ゴブレ）",
+      "Pergola（ペルゴラ）",
+      "Aste（アスト）",
+      "Courson（クルソン）"
     ],
     "answerIndex": 1,
-    "explanation": "「棚仕立て」はPergola。頭上に枝を広げる棚仕立て。\nGobeletは支柱をほぼ使わない低い株仕立てで、乾燥・強風地に向く。"
+    "explanation": "「棚仕立て」はPergola（ペルゴラ）。頭上に枝を広げる棚仕立て。\nGobelet（ゴブレ）は支柱をほぼ使わない低い株仕立てで、乾燥・強風地に向く。"
   },
   {
     "id": "cultivation-074",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "ブドウの生育サイクルで「Débourrement」の意味を選択してください。",
+    "question": "ブドウの生育サイクルで「Débourrement（デブルマン）」の意味を選択してください。",
     "choices": [
       "開花",
       "結実",
@@ -33038,7 +33038,7 @@ window.WINE_QUESTIONS = [
       "萌芽"
     ],
     "answerIndex": 3,
-    "explanation": "「Débourrement」は萌芽。原語と日本語を一対で覚えると、近い工程名との取り違えを防げる。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "「Débourrement（デブルマン）」は萌芽。原語と日本語を一対で覚えると、近い工程名との取り違えを防げる。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
   },
   {
     "id": "cultivation-075",
@@ -33074,19 +33074,19 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の中からボルドーで使われている225リットルの木樽の名称を選択してください。",
     "choices": [
-      "Pièce",
-      "Barrique",
-      "Baquet",
-      "Tonneau"
+      "Pièce（ピエス）",
+      "Barrique（バリック）",
+      "Baquet（バケ）",
+      "Tonneau（トノー）"
     ],
     "answerIndex": 1,
-    "explanation": "Barriqueはボルドー型で約225Lの小樽。\n樽育成では酸素供給、蒸散、樽香、澱との接触が酒質へ別々に作用する。"
+    "explanation": "Barrique（バリック）はボルドー型で約225Lの小樽。\n樽育成では酸素供給、蒸散、樽香、澱との接触が酒質へ別々に作用する。"
   },
   {
     "id": "cultivation-078",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるOïdiumに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるOïdium（オイディウム）に有効な対処法を選択してください。",
     "choices": [
       "ベンレート（ベノミル剤）を散布",
       "ボルドー液の散布",
@@ -33094,7 +33094,7 @@ window.WINE_QUESTIONS = [
       "イプロジオン水和剤の散布"
     ],
     "answerIndex": 0,
-    "explanation": "ベンレート（ベノミル剤）を散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Oïdium（オイディウム）はうどんこ病。白い粉状の菌糸が若枝や果粒に出るカビ性病害です。\n対策はベンレート（ベノミル剤）や硫黄剤の散布。Downy mildew／Mildiouはべと病なので、ボルドー液と結び付けます。"
   },
   {
     "id": "cultivation-079",
@@ -33102,13 +33102,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "ブドウの生育サイクルで「畝くずし」を表すフランス語を選択してください。",
     "choices": [
-      "Débuttage",
-      "Feuillaison",
-      "Buttage",
-      "Maturité"
+      "Débuttage（デビュタージュ）",
+      "Feuillaison（フイエゾン）",
+      "Buttage（ビュタージュ）",
+      "Maturité（マチュリテ）"
     ],
     "answerIndex": 0,
-    "explanation": "「畝くずし」はDébuttage。原語と日本語を一対で覚えると、近い工程名との取り違えを防げる。\nMaturitéはフランス語で成熟。"
+    "explanation": "「畝くずし」はDébuttage（デビュタージュ）。原語と日本語を一対で覚えると、近い工程名との取り違えを防げる。\nMaturité（マチュリテ）はフランス語で成熟。"
   },
   {
     "id": "cultivation-080",
@@ -33116,13 +33116,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「受粉、結実が悪いなどで極めて多くの落果が発生し、果房につく果粒が極端に少ない状態になり、収穫量が減少する。」",
     "choices": [
-      "Coulure",
-      "Downy mildew",
-      "Gray mold",
-      "Ripe rot"
+      "Coulure（クルール）",
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Gray mold（グレイ・モールド）",
+      "Ripe rot（ライプ・ロット）"
     ],
     "answerIndex": 0,
-    "explanation": "Coulureは開花後に受精・結実せず花が落ちる花振るい。\nDowny mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。対して、Gray moldは灰色カビ病。ボトリティス菌が湿潤条件で腐敗を起こす。"
+    "explanation": "Coulure（クルール）は花振るい。病原菌ではなく、受粉・結実不良で果粒が極端に少なくなる生理障害です。\nカビ病のように薬剤で直接治すというより、開花期の気象・樹勢・栄養管理が関係します。病害名と生理障害を分けて覚えます。"
   },
   {
     "id": "cultivation-081",
@@ -33142,7 +33142,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-082",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるPourriture griseに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるPourriture grise（プーリチュール・グリーズ）に有効な対処法を選択してください。",
     "choices": [
       "ベンレート（ベノミル剤）を散布",
       "ボルドー液の散布",
@@ -33150,7 +33150,7 @@ window.WINE_QUESTIONS = [
       "イプロジオン水和剤の散布"
     ],
     "answerIndex": 3,
-    "explanation": "イプロジオン水和剤の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Pourriture grise（プーリチュール・グリーズ）はフランス語で灰色カビ病。英語ではGray moldです。\n原因はボトリティス・シネレアで、湿潤条件で発生。対策はイプロジオン水和剤の散布や通風改善。Mildiouはべと病です。"
   },
   {
     "id": "cultivation-083",
@@ -33214,13 +33214,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するワインの製法を選択してください。「ロゼワインの製法で、黒ブドウを原料として、白ワインと同様にブドウを圧搾してから果汁を発酵させる。」",
     "choices": [
-      "Micro-oxygénation",
-      "Pressurage direct",
-      "Cryo-extraction",
-      "Co-inoculation"
+      "Micro-oxygénation（ミクロ・オキシジェナシオン）",
+      "Pressurage direct（プレスラージュ・ディレクト）",
+      "Cryo-extraction（クリオ・エクストラクション）",
+      "Co-inoculation（コ・イノキュレーション）"
     ],
     "answerIndex": 1,
-    "explanation": "Pressurage directは黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。\nMicro-oxygénationは発酵・熟成中に微量の酸素を計画的に供給する。対して、Co-inoculationはアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
+    "explanation": "Pressurage direct（プレスラージュ・ディレクト）は黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。\nMicro-oxygénation（ミクロ・オキシジェナシオン）は発酵・熟成中に微量の酸素を計画的に供給する。対して、Co-inoculation（コ・イノキュレーション）はアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
   },
   {
     "id": "cultivation-088",
@@ -33228,13 +33228,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「ボトリティス・シネレアと呼ばれるカビが、湿度の高い環境下で花、葉、果実に生じる。黒ブドウでは色素を破壊し、赤ワインの着色不良を生じる。」",
     "choices": [
-      "Downy mildew",
-      "Coulure",
-      "Oïdium",
-      "Pourriture grise"
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Coulure（クルール）",
+      "Oïdium（オイディウム）",
+      "Pourriture grise（プーリチュール・グリーズ）"
     ],
     "answerIndex": 3,
-    "explanation": "Pourriture griseはフランス語で灰色カビ病を表す。\nDowny mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。対して、Coulureは開花後に受精・結実せず花が落ちる花振るい。"
+    "explanation": "Pourriture grise（プーリチュール・グリーズ）は灰色カビ病。ボトリティス・シネレアによるカビ性病害です。\n湿度が高いと花・葉・果実に発生し、黒ブドウでは色素破壊で赤ワインの着色不良につながります。対策はイプロジオン水和剤。"
   },
   {
     "id": "cultivation-089",
@@ -33284,13 +33284,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するワインの製法を選択してください。「発酵中あるいは貯蔵中の赤ワインに、多孔質のセラミックを通して酸素の細かい泡を吹き込む。」",
     "choices": [
-      "Macération carbonique",
-      "Sur lie",
-      "Micro-bullage",
-      "Skin contact"
+      "Macération carbonique（マセラシオン・カルボニック）",
+      "Sur lie（シュール・リー）",
+      "Micro-bullage（ミクロ・ビュラージュ）",
+      "Skin contact（スキン・コンタクト）"
     ],
     "answerIndex": 2,
-    "explanation": "Micro-bullageは微細な気泡で酸素を供給するミクロ・オキシジェナシオンの考え方。\nMacération carboniqueは炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。対して、Skin contactは白ブドウ果皮を果汁と接触させ、香味成分を抽出する。"
+    "explanation": "Micro-bullage（ミクロ・ビュラージュ）は微細な気泡で酸素を供給するミクロ・オキシジェナシオンの考え方。\nMacération carbonique（マセラシオン・カルボニック）は炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。対して、Skin contact（スキン・コンタクト）は白ブドウ果皮を果汁と接触させ、香味成分を抽出する。"
   },
   {
     "id": "cultivation-093",
@@ -33340,13 +33340,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Powdery mildew",
-      "Crown gall",
-      "Millerandage",
-      "Phylloxera"
+      "Powdery mildew（パウダリー・ミルデュー）",
+      "Crown gall（クラウン・ゴール）",
+      "Millerandage（ミルランダージュ）",
+      "Phylloxera（フィロキセラ）"
     ],
     "answerIndex": 0,
-    "explanation": "Powdery mildewはうどんこ病。葉や果実に白い粉状の菌糸が現れる。\nPhylloxeraはブドウ根を害する害虫で、北米系台木への接木が基本対策。"
+    "explanation": "Powdery mildew（パウダリー・ミルデュー）はうどんこ病。白い粉状の菌糸が出るカビ性病害です。\nCrown gallは根頭がんしゅ病、Phylloxeraは害虫、Millerandageは結実不良。カビを選ぶ問題では mildew／mold が合図です。"
   },
   {
     "id": "cultivation-097",
@@ -33402,7 +33402,7 @@ window.WINE_QUESTIONS = [
       "ベト病"
     ],
     "answerIndex": 2,
-    "explanation": "晩腐病は成熟期の果実を腐敗させる日本で重要な病害。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "日本で被害が大きい病害は晩腐病。成熟期の雨や湿度で果粒が腐敗しやすく、日本の多雨環境と結び付けて覚えます。\n対策は罹病部位の除去、園内衛生、薬剤散布。うどんこ病やべと病より、日本の試験では「晩腐病＝最大被害」が狙われます。"
   },
   {
     "id": "cultivation-101",
@@ -33424,13 +33424,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Gray mold",
-      "Millerandage",
-      "Pierce's Disease",
-      "Crown gall"
+      "Gray mold（グレイ・モールド）",
+      "Millerandage（ミルランダージュ）",
+      "Pierce's Disease（ピアス病）",
+      "Crown gall（クラウン・ゴール）"
     ],
     "answerIndex": 0,
-    "explanation": "Gray moldは灰色カビ病。ボトリティス菌が湿潤条件で腐敗を起こす。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Gray mold（グレイ・モールド）は灰色カビ病。原因はボトリティス・シネレアで、湿度の高い条件で発生するカビ性病害です。\nPierce’s Diseaseは細菌、Coulureは花振るい、Millerandageは結実不良。カビ病は mold／mildew／Mildiouで見抜きます。"
   },
   {
     "id": "cultivation-103",
@@ -33450,15 +33450,15 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-104",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "次の中からフランス語の醸造用語Remontageの英語名として適切なものを選択してください。",
+    "question": "次の中からフランス語の醸造用語Remontage（ルモンタージュ）の英語名として適切なものを選択してください。",
     "choices": [
-      "Crush",
-      "Settling",
-      "Aging",
-      "Pumping over"
+      "Crush（クラッシュ）",
+      "Settling（セトリング）",
+      "Aging（エイジング）",
+      "Pumping over（パンピング・オーバー）"
     ],
     "answerIndex": 3,
-    "explanation": "Pumping overは発酵液を抜き、果帽の上から散布するルモンタージュ。\nSettlingは果汁を静置し、発酵前に固形物を沈めるデブルバージュ。"
+    "explanation": "Pumping over（パンピング・オーバー）は発酵液を抜き、果帽の上から散布するルモンタージュ。\nSettling（セトリング）は果汁を静置し、発酵前に固形物を沈めるデブルバージュ。"
   },
   {
     "id": "cultivation-105",
@@ -33486,7 +33486,7 @@ window.WINE_QUESTIONS = [
       "ベンレート（ベノミル剤）を散布"
     ],
     "answerIndex": 0,
-    "explanation": "ボルドー液の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "白いカビ状胞子が花・葉・果実に出て落花・落葉・落果を起こすのはべと病です。\n対策はボルドー液の散布。うどんこ病は白い粉状で裂果、灰色カビ病はボトリティス、フィロキセラは根を害する虫と区別します。"
   },
   {
     "id": "cultivation-107",
@@ -33494,13 +33494,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「果醪に熱を加える赤ワインの製法の総称で、熱を加える時期によって2つに分かれる。」",
     "choices": [
-      "Macération carbonique",
-      "Pressurage direct",
-      "Micro-bullage",
-      "Macération à chaud"
+      "Macération carbonique（マセラシオン・カルボニック）",
+      "Pressurage direct（プレスラージュ・ディレクト）",
+      "Micro-bullage（ミクロ・ビュラージュ）",
+      "Macération à chaud（マセラシオン・ア・ショー）"
     ],
     "answerIndex": 3,
-    "explanation": "Macération à chaud。赤は果皮と発酵、白は発酵前に圧搾、ロゼは直接圧搾・短時間醸し・セニエが基本差。\nMacération carboniqueは炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。対して、Pressurage directは黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。"
+    "explanation": "Macération à chaud（マセラシオン・ア・ショー）。赤は果皮と発酵、白は発酵前に圧搾、ロゼは直接圧搾・短時間醸し・セニエが基本差。\nMacération carbonique（マセラシオン・カルボニック）は炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。対して、Pressurage direct（プレスラージュ・ディレクト）は黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。"
   },
   {
     "id": "cultivation-108",
@@ -33576,7 +33576,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-113",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるMildiouに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるMildiou（ミルデュー）に有効な対処法を選択してください。",
     "choices": [
       "ベンレート（ベノミル剤）を散布",
       "耐性を有する北米系品種を台木とした接木苗",
@@ -33584,7 +33584,7 @@ window.WINE_QUESTIONS = [
       "開花時に硫黄を含んだ農薬を散布"
     ],
     "answerIndex": 2,
-    "explanation": "ボルドー液の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Mildiou（ミルデュー）はべと病。雨や高湿度で広がるカビ性病害です。\n代表的対策はボルドー液の散布。Oïdium／Powdery mildewはうどんこ病で硫黄剤、Phylloxeraは害虫で北米系台木が基本対策です。"
   },
   {
     "id": "cultivation-114",
@@ -33620,13 +33620,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「発酵中あるいは貯蔵中の赤ワインに、多孔質のセラミックを通して酸素の細かい泡を吹き込む。」",
     "choices": [
-      "Pressurage direct",
-      "Saignée",
-      "Micro-oxygénation",
-      "Skin contact"
+      "Pressurage direct（プレスラージュ・ディレクト）",
+      "Saignée（セニエ）",
+      "Micro-oxygénation（ミクロ・オキシジェナシオン）",
+      "Skin contact（スキン・コンタクト）"
     ],
     "answerIndex": 2,
-    "explanation": "Micro-oxygénationは発酵・熟成中に微量の酸素を計画的に供給する。\nPressurage directは黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。対して、Saignéeは赤ワイン醸造中の果汁を抜いて造るロゼ製法。"
+    "explanation": "Micro-oxygénation（ミクロ・オキシジェナシオン）は発酵・熟成中に微量の酸素を計画的に供給する。\nPressurage direct（プレスラージュ・ディレクト）は黒ブドウを直接圧搾し、淡い色のロゼ果汁を得る。対して、Saignée（セニエ）は赤ワイン醸造中の果汁を抜いて造るロゼ製法。"
   },
   {
     "id": "cultivation-117",
@@ -33676,13 +33676,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するブドウの生理障害、病害を選択してください。\n「ボトリティス・シネレアと呼ばれるカビが、湿度の高い環境下で花、葉、果実に生じる。黒ブドウでは色素を破壊し、赤ワインの着色不良を生じる。」",
     "choices": [
-      "Mildiou",
-      "Downy mildew",
-      "Powdery mildew",
-      "Pourriture grise"
+      "Mildiou（ミルデュー）",
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Powdery mildew（パウダリー・ミルデュー）",
+      "Pourriture grise（プーリチュール・グリーズ）"
     ],
     "answerIndex": 3,
-    "explanation": "Pourriture griseはフランス語で灰色カビ病を表す。\nMildiouはフランス語でべと病を表す。対して、Downy mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。"
+    "explanation": "Pourriture grise（プーリチュール・グリーズ）は灰色カビ病。ボトリティス・シネレアが湿潤条件で発生します。\n黒ブドウの色素を壊し、赤ワインの色を弱くする点が頻出。対策は通風改善とイプロジオン水和剤など。"
   },
   {
     "id": "cultivation-121",
@@ -33690,13 +33690,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "ブドウの生育サイクルで「結実」を表すフランス語を選択してください。",
     "choices": [
-      "Feuillaison",
-      "Vendange",
-      "Nouaison",
-      "Débuttage"
+      "Feuillaison（フイエゾン）",
+      "Vendange（ヴァンダンジュ）",
+      "Nouaison（ヌエゾン）",
+      "Débuttage（デビュタージュ）"
     ],
     "answerIndex": 2,
-    "explanation": "「結実」はNouaison。フランス語で結実。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "「結実」はNouaison（ヌエゾン）。フランス語で結実。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
   },
   {
     "id": "cultivation-122",
@@ -33716,15 +33716,15 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-123",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中からフランス語の醸造用語Pigeageの英語名として適切なものを選択してください。",
+    "question": "次の中からフランス語の醸造用語Pigeage（ピジャージュ）の英語名として適切なものを選択してください。",
     "choices": [
-      "Destem",
-      "Aging",
-      "Punching down",
-      "Pumping over"
+      "Destem（デステム）",
+      "Aging（エイジング）",
+      "Punching down（パンチング・ダウン）",
+      "Pumping over（パンピング・オーバー）"
     ],
     "answerIndex": 2,
-    "explanation": "Punching downはPigeageの英語表現で、果帽を液中へ押し込む。\nPumping overは発酵液を抜き、果帽の上から散布するルモンタージュ。"
+    "explanation": "Punching down（パンチング・ダウン）はPigeage（ピジャージュ）の英語表現で、果帽を液中へ押し込む。\nPumping over（パンピング・オーバー）は発酵液を抜き、果帽の上から散布するルモンタージュ。"
   },
   {
     "id": "cultivation-124",
@@ -33746,13 +33746,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「除梗、破砕の後、圧搾の前に一定の時間、圧搾機やタンクの中で果皮を果汁に漬け込む。」",
     "choices": [
-      "Micro-oxygénation",
-      "Macération à chaud",
-      "Co-inoculation",
-      "Skin contact"
+      "Micro-oxygénation（ミクロ・オキシジェナシオン）",
+      "Macération à chaud（マセラシオン・ア・ショー）",
+      "Co-inoculation（コ・イノキュレーション）",
+      "Skin contact（スキン・コンタクト）"
     ],
     "answerIndex": 3,
-    "explanation": "Skin contactは白ブドウ果皮を果汁と接触させ、香味成分を抽出する。\nMicro-oxygénationは発酵・熟成中に微量の酸素を計画的に供給する。対して、Co-inoculationはアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
+    "explanation": "Skin contact（スキン・コンタクト）は白ブドウ果皮を果汁と接触させ、香味成分を抽出する。\nMicro-oxygénation（ミクロ・オキシジェナシオン）は発酵・熟成中に微量の酸素を計画的に供給する。対して、Co-inoculation（コ・イノキュレーション）はアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。"
   },
   {
     "id": "cultivation-126",
@@ -33816,19 +33816,19 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「収穫したブドウを-7℃以下で冷却し、凍結した果実を圧搾して糖度の高い果汁を得る。」",
     "choices": [
-      "Cryo-extraction",
-      "Saignée",
-      "Sur lie",
-      "Micro-oxygénation"
+      "Cryo-extraction（クリオ・エクストラクション）",
+      "Saignée（セニエ）",
+      "Sur lie（シュール・リー）",
+      "Micro-oxygénation（ミクロ・オキシジェナシオン）"
     ],
     "answerIndex": 0,
-    "explanation": "Cryo-extraction。手摘みは選果と急斜面に強い一方、時間と人件費が増える。機械収穫は速いが地形制約がある。\nSaignéeは赤ワイン醸造中の果汁を抜いて造るロゼ製法。対して、Micro-oxygénationは発酵・熟成中に微量の酸素を計画的に供給する。"
+    "explanation": "Cryo-extraction（クリオ・エクストラクション）。手摘みは選果と急斜面に強い一方、時間と人件費が増える。機械収穫は速いが地形制約がある。\nSaignée（セニエ）は赤ワイン醸造中の果汁を抜いて造るロゼ製法。対して、Micro-oxygénation（ミクロ・オキシジェナシオン）は発酵・熟成中に微量の酸素を計画的に供給する。"
   },
   {
     "id": "cultivation-131",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるPowdery mildewに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるPowdery mildew（パウダリー・ミルデュー）に有効な対処法を選択してください。",
     "choices": [
       "罹病結果母枝や巻きひげを園内から取り除く",
       "イプロジオン水和剤の散布",
@@ -33836,7 +33836,7 @@ window.WINE_QUESTIONS = [
       "ボルドー液の散布"
     ],
     "answerIndex": 2,
-    "explanation": "開花時に硫黄を含んだ農薬を散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Powdery mildew（パウダリー・ミルデュー）はうどんこ病。若枝や果粒に白い粉状の菌糸が出るカビ性病害です。\n開花時の硫黄を含む農薬散布が対策。Downy mildewはべと病でボルドー液、Phylloxeraは害虫で台木対策です。"
   },
   {
     "id": "cultivation-132",
@@ -33872,13 +33872,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の説明に合致するワインの製法を選択してください。「アルコール発酵の開始と同時に乳酸菌を添加し、アルコール発酵とマロラクティック発酵を同時並行して行う。」",
     "choices": [
-      "Macération carbonique",
-      "Co-inoculation",
-      "Macération à chaud",
-      "Cryo-extraction"
+      "Macération carbonique（マセラシオン・カルボニック）",
+      "Co-inoculation（コ・イノキュレーション）",
+      "Macération à chaud（マセラシオン・ア・ショー）",
+      "Cryo-extraction（クリオ・エクストラクション）"
     ],
     "answerIndex": 1,
-    "explanation": "Co-inoculationはアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。\nMacération carboniqueは炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。"
+    "explanation": "Co-inoculation（コ・イノキュレーション）はアルコール発酵用酵母と乳酸菌を近い時期に添加する方法。\nMacération carbonique（マセラシオン・カルボニック）は炭酸ガス下で房ごと細胞内発酵させ、果実香と低タンニンを得る。"
   },
   {
     "id": "cultivation-135",
@@ -33912,21 +33912,21 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-137",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中からフランス語の醸造用語Débourbageの英語名として適切なものを選択してください。",
+    "question": "次の中からフランス語の醸造用語Débourbage（デブルバージュ）の英語名として適切なものを選択してください。",
     "choices": [
-      "Crush",
-      "Destem",
-      "Settling",
-      "Punching down"
+      "Crush（クラッシュ）",
+      "Destem（デステム）",
+      "Settling（セトリング）",
+      "Punching down（パンチング・ダウン）"
     ],
     "answerIndex": 2,
-    "explanation": "Settlingは果汁を静置し、発酵前に固形物を沈めるデブルバージュ。\nPunching downはPigeageの英語表現で、果帽を液中へ押し込む。"
+    "explanation": "Settling（セトリング）は果汁を静置し、発酵前に固形物を沈めるデブルバージュ。\nPunching down（パンチング・ダウン）はPigeage（ピジャージュ）の英語表現で、果帽を液中へ押し込む。"
   },
   {
     "id": "cultivation-138",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるPhylloxeraに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるPhylloxera（フィロキセラ）に有効な対処法を選択してください。",
     "choices": [
       "ボルドー液の散布",
       "苗木の組織を培養し無菌状態で成長させて畑に移す",
@@ -33934,7 +33934,7 @@ window.WINE_QUESTIONS = [
       "罹病結果母枝や巻きひげを園内から取り除く"
     ],
     "answerIndex": 2,
-    "explanation": "判断の要点は「耐性を有する北米系品種を台木とした接木苗」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Phylloxera（フィロキセラ）はブドウ根を害する害虫。ヨーロッパ系Vitis viniferaは弱く、19世紀の欧州で大被害を出しました。\n基本対策は、耐性を持つ北米系品種を台木にした接木苗。カビ病のような散布薬ではなく、根を守る台木対策です。"
   },
   {
     "id": "cultivation-139",
@@ -33954,15 +33954,15 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-140",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中からフランス語の醸造用語Remontageの英語名として適切なものを選択してください。",
+    "question": "次の中からフランス語の醸造用語Remontage（ルモンタージュ）の英語名として適切なものを選択してください。",
     "choices": [
-      "Punching down",
-      "Pumping over",
-      "Fining",
-      "Settling"
+      "Punching down（パンチング・ダウン）",
+      "Pumping over（パンピング・オーバー）",
+      "Fining（ファイニング）",
+      "Settling（セトリング）"
     ],
     "answerIndex": 1,
-    "explanation": "Pumping overは発酵液を抜き、果帽の上から散布するルモンタージュ。\nPunching downはPigeageの英語表現で、果帽を液中へ押し込む。対して、Finingは清澄剤で浮遊物質を凝集・沈降させる滓下げ。"
+    "explanation": "Pumping over（パンピング・オーバー）は発酵液を抜き、果帽の上から散布するルモンタージュ。\nPunching down（パンチング・ダウン）はPigeage（ピジャージュ）の英語表現で、果帽を液中へ押し込む。対して、Fining（ファイニング）は清澄剤で浮遊物質を凝集・沈降させる滓下げ。"
   },
   {
     "id": "cultivation-141",
@@ -33970,13 +33970,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からカビが原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Pierce's Disease",
-      "Downy mildew",
-      "Crown gall",
-      "Phylloxera"
+      "Pierce's Disease（ピアス病）",
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Crown gall（クラウン・ゴール）",
+      "Phylloxera（フィロキセラ）"
     ],
     "answerIndex": 1,
-    "explanation": "Downy mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。\nPhylloxeraはブドウ根を害する害虫で、北米系台木への接木が基本対策。"
+    "explanation": "Downy mildew（ダウニー・ミルデュー）はべと病。カビ性病害で、雨や高湿度の条件で広がります。\nPierce’s Diseaseは細菌、Crown gallは根頭がんしゅ病、Phylloxeraは害虫。カビを選ぶなら mildew／mold／Mildiou を見るのが近道です。"
   },
   {
     "id": "cultivation-142",
@@ -34040,13 +34040,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に最も良く合致する用語を選択してください。\n「人智学者のルドルフ・シュタイナーが提唱した農法で、植物が持つ生命力を自然界のエネルギーで活性化し、安定した農業生産を目指すもの。」",
     "choices": [
-      "Vin biologique",
-      "Agriculture biologique",
-      "Biodynamie",
-      "Agriculture durable"
+      "Vin biologique（ヴァン・ビオロジック）",
+      "Agriculture biologique（アグリキュルチュール・ビオロジック）",
+      "Biodynamie（ビオディナミ）",
+      "Agriculture durable（アグリキュルチュール・デュラブル）"
     ],
     "answerIndex": 2,
-    "explanation": "Biodynamieは農場を一つの生命体と捉え、調合剤や天体暦も用いる農法。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Biodynamie（ビオディナミ）は農場を一つの生命体と捉え、調合剤や天体暦も用いる農法。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
   },
   {
     "id": "cultivation-147",
@@ -34066,7 +34066,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-148",
     "category": "栽培・醸造",
     "importance": "A",
-    "question": "北半球におけるブドウの生育サイクルで、Véraisonが発生する最も一般的な時期を選択してください。",
+    "question": "北半球におけるブドウの生育サイクルで、Véraison（ヴェレゾン）が発生する最も一般的な時期を選択してください。",
     "choices": [
       "7〜8月",
       "8〜9月",
@@ -34082,13 +34082,13 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の説明に合致するワインの製法を選択してください。「果醪中に充分なアルコールがあるため、これを行うことで果皮や種子からのタンニン分の抽出を強めることができる。」",
     "choices": [
-      "Macération finale à chaud",
-      "Macération préfermentaire à froid",
-      "Macération préfermentaire à chaud",
-      "Macération finale à froid"
+      "Macération finale à chaud（マセラシオン・フィナル・ア・ショー）",
+      "Macération préfermentaire à froid（マセラシオン・プレフェルマンテール・ア・フロワ）",
+      "Macération préfermentaire à chaud（マセラシオン・プレフェルマンテール・ア・ショー）",
+      "Macération finale à froid（マセラシオン・フィナル・ア・フロワ）"
     ],
     "answerIndex": 0,
-    "explanation": "判断の要点は「Macération finale à chaud」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "判断の要点は「Macération finale à chaud（マセラシオン・フィナル・ア・ショー）」。規定文は主語・数値・工程のどこが他肢と異なるかを見る。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
   },
   {
     "id": "cultivation-150",
@@ -34136,7 +34136,7 @@ window.WINE_QUESTIONS = [
     "id": "cultivation-153",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "ブドウの生理障害、病害であるGray moldに有効な対処法を選択してください。",
+    "question": "ブドウの生理障害、病害であるGray mold（グレイ・モールド）に有効な対処法を選択してください。",
     "choices": [
       "耐性を有する北米系品種を台木とした接木苗",
       "ボルドー液の散布",
@@ -34144,13 +34144,13 @@ window.WINE_QUESTIONS = [
       "罹病結果母枝や巻きひげを園内から取り除く"
     ],
     "answerIndex": 2,
-    "explanation": "イプロジオン水和剤の散布が該当する。病害は病原体、発生しやすい気象、症状、予防薬剤の4点で整理する。\n他の選択肢は、実施時期・対象物・目的・酒質への作用のいずれかが異なる。"
+    "explanation": "Gray mold（グレイ・モールド）は灰色カビ病。ボトリティス・シネレアが湿潤条件で花・葉・果実に発生します。\n対策はイプロジオン水和剤の散布や通風改善。べと病はボルドー液、うどんこ病は硫黄剤・ベノミル剤と対応を分けます。"
   },
   {
     "id": "cultivation-154",
     "category": "栽培・醸造",
     "importance": "S",
-    "question": "次の中から醸造用語Pressurageの意味として適切なものを選択してください。",
+    "question": "次の中から醸造用語Pressurage（プレスラージュ）の意味として適切なものを選択してください。",
     "choices": [
       "滓下げ",
       "圧搾",
@@ -34180,13 +34180,13 @@ window.WINE_QUESTIONS = [
     "importance": "S",
     "question": "次の中から害虫が原因のブドウの生理障害、病害を選択してください。",
     "choices": [
-      "Downy mildew",
-      "Phylloxera",
-      "Ripe rot",
-      "Powdery mildew"
+      "Downy mildew（ダウニー・ミルデュー）",
+      "Phylloxera（フィロキセラ）",
+      "Ripe rot（ライプ・ロット）",
+      "Powdery mildew（パウダリー・ミルデュー）"
     ],
     "answerIndex": 1,
-    "explanation": "Phylloxeraはブドウ根を害する害虫で、北米系台木への接木が基本対策。\nDowny mildewはべと病。高湿度で広がり、葉裏に白いカビ状の症状が出る。対して、Powdery mildewはうどんこ病。葉や果実に白い粉状の菌糸が現れる。"
+    "explanation": "Phylloxera（フィロキセラ）はブドウ根を吸汁する害虫です。病原菌ではなく虫が原因なので、この設問では2番が正解。\n対策は北米系の耐性台木へ接木すること。Downy mildewはべと病、Ripe rotは晩腐病、Powdery mildewはうどんこ病で、いずれもカビ性病害です。"
   },
   {
     "id": "cultivation-157",
@@ -45848,7 +45848,7 @@ window.WINE_QUESTIONS = [
     "importance": "A",
     "question": "次の中からフランスのVin Doux Naturelで「太陽にさらした樽の中で長期熟成させ、特有の色と香りがついたワイン」を意味するフランス語を選択してください。",
     "choices": [
-      "Rognage",
+      "Rognage（ロニャージュ）",
       "Rancio",
       "Mutage",
       "Rivesaltes"
